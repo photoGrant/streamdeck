@@ -1,0 +1,21 @@
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "335"; */
+"335.headerCell.title" = "Nom";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "336"; */
+"336.headerCell.title" = "Valeur";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "356"; */
+"356.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Load Metadata"; ObjectID = "464"; */
+"464.title" = "Charger Métadonnées";
+
+/* Class = "NSButtonCell"; title = "Show on map"; ObjectID = "487"; */
+"487.title" = "Montrer sur la carte";
+
+/* Class = "NSMenuItem"; title = "Sync Metadata"; ObjectID = "489"; */
+"489.title" = "Synchroniser Métadonnées";
+
+/* Class = "NSMenuItem"; title = "Reset Metadata Completions"; ObjectID = "504"; */
+"504.title" = "Réinitialiser Suggestions Métadonnées";
+

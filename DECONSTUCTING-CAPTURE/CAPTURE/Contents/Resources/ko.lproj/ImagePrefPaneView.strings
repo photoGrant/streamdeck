@@ -1,0 +1,93 @@
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "CropResetButton"; ObjectID = "55"; */
+"55.ibExternalAccessibilityDescription" = "CropResetButton";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "459"; */
+"459.title" = "기본값";
+
+/* Class = "NSBox"; title = "Cache"; ObjectID = "486"; */
+"486.title" = "캐시";
+
+/* Class = "NSTextFieldCell"; title = "EIP Packing (Sessions only)"; ObjectID = "526"; */
+"526.title" = "EIP 패킹(세션 만)";
+
+/* Class = "NSTextFieldCell"; title = "Preview Image Size (px):"; ObjectID = "557"; */
+"557.title" = "프리뷰 이미지 크기 (px):";
+
+/* Class = "NSTextFieldCell"; title = "Cache"; ObjectID = "559"; */
+"559.title" = "캐시";
+
+/* Class = "NSButtonCell"; title = "Prefer Embedded XMP over Embedded IPTC"; ObjectID = "563"; */
+"563.title" = "포함된 IPTC 보다 포함된 XMP를 선호";
+
+/* Class = "NSButtonCell"; title = "Prefer Sidecar XMP over Embedded Metadata"; ObjectID = "565"; */
+"565.title" = "포함된 메타데이터보다 사이드카 XMP 선호";
+
+/* Class = "NSTextFieldCell"; title = "Metadata"; ObjectID = "568"; */
+"568.title" = "메타데이터";
+
+/* Class = "NSBox"; title = "Packaged File Format"; ObjectID = "586"; */
+"586.title" = "패키지된 파일 형식";
+
+/* Class = "NSButtonCell"; title = "Pack as EIP when importing"; ObjectID = "590"; */
+"590.title" = "가져올 때 EIP로 패킹";
+
+/* Class = "NSButtonCell"; title = "Pack as EIP when capturing"; ObjectID = "591"; */
+"591.title" = "촬영할때 EIP로 패킹";
+
+/* Class = "NSTextFieldCell"; title = "JPEG and processed TIFF files will not be packed as EIP."; ObjectID = "592"; */
+"592.title" = "JPEG와 처리된 TIFF파일들은 EIP로 패킹되지 않을 것입니다.";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "GeneralZoomCheckbox"; ObjectID = "597"; */
+"597.ibExternalAccessibilityDescription" = "GeneralZoomCheckbox";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "GeneralZoomCheckbox"; ObjectID = "598"; */
+"598.ibExternalAccessibilityDescription" = "GeneralZoomCheckbox";
+
+/* Class = "NSTextFieldCell"; title = "Editing"; ObjectID = "601"; */
+"601.title" = "편집";
+
+/* Class = "NSButtonCell"; title = "Enable TIFF Editing"; ObjectID = "602"; */
+"602.title" = "TIFF 편집 가능";
+
+/* Class = "NSButtonCell"; title = "Enable JPEG Editing"; ObjectID = "603"; */
+"603.title" = "JPEG 편집 가능";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "620"; */
+"620.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Full Sync"; ObjectID = "621"; */
+"621.title" = "풀 싱크";
+
+/* Class = "NSMenuItem"; title = "Load"; ObjectID = "622"; */
+"622.title" = "로딩";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "623"; */
+"623.title" = "없음";
+
+/* Class = "NSTextFieldCell"; title = "Auto Sync Sidecar XMP:"; ObjectID = "626"; */
+"626.title" = "자동 싱크 사이드카 XMP:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New files (created during import, capture or EIP conversion) will have write permissions for everyone and not just the file owner."; ObjectID = "628"; */
+"628.ibShadowedToolTip" = "새로운 파일은(가져오기, 촬영, EIP 변환중 생성된) 파일 소유자 뿐만 아니라 모든 사람에게 쓰기권한이 주어질 것입니다.";
+
+/* Class = "NSButtonCell"; title = "Make new files writable by everyone"; ObjectID = "629"; */
+"629.title" = "모든 사람에게 쓰기 권한이 부여되는 새로운 파일 만들기";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "GeneralZoomCheckbox"; ObjectID = "634"; */
+"634.ibExternalAccessibilityDescription" = "GeneralZoomCheckbox";
+
+/* Class = "NSButtonCell"; title = "Enable PNG Editing"; ObjectID = "635"; */
+"635.title" = "PNG 편집 사용";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "641"; */
+"641.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "2048"; ObjectID = "642"; */
+"642.title" = "2048";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "663"; */
+"663.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Default Processing Engine:"; ObjectID = "667"; */
+"667.title" = "기본 처리 엔진:";
+

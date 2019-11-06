@@ -1,0 +1,27 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "158"; */
+"158.title" = "Menu";
+
+/* Class = "NSView"; Bxk-2e-NaG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Amount"; ObjectID = "Bxk-2e-NaG"; */
+"Bxk-2e-NaG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Hoeveelheid";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Amount. Controls the amount of sharpening."; ObjectID = "Bxk-2e-NaG"; */
+"Bxk-2e-NaG.ibShadowedToolTip" = "Mate van verscherpen. Regelt de mate van verscherpen.";
+
+/* Class = "NSView"; MFJ-3v-Pqa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "MFJ-3v-Pqa"; */
+"MFJ-3v-Pqa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Straal";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Radius. Set the pixel radius of the sharpening kernel."; ObjectID = "MFJ-3v-Pqa"; */
+"MFJ-3v-Pqa.ibShadowedToolTip" = "Verscherpingsstraal Stel de pixelstraal in van de kernel voor verscherpen.";
+
+/* Class = "NSView"; SPM-3K-Lvp.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Threshold"; ObjectID = "SPM-3K-Lvp"; */
+"SPM-3K-Lvp.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Drempel";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Threshold. Determines the lower threshold where no sharpening is performed."; ObjectID = "SPM-3K-Lvp"; */
+"SPM-3K-Lvp.ibShadowedToolTip" = "Verscherpingsdrempel. Bepaalt de onderste drempelwaarde waarbij er niet verscherpt wordt.";
+
+/* Class = "NSView"; YWb-mP-DhK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Halo suppression"; ObjectID = "YWb-mP-DhK"; */
+"YWb-mP-DhK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Halo onderdrukking";
+
+/* Class = "NSView"; ibShadowedToolTip = "Halo suppression."; ObjectID = "YWb-mP-DhK"; */
+"YWb-mP-DhK.ibShadowedToolTip" = "Halo onderdrukking.";
+

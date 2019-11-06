@@ -1,0 +1,39 @@
+<!-- 2007 Copyright Phase One -->
+
+<!-- The root element, contactsheet -->
+<!ELEMENT contactsheet (info, settings, selection)>
+<!ATTLIST contactsheet version CDATA #REQUIRED>
+	
+	<!-- The info element -->
+	<!ELEMENT info (sheet-title, sheet-description?, author?, contact?, contact-link?)>
+		<!ELEMENT sheet-title (#PCDATA)>
+		<!ELEMENT sheet-description (#PCDATA)>
+		<!ELEMENT author (#PCDATA)>
+		<!ELEMENT contact (#PCDATA)>
+		<!ELEMENT contact-link (#PCDATA)>
+		<!-- <!ELEMENT grid-size EMPTY> -->
+		<!-- <!ATTLIST grid-size horizontal CDATA #REQUIRED -->
+		                    <!-- vertical CDATA #REQUIRED> -->
+		<!-- application, variant, version type of info? -->
+		
+	<!-- The settings element -->
+	<!ELEMENT settings (thumbnail-size?, preview-size?, columns?)>
+		<!ELEMENT thumbnail-size (#PCDATA)>
+		<!ELEMENT preview-size (#PCDATA)>
+		<!ELEMENT columns (#PCDATA)>
+		<!-- <!ELEMENT thumbnail-navigation EMPTY>  -->
+		<!-- <!ATTLIST thumbnail-navigation enabled (0|1) "0">  -->
+	
+	<!-- The selection element -->
+	<!ELEMENT selection (photo*)>
+		<!ELEMENT photo (caption, thumbnail-path, thumbnail-filename, thumbnail-width, thumbnail-height, preview-path, preview-filename, preview-width, preview-height)>
+		<!ATTLIST photo id CDATA #REQUIRED>
+			<!ELEMENT caption (#PCDATA)>
+			<!ELEMENT thumbnail-path (#PCDATA)>
+			<!ELEMENT thumbnail-filename (#PCDATA)>
+			<!ELEMENT thumbnail-width (#PCDATA)>
+			<!ELEMENT thumbnail-height (#PCDATA)>
+			<!ELEMENT preview-path (#PCDATA)>
+			<!ELEMENT preview-filename (#PCDATA)>
+			<!ELEMENT preview-width (#PCDATA)>
+			<!ELEMENT preview-height (#PCDATA)>

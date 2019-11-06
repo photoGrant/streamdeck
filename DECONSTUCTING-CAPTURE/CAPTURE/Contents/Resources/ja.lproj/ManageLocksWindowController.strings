@@ -1,0 +1,12 @@
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "7N8-M2-L3y"; */
+"7N8-M2-L3y.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "79M-pP-db8"; */
+"79M-pP-db8.title" = "Cancel";
+
+/* Class = "NSWindow"; title = "Manage Locks"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "ロックを管理";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "ObS-Fj-Wzh"; */
+"ObS-Fj-Wzh.title" = "OK";
+

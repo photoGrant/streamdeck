@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ExposurePrefController">
+            <connections>
+                <outlet property="defaultsButton" destination="95" id="287"/>
+                <outlet property="prefsView" destination="5" id="17"/>
+                <outlet property="targetLevelCheckBox" destination="126" id="203"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="440" height="425"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <box verticalHuggingPriority="750" boxType="separator" id="239">
+                    <rect key="frame" x="20" y="282" width="396" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                </box>
+                <box verticalHuggingPriority="750" boxType="separator" id="238">
+                    <rect key="frame" x="20" y="397" width="396" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                </box>
+                <textField verticalHuggingPriority="750" id="134">
+                    <rect key="frame" x="386" y="129" width="32" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" placeholderString="255" id="252">
+                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator="." id="135">
+                            <attributedString key="attributedStringForZero">
+                                <fragment content="0"/>
+                            </attributedString>
+                            <decimal key="minimum" value="NaN"/>
+                            <decimal key="maximum" value="NaN"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <accessibility description="ShadowWarningLevelField"/>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.HighlightsTargetLevel" id="187"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="219">
+                    <rect key="frame" x="17" y="284" width="380" height="17"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Levels Tool" id="255">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="139">
+                    <rect key="frame" x="17" y="144" width="117" height="17"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Highlights:" id="254">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="138">
+                    <rect key="frame" x="17" y="169" width="117" height="17"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Shadows:" id="253">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <slider verticalHuggingPriority="750" id="133">
+                    <rect key="frame" x="137" y="133" width="246" height="25"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <sliderCell key="cell" continuous="YES" alignment="left" maxValue="255" doubleValue="255" tickMarkPosition="below" numberOfTickMarks="11" sliderType="linear" id="251">
+                        <font key="font" size="12" name="Helvetica"/>
+                    </sliderCell>
+                    <accessibility description="HighlightTargetLevelSlider"/>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.HighlightsTargetLevel" id="201">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">HighlightsTargetTransformer</string>
+                            </dictionary>
+                        </binding>
+                        <binding destination="57" name="enabled" keyPath="values.PickTargetsEnabled" id="177"/>
+                    </connections>
+                </slider>
+                <textField verticalHuggingPriority="750" id="129">
+                    <rect key="frame" x="386" y="154" width="32" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" placeholderString="0" id="250">
+                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator="." id="130">
+                            <attributedString key="attributedStringForZero">
+                                <fragment content="0"/>
+                            </attributedString>
+                            <decimal key="minimum" value="NaN"/>
+                            <decimal key="maximum" value="NaN"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <accessibility description="ShadowWarningLevelField"/>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.ShadowsTargetLevel" id="183"/>
+                    </connections>
+                </textField>
+                <slider verticalHuggingPriority="750" id="128">
+                    <rect key="frame" x="137" y="158" width="246" height="25"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <sliderCell key="cell" continuous="YES" alignment="left" maxValue="255" tickMarkPosition="below" numberOfTickMarks="11" sliderType="linear" id="249">
+                        <font key="font" size="12" name="Helvetica"/>
+                    </sliderCell>
+                    <accessibility description="ShadowTargetLevelSlider"/>
+                    <connections>
+                        <binding destination="57" name="enabled" keyPath="values.PickTargetsEnabled" id="176"/>
+                        <binding destination="57" name="value" keyPath="values.ShadowsTargetLevel" id="200">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">ShadowsTargetTransformer</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </slider>
+                <button id="126">
+                    <rect key="frame" x="30" y="192" width="387" height="18"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="check" title="Pick Target Levels" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="248">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <accessibility description="EnableShadowWarningButton"/>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.PickTargetsEnabled" id="181"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" id="115">
+                    <rect key="frame" x="17" y="399" width="401" height="17"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Exposure Warning" id="247">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" id="95">
+                    <rect key="frame" x="307" y="4" width="115" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                    <buttonCell key="cell" type="push" title="Defaults" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="246">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="resetExposureUserDefaultsToFactoryDefaults:" target="-2" id="199"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" id="82">
+                    <rect key="frame" x="386" y="309" width="32" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="0" id="245">
+                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator="." id="94">
+                            <attributedString key="attributedStringForZero">
+                                <fragment content="0"/>
+                            </attributedString>
+                            <decimal key="minimum" value="NaN"/>
+                            <decimal key="maximum" value="NaN"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <accessibility description="ShadowWarningLevelField"/>
+                    <connections>
+                        <binding destination="57" name="enabled" keyPath="values.ShadowWarningEnabled" id="89"/>
+                        <binding destination="57" name="value" keyPath="values.ShadowWarningLevel" id="88"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="80">
+                    <rect key="frame" x="386" y="363" width="32" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="255" id="244">
+                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator="." id="93">
+                            <attributedString key="attributedStringForZero">
+                                <fragment content="0"/>
+                            </attributedString>
+                            <decimal key="minimum" value="NaN"/>
+                            <decimal key="maximum" value="NaN"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <accessibility description="HighlightWarningLevelField"/>
+                    <connections>
+                        <binding destination="57" name="enabled" keyPath="values.HighlightWarningEnabled" id="86"/>
+                        <binding destination="57" name="value" keyPath="values.HighlightWarningLevel" id="81"/>
+                    </connections>
+                </textField>
+                <colorWell id="79" customClass="OpaqueColorWell">
+                    <rect key="frame" x="32" y="313" width="52" height="24"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <color key="color" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <accessibility description="ShadowWarningColorWell"/>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.ShadowWarningColorString" id="CMS-p5-iGN">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">ColorToJSONTransformer</string>
+                            </dictionary>
+                        </binding>
+                        <binding destination="57" name="enabled" keyPath="values.ShadowWarningEnabled" id="92"/>
+                    </connections>
+                </colorWell>
+                <slider verticalHuggingPriority="750" id="78">
+                    <rect key="frame" x="137" y="313" width="246" height="25"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="100" tickMarkPosition="below" numberOfTickMarks="11" sliderType="linear" id="243">
+                        <font key="font" size="12" name="Helvetica"/>
+                    </sliderCell>
+                    <accessibility description="ShadowWarningLevelSlider"/>
+                    <connections>
+                        <binding destination="57" name="enabled" keyPath="values.ShadowWarningEnabled" id="91"/>
+                        <binding destination="57" name="value" keyPath="values.ShadowWarningLevel" id="83"/>
+                    </connections>
+                </slider>
+                <button id="77">
+                    <rect key="frame" x="30" y="343" width="387" height="18"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="check" title="Enable Shadow Warning" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="242">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <accessibility description="EnableShadowWarningButton"/>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.ShadowWarningEnabled" id="87"/>
+                    </connections>
+                </button>
+                <colorWell id="69" customClass="OpaqueColorWell">
+                    <rect key="frame" x="32" y="367" width="52" height="24"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <color key="color" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <accessibility description="HighlightWarningColorWell"/>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.HighlightWarningColorString" id="yQ6-kK-RQO">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">ColorToJSONTransformer</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </colorWell>
+                <slider verticalHuggingPriority="750" id="68">
+                    <rect key="frame" x="137" y="367" width="246" height="25"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="155" maxValue="255" doubleValue="187.21343755722046" tickMarkPosition="below" numberOfTickMarks="11" sliderType="linear" id="241">
+                        <font key="font" size="12" name="Helvetica"/>
+                    </sliderCell>
+                    <accessibility description="HighlightWarningLevelSlider"/>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.HighlightWarningLevel" id="73"/>
+                    </connections>
+                </slider>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="JUm-39-4Ce">
+                    <rect key="frame" x="25" y="253" width="102" height="21"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Channel Mode:" id="Uue-zV-dO9">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <popUpButton verticalHuggingPriority="750" id="Is6-hJ-ytn">
+                    <rect key="frame" x="133" y="250" width="242" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" id="CYi-f2-TFT">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="vcD-AP-Mgo">
+                            <items>
+                                <menuItem title="RGB Channel" id="kym-LE-y4Z">
+                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                </menuItem>
+                                <menuItem title="Red, Green, and Blue Channels" tag="1" id="Udv-uy-wiA">
+                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                </menuItem>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <binding destination="57" name="selectedTag" keyPath="values.AutoAdjustMode" id="4Xv-Ak-PhM"/>
+                    </connections>
+                </popUpButton>
+                <textField verticalHuggingPriority="750" id="ixx-xn-fqa">
+                    <rect key="frame" x="29" y="215" width="393" height="29"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Channel Mode applies to Auto Adjust and Shadow &amp; Highlight Pickers." id="C7l-gM-xYV">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="a8U-u6-7km">
+                    <rect key="frame" x="30" y="49" width="104" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Highlights:" id="AED-lq-Ig5">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="D4J-lx-9ot">
+                    <rect key="frame" x="30" y="74" width="104" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Shadows:" id="UwU-3w-FFA">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="X4A-qq-aEz">
+                    <rect key="frame" x="30" y="98" width="203" height="21"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Auto Levels Clipping Thresholds" id="Ke0-eA-B1k">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="5TE-NT-a9N" userLabel="Shadows Clipping Textfield">
+                    <rect key="frame" x="139" y="74" width="42" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="zSk-rJ-xF0">
+                        <numberFormatter key="formatter" formatterBehavior="custom10_4" localizesFormat="NO" numberStyle="decimal" alwaysShowsDecimalSeparator="YES" minimumIntegerDigits="1" maximumIntegerDigits="10" minimumFractionDigits="2" maximumFractionDigits="2" id="K0s-Qx-aD8">
+                            <real key="minimum" value="0.0"/>
+                            <real key="maximum" value="10"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.ShadowsClippingThreshold" id="Vg1-IL-8kv"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="EH0-ye-o9i" userLabel="Highlights Clipping Textfield">
+                    <rect key="frame" x="139" y="49" width="42" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="11R-cL-fxj">
+                        <numberFormatter key="formatter" formatterBehavior="custom10_4" localizesFormat="NO" numberStyle="decimal" alwaysShowsDecimalSeparator="YES" minimumIntegerDigits="1" maximumIntegerDigits="10" minimumFractionDigits="2" maximumFractionDigits="2" id="2tu-Va-E4A">
+                            <real key="minimum" value="0.0"/>
+                            <real key="maximum" value="10"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.HighlightsClippingThreshold" id="dES-hY-dmR"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="3A6-mJ-5a9">
+                    <rect key="frame" x="180" y="74" width="20" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="%" id="ixc-xh-cy8">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="ZpG-Kj-bHN">
+                    <rect key="frame" x="180" y="49" width="20" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="%" id="qk8-eY-e7A">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <accessibility description="ExposureWarningResetButton"/>
+            <point key="canvasLocation" x="729" y="562.5"/>
+        </customView>
+        <userDefaultsController representsSharedInstance="YES" id="57" userLabel="Shared Defaults"/>
+    </objects>
+</document>

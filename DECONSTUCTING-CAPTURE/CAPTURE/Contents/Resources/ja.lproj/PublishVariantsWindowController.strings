@@ -1,0 +1,15 @@
+/* Class = "NSButtonCell"; title = "Reset to Defaults"; ObjectID = "7YZ-SO-4Ls"; */
+"7YZ-SO-4Ls.title" = "デフォルトにリセット";
+
+/* Class = "NSTextFieldCell"; title = "No settings available"; ObjectID = "9AB-bh-Xmc"; */
+"9AB-bh-Xmc.title" = "設定がありません";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "BUL-En-24z"; */
+"BUL-En-24z.title" = "キャンセル";
+
+/* Class = "NSButtonCell"; title = "Publish"; ObjectID = "gAn-ls-WA3"; */
+"gAn-ls-WA3.title" = "公開";
+
+/* Class = "NSWindow"; title = "Edit Variants"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "バリアントを編集";
+

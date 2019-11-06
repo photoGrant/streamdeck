@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SL Engine="800">
+  <E K="HighlightRecovery" V="51.1326"/>
+  <E K="GradationCurveBlue" V="0.000,0.026;1.000,0.955"/>
+  <E K="Saturation" V="-20.12919"/>
+  <E K="GradationCurveRed" V="0.000,0.000;0.524,0.571;1.000,1.000"/>
+  <E K="Name" V="Skin Effects - Golden 1"/>
+  <E K="GradationCurve" V="0.000,0.000;1.000,1.000"/>
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000"/>
+  <E K="ColorBalance" V="1.000000;0.944497;0.887881"/>
+  <E K="UUID" V="0EB03360-4504-477A-A701-5C86F815B80F"/>
+</SL>
+

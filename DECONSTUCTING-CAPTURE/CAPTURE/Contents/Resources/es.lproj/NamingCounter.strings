@@ -1,0 +1,12 @@
+/* Class = "NSWindow"; title = "Set Counter"; ObjectID = "1"; */
+"1.title" = "Ajustar contador";
+
+/* Class = "NSTextFieldCell"; title = "Enter the desired counter value"; ObjectID = "4"; */
+"4.title" = "Introduzca el valor de contador deseado";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "8"; */
+"8.title" = "Aceptar";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "10"; */
+"10.title" = "Cancelar";
+

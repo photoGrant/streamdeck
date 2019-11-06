@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SpotSettings">
+            <connections>
+                <outlet property="optionsView" destination="29" id="L9V-C8-AF4"/>
+                <outlet property="radiusControl" destination="fh4-Rm-0RK" id="hG4-g4-Fny"/>
+                <outlet property="spotSettingsLabel" destination="YyR-t5-ZKs" id="m5J-Si-jUK"/>
+                <outlet property="typePopupControl" destination="7xh-iK-5NK" id="Tkr-dh-1Ab"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView appearanceType="aqua" id="29" userLabel="View" customClass="COUIContentView">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="92"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YyR-t5-ZKs">
+                    <rect key="frame" x="6" y="66" width="268" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="cxQ-SS-xIa"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Spot Removal Settings" usesSingleLineMode="YES" id="iIa-hD-TxV" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="cellTitle"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="fh4-Rm-0RK" userLabel="Exposure control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="32" width="280" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="LbU-tr-29m"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Radius" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="minValue">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                            <real key="value" value="100"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility description="exposure"/>
+                    <connections>
+                        <action selector="radiusChanged:" target="-2" id="Tkq-M1-GbX"/>
+                    </connections>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="7xh-iK-5NK" userLabel="Method popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="8" width="280" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="CAQ-T7-GaS"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Type" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="typeChanged:" target="-2" id="LNX-mv-tSG"/>
+                        <outlet property="popupMenu" destination="HJg-zK-u1R" id="AQG-lk-eBo"/>
+                    </connections>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="YyR-t5-ZKs" secondAttribute="trailing" constant="8" id="2Sp-c2-6Kf"/>
+                <constraint firstItem="7xh-iK-5NK" firstAttribute="leading" secondItem="29" secondAttribute="leading" id="3cj-uI-zzK"/>
+                <constraint firstAttribute="trailing" secondItem="7xh-iK-5NK" secondAttribute="trailing" id="4t1-Yh-xn6"/>
+                <constraint firstItem="YyR-t5-ZKs" firstAttribute="leading" secondItem="29" secondAttribute="leading" constant="8" id="5gv-z2-Rku"/>
+                <constraint firstItem="7xh-iK-5NK" firstAttribute="top" secondItem="fh4-Rm-0RK" secondAttribute="bottom" constant="1" id="NfG-Ju-PBK"/>
+                <constraint firstAttribute="trailing" secondItem="fh4-Rm-0RK" secondAttribute="trailing" id="Qv4-ng-bXT"/>
+                <constraint firstAttribute="bottom" secondItem="7xh-iK-5NK" secondAttribute="bottom" constant="8" id="Uul-PS-59I"/>
+                <constraint firstItem="fh4-Rm-0RK" firstAttribute="top" secondItem="YyR-t5-ZKs" secondAttribute="bottom" constant="12" id="fRh-aD-Upl"/>
+                <constraint firstItem="YyR-t5-ZKs" firstAttribute="top" secondItem="29" secondAttribute="top" constant="8" id="ouq-hW-fZU"/>
+                <constraint firstItem="fh4-Rm-0RK" firstAttribute="leading" secondItem="29" secondAttribute="leading" id="reJ-1J-vw9"/>
+            </constraints>
+            <connections>
+                <outlet property="delegate" destination="-2" id="Icg-Tg-TRR"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="228.5"/>
+        </customView>
+        <userDefaultsController representsSharedInstance="YES" id="117"/>
+        <menu title="OtherViews" id="HJg-zK-u1R" userLabel="Type Menu">
+            <items>
+                <menuItem title="Dust" tag="3" id="MDH-5Y-HGR"/>
+                <menuItem title="Spot" state="on" tag="2" id="ug0-rb-eUu"/>
+            </items>
+        </menu>
+    </objects>
+</document>

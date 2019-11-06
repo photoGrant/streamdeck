@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ImportDefaultsInspectorTool">
+            <connections>
+                <outlet property="actionMenu" destination="5" id="9"/>
+                <outlet property="container" destination="1" id="2"/>
+                <outlet property="documentController" destination="4" id="10"/>
+                <outlet property="stylesPopupControl" destination="SWB-m8-0GG" id="dPA-EE-E4Y"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="1">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button toolTip="Auto adjust imported images" id="65" customClass="POSkinButton">
+                    <rect key="frame" x="98" y="32" width="174" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Auto Adjust" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="66">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="67" name="value" keyPath="values.AutoAdjustOnImport" id="70"/>
+                    </connections>
+                </button>
+                <button toolTip="Include Existing Adjustments" id="72" customClass="POSkinButton">
+                    <rect key="frame" x="98" y="8" width="174" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Include Existing Adjustments" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="73">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="67" name="value" keyPath="values.IncludeExistingAdjustmentsOnImport" id="75"/>
+                    </connections>
+                </button>
+                <customView id="SWB-m8-0GG" userLabel="Styles popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="53" width="280" height="23"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Styles" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+            </subviews>
+        </customView>
+        <objectController mode="entity" entityName="Variant" id="3" userLabel="Primary Variant">
+            <connections>
+                <binding destination="4" name="contentObject" keyPath="selection.selection.primaryVariant" id="11"/>
+            </connections>
+        </objectController>
+        <objectController objectClassName="SessionDocument" id="4" userLabel="Document">
+            <declaredKeys>
+                <string>selection.primaryVariant</string>
+            </declaredKeys>
+        </objectController>
+        <menu id="5">
+            <items>
+                <menuItem title="Reset Tool" id="61">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="resetTool:" target="-2" id="62"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+        <userDefaultsController representsSharedInstance="YES" id="67"/>
+    </objects>
+</document>

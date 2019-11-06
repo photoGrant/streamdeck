@@ -1,0 +1,27 @@
+/* Class = "NSWindow"; title = "New Custom Tool Tab"; ObjectID = "1"; */
+"1.title" = "Новая пользовательская панель инструментов";
+
+/* Class = "NSButtonCell"; title = "Add Tab"; ObjectID = "8"; */
+"8.title" = "Добавить панель";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "10"; */
+"10.title" = "Отмена";
+
+/* Class = "NSTextFieldCell"; title = "Specify Tab Name:"; ObjectID = "19"; */
+"19.title" = "Введите имя панели:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "26"; */
+"26.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "27"; */
+"27.title" = "Элемент 1";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "28"; */
+"28.title" = "Элемент 2";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "29"; */
+"29.title" = "Элемент 3";
+
+/* Class = "NSTextFieldCell"; title = "Icon:"; ObjectID = "33"; */
+"33.title" = "Значок:";
+

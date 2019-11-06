@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CameraSequenceCaptureInspectorTool">
+            <connections>
+                <outlet property="apertureControl" destination="gmN-mc-lSP" id="nG3-JL-Rgl"/>
+                <outlet property="coarseFocusButton" destination="qmz-8F-EdN" id="XSj-Kp-nmW"/>
+                <outlet property="container" destination="c22-O7-iKe" id="kX3-AH-scF"/>
+                <outlet property="fineFocusButton" destination="pYx-Fx-HnR" id="xA6-NJ-hR8"/>
+                <outlet property="iterationsControl" destination="uxT-2b-k7J" id="M6x-ey-mWN"/>
+                <outlet property="mediumFocusButton" destination="SLS-bB-udu" id="nG6-VR-hmx"/>
+                <outlet property="shutterSpeedControl" destination="mfP-DT-N2C" id="4eB-x2-wi5"/>
+                <outlet property="startSequenceButton" destination="LUZ-by-SWZ" id="7ob-h5-l7N"/>
+            </connections>
+        </customObject>
+        <menu title="OtherViews" id="hmp-4Z-Lzh" userLabel="Iterations Menu">
+            <items>
+                <menuItem title="1" state="on" tag="1" toolTip="Use the default ICC profile for the camera" id="5JC-Cd-M8h" userLabel="1"/>
+                <menuItem title="2" tag="2" toolTip="Copy the ICC profile from the last image captured." id="Hrd-1i-nnb" userLabel="2"/>
+                <menuItem title="3" tag="3" toolTip="Copy the ICC profile from the primary variant" id="ubk-st-IR5" userLabel="3"/>
+                <menuItem title="4" tag="4" toolTip="Use the default ICC profile for the camera" id="2kY-kv-G41" userLabel="1"/>
+                <menuItem title="5" tag="5" toolTip="Copy the ICC profile from the last image captured." id="eTt-xe-IdJ" userLabel="2"/>
+                <menuItem title="6" tag="6" toolTip="Copy the ICC profile from the primary variant" id="uYf-wD-A79" userLabel="3"/>
+                <menuItem title="7" tag="7" toolTip="Use the default ICC profile for the camera" id="lKl-Tt-ld4" userLabel="1"/>
+                <menuItem title="8" tag="8" toolTip="Copy the ICC profile from the last image captured." id="ntD-iq-B5L" userLabel="2"/>
+                <menuItem title="9" tag="9" toolTip="Copy the ICC profile from the primary variant" id="bA4-Lp-ODk" userLabel="3"/>
+                <menuItem title="10" tag="10" toolTip="Use the default ICC profile for the camera" id="NBR-53-ZwC" userLabel="1"/>
+                <menuItem title="11" tag="11" toolTip="Copy the ICC profile from the last image captured." id="L7W-14-rCu" userLabel="2"/>
+                <menuItem title="12" tag="12" toolTip="Copy the ICC profile from the primary variant" id="YEE-mz-dYc" userLabel="3"/>
+            </items>
+            <point key="canvasLocation" x="310" y="128"/>
+        </menu>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="151"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ilf-9N-ZDU">
+                    <rect key="frame" x="2" y="50" width="84" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="1Si-YB-oA2"/>
+                        <constraint firstAttribute="width" constant="80" id="LLw-sr-6tN"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Focus step" id="P4Y-i4-hgR" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stackView distribution="fillEqually" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MjV-Lo-upH">
+                    <rect key="frame" x="103" y="49" width="258" height="18"/>
+                    <subviews>
+                        <popUpButton toolTip="The ICC profile to be used for the next capture" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qmz-8F-EdN" userLabel="Course step selector" customClass="POPopUpButton">
+                            <rect key="frame" x="-3" y="-3" width="87" height="22"/>
+                            <popUpButtonCell key="cell" type="push" title="-5" bezelStyle="rounded" alignment="right" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="-5" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="RCT-31-6nm" id="OJb-fR-qf4">
+                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="smallSystem"/>
+                                <menu key="menu" title="OtherViews" id="Zru-Yg-alX">
+                                    <items>
+                                        <menuItem title="-5" state="on" tag="-5" toolTip="Copy the ICC profile from the primary variant" id="RCT-31-6nm">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-4" tag="-4" toolTip="Copy the ICC profile from the primary variant" id="SIY-4v-Mtv" userLabel="-4">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-3" tag="-3" toolTip="Copy the ICC profile from the primary variant" id="JFX-Xc-oCH" userLabel="-3">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-2" tag="-2" toolTip="Use the default ICC profile for the camera" id="fpm-Et-K94" userLabel="-2">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-1" tag="-1" toolTip="Copy the ICC profile from the last image captured." id="vtB-na-EUg" userLabel="-1">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="0" toolTip="Copy the ICC profile from the primary variant" id="cAh-U4-f9o">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="1" tag="1" toolTip="Use the default ICC profile for the camera" id="hBO-xJ-lHR" userLabel="1">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="2" tag="2" toolTip="Copy the ICC profile from the last image captured." id="HQq-BO-iUO" userLabel="2">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="3" tag="3" toolTip="Copy the ICC profile from the primary variant" id="tra-Ea-Ev2" userLabel="3">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="4" tag="4" toolTip="Copy the ICC profile from the primary variant" id="c9S-Fc-JXi">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="5" tag="5" toolTip="Copy the ICC profile from the primary variant" id="xCO-Sq-Lbc">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </popUpButtonCell>
+                        </popUpButton>
+                        <popUpButton toolTip="The ICC profile to be used for the next capture" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SLS-bB-udu" userLabel="Medium step selector" customClass="POPopUpButton">
+                            <rect key="frame" x="86" y="-3" width="86" height="22"/>
+                            <popUpButtonCell key="cell" type="push" title="-5" bezelStyle="rounded" alignment="right" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="-5" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="UVG-y4-ilG" id="tYW-Wf-kpw">
+                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="smallSystem"/>
+                                <menu key="menu" title="OtherViews" id="nSo-dt-hu1">
+                                    <items>
+                                        <menuItem title="-5" state="on" tag="-5" toolTip="Copy the ICC profile from the primary variant" id="UVG-y4-ilG">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-4" tag="-4" toolTip="Copy the ICC profile from the primary variant" id="LZm-WX-MbZ" userLabel="-4">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-3" tag="-3" toolTip="Copy the ICC profile from the primary variant" id="bWU-ci-z9d" userLabel="-3">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-2" tag="-2" toolTip="Use the default ICC profile for the camera" id="HpM-cm-rwf" userLabel="-2">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-1" tag="-1" toolTip="Copy the ICC profile from the last image captured." id="Uz0-vN-BHX" userLabel="-1">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="0" toolTip="Copy the ICC profile from the primary variant" id="5cc-wn-CyJ">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="1" tag="1" toolTip="Use the default ICC profile for the camera" id="hZm-Bq-Uke" userLabel="1">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="2" tag="2" toolTip="Copy the ICC profile from the last image captured." id="SDI-cP-4aJ" userLabel="2">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="4" tag="4" toolTip="Copy the ICC profile from the primary variant" id="th5-bI-UwB">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="3" tag="3" toolTip="Copy the ICC profile from the primary variant" id="DQ6-Ip-VWT" userLabel="3">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="5" tag="5" toolTip="Copy the ICC profile from the primary variant" id="8BB-Fo-9sT">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </popUpButtonCell>
+                        </popUpButton>
+                        <popUpButton toolTip="The ICC profile to be used for the next capture" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pYx-Fx-HnR" userLabel="Fine step selector" customClass="POPopUpButton">
+                            <rect key="frame" x="174" y="-3" width="87" height="22"/>
+                            <popUpButtonCell key="cell" type="push" title="-5" bezelStyle="rounded" alignment="right" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="-5" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="zZd-ci-RkS" id="ZPj-u2-RUh">
+                                <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="smallSystem"/>
+                                <menu key="menu" title="OtherViews" id="tz0-CZ-h3s">
+                                    <items>
+                                        <menuItem title="-5" state="on" tag="-5" toolTip="Copy the ICC profile from the primary variant" id="zZd-ci-RkS">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-4" tag="-4" toolTip="Copy the ICC profile from the primary variant" id="cwm-2j-Q3H" userLabel="-4">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-3" tag="-3" toolTip="Copy the ICC profile from the primary variant" id="ODZ-ZB-Cx4" userLabel="-3">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-2" tag="-2" toolTip="Use the default ICC profile for the camera" id="Q5m-mE-hUc" userLabel="-2">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="-1" tag="-1" toolTip="Copy the ICC profile from the last image captured." id="mlN-hv-4ea" userLabel="-1">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="0" toolTip="Copy the ICC profile from the primary variant" id="zm9-7y-6zk">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="1" tag="1" toolTip="Use the default ICC profile for the camera" id="mMG-6j-7Iv" userLabel="1">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="2" tag="2" toolTip="Copy the ICC profile from the last image captured." id="c7G-lq-MeL" userLabel="2">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="3" tag="3" toolTip="Copy the ICC profile from the primary variant" id="qvF-6c-lmF" userLabel="3">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="4" tag="4" toolTip="Copy the ICC profile from the primary variant" id="uTN-bV-i5l">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                        <menuItem title="5" tag="5" toolTip="Copy the ICC profile from the primary variant" id="aJx-cZ-2Uf">
+                                            <attributedString key="attributedTitle"/>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </popUpButtonCell>
+                        </popUpButton>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LUZ-by-SWZ" userLabel="Capture Button">
+                    <rect key="frame" x="14" y="9" width="341" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="T7m-Zr-laT"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5qE-QD-YdM" customClass="BorderedButtonCell">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="startSequence:" target="-2" id="xEr-xL-Coh"/>
+                    </connections>
+                </button>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="uxT-2b-k7J" userLabel="Iterations popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="120" width="369" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="wkS-wT-Xpz"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Iterations" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="popupMenu" destination="hmp-4Z-Lzh" id="9BN-1Z-7Jk"/>
+                    </connections>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="gmN-mc-lSP" userLabel="Aperture popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="96" width="369" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="eAb-rP-lZq"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Aperture" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="popupMenu" destination="N2x-qm-Y9W" id="M7n-g1-aYG"/>
+                    </connections>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="mfP-DT-N2C" userLabel="Shutter Speed popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="72" width="369" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="BNI-jS-Kb7"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Shutter Speed" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="popupMenu" destination="ocd-p0-s2x" id="Evu-Qj-J4W"/>
+                    </connections>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="MjV-Lo-upH" firstAttribute="centerY" secondItem="Ilf-9N-ZDU" secondAttribute="centerY" constant="1" id="1Ed-y1-Tpp"/>
+                <constraint firstAttribute="bottom" secondItem="LUZ-by-SWZ" secondAttribute="bottom" constant="16" id="2Ld-rO-7XV"/>
+                <constraint firstItem="Ilf-9N-ZDU" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="4" id="2rx-E6-E0O"/>
+                <constraint firstItem="MjV-Lo-upH" firstAttribute="leading" secondItem="Ilf-9N-ZDU" secondAttribute="trailing" constant="19" id="3Ao-Yh-CzP"/>
+                <constraint firstAttribute="trailing" secondItem="mfP-DT-N2C" secondAttribute="trailing" id="5EI-Gx-MGb"/>
+                <constraint firstItem="gmN-mc-lSP" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="AM1-q8-bxu"/>
+                <constraint firstItem="Ilf-9N-ZDU" firstAttribute="top" secondItem="mfP-DT-N2C" secondAttribute="bottom" constant="4" id="BxW-Qg-KOf"/>
+                <constraint firstItem="uxT-2b-k7J" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="Gew-hc-Uir"/>
+                <constraint firstItem="uxT-2b-k7J" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="N2d-ag-8Km"/>
+                <constraint firstAttribute="trailing" secondItem="MjV-Lo-upH" secondAttribute="trailing" constant="8" id="XCL-dy-exG"/>
+                <constraint firstItem="LUZ-by-SWZ" firstAttribute="top" secondItem="Ilf-9N-ZDU" secondAttribute="bottom" constant="16" id="f0z-OP-bam"/>
+                <constraint firstAttribute="trailing" secondItem="LUZ-by-SWZ" secondAttribute="trailing" constant="20" id="hCZ-Em-xPE"/>
+                <constraint firstAttribute="trailing" secondItem="uxT-2b-k7J" secondAttribute="trailing" id="iF8-Hv-PnS"/>
+                <constraint firstItem="gmN-mc-lSP" firstAttribute="top" secondItem="uxT-2b-k7J" secondAttribute="bottom" constant="1" id="jnz-ND-muv"/>
+                <constraint firstItem="mfP-DT-N2C" firstAttribute="top" secondItem="gmN-mc-lSP" secondAttribute="bottom" constant="1" id="lIz-CA-VtV"/>
+                <constraint firstItem="LUZ-by-SWZ" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="q8d-Gs-mE3"/>
+                <constraint firstAttribute="trailing" secondItem="gmN-mc-lSP" secondAttribute="trailing" id="t7a-OA-iYY"/>
+                <constraint firstItem="mfP-DT-N2C" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="yv8-CD-Hqq"/>
+            </constraints>
+            <point key="canvasLocation" x="71.5" y="382.5"/>
+        </customView>
+        <menu title="OtherViews" autoenablesItems="NO" id="N2x-qm-Y9W" userLabel="Aperture Menu">
+            <items>
+                <menuItem title="-1" tag="-3" toolTip="Copy the ICC profile from the primary variant" id="YIo-k4-eEj" userLabel="-3"/>
+                <menuItem title="-⅔" tag="-2" toolTip="Use the default ICC profile for the camera" id="LlT-VU-5m2" userLabel="-2"/>
+                <menuItem title="-⅓" tag="-1" toolTip="Copy the ICC profile from the last image captured." id="0VX-gg-zqL" userLabel="-1"/>
+                <menuItem title="0" state="on" toolTip="Copy the ICC profile from the primary variant" id="6On-op-Vj5"/>
+                <menuItem title="⅓" tag="1" toolTip="Use the default ICC profile for the camera" id="xKZ-w3-iVK" userLabel="1"/>
+                <menuItem title="⅔" tag="2" toolTip="Copy the ICC profile from the last image captured." id="fWe-fU-v8c" userLabel="2"/>
+                <menuItem title="1" tag="3" toolTip="Copy the ICC profile from the primary variant" id="IL0-K1-v4A" userLabel="3"/>
+            </items>
+        </menu>
+        <menu title="OtherViews" autoenablesItems="NO" id="ocd-p0-s2x" userLabel="Shutter speed Menu">
+            <items>
+                <menuItem title="-1" tag="3" toolTip="Copy the ICC profile from the primary variant" id="0X5-ET-OMc" userLabel="-3"/>
+                <menuItem title="-⅔" tag="-2" toolTip="Use the default ICC profile for the camera" id="IbO-zB-3RJ" userLabel="-2"/>
+                <menuItem title="-⅓" tag="1" toolTip="Copy the ICC profile from the last image captured." id="6gX-Wd-CTd" userLabel="-1"/>
+                <menuItem title="0" state="on" toolTip="Copy the ICC profile from the primary variant" id="vgC-O6-5XL"/>
+                <menuItem title="⅓" tag="1" toolTip="Use the default ICC profile for the camera" id="TUl-jR-U2i" userLabel="1"/>
+                <menuItem title="⅔" tag="2" toolTip="Copy the ICC profile from the last image captured." id="Dqk-xh-y75" userLabel="2"/>
+                <menuItem title="1" tag="3" toolTip="Copy the ICC profile from the primary variant" id="cwB-vl-72d" userLabel="3"/>
+            </items>
+        </menu>
+    </objects>
+</document>

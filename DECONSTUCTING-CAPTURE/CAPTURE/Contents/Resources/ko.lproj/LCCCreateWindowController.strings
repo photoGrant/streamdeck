@@ -1,0 +1,54 @@
+/* Class = "NSTextFieldCell"; title = "Make sure that the values in the Lens Correction tool are correct before creating an LCC."; ObjectID = "0Dt-yd-gay"; */
+"0Dt-yd-gay.title" = "LCC 생성 전에 렌즈 보정 툴의 값들이 올바른지 확인하십시오.";
+
+/* Class = "NSWindow"; title = "Create LCC Options"; ObjectID = "1"; */
+"1.title" = "LCC 옵션 생성";
+
+/* Class = "NSButtonCell"; title = "Create"; ObjectID = "5"; */
+"5.title" = "생성";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "6"; */
+"6.title" = "취소";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include corrections for technical camera with wide angle lens."; ObjectID = "7"; */
+"7.ibShadowedToolTip" = "광각 렌즈를 가진 테크니컬 카메라를 위한 수정을 포함";
+
+/* Class = "NSButtonCell"; title = "Include Wide Angle Lens Correction Data"; ObjectID = "8"; */
+"8.title" = "광각 렌즈 보정 데이터 포함";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include dust removal information. Creating the LCC profile will be a little slower."; ObjectID = "9"; */
+"9.ibShadowedToolTip" = "먼지제거 정보 포함. LCC 프로파일 생성이 약간 느려질 것입니다.";
+
+/* Class = "NSButtonCell"; title = "Include Dust Removal Information"; ObjectID = "10"; */
+"10.title" = "먼지 제거 정보 포함";
+
+/* Class = "NSWindow"; title = "Creating LCC"; ObjectID = "22"; */
+"22.title" = "LCC 생성";
+
+/* Class = "NSTextFieldCell"; title = "Creating LCC"; ObjectID = "27"; */
+"27.title" = "LCC 생성";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Always create with these settings. Can be un-set from the LCC tool."; ObjectID = "36"; */
+"36.ibShadowedToolTip" = "항상 이 설정으로 생성합니다. LCC 툴에서 리셋할 수 있습니다.";
+
+/* Class = "NSButtonCell"; title = "Don't show again"; ObjectID = "37"; */
+"37.title" = "다시 보여주지 않습니다.";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "46"; */
+"46.title" = "창";
+
+/* Class = "NSTextFieldCell"; title = "There were warnings when creating LCC's. Would you like to show Event Log to see them?"; ObjectID = "51"; */
+"51.title" = "LCC를 생성할 때 경고가 있었습니다. 경고를 확인하기 위한 이벤트 로그를 보길 원하십니까?";
+
+/* Class = "NSButtonCell"; title = "Show Event Log"; ObjectID = "54"; */
+"54.title" = "이벤트 로그 보기";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "55"; */
+"55.title" = "닫기";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "65"; */
+"65.title" = "취소";
+
+/* Class = "NSProgressIndicator"; ibShadowedToolTip = "Creating LCC progress"; ObjectID = "105"; */
+"105.ibShadowedToolTip" = "LCC 프로그레스 생성";
+

@@ -1,0 +1,60 @@
+/* Class = "NSWindow"; title = "Film Curve Editor"; ObjectID = "6"; */
+"6.title" = "FIlmcurve-bewerker";
+
+/* Class = "NSBox"; title = "Legend"; ObjectID = "63"; */
+"63.title" = "Legenda";
+
+/* Class = "NSTextFieldCell"; title = "Final Curve"; ObjectID = "65"; */
+"65.title" = "Resultaat curve";
+
+/* Class = "NSTextFieldCell"; title = "CCD Curve"; ObjectID = "67"; */
+"67.title" = "CCD curve";
+
+/* Class = "NSTextFieldCell"; title = "Response Curve"; ObjectID = "69"; */
+"69.title" = "Response Curve";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "76"; */
+"76.title" = "Box";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "77"; */
+"77.title" = "Box";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "78"; */
+"78.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Camera Name"; ObjectID = "125"; */
+"125.title" = "Camera naam";
+
+/* Class = "NSButtonCell"; title = "Load Film Curve..."; ObjectID = "192"; */
+"192.title" = "Laad Filmcurve...";
+
+/* Class = "NSTextFieldCell"; title = "Curve Name"; ObjectID = "197"; */
+"197.title" = "Curvenaam";
+
+/* Class = "NSButtonCell"; title = "Load Response..."; ObjectID = "199"; */
+"199.title" = "Laad antwoord…";
+
+/* Class = "NSButtonCell"; title = "Load CCD..."; ObjectID = "201"; */
+"201.title" = "Laad CCD...";
+
+/* Class = "NSButtonCell"; title = "Save CCD..."; ObjectID = "205"; */
+"205.title" = "Bewaar CCD...";
+
+/* Class = "NSButtonCell"; title = "Save Response..."; ObjectID = "206"; */
+"206.title" = "Bewaar antwoord…";
+
+/* Class = "NSButtonCell"; title = "Save Film Curve..."; ObjectID = "207"; */
+"207.title" = "Sla Filmcurve op…";
+
+/* Class = "NSButtonCell"; title = "Scientific"; ObjectID = "g4V-XJ-e0Q"; */
+"g4V-XJ-e0Q.title" = "Wetenschappelijk";
+
+/* Class = "NSButtonCell"; title = "Auto"; ObjectID = "hF6-kM-hIm"; */
+"hF6-kM-hIm.title" = "Automatisch";
+
+/* Class = "NSButtonCell"; title = "Negative"; ObjectID = "uoO-RY-fgM"; */
+"uoO-RY-fgM.title" = "Negatief";
+
+/* Class = "NSButtonCell"; title = "From File"; ObjectID = "x2a-dj-s5A"; */
+"x2a-dj-s5A.title" = "Van Bestand";
+

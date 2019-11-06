@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PrintTemplate>
+  <Version>1</Version>
+  <Margin>
+    <Left>54</Left>
+    <Top>35.279983520507813</Top>
+    <Right>54</Right>
+    <Bottom>35.279983520507813</Bottom>
+  </Margin>
+  <Layout>
+    <ResizingRule>0</ResizingRule>
+    <Rows>4</Rows>
+    <Columns>2</Columns>
+    <RowsSpacing>0</RowsSpacing>
+    <ColumnsSpacing>0</ColumnsSpacing>
+    <CellHeight>180</CellHeight>
+    <CellWidth>252</CellWidth>
+    <CellBorder>0</CellBorder>
+  </Layout>
+  <ImageOptions>
+    <ZoomToFill>true</ZoomToFill>
+    <RotateToFill>true</RotateToFill>
+    <RepeatOneImagePerPage>true</RepeatOneImagePerPage>
+  </ImageOptions>
+  <Annotation>
+    <Type>None</Type>
+    <FontName>Tahoma</FontName>
+    <FontSize>8</FontSize>
+    <ForegroundColor></ForegroundColor>
+  </Annotation>
+  <Template>
+    <Name>Letter Wallets (8)</Name>
+  </Template>
+</PrintTemplate>

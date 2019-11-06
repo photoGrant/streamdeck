@@ -1,0 +1,24 @@
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "335"; */
+"335.headerCell.title" = "Nazwa";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "336"; */
+"336.headerCell.title" = "Wartość";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "356"; */
+"356.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Load Metadata"; ObjectID = "464"; */
+"464.title" = "Wczytaj metadane";
+
+/* Class = "NSButtonCell"; title = "Show on map"; ObjectID = "487"; */
+"487.title" = "Pokaż na mapie";
+
+/* Class = "NSMenuItem"; title = "Sync Metadata"; ObjectID = "489"; */
+"489.title" = "Synchronizuj metadane";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "497"; */
+"497.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Reset Metadata Completions"; ObjectID = "504"; */
+"504.title" = "Zresetuj uzupełnienia metadanych";
+

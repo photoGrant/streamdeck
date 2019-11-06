@@ -1,0 +1,48 @@
+/* Class = "NSTabViewItem"; label = "Current"; ObjectID = "261"; */
+"261.label" = "現在";
+
+/* Class = "NSTabViewItem"; label = "History"; ObjectID = "262"; */
+"262.label" = "履歴";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Pause the batch queue"; ObjectID = "268"; */
+"268.ibShadowedToolTip" = "バッチ キューの一時停止";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reprocess selected jobs."; ObjectID = "273"; */
+"273.ibShadowedToolTip" = "選択されたジョブを再処理する。";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "284"; */
+"284.headerCell.title" = "名前";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "285"; */
+"285.headerCell.title" = "名前";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "286"; */
+"286.title" = "メニュー";
+
+/* Class = "NSMenuItem"; title = "Clear History"; ObjectID = "289"; */
+"289.title" = "履歴を消去";
+
+/* Class = "NSMenuItem"; title = "Clear Queue"; ObjectID = "290"; */
+"290.title" = "キューを消去";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Clear the processed jobs history"; ObjectID = "646"; */
+"646.ibShadowedToolTip" = "処理したジョブ履歴を消去";
+
+/* Class = "NSSegmentedCell"; 815.ibShadowedLabels[0] = "Queue"; ObjectID = "815"; */
+"815.ibShadowedLabels[0]" = "キュー";
+
+/* Class = "NSSegmentedCell"; 815.ibShadowedLabels[1] = "History"; ObjectID = "815"; */
+"815.ibShadowedLabels[1]" = "履歴";
+
+/* Class = "NSButtonCell"; title = "Pause"; ObjectID = "816"; */
+"816.title" = "停止";
+
+/* Class = "NSTextFieldCell"; title = "1/n"; ObjectID = "818"; */
+"818.title" = "1/n";
+
+/* Class = "NSButtonCell"; title = "Reprocess Selected"; ObjectID = "819"; */
+"819.title" = "選択項目を再現像";
+
+/* Class = "NSButtonCell"; title = "Clear History"; ObjectID = "820"; */
+"820.title" = "履歴を消去";
+

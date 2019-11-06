@@ -1,0 +1,12 @@
+/* Class = "NSView"; ibExternalAccessibilityDescription = "shadow"; ObjectID = "1s6-DA-AtS"; */
+"1s6-DA-AtS.ibExternalAccessibilityDescription" = "ombra";
+
+/* Class = "NSView"; 1s6-DA-AtS.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Shadow"; ObjectID = "1s6-DA-AtS"; */
+"1s6-DA-AtS.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Ombre";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "highlight"; ObjectID = "QUi-IQ-WRI"; */
+"QUi-IQ-WRI.ibExternalAccessibilityDescription" = "alte luci";
+
+/* Class = "NSView"; QUi-IQ-WRI.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Highlight"; ObjectID = "QUi-IQ-WRI"; */
+"QUi-IQ-WRI.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Alte Luci";
+

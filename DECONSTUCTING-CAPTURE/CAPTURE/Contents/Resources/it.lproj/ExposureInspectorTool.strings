@@ -1,0 +1,27 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "155"; */
+"155.title" = "Menu";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "brightness"; ObjectID = "a62-F5-gNw"; */
+"a62-F5-gNw.ibExternalAccessibilityDescription" = "luminosità";
+
+/* Class = "NSView"; a62-F5-gNw.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Brightness"; ObjectID = "a62-F5-gNw"; */
+"a62-F5-gNw.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Luminosità";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "contrast"; ObjectID = "Ads-E4-haH"; */
+"Ads-E4-haH.ibExternalAccessibilityDescription" = "contrasto";
+
+/* Class = "NSView"; Ads-E4-haH.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Contrast"; ObjectID = "Ads-E4-haH"; */
+"Ads-E4-haH.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Contrasto";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "exposure"; ObjectID = "tVv-XR-GTd"; */
+"tVv-XR-GTd.ibExternalAccessibilityDescription" = "esposizione";
+
+/* Class = "NSView"; tVv-XR-GTd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Exposure"; ObjectID = "tVv-XR-GTd"; */
+"tVv-XR-GTd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Esposizione";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "saturation"; ObjectID = "zkd-Q5-XUm"; */
+"zkd-Q5-XUm.ibExternalAccessibilityDescription" = "saturazione";
+
+/* Class = "NSView"; zkd-Q5-XUm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Saturation"; ObjectID = "zkd-Q5-XUm"; */
+"zkd-Q5-XUm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Saturazione";
+

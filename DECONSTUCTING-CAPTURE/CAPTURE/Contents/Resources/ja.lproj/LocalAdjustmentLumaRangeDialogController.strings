@@ -1,0 +1,30 @@
+/* Class = "NSButtonCell"; title = "Display mask"; ObjectID = "8lq-h0-SFd"; */
+"8lq-h0-SFd.title" = "マスクを表示";
+
+/* Class = "NSTextFieldCell"; title = "Range"; ObjectID = "a54-hW-ls3"; */
+"a54-hW-ls3.title" = "範囲";
+
+/* Class = "NSButtonCell"; title = "Remove"; ObjectID = "aF3-Qm-EPZ"; */
+"aF3-Qm-EPZ.title" = "削除";
+
+/* Class = "NSView"; aMi-BY-toh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "aMi-BY-toh"; */
+"aMi-BY-toh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "半径";
+
+/* Class = "NSWindow"; title = "Luma Range"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "輝度範囲";
+
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "FbV-P7-eqk"; */
+"FbV-P7-eqk.title" = "適用";
+
+/* Class = "NSView"; fCE-1I-KP5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Sensitivity"; ObjectID = "fCE-1I-KP5"; */
+"fCE-1I-KP5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "感度";
+
+/* Class = "NSTextFieldCell"; title = "Falloff"; ObjectID = "gVr-xe-Lwg"; */
+"gVr-xe-Lwg.title" = "低下";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "qeQ-TA-Q4r"; */
+"qeQ-TA-Q4r.title" = "キャンセル";
+
+/* Class = "NSButtonCell"; title = "Invert Range"; ObjectID = "YfH-dk-BXr"; */
+"YfH-dk-BXr.title" = "範囲を反転";
+

@@ -1,0 +1,60 @@
+/* Class = "NSWindow"; title = "Film Curve Editor"; ObjectID = "6"; */
+"6.title" = "Editor de curva do filme";
+
+/* Class = "NSBox"; title = "Legend"; ObjectID = "63"; */
+"63.title" = "Legend";
+
+/* Class = "NSTextFieldCell"; title = "Final Curve"; ObjectID = "65"; */
+"65.title" = "Curva Final";
+
+/* Class = "NSTextFieldCell"; title = "CCD Curve"; ObjectID = "67"; */
+"67.title" = "Curva CCD";
+
+/* Class = "NSTextFieldCell"; title = "Response Curve"; ObjectID = "69"; */
+"69.title" = "Response Curve";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "76"; */
+"76.title" = "Box";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "77"; */
+"77.title" = "Box";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "78"; */
+"78.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Camera Name"; ObjectID = "125"; */
+"125.title" = "Nome da Câmera";
+
+/* Class = "NSButtonCell"; title = "Load Film Curve..."; ObjectID = "192"; */
+"192.title" = "Carregar curva de filme ...";
+
+/* Class = "NSTextFieldCell"; title = "Curve Name"; ObjectID = "197"; */
+"197.title" = "Nome da curva";
+
+/* Class = "NSButtonCell"; title = "Load Response..."; ObjectID = "199"; */
+"199.title" = "Carregar resposta ...";
+
+/* Class = "NSButtonCell"; title = "Load CCD..."; ObjectID = "201"; */
+"201.title" = "Carregar CCD ...";
+
+/* Class = "NSButtonCell"; title = "Save CCD..."; ObjectID = "205"; */
+"205.title" = "Salvar CCD...";
+
+/* Class = "NSButtonCell"; title = "Save Response..."; ObjectID = "206"; */
+"206.title" = "Salvar Resposta.";
+
+/* Class = "NSButtonCell"; title = "Save Film Curve..."; ObjectID = "207"; */
+"207.title" = "Salvar Curva de Filme ...";
+
+/* Class = "NSButtonCell"; title = "Scientific"; ObjectID = "g4V-XJ-e0Q"; */
+"g4V-XJ-e0Q.title" = "Científica";
+
+/* Class = "NSButtonCell"; title = "Auto"; ObjectID = "hF6-kM-hIm"; */
+"hF6-kM-hIm.title" = "Automático";
+
+/* Class = "NSButtonCell"; title = "Negative"; ObjectID = "uoO-RY-fgM"; */
+"uoO-RY-fgM.title" = "Negative";
+
+/* Class = "NSButtonCell"; title = "From File"; ObjectID = "x2a-dj-s5A"; */
+"x2a-dj-s5A.title" = "De arquivo";
+

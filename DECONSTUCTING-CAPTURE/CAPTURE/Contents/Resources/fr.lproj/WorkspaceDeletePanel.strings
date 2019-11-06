@@ -1,0 +1,21 @@
+/* Class = "NSWindow"; title = "Delete Workspace"; ObjectID = "1"; */
+"1.title" = "Supprimer l’Espace de Travail";
+
+/* Class = "NSTextFieldCell"; title = "Workspace:"; ObjectID = "6"; */
+"6.title" = "Espace de Travail:";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "12"; */
+"12.title" = "Supprimer";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "14"; */
+"14.title" = "Annuler";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "33"; */
+"33.title" = "Élément 1";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "34"; */
+"34.title" = "Élément 2";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "35"; */
+"35.title" = "Élément 3";
+

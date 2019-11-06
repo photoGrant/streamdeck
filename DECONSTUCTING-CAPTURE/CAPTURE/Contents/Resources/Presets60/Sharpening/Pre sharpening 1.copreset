@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL>
+  <E K="USMAmount" V="200.000" />
+  <E K="USMRadius" V="0.500" />
+  <E K="USMThreshold" V="0.772" />
+  <E K="Name" V="Pre sharpening 1" />
+  <E K="UUID" V="{dec8c549-e23d-46ee-8c2c-8ce4988abdde}" />
+  <E K="StyleSource" V="Sharpening" />
+</SL>

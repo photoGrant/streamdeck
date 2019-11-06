@@ -1,0 +1,45 @@
+/* Class = "NSMenuItem"; title = "Adjustment"; ObjectID = "58I-Ca-hz7"; */
+"58I-Ca-hz7.title" = "조정";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Delete Adjustment Layer"; ObjectID = "156"; */
+"156.ibShadowedToolTip" = "조정 레이어 삭제";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New Layer"; ObjectID = "157"; */
+"157.ibShadowedToolTip" = "새로운 레이어";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Cursor tool options"; ObjectID = "256"; */
+"256.ibShadowedToolTip" = "커서 툴 옵션";
+
+/* Class = "NSMenuItem"; title = "Clone"; ObjectID = "bfX-0o-1bx"; */
+"bfX-0o-1bx.title" = "복제";
+
+/* Class = "NSMenuItem"; title = "New Heal Layer"; ObjectID = "dJ2-2u-N6b"; */
+"dJ2-2u-N6b.title" = "새로운 힐 레이어";
+
+/* Class = "NSMenuItem"; title = "New Filled Layer"; ObjectID = "eRQ-FR-vdx"; */
+"eRQ-FR-vdx.title" = "새로운 채운 레이어";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "layer opacity"; ObjectID = "n77-Nx-rgK"; */
+"n77-Nx-rgK.ibExternalAccessibilityDescription" = "레이어 불투명도";
+
+/* Class = "NSView"; n77-Nx-rgK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Opacity"; ObjectID = "n77-Nx-rgK"; */
+"n77-Nx-rgK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "불투명도";
+
+/* Class = "NSMenuItem"; title = "Heal"; ObjectID = "NWr-X8-Y15"; */
+"NWr-X8-Y15.title" = "힐";
+
+/* Class = "NSMenuItem"; title = "New Empty Layer"; ObjectID = "olu-ZN-FB2"; */
+"olu-ZN-FB2.title" = "새로운 빈 레이어";
+
+/* Class = "NSButtonCell"; title = "Luma Range…"; ObjectID = "rpZ-6o-iul"; */
+"rpZ-6o-iul.title" = "루마 레인지";
+
+/* Class = "NSMenuItem"; title = "New Clone Layer"; ObjectID = "Vou-ab-ly6"; */
+"Vou-ab-ly6.title" = "새로운 복제 레이어";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "ZgX-WE-hww"; */
+"ZgX-WE-hww.title" = "상자";
+
+/* Class = "NSMenuItem"; title = "New Auto Repair Layer"; ObjectID = "Zze-nr-E2d"; */
+"Zze-nr-E2d.title" = "새로운 자동 복구 레이어";
+

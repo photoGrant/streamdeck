@@ -1,0 +1,42 @@
+/* Class = "NSButtonCell"; title = "Enable Shadow Warning"; ObjectID = "242"; */
+"242.title" = "Active alarme ombres";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "246"; */
+"246.title" = "Défaut";
+
+/* Class = "NSTextFieldCell"; title = "Exposure Warning"; ObjectID = "247"; */
+"247.title" = "Avertissement d’Exposition";
+
+/* Class = "NSButtonCell"; title = "Pick Target Levels"; ObjectID = "248"; */
+"248.title" = "Sélectionner Niveaux Cibles";
+
+/* Class = "NSTextFieldCell"; title = "Shadows:"; ObjectID = "253"; */
+"253.title" = "Ombres:";
+
+/* Class = "NSTextFieldCell"; title = "Highlights:"; ObjectID = "254"; */
+"254.title" = "Hautes lumières :";
+
+/* Class = "NSTextFieldCell"; title = "Levels Tool"; ObjectID = "255"; */
+"255.title" = "Outil Niveaux";
+
+/* Class = "NSTextFieldCell"; title = "Highlights:"; ObjectID = "AED-lq-Ig5"; */
+"AED-lq-Ig5.title" = "Hautes lumières :";
+
+/* Class = "NSTextFieldCell"; title = "Channel Mode applies to Auto Adjust and Shadow & Highlight Pickers."; ObjectID = "C7l-gM-xYV"; */
+"C7l-gM-xYV.title" = "Le Mode Canal s'applique aux Réglages Auto et aux pipettes Ombres et Hautes Lumières.";
+
+/* Class = "NSTextFieldCell"; title = "Auto Levels Clipping Thresholds"; ObjectID = "Ke0-eA-B1k"; */
+"Ke0-eA-B1k.title" = "Niveaux Auto";
+
+/* Class = "NSMenuItem"; title = "RGB Channel"; ObjectID = "kym-LE-y4Z"; */
+"kym-LE-y4Z.title" = "Canal RVB";
+
+/* Class = "NSMenuItem"; title = "Red, Green, and Blue Channels"; ObjectID = "Udv-uy-wiA"; */
+"Udv-uy-wiA.title" = "Canaux Rouge, Vert et Bleu";
+
+/* Class = "NSTextFieldCell"; title = "Channel Mode:"; ObjectID = "Uue-zV-dO9"; */
+"Uue-zV-dO9.title" = "Mode Canal:";
+
+/* Class = "NSTextFieldCell"; title = "Shadows:"; ObjectID = "UwU-3w-FFA"; */
+"UwU-3w-FFA.title" = "Ombres:";
+

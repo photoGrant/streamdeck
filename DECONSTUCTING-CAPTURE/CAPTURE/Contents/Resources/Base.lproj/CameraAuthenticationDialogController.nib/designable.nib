@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CameraAuthenticationDialogController">
+            <connections>
+                <outlet property="okButton" destination="HZC-oA-e1l" id="1Vh-pg-Zje"/>
+                <outlet property="passwordField" destination="EEu-01-kDh" id="v7J-Vj-SF0"/>
+                <outlet property="passwordMessageLabel" destination="kyO-Mw-reG" id="DOI-En-DDf"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5" customClass="COUIWindow">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="248" height="87"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
+            <view key="contentView" wantsLayer="YES" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="248" height="87"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LSA-aF-BgR" customClass="COUIContentView">
+                        <rect key="frame" x="0.0" y="0.0" width="248" height="87"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyO-Mw-reG">
+                                <rect key="frame" x="6" y="61" width="236" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="ezL-QY-45S"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="truncatingTail" enabled="NO" refusesFirstResponder="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="left" id="NU2-LB-VVO" customClass="COUITextFieldCell">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField focusRingType="none" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EEu-01-kDh" userLabel="Password input field">
+                                <rect key="frame" x="8" y="37" width="232" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="S6s-g3-OB8"/>
+                                </constraints>
+                                <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" focusRingType="none" alignment="left" drawsBackground="YES" id="APt-cl-hWl" customClass="COUITextFieldCell">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rvK-xv-KBW" userLabel="Cancel Button" customClass="POSkinButton">
+                                <rect key="frame" x="56" y="1" width="82" height="32"/>
+                                <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="lVs-MZ-jUp">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="cancelOperation:" target="-2" id="wBr-b6-J7e"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HZC-oA-e1l" userLabel="OK Button" customClass="POSkinButton">
+                                <rect key="frame" x="146" y="1" width="92" height="32"/>
+                                <buttonCell key="cell" type="push" title="Connect" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="WhL-yI-m71">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="proceedOperation:" target="-2" id="sJL-Ai-obm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="kyO-Mw-reG" firstAttribute="leading" secondItem="LSA-aF-BgR" secondAttribute="leading" constant="8" id="21G-BE-M5S"/>
+                            <constraint firstAttribute="bottom" secondItem="rvK-xv-KBW" secondAttribute="bottom" constant="8" id="8eW-T8-g3L"/>
+                            <constraint firstItem="EEu-01-kDh" firstAttribute="leading" secondItem="LSA-aF-BgR" secondAttribute="leading" constant="8" id="DBH-7V-LBs"/>
+                            <constraint firstItem="kyO-Mw-reG" firstAttribute="top" secondItem="LSA-aF-BgR" secondAttribute="top" constant="8" id="EMh-Yi-Egw"/>
+                            <constraint firstAttribute="trailing" secondItem="kyO-Mw-reG" secondAttribute="trailing" constant="8" id="GeL-oq-VY3"/>
+                            <constraint firstAttribute="bottom" secondItem="HZC-oA-e1l" secondAttribute="bottom" constant="8" id="Hxv-RZ-PNs"/>
+                            <constraint firstItem="HZC-oA-e1l" firstAttribute="top" secondItem="EEu-01-kDh" secondAttribute="bottom" constant="8" id="a7a-sM-mBt"/>
+                            <constraint firstAttribute="trailing" secondItem="EEu-01-kDh" secondAttribute="trailing" constant="8" id="aV7-f5-I6Q"/>
+                            <constraint firstAttribute="trailing" secondItem="HZC-oA-e1l" secondAttribute="trailing" constant="16" id="dIz-Gp-abM"/>
+                            <constraint firstItem="EEu-01-kDh" firstAttribute="top" secondItem="kyO-Mw-reG" secondAttribute="bottom" constant="6" id="fTb-gn-JbD"/>
+                            <constraint firstItem="HZC-oA-e1l" firstAttribute="leading" secondItem="rvK-xv-KBW" secondAttribute="trailing" constant="20" id="nPR-lP-hSB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="LSA-aF-BgR" secondAttribute="bottom" id="5dS-yp-HmO"/>
+                    <constraint firstAttribute="trailing" secondItem="LSA-aF-BgR" secondAttribute="trailing" id="6im-ky-1s1"/>
+                    <constraint firstItem="LSA-aF-BgR" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" id="I9E-Nk-VOW"/>
+                    <constraint firstItem="LSA-aF-BgR" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" id="cNe-dY-L7A"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="-102" y="9"/>
+        </window>
+    </objects>
+</document>

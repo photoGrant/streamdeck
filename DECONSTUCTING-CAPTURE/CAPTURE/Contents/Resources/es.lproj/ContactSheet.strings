@@ -1,0 +1,120 @@
+/* Class = "NSWindow"; title = "Panel"; ObjectID = "265"; */
+"265.title" = "Panel";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Enter name as it should be displayed"; ObjectID = "282"; */
+"282.ibShadowedToolTip" = "Introducir nombre tal y como debe mostrarse";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Enter Contact link (e.g. mailto:photographer@phaseone.com or http://www.phaseone.com)"; ObjectID = "287"; */
+"287.ibShadowedToolTip" = "Introducir el enlace al contacto (ej:photographer@phaseone.com o http://www.phaseone.com)";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Exports XML and DTD files to the output destination"; ObjectID = "389"; */
+"389.ibShadowedToolTip" = "Permite exportar los archivos XML y DTD al destino de salida";
+
+/* Class = "NSMenuItem"; title = "Local"; ObjectID = "398"; */
+"398.title" = "Local";
+
+/* Class = "NSMenuItem"; title = "FTP"; ObjectID = "399"; */
+"399.title" = "FTP";
+
+/* Class = "NSTabViewItem"; label = "FTP"; ObjectID = "403"; */
+"403.label" = "FTP";
+
+/* Class = "NSTabViewItem"; label = "Local"; ObjectID = "405"; */
+"405.label" = "Local";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Shows result in web-browser"; ObjectID = "409"; */
+"409.ibShadowedToolTip" = "Muestra el resultado en el explorador Web";
+
+/* Class = "NSTextFieldCell"; title = "Description"; ObjectID = "447"; */
+"447.title" = "Descripción";
+
+/* Class = "NSTextFieldCell"; title = "Copyright"; ObjectID = "448"; */
+"448.title" = "Copyright";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter description"; ObjectID = "449"; */
+"449.placeholderString" = "Introducir descripción";
+
+/* Class = "NSTextFieldCell"; title = "Title"; ObjectID = "450"; */
+"450.title" = "Título";
+
+/* Class = "NSTextFieldCell"; title = "Web Link"; ObjectID = "451"; */
+"451.title" = "Enlace Web";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter contact"; ObjectID = "452"; */
+"452.placeholderString" = "Introducir contacto";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter title"; ObjectID = "453"; */
+"453.placeholderString" = "Introducir título";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter web or mail link"; ObjectID = "454"; */
+"454.placeholderString" = "Introducir enlace Web o de correo electrónico";
+
+/* Class = "NSTextFieldCell"; title = "Text"; ObjectID = "455"; */
+"455.title" = "Texto";
+
+/* Class = "NSTextFieldCell"; title = "Thumbnail Size"; ObjectID = "457"; */
+"457.title" = "Tamaño miniatura";
+
+/* Class = "NSTextFieldCell"; title = "Preview Size"; ObjectID = "458"; */
+"458.title" = "Tamaño vista previa";
+
+/* Class = "NSTextFieldCell"; title = "Caption"; ObjectID = "459"; */
+"459.title" = "Pie de foto";
+
+/* Class = "NSTextFieldCell"; title = "Quality"; ObjectID = "461"; */
+"461.title" = "Calidad";
+
+/* Class = "NSTextFieldCell"; title = "Images"; ObjectID = "464"; */
+"464.title" = "Imágenes";
+
+/* Class = "NSTextFieldCell"; title = "Theme"; ObjectID = "465"; */
+"465.title" = "Tema";
+
+/* Class = "NSTextFieldCell"; title = "Layout"; ObjectID = "469"; */
+"469.title" = "Diseño";
+
+/* Class = "NSTextFieldCell"; title = "Output"; ObjectID = "470"; */
+"470.title" = "Salida";
+
+/* Class = "NSButtonCell"; title = "Export Photo XML Data"; ObjectID = "471"; */
+"471.title" = "Exportar datos de foto XML";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "472"; */
+"472.title" = "Tipo";
+
+/* Class = "NSTextFieldCell"; title = "URL"; ObjectID = "474"; */
+"474.title" = "URL";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter full URL to server folder"; ObjectID = "475"; */
+"475.placeholderString" = "Introducir URL completo en la carpeta de servidor";
+
+/* Class = "NSTextFieldCell"; title = "Username"; ObjectID = "476"; */
+"476.title" = "Nombre de usuario";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter username"; ObjectID = "477"; */
+"477.placeholderString" = "Introducir nombre de usuario";
+
+/* Class = "NSTextFieldCell"; title = "Password"; ObjectID = "478"; */
+"478.title" = "Contraseña";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter password"; ObjectID = "479"; */
+"479.placeholderString" = "Introducir contraseña";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "480"; */
+"480.title" = "Ruta";
+
+/* Class = "NSButtonCell"; title = "Show after Export"; ObjectID = "481"; */
+"481.title" = "Mostrar después de exportar";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show Print panel"; ObjectID = "522"; */
+"522.ibShadowedToolTip" = "Mostrar panel de impresión";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Cancel print"; ObjectID = "523"; */
+"523.ibShadowedToolTip" = "Cancelar impresión";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "524"; */
+"524.title" = "Cancelar";
+
+/* Class = "NSButtonCell"; title = "Export"; ObjectID = "525"; */
+"525.title" = "Exportar";
+

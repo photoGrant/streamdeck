@@ -1,0 +1,366 @@
+/* Class = "NSMenuItem"; title = "Contrast and Brightness"; ObjectID = "0v4-ek-mqo"; */
+"0v4-ek-mqo.title" = "Contraste e Brilho";
+
+/* Class = "NSTableColumn"; headerCell.title = "Sequence ID"; ObjectID = "4hC-Nj-5MJ"; */
+"4hC-Nj-5MJ.headerCell.title" = "ID da Sequência";
+
+/* Class = "NSWindow"; title = "Viewer Window"; ObjectID = "5"; */
+"5.title" = "Janela do visualizador";
+
+/* Class = "NSMenuItem"; title = "New Empty Layer"; ObjectID = "5Qx-vh-xgO"; */
+"5Qx-vh-xgO.title" = "Nova camada vazia";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Toggle Primary/Multi View"; ObjectID = "09H-LY-aNy"; */
+"09H-LY-aNy.ibShadowedToolTip" = "Alternar entre visualização Primária/ Multi";
+
+/* Class = "NSMenuItem"; title = "New Auto Repair Layer"; ObjectID = "68r-rZ-dbE"; */
+"68r-rZ-dbE.title" = "Nova Camada de Reparo Automático";
+
+/* Class = "NSTabView"; ibExternalAccessibilityDescription = "inspectorToolTabs"; ObjectID = "254"; */
+"254.ibExternalAccessibilityDescription" = "inspectorToolTabs";
+
+/* Class = "NSTabViewItem"; label = "BrowserGridView"; ObjectID = "280"; */
+"280.label" = "BrowserGridView";
+
+/* Class = "NSTabViewItem"; label = "BrowserListView"; ObjectID = "282"; */
+"282.label" = "BrowserListView";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "297"; */
+"297.headerCell.title" = "Nome";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Redo"; ObjectID = "883"; */
+"883.ibShadowedToolTip" = "Refazer";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Rotate Right"; ObjectID = "889"; */
+"889.ibShadowedToolTip" = "Girar à direita";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Select previous\nAlt-click to select previous set"; ObjectID = "893"; */
+"893.ibShadowedToolTip" = "Selecionar o anterior\nAlt-clique para selecionar o conjunto anterior";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Select next\nAlt-click to select next set"; ObjectID = "894"; */
+"894.ibShadowedToolTip" = "Selecionar o próximo\nAlt-clique para selecionar o próximo conjunto";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Undo"; ObjectID = "908"; */
+"908.ibShadowedToolTip" = "Desfazer";
+
+/* Class = "NSTableColumn"; headerCell.title = "Rating"; ObjectID = "993"; */
+"993.headerCell.title" = "Classificação";
+
+/* Class = "NSTableColumn"; headerCell.title = "Variant"; ObjectID = "994"; */
+"994.headerCell.title" = "Variante";
+
+/* Class = "NSTableColumn"; headerCell.title = "ISO Speed"; ObjectID = "995"; */
+"995.headerCell.title" = "Velocidade ISO";
+
+/* Class = "NSTableColumn"; headerCell.title = "Aperture"; ObjectID = "996"; */
+"996.headerCell.title" = "Abertura";
+
+/* Class = "NSTableColumn"; headerCell.title = "Shutter Speed"; ObjectID = "997"; */
+"997.headerCell.title" = "Velocidade do obturador";
+
+/* Class = "NSTableColumn"; headerCell.title = "Focal Length"; ObjectID = "998"; */
+"998.headerCell.title" = "Comprimento focal";
+
+/* Class = "NSTableColumn"; headerCell.title = "Image Date"; ObjectID = "999"; */
+"999.headerCell.title" = "Data da imagem";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Copy adjustments from the primary variant"; ObjectID = "1088"; */
+"1088.ibShadowedToolTip" = "Copiar ajustes da variante primária";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Apply settings to the selected variants"; ObjectID = "1089"; */
+"1089.ibShadowedToolTip" = "Aplicar configurações às variantes selecionadas";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Move variants to the Selects Folder"; ObjectID = "1168"; */
+"1168.ibShadowedToolTip" = "Mover variantes para a pasta de Seleções";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New Variant"; ObjectID = "1171"; */
+"1171.ibShadowedToolTip" = "Nova variante";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Pick Variant"; ObjectID = "1172"; */
+"1172.ibShadowedToolTip" = "Escolher variante";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1337"; */
+"1337.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1339"; */
+"1339.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1340"; */
+"1340.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1341"; */
+"1341.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1342"; */
+"1342.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; placeholderString = "1999:10:10 20:30:40"; ObjectID = "1343"; */
+"1343.placeholderString" = "1999:10:10 20:30:40";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1343"; */
+"1343.title" = "Célula do Texto";
+
+/* Class = "NSTableColumn"; headerCell.title = "Status"; ObjectID = "1570"; */
+"1570.headerCell.title" = "Status";
+
+/* Class = "NSMatrix"; ibExternalAccessibilityDescription = "inspectorToolSelector"; ObjectID = "1778"; */
+"1778.ibExternalAccessibilityDescription" = "inspectorToolSelector";
+
+/* Class = "NSTextFieldCell"; title = "Fit"; ObjectID = "1813"; */
+"1813.title" = "Ajustar";
+
+/* Class = "NSTextFieldCell"; title = "LLL"; ObjectID = "1814"; */
+"1814.title" = "LLL";
+
+/* Class = "NSTextFieldCell"; title = "BBB"; ObjectID = "1815"; */
+"1815.title" = "BBB";
+
+/* Class = "NSTextFieldCell"; title = "GGG"; ObjectID = "1816"; */
+"1816.title" = "GGG";
+
+/* Class = "NSTextFieldCell"; title = "RRR"; ObjectID = "1817"; */
+"1817.title" = "RRR";
+
+/* Class = "NSTextFieldCell"; title = "No selection"; ObjectID = "1820"; */
+"1820.title" = "Nenhuma seleção";
+
+/* Class = "NSTextFieldCell"; title = "No selection"; ObjectID = "1821"; */
+"1821.title" = "Nenhuma seleção";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1824"; */
+"1824.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1825"; */
+"1825.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1829"; */
+"1829.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1830"; */
+"1830.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1831"; */
+"1831.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1832"; */
+"1832.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1833"; */
+"1833.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1834"; */
+"1834.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1836"; */
+"1836.title" = "Botão";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1841"; */
+"1841.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1842"; */
+"1842.title" = "Célula do Texto";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Sort"; ObjectID = "1851"; */
+"1851.ibShadowedToolTip" = "Organizar";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1857"; */
+"1857.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "1 out of 100"; ObjectID = "1871"; */
+"1871.title" = "1 em 100";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Capture an image using the attached camera"; ObjectID = "2217"; */
+"2217.ibShadowedToolTip" = "Capturar uma imagem usando a câmera conectada";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "2218"; */
+"2218.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "2410"; */
+"2410.title" = "Botão";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "2415"; */
+"2415.title" = "Box";
+
+/* Class = "NSTableColumn"; headerCell.title = "History"; ObjectID = "2460"; */
+"2460.headerCell.title" = "Histórico";
+
+/* Class = "NSTextFieldCell"; title = "BLK"; ObjectID = "2500"; */
+"2500.title" = "BLK";
+
+/* Class = "NSTextFieldCell"; title = "YYY"; ObjectID = "2501"; */
+"2501.title" = "YYY";
+
+/* Class = "NSTextFieldCell"; title = "MMM"; ObjectID = "2502"; */
+"2502.title" = "MMM";
+
+/* Class = "NSTextFieldCell"; title = "CCC"; ObjectID = "2503"; */
+"2503.title" = "CCC";
+
+/* Class = "NSTextFieldCell"; title = "Text"; ObjectID = "2609"; */
+"2609.title" = "Texto";
+
+/* Class = "NSTextFieldCell"; title = "GRA"; ObjectID = "2623"; */
+"2623.title" = "GRA";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Proof Margin"; ObjectID = "2653"; */
+"2653.ibShadowedToolTip" = "Margem de prova";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "2731"; */
+"2731.title" = "Botão";
+
+/* Class = "NSTabViewItem"; label = "BrowserFilmStripView"; ObjectID = "2745"; */
+"2745.label" = "BrowserFilmStripView";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Sort Direction"; ObjectID = "2835"; */
+"2835.ibShadowedToolTip" = "Organizar Direção";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Adjustments Layers"; ObjectID = "2958"; */
+"2958.ibShadowedToolTip" = "Camadas de Ajustes";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2960"; */
+"2960.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Layer"; ObjectID = "2962"; */
+"2962.title" = "Camada";
+
+/* Class = "NSTextFieldCell"; title = "No selection"; ObjectID = "2998"; */
+"2998.title" = "Nenhuma seleção";
+
+/* Class = "NSMenu"; title = "Customize Auto Adjust"; ObjectID = "3003"; */
+"3003.title" = "Personalizar ajuste automático";
+
+/* Class = "NSMenuItem"; title = "Keystone"; ObjectID = "3004"; */
+"3004.title" = "Keystone";
+
+/* Class = "NSMenuItem"; title = "Rotation"; ObjectID = "3005"; */
+"3005.title" = "Rotação";
+
+/* Class = "NSMenuItem"; title = "Levels"; ObjectID = "3006"; */
+"3006.title" = "Níveis";
+
+/* Class = "NSMenuItem"; title = "High Dynamic Range"; ObjectID = "3007"; */
+"3007.title" = "Alta gama dinâmica";
+
+/* Class = "NSMenuItem"; title = "Exposure"; ObjectID = "3008"; */
+"3008.title" = "Exposição";
+
+/* Class = "NSMenuItem"; title = "White Balance"; ObjectID = "3009"; */
+"3009.title" = "Balanço de branco";
+
+/* Class = "NSWindow"; title = "new collection name"; ObjectID = "3044"; */
+"3044.title" = "novo nome da coleção";
+
+/* Class = "NSTextFieldCell"; title = "New collection name:"; ObjectID = "3051"; */
+"3051.title" = "Novo nome da coleção:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "3052"; */
+"3052.title" = "OK";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Export Variants"; ObjectID = "3059"; */
+"3059.ibShadowedToolTip" = "Exportar variantes";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "3060"; */
+"3060.title" = "Botão";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Capture an image using the attached camera"; ObjectID = "3063"; */
+"3063.ibShadowedToolTip" = "Capturar uma imagem usando a câmera conectada";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "3064"; */
+"3064.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3085"; */
+"3085.title" = "Cancelar";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Customize Toolbar"; ObjectID = "3097"; */
+"3097.ibShadowedToolTip" = "Personalizar barra de ferramentas";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Edit Capture One Preferences"; ObjectID = "3101"; */
+"3101.ibShadowedToolTip" = "Editar preferências do Capture One";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "3102"; */
+"3102.title" = "Botão";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show Slideshow"; ObjectID = "3152"; */
+"3152.ibShadowedToolTip" = "Mostrar apresentação de slides";
+
+/* Class = "NSWindow"; title = "folder sync"; ObjectID = "3237"; */
+"3237.title" = "sincronização de pasta";
+
+/* Class = "NSButtonCell"; title = "Sync"; ObjectID = "3244"; */
+"3244.title" = "Sincronizar";
+
+/* Class = "NSTextFieldCell"; title = "New collection name:New collection name:New collection name:New collection name:New collection name:New collection name:New collection name:"; ObjectID = "3245"; */
+"3245.title" = "Novo nome de coleção:Novo nome de coleção:Novo nome de coleção:Novo nome de coleção:Novo nome de coleção:Novo nome de coleção:Novo nome de coleção:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3247"; */
+"3247.title" = "Cancelar";
+
+/* Class = "NSButtonCell"; title = "Import new images"; ObjectID = "3255"; */
+"3255.title" = "Importar novas imagens";
+
+/* Class = "NSButtonCell"; title = "Remove missing images"; ObjectID = "3257"; */
+"3257.title" = "Remover imagens ausentes";
+
+/* Class = "NSButtonCell"; title = "Show importer"; ObjectID = "3276"; */
+"3276.title" = "Mostrar importador";
+
+/* Class = "NSButtonCell"; title = "Show Missing Images"; ObjectID = "3282"; */
+"3282.title" = "Mostrar imagens ausentes";
+
+/* Class = "NSButtonCell"; title = "Also Include Referenced Originals"; ObjectID = "3290"; */
+"3290.title" = "Incluir também originais referenciados";
+
+/* Class = "NSButtonCell"; title = "Include known subfolders"; ObjectID = "3297"; */
+"3297.title" = "Incluir subpastas conhecidas";
+
+/* Class = "NSButtonCell"; title = "Include subfolders"; ObjectID = "3302"; */
+"3302.title" = "Incluir subpastas";
+
+/* Class = "NSMenuItem"; title = "New Filled Layer"; ObjectID = "axa-pb-3sd"; */
+"axa-pb-3sd.title" = "Nova camada preenchida";
+
+/* Class = "NSButtonCell"; title = "Select collection after creation"; ObjectID = "bdF-40-gYt"; */
+"bdF-40-gYt.title" = "Selecionar coleção após a criação";
+
+/* Class = "NSButtonCell"; title = "Import Images"; ObjectID = "DRr-D1-csk"; */
+"DRr-D1-csk.title" = "Importar imagens";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Tips"; ObjectID = "EiS-hX-M0T"; */
+"EiS-hX-M0T.ibShadowedToolTip" = "Dicas";
+
+/* Class = "NSButtonCell"; title = "Add selected images after creation"; ObjectID = "fH6-6w-qg3"; */
+"fH6-6w-qg3.title" = "Adicionar imagens selecionadas após a criação";
+
+/* Class = "NSTextFieldCell"; title = "LABB"; ObjectID = "glS-uC-beD"; */
+"glS-uC-beD.title" = "LABB";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Battery Status"; ObjectID = "hew-LV-0p3"; */
+"hew-LV-0p3.ibShadowedToolTip" = "Status da bateria";
+
+/* Class = "NSTextFieldCell"; title = "LABA"; ObjectID = "iZI-Rn-Ulo"; */
+"iZI-Rn-Ulo.title" = "LABA";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "--"; ObjectID = "lY3-1i-UTe"; */
+"lY3-1i-UTe.ibShadowedIsNilPlaceholder" = "--";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "m2J-7q-yMC"; */
+"m2J-7q-yMC.title" = "Célula do Texto";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New Layer"; ObjectID = "OLF-gr-xkN"; */
+"OLF-gr-xkN.ibShadowedToolTip" = "Nova Camada";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "--"; ObjectID = "R2a-2j-fME"; */
+"R2a-2j-fME.ibShadowedIsNilPlaceholder" = "--";
+
+/* Class = "NSTextFieldCell"; title = "LABL"; ObjectID = "rkL-D2-fDQ"; */
+"rkL-D2-fDQ.title" = "LABL";
+
+/* Class = "NSMenuItem"; title = "New Clone Layer"; ObjectID = "UZE-NT-qce"; */
+"UZE-NT-qce.title" = "Camada Novo Clone";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "--"; ObjectID = "wCI-8w-MsQ"; */
+"wCI-8w-MsQ.ibShadowedIsNilPlaceholder" = "--";
+
+/* Class = "NSMenuItem"; title = "New Heal Layer"; ObjectID = "YkD-v3-VfH"; */
+"YkD-v3-VfH.title" = "Nova Camada de Tratamento";
+

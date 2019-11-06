@@ -1,0 +1,51 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Menu";
+
+/* Class = "NSTextFieldCell"; title = "Left"; ObjectID = "357"; */
+"357.title" = "Gauche";
+
+/* Class = "NSTextFieldCell"; title = "Right"; ObjectID = "359"; */
+"359.title" = "Droite";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Left margin"; ObjectID = "394"; */
+"394.ibShadowedToolTip" = "Marge gauche";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Right margin"; ObjectID = "396"; */
+"396.ibShadowedToolTip" = "Marge droite";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Left margin"; ObjectID = "406"; */
+"406.ibShadowedToolTip" = "Marge gauche";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Right margin"; ObjectID = "409"; */
+"409.ibShadowedToolTip" = "Marge droite";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Top margin"; ObjectID = "420"; */
+"420.ibShadowedToolTip" = "Marge haut";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Top margin"; ObjectID = "422"; */
+"422.ibShadowedToolTip" = "Marge haut";
+
+/* Class = "NSTextFieldCell"; title = "Top"; ObjectID = "425"; */
+"425.title" = "Haut";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Bottom margin"; ObjectID = "429"; */
+"429.ibShadowedToolTip" = "Marge bas";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Bottom margin"; ObjectID = "431"; */
+"431.ibShadowedToolTip" = "Marge bas";
+
+/* Class = "NSTextFieldCell"; title = "Bottom"; ObjectID = "434"; */
+"434.title" = "Bas";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "523"; */
+"523.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "525"; */
+"525.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "527"; */
+"527.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "529"; */
+"529.title" = "in";
+

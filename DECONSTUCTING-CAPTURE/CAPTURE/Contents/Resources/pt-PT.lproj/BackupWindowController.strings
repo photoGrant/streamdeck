@@ -1,0 +1,33 @@
+/* Class = "NSButtonCell"; title = "Backup"; ObjectID = "16"; */
+"16.title" = "Backup";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "17"; */
+"17.title" = "Cancelar";
+
+/* Class = "NSTabViewItem"; label = "Progress"; ObjectID = "21"; */
+"21.label" = "Progresso";
+
+/* Class = "NSTabViewItem"; label = "Alert"; ObjectID = "22"; */
+"22.label" = "Alerta";
+
+/* Class = "NSButtonCell"; title = "Test integrity"; ObjectID = "37"; */
+"37.title" = "Testar integridade";
+
+/* Class = "NSButtonCell"; title = "Optimize catalog"; ObjectID = "39"; */
+"39.title" = "Otimizar catálogo";
+
+/* Class = "NSButtonCell"; title = "…"; ObjectID = "45"; */
+"45.title" = "…";
+
+/* Class = "NSTextFieldCell"; title = "Backup Location:"; ObjectID = "46"; */
+"46.title" = "Local de backup:";
+
+/* Class = "NSTextFieldCell"; title = "Also:"; ObjectID = "49"; */
+"49.title" = "Também:";
+
+/* Class = "NSTabViewItem"; label = "Error"; ObjectID = "78"; */
+"78.label" = "Erro";
+
+/* Class = "NSTabViewItem"; label = "Error"; ObjectID = "99"; */
+"99.label" = "Erro";
+

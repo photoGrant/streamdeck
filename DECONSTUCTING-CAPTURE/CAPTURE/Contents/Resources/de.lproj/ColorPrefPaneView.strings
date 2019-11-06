@@ -1,0 +1,42 @@
+/* Class = "NSTextFieldCell"; title = "Never calibrated before."; ObjectID = "5mN-BC-pT7"; */
+"5mN-BC-pT7.title" = "Noch nie kalibriert.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "120"; */
+"120.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Relative Colorimetric"; ObjectID = "121"; */
+"121.title" = "Relativ farbmetrisch";
+
+/* Class = "NSMenuItem"; title = "Perceptual"; ObjectID = "122"; */
+"122.title" = "Perzeptiv";
+
+/* Class = "NSMenuItem"; title = "Saturation"; ObjectID = "152"; */
+"152.title" = "Sättigung";
+
+/* Class = "NSMenuItem"; title = "Absolute Colorimetric"; ObjectID = "153"; */
+"153.title" = "Absolut farbmetrisch";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "157"; */
+"157.title" = "Voreinstellung";
+
+/* Class = "NSTextFieldCell"; title = "Rendering Intent:"; ObjectID = "158"; */
+"158.title" = "Rendering-Methode:";
+
+/* Class = "NSTextFieldCell"; title = "Monitor"; ObjectID = "e27-df-U1w"; */
+"e27-df-U1w.title" = "Monitor";
+
+/* Class = "NSTextFieldCell"; title = "Vectorscope"; ObjectID = "ezE-kB-AL7"; */
+"ezE-kB-AL7.title" = "Vektorskop";
+
+/* Class = "NSButtonCell"; title = "Calibrate EIZO"; ObjectID = "TdK-5T-8ex"; */
+"TdK-5T-8ex.title" = "Kalibriere EIZO";
+
+/* Class = "NSTextFieldCell"; title = "Transform"; ObjectID = "tT2-rk-Tsn"; */
+"tT2-rk-Tsn.title" = "Umrechnung";
+
+/* Class = "NSTextFieldCell"; title = "Standard"; ObjectID = "U5h-5o-7Bi"; */
+"U5h-5o-7Bi.title" = "Standard";
+
+/* Class = "NSTextFieldCell"; title = "Color Wheels Layout"; ObjectID = "y0A-7I-fJB"; */
+"y0A-7I-fJB.title" = "Farbräder Layout";
+

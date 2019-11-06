@@ -1,0 +1,30 @@
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerMetadataCreatorTitle"; ObjectID = "7"; */
+"7.ibExternalAccessibilityDescription" = "importerMetadataCreatorTitle";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerMetadataCopyrightTitle"; ObjectID = "10"; */
+"10.ibExternalAccessibilityDescription" = "importerMetadataCopyrightTitle";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerMetadataCopyrightTextField"; ObjectID = "15"; */
+"15.ibExternalAccessibilityDescription" = "importerMetadataCopyrightTextField";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerMetadataCreatorTextField"; ObjectID = "16"; */
+"16.ibExternalAccessibilityDescription" = "importerMetadataCreatorTextField";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "49"; */
+"49.title" = "菜單";
+
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "50"; */
+"50.title" = "重置工具";
+
+/* Class = "NSTextFieldCell"; title = "Description"; ObjectID = "57"; */
+"57.title" = "描述";
+
+/* Class = "NSTextFieldCell"; title = "Copyright"; ObjectID = "58"; */
+"58.title" = "版權所有";
+
+/* Class = "NSTextFieldCell"; title = "My Copyright"; ObjectID = "59"; */
+"59.title" = "我的版權";
+
+/* Class = "NSTextFieldCell"; title = "My Description"; ObjectID = "60"; */
+"60.title" = "我的描述";
+

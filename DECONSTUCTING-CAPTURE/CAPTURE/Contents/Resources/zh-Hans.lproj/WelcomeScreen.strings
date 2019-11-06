@@ -1,0 +1,117 @@
+/* Class = "NSButtonCell"; title = "Express Fujifilm"; ObjectID = "1lY-4A-L8N"; */
+"1lY-4A-L8N.title" = "Express Fujifilm";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set free to use for Phase One camera owners"; ObjectID = "2t8-ed-tAH"; */
+"2t8-ed-tAH.title" = "Phase One 相机拥有者可以免费使用全功能";
+
+/* Class = "NSTextFieldCell"; title = "If you have a license code, activate your copy of Capture One here."; ObjectID = "5db-lo-jOp"; */
+"5db-lo-jOp.title" = "如果你有一个许可证代码，在这里激活您的Capture One的副本。";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set with support for Fujifilm cameras only"; ObjectID = "7Tq-YB-19b"; */
+"7Tq-YB-19b.title" = "仅支持 Fujifilm 相机的全功能设置";
+
+/* Class = "NSTextFieldCell"; title = "Welcome to Capture One"; ObjectID = "9PV-u2-QhQ"; */
+"9PV-u2-QhQ.title" = "欢迎来到 Capture One";
+
+/* Class = "NSTextFieldCell"; title = "Select your version"; ObjectID = "9wB-00-OeE"; */
+"9wB-00-OeE.title" = "选择你的版本";
+
+/* Class = "NSButtonCell"; title = "Catalogs"; ObjectID = "77"; */
+"77.title" = "目录";
+
+/* Class = "NSButtonCell"; title = "Sessions"; ObjectID = "78"; */
+"78.title" = "会话";
+
+/* Class = "NSTextFieldCell"; title = "Workflow for single focus projects. Make one project for every job. Ideal for production and tethered shooting."; ObjectID = "172"; */
+"172.title" = "专注单一项目的工作流程。\n为每个工作创建一个项目。制作和连机拍摄的最佳选择。";
+
+/* Class = "NSTextFieldCell"; title = "Workflow for large projects. Store and organize everything in one place. Ideal for travel and archive."; ObjectID = "174"; */
+"174.title" = "大项目的工作流程。\n把所有的东西都储存在一个地方。旅行和存档最佳选择。";
+
+/* Class = "NSWindow"; title = "Software License"; ObjectID = "176"; */
+"176.title" = "软件许可";
+
+/* Class = "NSButtonCell"; title = "Accept"; ObjectID = "186"; */
+"186.title" = "接受";
+
+/* Class = "NSButtonCell"; title = "Print…"; ObjectID = "187"; */
+"187.title" = "打印…";
+
+/* Class = "NSButtonCell"; title = "I accept the terms and conditions of the license agreement"; ObjectID = "188"; */
+"188.title" = "我接受许可协议的条款和条件";
+
+/* Class = "NSButtonCell"; title = "Decline"; ObjectID = "189"; */
+"189.title" = "拒绝";
+
+/* Class = "NSButtonCell"; title = "More options"; ObjectID = "732-ZN-aJb"; */
+"732-ZN-aJb.title" = "更多的选择";
+
+/* Class = "NSTextFieldCell"; title = "Custom solutions for Cultural Heritage imaging"; ObjectID = "ASI-Va-Pu4"; */
+"ASI-Va-Pu4.title" = "Cultural Heritage 成像的定制解决方案";
+
+/* Class = "NSTextFieldCell"; title = "Free version of Capture One with support for Fujifilm cameras only"; ObjectID = "Ed6-Af-Adf"; */
+"Ed6-Af-Adf.title" = "免费版 Capture One 仅支持 Fujifilm 相机";
+
+/* Class = "NSButtonCell"; title = "Pro Fujifilm"; ObjectID = "Fmp-2x-kxc"; */
+"Fmp-2x-kxc.title" = "Pro Fujifilm";
+
+/* Class = "NSTextFieldCell"; title = "Welcome to Capture One"; ObjectID = "G0F-lI-uZd"; */
+"G0F-lI-uZd.title" = "欢迎来到 Capture One";
+
+/* Class = "NSButtonCell"; title = "Activate"; ObjectID = "j1w-c2-v6X"; */
+"j1w-c2-v6X.title" = "激活";
+
+/* Class = "NSTextFieldCell"; title = "Go to the Capture One online store"; ObjectID = "JFy-XW-NVj"; */
+"JFy-XW-NVj.title" = "前往 Capture One 的在线商店";
+
+/* Class = "NSTextFieldCell"; title = "Specialized versions of Capture One: Express, Enterprise, Cultural Heritage and DB"; ObjectID = "kV5-mT-JkY"; */
+"kV5-mT-JkY.title" = "Capture One的不同专业版：Express，Enterprise，Cultural Heritage,和 DB";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set with support for more than 500 cameras from Canon, Nikon, Sony, Fujifilm, and other brands"; ObjectID = "ljT-1b-b3f"; */
+"ljT-1b-b3f.title" = "功能齐全，支持 Canon，Nikon，Sony, Fujifilm 和其他品牌的500多款相机";
+
+/* Class = "NSTextFieldCell"; title = "Select your version"; ObjectID = "M78-T6-F8d"; */
+"M78-T6-F8d.title" = "选择你的版本";
+
+/* Class = "NSButtonCell"; title = "Pro"; ObjectID = "o4e-L5-dAz"; */
+"o4e-L5-dAz.title" = "Pro";
+
+/* Class = "NSTextFieldCell"; title = "Custom solutions for large corporations with high volume production needs"; ObjectID = "oFF-26-Zu2"; */
+"oFF-26-Zu2.title" = "为大批量生产需求的大型企业提供定制解决方案";
+
+/* Class = "NSButtonCell"; title = "Try"; ObjectID = "OUm-vL-mqC"; */
+"OUm-vL-mqC.title" = "试用";
+
+/* Class = "NSButtonCell"; title = "Express (for Sony)"; ObjectID = "p9N-mK-ToK"; */
+"p9N-mK-ToK.title" = "Express (for Sony)";
+
+/* Class = "NSTextFieldCell"; title = "What would you like to do?"; ObjectID = "pd5-3i-OO6"; */
+"pd5-3i-OO6.title" = "你喜欢怎样做？";
+
+/* Class = "NSButtonCell"; title = "Pro (for Sony)"; ObjectID = "PYn-Qq-HFo"; */
+"PYn-Qq-HFo.title" = "Pro (for Sony)";
+
+/* Class = "NSButtonCell"; title = "Enterprise"; ObjectID = "RcU-aM-4dh"; */
+"RcU-aM-4dh.title" = "Enterprise";
+
+/* Class = "NSTextFieldCell"; title = "Select the workflow that suits your needs"; ObjectID = "RQd-bq-sAR"; */
+"RQd-bq-sAR.title" = "选择适合你的需求的工作流程";
+
+/* Class = "NSButtonCell"; title = "Pro DB"; ObjectID = "uFv-SA-csp"; */
+"uFv-SA-csp.title" = "Pro DB";
+
+/* Class = "NSTextFieldCell"; title = "Not sure which to choose? You can create either at any time from the app File menu."; ObjectID = "UXQ-Pu-A6P"; */
+"UXQ-Pu-A6P.title" = "不确定选择哪一个？\n您可以随时通过程序文件菜单来创建。";
+
+/* Class = "NSButtonCell"; title = "Buy"; ObjectID = "Wbh-6O-qvw"; */
+"Wbh-6O-qvw.title" = "购买";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set with support for Sony cameras only"; ObjectID = "xvd-Km-RTH"; */
+"xvd-Km-RTH.title" = "仅支持 Sony 相机的全功能设置";
+
+/* Class = "NSTextFieldCell"; title = "Free version of Capture One with support for Sony cameras only"; ObjectID = "XzF-0y-LeO"; */
+"XzF-0y-LeO.title" = "免费版 Capture One 仅支持 Sony 相机";
+
+/* Class = "NSButtonCell"; title = "Cultural Heritage"; ObjectID = "Zrl-Sy-CKm"; */
+"Zrl-Sy-CKm.title" = "Cultural Heritage";
+

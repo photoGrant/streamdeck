@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PerspectiveInspectorTool">
+            <connections>
+                <outlet property="amountController" destination="tzg-cD-GnJ" id="WkU-xe-Hnh"/>
+                <outlet property="aspectController" destination="38L-xt-W86" id="yyv-RH-9C2"/>
+                <outlet property="container" destination="37" id="104"/>
+                <outlet property="horisontalCursorTool" destination="398" id="400"/>
+                <outlet property="horizontalController" destination="Bct-8b-xi5" id="9EA-dL-nPF"/>
+                <outlet property="rectCursorTool" destination="399" id="408"/>
+                <outlet property="verticalController" destination="ioS-Kz-fKq" id="n6f-Dv-vfe"/>
+                <outlet property="verticalCursorTool" destination="397" id="411"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="37" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView focusRingType="none" id="ioS-Kz-fKq" userLabel="Vertical Adjustments Control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="102" width="280" height="22"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Vertical" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="doubleValue">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+                <customView focusRingType="none" id="Bct-8b-xi5" userLabel="Horizontal Adjustments Control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="78" width="280" height="22"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Horizontal" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="doubleValue">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+                <customView focusRingType="none" id="tzg-cD-GnJ" userLabel="Amount Adjustments Control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="54" width="280" height="22"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Amount" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="doubleValue">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="minValue">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                            <real key="value" value="120"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+                <customView focusRingType="none" id="38L-xt-W86" userLabel="Aspect Adjustments Control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="30" width="280" height="22"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Aspect" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="doubleValue">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+                <customView id="397" customClass="PerspectiveVerticalCursorTool">
+                    <rect key="frame" x="175" y="4" width="35" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                </customView>
+                <customView id="398" customClass="PerspectiveHorizontalCursorTool">
+                    <rect key="frame" x="209" y="4" width="35" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                </customView>
+                <customView id="399" customClass="PerspectiveRectCursorTool">
+                    <rect key="frame" x="244" y="4" width="35" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                </customView>
+            </subviews>
+        </customView>
+    </objects>
+</document>

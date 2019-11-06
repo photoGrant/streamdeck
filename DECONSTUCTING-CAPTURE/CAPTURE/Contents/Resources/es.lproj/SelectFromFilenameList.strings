@@ -1,0 +1,18 @@
+/* Class = "NSTextFieldCell"; title = "Delimiter"; ObjectID = "2Bs-MM-k80"; */
+"2Bs-MM-k80.title" = "Delimitador";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "5tk-xg-8WC"; */
+"5tk-xg-8WC.title" = "Aceptar";
+
+/* Class = "NSButtonCell"; title = "Ignore file extension"; ObjectID = "6cw-EV-yfa"; */
+"6cw-EV-yfa.title" = "Ignorar extensión de archivo";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "Select By Filename List"; ObjectID = "hPj-MG-o1I"; */
+"hPj-MG-o1I.title" = "Selelccionar por Lista de Nombre de Archivo";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "HPU-Cz-Wh5"; */
+"HPU-Cz-Wh5.title" = "Cancelar";
+

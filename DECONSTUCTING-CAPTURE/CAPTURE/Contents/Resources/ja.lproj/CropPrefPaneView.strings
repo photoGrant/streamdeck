@@ -1,0 +1,45 @@
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "34"; */
+"34.title" = "常に";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "35"; */
+"35.title" = "しない";
+
+/* Class = "NSMenuItem"; title = "Except During Drag"; ObjectID = "36"; */
+"36.title" = "ドラッグ中を除く";
+
+/* Class = "NSMenuItem"; title = "When No Mask"; ObjectID = "43"; */
+"43.title" = "マスクがないとき";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "44"; */
+"44.title" = "常に";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "52"; */
+"52.title" = "常に";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "53"; */
+"53.title" = "しない";
+
+/* Class = "NSMenuItem"; title = "During Drag Only"; ObjectID = "54"; */
+"54.title" = "ドラッグ中のみ";
+
+/* Class = "NSTextFieldCell"; title = "Show:"; ObjectID = "449"; */
+"449.title" = "表示:";
+
+/* Class = "NSTextFieldCell"; title = "Show Frame:"; ObjectID = "450"; */
+"450.title" = "フレーム表示:";
+
+/* Class = "NSTextFieldCell"; title = "Show Labels:"; ObjectID = "451"; */
+"451.title" = "ラベル表示:";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "453"; */
+"453.title" = "不透明度:";
+
+/* Class = "NSTextFieldCell"; title = "Brightness:"; ObjectID = "455"; */
+"455.title" = "明るさ:";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "459"; */
+"459.title" = "デフォルト";
+
+/* Class = "NSTextFieldCell"; title = "Mask"; ObjectID = "ax2-Us-YFd"; */
+"ax2-Us-YFd.title" = "マスク";
+

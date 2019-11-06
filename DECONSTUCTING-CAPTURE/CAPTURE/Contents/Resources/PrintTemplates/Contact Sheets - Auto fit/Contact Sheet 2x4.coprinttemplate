@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PrintTemplate>
+  <Version>1</Version>
+  <Margin>
+    <Left>11.756054209812952</Left>
+    <Top>13.306744525027629</Top>
+    <Right>11.623963654953622</Right>
+    <Bottom>13.157230475814114</Bottom>
+  </Margin>
+  <Layout>
+    <ResizingRule>1</ResizingRule>
+    <Rows>4</Rows>
+    <Columns>2</Columns>
+    <RowsSpacing>0</RowsSpacing>
+    <ColumnsSpacing>0</ColumnsSpacing>
+    <CellHeight>291.10402272928172</CellHeight>
+    <CellWidth>409.14997596141552</CellWidth>
+    <CellBorder>5.0355100461989952</CellBorder>
+  </Layout>
+  <ImageOptions>
+    <ZoomToFill>false</ZoomToFill>
+    <RotateToFill>true</RotateToFill>
+    <RepeatOneImagePerPage>false</RepeatOneImagePerPage>
+  </ImageOptions>
+  <Annotation>
+    <Type>Filename</Type>
+    <FontName>Tahoma</FontName>
+    <FontSize>7.8</FontSize>
+    <ForegroundColor>Black</ForegroundColor>
+  </Annotation>
+  <Template>
+    <Name>Contact Sheet 2x4</Name>
+  </Template>
+</PrintTemplate>

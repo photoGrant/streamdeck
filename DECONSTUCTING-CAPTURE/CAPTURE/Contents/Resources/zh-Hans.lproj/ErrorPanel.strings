@@ -1,0 +1,27 @@
+/* Class = "NSWindow"; title = "Events"; ObjectID = "5"; */
+"5.title" = "事件";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "9"; */
+"9.headerCell.title" = "描述";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date"; ObjectID = "10"; */
+"10.headerCell.title" = "日期";
+
+/* Class = "NSButtonCell"; title = "Clear"; ObjectID = "67"; */
+"67.title" = "清除";
+
+/* Class = "NSButtonCell"; title = "Show All"; ObjectID = "68"; */
+"68.title" = "显示全部";
+
+/* Class = "NSButtonCell"; title = "Show panel for new events"; ObjectID = "69"; */
+"69.title" = "显示新事件的面板";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "70"; */
+"70.title" = "关闭";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "72"; */
+"72.title" = "文本单元格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "73"; */
+"73.title" = "文本单元格";
+

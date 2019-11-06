@@ -1,0 +1,30 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Depth of field"; ObjectID = "3q5-Qh-upk"; */
+"3q5-Qh-upk.ibShadowedToolTip" = "Profundidade de campo";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Menu";
+
+/* Class = "NSView"; 86u-ew-JY8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Orientation"; ObjectID = "86u-ew-JY8"; */
+"86u-ew-JY8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Orientação";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Depth of field"; ObjectID = "546"; */
+"546.ibShadowedToolTip" = "Profundidade de campo";
+
+/* Class = "NSButtonCell"; title = "DOF"; ObjectID = "547"; */
+"547.title" = "DOF";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "clarity"; ObjectID = "IRF-4f-LhB"; */
+"IRF-4f-LhB.ibExternalAccessibilityDescription" = "claridade";
+
+/* Class = "NSView"; IRF-4f-LhB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Lightness"; ObjectID = "IRF-4f-LhB"; */
+"IRF-4f-LhB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Luminosidade";
+
+/* Class = "NSMenuItem"; title = "Default"; ObjectID = "j1P-cW-C07"; */
+"j1P-cW-C07.title" = "Padrão";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "clarity"; ObjectID = "k4U-4f-oTq"; */
+"k4U-4f-oTq.ibExternalAccessibilityDescription" = "claridade";
+
+/* Class = "NSView"; k4U-4f-oTq.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Quality"; ObjectID = "k4U-4f-oTq"; */
+"k4U-4f-oTq.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Qualidade";
+

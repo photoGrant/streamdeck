@@ -1,0 +1,36 @@
+/* Class = "NSTextFieldCell"; title = "Plugin settings could not be retrieved"; ObjectID = "1Yr-RV-0u5"; */
+"1Yr-RV-0u5.title" = "無法檢索插件設置";
+
+/* Class = "NSTextFieldCell"; placeholderString = "The plugin is disabled"; ObjectID = "2K0-Lo-jkW"; */
+"2K0-Lo-jkW.placeholderString" = "插件已禁用";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "6oJ-Zo-5RH"; */
+"6oJ-Zo-5RH.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "afd-fn-Nwa"; */
+"afd-fn-Nwa.title" = "文本單元格";
+
+/* Class = "NSButtonCell"; title = "Get more plugins"; ObjectID = "AQe-BF-01j"; */
+"AQe-BF-01j.title" = "取得更多插件";
+
+/* Class = "NSTextFieldCell"; title = "This plugin cannot be disabled"; ObjectID = "Caa-Gd-7FD"; */
+"Caa-Gd-7FD.title" = "這個插件不能被禁用";
+
+/* Class = "NSButtonCell"; title = "Retry"; ObjectID = "gwp-l7-MK4"; */
+"gwp-l7-MK4.title" = "重試";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Plugin title"; ObjectID = "igc-ub-fRc"; */
+"igc-ub-fRc.placeholderString" = "插件標題";
+
+/* Class = "NSButtonCell"; title = "Enabled"; ObjectID = "nSU-Y8-Mzj"; */
+"nSU-Y8-Mzj.title" = "已啓用";
+
+/* Class = "NSTextFieldCell"; placeholderString = "No plugin selected"; ObjectID = "ULK-kh-QlX"; */
+"ULK-kh-QlX.placeholderString" = "沒有選取插件";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Features"; ObjectID = "w0j-dk-XuD"; */
+"w0j-dk-XuD.placeholderString" = "功能";
+
+/* Class = "NSTextFieldCell"; placeholderString = "This plugin has no customizable settings"; ObjectID = "Yel-ev-2hj"; */
+"Yel-ev-2hj.placeholderString" = "這個插件沒有自定的設置";
+

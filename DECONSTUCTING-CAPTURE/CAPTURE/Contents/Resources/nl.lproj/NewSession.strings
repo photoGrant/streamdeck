@@ -1,0 +1,36 @@
+/* Class = "NSWindow"; title = "New Session"; ObjectID = "1"; */
+"1.title" = "Nieuwe Sessie";
+
+/* Class = "NSTextFieldCell"; title = "Template:"; ObjectID = "46"; */
+"46.title" = "Sjabloon:";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "47"; */
+"47.title" = "Locatie:";
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "48"; */
+"48.title" = "Naam:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "54"; */
+"54.title" = "Annuleer";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "55"; */
+"55.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Capture Subfolder:"; ObjectID = "91"; */
+"91.title" = "Submap Opname:";
+
+/* Class = "NSTextFieldCell"; title = "Output Subfolder:"; ObjectID = "96"; */
+"96.title" = "Submap Uitvoer:";
+
+/* Class = "NSTextFieldCell"; title = "Selects Subfolder:"; ObjectID = "100"; */
+"100.title" = "Submap Selectie:";
+
+/* Class = "NSTextFieldCell"; title = "Trash Subfolder:"; ObjectID = "104"; */
+"104.title" = "Submap Prullenbak:";
+
+/* Class = "NSButtonCell"; title = "Open in new window"; ObjectID = "147"; */
+"147.title" = "Openen in nieuw venster";
+
+/* Class = "NSTextFieldCell"; title = "Capture Name:"; ObjectID = "151"; */
+"151.title" = "Naam opname:";
+

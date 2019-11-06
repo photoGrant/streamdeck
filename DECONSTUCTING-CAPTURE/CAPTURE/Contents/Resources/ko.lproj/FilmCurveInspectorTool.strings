@@ -1,0 +1,60 @@
+/* Class = "NSWindow"; title = "Film Curve Editor"; ObjectID = "6"; */
+"6.title" = "필름 커브 편집기";
+
+/* Class = "NSBox"; title = "Legend"; ObjectID = "63"; */
+"63.title" = "Legend";
+
+/* Class = "NSTextFieldCell"; title = "Final Curve"; ObjectID = "65"; */
+"65.title" = "Final Curve";
+
+/* Class = "NSTextFieldCell"; title = "CCD Curve"; ObjectID = "67"; */
+"67.title" = "CCD Curve";
+
+/* Class = "NSTextFieldCell"; title = "Response Curve"; ObjectID = "69"; */
+"69.title" = "Response Curve";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "76"; */
+"76.title" = "상자";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "77"; */
+"77.title" = "상자";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "78"; */
+"78.title" = "상자";
+
+/* Class = "NSTextFieldCell"; title = "Camera Name"; ObjectID = "125"; */
+"125.title" = "카메라 이름";
+
+/* Class = "NSButtonCell"; title = "Load Film Curve..."; ObjectID = "192"; */
+"192.title" = "Load Film Curve...";
+
+/* Class = "NSTextFieldCell"; title = "Curve Name"; ObjectID = "197"; */
+"197.title" = "Curve Name";
+
+/* Class = "NSButtonCell"; title = "Load Response..."; ObjectID = "199"; */
+"199.title" = "Load Response...";
+
+/* Class = "NSButtonCell"; title = "Load CCD..."; ObjectID = "201"; */
+"201.title" = "Load CCD...";
+
+/* Class = "NSButtonCell"; title = "Save CCD..."; ObjectID = "205"; */
+"205.title" = "Save CCD...";
+
+/* Class = "NSButtonCell"; title = "Save Response..."; ObjectID = "206"; */
+"206.title" = "Save Response...";
+
+/* Class = "NSButtonCell"; title = "Save Film Curve..."; ObjectID = "207"; */
+"207.title" = "Save Film Curve...";
+
+/* Class = "NSButtonCell"; title = "Scientific"; ObjectID = "g4V-XJ-e0Q"; */
+"g4V-XJ-e0Q.title" = "과학적";
+
+/* Class = "NSButtonCell"; title = "Auto"; ObjectID = "hF6-kM-hIm"; */
+"hF6-kM-hIm.title" = "자동";
+
+/* Class = "NSButtonCell"; title = "Negative"; ObjectID = "uoO-RY-fgM"; */
+"uoO-RY-fgM.title" = "음성";
+
+/* Class = "NSButtonCell"; title = "From File"; ObjectID = "x2a-dj-s5A"; */
+"x2a-dj-s5A.title" = "파일에서 사용";
+

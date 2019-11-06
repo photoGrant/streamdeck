@@ -1,0 +1,12 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Add export folder to Session Favorites"; ObjectID = "44"; */
+"44.ibShadowedToolTip" = "添加導出文件夾到會話收藏";
+
+/* Class = "NSButtonCell"; title = "Add folder to Session Favorites"; ObjectID = "45"; */
+"45.title" = "添加文件夾到會話收藏";
+
+/* Class = "NSButtonCell"; title = "Notify When Completed"; ObjectID = "D6J-Pd-7v1"; */
+"D6J-Pd-7v1.title" = "完成時通知";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Notify when export is completed"; ObjectID = "fg5-i7-ppQ"; */
+"fg5-i7-ppQ.ibShadowedToolTip" = "導出完成時通知";
+

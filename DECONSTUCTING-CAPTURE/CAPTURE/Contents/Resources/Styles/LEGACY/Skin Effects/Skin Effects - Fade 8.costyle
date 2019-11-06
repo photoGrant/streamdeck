@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="BwBlue" V="-7.831" />
+  <E K="BwYellow" V="2.083" />
+  <E K="BwRed" V="100.000" />
+  <E K="BwCyan" V="0.000" />
+  <E K="BwMagenta" V="0.000" />
+  <E K="BwGreen" V="0.000" />
+  <E K="BwEnabled" V="1" />
+  <E K="Contrast" V="22.656" />
+  <E K="HighlightRecovery" V="0.000" />
+  <E K="Name" V="Skin Effects - Fade 8" />
+  <E K="UUID" V="0c083cbb-8174-4b5f-b68d-15a646160c70" />
+  <E K="StyleSource" V="Styles" />
+</SL>

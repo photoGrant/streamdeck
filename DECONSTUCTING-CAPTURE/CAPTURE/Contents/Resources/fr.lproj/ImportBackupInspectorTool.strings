@@ -1,0 +1,12 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "49"; */
+"49.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "50"; */
+"50.title" = "Outil de réinitialisation";
+
+/* Class = "NSButtonCell"; title = "Backup Enabled"; ObjectID = "70"; */
+"70.title" = "Sauvegarde disponible";
+
+/* Class = "NSView"; lYc-ey-etb.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Location"; ObjectID = "lYc-ey-etb"; */
+"lYc-ey-etb.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Emplacement";
+

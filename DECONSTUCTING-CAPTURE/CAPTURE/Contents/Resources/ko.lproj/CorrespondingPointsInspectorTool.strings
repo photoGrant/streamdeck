@@ -1,0 +1,15 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Delete Selected Spot"; ObjectID = "36"; */
+"36.ibShadowedToolTip" = "선택한 스폿 삭제";
+
+/* Class = "NSButtonCell"; title = "Add points for me"; ObjectID = "64"; */
+"64.title" = "포인트 추가";
+
+/* Class = "NSView"; ibShadowedToolTip = "Spot removal"; ObjectID = "95"; */
+"95.ibShadowedToolTip" = "스폿 제거";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Delete Selected Spot"; ObjectID = "128"; */
+"128.ibShadowedToolTip" = "선택한 스폿 삭제";
+
+/* Class = "NSButtonCell"; title = "Analyze"; ObjectID = "129"; */
+"129.title" = "분석";
+

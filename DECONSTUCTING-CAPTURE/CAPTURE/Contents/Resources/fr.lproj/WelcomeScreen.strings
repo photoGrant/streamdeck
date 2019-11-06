@@ -1,0 +1,117 @@
+/* Class = "NSButtonCell"; title = "Express Fujifilm"; ObjectID = "1lY-4A-L8N"; */
+"1lY-4A-L8N.title" = "Express Fujifilm";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set free to use for Phase One camera owners"; ObjectID = "2t8-ed-tAH"; */
+"2t8-ed-tAH.title" = "Toutes les fonctionnalités gratuites d’accès pour les propriétaires d’un appareil Phase One";
+
+/* Class = "NSTextFieldCell"; title = "If you have a license code, activate your copy of Capture One here."; ObjectID = "5db-lo-jOp"; */
+"5db-lo-jOp.title" = "Si vous avez un code licence, activer votre copie de Capture One ici.";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set with support for Fujifilm cameras only"; ObjectID = "7Tq-YB-19b"; */
+"7Tq-YB-19b.title" = "Toutes les fonctionnalités avec prise en charge des appareils photo Fujifilm uniquement";
+
+/* Class = "NSTextFieldCell"; title = "Welcome to Capture One"; ObjectID = "9PV-u2-QhQ"; */
+"9PV-u2-QhQ.title" = "Bienvenue sur Capture One";
+
+/* Class = "NSTextFieldCell"; title = "Select your version"; ObjectID = "9wB-00-OeE"; */
+"9wB-00-OeE.title" = "Sélectionnez votre version";
+
+/* Class = "NSButtonCell"; title = "Catalogs"; ObjectID = "77"; */
+"77.title" = "Catalogues";
+
+/* Class = "NSButtonCell"; title = "Sessions"; ObjectID = "78"; */
+"78.title" = "Sessions";
+
+/* Class = "NSTextFieldCell"; title = "Workflow for single focus projects. Make one project for every job. Ideal for production and tethered shooting."; ObjectID = "172"; */
+"172.title" = "Flux de traval pour un projet unique.\nCrée un projet par mandat. Idéal pour la production et les shootings connectés";
+
+/* Class = "NSTextFieldCell"; title = "Workflow for large projects. Store and organize everything in one place. Ideal for travel and archive."; ObjectID = "174"; */
+"174.title" = "Flux de travail pour grands projets.\nStockez et organisez tout à un seul endroit. Idéal pour le voyage et les archives.";
+
+/* Class = "NSWindow"; title = "Software License"; ObjectID = "176"; */
+"176.title" = "Licence du logiciel";
+
+/* Class = "NSButtonCell"; title = "Accept"; ObjectID = "186"; */
+"186.title" = "Accepter";
+
+/* Class = "NSButtonCell"; title = "Print…"; ObjectID = "187"; */
+"187.title" = "Imprimer…";
+
+/* Class = "NSButtonCell"; title = "I accept the terms and conditions of the license agreement"; ObjectID = "188"; */
+"188.title" = "J'accepte les termes et conditions du contrat de licence";
+
+/* Class = "NSButtonCell"; title = "Decline"; ObjectID = "189"; */
+"189.title" = "Refuser";
+
+/* Class = "NSButtonCell"; title = "More options"; ObjectID = "732-ZN-aJb"; */
+"732-ZN-aJb.title" = "Plus d’options";
+
+/* Class = "NSTextFieldCell"; title = "Custom solutions for Cultural Heritage imaging"; ObjectID = "ASI-Va-Pu4"; */
+"ASI-Va-Pu4.title" = "Solutions sur mesure pour l’imagerie Cultural Heritage";
+
+/* Class = "NSTextFieldCell"; title = "Free version of Capture One with support for Fujifilm cameras only"; ObjectID = "Ed6-Af-Adf"; */
+"Ed6-Af-Adf.title" = "Version gratuite de Capture One avec prise en charge des appareils photo Fujifilm uniquement";
+
+/* Class = "NSButtonCell"; title = "Pro Fujifilm"; ObjectID = "Fmp-2x-kxc"; */
+"Fmp-2x-kxc.title" = "Pro Fujifilm";
+
+/* Class = "NSTextFieldCell"; title = "Welcome to Capture One"; ObjectID = "G0F-lI-uZd"; */
+"G0F-lI-uZd.title" = "Bienvenue sur Capture One";
+
+/* Class = "NSButtonCell"; title = "Activate"; ObjectID = "j1w-c2-v6X"; */
+"j1w-c2-v6X.title" = "Activer";
+
+/* Class = "NSTextFieldCell"; title = "Go to the Capture One online store"; ObjectID = "JFy-XW-NVj"; */
+"JFy-XW-NVj.title" = "Se rendre à la boutique en ligne Capture One";
+
+/* Class = "NSTextFieldCell"; title = "Specialized versions of Capture One: Express, Enterprise, Cultural Heritage and DB"; ObjectID = "kV5-mT-JkY"; */
+"kV5-mT-JkY.title" = "Versions spécialisées de Capture One: Express, Enterprise, Cultural Heritage, et DB";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set with support for more than 500 cameras from Canon, Nikon, Sony, Fujifilm, and other brands"; ObjectID = "ljT-1b-b3f"; */
+"ljT-1b-b3f.title" = "Toutes les fonctionnalités avec prise en charge de plus de 500 appareils photo de Canon, Nikon, Sony, Fujifilm et d’autres marques";
+
+/* Class = "NSTextFieldCell"; title = "Select your version"; ObjectID = "M78-T6-F8d"; */
+"M78-T6-F8d.title" = "Sélectionnez votre version";
+
+/* Class = "NSButtonCell"; title = "Pro"; ObjectID = "o4e-L5-dAz"; */
+"o4e-L5-dAz.title" = "Pro";
+
+/* Class = "NSTextFieldCell"; title = "Custom solutions for large corporations with high volume production needs"; ObjectID = "oFF-26-Zu2"; */
+"oFF-26-Zu2.title" = "Solutions sur mesure pour les grandes entreprises avec de gros volumes de productions";
+
+/* Class = "NSButtonCell"; title = "Try"; ObjectID = "OUm-vL-mqC"; */
+"OUm-vL-mqC.title" = "Essayer";
+
+/* Class = "NSButtonCell"; title = "Express (for Sony)"; ObjectID = "p9N-mK-ToK"; */
+"p9N-mK-ToK.title" = "Express (for Sony)";
+
+/* Class = "NSTextFieldCell"; title = "What would you like to do?"; ObjectID = "pd5-3i-OO6"; */
+"pd5-3i-OO6.title" = "Que souhaitez vous faire ?";
+
+/* Class = "NSButtonCell"; title = "Pro (for Sony)"; ObjectID = "PYn-Qq-HFo"; */
+"PYn-Qq-HFo.title" = "Pro (for Sony)";
+
+/* Class = "NSButtonCell"; title = "Enterprise"; ObjectID = "RcU-aM-4dh"; */
+"RcU-aM-4dh.title" = "Enterprise";
+
+/* Class = "NSTextFieldCell"; title = "Select the workflow that suits your needs"; ObjectID = "RQd-bq-sAR"; */
+"RQd-bq-sAR.title" = "Sélectionnez le flux de travail qui correspond à vos besoins";
+
+/* Class = "NSButtonCell"; title = "Pro DB"; ObjectID = "uFv-SA-csp"; */
+"uFv-SA-csp.title" = "Pro DB";
+
+/* Class = "NSTextFieldCell"; title = "Not sure which to choose? You can create either at any time from the app File menu."; ObjectID = "UXQ-Pu-A6P"; */
+"UXQ-Pu-A6P.title" = "Pas sûr du quel choisir?\nVous pouvez en créer à n’importe quel moment à partir du menu Fichier.";
+
+/* Class = "NSButtonCell"; title = "Buy"; ObjectID = "Wbh-6O-qvw"; */
+"Wbh-6O-qvw.title" = "Acheter";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set with support for Sony cameras only"; ObjectID = "xvd-Km-RTH"; */
+"xvd-Km-RTH.title" = "Toutes les fonctionnalités avec prise en charge des appareils photo Sony uniquement";
+
+/* Class = "NSTextFieldCell"; title = "Free version of Capture One with support for Sony cameras only"; ObjectID = "XzF-0y-LeO"; */
+"XzF-0y-LeO.title" = "Version gratuite de Capture One avec prise en charge des appareils photo Sony uniquement";
+
+/* Class = "NSButtonCell"; title = "Cultural Heritage"; ObjectID = "Zrl-Sy-CKm"; */
+"Zrl-Sy-CKm.title" = "Cultural Heritage";
+

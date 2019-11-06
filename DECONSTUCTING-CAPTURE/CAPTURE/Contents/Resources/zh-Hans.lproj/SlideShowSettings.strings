@@ -1,0 +1,45 @@
+/* Class = "NSWindow"; title = "Slide Show Settings"; ObjectID = "1"; */
+"1.title" = "幻灯片显示 设置";
+
+/* Class = "NSMenuItem"; title = "Fade"; ObjectID = "34"; */
+"34.title" = "褪去";
+
+/* Class = "NSMenuItem"; title = "Move In"; ObjectID = "35"; */
+"35.title" = "移入";
+
+/* Class = "NSTextFieldCell"; title = "Transition"; ObjectID = "36"; */
+"36.title" = "翻译";
+
+/* Class = "NSMenuItem"; title = "Push"; ObjectID = "40"; */
+"40.title" = "推动";
+
+/* Class = "NSMenuItem"; title = "Reveal"; ObjectID = "41"; */
+"41.title" = "露出";
+
+/* Class = "NSMenuItem"; title = "Dissolve"; ObjectID = "42"; */
+"42.title" = "溶解";
+
+/* Class = "NSMenuItem"; title = "Mod"; ObjectID = "43"; */
+"43.title" = "模";
+
+/* Class = "NSMenuItem"; title = "Swipe"; ObjectID = "44"; */
+"44.title" = "擦过";
+
+/* Class = "NSTextFieldCell"; title = "Slide Duration"; ObjectID = "56"; */
+"56.title" = "幻灯片 长短";
+
+/* Class = "NSButtonCell"; title = "Loop"; ObjectID = "69"; */
+"69.title" = "循环";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "73"; */
+"73.title" = "默认设置";
+
+/* Class = "NSMenuItem"; title = "Disintegrate"; ObjectID = "90"; */
+"90.title" = "粉碎";
+
+/* Class = "NSMenuItem"; title = "Page Curl"; ObjectID = "91"; */
+"91.title" = "页面弯曲";
+
+/* Class = "NSMenuItem"; title = "Ripple"; ObjectID = "92"; */
+"92.title" = "波纹";
+

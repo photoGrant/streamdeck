@@ -1,0 +1,24 @@
+/* Class = "NSTextFieldCell"; title = "Space Left"; ObjectID = "6If-eD-nku"; */
+"6If-eD-nku.title" = "Spazio Residuo";
+
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "50"; */
+"50.title" = "Resetta Strumento";
+
+/* Class = "NSButtonCell"; title = "Back up new captures"; ObjectID = "70"; */
+"70.title" = "Back up nuove acquisizioni";
+
+/* Class = "NSTextFieldCell"; title = "Sample Path"; ObjectID = "aRy-kV-bIu"; */
+"aRy-kV-bIu.title" = "Percorso del Campione";
+
+/* Class = "NSMenuItem"; title = "Clear Queue"; ObjectID = "b3X-AC-dIa"; */
+"b3X-AC-dIa.title" = "Cancella Coda";
+
+/* Class = "NSButtonCell"; title = "Start"; ObjectID = "Dqg-vt-FmI"; */
+"Dqg-vt-FmI.title" = "Inizia";
+
+/* Class = "NSTextFieldCell"; title = "Next Capture Backup is only supported in Sessions."; ObjectID = "Lob-WL-87P"; */
+"Lob-WL-87P.title" = "Prossimo Backup Acquisizioni supportato solo nelle Sessioni.";
+
+/* Class = "NSView"; lYc-ey-etb.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Location"; ObjectID = "lYc-ey-etb"; */
+"lYc-ey-etb.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Posizione";
+

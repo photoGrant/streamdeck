@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL>
+  <E K="USMAmount" V="130.000" />
+  <E K="USMRadius" V="1.300" />
+  <E K="USMThreshold" V="1.000" />
+  <E K="Name" V="Version 3.7 - standard look" />
+  <E K="UUID" V="{db9d6565-a1a7-4777-9398-882d5511af78}" />
+  <E K="StyleSource" V="Sharpening" />
+</SL>

@@ -1,0 +1,30 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Depth of field"; ObjectID = "3q5-Qh-upk"; */
+"3q5-Qh-upk.ibShadowedToolTip" = "Глубина резкости";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Меню";
+
+/* Class = "NSView"; 86u-ew-JY8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Orientation"; ObjectID = "86u-ew-JY8"; */
+"86u-ew-JY8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Ориентация";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Depth of field"; ObjectID = "546"; */
+"546.ibShadowedToolTip" = "Глубина резкости";
+
+/* Class = "NSButtonCell"; title = "DOF"; ObjectID = "547"; */
+"547.title" = "ГРИП";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "clarity"; ObjectID = "IRF-4f-LhB"; */
+"IRF-4f-LhB.ibExternalAccessibilityDescription" = "четкость";
+
+/* Class = "NSView"; IRF-4f-LhB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Lightness"; ObjectID = "IRF-4f-LhB"; */
+"IRF-4f-LhB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Яркость";
+
+/* Class = "NSMenuItem"; title = "Default"; ObjectID = "j1P-cW-C07"; */
+"j1P-cW-C07.title" = "По умолчанию";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "clarity"; ObjectID = "k4U-4f-oTq"; */
+"k4U-4f-oTq.ibExternalAccessibilityDescription" = "четкость";
+
+/* Class = "NSView"; k4U-4f-oTq.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Quality"; ObjectID = "k4U-4f-oTq"; */
+"k4U-4f-oTq.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Качество";
+

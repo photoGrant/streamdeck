@@ -1,0 +1,237 @@
+/* Class = "NSTabViewItem"; label = "Collections"; ObjectID = "135"; */
+"135.label" = "Raccolte";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "142"; */
+"142.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Add to Favorites"; ObjectID = "143"; */
+"143.title" = "Aggiungi ai Preferiti";
+
+/* Class = "NSMenuItem"; title = "Show in Library"; ObjectID = "145"; */
+"145.title" = "Mostra nella Libreria";
+
+/* Class = "NSMenuItem"; title = "Delete Collection"; ObjectID = "157"; */
+"157.title" = "Elimina Raccolta";
+
+/* Class = "NSMenuItem"; title = "Set as Capture Folder"; ObjectID = "160"; */
+"160.title" = "Imposta come Cartella Acquisizioni";
+
+/* Class = "NSMenuItem"; title = "Set as Selects Folder"; ObjectID = "162"; */
+"162.title" = "Imposta come Cartella Selezioni";
+
+/* Class = "NSMenuItem"; title = "Show Info"; ObjectID = "164"; */
+"164.title" = "Mostra informazioni";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "200"; */
+"200.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "274"; */
+"274.title" = "Tipo:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "275"; */
+"275.title" = "Tipo:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "276"; */
+"276.title" = "Tipo:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "277"; */
+"277.title" = "Tipo:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "278"; */
+"278.title" = "Tipo:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "279"; */
+"279.title" = "Tipo:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "280"; */
+"280.title" = "Tipo:";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "281"; */
+"281.title" = "Cartella";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "282"; */
+"282.title" = "Cartella";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "283"; */
+"283.title" = "Cartella";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "284"; */
+"284.title" = "Cartella";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "285"; */
+"285.title" = "Cartella";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "286"; */
+"286.title" = "Cartella";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "287"; */
+"287.title" = "Cartella";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "290"; */
+"290.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Absolute"; ObjectID = "292"; */
+"292.title" = "Assoluto";
+
+/* Class = "NSMenuItem"; title = "Relative to session"; ObjectID = "293"; */
+"293.title" = "Relativo alla sessione";
+
+/* Class = "NSMenuItem"; title = "Import From Selected Folder"; ObjectID = "302"; */
+"302.title" = "Importa da Cartella Selezionata";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "307"; */
+"307.title" = "Mostra nel Finder";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "311"; */
+"311.title" = "Rinomina";
+
+/* Class = "NSMenuItem"; title = "Set as Output Folder"; ObjectID = "313"; */
+"313.title" = "Imposta come Cartella di Output";
+
+/* Class = "NSMenuItem"; title = "Set as Session Trash Folder"; ObjectID = "342"; */
+"342.title" = "Imposta come Cartella Cestino di Sessione";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Switch Session"; ObjectID = "457"; */
+"457.ibShadowedToolTip" = "Cambia Sessione";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "459"; */
+"459.title" = "OtherViews";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New Session..."; ObjectID = "486"; */
+"486.ibShadowedToolTip" = "Nuova Sessione...";
+
+/* Class = "NSTextFieldCell"; title = "No Selection"; ObjectID = "543"; */
+"543.title" = "Nessuna selezione";
+
+/* Class = "NSButtonCell"; title = "Locate..."; ObjectID = "544"; */
+"544.title" = "Individuazione...";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "552"; */
+"552.title" = "Tipo:";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "553"; */
+"553.title" = "Cartella";
+
+/* Class = "NSMenuItem"; title = "Empty Session Trash"; ObjectID = "557"; */
+"557.title" = "Svuota Cestino Sessione";
+
+/* Class = "NSMenuItem"; title = "Edit Smart Album"; ObjectID = "568"; */
+"568.title" = "Modifica Album Intelligente";
+
+/* Class = "NSMenuItem"; title = "Export"; ObjectID = "624"; */
+"624.title" = "Esporta";
+
+/* Class = "NSMenu"; title = "Export"; ObjectID = "628"; */
+"628.title" = "Esporta";
+
+/* Class = "NSMenuItem"; title = "Originals…"; ObjectID = "629"; */
+"629.title" = "Originali...";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "696"; */
+"696.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Export Images"; ObjectID = "699"; */
+"699.title" = "Esporta Immagini";
+
+/* Class = "NSMenuItem"; title = "Edit Collection"; ObjectID = "702"; */
+"702.title" = "Modifica Raccolta";
+
+/* Class = "NSMenuItem"; title = "Empty Catalog Trash"; ObjectID = "703"; */
+"703.title" = "Svuota Cestino Catalogo";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "708"; */
+"708.title" = "Rinomina";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "710"; */
+"710.title" = "Mostra nel Finder";
+
+/* Class = "NSMenuItem"; title = "Show Info"; ObjectID = "716"; */
+"716.title" = "Mostra informazioni";
+
+/* Class = "NSMenuItem"; title = "Set as Selects Collection"; ObjectID = "718"; */
+"718.title" = "Imposta come Raccolta Selezioni";
+
+/* Class = "NSMenuItem"; title = "Set as Capture Collection"; ObjectID = "719"; */
+"719.title" = "Imposta come Raccolta Acquisizioni";
+
+/* Class = "NSMenuItem"; title = "Delete Collection"; ObjectID = "721"; */
+"721.title" = "Elimina Raccolta";
+
+/* Class = "NSMenu"; title = "Export Images"; ObjectID = "725"; */
+"725.title" = "Esporta Immagini";
+
+/* Class = "NSMenuItem"; title = "Originals…"; ObjectID = "726"; */
+"726.title" = "Originali...";
+
+/* Class = "NSMenuItem"; title = "Show Folders Hierarchy"; ObjectID = "818"; */
+"818.title" = "Mostra Gerarchia Cartelle";
+
+/* Class = "NSMenuItem"; title = "Locate..."; ObjectID = "823"; */
+"823.title" = "Individuazione...";
+
+/* Class = "NSMenuItem"; title = "Sort By Name"; ObjectID = "827"; */
+"827.title" = "Ordina per Nome";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "866"; */
+"866.title" = "Nuovo";
+
+/* Class = "NSMenu"; title = "New"; ObjectID = "867"; */
+"867.title" = "Nuovo";
+
+/* Class = "NSMenuItem"; title = "New Album"; ObjectID = "869"; */
+"869.title" = "Nuovo Album";
+
+/* Class = "NSMenuItem"; title = "New Smart Album..."; ObjectID = "871"; */
+"871.title" = "Nuovo Album Intelligente…";
+
+/* Class = "NSMenuItem"; title = "New Project"; ObjectID = "873"; */
+"873.title" = "Nuovo Progetto";
+
+/* Class = "NSMenuItem"; title = "New Group"; ObjectID = "875"; */
+"875.title" = "Nuovo Gruppo";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "879"; */
+"879.title" = "Nuovo";
+
+/* Class = "NSMenu"; title = "New"; ObjectID = "880"; */
+"880.title" = "Nuovo";
+
+/* Class = "NSMenuItem"; title = "New Album"; ObjectID = "882"; */
+"882.title" = "Nuovo Album";
+
+/* Class = "NSMenuItem"; title = "New Smart Album..."; ObjectID = "884"; */
+"884.title" = "Nuovo Album Intelligente…";
+
+/* Class = "NSMenuItem"; title = "Folder"; ObjectID = "886"; */
+"886.title" = "Cartella";
+
+/* Class = "NSMenuItem"; title = "Add Folder..."; ObjectID = "896"; */
+"896.title" = "Aggiunge Cartella...";
+
+/* Class = "NSMenuItem"; title = "Hide Info"; ObjectID = "901"; */
+"901.title" = "Nascondi Info";
+
+/* Class = "NSMenuItem"; title = "Variants…"; ObjectID = "916"; */
+"916.title" = "Varianti...";
+
+/* Class = "NSMenuItem"; title = "Variants…"; ObjectID = "919"; */
+"919.title" = "Varianti...";
+
+/* Class = "NSMenuItem"; title = "Sort Albums and Favorites By Name"; ObjectID = "921"; */
+"921.title" = "Oridina gli Album e i Preferiti per Nome";
+
+/* Class = "NSMenuItem"; title = "Synchronize..."; ObjectID = "924"; */
+"924.title" = "Sincronizza...";
+
+/* Class = "NSMenuItem"; title = "Export as Catalog..."; ObjectID = "927"; */
+"927.title" = "Esporta come Catalogo...";
+
+/* Class = "NSMenuItem"; title = "Import"; ObjectID = "931"; */
+"931.title" = "Importa";
+
+/* Class = "NSMenu"; title = "Import"; ObjectID = "932"; */
+"932.title" = "Importa";
+
+/* Class = "NSMenuItem"; title = "Import To Selected Folder"; ObjectID = "934"; */
+"934.title" = "Importa in Cartella Selezionata";
+

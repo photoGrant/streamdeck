@@ -1,0 +1,15 @@
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "6"; */
+"6.title" = "Wartości domyślne";
+
+/* Class = "NSTextFieldCell"; title = "Threshold:"; ObjectID = "10"; */
+"10.title" = "Próg:";
+
+/* Class = "NSTextFieldCell"; title = "Focus Mask"; ObjectID = "14"; */
+"14.title" = "Maska ostrości";
+
+/* Class = "NSTextFieldCell"; title = "Color:"; ObjectID = "17"; */
+"17.title" = "Kolor:";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "30"; */
+"30.title" = "Krycie:";
+

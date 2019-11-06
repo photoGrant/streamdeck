@@ -1,0 +1,30 @@
+/* Class = "NSButtonCell"; title = "Follow Crop"; ObjectID = "3fy-wT-w0f"; */
+"3fy-wT-w0f.title" = "Ausschitt berücksichtigen";
+
+/* Class = "NSButtonCell"; title = "Show"; ObjectID = "4UC-Bs-1RC"; */
+"4UC-Bs-1RC.title" = "Anzeigen";
+
+/* Class = "NSMenuItem"; title = "Golden Ratio"; ObjectID = "9Wv-Ma-FZX"; */
+"9Wv-Ma-FZX.title" = "Goldener Schnitt";
+
+/* Class = "NSTextFieldCell"; title = "Long Edge"; ObjectID = "b9P-fk-n4H"; */
+"b9P-fk-n4H.title" = "Lange Kante";
+
+/* Class = "NSMenuItem"; title = "Rectangular"; ObjectID = "c4c-3a-31D"; */
+"c4c-3a-31D.title" = "Rechteckig";
+
+/* Class = "NSButtonCell"; title = "Mirror"; ObjectID = "JxO-Fy-Cxn"; */
+"JxO-Fy-Cxn.title" = "Spiegeln";
+
+/* Class = "NSMenuItem"; title = "Fibonacci Spiral"; ObjectID = "PJO-d3-1pb"; */
+"PJO-d3-1pb.title" = "Fibonacci-Spirale";
+
+/* Class = "NSTextFieldCell"; title = "Short Edge"; ObjectID = "Qb1-Us-3KQ"; */
+"Qb1-Us-3KQ.title" = "Kurze Kante";
+
+/* Class = "NSButtonCell"; title = "Clockwise"; ObjectID = "QnI-nk-lDL"; */
+"QnI-nk-lDL.title" = "Uhrzeigersinn";
+
+/* Class = "NSView"; w5L-CQ-ge0.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Type"; ObjectID = "w5L-CQ-ge0"; */
+"w5L-CQ-ge0.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Typ";
+

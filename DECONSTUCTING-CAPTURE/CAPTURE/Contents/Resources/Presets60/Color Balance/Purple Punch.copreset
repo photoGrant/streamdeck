@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SL Engine="800">
+  <E K="ColorBalance" V="1.000000;1.000000;1.000000"/>
+  <E K="ColorBalanceHighlight" V="1.048878;1.020558;1.003798"/>
+  <E K="ColorBalanceMidtone" V="0.908280;0.889526;0.862290"/>
+  <E K="ColorBalanceShadow" V="0.834786;0.832568;0.915210"/>
+  <E K="Name" V="Purple Punch"/>
+  <E K="UUID" V="101117CC-BE2B-4973-A750-9E2A2725A490"/>
+</SL>
+

@@ -1,0 +1,30 @@
+/* Class = "NSButtonCell"; title = "Display mask"; ObjectID = "8lq-h0-SFd"; */
+"8lq-h0-SFd.title" = "Mostra maschera";
+
+/* Class = "NSTextFieldCell"; title = "Range"; ObjectID = "a54-hW-ls3"; */
+"a54-hW-ls3.title" = "Intervallo";
+
+/* Class = "NSButtonCell"; title = "Remove"; ObjectID = "aF3-Qm-EPZ"; */
+"aF3-Qm-EPZ.title" = "Rimuovi";
+
+/* Class = "NSView"; aMi-BY-toh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "aMi-BY-toh"; */
+"aMi-BY-toh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Raggio";
+
+/* Class = "NSWindow"; title = "Luma Range"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Gamma Luma";
+
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "FbV-P7-eqk"; */
+"FbV-P7-eqk.title" = "Applica";
+
+/* Class = "NSView"; fCE-1I-KP5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Sensitivity"; ObjectID = "fCE-1I-KP5"; */
+"fCE-1I-KP5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Sensibilità";
+
+/* Class = "NSTextFieldCell"; title = "Falloff"; ObjectID = "gVr-xe-Lwg"; */
+"gVr-xe-Lwg.title" = "Caduta";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "qeQ-TA-Q4r"; */
+"qeQ-TA-Q4r.title" = "Cancella";
+
+/* Class = "NSButtonCell"; title = "Invert Range"; ObjectID = "YfH-dk-BXr"; */
+"YfH-dk-BXr.title" = "Inverti Gamma";
+

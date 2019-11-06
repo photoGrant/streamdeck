@@ -1,0 +1,39 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "129"; */
+"129.title" = "Menu";
+
+/* Class = "NSButtonCell"; title = "Color Cast"; ObjectID = "1061"; */
+"1061.title" = "Wybarwienia koloru";
+
+/* Class = "NSButtonCell"; title = "Enable Uniform Light"; ObjectID = "1495"; */
+"1495.title" = "Włącz wyrównywanie światła";
+
+/* Class = "NSButtonCell"; title = "Dust Removal"; ObjectID = "1606"; */
+"1606.title" = "Usuwanie kurzu";
+
+/* Class = "NSTextFieldCell"; title = "LCC profile name"; ObjectID = "1699"; */
+"1699.title" = "Nazwa profilu LCC";
+
+/* Class = "NSTextFieldCell"; title = "Profile"; ObjectID = "1700"; */
+"1700.title" = "Profil";
+
+/* Class = "NSButtonCell"; title = "Create LCC"; ObjectID = "1720"; */
+"1720.title" = "Utwórz LCC";
+
+/* Class = "NSWindow"; title = "Apply LCC Options"; ObjectID = "1785"; */
+"1785.title" = "Opcje zastosowania LCC";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "1792"; */
+"1792.title" = "Anuluj";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "1793"; */
+"1793.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Uniform Light"; ObjectID = "1795"; */
+"1795.title" = "Równaj światło";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "kelvin"; ObjectID = "SPn-xm-1Kd"; */
+"SPn-xm-1Kd.ibExternalAccessibilityDescription" = "kelwinów";
+
+/* Class = "NSView"; SPn-xm-1Kd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Uniform Light"; ObjectID = "SPn-xm-1Kd"; */
+"SPn-xm-1Kd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Równaj światło";
+

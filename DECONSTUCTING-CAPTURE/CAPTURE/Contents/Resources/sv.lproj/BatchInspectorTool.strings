@@ -1,0 +1,69 @@
+/* Class = "NSTableView"; ibExternalAccessibilityDescription = "batchQueueTableView"; ObjectID = "257"; */
+"257.ibExternalAccessibilityDescription" = "batchQueueTableView";
+
+/* Class = "NSTabViewItem"; label = "Current"; ObjectID = "261"; */
+"261.label" = "Aktuell";
+
+/* Class = "NSTabViewItem"; label = "History"; ObjectID = "262"; */
+"262.label" = "Historik";
+
+/* Class = "NSScrollView"; ibExternalAccessibilityDescription = "batchHistoryTableView"; ObjectID = "265"; */
+"265.ibExternalAccessibilityDescription" = "batchHistoryTableView";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "batchQueueStopStartButton"; ObjectID = "268"; */
+"268.ibExternalAccessibilityDescription" = "batchQueueStopStartButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Pause the batch queue"; ObjectID = "268"; */
+"268.ibShadowedToolTip" = "Pausa kön";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "batchHistoryReprocessButton"; ObjectID = "273"; */
+"273.ibExternalAccessibilityDescription" = "batchHistoryReprocessButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reprocess selected jobs."; ObjectID = "273"; */
+"273.ibShadowedToolTip" = "Ombearbeta följande jobb.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "284"; */
+"284.headerCell.title" = "Namn";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "285"; */
+"285.headerCell.title" = "Namn";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "286"; */
+"286.title" = "Meny";
+
+/* Class = "NSMenuItem"; title = "Clear History"; ObjectID = "289"; */
+"289.title" = "Rensa historiken";
+
+/* Class = "NSMenuItem"; title = "Clear Queue"; ObjectID = "290"; */
+"290.title" = "Rensa kön";
+
+/* Class = "NSProgressIndicator"; ibExternalAccessibilityDescription = "batchQueueProgressBar"; ObjectID = "302"; */
+"302.ibExternalAccessibilityDescription" = "batchQueueProgressBar";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "batchQueueProgressText"; ObjectID = "519"; */
+"519.ibExternalAccessibilityDescription" = "batchQueueProgressText";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "batchHistoryReprocessButton"; ObjectID = "646"; */
+"646.ibExternalAccessibilityDescription" = "batchHistoryReprocessButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Clear the processed jobs history"; ObjectID = "646"; */
+"646.ibShadowedToolTip" = "Rensa historik för framkallade jobb";
+
+/* Class = "NSSegmentedCell"; 815.ibShadowedLabels[0] = "Queue"; ObjectID = "815"; */
+"815.ibShadowedLabels[0]" = "Kö";
+
+/* Class = "NSSegmentedCell"; 815.ibShadowedLabels[1] = "History"; ObjectID = "815"; */
+"815.ibShadowedLabels[1]" = "Historik";
+
+/* Class = "NSButtonCell"; title = "Pause"; ObjectID = "816"; */
+"816.title" = "Pausa";
+
+/* Class = "NSTextFieldCell"; title = "1/n"; ObjectID = "818"; */
+"818.title" = "1/n";
+
+/* Class = "NSButtonCell"; title = "Reprocess Selected"; ObjectID = "819"; */
+"819.title" = "Framkalla valda igen";
+
+/* Class = "NSButtonCell"; title = "Clear History"; ObjectID = "820"; */
+"820.title" = "Rensa historiken";
+

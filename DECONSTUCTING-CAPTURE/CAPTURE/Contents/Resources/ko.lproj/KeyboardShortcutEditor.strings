@@ -1,0 +1,54 @@
+/* Class = "NSWindow"; title = "Edit Keyboard Shortcuts"; ObjectID = "1"; */
+"1.title" = "키보드 단축키 편집";
+
+/* Class = "NSTableColumn"; headerCell.title = "Command"; ObjectID = "8"; */
+"8.headerCell.title" = "커맨드";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key"; ObjectID = "9"; */
+"9.headerCell.title" = "키";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "10"; */
+"10.title" = "텍스트 셀";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "11"; */
+"11.title" = "텍스트 셀";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "13"; */
+"13.title" = "닫기";
+
+/* Class = "NSTextFieldCell"; title = "Error label"; ObjectID = "22"; */
+"22.title" = "에러 레이블";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "33"; */
+"33.title" = "OtherViews";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "51"; */
+"51.title" = "창";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "59"; */
+"59.title" = "확인";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "60"; */
+"60.title" = "취소";
+
+/* Class = "NSTextFieldCell"; title = "Enter a name for the keyboard shortcut set:"; ObjectID = "61"; */
+"61.title" = "키보드 단축키 설정을 위한 이름 입력:";
+
+/* Class = "NSTextFieldCell"; title = "error (set programatically)"; ObjectID = "62"; */
+"62.title" = "오류(프로그래밍 방식으로 설정)";
+
+/* Class = "NSButtonCell"; title = "Help"; ObjectID = "75"; */
+"75.title" = "도움말";
+
+/* Class = "NSButtonCell"; title = "Summarize..."; ObjectID = "bSF-DE-hPy"; */
+"bSF-DE-hPy.title" = "요약...";
+
+/* Class = "NSMenuItem"; title = "Command"; ObjectID = "nvZ-BF-hp3"; */
+"nvZ-BF-hp3.title" = "커맨드";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "Oyv-yk-Lsw"; */
+"Oyv-yk-Lsw.title" = "레이블";
+
+/* Class = "NSMenuItem"; title = "Key"; ObjectID = "zAq-68-rPj"; */
+"zAq-68-rPj.title" = "키";
+

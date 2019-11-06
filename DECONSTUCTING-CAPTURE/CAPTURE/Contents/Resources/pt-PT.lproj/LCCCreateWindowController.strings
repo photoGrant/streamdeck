@@ -1,0 +1,54 @@
+/* Class = "NSTextFieldCell"; title = "Make sure that the values in the Lens Correction tool are correct before creating an LCC."; ObjectID = "0Dt-yd-gay"; */
+"0Dt-yd-gay.title" = "Certifique-se de que os valores na ferramenta Correção de lentes estão corretos antes de criar um LCC.";
+
+/* Class = "NSWindow"; title = "Create LCC Options"; ObjectID = "1"; */
+"1.title" = "Criar opções LCC";
+
+/* Class = "NSButtonCell"; title = "Create"; ObjectID = "5"; */
+"5.title" = "Criar";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "6"; */
+"6.title" = "Cancelar";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include corrections for technical camera with wide angle lens."; ObjectID = "7"; */
+"7.ibShadowedToolTip" = "Incluir correções para câmera técnica com lente grande angular.";
+
+/* Class = "NSButtonCell"; title = "Include Wide Angle Lens Correction Data"; ObjectID = "8"; */
+"8.title" = "Incluir dados de correção da lente grande angular";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include dust removal information. Creating the LCC profile will be a little slower."; ObjectID = "9"; */
+"9.ibShadowedToolTip" = "Incluir informações de remoção de poeira. A criação do perfil LCC será um pouco mais lenta.";
+
+/* Class = "NSButtonCell"; title = "Include Dust Removal Information"; ObjectID = "10"; */
+"10.title" = "Incluir informações de remoção de poeira";
+
+/* Class = "NSWindow"; title = "Creating LCC"; ObjectID = "22"; */
+"22.title" = "Criando LCC";
+
+/* Class = "NSTextFieldCell"; title = "Creating LCC"; ObjectID = "27"; */
+"27.title" = "Criando LCC";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Always create with these settings. Can be un-set from the LCC tool."; ObjectID = "36"; */
+"36.ibShadowedToolTip" = "Sempre criar com estas configurações. Pode ter a definição removida na ferramenta LCC.";
+
+/* Class = "NSButtonCell"; title = "Don't show again"; ObjectID = "37"; */
+"37.title" = "Não mostrar novamente";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "46"; */
+"46.title" = "Janela";
+
+/* Class = "NSTextFieldCell"; title = "There were warnings when creating LCC's. Would you like to show Event Log to see them?"; ObjectID = "51"; */
+"51.title" = "Ocorreram avisos durante a criação dos LCC. Deseja mostrar o registro de evento para vê-los?";
+
+/* Class = "NSButtonCell"; title = "Show Event Log"; ObjectID = "54"; */
+"54.title" = "Mostrar registro de eventos";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "55"; */
+"55.title" = "Fechar";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "65"; */
+"65.title" = "Cancelar";
+
+/* Class = "NSProgressIndicator"; ibShadowedToolTip = "Creating LCC progress"; ObjectID = "105"; */
+"105.ibShadowedToolTip" = "Criando progresso de LCC";
+

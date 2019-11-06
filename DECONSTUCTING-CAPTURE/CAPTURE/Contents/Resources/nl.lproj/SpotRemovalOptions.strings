@@ -1,0 +1,18 @@
+/* Class = "NSView"; 7xh-iK-5NK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Type"; ObjectID = "7xh-iK-5NK"; */
+"7xh-iK-5NK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Type";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "exposure"; ObjectID = "fh4-Rm-0RK"; */
+"fh4-Rm-0RK.ibExternalAccessibilityDescription" = "belichting";
+
+/* Class = "NSView"; fh4-Rm-0RK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "fh4-Rm-0RK"; */
+"fh4-Rm-0RK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Straal";
+
+/* Class = "NSTextFieldCell"; title = "Spot Removal Settings"; ObjectID = "iIa-hD-TxV"; */
+"iIa-hD-TxV.title" = "Vlekken verwijderen";
+
+/* Class = "NSMenuItem"; title = "Dust"; ObjectID = "MDH-5Y-HGR"; */
+"MDH-5Y-HGR.title" = "Stof";
+
+/* Class = "NSMenuItem"; title = "Spot"; ObjectID = "ug0-rb-eUu"; */
+"ug0-rb-eUu.title" = "Vlek";
+

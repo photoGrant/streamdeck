@@ -1,0 +1,30 @@
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "CFX-Rv-WlM"; */
+"CFX-Rv-WlM.title" = "Tekstcel";
+
+/* Class = "NSTableColumn"; headerCell.title = "Current"; ObjectID = "cpM-bI-tVi"; */
+"cpM-bI-tVi.headerCell.title" = "Huidig";
+
+/* Class = "NSButtonCell"; title = "Calibrate"; ObjectID = "d8V-sn-JhX"; */
+"d8V-sn-JhX.title" = "Kalibreren";
+
+/* Class = "NSButtonCell"; alternateTitle = "Stop"; ObjectID = "FCS-rC-GL7"; */
+"FCS-rC-GL7.alternateTitle" = "Stoppen";
+
+/* Class = "NSButtonCell"; title = "Move"; ObjectID = "FCS-rC-GL7"; */
+"FCS-rC-GL7.title" = "Verplaatsen";
+
+/* Class = "NSTableColumn"; headerCell.title = "Target"; ObjectID = "HF8-NW-edb"; */
+"HF8-NW-edb.headerCell.title" = "Doel";
+
+/* Class = "NSButtonCell"; title = "Abort Calibration"; ObjectID = "HhO-fK-78I"; */
+"HhO-fK-78I.title" = "Kalibratie afbreken";
+
+/* Class = "NSTextFieldCell"; title = "The Copy Stand needs to be calibrated.\n\nPlease make sure that the cables are long enough, and there is no object in the way, so the camera can move to any arbitrary position."; ObjectID = "ke6-ru-9Tg"; */
+"ke6-ru-9Tg.title" = "De kopieerstandaard moet worden gekalibreerd.\n\nZorg ervoor dat de kabels lang genoeg zijn en er zich geen voorwerp in de weg bevindt, zodat de camera naar een willekeurige positie kan bewegen.";
+
+/* Class = "NSTextFieldCell"; title = "No compatible Copy Stand found."; ObjectID = "pqI-lM-bV8"; */
+"pqI-lM-bV8.title" = "Geen compatibele kopieerstandard gevonden.";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "sPX-gm-Kga"; */
+"sPX-gm-Kga.title" = "Tekstcel";
+

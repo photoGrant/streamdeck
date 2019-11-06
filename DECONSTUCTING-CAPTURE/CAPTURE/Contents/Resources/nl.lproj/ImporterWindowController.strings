@@ -1,0 +1,39 @@
+/* Class = "NSWindow"; title = "Window"; ObjectID = "5"; */
+"5.title" = "Venster";
+
+/* Class = "NSTabViewItem"; label = "Import"; ObjectID = "62"; */
+"62.label" = "Importeren";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Sort"; ObjectID = "233"; */
+"233.ibShadowedToolTip" = "Sorteren";
+
+/* Class = "NSTextFieldCell"; title = "10000 Items"; ObjectID = "251"; */
+"251.title" = "10000 items";
+
+/* Class = "NSButtonCell"; title = "Import All"; ObjectID = "254"; */
+"254.title" = "Alles importeren";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "255"; */
+"255.title" = "Annuleer";
+
+/* Class = "NSButtonCell"; title = "Erase Images After Copying"; ObjectID = "256"; */
+"256.title" = "Afbeeldingen wissen na kopiëren";
+
+/* Class = "NSButtonCell"; title = "Eject Card"; ObjectID = "257"; */
+"257.title" = "Kaart uitwerpen";
+
+/* Class = "NSMenuItem"; title = "Never Open Import Collection"; ObjectID = "368"; */
+"368.title" = "Importverzameling nooit openen";
+
+/* Class = "NSMenuItem"; title = "Notify When Done"; ObjectID = "369"; */
+"369.title" = "Aangeven indien klaar";
+
+/* Class = "NSMenuItem"; title = "Open Collection When Import Starts"; ObjectID = "370"; */
+"370.title" = "Verzameling openen bij start importeren";
+
+/* Class = "NSTextFieldCell"; title = "Import Collection"; ObjectID = "378"; */
+"378.title" = "Verzameling importeren";
+
+/* Class = "NSTextFieldCell"; title = "No Images in Folder"; ObjectID = "d3P-zb-jqw"; */
+"d3P-zb-jqw.title" = "Geen afbeeldingen in map";
+

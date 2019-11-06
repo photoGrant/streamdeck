@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------------------------------------------------------------
+  Settings: assume D50, no adaptation
+  ---------------------------------------------------------------------------->
+
+<whitepoint>D50</whitepoint>
+<adaptation>none</adaptation>
+<flag>emulate_Adobe</flag>
+
+<!----------------------------------------------------------------------------
+   Description(s) (ISO 639-2/T)
+  ---------------------------------------------------------------------------->
+
+<metadata key="Adobe-generic" order="10">
+<description lang="eng" title="Adobe (generic)">
+L*a*b* conversion compatible with the Adobe Color Engine (ACE).
+
+Select this option for the best match with Adobe products for most color profiles.
+
+To match profiles that cannot represent black, you must disable black-point compensation in Adobe products: BPC must be disabled and relative colorimetric intent selected (BPC is applied regardless of the settings for the perceptual intent).
+
+Note: this option is similar to "Generic (D50)", except this will apply slope limiting to pure gamma-profiles such as Adobe RGB (1998) and ProPhoto. Be aware that most other color engines do not apply slope limiting and will not match this behavior for dark and deeply saturated colors.
+</description>
+</metadata>

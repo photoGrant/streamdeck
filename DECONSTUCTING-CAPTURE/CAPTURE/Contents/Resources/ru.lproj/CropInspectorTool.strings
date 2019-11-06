@@ -1,0 +1,69 @@
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "The aspect ratio used when creating or modifying crops. Double-click inside a crop frame to apply this ratio to an existing crop."; ObjectID = "143"; */
+"143.ibShadowedToolTip" = "Соотношение сторон, использованное при создании или изменении кадрирования. Чтобы применить это соотношение к существующему кадрированию, дважды щелкните внутри рамки кадрирования.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "144"; */
+"144.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Organize…"; ObjectID = "145"; */
+"145.title" = "Упорядочить...";
+
+/* Class = "NSMenuItem"; title = "New…"; ObjectID = "146"; */
+"146.title" = "Создать...";
+
+/* Class = "NSMenuItem"; title = "Unconstrained"; ObjectID = "147"; */
+"147.title" = "Без пропорции";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Tool setting: Determines the aspect ratio used when creating or modifying crops. Double-click inside a crop frame to apply this ratio to an existing crop"; ObjectID = "148"; */
+"148.ibShadowedToolTip" = "Настройка инструмента: определяет соотношение сторон, использованное при создании или изменении кадрирования. Чтобы применить это соотношение к существующему кадрированию, дважды щелкните внутри рамки кадрирования.";
+
+/* Class = "NSMenuItem"; title = "Output"; ObjectID = "149"; */
+"149.title" = "Вывод";
+
+/* Class = "NSMenuItem"; title = "1x1"; ObjectID = "152"; */
+"152.title" = "1x1";
+
+/* Class = "NSMenuItem"; title = "2x3"; ObjectID = "153"; */
+"153.title" = "2x3";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Variant setting: The size of the resulting image when the variant is processed."; ObjectID = "155"; */
+"155.ibShadowedToolTip" = "Настройка варианта: размер изображения, полученного после обработки варианта.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Size unit."; ObjectID = "157"; */
+"157.ibShadowedToolTip" = "Единица размера.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "158"; */
+"158.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "px"; ObjectID = "159"; */
+"159.title" = "пкс";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "160"; */
+"160.title" = "дюйм";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "161"; */
+"161.title" = "см";
+
+/* Class = "NSMenuItem"; title = "mm"; ObjectID = "162"; */
+"162.title" = "мм";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "169"; */
+"169.title" = "Меню";
+
+/* Class = "NSMenuItem"; title = "Apply Aspect Ratio"; ObjectID = "176"; */
+"176.title" = "Применить соотношение сторон";
+
+/* Class = "NSTextFieldCell"; title = "Ratio"; ObjectID = "326"; */
+"326.title" = "Соотношение";
+
+/* Class = "NSTextFieldCell"; title = "Size"; ObjectID = "327"; */
+"327.title" = "Размер";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "331"; */
+"331.title" = "x";
+
+/* Class = "NSButtonCell"; title = "Crop Outside Image"; ObjectID = "334"; */
+"334.title" = "Кадрировать вне рамки";
+
+/* Class = "NSButtonCell"; title = "Show Grid While Cropping"; ObjectID = "IUp-Ub-TaZ"; */
+"IUp-Ub-TaZ.title" = "Показывать сетку во время обрезки";
+

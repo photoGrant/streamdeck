@@ -1,0 +1,237 @@
+/* Class = "NSTabViewItem"; label = "Collections"; ObjectID = "135"; */
+"135.label" = "匯集";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "142"; */
+"142.title" = "菜單";
+
+/* Class = "NSMenuItem"; title = "Add to Favorites"; ObjectID = "143"; */
+"143.title" = "添加到個人收藏";
+
+/* Class = "NSMenuItem"; title = "Show in Library"; ObjectID = "145"; */
+"145.title" = "在圖庫中顯示";
+
+/* Class = "NSMenuItem"; title = "Delete Collection"; ObjectID = "157"; */
+"157.title" = "刪除匯集";
+
+/* Class = "NSMenuItem"; title = "Set as Capture Folder"; ObjectID = "160"; */
+"160.title" = "設置為拍攝文件夾";
+
+/* Class = "NSMenuItem"; title = "Set as Selects Folder"; ObjectID = "162"; */
+"162.title" = "設置為選擇文件夾";
+
+/* Class = "NSMenuItem"; title = "Show Info"; ObjectID = "164"; */
+"164.title" = "顯示簡介";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "200"; */
+"200.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "274"; */
+"274.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "275"; */
+"275.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "276"; */
+"276.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "277"; */
+"277.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "278"; */
+"278.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "279"; */
+"279.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "280"; */
+"280.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "281"; */
+"281.title" = "文件夹";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "282"; */
+"282.title" = "文件夹";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "283"; */
+"283.title" = "文件夹";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "284"; */
+"284.title" = "文件夹";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "285"; */
+"285.title" = "文件夹";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "286"; */
+"286.title" = "文件夹";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "287"; */
+"287.title" = "文件夹";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "290"; */
+"290.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Absolute"; ObjectID = "292"; */
+"292.title" = "絕對";
+
+/* Class = "NSMenuItem"; title = "Relative to session"; ObjectID = "293"; */
+"293.title" = "相對於會話";
+
+/* Class = "NSMenuItem"; title = "Import From Selected Folder"; ObjectID = "302"; */
+"302.title" = "從已選擇的文件夾導入";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "307"; */
+"307.title" = "在 Finder 中顯示";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "311"; */
+"311.title" = "重新命名";
+
+/* Class = "NSMenuItem"; title = "Set as Output Folder"; ObjectID = "313"; */
+"313.title" = "設置為導出文件夾";
+
+/* Class = "NSMenuItem"; title = "Set as Session Trash Folder"; ObjectID = "342"; */
+"342.title" = "設置為會話廢紙簍文件夾";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Switch Session"; ObjectID = "457"; */
+"457.ibShadowedToolTip" = "替換會話";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "459"; */
+"459.title" = "OtherViews";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New Session..."; ObjectID = "486"; */
+"486.ibShadowedToolTip" = "新會話...";
+
+/* Class = "NSTextFieldCell"; title = "No Selection"; ObjectID = "543"; */
+"543.title" = "未選擇";
+
+/* Class = "NSButtonCell"; title = "Locate..."; ObjectID = "544"; */
+"544.title" = "查找…";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "552"; */
+"552.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "553"; */
+"553.title" = "文件夹";
+
+/* Class = "NSMenuItem"; title = "Empty Session Trash"; ObjectID = "557"; */
+"557.title" = "清空會話回收筒";
+
+/* Class = "NSMenuItem"; title = "Edit Smart Album"; ObjectID = "568"; */
+"568.title" = "編輯簡潔相冊";
+
+/* Class = "NSMenuItem"; title = "Export"; ObjectID = "624"; */
+"624.title" = "導出";
+
+/* Class = "NSMenu"; title = "Export"; ObjectID = "628"; */
+"628.title" = "導出";
+
+/* Class = "NSMenuItem"; title = "Originals…"; ObjectID = "629"; */
+"629.title" = "原件…";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "696"; */
+"696.title" = "菜單";
+
+/* Class = "NSMenuItem"; title = "Export Images"; ObjectID = "699"; */
+"699.title" = "導出圖像";
+
+/* Class = "NSMenuItem"; title = "Edit Collection"; ObjectID = "702"; */
+"702.title" = "編輯匯集";
+
+/* Class = "NSMenuItem"; title = "Empty Catalog Trash"; ObjectID = "703"; */
+"703.title" = "清空目錄回收筒";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "708"; */
+"708.title" = "重新命名";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "710"; */
+"710.title" = "在 Finder 中顯示";
+
+/* Class = "NSMenuItem"; title = "Show Info"; ObjectID = "716"; */
+"716.title" = "顯示簡介";
+
+/* Class = "NSMenuItem"; title = "Set as Selects Collection"; ObjectID = "718"; */
+"718.title" = "設置為選擇匯集";
+
+/* Class = "NSMenuItem"; title = "Set as Capture Collection"; ObjectID = "719"; */
+"719.title" = "設置為拍攝匯集";
+
+/* Class = "NSMenuItem"; title = "Delete Collection"; ObjectID = "721"; */
+"721.title" = "刪除匯集";
+
+/* Class = "NSMenu"; title = "Export Images"; ObjectID = "725"; */
+"725.title" = "導出圖像";
+
+/* Class = "NSMenuItem"; title = "Originals…"; ObjectID = "726"; */
+"726.title" = "原件…";
+
+/* Class = "NSMenuItem"; title = "Show Folders Hierarchy"; ObjectID = "818"; */
+"818.title" = "顯示文件夾層次結構";
+
+/* Class = "NSMenuItem"; title = "Locate..."; ObjectID = "823"; */
+"823.title" = "查找…";
+
+/* Class = "NSMenuItem"; title = "Sort By Name"; ObjectID = "827"; */
+"827.title" = "按名稱排序";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "866"; */
+"866.title" = "新建";
+
+/* Class = "NSMenu"; title = "New"; ObjectID = "867"; */
+"867.title" = "新建";
+
+/* Class = "NSMenuItem"; title = "New Album"; ObjectID = "869"; */
+"869.title" = "新建圖集";
+
+/* Class = "NSMenuItem"; title = "New Smart Album..."; ObjectID = "871"; */
+"871.title" = "新智能相冊...";
+
+/* Class = "NSMenuItem"; title = "New Project"; ObjectID = "873"; */
+"873.title" = "新項目";
+
+/* Class = "NSMenuItem"; title = "New Group"; ObjectID = "875"; */
+"875.title" = "新組群";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "879"; */
+"879.title" = "新建";
+
+/* Class = "NSMenu"; title = "New"; ObjectID = "880"; */
+"880.title" = "新建";
+
+/* Class = "NSMenuItem"; title = "New Album"; ObjectID = "882"; */
+"882.title" = "新建圖集";
+
+/* Class = "NSMenuItem"; title = "New Smart Album..."; ObjectID = "884"; */
+"884.title" = "新智能相冊...";
+
+/* Class = "NSMenuItem"; title = "Folder"; ObjectID = "886"; */
+"886.title" = "文件夹";
+
+/* Class = "NSMenuItem"; title = "Add Folder..."; ObjectID = "896"; */
+"896.title" = "添加文件夾…";
+
+/* Class = "NSMenuItem"; title = "Hide Info"; ObjectID = "901"; */
+"901.title" = "隱藏資訊";
+
+/* Class = "NSMenuItem"; title = "Variants…"; ObjectID = "916"; */
+"916.title" = "變體…";
+
+/* Class = "NSMenuItem"; title = "Variants…"; ObjectID = "919"; */
+"919.title" = "變體…";
+
+/* Class = "NSMenuItem"; title = "Sort Albums and Favorites By Name"; ObjectID = "921"; */
+"921.title" = "按名稱排序圖集和收藏";
+
+/* Class = "NSMenuItem"; title = "Synchronize..."; ObjectID = "924"; */
+"924.title" = "同步...";
+
+/* Class = "NSMenuItem"; title = "Export as Catalog..."; ObjectID = "927"; */
+"927.title" = "導出為目錄...";
+
+/* Class = "NSMenuItem"; title = "Import"; ObjectID = "931"; */
+"931.title" = "導入";
+
+/* Class = "NSMenu"; title = "Import"; ObjectID = "932"; */
+"932.title" = "導入";
+
+/* Class = "NSMenuItem"; title = "Import To Selected Folder"; ObjectID = "934"; */
+"934.title" = "導入到已選擇的文件夾";
+

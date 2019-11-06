@@ -1,0 +1,18 @@
+/* Class = "NSView"; lSB-c9-3hh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Method"; ObjectID = "lSB-c9-3hh"; */
+"lSB-c9-3hh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "方法";
+
+/* Class = "NSMenuItem"; title = "Circular on Crop"; ObjectID = "U1G-fX-PSc"; */
+"U1G-fX-PSc.title" = "圓形裁切";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "vignetting amount"; ObjectID = "Wkh-tE-r4o"; */
+"Wkh-tE-r4o.ibExternalAccessibilityDescription" = "漸暈量";
+
+/* Class = "NSView"; Wkh-tE-r4o.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Amount"; ObjectID = "Wkh-tE-r4o"; */
+"Wkh-tE-r4o.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "數量";
+
+/* Class = "NSMenuItem"; title = "Elliptic on Crop"; ObjectID = "Yi3-G7-2UC"; */
+"Yi3-G7-2UC.title" = "橢圓形裁切";
+
+/* Class = "NSMenuItem"; title = "Circular"; ObjectID = "Z9W-Yg-VTF"; */
+"Z9W-Yg-VTF.title" = "圓形";
+

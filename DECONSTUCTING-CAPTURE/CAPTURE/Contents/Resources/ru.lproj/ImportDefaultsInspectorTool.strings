@@ -1,0 +1,18 @@
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "61"; */
+"61.title" = "Сбросить инструмент";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Auto adjust imported images"; ObjectID = "65"; */
+"65.ibShadowedToolTip" = "Автоматически корректировать импортированные изображения";
+
+/* Class = "NSButtonCell"; title = "Auto Adjust"; ObjectID = "66"; */
+"66.title" = "Автокоррекция";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include Existing Adjustments"; ObjectID = "72"; */
+"72.ibShadowedToolTip" = "Включить имеющиеся коррекции";
+
+/* Class = "NSButtonCell"; title = "Include Existing Adjustments"; ObjectID = "73"; */
+"73.title" = "Включить имеющиеся коррекции";
+
+/* Class = "NSView"; SWB-m8-0GG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Styles"; ObjectID = "SWB-m8-0GG"; */
+"SWB-m8-0GG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Стили";
+

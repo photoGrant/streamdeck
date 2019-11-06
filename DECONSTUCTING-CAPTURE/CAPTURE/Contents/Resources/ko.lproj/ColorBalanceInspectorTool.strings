@@ -1,0 +1,30 @@
+/* Class = "NSTabViewItem"; label = "Master"; ObjectID = "5lG-eN-fCI"; */
+"5lG-eN-fCI.label" = "마스터";
+
+/* Class = "NSTabViewItem"; label = "Midtone"; ObjectID = "Bs3-jA-dvw"; */
+"Bs3-jA-dvw.label" = "중간 톤";
+
+/* Class = "NSTabViewItem"; label = "3-Way"; ObjectID = "EHx-YA-rBt"; */
+"EHx-YA-rBt.label" = "3-Way";
+
+/* Class = "NSTabViewItem"; label = "Shadow"; ObjectID = "MoH-21-5NK"; */
+"MoH-21-5NK.label" = "셰도우";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[0] = "Master"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[0]" = "마스터";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[1] = "3-Way"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[1]" = "3-Way";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[2] = "Shadow"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[2]" = "셰도우";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[3] = "Midtone"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[3]" = "중간 톤";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[4] = "Highlight"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[4]" = "하이라이트";
+
+/* Class = "NSTabViewItem"; label = "Highlight"; ObjectID = "z8d-ju-ndv"; */
+"z8d-ju-ndv.label" = "하이라이트";
+

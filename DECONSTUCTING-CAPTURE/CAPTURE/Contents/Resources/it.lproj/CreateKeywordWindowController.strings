@@ -1,0 +1,15 @@
+/* Class = "NSTextFieldCell"; placeholderString = "Enter keywords, comma separated ..."; ObjectID = "3m0-8z-XGb"; */
+"3m0-8z-XGb.placeholderString" = "Inserisci parole chiave, separate da una virgola…";
+
+/* Class = "NSButtonCell"; title = "Create"; ObjectID = "4FK-Qh-pqf"; */
+"4FK-Qh-pqf.title" = "Crea";
+
+/* Class = "NSWindow"; title = "Create Keywords"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Crea Parole Chiave";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "HRK-Nw-pU1"; */
+"HRK-Nw-pU1.title" = "Cancella";
+
+/* Class = "NSTextFieldCell"; title = "Create Keywords"; ObjectID = "P3u-gX-T36"; */
+"P3u-gX-T36.title" = "Crea Parole Chiave";
+

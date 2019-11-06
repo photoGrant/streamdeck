@@ -1,0 +1,69 @@
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "459"; */
+"459.title" = "默认设置";
+
+/* Class = "NSBox"; title = "Cache"; ObjectID = "486"; */
+"486.title" = "缓存";
+
+/* Class = "NSTextFieldCell"; title = "EIP Packing (Sessions only)"; ObjectID = "526"; */
+"526.title" = "EIP 打包 (仅会话)";
+
+/* Class = "NSTextFieldCell"; title = "Preview Image Size (px):"; ObjectID = "557"; */
+"557.title" = "预览图像尺寸(像素):";
+
+/* Class = "NSTextFieldCell"; title = "Cache"; ObjectID = "559"; */
+"559.title" = "缓存";
+
+/* Class = "NSButtonCell"; title = "Prefer Embedded XMP over Embedded IPTC"; ObjectID = "563"; */
+"563.title" = "使用嵌入式XMP代替嵌入式IPTC";
+
+/* Class = "NSButtonCell"; title = "Prefer Sidecar XMP over Embedded Metadata"; ObjectID = "565"; */
+"565.title" = "使用XMP代替嵌入式元数据";
+
+/* Class = "NSTextFieldCell"; title = "Metadata"; ObjectID = "568"; */
+"568.title" = "元数据";
+
+/* Class = "NSBox"; title = "Packaged File Format"; ObjectID = "586"; */
+"586.title" = "打包文件格式";
+
+/* Class = "NSButtonCell"; title = "Pack as EIP when importing"; ObjectID = "590"; */
+"590.title" = "当导入时打包成EIP格式";
+
+/* Class = "NSButtonCell"; title = "Pack as EIP when capturing"; ObjectID = "591"; */
+"591.title" = "当拍摄时打包成EIP格式";
+
+/* Class = "NSTextFieldCell"; title = "JPEG and processed TIFF files will not be packed as EIP."; ObjectID = "592"; */
+"592.title" = "JPEG和处理过的TIF无法打包成EIP格式";
+
+/* Class = "NSTextFieldCell"; title = "Editing"; ObjectID = "601"; */
+"601.title" = "编辑";
+
+/* Class = "NSButtonCell"; title = "Enable TIFF Editing"; ObjectID = "602"; */
+"602.title" = "启用TIFF编辑";
+
+/* Class = "NSButtonCell"; title = "Enable JPEG Editing"; ObjectID = "603"; */
+"603.title" = "启用JPEG编辑";
+
+/* Class = "NSMenuItem"; title = "Full Sync"; ObjectID = "621"; */
+"621.title" = "完全同步";
+
+/* Class = "NSMenuItem"; title = "Load"; ObjectID = "622"; */
+"622.title" = "载入";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "623"; */
+"623.title" = "无";
+
+/* Class = "NSTextFieldCell"; title = "Auto Sync Sidecar XMP:"; ObjectID = "626"; */
+"626.title" = "自动同步附属XMP：";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New files (created during import, capture or EIP conversion) will have write permissions for everyone and not just the file owner."; ObjectID = "628"; */
+"628.ibShadowedToolTip" = "新文件（在导入，拍摄或EIP的转换时创建的）会给予所有人都具有抄写权限，而不仅仅是文件的拥有者。";
+
+/* Class = "NSButtonCell"; title = "Make new files writable by everyone"; ObjectID = "629"; */
+"629.title" = "制作新文件给予所有人都具有抄写权限";
+
+/* Class = "NSButtonCell"; title = "Enable PNG Editing"; ObjectID = "635"; */
+"635.title" = "启用PNG编辑";
+
+/* Class = "NSTextFieldCell"; title = "Default Processing Engine:"; ObjectID = "667"; */
+"667.title" = "预设处理引擎:";
+

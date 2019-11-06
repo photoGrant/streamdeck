@@ -1,0 +1,105 @@
+/* Class = "NSButtonCell"; title = "Warn when Move to Trash affects unselected variants"; ObjectID = "11W-al-zCq"; */
+"11W-al-zCq.title" = "Ostrzegaj gdy Przenieś do kosza odnosi się do niezaznaczonych wariantów";
+
+/* Class = "NSButtonCell"; title = "Warn when applying a style with an invalid LCC"; ObjectID = "18v-en-xAd"; */
+"18v-en-xAd.title" = "Ostrzegaj przy zastosowaniu stylu z niepoprawnym LCC";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "482"; */
+"482.title" = "Wartości domyślne";
+
+/* Class = "NSButtonCell"; title = "Warn when moving images and folders in Catalog"; ObjectID = "694"; */
+"694.title" = "Ostrzegaj przy przenoszeniu obrazów i folderów w katalogu";
+
+/* Class = "NSTextFieldCell"; title = "Files and Folders"; ObjectID = "697"; */
+"697.title" = "Pliki i foldery";
+
+/* Class = "NSButtonCell"; title = "Warn when deleting images from disk"; ObjectID = "701"; */
+"701.title" = "Ostrzegaj przy usuwaniu obrazów z dysku";
+
+/* Class = "NSButtonCell"; title = "Warn when moving images to the Session Trash from a different drive"; ObjectID = "703"; */
+"703.title" = "Ostrzegaj przy przenoszeniu obrazów do kosza sesji z innego dysku";
+
+/* Class = "NSTextFieldCell"; title = "Adjustments"; ObjectID = "707"; */
+"707.title" = "Dopasowania";
+
+/* Class = "NSButtonCell"; title = "Warn when resetting adjustments on multiple variants"; ObjectID = "708"; */
+"708.title" = "Ostrzegaj przy resetowaniu dopasowań na wielu wariantach";
+
+/* Class = "NSTextFieldCell"; title = "Output"; ObjectID = "734"; */
+"734.title" = "Wynik";
+
+/* Class = "NSTextFieldCell"; title = "If Edit All Selected Variants is off and multiple variants are selected:"; ObjectID = "789"; */
+"789.title" = "Jeśli opcja „Edytuj wszystkie wybrane warianty” jest wyłączona, a wybrano wiele wariantów:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when processing multiple variants if Edit All Selected Variants is off"; ObjectID = "792"; */
+"792.ibShadowedToolTip" = "Ostrzegaj, gdy przetwarzam wiele wariantów, a opcja „Edytuj wszystkie wybrane warianty” jest wyłączona";
+
+/* Class = "NSButtonCell"; title = "Warn when processing"; ObjectID = "793"; */
+"793.title" = "Ostrzegaj przy przetwarzaniu";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when printing multiple variants if Edit All Selected Variants is off"; ObjectID = "795"; */
+"795.ibShadowedToolTip" = "Ostrzegaj, gdy drukuję wiele wariantów, a opcja „Edytuj wszystkie wybrane warianty” jest wyłączona";
+
+/* Class = "NSButtonCell"; title = "Warn when printing"; ObjectID = "796"; */
+"796.title" = "Ostrzegaj przy drukowaniu";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when creating a web contact sheet with multiple variants if Edit All Selected Variants is off"; ObjectID = "798"; */
+"798.ibShadowedToolTip" = "Ostrzegaj, gdy podczas tworzenia stykówki internetowej z wieloma wariantami opcja „Edytuj wszystkie wybrane warianty” jest wyłączona";
+
+/* Class = "NSButtonCell"; title = "Warn when creating a web contact sheet"; ObjectID = "799"; */
+"799.title" = "Ostrzegaj przy tworzeniu stykówki internetowej";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when creating a web contact sheet with multiple variants if Edit All Selected Variants is off"; ObjectID = "804"; */
+"804.ibShadowedToolTip" = "Ostrzegaj, gdy podczas tworzenia stykówki internetowej z wieloma wariantami opcja „Edytuj wszystkie wybrane warianty” jest wyłączona";
+
+/* Class = "NSButtonCell"; title = "Warn when exporting"; ObjectID = "805"; */
+"805.title" = "Ostrzegaj przy eksportowaniu";
+
+/* Class = "NSButtonCell"; title = "Warn when resetting manual sorting"; ObjectID = "811"; */
+"811.title" = "Ostrzegaj przy resetowaniu sortowania ręcznego";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when changing or deleting the applied LCC. "; ObjectID = "815"; */
+"815.ibShadowedToolTip" = "Ostrzegaj przy zmianie lub usuwaniu zastosowanej LCC.";
+
+/* Class = "NSButtonCell"; title = "Warn when changing LCC"; ObjectID = "816"; */
+"816.title" = "Ostrzegaj przy zmianie LCC";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when creating LCC with multiple variants if Edit All Selected Variants is off."; ObjectID = "819"; */
+"819.ibShadowedToolTip" = "Ostrzegaj, gdy tworzę LCC z wieloma wariantami, a opcja „Edytuj wszystkie wybrane warianty” jest wyłączona.";
+
+/* Class = "NSButtonCell"; title = "Warn when creating LCC"; ObjectID = "820"; */
+"820.title" = "Ostrzegaj przy tworzeniu LCC";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when applying LCC to multiple variants if Edit All Selected Variants is off."; ObjectID = "822"; */
+"822.ibShadowedToolTip" = "Ostrzegaj, gdy stosuję LCC do wielu wariantów, a opcja „Edytuj wszystkie wybrane warianty” jest wyłączona.";
+
+/* Class = "NSButtonCell"; title = "Warn when applying LCC"; ObjectID = "823"; */
+"823.title" = "Ostrzegaj przy stosowaniu LCC";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when changing or deleting the applied LCC. "; ObjectID = "828"; */
+"828.ibShadowedToolTip" = "Ostrzegaj przy zmianie lub usuwaniu zastosowanej LCC.";
+
+/* Class = "NSButtonCell"; title = "Warn when upgrading Engine"; ObjectID = "829"; */
+"829.title" = "Ostrzegaj przy aktualizacji silnika";
+
+/* Class = "NSButtonCell"; title = "Warn when resetting adjustments on an adjustments layer"; ObjectID = "834"; */
+"834.title" = "Ostrzegaj przy resetowaniu dopasowań na warstwie dopasowań";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when analyzing Chromatic Aberration with multiple variants if Edit All Selected Variants is off."; ObjectID = "846"; */
+"846.ibShadowedToolTip" = "Ostrzegaj przy analizowaniu aberracji chromatycznej z wieloma wariantami, a opcja „Edytuj wszystkie wybrane warianty” jest wyłączona.";
+
+/* Class = "NSButtonCell"; title = "Warn when analyzing Chromatic Aberration"; ObjectID = "847"; */
+"847.title" = "Ostrzegaj przy analizowaniu aberracji chromatycznej";
+
+/* Class = "NSButtonCell"; title = "Warn when applying a style partially"; ObjectID = "bEM-Ld-dkv"; */
+"bEM-Ld-dkv.title" = "Ostrzegaj przy częściowym zastosowaniu stylu";
+
+/* Class = "NSButtonCell"; title = "Warn when copying unsupported adjustments"; ObjectID = "vL9-36-JKs"; */
+"vL9-36-JKs.title" = "Ostrzegaj przy kopiowaniu nieobsługiwanych dopasowań";
+
+/* Class = "NSButtonCell"; title = "Warn when rasterizing a parametric mask"; ObjectID = "YLZ-gd-vnA"; */
+"YLZ-gd-vnA.title" = "Ostrzegaj przy rasteryzowaniu maski parametrycznej";
+
+/* Class = "NSButtonCell"; title = "Warn when applying a style with an invalid ICC"; ObjectID = "Zwn-SQ-wPT"; */
+"Zwn-SQ-wPT.title" = "Ostrzegaj przy zastosowaniu stylu z niepoprawnym ICC";
+

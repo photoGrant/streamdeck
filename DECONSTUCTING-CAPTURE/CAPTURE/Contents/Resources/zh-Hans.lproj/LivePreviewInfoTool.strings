@@ -1,0 +1,30 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "菜单";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image rotation in degrees"; ObjectID = "384"; */
+"384.ibShadowedToolTip" = "图像旋转角度";
+
+/* Class = "NSTextFieldCell"; title = "Rotation"; ObjectID = "385"; */
+"385.title" = "旋转";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image rotation in degrees"; ObjectID = "387"; */
+"387.ibShadowedToolTip" = "图像旋转角度";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image rotation in degrees"; ObjectID = "390"; */
+"390.ibShadowedToolTip" = "图像旋转角度";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Frame rate in images per second"; ObjectID = "391"; */
+"391.ibShadowedToolTip" = "每秒图像帧速率";
+
+/* Class = "NSTextFieldCell"; title = "Frame Rate"; ObjectID = "393"; */
+"393.title" = "帧速率";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image rotation in degrees"; ObjectID = "397"; */
+"397.ibShadowedToolTip" = "图像旋转角度";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image rotation in degrees"; ObjectID = "398"; */
+"398.ibShadowedToolTip" = "图像旋转角度";
+
+/* Class = "NSTextFieldCell"; title = "Pitch"; ObjectID = "399"; */
+"399.title" = "程度";
+

@@ -1,0 +1,42 @@
+/* Class = "NSTextField"; ibShadowedToolTip = "How far to vertically move the crop."; ObjectID = "34f-cS-bqY"; */
+"34f-cS-bqY.ibShadowedToolTip" = "Fino a dove spostare verticalmente il ritaglio.";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Cwn-Nw-XEd"; */
+"Cwn-Nw-XEd.title" = "Cancella";
+
+/* Class = "NSTextFieldCell"; title = "Δ Size"; ObjectID = "dcT-yz-pNO"; */
+"dcT-yz-pNO.title" = "Δ Dimensione";
+
+/* Class = "NSTextFieldCell"; title = "units"; ObjectID = "DKa-L2-NCj"; */
+"DKa-L2-NCj.title" = "unità";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "How much to add to the width of the crop."; ObjectID = "DVj-D0-1f7"; */
+"DVj-D0-1f7.ibShadowedToolTip" = "Quanto aggiungere per l’ampiezza del ritaglio.";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Finestra";
+
+/* Class = "NSTextFieldCell"; title = "Δ Location"; ObjectID = "Gl4-xb-vC0"; */
+"Gl4-xb-vC0.title" = "Δ Posizione";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "How much to add to the height of the crop."; ObjectID = "if2-pr-Wbv"; */
+"if2-pr-Wbv.ibShadowedToolTip" = "Quanto aggiungere per l’altezza del ritaglio.";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "kEP-MA-1bN"; */
+"kEP-MA-1bN.title" = "x";
+
+/* Class = "NSButtonCell"; title = "Modify"; ObjectID = "kzK-gy-OX2"; */
+"kzK-gy-OX2.title" = "Modifica";
+
+/* Class = "NSTextFieldCell"; title = "Modify Crop:"; ObjectID = "NDM-fz-TAT"; */
+"NDM-fz-TAT.title" = "Modifica Ritaglio:";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "How far to horizontally move the crop."; ObjectID = "ofT-lq-a57"; */
+"ofT-lq-a57.ibShadowedToolTip" = "Fino a dove spostare orizzontalmente il ritaglio.";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Where the existing crop should be anchored in place when modifying the crop size."; ObjectID = "pBD-mP-Idc"; */
+"pBD-mP-Idc.ibShadowedToolTip" = "Dove dovrebbe essere ancorato il ritaglio attuale qualora se ne modificasse la dimensione.";
+
+/* Class = "NSTextFieldCell"; title = "units"; ObjectID = "wHz-kn-gIW"; */
+"wHz-kn-gIW.title" = "unità";
+

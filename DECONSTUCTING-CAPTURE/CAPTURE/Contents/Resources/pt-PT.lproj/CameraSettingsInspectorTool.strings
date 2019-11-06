@@ -1,0 +1,18 @@
+/* Class = "NSSearchFieldCell"; placeholderString = "Search"; ObjectID = "1mE-Wf-TEE"; */
+"1mE-Wf-TEE.placeholderString" = "Pesquisar";
+
+/* Class = "NSTextFieldCell"; title = "Group Label"; ObjectID = "Dzr-OR-1gf"; */
+"Dzr-OR-1gf.title" = "Etiqueta do Grupo";
+
+/* Class = "NSTextFieldCell"; title = "No camera connected"; ObjectID = "hQA-6j-msQ"; */
+"hQA-6j-msQ.title" = "Nenhuma câmera conectada";
+
+/* Class = "NSTextFieldCell"; title = "Setting Label"; ObjectID = "MKk-HW-wNq"; */
+"MKk-HW-wNq.title" = "Definir etiqueta";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "MT0-f0-4It"; */
+"MT0-f0-4It.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "sYm-eu-awW"; */
+"sYm-eu-awW.title" = "Célula do Texto";
+

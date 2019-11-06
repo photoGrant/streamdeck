@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<SL Engine="800">
+  <E K="BwMagenta" V="0"/>
+  <E K="HighlightRecovery" V="28.17083"/>
+  <E K="ClarityMethod" V="3"/>
+  <E K="BwCyan" V="-23.49398"/>
+  <E K="ClarityStructure" V="9.972939"/>
+  <E K="Clarity" V="30.03666"/>
+  <E K="BwEnabled" V="1"/>
+  <E K="Name" V="Landscape - BW 1"/>
+  <E K="Contrast" V="-0.04146299"/>
+  <E K="BwRed" V="-22.28916"/>
+  <E K="UUID" V="7CF72277-E207-4D41-93C6-F1A9F4906572"/>
+  <E K="BwBlue" V="-41.56627"/>
+  <E K="BwGreen" V="0"/>
+  <E K="BwYellow" V="25.90361"/>
+</SL>
+

@@ -1,0 +1,33 @@
+/* Class = "NSButton"; ibShadowedToolTip = "A Session is a quick and light weight way to work with a limited number of images for a single job or event. Images can be edited by browsing to their location on disk or by importing them into the session."; ObjectID = "37"; */
+"37.ibShadowedToolTip" = "Una sessione è il modo più veloce e leggero per lavorare con un limitato numero di immagini per un singolo lavoro o evento. Le immagini possono essere modificate sfogliando le cartelle in cui si trovano o importandole in una sessione.";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "54"; */
+"54.title" = "Cancella";
+
+/* Class = "NSButtonCell"; title = "New Session..."; ObjectID = "55"; */
+"55.title" = "Nuova Sessione...";
+
+/* Class = "NSButtonCell"; title = "Browse..."; ObjectID = "173"; */
+"173.title" = "Sfoglia...";
+
+/* Class = "NSButtonCell"; title = "Open"; ObjectID = "176"; */
+"176.title" = "Apri";
+
+/* Class = "NSTableColumn"; headerCell.title = "Recent Sessions"; ObjectID = "183"; */
+"183.headerCell.title" = "Sessioni Recenti";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "186"; */
+"186.title" = "Cella Testo";
+
+/* Class = "NSTextFieldCell"; title = "No recent catalogs or sessions"; ObjectID = "208"; */
+"208.title" = "Nessun catalogo o sessione recente";
+
+/* Class = "NSTextFieldCell"; title = "Recents"; ObjectID = "219"; */
+"219.title" = "Recenti";
+
+/* Class = "NSButton"; ibShadowedToolTip = "A Catalog is the best place to store and organize your entire image library. To work with images in a catalog, they need to be imported by the catalog. Recommended for most photographers."; ObjectID = "221"; */
+"221.ibShadowedToolTip" = "Un Catalogo è il miglior posto in cui archiviare e organizzare una libreria. Per lavorare con le immagini di un catalogo, è necessario importarle nel catalogo. Si consiglia alla maggior parte dei fotografi.";
+
+/* Class = "NSButtonCell"; title = "New Catalog..."; ObjectID = "222"; */
+"222.title" = "Nuovo Catalogo...";
+

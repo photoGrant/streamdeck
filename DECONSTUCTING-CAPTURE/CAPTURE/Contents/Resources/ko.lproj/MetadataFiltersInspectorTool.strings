@@ -1,0 +1,57 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "155"; */
+"155.title" = "메뉴";
+
+/* Class = "NSMenuItem"; title = "Show/Hide Filters..."; ObjectID = "422"; */
+"422.title" = "필터 보기/숨기기...";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "433"; */
+"433.title" = "텍스트 셀";
+
+/* Class = "NSMenuItem"; title = "Results Match All Criteria"; ObjectID = "462"; */
+"462.title" = "모든 기준에 맞는 결과\n";
+
+/* Class = "NSMenuItem"; title = "Global Filters"; ObjectID = "467"; */
+"467.title" = "전체 필터";
+
+/* Class = "NSMenu"; title = "Global Filters"; ObjectID = "468"; */
+"468.title" = "전체 필터";
+
+/* Class = "NSMenuItem"; title = "Always Hide JPEG Files"; ObjectID = "469"; */
+"469.title" = "JPEG 파일을 항상 숨김";
+
+/* Class = "NSMenuItem"; title = "Always Hide Processed TIFF Files"; ObjectID = "470"; */
+"470.title" = "항상 처리된 TIFF 파일 숨김";
+
+/* Class = "NSMenuItem"; title = "Always Hide RAW Files"; ObjectID = "471"; */
+"471.title" = "항상 RAW 파일 숨김";
+
+/* Class = "NSMenuItem"; title = "Always Hide Video Files"; ObjectID = "472"; */
+"472.title" = "항상 비디오 파일 숨김";
+
+/* Class = "NSMenuItem"; title = "Always Hide PNG Files"; ObjectID = "486"; */
+"486.title" = "PNG 파일을 항상 숨김";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "491"; */
+"491.title" = "테이블 보기 셀";
+
+/* Class = "NSTextFieldCell"; title = "Filter Group View Cell"; ObjectID = "499"; */
+"499.title" = "필터 그룹 보기 셀";
+
+/* Class = "NSWindow"; title = "Add Filter Term"; ObjectID = "572"; */
+"572.title" = "필터 조건 추가";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "579"; */
+"579.title" = "확인";
+
+/* Class = "NSTextFieldCell"; title = "Add filter term:"; ObjectID = "580"; */
+"580.title" = "필터 조건 추가:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "582"; */
+"582.title" = "취소";
+
+/* Class = "NSMenuItem"; title = "Clear All Terms"; ObjectID = "590"; */
+"590.title" = "모든 조건 삭제";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Format: \"country > state > city > location\""; ObjectID = "604"; */
+"604.placeholderString" = "Format: \"country > state > city > location\"";
+

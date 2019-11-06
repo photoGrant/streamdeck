@@ -1,0 +1,75 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Meny";
+
+/* Class = "NSTextFieldCell"; title = "Left"; ObjectID = "357"; */
+"357.title" = "Vänster";
+
+/* Class = "NSTextFieldCell"; title = "Right"; ObjectID = "359"; */
+"359.title" = "Höger";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "394"; */
+"394.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Left margin"; ObjectID = "394"; */
+"394.ibShadowedToolTip" = "Vänster marginal";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "396"; */
+"396.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Right margin"; ObjectID = "396"; */
+"396.ibShadowedToolTip" = "Höger marginal";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "406"; */
+"406.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Left margin"; ObjectID = "406"; */
+"406.ibShadowedToolTip" = "Vänster marginal";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "409"; */
+"409.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Right margin"; ObjectID = "409"; */
+"409.ibShadowedToolTip" = "Höger marginal";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "420"; */
+"420.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Top margin"; ObjectID = "420"; */
+"420.ibShadowedToolTip" = "Övre marginal";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "422"; */
+"422.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Top margin"; ObjectID = "422"; */
+"422.ibShadowedToolTip" = "Övre marginal";
+
+/* Class = "NSTextFieldCell"; title = "Top"; ObjectID = "425"; */
+"425.title" = "Överdel";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "429"; */
+"429.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Bottom margin"; ObjectID = "429"; */
+"429.ibShadowedToolTip" = "Nedre marginal";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "431"; */
+"431.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Bottom margin"; ObjectID = "431"; */
+"431.ibShadowedToolTip" = "Nedre marginal";
+
+/* Class = "NSTextFieldCell"; title = "Bottom"; ObjectID = "434"; */
+"434.title" = "Nederdel";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "523"; */
+"523.title" = "tum";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "525"; */
+"525.title" = "tum";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "527"; */
+"527.title" = "tum";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "529"; */
+"529.title" = "tum";
+

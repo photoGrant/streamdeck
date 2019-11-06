@@ -1,0 +1,219 @@
+/* Class = "NSBox"; title = "Catalog and Sessions"; ObjectID = "5br-hq-Ye3"; */
+"5br-hq-Ye3.title" = "目錄和會話";
+
+/* Class = "NSTextFieldCell"; title = "Status:"; ObjectID = "7cZ-B2-onY"; */
+"7cZ-B2-onY.title" = "狀態：";
+
+/* Class = "NSBox"; title = "Catalog and Sessions"; ObjectID = "59"; */
+"59.title" = "目錄和會話";
+
+/* Class = "NSBox"; title = "Favorites"; ObjectID = "60"; */
+"60.title" = "收藏夾";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "GeneralZoomCheckbox"; ObjectID = "61"; */
+"61.ibExternalAccessibilityDescription" = "GeneralZoomCheckbox";
+
+/* Class = "NSBox"; title = "Packaged File Format"; ObjectID = "66"; */
+"66.title" = "打包文件格式";
+
+/* Class = "NSBox"; title = "Recent Captures Collection"; ObjectID = "67"; */
+"67.title" = "最近拍攝匯集";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "GeneralZoomCheckbox"; ObjectID = "70"; */
+"70.ibExternalAccessibilityDescription" = "GeneralZoomCheckbox";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "72"; */
+"72.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "…"; ObjectID = "92"; */
+"92.title" = "…";
+
+/* Class = "NSTextFieldCell"; title = "~/Library/Application Support/Capture One/Backups"; ObjectID = "93"; */
+"93.title" = "~/Library/Application Support/Capture One/Backups";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "95"; */
+"95.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "96"; */
+"96.title" = "總是";
+
+/* Class = "NSMenuItem"; title = "Once a month"; ObjectID = "97"; */
+"97.title" = "一個月一次";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "98"; */
+"98.title" = "從不";
+
+/* Class = "NSMenuItem"; title = "Once a week"; ObjectID = "99"; */
+"99.title" = "一週一次";
+
+/* Class = "NSMenuItem"; title = "Once a day"; ObjectID = "100"; */
+"100.title" = "一天一次";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "104"; */
+"104.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Auto"; ObjectID = "105"; */
+"105.title" = "自動";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "106"; */
+"106.title" = "從不";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "107"; */
+"107.title" = "位置：";
+
+/* Class = "NSTextFieldCell"; title = "Remind on close:"; ObjectID = "108"; */
+"108.title" = "關閉時提醒";
+
+/* Class = "NSTextFieldCell"; title = "Processing:"; ObjectID = "109"; */
+"109.title" = "處理:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "111"; */
+"111.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "112"; */
+"112.title" = "從不";
+
+/* Class = "NSMenuItem"; title = "Auto"; ObjectID = "113"; */
+"113.title" = "自動";
+
+/* Class = "NSTextFieldCell"; title = "Display:"; ObjectID = "114"; */
+"114.title" = "顯示:";
+
+/* Class = "NSTextFieldCell"; title = "Hardware Acceleration (Use OpenCL for)"; ObjectID = "115"; */
+"115.title" = "硬件加速器(使用開放CL)";
+
+/* Class = "NSTextFieldCell"; title = "Catalog Backup"; ObjectID = "116"; */
+"116.title" = "目錄備份";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "125"; */
+"125.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Always Overwrite Metadata"; ObjectID = "126"; */
+"126.title" = "永遠覆蓋元數據";
+
+/* Class = "NSMenuItem"; title = "Never Overwrite Metadata"; ObjectID = "127"; */
+"127.title" = "永不覆蓋元數據";
+
+/* Class = "NSMenuItem"; title = "Ask about Overwriting Metadata"; ObjectID = "128"; */
+"128.title" = "詢問有關覆蓋元數據";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "130"; */
+"130.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Create New Album or Select Folder"; ObjectID = "131"; */
+"131.title" = "創建新圖集或選擇文件夾";
+
+/* Class = "NSMenuItem"; title = "Create or Reuse Matching Albums"; ObjectID = "132"; */
+"132.title" = "創建或重複使用匹配的圖集";
+
+/* Class = "NSMenuItem"; title = "Ask when Syncing Catalog Sets"; ObjectID = "133"; */
+"133.title" = "詢問何時同步目錄設置";
+
+/* Class = "NSTextFieldCell"; title = "Metadata and Catalog Set information received from Expression Media may be used to update Images and Albums in Capture One. Select the behavior for each type of information."; ObjectID = "134"; */
+"134.title" = "從Expression Media收到的元數據和目錄集信息在Capture One中將可能被用於更新圖片和相冊。選擇每種類型的信息的行為。";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "136"; */
+"136.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Ask about Including Subfolders when Adding"; ObjectID = "137"; */
+"137.title" = "添加時詢問有關包括子文件夾";
+
+/* Class = "NSMenuItem"; title = "Always answer Yes to Include Subfolders dialog"; ObjectID = "138"; */
+"138.title" = "總是回答“是”包含子文件夾對話框";
+
+/* Class = "NSMenuItem"; title = "Always answer No to Include Subfolders dialog"; ObjectID = "139"; */
+"139.title" = "總是回答“否”包含子文件夾對話框";
+
+/* Class = "NSTextFieldCell"; title = "Expression Media"; ObjectID = "140"; */
+"140.title" = "Expression Media";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "141"; */
+"141.title" = "默認設置";
+
+/* Class = "NSButtonCell"; title = "Zoom with scroll wheel"; ObjectID = "142"; */
+"142.title" = "用滾輪放大";
+
+/* Class = "NSTextFieldCell"; title = "Viewer"; ObjectID = "143"; */
+"143.title" = "查看器";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "149"; */
+"149.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "After more than 5 minutes of inactivity"; ObjectID = "150"; */
+"150.title" = "超過5分鐘之後的閒置";
+
+/* Class = "NSMenuItem"; title = "After more than 10 minutes of inactivity"; ObjectID = "151"; */
+"151.title" = "超過10分鐘之後的閒置";
+
+/* Class = "NSMenuItem"; title = "After more than 30 minutes of inactivity"; ObjectID = "152"; */
+"152.title" = "超過30分鐘之後的閒置";
+
+/* Class = "NSMenuItem"; title = "After more than 1 hour of inactivity"; ObjectID = "153"; */
+"153.title" = "超過1小時之後的閒置";
+
+/* Class = "NSMenuItem"; title = "After more than 2 hours of inactivity"; ObjectID = "154"; */
+"154.title" = "超過2小時之後的閒置";
+
+/* Class = "NSMenuItem"; title = "After more than 4 hours of inactivity"; ObjectID = "155"; */
+"155.title" = "超過4小時之後的閒置";
+
+/* Class = "NSMenuItem"; title = "At the first capture of the day"; ObjectID = "156"; */
+"156.title" = "在一天中的第一次拍攝";
+
+/* Class = "NSTextFieldCell"; title = "Create:"; ObjectID = "157"; */
+"157.title" = "創建:";
+
+/* Class = "NSTextFieldCell"; title = "Recent Captures Collection"; ObjectID = "158"; */
+"158.title" = "最近拍攝匯集";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "GeneralZoomCheckbox"; ObjectID = "159"; */
+"159.ibExternalAccessibilityDescription" = "GeneralZoomCheckbox";
+
+/* Class = "NSButtonCell"; title = "Open importer when detecting card from digital camera"; ObjectID = "160"; */
+"160.title" = "打開導入器當檢測到數碼相機的儲存卡";
+
+/* Class = "NSTextFieldCell"; title = "Importing"; ObjectID = "161"; */
+"161.title" = "導入中";
+
+/* Class = "NSTextFieldCell"; title = "Activities"; ObjectID = "162"; */
+"162.title" = "激活";
+
+/* Class = "NSButtonCell"; title = "Automatically show window"; ObjectID = "163"; */
+"163.title" = "自動顯示視窗";
+
+/* Class = "NSTextFieldCell"; title = "Favorites"; ObjectID = "167"; */
+"167.title" = "收藏夾";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "169"; */
+"169.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Ask About Adding Previous Session Folder to Favorites"; ObjectID = "170"; */
+"170.title" = "詢問有關上次會話文件夾添加到收藏夾";
+
+/* Class = "NSMenuItem"; title = "Always Add Previous Session Folder to Favorites"; ObjectID = "171"; */
+"171.title" = "永遠把上次會話文件夾添加到收藏夾";
+
+/* Class = "NSMenuItem"; title = "Never Add Previous Session Folder to Favorites"; ObjectID = "172"; */
+"172.title" = "永不把上次會話文件夾添加到收藏夾";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "GeneralZoomCheckbox"; ObjectID = "173"; */
+"173.ibExternalAccessibilityDescription" = "GeneralZoomCheckbox";
+
+/* Class = "NSTextFieldCell"; title = "Catalog and Session"; ObjectID = "176"; */
+"176.title" = "目錄和會話";
+
+/* Class = "NSButtonCell"; title = "Open in new window"; ObjectID = "177"; */
+"177.title" = "在新視窗中打開";
+
+/* Class = "NSButtonCell"; title = "Show on Startup"; ObjectID = "jfj-Ks-wpZ"; */
+"jfj-Ks-wpZ.title" = "在啟動時顯示";
+
+/* Class = "NSButtonCell"; title = "Enable Tangent device support"; ObjectID = "PQo-en-IWM"; */
+"PQo-en-IWM.title" = "啟用調節設備支持";
+
+/* Class = "NSTextFieldCell"; title = "Resource Hub"; ObjectID = "SpW-MT-i4c"; */
+"SpW-MT-i4c.title" = "Resource Hub";
+
+/* Class = "NSTextFieldCell"; title = "Tangent Integration"; ObjectID = "yng-WN-yJ1"; */
+"yng-WN-yJ1.title" = "Tangent Integration";
+

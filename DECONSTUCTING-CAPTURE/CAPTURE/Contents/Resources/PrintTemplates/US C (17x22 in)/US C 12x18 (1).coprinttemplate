@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PrintTemplate>
+  <Version>1</Version>
+  <Margin>
+    <Left>180</Left>
+    <Top>144</Top>
+    <Right>180</Right>
+    <Bottom>144</Bottom>
+  </Margin>
+  <Layout>
+    <ResizingRule>0</ResizingRule>
+    <Rows>1</Rows>
+    <Columns>1</Columns>
+    <RowsSpacing>0</RowsSpacing>
+    <ColumnsSpacing>0</ColumnsSpacing>
+    <CellHeight>1296</CellHeight>
+    <CellWidth>864</CellWidth>
+    <CellBorder>0</CellBorder>
+  </Layout>
+  <ImageOptions>
+    <ZoomToFill>true</ZoomToFill>
+    <RotateToFill>true</RotateToFill>
+    <RepeatOneImagePerPage>false</RepeatOneImagePerPage>
+  </ImageOptions>
+  <Annotation>
+    <Type>None</Type>
+    <FontName>Tahoma</FontName>
+    <FontSize>8</FontSize>
+    <ForegroundColor></ForegroundColor>
+  </Annotation>
+  <Template>
+    <Name>US C 12x18 (1)</Name>
+  </Template>
+</PrintTemplate>

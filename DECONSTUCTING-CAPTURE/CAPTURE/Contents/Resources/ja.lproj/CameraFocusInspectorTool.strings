@@ -1,0 +1,78 @@
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum height dimension for scaling the final image."; ObjectID = "5jl-ym-Pew"; */
+"5jl-ym-Pew.ibShadowedToolTip" = "最終イメージを拡大縮小のための最大の高さの寸法。";
+
+/* Class = "NSTabViewItem"; label = "Magnification"; ObjectID = "5mM-aF-NZf"; */
+"5mM-aF-NZf.label" = "倍率";
+
+/* Class = "NSButtonCell"; title = "AF"; ObjectID = "8a4-ra-ryD"; */
+"8a4-ra-ryD.title" = "AF";
+
+/* Class = "NSTextFieldCell"; title = "Resolution"; ObjectID = "8gB-9c-rck"; */
+"8gB-9c-rck.title" = "解像度";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum width dimension for scaling the final image."; ObjectID = "941-UD-yO9"; */
+"941-UD-yO9.ibShadowedToolTip" = "最終イメージを拡大縮小のための最大幅寸法。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Scale the original image the given amount to obtain the final image."; ObjectID = "aon-fi-Fse"; */
+"aon-fi-Fse.ibShadowedToolTip" = "スケールはオリジナルイメージに最終イメージに定義された量を得ました。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum height dimension for scaling the final image."; ObjectID = "cjH-bT-56C"; */
+"cjH-bT-56C.ibShadowedToolTip" = "最終イメージを拡大縮小のための最大の高さの寸法。";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "cQW-7w-5ZW"; */
+"cQW-7w-5ZW.title" = "x";
+
+/* Class = "NSTextFieldCell"; title = "Near"; ObjectID = "d6i-Mj-beK"; */
+"d6i-Mj-beK.title" = "近く";
+
+/* Class = "NSTabViewItem"; label = "Distance"; ObjectID = "Dlg-hW-8rc"; */
+"Dlg-hW-8rc.label" = "ディスタンス";
+
+/* Class = "NSTabViewItem"; label = "Field of View"; ObjectID = "kVH-7e-JeU"; */
+"kVH-7e-JeU.label" = "視野";
+
+/* Class = "NSTextFieldCell"; title = "Current"; ObjectID = "Luo-Rg-sJR"; */
+"Luo-Rg-sJR.title" = "現在";
+
+/* Class = "NSMenuItem"; title = "Field of View"; ObjectID = "o74-F8-nGn"; */
+"o74-F8-nGn.title" = "視野";
+
+/* Class = "NSMenuItem"; title = "Resolution [PPI]"; ObjectID = "p7U-3T-iRc"; */
+"p7U-3T-iRc.title" = "解像度 [PPI]";
+
+/* Class = "NSTextFieldCell"; title = "Distance"; ObjectID = "Rse-mY-54W"; */
+"Rse-mY-54W.title" = "ディスタンス";
+
+/* Class = "NSButtonCell"; alternateTitle = "Stop"; ObjectID = "SAA-iC-fyC"; */
+"SAA-iC-fyC.alternateTitle" = "停止";
+
+/* Class = "NSButtonCell"; title = "Start"; ObjectID = "SAA-iC-fyC"; */
+"SAA-iC-fyC.title" = "開始";
+
+/* Class = "NSMenuItem"; title = "Magnification"; ObjectID = "Sjt-vZ-Tda"; */
+"Sjt-vZ-Tda.title" = "倍率";
+
+/* Class = "NSTabViewItem"; label = "Resolution"; ObjectID = "tjp-SD-bJh"; */
+"tjp-SD-bJh.label" = "解像度";
+
+/* Class = "NSTextFieldCell"; title = "Far"; ObjectID = "vDf-Yj-l2z"; */
+"vDf-Yj-l2z.title" = "遠く";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "The method used for adjusting clarity."; ObjectID = "vFT-Tb-S1V"; */
+"vFT-Tb-S1V.ibShadowedToolTip" = "クラリティー調整モード";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Scale the original image the given amount to obtain the final image."; ObjectID = "vhu-uP-VNl"; */
+"vhu-uP-VNl.ibShadowedToolTip" = "スケールはオリジナルイメージに最終イメージに定義された量を得ました。";
+
+/* Class = "NSTextFieldCell"; title = "Target"; ObjectID = "x1j-3c-mQV"; */
+"x1j-3c-mQV.title" = "ターゲット";
+
+/* Class = "NSTextFieldCell"; title = "Field of View"; ObjectID = "xXJ-BO-AAU"; */
+"xXJ-BO-AAU.title" = "視野";
+
+/* Class = "NSMenuItem"; title = "Distance"; ObjectID = "YWt-SJ-6q2"; */
+"YWt-SJ-6q2.title" = "ディスタンス";
+
+/* Class = "NSTextFieldCell"; title = "Magnification"; ObjectID = "ZBV-is-bLr"; */
+"ZBV-is-bLr.title" = "倍率";
+

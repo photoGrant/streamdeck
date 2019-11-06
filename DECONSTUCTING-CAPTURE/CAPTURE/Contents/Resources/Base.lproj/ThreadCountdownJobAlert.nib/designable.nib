@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ThreadCountdownJobAlert">
+            <connections>
+                <outlet property="progressBar" destination="7" id="32"/>
+                <outlet property="window" destination="5" id="8"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Saving Batch Job Files" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="5" userLabel="Window" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="886" y="671" width="415" height="70"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <value key="minSize" type="size" width="213" height="70"/>
+            <view key="contentView" autoresizesSubviews="NO" id="6">
+                <rect key="frame" x="0.0" y="0.0" width="415" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <progressIndicator wantsLayer="YES" verticalHuggingPriority="750" maxValue="100" bezeled="NO" controlSize="small" style="bar" id="7">
+                        <rect key="frame" x="25" y="30" width="371" height="12"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <binding destination="-2" name="maxValue" keyPath="jobCount" id="14"/>
+                            <binding destination="-2" name="value" keyPath="numProcessed" previousBinding="14" id="15"/>
+                        </connections>
+                    </progressIndicator>
+                    <button hidden="YES" verticalHuggingPriority="750" id="9">
+                        <rect key="frame" x="334" y="-1" width="67" height="32"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <buttonCell key="cell" type="push" title="Quit" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="30">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="doQuit:" target="-2" id="10"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" id="20">
+                        <rect key="frame" x="23" y="41" width="193" height="18"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="saving x of N batch jobs" id="31" customClass="COUITextFieldCell">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <binding destination="-2" name="displayPatternValue2" keyPath="jobCount" previousBinding="27" id="28">
+                                <dictionary key="options">
+                                    <string key="NSDisplayPattern">Saved %{value1}@ of %{value2}@ batch jobs</string>
+                                </dictionary>
+                            </binding>
+                            <binding destination="-2" name="displayPatternValue1" keyPath="numProcessed" id="27">
+                                <dictionary key="options">
+                                    <string key="NSDisplayPattern">Saved %{value1}@ of %{value2}@ batch jobs</string>
+                                </dictionary>
+                            </binding>
+                        </connections>
+                    </textField>
+                </subviews>
+            </view>
+        </window>
+    </objects>
+</document>

@@ -1,0 +1,21 @@
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "335"; */
+"335.headerCell.title" = "名前";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "336"; */
+"336.headerCell.title" = "値";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "356"; */
+"356.title" = "メニュー";
+
+/* Class = "NSMenuItem"; title = "Load Metadata"; ObjectID = "464"; */
+"464.title" = "メタデータの読み出し";
+
+/* Class = "NSButtonCell"; title = "Show on map"; ObjectID = "487"; */
+"487.title" = "地図に表示";
+
+/* Class = "NSMenuItem"; title = "Sync Metadata"; ObjectID = "489"; */
+"489.title" = "メタデータを同期";
+
+/* Class = "NSMenuItem"; title = "Reset Metadata Completions"; ObjectID = "504"; */
+"504.title" = "メタデータの完了をリセット";
+

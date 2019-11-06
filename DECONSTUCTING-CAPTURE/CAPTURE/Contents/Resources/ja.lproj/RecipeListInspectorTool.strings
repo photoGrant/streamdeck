@@ -1,0 +1,24 @@
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "53"; */
+"53.headerCell.title" = "名前";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "54"; */
+"54.title" = "メニュー";
+
+/* Class = "NSMenuItem"; title = "New Recipe"; ObjectID = "55"; */
+"55.title" = "新規レシピ";
+
+/* Class = "NSMenuItem"; title = "Delete Recipe"; ObjectID = "56"; */
+"56.title" = "レシピを削除";
+
+/* Class = "NSButtonCell"; title = "Show Enabled Only"; ObjectID = "181"; */
+"181.title" = "有効のみ表示";
+
+/* Class = "NSMenuItem"; title = "Duplicate Recipe"; ObjectID = "199"; */
+"199.title" = "レシピを複製";
+
+/* Class = "NSMenuItem"; title = "Add Recipe"; ObjectID = "206"; */
+"206.title" = "レシピを追加";
+
+/* Class = "NSMenu"; title = "Add Recipe"; ObjectID = "207"; */
+"207.title" = "レシピを追加";
+

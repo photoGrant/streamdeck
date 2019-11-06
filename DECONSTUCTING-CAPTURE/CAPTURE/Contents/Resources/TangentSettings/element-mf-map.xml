@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TangentWave fileType="PanelMap" fileVersion="3.0">
+    <Panels>
+    <Panel type="Element-Mf" number="1">
+            <Mode id="0x00010001"> <!-- Default -->
+                <ControlBank id="Standard">
+                    <Bank>
+                        <Control type="Button" number="12"> <!-- Element-Mf Button A -->
+                            <Mapping mode="Std">
+                                <Key>0x80000001</Key> <!-- Select ALTernative Function -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x80000001</Key> <!-- Select ALTernative Function -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="13"> <!-- Element-Mf Play Reverse -->
+                            <Mapping mode="Std">
+                                <Key>0x0000008D</Key> <!-- Select Previous -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000008C</Key> <!-- Select First -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="14"> <!-- Element-Mf Stop -->
+                            <Mapping mode="Std">
+                                <Key>0x0000010A</Key> <!-- Set Colortag Green -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000010E</Key> <!-- Set Colortag None -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="15"> <!-- Element-Mf Play Forward -->
+                            <Mapping mode="Std">
+                                <Key>0x0000008E</Key> <!-- Select Next -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000008F</Key> <!-- Select Last -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="16"> <!-- Element-Mf Inch Reverse -->
+                            <Mapping mode="Std">
+                                <Key>0x00000093</Key> <!-- Select Previous Set -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000007B</Key> <!-- Deselect Primary Variant -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="17"> <!-- Element-Mf Inch Forward -->
+                            <Mapping mode="Std">
+                                <Key>0x00000092</Key> <!-- Select Next Set -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000007A</Key> <!-- Select Primary Variant Only -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="18"> <!-- Element-Mf Button B -->
+                            <Mapping mode="Std">
+                                <Key>0x80000004</Key> <!-- Next Button Bank -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x80000006</Key> <!-- Next Trackerball Bank -->
+                            </Mapping>
+                        </Control>
+                    </Bank>
+                </ControlBank>
+                <ControlBank id="Button">
+                    <Bank>
+                        <Control type="Button" number="0"> <!-- Element-Mf Button 1 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000095</Key> <!-- Next Collection -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000094</Key> <!-- Previous Collection -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="1"> <!-- Element-Mf Button 2 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000CC</Key> <!-- Toggle Overlay -->
+                                <CustomName>Overlay</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000CC</Key> <!-- Toggle Overlay -->
+                                <CustomName>Overlay</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="2"> <!-- Element-Mf Button 3 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000A1</Key> <!-- Edit All Selected Variants -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000A1</Key> <!-- Edit All Selected Variants -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="4"> <!-- Element-Mf Button 5 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000019F</Key> <!-- Create Album From Selection -->
+                                <CustomName>AlbFrSel</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000019F</Key> <!-- Create Album From Selection -->
+                                <CustomName>AlbFrSel</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="6"> <!-- Element-Mf Button 7 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000084</Key> <!-- Select Colortag Red -->
+                                <CustomName>Sel Red</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000084</Key> <!-- Select Colortag Red -->
+                                <CustomName>Sel Red</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="7"> <!-- Element-Mf Button 8 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000086</Key> <!-- Select Colortag Yellow -->
+                                <CustomName>Sel Yel</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000086</Key> <!-- Select Colortag Yellow -->
+                                <CustomName>Sel Yel</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="8"> <!-- Element-Mf Button 9 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000087</Key> <!-- Select Colortag Green -->
+                                <CustomName>Sel Grn</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000087</Key> <!-- Select Colortag Green -->
+                                <CustomName>Sel Grn</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="9"> <!-- Element-Mf Button 10 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000107</Key> <!-- Set Colortag Red -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000107</Key> <!-- Set Colortag Red -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="10"> <!-- Element-Mf Button 11 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000109</Key> <!-- Set Colortag Yellow -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000109</Key> <!-- Set Colortag Yellow -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="11"> <!-- Element-Mf Button 12 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000010A</Key> <!-- Set Colortag Green -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000010A</Key> <!-- Set Colortag Green -->
+                            </Mapping>
+                        </Control>
+                    </Bank>
+                    <Bank>
+                        <Control type="Button" number="0"> <!-- Element-Mf Button 1 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000011</Key> <!-- BW Enable -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000011</Key> <!-- BW Enable -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="1"> <!-- Element-Mf Button 2 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000111</Key> <!-- Auto Adjust -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000111</Key> <!-- Auto Adjust -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="2"> <!-- Element-Mf Button 3 -->
+                            <Mapping mode="Std">
+                                <Key>0x000001A0</Key> <!-- Analyze -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000001A0</Key> <!-- Analyze -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="7"> <!-- Element-Mf Button 8 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000219</Key> <!-- Invert Mask -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000219</Key> <!-- Invert Mask -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="8"> <!-- Element-Mf Button 9 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000021B</Key> <!-- Select Next Layer (up) -->
+                                <CustomName>Layer Up</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000021B</Key> <!-- Select Next Layer (up) -->
+                                <CustomName>Layer Up</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="9"> <!-- Element-Mf Button 10 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000021D</Key> <!-- Add New Local Adjustments Layer -->
+                                <CustomName>AddLayer</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000021D</Key> <!-- Add New Local Adjustments Layer -->
+                                <CustomName>AddLayer</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="10"> <!-- Element-Mf Button 11 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000021A</Key> <!-- Fill Mask -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000021A</Key> <!-- Fill Mask -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="11"> <!-- Element-Mf Button 12 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000021C</Key> <!-- Select Next Layer (down) -->
+                                <CustomName>Layer Dn</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000021C</Key> <!-- Select Next Layer (down) -->
+                                <CustomName>Layer Dn</CustomName>
+                            </Mapping>
+                        </Control>
+                    </Bank>
+                    <Bank>
+                        <Control type="Button" number="0"> <!--                      Button 1 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000235</Key> <!-- Select Annotations Pen -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000235</Key> <!-- Select Annotations Pen -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="1"> <!-- Element-Mf Button 1 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000237</Key> <!-- Select Annotations Eraser -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000237</Key> <!-- Select Annotations Eraser -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="3"> <!-- Element-Mf Button 4 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000239</Key> <!-- Select Annotations Black -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000239</Key> <!-- Select Annotations Black -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="4"> <!-- Element-Mf Button 5 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023A</Key> <!-- Select Annotations White -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023A</Key> <!-- Select Annotations White -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="5"> <!-- Element-Mf Button 6 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023B</Key> <!-- Select Annotations Red -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023B</Key> <!-- Select Annotations Red -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="6"> <!-- Element-Mf Button 7 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023C</Key> <!-- Select Annotations Yellow -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023C</Key> <!-- Select Annotations Yellow -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="7"> <!-- Element-Mf Button 8 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023D</Key> <!-- Select Annotations Green -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023D</Key> <!-- Select Annotations Green -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="8"> <!-- Element-Mf Button 9 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023E</Key> <!-- Select Annotations Blue -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023E</Key> <!-- Select Annotations Blue -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="9"> <!-- Element-Mf Button 10 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023F</Key> <!-- Annotations Show -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023F</Key> <!-- Annotations Show -->
+                            </Mapping>
+                        </Control>
+                    </Bank>
+                </ControlBank>
+                <ControlBank id="Trackerball">
+                    <Bank>
+                        <Control type="Encoder" number="0"> <!-- Element-Mf Trackerball X -->
+                            <Mapping mode="Std">
+                                <Key>0x00000227</Key> <!-- Horizontal -->
+                                <CustomName>Ovly Xpos</CustomName>
+                                <Display>Bar</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000227</Key> <!-- Horizontal -->
+                                <CustomName>Ovly Xpos</CustomName>
+                                <Display>Bar</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                        </Control>
+                        <Control type="Encoder" number="1"> <!-- Element-Mf Trackerball Y -->
+                            <Mapping mode="Std">
+                                <Key>0x00000228</Key> <!-- Vertical -->
+                                <CustomName>Ovly Ypos</CustomName>
+                                <Display>Bar</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000228</Key> <!-- Vertical -->
+                                <CustomName>Ovly Ypos</CustomName>
+                                <Display>Bar</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                        </Control>
+                        <Control type="Encoder" number="2"> <!-- Element-Mf Ring -->
+                            <Mapping mode="Std">
+                                <Key>0x00000226</Key> <!-- Scale -->
+                                <CustomName>Ovly Size</CustomName>
+                                <Display>Bar</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000225</Key> <!-- Opacity -->
+                                <CustomName>Ovly Opac</CustomName>
+                                <Display>Bar</Display>
+                            </Mapping>
+                        </Control>
+                    </Bank>
+                    <Bank>
+                        <Control type="Encoder" number="0"> <!-- Element-Mf Trackerball X -->
+                            <Mapping mode="Std">
+                                <Key>0x00000220</Key> <!-- Brush Size -->
+                                <CustomName>Size</CustomName>
+                                <Display>Bar</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000220</Key> <!-- Brush Size -->
+                                <CustomName>Size</CustomName>
+                                <Display>Bar</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                        </Control>
+                        <Control type="Encoder" number="1"> <!-- Element-Mf Trackerball Y -->
+                            <Mapping mode="Std">
+                                <Key>0x00000221</Key> <!-- Brush Hardness -->
+                                <CustomName>Hardness</CustomName>
+                                <Display>Bar</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000221</Key> <!-- Brush Hardness -->
+                                <CustomName>Hardness</CustomName>
+                                <Display>Bar</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                        </Control>
+                        <Control type="Encoder" number="2"> <!-- Element-Mf Ring -->
+                            <Mapping mode="Std">
+                                <Key>0x00000222</Key> <!-- Brush Opacity -->
+                                <CustomName>Opacity</CustomName>
+                                <Display>Percentage</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000223</Key> <!-- Brush Flow -->
+                                <Display>Percentage</Display>
+                            </Mapping>
+                        </Control>
+                    </Bank>
+                    <Bank>
+                        <Control type="Encoder" number="2"> <!-- Element-Mf Ring -->
+                            <Mapping mode="Std">
+                                <Key>0x00000238</Key> <!-- Annotations Brush Size -->
+                                <Display>Bar</Display>
+                                <Sensitivity>5</Sensitivity>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000238</Key> <!-- Annotations Brush Size -->
+                                <Display>Bar</Display>
+                                <Sensitivity>3</Sensitivity>
+                            </Mapping>
+                        </Control>
+                    </Bank>
+                </ControlBank>
+            </Mode>
+        </Panel>
+	</Panels>
+    <GlobalSettings>
+        <KnobSensitivity std="1" alt="5"/>
+        <JogDialSensitivity std="1" alt="5"/>
+        <TrackerballSensitivity std="1" alt="5"/>
+        <TrackerballDialSensitivity std="1" alt="5"/>
+        <IndependentPanelBanks enabled="false"/>
+    </GlobalSettings>
+</TangentWave>

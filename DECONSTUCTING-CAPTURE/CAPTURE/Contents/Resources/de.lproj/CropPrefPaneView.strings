@@ -1,0 +1,72 @@
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "CropShowMaskPopup"; ObjectID = "32"; */
+"32.ibExternalAccessibilityDescription" = "CropShowMaskPopup";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "33"; */
+"33.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "34"; */
+"34.title" = "Immer";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "35"; */
+"35.title" = "Nie";
+
+/* Class = "NSMenuItem"; title = "Except During Drag"; ObjectID = "36"; */
+"36.title" = "Außer beim Ziehen";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "CropOpacitySlider"; ObjectID = "38"; */
+"38.ibExternalAccessibilityDescription" = "CropOpacitySlider";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "CropBrightnessSlider"; ObjectID = "40"; */
+"40.ibExternalAccessibilityDescription" = "CropBrightnessSlider";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "CropShowFramePopup"; ObjectID = "41"; */
+"41.ibExternalAccessibilityDescription" = "CropShowFramePopup";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "42"; */
+"42.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "When No Mask"; ObjectID = "43"; */
+"43.title" = "Wenn keine Maske";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "44"; */
+"44.title" = "Immer";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "CropShowLabelsPopup"; ObjectID = "50"; */
+"50.ibExternalAccessibilityDescription" = "CropShowLabelsPopup";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "51"; */
+"51.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "52"; */
+"52.title" = "Immer";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "53"; */
+"53.title" = "Nie";
+
+/* Class = "NSMenuItem"; title = "During Drag Only"; ObjectID = "54"; */
+"54.title" = "Nur beim Ziehen";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "CropResetButton"; ObjectID = "55"; */
+"55.ibExternalAccessibilityDescription" = "CropResetButton";
+
+/* Class = "NSTextFieldCell"; title = "Show:"; ObjectID = "449"; */
+"449.title" = "Zeige:";
+
+/* Class = "NSTextFieldCell"; title = "Show Frame:"; ObjectID = "450"; */
+"450.title" = "Rahmen anzeigen:";
+
+/* Class = "NSTextFieldCell"; title = "Show Labels:"; ObjectID = "451"; */
+"451.title" = "Beschr. anz.:";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "453"; */
+"453.title" = "Deckkraft:";
+
+/* Class = "NSTextFieldCell"; title = "Brightness:"; ObjectID = "455"; */
+"455.title" = "Helligkeit:";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "459"; */
+"459.title" = "Voreinstellung";
+
+/* Class = "NSTextFieldCell"; title = "Mask"; ObjectID = "ax2-Us-YFd"; */
+"ax2-Us-YFd.title" = "Maske";
+

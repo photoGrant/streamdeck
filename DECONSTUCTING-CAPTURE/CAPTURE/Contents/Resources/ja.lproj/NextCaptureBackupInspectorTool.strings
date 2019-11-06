@@ -1,0 +1,24 @@
+/* Class = "NSTextFieldCell"; title = "Space Left"; ObjectID = "6If-eD-nku"; */
+"6If-eD-nku.title" = "左スペース";
+
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "50"; */
+"50.title" = "ツールリセット";
+
+/* Class = "NSButtonCell"; title = "Back up new captures"; ObjectID = "70"; */
+"70.title" = "新規キャプチャーをバックアップ";
+
+/* Class = "NSTextFieldCell"; title = "Sample Path"; ObjectID = "aRy-kV-bIu"; */
+"aRy-kV-bIu.title" = "サンプルパス";
+
+/* Class = "NSMenuItem"; title = "Clear Queue"; ObjectID = "b3X-AC-dIa"; */
+"b3X-AC-dIa.title" = "キューを消去";
+
+/* Class = "NSButtonCell"; title = "Start"; ObjectID = "Dqg-vt-FmI"; */
+"Dqg-vt-FmI.title" = "スタート";
+
+/* Class = "NSTextFieldCell"; title = "Next Capture Backup is only supported in Sessions."; ObjectID = "Lob-WL-87P"; */
+"Lob-WL-87P.title" = "キャプチャーバックアップはセッションのみサポートされています。";
+
+/* Class = "NSView"; lYc-ey-etb.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Location"; ObjectID = "lYc-ey-etb"; */
+"lYc-ey-etb.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "場所";
+

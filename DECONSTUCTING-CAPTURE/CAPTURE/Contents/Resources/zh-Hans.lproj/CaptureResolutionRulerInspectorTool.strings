@@ -1,0 +1,54 @@
+/* Class = "NSTextFieldCell"; title = "Length"; ObjectID = "0nb-tv-adw"; */
+"0nb-tv-adw.title" = "长度";
+
+/* Class = "NSView"; ibShadowedToolTip = "Draw Resolution Ruler"; ObjectID = "1ui-qy-xtG"; */
+"1ui-qy-xtG.ibShadowedToolTip" = "绘制分辨率标尺";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Set Ruler resolution"; ObjectID = "9bo-Mu-PlE"; */
+"9bo-Mu-PlE.ibShadowedToolTip" = "设置标尺分辨率";
+
+/* Class = "NSTextFieldCell"; placeholderString = "-"; ObjectID = "a5h-Bf-9UD"; */
+"a5h-Bf-9UD.placeholderString" = "-";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Set Ruler length"; ObjectID = "aKK-Md-MYM"; */
+"aKK-Md-MYM.ibShadowedToolTip" = "设置标尺长度";
+
+/* Class = "NSTextFieldCell"; title = "Resolution"; ObjectID = "cCM-Xg-iQj"; */
+"cCM-Xg-iQj.title" = "分辨率";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "Db8-xO-H48"; */
+"Db8-xO-H48.title" = "厘米";
+
+/* Class = "NSMenuItem"; title = "px/cm"; ObjectID = "DXg-Do-40d"; */
+"DXg-Do-40d.title" = "像素/厘米";
+
+/* Class = "NSMenuItem"; title = "px/in"; ObjectID = "fJY-12-BCy"; */
+"fJY-12-BCy.title" = "像素/英寸";
+
+/* Class = "NSButtonCell"; title = "Show"; ObjectID = "hKu-CW-XlU"; */
+"hKu-CW-XlU.title" = "显示";
+
+/* Class = "NSTextFieldCell"; placeholderString = "-"; ObjectID = "jTj-dM-td2"; */
+"jTj-dM-td2.placeholderString" = "-";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "lIl-SC-rRY"; */
+"lIl-SC-rRY.title" = "OtherViews";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Length unit"; ObjectID = "M4e-ku-3Bm"; */
+"M4e-ku-3Bm.ibShadowedToolTip" = "长度单位";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "n82-wo-coz"; */
+"n82-wo-coz.title" = "OtherViews";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Resolution unit"; ObjectID = "Rl1-JQ-0eY"; */
+"Rl1-JQ-0eY.ibShadowedToolTip" = "分辨率单位";
+
+/* Class = "NSMenuItem"; title = "px/mm"; ObjectID = "SUh-jZ-b24"; */
+"SUh-jZ-b24.title" = "像素/毫米";
+
+/* Class = "NSMenuItem"; title = "mm"; ObjectID = "T3C-zc-BTc"; */
+"T3C-zc-BTc.title" = "毫米";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "WF0-dW-OoL"; */
+"WF0-dW-OoL.title" = "英寸";
+

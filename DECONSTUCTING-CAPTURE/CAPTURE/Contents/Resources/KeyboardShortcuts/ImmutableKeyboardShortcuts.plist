@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Editable</key>
+	<false/>
+	<key>KeyboardShortcuts</key>
+	<dict>
+		<key>copy:</key>
+		<string>@c</string>
+		<key>cut:</key>
+		<string>@x</string>
+		<key>hide:</key>
+		<string>@h</string>
+		<key>hideOtherApplications:</key>
+		<string>~@h</string>
+		<key>createNewSession:</key>
+		<string>@n</string>
+		<key>createNewCatalog:</key>
+		<string>$@n</string>
+		<key>openDocument:</key>
+		<string>@o</string>
+		<key>paste:</key>
+		<string>@v</string>
+		<key>performClose:</key>
+		<string>@w</string>
+		<key>performMiniaturize:</key>
+		<string>@m</string>
+		<key>redo:</key>
+		<string>$@z</string>
+		<key>selectAll:</key>
+		<string>@a</string>
+		<key>showPreferencesWindow:</key>
+		<string>@,</string>
+		<key>terminate:</key>
+		<string>@q</string>
+		<key>undo:</key>
+		<string>@z</string>
+	</dict>
+</dict>
+</plist>

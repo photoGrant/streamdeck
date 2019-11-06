@@ -1,0 +1,69 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Copy adjustments from the primary variant."; ObjectID = "258"; */
+"258.ibShadowedToolTip" = "Скопировать коррекции из основного варианта.";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "266"; */
+"266.title" = "Меню";
+
+/* Class = "NSTableColumn"; headerCell.title = "From"; ObjectID = "281"; */
+"281.headerCell.title" = "Из";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "295"; */
+"295.title" = "Выделить все";
+
+/* Class = "NSMenuItem"; title = "Select None"; ObjectID = "296"; */
+"296.title" = "Ничего не выделять";
+
+/* Class = "NSMenuItem"; title = "Expand All"; ObjectID = "307"; */
+"307.title" = "Развернуть все";
+
+/* Class = "NSMenuItem"; title = "Collapse All"; ObjectID = "308"; */
+"308.title" = "Свернуть все";
+
+/* Class = "NSMenuItem"; title = "Select Adjusted"; ObjectID = "312"; */
+"312.title" = "Выделить скорректированные";
+
+/* Class = "NSMenuItem"; title = "Save As Style..."; ObjectID = "422"; */
+"422.title" = "Сохранить как стиль...";
+
+/* Class = "NSMenuItem"; title = "Copy to Clipboard"; ObjectID = "423"; */
+"423.title" = "Скопировать в буфер обмена";
+
+/* Class = "NSButtonCell"; alternateTitle = "Apply"; ObjectID = "433"; */
+"433.alternateTitle" = "Применить";
+
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "433"; */
+"433.title" = "Применить";
+
+/* Class = "NSButtonCell"; alternateTitle = "Copy"; ObjectID = "434"; */
+"434.alternateTitle" = "Копировать";
+
+/* Class = "NSButtonCell"; title = "Copy"; ObjectID = "434"; */
+"434.title" = "Копировать";
+
+/* Class = "NSButtonCell"; alternateTitle = "Copy"; ObjectID = "506"; */
+"506.alternateTitle" = "Копировать";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "506"; */
+"506.title" = "Отмена";
+
+/* Class = "NSTextFieldCell"; title = "To suppress this dialog: Hold down Option to Copy or Shift to Copy and Apply"; ObjectID = "512"; */
+"512.title" = "Чтобы не открывать это диалоговое окно, удерживайте нажатой клавишу Alt для копирования или клавишу Shift для копирования и применения";
+
+/* Class = "NSMenu"; title = "Autoselect"; ObjectID = "Du5-aC-KSA"; */
+"Du5-aC-KSA.title" = "Авто выбор";
+
+/* Class = "NSMenuItem"; title = "Adjusted"; ObjectID = "K4h-Qy-S6H"; */
+"K4h-Qy-S6H.title" = "Обработанные";
+
+/* Class = "NSMenuItem"; title = "Autoselect"; ObjectID = "LRv-nV-Ddf"; */
+"LRv-nV-Ddf.title" = "Авто выбор";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "pJG-QV-Jps"; */
+"pJG-QV-Jps.title" = "Нет";
+
+/* Class = "NSMenuItem"; title = "Include Style Name"; ObjectID = "RAD-xL-Cpi"; */
+"RAD-xL-Cpi.title" = "Сохранять имя стиля";
+
+/* Class = "NSMenuItem"; title = "Adjusted except Composition"; ObjectID = "WMi-rV-YtQ"; */
+"WMi-rV-YtQ.title" = "Измененные, кроме композиции";
+

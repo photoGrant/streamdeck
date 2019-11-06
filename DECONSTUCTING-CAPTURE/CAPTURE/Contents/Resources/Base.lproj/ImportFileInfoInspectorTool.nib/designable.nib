@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ImportFileInfoInspectorTool">
+            <connections>
+                <outlet property="container" destination="5" id="111"/>
+                <outlet property="documentController" destination="17" id="19"/>
+                <outlet property="fakeFilesOwner" destination="22" id="23"/>
+                <outlet property="fileNameText" destination="14" id="30"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="106"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView id="90">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="106"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <textField verticalHuggingPriority="750" id="12">
+                            <rect key="frame" x="98" y="8" width="174" height="18"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingMiddle" sendsActionOnEndEditing="YES" alignment="left" title="Size" id="107" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <accessibility description="importerFileInfoSizeTextField"/>
+                            <connections>
+                                <binding destination="22" name="value" keyPath="selection.fileSizeString" id="42">
+                                    <dictionary key="options">
+                                        <string key="NSNullPlaceholder">--</string>
+                                    </dictionary>
+                                </binding>
+                            </connections>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="8">
+                            <rect key="frame" x="2" y="8" width="84" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Size" id="103" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <accessibility description="importerFileInfoSizeTitle"/>
+                        </textField>
+                        <textField verticalHuggingPriority="750" id="13">
+                            <rect key="frame" x="98" y="32" width="174" height="18"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingMiddle" sendsActionOnEndEditing="YES" alignment="left" title="Kind" id="108" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <accessibility description="importerFileInfoKindTextField"/>
+                            <connections>
+                                <binding destination="22" name="value" keyPath="selection.fileKind" id="41">
+                                    <dictionary key="options">
+                                        <string key="NSNullPlaceholder">--</string>
+                                    </dictionary>
+                                </binding>
+                            </connections>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="9">
+                            <rect key="frame" x="2" y="32" width="84" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Kind" id="104" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <accessibility description="importerFileInfoKindTitle"/>
+                        </textField>
+                        <textField verticalHuggingPriority="750" id="11">
+                            <rect key="frame" x="98" y="56" width="174" height="18"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingMiddle" sendsActionOnEndEditing="YES" alignment="left" title="Date" id="106" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <accessibility description="importerFileInfoDateTextField"/>
+                            <connections>
+                                <binding destination="22" name="value" keyPath="selection.fileDate" id="40">
+                                    <dictionary key="options">
+                                        <string key="NSNullPlaceholder">--</string>
+                                    </dictionary>
+                                </binding>
+                            </connections>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="7">
+                            <rect key="frame" x="4" y="56" width="80" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Date" id="102" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <accessibility description="importerFileInfoDateTitle"/>
+                        </textField>
+                        <textField verticalHuggingPriority="750" id="14">
+                            <rect key="frame" x="100" y="80" width="174" height="18"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingMiddle" sendsActionOnEndEditing="YES" alignment="left" title="Name" id="109" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <accessibility description="importerFileInfoNameTextField"/>
+                            <connections>
+                                <binding destination="22" name="value" keyPath="selection.fileName" id="39">
+                                    <dictionary key="options">
+                                        <string key="NSNullPlaceholder">--</string>
+                                    </dictionary>
+                                </binding>
+                            </connections>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="10">
+                            <rect key="frame" x="2" y="80" width="84" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Name" id="105" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <accessibility description="importerFileInfoNameTitle"/>
+                        </textField>
+                    </subviews>
+                </customView>
+            </subviews>
+        </customView>
+        <objectController objectClassName="SessionDocument" id="17" userLabel="Document">
+            <declaredKeys>
+                <string>selection.primaryVariant.name</string>
+            </declaredKeys>
+        </objectController>
+        <objectController objectClassName="ImportFileInfoInspectorTool" id="22" userLabel="fakeFilesOwner">
+            <declaredKeys>
+                <string>fileName</string>
+                <string>fileDate</string>
+                <string>fileKind</string>
+                <string>fileSize</string>
+                <string>fileSizeString</string>
+            </declaredKeys>
+        </objectController>
+    </objects>
+</document>

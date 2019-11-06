@@ -1,0 +1,69 @@
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "459"; */
+"459.title" = "Wartości domyślne";
+
+/* Class = "NSBox"; title = "Cache"; ObjectID = "486"; */
+"486.title" = "Pamięć podręczna";
+
+/* Class = "NSTextFieldCell"; title = "EIP Packing (Sessions only)"; ObjectID = "526"; */
+"526.title" = "Pakowanie EIP (tylko sesje)";
+
+/* Class = "NSTextFieldCell"; title = "Preview Image Size (px):"; ObjectID = "557"; */
+"557.title" = "Rozmiar Podglądu Obrazu (px):";
+
+/* Class = "NSTextFieldCell"; title = "Cache"; ObjectID = "559"; */
+"559.title" = "Pamięć podręczna";
+
+/* Class = "NSButtonCell"; title = "Prefer Embedded XMP over Embedded IPTC"; ObjectID = "563"; */
+"563.title" = "Wybieraj wbudowane XMP zamiast wbudowanych IPTC";
+
+/* Class = "NSButtonCell"; title = "Prefer Sidecar XMP over Embedded Metadata"; ObjectID = "565"; */
+"565.title" = "Wybieraj Sidecar XMP zamiast wbudowanych metadanych";
+
+/* Class = "NSTextFieldCell"; title = "Metadata"; ObjectID = "568"; */
+"568.title" = "Metadane";
+
+/* Class = "NSBox"; title = "Packaged File Format"; ObjectID = "586"; */
+"586.title" = "Format spakowanego pliku";
+
+/* Class = "NSButtonCell"; title = "Pack as EIP when importing"; ObjectID = "590"; */
+"590.title" = "Spakuj jako EIP przy importowaniu";
+
+/* Class = "NSButtonCell"; title = "Pack as EIP when capturing"; ObjectID = "591"; */
+"591.title" = "Spakuj jako EIP przy przechwytywaniu";
+
+/* Class = "NSTextFieldCell"; title = "JPEG and processed TIFF files will not be packed as EIP."; ObjectID = "592"; */
+"592.title" = "Pliki JPEG i przetworzone TIFF nie zostaną spakowane jako EIP.";
+
+/* Class = "NSTextFieldCell"; title = "Editing"; ObjectID = "601"; */
+"601.title" = "Edycja";
+
+/* Class = "NSButtonCell"; title = "Enable TIFF Editing"; ObjectID = "602"; */
+"602.title" = "Włącz edycję TIFF";
+
+/* Class = "NSButtonCell"; title = "Enable JPEG Editing"; ObjectID = "603"; */
+"603.title" = "Włącz edycję JPEG";
+
+/* Class = "NSMenuItem"; title = "Full Sync"; ObjectID = "621"; */
+"621.title" = "Pełna synchronizacja";
+
+/* Class = "NSMenuItem"; title = "Load"; ObjectID = "622"; */
+"622.title" = "Pobierz";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "623"; */
+"623.title" = "Brak";
+
+/* Class = "NSTextFieldCell"; title = "Auto Sync Sidecar XMP:"; ObjectID = "626"; */
+"626.title" = "Autosynchronizacja Sidecar XMP:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New files (created during import, capture or EIP conversion) will have write permissions for everyone and not just the file owner."; ObjectID = "628"; */
+"628.ibShadowedToolTip" = "Nowe pliki (utworzone podczas importu, przechwytywania lub konwersji EIP) będą mieć możliwość zapisu przez każdego, nie tylko użytkownika pliku.";
+
+/* Class = "NSButtonCell"; title = "Make new files writable by everyone"; ObjectID = "629"; */
+"629.title" = "Ustaw uprawnienia edycji nowych plików na dostępne dla wszystkich";
+
+/* Class = "NSButtonCell"; title = "Enable PNG Editing"; ObjectID = "635"; */
+"635.title" = "Włącz edycję PNG";
+
+/* Class = "NSTextFieldCell"; title = "Default Processing Engine:"; ObjectID = "667"; */
+"667.title" = "Domyślny silnik przetwarzania:";
+

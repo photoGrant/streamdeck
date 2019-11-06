@@ -1,0 +1,18 @@
+/* Class = "NSView"; lSB-c9-3hh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Method"; ObjectID = "lSB-c9-3hh"; */
+"lSB-c9-3hh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Methode";
+
+/* Class = "NSMenuItem"; title = "Circular on Crop"; ObjectID = "U1G-fX-PSc"; */
+"U1G-fX-PSc.title" = "Kreisförmig im Ausschnitt";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "vignetting amount"; ObjectID = "Wkh-tE-r4o"; */
+"Wkh-tE-r4o.ibExternalAccessibilityDescription" = "Stärke der Vignettierung";
+
+/* Class = "NSView"; Wkh-tE-r4o.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Amount"; ObjectID = "Wkh-tE-r4o"; */
+"Wkh-tE-r4o.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Stärke";
+
+/* Class = "NSMenuItem"; title = "Elliptic on Crop"; ObjectID = "Yi3-G7-2UC"; */
+"Yi3-G7-2UC.title" = "Elliptisch im Ausschnitt";
+
+/* Class = "NSMenuItem"; title = "Circular"; ObjectID = "Z9W-Yg-VTF"; */
+"Z9W-Yg-VTF.title" = "Kreisförmig";
+

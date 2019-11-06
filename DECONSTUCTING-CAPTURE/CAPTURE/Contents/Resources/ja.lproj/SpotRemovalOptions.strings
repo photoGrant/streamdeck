@@ -1,0 +1,18 @@
+/* Class = "NSView"; 7xh-iK-5NK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Type"; ObjectID = "7xh-iK-5NK"; */
+"7xh-iK-5NK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "タイプ";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "exposure"; ObjectID = "fh4-Rm-0RK"; */
+"fh4-Rm-0RK.ibExternalAccessibilityDescription" = "露出";
+
+/* Class = "NSView"; fh4-Rm-0RK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "fh4-Rm-0RK"; */
+"fh4-Rm-0RK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "半径";
+
+/* Class = "NSTextFieldCell"; title = "Spot Removal Settings"; ObjectID = "iIa-hD-TxV"; */
+"iIa-hD-TxV.title" = "スポット除去設定";
+
+/* Class = "NSMenuItem"; title = "Dust"; ObjectID = "MDH-5Y-HGR"; */
+"MDH-5Y-HGR.title" = "ダスト";
+
+/* Class = "NSMenuItem"; title = "Spot"; ObjectID = "ug0-rb-eUu"; */
+"ug0-rb-eUu.title" = "スポット";
+

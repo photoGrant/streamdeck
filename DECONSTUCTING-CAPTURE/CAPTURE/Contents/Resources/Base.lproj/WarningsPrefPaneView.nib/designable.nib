@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="WarningsPrefController">
+            <connections>
+                <outlet property="defaultsButton" destination="119" id="809"/>
+                <outlet property="prefsView" destination="844" id="845"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="844">
+            <rect key="frame" x="0.0" y="0.0" width="511" height="573"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="696">
+                    <rect key="frame" x="18" y="536" width="495" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Files and Folders" id="697">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="695">
+                    <rect key="frame" x="20" y="533" width="491" height="5"/>
+                </box>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="693">
+                    <rect key="frame" x="38" y="511" width="321" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when moving images and folders in Catalog" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="694">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenMovingFiles" id="771"/>
+                    </connections>
+                </button>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aix-yv-DSt">
+                    <rect key="frame" x="38" y="491" width="346" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when Move to Trash affects unselected variants" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="11W-al-zCq">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenMovingVariantsToTrashDefaults" id="md5-2I-Snb"/>
+                    </connections>
+                </button>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="702">
+                    <rect key="frame" x="38" y="471" width="443" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when moving images to the Session Trash from a different drive" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" truncatesLastVisibleLine="YES" inset="2" id="703">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenMovingFromDifferentDriveToSessionTrash" id="pof-Gy-GZO"/>
+                    </connections>
+                </button>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="700">
+                    <rect key="frame" x="38" y="451" width="250" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when deleting images from disk" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="701">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenPermanentlyDeletingImages" id="775"/>
+                    </connections>
+                </button>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="810">
+                    <rect key="frame" x="38" y="431" width="241" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when resetting manual sorting" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="811">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenResettingManualSorting" id="814"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="706">
+                    <rect key="frame" x="18" y="406" width="495" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Adjustments" id="707">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="705">
+                    <rect key="frame" x="20" y="403" width="491" height="5"/>
+                </box>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="704">
+                    <rect key="frame" x="38" y="381" width="347" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when resetting adjustments on multiple variants" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="708">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenResettingAdjustments" id="779"/>
+                    </connections>
+                </button>
+                <button toolTip="Warn when analyzing Chromatic Aberration with multiple variants if Edit All Selected Variants is off." allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="846">
+                    <rect key="frame" x="38" y="361" width="284" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when analyzing Chromatic Aberration" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="847">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenAnalyzeMultipleChromaticAberrationWithEditAllOff" id="849"/>
+                    </connections>
+                </button>
+                <button toolTip="Warn when creating LCC with multiple variants if Edit All Selected Variants is off." allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="819">
+                    <rect key="frame" x="38" y="341" width="172" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when creating LCC" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="820">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenAnalyzeMultipleLCCWithEditAllOff" id="825"/>
+                    </connections>
+                </button>
+                <button toolTip="Warn when applying LCC to multiple variants if Edit All Selected Variants is off." allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="822">
+                    <rect key="frame" x="38" y="321" width="174" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when applying LCC" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="823">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenApplyMultipleLCCWithEditAllOff" id="827"/>
+                    </connections>
+                </button>
+                <button toolTip="Warn when changing or deleting the applied LCC. " allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="815">
+                    <rect key="frame" x="38" y="301" width="178" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when changing LCC" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="816">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenRemoveLastCopyOfLCC" id="818"/>
+                    </connections>
+                </button>
+                <button toolTip="Warn when changing or deleting the applied LCC. " allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="828">
+                    <rect key="frame" x="38" y="281" width="200" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when upgrading Engine" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="829">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.WarnWhenUpgradingVariantEngine" id="832"/>
+                    </connections>
+                </button>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="833">
+                    <rect key="frame" x="38" y="261" width="373" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when resetting adjustments on an adjustments layer" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="834">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenResettingAdjustmentsInLocalAdjustmentsLayer" id="841"/>
+                    </connections>
+                </button>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HVJ-Ic-bUd">
+                    <rect key="frame" x="38" y="241" width="301" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when copying unsupported adjustments" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="vL9-36-JKs">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenCopyingUnsupportedSettings" id="cEx-WF-dVo"/>
+                    </connections>
+                </button>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OGe-Jz-edX" userLabel="Warn when applying a style partially">
+                    <rect key="frame" x="38" y="221" width="240" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when applying a style partially" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="bEM-Ld-dkv">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenApplyingAStylePartially" id="fdm-n6-wZD"/>
+                    </connections>
+                </button>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ti-ak-wSD">
+                    <rect key="frame" x="38" y="201" width="303" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when applying a style with an invalid ICC" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="Zwn-SQ-wPT">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenApplyingAStyleWithInvalidICC" id="M0Q-kP-ne1"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="733">
+                    <rect key="frame" x="18" y="136" width="495" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Output" id="734">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="732">
+                    <rect key="frame" x="20" y="133" width="491" height="5"/>
+                </box>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="788">
+                    <rect key="frame" x="38" y="115" width="359" height="14"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="If Edit All Selected Variants is off and multiple variants are selected:" id="789">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button toolTip="Warn when processing multiple variants if Edit All Selected Variants is off" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="792">
+                    <rect key="frame" x="38" y="93" width="160" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when processing" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="793">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenProcessing" id="801"/>
+                    </connections>
+                </button>
+                <button toolTip="Warn when printing multiple variants if Edit All Selected Variants is off" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="795">
+                    <rect key="frame" x="38" y="73" width="140" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when printing" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="796">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenPrinting" id="802"/>
+                    </connections>
+                </button>
+                <button toolTip="Warn when creating a web contact sheet with multiple variants if Edit All Selected Variants is off" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="798">
+                    <rect key="frame" x="38" y="53" width="269" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when creating a web contact sheet" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="799">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenCreatingWCS" id="803"/>
+                    </connections>
+                </button>
+                <button toolTip="Warn when creating a web contact sheet with multiple variants if Edit All Selected Variants is off" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="804">
+                    <rect key="frame" x="38" y="33" width="151" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when exporting" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="805">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenExportingSelectedVariants" id="808"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="119">
+                    <rect key="frame" x="406" y="13" width="91" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="KJy-gP-QND"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="Defaults" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="482">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="resetWarningsUserDefaultsToFactoryDefaults:" target="-2" id="654"/>
+                    </connections>
+                </button>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ey-Sv-esn">
+                    <rect key="frame" x="38" y="181" width="306" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when applying a style with an invalid LCC" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="18v-en-xAd">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.warnWhenApplyingAStyleWithInvalidLCC" id="g26-vh-JU0"/>
+                    </connections>
+                </button>
+                <button allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PBD-uc-lMa">
+                    <rect key="frame" x="38" y="161" width="273" height="18"/>
+                    <buttonCell key="cell" type="check" title="Warn when rasterizing a parametric mask" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="YLZ-gd-vnA">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.WarnWhenRasterizingParametricMask" id="ReP-a2-drX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="798" secondAttribute="trailing" constant="20" symbolic="YES" id="05C-sg-lfL"/>
+                <constraint firstAttribute="trailing" secondItem="695" secondAttribute="trailing" id="0T3-7o-2CX"/>
+                <constraint firstAttribute="trailing" secondItem="732" secondAttribute="trailing" id="0wF-9V-g6J"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PBD-uc-lMa" secondAttribute="trailing" constant="20" symbolic="YES" id="2M4-No-BUW"/>
+                <constraint firstItem="119" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="844" secondAttribute="leading" id="3Rl-WS-l21"/>
+                <constraint firstAttribute="bottom" secondItem="119" secondAttribute="bottom" constant="20" id="4Bv-1k-0y0"/>
+                <constraint firstAttribute="trailing" secondItem="696" secondAttribute="trailing" id="5Yk-07-l6G"/>
+                <constraint firstItem="HVJ-Ic-bUd" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="6Bb-Pe-Gi4"/>
+                <constraint firstItem="700" firstAttribute="top" secondItem="702" secondAttribute="bottom" constant="6" id="7i2-Qt-QKt"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="700" secondAttribute="trailing" constant="20" symbolic="YES" id="8bY-Lv-V8j"/>
+                <constraint firstAttribute="trailing" secondItem="706" secondAttribute="trailing" id="A1G-dx-NT4"/>
+                <constraint firstItem="815" firstAttribute="top" secondItem="822" secondAttribute="bottom" constant="6" id="Aov-nx-j3N"/>
+                <constraint firstItem="798" firstAttribute="top" secondItem="795" secondAttribute="bottom" constant="6" id="Arv-MW-qj5"/>
+                <constraint firstItem="aix-yv-DSt" firstAttribute="top" secondItem="693" secondAttribute="bottom" constant="6" id="B1n-Bm-mH8"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="846" secondAttribute="trailing" constant="20" symbolic="YES" id="BEw-w4-3Tz"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="828" secondAttribute="trailing" constant="20" symbolic="YES" id="Bh8-Uz-n2B"/>
+                <constraint firstItem="819" firstAttribute="top" secondItem="846" secondAttribute="bottom" constant="6" id="CWh-bL-GKr"/>
+                <constraint firstItem="822" firstAttribute="top" secondItem="819" secondAttribute="bottom" constant="6" id="DJ0-ms-zc3"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aix-yv-DSt" secondAttribute="trailing" constant="20" symbolic="YES" id="EaM-ZB-nXv"/>
+                <constraint firstItem="704" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="ExI-gN-kx7"/>
+                <constraint firstItem="846" firstAttribute="top" secondItem="704" secondAttribute="bottom" constant="6" id="Fgr-82-II2"/>
+                <constraint firstItem="846" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="INs-i0-YKv"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="815" secondAttribute="trailing" constant="20" symbolic="YES" id="Iii-Ae-0z7"/>
+                <constraint firstItem="819" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="L9C-jm-yQh"/>
+                <constraint firstItem="798" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="LSF-J6-VsA"/>
+                <constraint firstItem="706" firstAttribute="top" secondItem="810" secondAttribute="bottom" constant="10" id="LsE-ip-dS6"/>
+                <constraint firstItem="3ey-Sv-esn" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="LsR-5u-BgC"/>
+                <constraint firstAttribute="trailing" secondItem="119" secondAttribute="trailing" constant="20" id="Nc9-eV-ZDV"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HVJ-Ic-bUd" secondAttribute="trailing" constant="20" symbolic="YES" id="Nnl-4A-l3s"/>
+                <constraint firstItem="704" firstAttribute="top" secondItem="705" secondAttribute="bottom" constant="8" id="P1b-LP-4Wx"/>
+                <constraint firstItem="828" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="P4J-Uo-xeS"/>
+                <constraint firstItem="795" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="P9f-lP-MjK"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="702" secondAttribute="trailing" constant="20" symbolic="YES" id="PT2-9y-Obd"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="804" secondAttribute="trailing" constant="20" symbolic="YES" id="Phz-3v-ngV"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="792" secondAttribute="trailing" constant="20" symbolic="YES" id="R3S-9f-hsy"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="795" secondAttribute="trailing" constant="20" symbolic="YES" id="S5v-Lc-bQ5"/>
+                <constraint firstItem="804" firstAttribute="top" secondItem="798" secondAttribute="bottom" constant="6" id="STz-Zf-8On"/>
+                <constraint firstItem="PBD-uc-lMa" firstAttribute="top" secondItem="3ey-Sv-esn" secondAttribute="bottom" constant="6" id="T1f-Km-tDs"/>
+                <constraint firstItem="815" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="Tc9-6t-lEs"/>
+                <constraint firstItem="2ti-ak-wSD" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="UjF-2d-4ZY"/>
+                <constraint firstItem="695" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="20" id="Uz1-DI-OX1"/>
+                <constraint firstItem="833" firstAttribute="top" secondItem="828" secondAttribute="bottom" constant="6" id="VIM-Gi-5Co"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OGe-Jz-edX" secondAttribute="trailing" constant="20" symbolic="YES" id="VLH-a6-tyj"/>
+                <constraint firstItem="aix-yv-DSt" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="WWt-tZ-kWb"/>
+                <constraint firstItem="705" firstAttribute="top" secondItem="706" secondAttribute="bottom" id="XCU-sy-XHj"/>
+                <constraint firstItem="706" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="20" id="Y16-Dy-ay8"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="788" secondAttribute="trailing" constant="20" symbolic="YES" id="YTx-gW-yVN"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2ti-ak-wSD" secondAttribute="trailing" constant="20" symbolic="YES" id="Yea-JK-bfF"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="833" secondAttribute="trailing" constant="20" symbolic="YES" id="Yzg-LF-GK3"/>
+                <constraint firstItem="792" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="Z1g-Tn-Av8"/>
+                <constraint firstItem="788" firstAttribute="top" secondItem="732" secondAttribute="bottom" constant="6" id="Zmx-Nu-FVY"/>
+                <constraint firstItem="OGe-Jz-edX" firstAttribute="top" secondItem="HVJ-Ic-bUd" secondAttribute="bottom" constant="6" id="a51-Uh-YgI"/>
+                <constraint firstItem="828" firstAttribute="top" secondItem="815" secondAttribute="bottom" constant="6" id="cIH-x0-JFM"/>
+                <constraint firstItem="693" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="cav-BO-2I3"/>
+                <constraint firstItem="792" firstAttribute="top" secondItem="788" secondAttribute="bottom" constant="6" id="che-AY-ijL"/>
+                <constraint firstItem="2ti-ak-wSD" firstAttribute="top" secondItem="OGe-Jz-edX" secondAttribute="bottom" constant="6" id="dh2-qX-T7i"/>
+                <constraint firstItem="PBD-uc-lMa" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="dk8-eq-3k9"/>
+                <constraint firstItem="733" firstAttribute="top" secondItem="PBD-uc-lMa" secondAttribute="bottom" constant="10" id="ehC-MG-Yzp"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="822" secondAttribute="trailing" constant="20" symbolic="YES" id="epa-BV-HBl"/>
+                <constraint firstItem="702" firstAttribute="top" secondItem="aix-yv-DSt" secondAttribute="bottom" constant="6" id="fIJ-Oy-agn"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="704" secondAttribute="trailing" constant="20" symbolic="YES" id="fM0-fs-vIo"/>
+                <constraint firstItem="732" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="20" id="g8f-bd-bGk"/>
+                <constraint firstItem="788" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="gMi-Gv-MSq"/>
+                <constraint firstItem="PBD-uc-lMa" firstAttribute="top" secondItem="3ey-Sv-esn" secondAttribute="bottom" constant="6" id="hr3-O1-2R6"/>
+                <constraint firstItem="732" firstAttribute="top" secondItem="733" secondAttribute="bottom" id="hw5-uF-w2A"/>
+                <constraint firstItem="695" firstAttribute="top" secondItem="696" secondAttribute="bottom" id="hzK-fQ-YTY"/>
+                <constraint firstItem="702" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="jfe-tz-Ze4"/>
+                <constraint firstItem="HVJ-Ic-bUd" firstAttribute="top" secondItem="833" secondAttribute="bottom" constant="6" id="kC9-bN-I7s"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="693" secondAttribute="trailing" constant="20" symbolic="YES" id="kPh-uA-Pqs"/>
+                <constraint firstItem="804" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="klE-n6-jvs"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="819" secondAttribute="trailing" constant="20" symbolic="YES" id="kwM-qZ-ToX"/>
+                <constraint firstItem="696" firstAttribute="top" secondItem="844" secondAttribute="top" constant="20" id="mK1-EL-Iz2"/>
+                <constraint firstItem="810" firstAttribute="top" secondItem="700" secondAttribute="bottom" constant="6" id="nSn-c3-iwO"/>
+                <constraint firstItem="700" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="ns8-Qb-u4J"/>
+                <constraint firstItem="822" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="ofk-jm-37q"/>
+                <constraint firstItem="705" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="20" id="pHi-An-r1m"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="810" secondAttribute="trailing" constant="20" symbolic="YES" id="pci-90-ezU"/>
+                <constraint firstItem="833" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="rTb-oo-Iv0"/>
+                <constraint firstItem="693" firstAttribute="top" secondItem="695" secondAttribute="bottom" constant="8" id="sFT-fE-tm6"/>
+                <constraint firstItem="696" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="20" id="sKY-UK-2Z0"/>
+                <constraint firstItem="733" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="20" id="sXh-iM-pTd"/>
+                <constraint firstItem="795" firstAttribute="top" secondItem="792" secondAttribute="bottom" constant="6" id="sqs-57-que"/>
+                <constraint firstItem="3ey-Sv-esn" firstAttribute="top" secondItem="2ti-ak-wSD" secondAttribute="bottom" constant="6" id="tmO-wL-Bho"/>
+                <constraint firstAttribute="trailing" secondItem="705" secondAttribute="trailing" id="uqQ-ma-ikK"/>
+                <constraint firstAttribute="trailing" secondItem="733" secondAttribute="trailing" id="usM-jg-yhb"/>
+                <constraint firstItem="OGe-Jz-edX" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="wVU-TJ-U70"/>
+                <constraint firstItem="810" firstAttribute="leading" secondItem="844" secondAttribute="leading" constant="40" id="xKS-At-Ddp"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3ey-Sv-esn" secondAttribute="trailing" constant="20" symbolic="YES" id="yda-M8-dIg"/>
+            </constraints>
+            <point key="canvasLocation" x="326.5" y="338.5"/>
+        </customView>
+        <userDefaultsController representsSharedInstance="YES" id="57" userLabel="Shared Defaults"/>
+    </objects>
+</document>

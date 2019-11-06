@@ -1,0 +1,9 @@
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "335"; */
+"335.headerCell.title" = "名稱";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "336"; */
+"336.headerCell.title" = "數值";
+
+/* Class = "NSButtonCell"; title = "Copy values from Primary"; ObjectID = "OdI-KZ-CTd"; */
+"OdI-KZ-CTd.title" = "從主體複製數值";
+

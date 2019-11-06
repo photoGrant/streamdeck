@@ -1,0 +1,69 @@
+/* Class = "NSMenuItem"; title = "Solid"; ObjectID = "121"; */
+"121.title" = "Lity";
+
+/* Class = "NSMenuItem"; title = "Pinstripe"; ObjectID = "122"; */
+"122.title" = "Paski";
+
+/* Class = "NSMenuItem"; title = "Dark"; ObjectID = "129"; */
+"129.title" = "Ciemny";
+
+/* Class = "NSMenuItem"; title = "Black"; ObjectID = "130"; */
+"130.title" = "Czarny";
+
+/* Class = "NSMenuItem"; title = "Medium"; ObjectID = "134"; */
+"134.title" = "Średnie";
+
+/* Class = "NSMenuItem"; title = "Light"; ObjectID = "135"; */
+"135.title" = "Światło";
+
+/* Class = "NSMenuItem"; title = "White"; ObjectID = "136"; */
+"136.title" = "Biały";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "257"; */
+"257.title" = "Wartości domyślne";
+
+/* Class = "NSTextFieldCell"; title = "Pattern:"; ObjectID = "258"; */
+"258.title" = "Wzór:";
+
+/* Class = "NSTextFieldCell"; title = "Color:"; ObjectID = "260"; */
+"260.title" = "Kolor tła:";
+
+/* Class = "NSTextFieldCell"; title = "Margin:"; ObjectID = "262"; */
+"262.title" = "Margines:";
+
+/* Class = "NSTextFieldCell"; title = "px"; ObjectID = "263"; */
+"263.title" = "px";
+
+/* Class = "NSTextFieldCell"; title = "Viewer"; ObjectID = "265"; */
+"265.title" = "Podgląd";
+
+/* Class = "NSTextFieldCell"; title = "Viewer and Browser"; ObjectID = "266"; */
+"266.title" = "Podgląd i przeglądarka";
+
+/* Class = "NSTextFieldCell"; title = "Proof Margin:"; ObjectID = "269"; */
+"269.title" = "Margines proofu:";
+
+/* Class = "NSTextFieldCell"; title = "px"; ObjectID = "270"; */
+"270.title" = "px";
+
+/* Class = "NSTextFieldCell"; title = "Mask Color:"; ObjectID = "277"; */
+"277.title" = "Kolor maski:";
+
+/* Class = "NSTextFieldCell"; title = "Layers"; ObjectID = "289"; */
+"289.title" = "Warstwy";
+
+/* Class = "NSBox"; title = "Proof Margin"; ObjectID = "293"; */
+"293.title" = "Margines proofu";
+
+/* Class = "NSBox"; title = "Local Adjustments"; ObjectID = "295"; */
+"295.title" = "Dopasowania lokalne";
+
+/* Class = "NSMenuItem"; title = "Very Dark"; ObjectID = "B1a-vD-sUX"; */
+"B1a-vD-sUX.title" = "Bardzo ciemny";
+
+/* Class = "NSTextFieldCell"; title = "Compare Variant Color:"; ObjectID = "drf-G9-VYV"; */
+"drf-G9-VYV.title" = "Kolor wariantu porównawczego:";
+
+/* Class = "NSTextFieldCell"; title = "Selected Variant Color:"; ObjectID = "RSD-oE-2ka"; */
+"RSD-oE-2ka.title" = "Kolor wybranego wariantu:";
+

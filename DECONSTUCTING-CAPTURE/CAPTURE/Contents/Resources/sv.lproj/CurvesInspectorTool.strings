@@ -1,0 +1,36 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Meny";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "curvesInputField"; ObjectID = "257"; */
+"257.ibExternalAccessibilityDescription" = "curvesInputField";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "curvesOutputField"; ObjectID = "260"; */
+"260.ibExternalAccessibilityDescription" = "curvesOutputField";
+
+/* Class = "NSTextFieldCell"; placeholderString = "0"; ObjectID = "285"; */
+"285.placeholderString" = "0";
+
+/* Class = "NSTextFieldCell"; title = "Input:"; ObjectID = "286"; */
+"286.title" = "Input:";
+
+/* Class = "NSTextFieldCell"; placeholderString = "0"; ObjectID = "287"; */
+"287.placeholderString" = "0";
+
+/* Class = "NSTextFieldCell"; title = "Output:"; ObjectID = "288"; */
+"288.title" = "Bearbetning:";
+
+/* Class = "NSSegmentedCell"; 316.ibShadowedLabels[0] = "RGB"; ObjectID = "316"; */
+"316.ibShadowedLabels[0]" = "RGB";
+
+/* Class = "NSSegmentedCell"; 316.ibShadowedLabels[1] = "Luma"; ObjectID = "316"; */
+"316.ibShadowedLabels[1]" = "Luma";
+
+/* Class = "NSSegmentedCell"; 316.ibShadowedLabels[2] = "Red"; ObjectID = "316"; */
+"316.ibShadowedLabels[2]" = "Röd";
+
+/* Class = "NSSegmentedCell"; 316.ibShadowedLabels[3] = "Green"; ObjectID = "316"; */
+"316.ibShadowedLabels[3]" = "Grön";
+
+/* Class = "NSSegmentedCell"; 316.ibShadowedLabels[4] = "Blue"; ObjectID = "316"; */
+"316.ibShadowedLabels[4]" = "Blå";
+

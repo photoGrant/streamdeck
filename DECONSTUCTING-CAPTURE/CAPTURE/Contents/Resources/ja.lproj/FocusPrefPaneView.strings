@@ -1,0 +1,15 @@
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "6"; */
+"6.title" = "デフォルト";
+
+/* Class = "NSTextFieldCell"; title = "Threshold:"; ObjectID = "10"; */
+"10.title" = "しきい値:";
+
+/* Class = "NSTextFieldCell"; title = "Focus Mask"; ObjectID = "14"; */
+"14.title" = "フォーカス マスク";
+
+/* Class = "NSTextFieldCell"; title = "Color:"; ObjectID = "17"; */
+"17.title" = "カラー:";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "30"; */
+"30.title" = "不透明度:";
+

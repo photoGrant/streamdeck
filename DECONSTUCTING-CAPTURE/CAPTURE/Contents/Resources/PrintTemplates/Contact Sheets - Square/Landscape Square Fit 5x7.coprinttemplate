@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PrintTemplate>
+  <Version>1</Version>
+  <Margin>
+    <Left>20.006962092843665</Left>
+    <Top>9.8163628465554638</Top>
+    <Right>20.006962092843665</Right>
+    <Bottom>9.8163628465554638</Bottom>
+  </Margin>
+  <Layout>
+    <ResizingRule>1</ResizingRule>
+    <Rows>5</Rows>
+    <Columns>7</Columns>
+    <RowsSpacing>0</RowsSpacing>
+    <ColumnsSpacing>0</ColumnsSpacing>
+    <CellHeight>164.40944881889735</CellHeight>
+    <CellWidth>164.40944881889735</CellWidth>
+    <CellBorder>5.0355100461989952</CellBorder>
+  </Layout>
+  <ImageOptions>
+    <ZoomToFill>false</ZoomToFill>
+    <RotateToFill>false</RotateToFill>
+    <RepeatOneImagePerPage>false</RepeatOneImagePerPage>
+  </ImageOptions>
+  <Annotation>
+    <Type>Filename</Type>
+    <FontName>Tahoma</FontName>
+    <FontSize>7.8</FontSize>
+    <ForegroundColor>Black</ForegroundColor>
+  </Annotation>
+  <Template>
+    <Name>Contact Sheet Square Fit 5x7</Name>
+  </Template>
+</PrintTemplate>

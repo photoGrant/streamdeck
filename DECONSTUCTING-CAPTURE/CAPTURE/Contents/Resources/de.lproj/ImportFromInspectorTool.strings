@@ -1,0 +1,12 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "49"; */
+"49.title" = "Menü";
+
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "50"; */
+"50.title" = "Werkzeug zurücksetzen";
+
+/* Class = "NSButtonCell"; title = "Include Subfolders"; ObjectID = "70"; */
+"70.title" = "Unterordner mit einbeziehen";
+
+/* Class = "NSView"; byw-wM-IfW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Source"; ObjectID = "byw-wM-IfW"; */
+"byw-wM-IfW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Quelle";
+

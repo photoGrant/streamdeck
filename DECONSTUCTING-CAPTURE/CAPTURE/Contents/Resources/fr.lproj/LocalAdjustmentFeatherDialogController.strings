@@ -1,0 +1,18 @@
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "2KX-yW-Y8Z"; */
+"2KX-yW-Y8Z.title" = "Appliquer";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3jn-o8-abc"; */
+"3jn-o8-abc.title" = "Annuler";
+
+/* Class = "NSWindow"; title = "Feather Mask"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Contour Progressif Masque";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "Feather value"; ObjectID = "fLd-KN-RDQ"; */
+"fLd-KN-RDQ.ibExternalAccessibilityDescription" = "Valeur Contour Progressif";
+
+/* Class = "NSView"; fLd-KN-RDQ.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "fLd-KN-RDQ"; */
+"fLd-KN-RDQ.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Rayon";
+
+/* Class = "NSButtonCell"; title = "Display mask"; ObjectID = "Vmk-QE-bDz"; */
+"Vmk-QE-bDz.title" = "Afficher Masque";
+

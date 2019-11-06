@@ -1,0 +1,33 @@
+/* Class = "NSButton"; ibShadowedToolTip = "A Session is a quick and light weight way to work with a limited number of images for a single job or event. Images can be edited by browsing to their location on disk or by importing them into the session."; ObjectID = "37"; */
+"37.ibShadowedToolTip" = "Een Sessie is een snelle en soepele manier om te werken met een beperkt aantal afbeeldingen voor één opdracht of gebeurtenis. Afbeeldingen kunnen worden bewerkt door naar hun locatie te bladeren op de schijf of door ze te importeren in de Sessie.";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "54"; */
+"54.title" = "Annuleer";
+
+/* Class = "NSButtonCell"; title = "New Session..."; ObjectID = "55"; */
+"55.title" = "Nieuwe Sessie...";
+
+/* Class = "NSButtonCell"; title = "Browse..."; ObjectID = "173"; */
+"173.title" = "Bladeren...";
+
+/* Class = "NSButtonCell"; title = "Open"; ObjectID = "176"; */
+"176.title" = "Openen";
+
+/* Class = "NSTableColumn"; headerCell.title = "Recent Sessions"; ObjectID = "183"; */
+"183.headerCell.title" = "Recente Sessies";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "186"; */
+"186.title" = "Tekstcel";
+
+/* Class = "NSTextFieldCell"; title = "No recent catalogs or sessions"; ObjectID = "208"; */
+"208.title" = "Geen recente Catalogi of Sessies";
+
+/* Class = "NSTextFieldCell"; title = "Recents"; ObjectID = "219"; */
+"219.title" = "Recent";
+
+/* Class = "NSButton"; ibShadowedToolTip = "A Catalog is the best place to store and organize your entire image library. To work with images in a catalog, they need to be imported by the catalog. Recommended for most photographers."; ObjectID = "221"; */
+"221.ibShadowedToolTip" = "Een Catalogus is de beste plek om uw volledige afbeeldingenbibliotheek op te slaan en te organiseren. Om te kunnen werken met afbeeldingen in een Catalogus, moeten ze worden geïmporteerd door de Catalogus. Aanbevolen voor de meeste fotografen.";
+
+/* Class = "NSButtonCell"; title = "New Catalog..."; ObjectID = "222"; */
+"222.title" = "Nieuwe Catalogus...";
+

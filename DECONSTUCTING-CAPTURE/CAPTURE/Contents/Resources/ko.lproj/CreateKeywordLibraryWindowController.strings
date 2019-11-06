@@ -1,0 +1,15 @@
+/* Class = "NSTextFieldCell"; title = "Create Keyword Library"; ObjectID = "79R-nN-oDy"; */
+"79R-nN-oDy.title" = "키워드 라이브러리 생성";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "gyz-LJ-JDy"; */
+"gyz-LJ-JDy.title" = "취소";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter new library name..."; ObjectID = "pCn-a3-tK3"; */
+"pCn-a3-tK3.placeholderString" = "새로운 라이브러리 이름 입력...";
+
+/* Class = "NSButtonCell"; title = "Create"; ObjectID = "vDr-5V-UVq"; */
+"vDr-5V-UVq.title" = "생성";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "wGG-Fx-gKo"; */
+"wGG-Fx-gKo.title" = "창";
+

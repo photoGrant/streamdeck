@@ -1,0 +1,69 @@
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "The aspect ratio used when creating or modifying crops. Double-click inside a crop frame to apply this ratio to an existing crop."; ObjectID = "143"; */
+"143.ibShadowedToolTip" = "Rapporto d’aspetto utilizzato per creare o modificare i ritagli. Doppio clic all'interno di un crop frame per applicare questo rapporto d’aspetto a un ritaglio esistente.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "144"; */
+"144.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Organize…"; ObjectID = "145"; */
+"145.title" = "Organizza…";
+
+/* Class = "NSMenuItem"; title = "New…"; ObjectID = "146"; */
+"146.title" = "Nuovo…";
+
+/* Class = "NSMenuItem"; title = "Unconstrained"; ObjectID = "147"; */
+"147.title" = "Libero";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Tool setting: Determines the aspect ratio used when creating or modifying crops. Double-click inside a crop frame to apply this ratio to an existing crop"; ObjectID = "148"; */
+"148.ibShadowedToolTip" = "Impostazione strumento: Determina il rapporto d’aspetto usato creando o modificando ritagli. Doppio clic all'interno di un crop frame per applicare il rapporto d’aspetto a un ritaglio esistente";
+
+/* Class = "NSMenuItem"; title = "Output"; ObjectID = "149"; */
+"149.title" = "Output";
+
+/* Class = "NSMenuItem"; title = "1x1"; ObjectID = "152"; */
+"152.title" = "1x1";
+
+/* Class = "NSMenuItem"; title = "2x3"; ObjectID = "153"; */
+"153.title" = "2x3";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Variant setting: The size of the resulting image when the variant is processed."; ObjectID = "155"; */
+"155.ibShadowedToolTip" = "Impostazione Variante: Dimensione dell'immagine risultante quando la variante è processata.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Size unit."; ObjectID = "157"; */
+"157.ibShadowedToolTip" = "Unità di misura.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "158"; */
+"158.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "px"; ObjectID = "159"; */
+"159.title" = "px";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "160"; */
+"160.title" = "in";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "161"; */
+"161.title" = "cm";
+
+/* Class = "NSMenuItem"; title = "mm"; ObjectID = "162"; */
+"162.title" = "mm";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "169"; */
+"169.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Apply Aspect Ratio"; ObjectID = "176"; */
+"176.title" = "Applica Rapporto d’aspetto";
+
+/* Class = "NSTextFieldCell"; title = "Ratio"; ObjectID = "326"; */
+"326.title" = "Rapporto";
+
+/* Class = "NSTextFieldCell"; title = "Size"; ObjectID = "327"; */
+"327.title" = "Dimensione";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "331"; */
+"331.title" = "x";
+
+/* Class = "NSButtonCell"; title = "Crop Outside Image"; ObjectID = "334"; */
+"334.title" = "Taglia Immagine Esterna";
+
+/* Class = "NSButtonCell"; title = "Show Grid While Cropping"; ObjectID = "IUp-Ub-TaZ"; */
+"IUp-Ub-TaZ.title" = "Mostra Griglia durante il Ritaglio";
+

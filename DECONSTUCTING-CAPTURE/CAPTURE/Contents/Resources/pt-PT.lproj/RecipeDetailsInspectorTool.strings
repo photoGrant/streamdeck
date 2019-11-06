@@ -1,0 +1,615 @@
+/* Class = "NSButtonCell"; title = "Annotations"; ObjectID = "1Nq-bn-G24"; */
+"1Nq-bn-G24.title" = "Anotações";
+
+/* Class = "NSView"; 2EH-jx-fJD.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Keywords"; ObjectID = "2EH-jx-fJD"; */
+"2EH-jx-fJD.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Palavras-chave";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Minimum Viewing Distance"; ObjectID = "2ZX-1x-lSR"; */
+"2ZX-1x-lSR.ibShadowedToolTip" = "Distância Mínima de Visualização";
+
+/* Class = "NSView"; 3Nc-IA-dyG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Options"; ObjectID = "3Nc-IA-dyG"; */
+"3Nc-IA-dyG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Opções";
+
+/* Class = "NSView"; 3Wx-EY-qOI.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Quality"; ObjectID = "3Wx-EY-qOI"; */
+"3Wx-EY-qOI.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Qualidade";
+
+/* Class = "NSView"; 6EM-fA-b8g.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Amount"; ObjectID = "6EM-fA-b8g"; */
+"6EM-fA-b8g.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Quantidade";
+
+/* Class = "NSMenuItem"; title = "Height"; ObjectID = "6vj-PM-9wT"; */
+"6vj-PM-9wT.title" = "Altura";
+
+/* Class = "NSView"; 8FU-gK-pj9.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "ICC Profile"; ObjectID = "8FU-gK-pj9"; */
+"8FU-gK-pj9.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Perfil ICC";
+
+/* Class = "NSMenuItem"; title = "Respect crop"; ObjectID = "8o0-Jw-krf"; */
+"8o0-Jw-krf.title" = "Manter o corte";
+
+/* Class = "NSMenuItem"; title = "Width"; ObjectID = "8z5-Tc-iuO"; */
+"8z5-Tc-iuO.title" = "Largura";
+
+/* Class = "NSView"; 9XY-kk-oJX.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Amount"; ObjectID = "9XY-kk-oJX"; */
+"9XY-kk-oJX.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Quantidade";
+
+/* Class = "NSMenuItem"; title = "Output Sharpening for Print"; ObjectID = "46X-f0-Rsd"; */
+"46X-f0-Rsd.title" = "Afiação de saída para impressão";
+
+/* Class = "NSMenuItem"; title = "Disable all"; ObjectID = "56a-dv-jtz"; */
+"56a-dv-jtz.title" = "Desativar tudo";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Minimum Viewing Distance Unit"; ObjectID = "67j-65-uLG"; */
+"67j-65-uLG.ibShadowedToolTip" = "Unidade de Distância Mínima de Visualização";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "248"; */
+"248.title" = "Menu";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "processRecipeResolutionUnitPopup"; ObjectID = "398"; */
+"398.ibExternalAccessibilityDescription" = "processRecipeResolutionUnitPopup";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "399"; */
+"399.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "px/in"; ObjectID = "402"; */
+"402.title" = "px/pol";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "processRecipeFormatPopup"; ObjectID = "410"; */
+"410.ibExternalAccessibilityDescription" = "processRecipeFormatPopup";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "411"; */
+"411.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "JPEG QuickProof"; ObjectID = "422"; */
+"422.title" = "JPEG QuickProof";
+
+/* Class = "NSTabViewItem"; label = "Fixed"; ObjectID = "502"; */
+"502.label" = "Fixas";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Scale the original image the given amount to obtain the final image."; ObjectID = "505"; */
+"505.ibShadowedToolTip" = "Dimensione a imagem original de acordo com o valor determinado para obter a imagem final.";
+
+/* Class = "NSTabViewItem"; label = "Height"; ObjectID = "507"; */
+"507.label" = "Altura";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "1st target dimension for scaling the final image."; ObjectID = "509"; */
+"509.ibShadowedToolTip" = "1ª dimensão alvo para dimensionamento da imagem final.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Unit for the target dimension used to scale the final image."; ObjectID = "510"; */
+"510.ibShadowedToolTip" = "Unidade da dimensão alvo usada para dimensionar a imagem final.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "511"; */
+"511.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "mm"; ObjectID = "512"; */
+"512.title" = "mm";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "513"; */
+"513.title" = "pol.";
+
+/* Class = "NSMenuItem"; title = "px"; ObjectID = "514"; */
+"514.title" = "px";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "515"; */
+"515.title" = "cm";
+
+/* Class = "NSTabViewItem"; label = "Bounding Box"; ObjectID = "516"; */
+"516.label" = "Caixa delimitadora";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Unit for the target dimension used to scale the final image."; ObjectID = "518"; */
+"518.ibShadowedToolTip" = "Unidade da dimensão alvo usada para dimensionar a imagem final.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "519"; */
+"519.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "520"; */
+"520.title" = "cm";
+
+/* Class = "NSMenuItem"; title = "mm"; ObjectID = "521"; */
+"521.title" = "mm";
+
+/* Class = "NSMenuItem"; title = "px"; ObjectID = "522"; */
+"522.title" = "px";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "523"; */
+"523.title" = "pol.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "1st target dimension for scaling the final image."; ObjectID = "524"; */
+"524.ibShadowedToolTip" = "1ª dimensão alvo para dimensionamento da imagem final.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "2nd target dimension for scaling the final image."; ObjectID = "526"; */
+"526.ibShadowedToolTip" = "2ª dimensão alvo para dimensionamento da imagem final.";
+
+/* Class = "NSTabViewItem"; label = "Width"; ObjectID = "527"; */
+"527.label" = "Largura";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Unit for the target dimension used to scale the final image."; ObjectID = "529"; */
+"529.ibShadowedToolTip" = "Unidade da dimensão alvo usada para dimensionar a imagem final.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "530"; */
+"530.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "531"; */
+"531.title" = "cm";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "532"; */
+"532.title" = "pol.";
+
+/* Class = "NSMenuItem"; title = "px"; ObjectID = "533"; */
+"533.title" = "px";
+
+/* Class = "NSMenuItem"; title = "mm"; ObjectID = "534"; */
+"534.title" = "mm";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "1st target dimension for scaling the final image."; ObjectID = "535"; */
+"535.ibShadowedToolTip" = "1ª dimensão alvo para dimensionamento da imagem final.";
+
+/* Class = "NSTabViewItem"; label = "JPEG"; ObjectID = "624"; */
+"624.label" = "JPEG";
+
+/* Class = "NSTabViewItem"; label = "TIFF"; ObjectID = "626"; */
+"626.label" = "TIFF";
+
+/* Class = "NSBox"; title = "TIFF and JPEG"; ObjectID = "686"; */
+"686.title" = "TIFF e JPEG";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "processRecipeBppPopup"; ObjectID = "700"; */
+"700.ibExternalAccessibilityDescription" = "processRecipeBppPopup";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "701"; */
+"701.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "8 bit"; ObjectID = "702"; */
+"702.title" = "8 bits";
+
+/* Class = "NSMenuItem"; title = "16 bit"; ObjectID = "703"; */
+"703.title" = "16 bits";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "processRecipeCreateThumbnailsPopup"; ObjectID = "720"; */
+"720.ibExternalAccessibilityDescription" = "processRecipeCreateThumbnailsPopup";
+
+/* Class = "NSTabViewItem"; label = "Basic"; ObjectID = "874"; */
+"874.label" = "Básico";
+
+/* Class = "NSTabViewItem"; label = "Location"; ObjectID = "875"; */
+"875.label" = "Local";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "processRecipeCreateThumbnailsPopup"; ObjectID = "884"; */
+"884.ibExternalAccessibilityDescription" = "processRecipeCreateThumbnailsPopup";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "processRecipeBppPopup"; ObjectID = "1099"; */
+"1099.ibExternalAccessibilityDescription" = "processRecipeBppPopup";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1101"; */
+"1101.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Output Folder"; ObjectID = "1102"; */
+"1102.title" = "Pasta de saída";
+
+/* Class = "NSMenuItem"; title = "Image Folder"; ObjectID = "1103"; */
+"1103.title" = "Pasta imagem";
+
+/* Class = "NSTabViewItem"; label = "Watermark"; ObjectID = "1314"; */
+"1314.label" = "Marca d'água";
+
+/* Class = "NSTabViewItem"; label = "None"; ObjectID = "1372"; */
+"1372.label" = "Nenhum";
+
+/* Class = "NSTabViewItem"; label = "Text"; ObjectID = "1373"; */
+"1373.label" = "Texto";
+
+/* Class = "NSTabViewItem"; label = "Image"; ObjectID = "1376"; */
+"1376.label" = "Imagem";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Choose Font."; ObjectID = "1605"; */
+"1605.ibShadowedToolTip" = "Escolher fonte.";
+
+/* Class = "NSSegmentedCell"; 1888.ibShadowedLabels[0] = "Basic"; ObjectID = "1888"; */
+"1888.ibShadowedLabels[0]" = "Básico";
+
+/* Class = "NSSegmentedCell"; 1888.ibShadowedLabels[1] = "File"; ObjectID = "1888"; */
+"1888.ibShadowedLabels[1]" = "Arquivo";
+
+/* Class = "NSSegmentedCell"; 1888.ibShadowedLabels[2] = "Adjustments"; ObjectID = "1888"; */
+"1888.ibShadowedLabels[2]" = "Ajustes";
+
+/* Class = "NSSegmentedCell"; 1888.ibShadowedLabels[3] = "Metadata"; ObjectID = "1888"; */
+"1888.ibShadowedLabels[3]" = "Metadados";
+
+/* Class = "NSSegmentedCell"; 1888.ibShadowedLabels[4] = "Watermark"; ObjectID = "1888"; */
+"1888.ibShadowedLabels[4]" = "Marca d'água";
+
+/* Class = "NSTextFieldCell"; title = "Format"; ObjectID = "1889"; */
+"1889.title" = "Formato";
+
+/* Class = "NSTextFieldCell"; title = "Resolution"; ObjectID = "1894"; */
+"1894.title" = "Resolução";
+
+/* Class = "NSTextFieldCell"; title = "300"; ObjectID = "1895"; */
+"1895.title" = "300";
+
+/* Class = "NSTextFieldCell"; title = "%"; ObjectID = "1898"; */
+"1898.title" = "%";
+
+/* Class = "NSTextFieldCell"; title = "100"; ObjectID = "1899"; */
+"1899.title" = "100";
+
+/* Class = "NSTextFieldCell"; title = "10"; ObjectID = "1900"; */
+"1900.title" = "10";
+
+/* Class = "NSTextFieldCell"; title = "10"; ObjectID = "1903"; */
+"1903.title" = "10";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "1904"; */
+"1904.title" = "x";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "1905"; */
+"1905.title" = "15";
+
+/* Class = "NSTextFieldCell"; title = "10"; ObjectID = "1907"; */
+"1907.title" = "10";
+
+/* Class = "NSTextFieldCell"; title = "File Icon"; ObjectID = "1915"; */
+"1915.title" = "Ícone de arquivo";
+
+/* Class = "NSButtonCell"; title = "Create thumbnails on save"; ObjectID = "1917"; */
+"1917.title" = "Criar miniaturas no salvamento";
+
+/* Class = "NSTextFieldCell"; title = "Sub Name"; ObjectID = "1920"; */
+"1920.title" = "Subtítulo";
+
+/* Class = "NSTextFieldCell"; title = "Sub Folder"; ObjectID = "1922"; */
+"1922.title" = "Subpasta";
+
+/* Class = "NSButtonCell"; title = "Rating and Color Tag"; ObjectID = "1925"; */
+"1925.title" = "Classificação e etiqueta de cor";
+
+/* Class = "NSTextFieldCell"; title = "Root Folder"; ObjectID = "1926"; */
+"1926.title" = "Pasta raiz";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "1941"; */
+"1941.title" = "...";
+
+/* Class = "NSTextFieldCell"; title = "Font"; ObjectID = "1942"; */
+"1942.title" = "Fonte";
+
+/* Class = "NSTextFieldCell"; title = "Arial"; ObjectID = "1945"; */
+"1945.title" = "Arial";
+
+/* Class = "NSTextFieldCell"; title = "Text"; ObjectID = "1946"; */
+"1946.title" = "Texto";
+
+/* Class = "NSTextFieldCell"; title = "File"; ObjectID = "1953"; */
+"1953.title" = "Arquivo";
+
+/* Class = "NSTextFieldCell"; title = "No file selected"; ObjectID = "1954"; */
+"1954.title" = "Nenhum arquivo selecionado";
+
+/* Class = "NSButtonCell"; title = "…"; ObjectID = "1958"; */
+"1958.title" = "…";
+
+/* Class = "NSMenuItem"; title = "Select Folder…"; ObjectID = "2141"; */
+"2141.title" = "Selecionar pasta...";
+
+/* Class = "NSTabViewItem"; label = "JPEG QuickProof"; ObjectID = "2191"; */
+"2191.label" = "JPEG QuickProof";
+
+/* Class = "NSTabViewItem"; label = "JPEG & TIFF"; ObjectID = "2310"; */
+"2310.label" = "JPEG & TIFF";
+
+/* Class = "NSTabViewItem"; label = "QuickProof"; ObjectID = "2311"; */
+"2311.label" = "QuickProof";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "processRecipeScaleMethodPopup"; ObjectID = "2314"; */
+"2314.ibExternalAccessibilityDescription" = "processRecipeScaleMethodPopup";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2316"; */
+"2316.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "To Height"; ObjectID = "2317"; */
+"2317.title" = "Para altura";
+
+/* Class = "NSMenuItem"; title = "To Size"; ObjectID = "2318"; */
+"2318.title" = "Para dimensão";
+
+/* Class = "NSMenuItem"; title = "To Width"; ObjectID = "2319"; */
+"2319.title" = "Para largura";
+
+/* Class = "NSMenuItem"; title = "Fixed"; ObjectID = "2320"; */
+"2320.title" = "Fixas";
+
+/* Class = "NSTabViewItem"; label = "Fixed"; ObjectID = "2322"; */
+"2322.label" = "Fixas";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Scale the original image the given amount to obtain the final image."; ObjectID = "2362"; */
+"2362.ibShadowedToolTip" = "Dimensione a imagem original de acordo com o valor determinado para obter a imagem final.";
+
+/* Class = "NSTextFieldCell"; title = "100"; ObjectID = "2363"; */
+"2363.title" = "100";
+
+/* Class = "NSTextFieldCell"; title = "%"; ObjectID = "2365"; */
+"2365.title" = "%";
+
+/* Class = "NSTextFieldCell"; title = "Scale"; ObjectID = "2367"; */
+"2367.title" = "Dimensionar";
+
+/* Class = "NSMenuItem"; title = "Custom Item"; ObjectID = "2371"; */
+"2371.title" = "Item personalizado";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "processRecipeCreateThumbnailsPopup"; ObjectID = "2659"; */
+"2659.ibExternalAccessibilityDescription" = "processRecipeCreateThumbnailsPopup";
+
+/* Class = "NSButtonCell"; title = "Copyright"; ObjectID = "2660"; */
+"2660.title" = "Direitos autorais";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "processRecipeCreateThumbnailsPopup"; ObjectID = "2661"; */
+"2661.ibExternalAccessibilityDescription" = "processRecipeCreateThumbnailsPopup";
+
+/* Class = "NSButtonCell"; title = "All Other Metadata"; ObjectID = "2662"; */
+"2662.title" = "Todos os outros metadados";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "processRecipeCreateThumbnailsPopup"; ObjectID = "2663"; */
+"2663.ibExternalAccessibilityDescription" = "processRecipeCreateThumbnailsPopup";
+
+/* Class = "NSButtonCell"; title = "GPS Coordinates"; ObjectID = "2664"; */
+"2664.title" = "Coordenadas GPS";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "processRecipeCreateThumbnailsPopup"; ObjectID = "2665"; */
+"2665.ibExternalAccessibilityDescription" = "processRecipeCreateThumbnailsPopup";
+
+/* Class = "NSButtonCell"; title = "Camera Metadata"; ObjectID = "2666"; */
+"2666.title" = "Metadados da câmera";
+
+/* Class = "NSTabViewItem"; label = "Width x Height"; ObjectID = "2729"; */
+"2729.label" = "Largura x altura";
+
+/* Class = "NSTabViewItem"; label = "Short Edge"; ObjectID = "2730"; */
+"2730.label" = "Borda menor";
+
+/* Class = "NSTabViewItem"; label = "Long Edge"; ObjectID = "2731"; */
+"2731.label" = "Borda longa";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Unit for the target dimension used to scale the final image."; ObjectID = "2733"; */
+"2733.ibShadowedToolTip" = "Unidade da dimensão alvo usada para dimensionar a imagem final.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Long edge dimension for scaling the final image."; ObjectID = "2734"; */
+"2734.ibShadowedToolTip" = "Dimensão da borda longa para dimensionamento da imagem final.";
+
+/* Class = "NSTextFieldCell"; title = "10"; ObjectID = "2735"; */
+"2735.title" = "10";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2737"; */
+"2737.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "mm"; ObjectID = "2738"; */
+"2738.title" = "mm";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "2739"; */
+"2739.title" = "pol.";
+
+/* Class = "NSMenuItem"; title = "px"; ObjectID = "2740"; */
+"2740.title" = "px";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "2741"; */
+"2741.title" = "cm";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Short edge dimension for scaling the final image."; ObjectID = "2743"; */
+"2743.ibShadowedToolTip" = "Dimensão da borda menor para dimensionamento da imagem final.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Unit for the target dimension used to scale the final image."; ObjectID = "2744"; */
+"2744.ibShadowedToolTip" = "Unidade da dimensão alvo usada para dimensionar a imagem final.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2746"; */
+"2746.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "2747"; */
+"2747.title" = "cm";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "2748"; */
+"2748.title" = "pol.";
+
+/* Class = "NSMenuItem"; title = "px"; ObjectID = "2749"; */
+"2749.title" = "px";
+
+/* Class = "NSMenuItem"; title = "mm"; ObjectID = "2750"; */
+"2750.title" = "mm";
+
+/* Class = "NSTextFieldCell"; title = "10"; ObjectID = "2751"; */
+"2751.title" = "10";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum width dimension for scaling the final image."; ObjectID = "2753"; */
+"2753.ibShadowedToolTip" = "Dimensão da largura máxima para dimensionamento da imagem final.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum height dimension for scaling the final image."; ObjectID = "2755"; */
+"2755.ibShadowedToolTip" = "Dimensão da altura máxima para dimensionamento da imagem final.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Unit for the target dimension used to scale the final image."; ObjectID = "2756"; */
+"2756.ibShadowedToolTip" = "Unidade da dimensão alvo usada para dimensionar a imagem final.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2758"; */
+"2758.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "2759"; */
+"2759.title" = "cm";
+
+/* Class = "NSMenuItem"; title = "mm"; ObjectID = "2760"; */
+"2760.title" = "mm";
+
+/* Class = "NSMenuItem"; title = "px"; ObjectID = "2761"; */
+"2761.title" = "px";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "2762"; */
+"2762.title" = "pol.";
+
+/* Class = "NSTextFieldCell"; title = "10"; ObjectID = "2763"; */
+"2763.title" = "10";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "2764"; */
+"2764.title" = "x";
+
+/* Class = "NSTextFieldCell"; title = "15"; ObjectID = "2765"; */
+"2765.title" = "15";
+
+/* Class = "NSMenuItem"; title = "To Width x Height"; ObjectID = "2766"; */
+"2766.title" = "Até a largura x altura";
+
+/* Class = "NSMenuItem"; title = "To Long Edge"; ObjectID = "2767"; */
+"2767.title" = "Até a borda longa";
+
+/* Class = "NSMenuItem"; title = "To Short Edge"; ObjectID = "2768"; */
+"2768.title" = "Até a borda menor";
+
+/* Class = "NSTabViewItem"; label = "Adjustments"; ObjectID = "2845"; */
+"2845.label" = "Ajustes";
+
+/* Class = "NSTabViewItem"; label = "Metadata"; ObjectID = "2847"; */
+"2847.label" = "Metadados";
+
+/* Class = "NSTabViewItem"; label = "JPEGXR"; ObjectID = "2861"; */
+"2861.label" = "JPEGXR";
+
+/* Class = "NSTabViewItem"; label = "JPEG2000"; ObjectID = "2874"; */
+"2874.label" = "JPEG2000";
+
+/* Class = "NSTabViewItem"; label = "PNG"; ObjectID = "2887"; */
+"2887.label" = "PNG";
+
+/* Class = "NSTabViewItem"; label = "PSD"; ObjectID = "2900"; */
+"2900.label" = "PSD";
+
+/* Class = "NSMenuItem"; title = "--"; ObjectID = "2902"; */
+"2902.title" = "--";
+
+/* Class = "NSTextFieldCell"; title = "Metadata"; ObjectID = "AQO-sX-ag4"; */
+"AQO-sX-ag4.title" = "Metadados";
+
+/* Class = "NSView"; aWj-iC-nJf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Scale"; ObjectID = "aWj-iC-nJf"; */
+"aWj-iC-nJf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Dimensionar";
+
+/* Class = "NSButtonCell"; title = "Overlay"; ObjectID = "bEL-0N-Nex"; */
+"bEL-0N-Nex.title" = "Sobreposição";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "bh6-fb-7Bi"; */
+"bh6-fb-7Bi.title" = "cm";
+
+/* Class = "NSView"; Cgp-nz-oZr.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "Cgp-nz-oZr"; */
+"Cgp-nz-oZr.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Raio";
+
+/* Class = "NSTextFieldCell"; title = "Workflow"; ObjectID = "CLC-fO-bGB"; */
+"CLC-fO-bGB.title" = "Fluxo de trabalho";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Minimum Viewing Distance Amount"; ObjectID = "dsH-7Y-c1I"; */
+"dsH-7Y-c1I.ibShadowedToolTip" = "Total da distância de visualização mínima";
+
+/* Class = "NSTextFieldCell"; title = "Distance"; ObjectID = "eDx-pj-u0w"; */
+"eDx-pj-u0w.title" = "Distância";
+
+/* Class = "NSView"; eib-3v-JTQ.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Kind"; ObjectID = "eib-3v-JTQ"; */
+"eib-3v-JTQ.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Tipo";
+
+/* Class = "NSMenuItem"; title = "No Output Sharpening"; ObjectID = "g8c-uq-YfF"; */
+"g8c-uq-YfF.title" = "Sem afiação de saída";
+
+/* Class = "NSView"; GsY-Aj-K6r.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Crop"; ObjectID = "GsY-Aj-K6r"; */
+"GsY-Aj-K6r.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Cortar";
+
+/* Class = "NSView"; GwK-d6-VbS.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Horizontal"; ObjectID = "GwK-d6-VbS"; */
+"GwK-d6-VbS.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Horizontal";
+
+/* Class = "NSMenuItem"; title = "Long Edge"; ObjectID = "h06-sO-ee1"; */
+"h06-sO-ee1.title" = "Borda longa";
+
+/* Class = "NSMenuItem"; title = "Image"; ObjectID = "hiE-yW-o8j"; */
+"hiE-yW-o8j.title" = "Imagem";
+
+/* Class = "NSButtonCell"; title = "…"; ObjectID = "HT8-n8-lyV"; */
+"HT8-n8-lyV.title" = "…";
+
+/* Class = "NSMenuItem"; title = "Never Upscale"; ObjectID = "i5j-VV-QbM"; */
+"i5j-VV-QbM.title" = "Nunca incrementar";
+
+/* Class = "NSMenuItem"; title = "Points"; ObjectID = "isE-r3-6jK"; */
+"isE-r3-6jK.title" = "Pontos";
+
+/* Class = "NSView"; ISr-K7-9tn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Quality"; ObjectID = "ISr-K7-9tn"; */
+"ISr-K7-9tn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Qualidade";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "j07-CZ-xOf"; */
+"j07-CZ-xOf.title" = "Nenhum";
+
+/* Class = "NSView"; Ja2-6o-DsT.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Open With"; ObjectID = "Ja2-6o-DsT"; */
+"Ja2-6o-DsT.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Abrir com";
+
+/* Class = "NSView"; jkL-Cy-ep1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Sharpening"; ObjectID = "jkL-Cy-ep1"; */
+"jkL-Cy-ep1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Nitidez";
+
+/* Class = "NSView"; k6J-Zq-oLH.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Horizontal"; ObjectID = "k6J-Zq-oLH"; */
+"k6J-Zq-oLH.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Horizontal";
+
+/* Class = "NSMenuItem"; title = "Dimensions"; ObjectID = "OMf-Uh-qni"; */
+"OMf-Uh-qni.title" = "Dimensões";
+
+/* Class = "NSView"; pE0-8v-UNx.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Scale"; ObjectID = "pE0-8v-UNx"; */
+"pE0-8v-UNx.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Dimensionar";
+
+/* Class = "NSView"; pkR-2o-P2S.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Threshold"; ObjectID = "pkR-2o-P2S"; */
+"pkR-2o-P2S.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Limite";
+
+/* Class = "NSView"; ptg-nQ-g5L.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Kind"; ObjectID = "ptg-nQ-g5L"; */
+"ptg-nQ-g5L.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Tipo";
+
+/* Class = "NSMenuItem"; title = "Pixels"; ObjectID = "q11-6U-7zl"; */
+"q11-6U-7zl.title" = "Pixels";
+
+/* Class = "NSMenuItem"; title = "Short Edge"; ObjectID = "Qdv-eD-OUH"; */
+"Qdv-eD-OUH.title" = "Borda menor";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "QsJ-F9-t3d"; */
+"QsJ-F9-t3d.title" = "dentro";
+
+/* Class = "NSView"; rDu-js-Bde.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Opacity"; ObjectID = "rDu-js-Bde"; */
+"rDu-js-Bde.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Opacidade";
+
+/* Class = "NSButtonCell"; title = "…"; ObjectID = "RId-Zr-1YQ"; */
+"RId-Zr-1YQ.title" = "…";
+
+/* Class = "NSMenuItem"; title = "Output Sharpening for Screen"; ObjectID = "Rqu-UJ-ZZ7"; */
+"Rqu-UJ-ZZ7.title" = "Afiação de saída para tela";
+
+/* Class = "NSView"; sDu-FW-WUO.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Opacity"; ObjectID = "sDu-FW-WUO"; */
+"sDu-FW-WUO.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Opacidade";
+
+/* Class = "NSView"; sWn-OM-mQ6.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Vertical"; ObjectID = "sWn-OM-mQ6"; */
+"sWn-OM-mQ6.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Vertical";
+
+/* Class = "NSView"; T9p-fq-IcG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Threshold"; ObjectID = "T9p-fq-IcG"; */
+"T9p-fq-IcG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Limite";
+
+/* Class = "NSMenuItem"; title = "Width x Height"; ObjectID = "UfY-rO-tWL"; */
+"UfY-rO-tWL.title" = "Largura x altura";
+
+/* Class = "NSMenuItem"; title = "Crop to path (PSD)"; ObjectID = "uhV-r0-FSv"; */
+"uhV-r0-FSv.title" = "Cortar caminho (PSD)";
+
+/* Class = "NSMenuItem"; title = "Fixed"; ObjectID = "VDV-w6-xQz"; */
+"VDV-w6-xQz.title" = "Fixas";
+
+/* Class = "NSMenuItem"; title = "% of diagonal"; ObjectID = "vmd-Qa-vwy"; */
+"vmd-Qa-vwy.title" = "% da diagonal";
+
+/* Class = "NSMenuItem"; title = "Ignore crop"; ObjectID = "vXa-od-bfx"; */
+"vXa-od-bfx.title" = "Ignorar corte";
+
+/* Class = "NSView"; wkp-9s-3m3.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Vertical"; ObjectID = "wkp-9s-3m3"; */
+"wkp-9s-3m3.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Vertical";
+
+/* Class = "NSMenuItem"; title = "Text"; ObjectID = "XGj-jw-ZqV"; */
+"XGj-jw-ZqV.title" = "Texto";
+
+/* Class = "NSView"; xyM-JA-14U.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Scale"; ObjectID = "xyM-JA-14U"; */
+"xyM-JA-14U.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Dimensionar";
+
+/* Class = "NSButtonCell"; title = "Guides"; ObjectID = "Y28-N9-eCc"; */
+"Y28-N9-eCc.title" = "Guias";
+
+/* Class = "NSView"; yes-yA-BBs.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Quality"; ObjectID = "yes-yA-BBs"; */
+"yes-yA-BBs.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Qualidade";
+

@@ -1,0 +1,60 @@
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerFileInfoDateTitle"; ObjectID = "7"; */
+"7.ibExternalAccessibilityDescription" = "importerFileInfoDateTitle";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerFileInfoSizeTitle"; ObjectID = "8"; */
+"8.ibExternalAccessibilityDescription" = "importerFileInfoSizeTitle";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerFileInfoKindTitle"; ObjectID = "9"; */
+"9.ibExternalAccessibilityDescription" = "importerFileInfoKindTitle";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerFileInfoNameTitle"; ObjectID = "10"; */
+"10.ibExternalAccessibilityDescription" = "importerFileInfoNameTitle";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerFileInfoDateTextField"; ObjectID = "11"; */
+"11.ibExternalAccessibilityDescription" = "importerFileInfoDateTextField";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerFileInfoSizeTextField"; ObjectID = "12"; */
+"12.ibExternalAccessibilityDescription" = "importerFileInfoSizeTextField";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerFileInfoKindTextField"; ObjectID = "13"; */
+"13.ibExternalAccessibilityDescription" = "importerFileInfoKindTextField";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerFileInfoNameTextField"; ObjectID = "14"; */
+"14.ibExternalAccessibilityDescription" = "importerFileInfoNameTextField";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "--"; ObjectID = "39"; */
+"39.ibShadowedIsNilPlaceholder" = "--";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "--"; ObjectID = "40"; */
+"40.ibShadowedIsNilPlaceholder" = "--";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "--"; ObjectID = "41"; */
+"41.ibShadowedIsNilPlaceholder" = "--";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "--"; ObjectID = "42"; */
+"42.ibShadowedIsNilPlaceholder" = "--";
+
+/* Class = "NSTextFieldCell"; title = "Date"; ObjectID = "102"; */
+"102.title" = "Datum";
+
+/* Class = "NSTextFieldCell"; title = "Size"; ObjectID = "103"; */
+"103.title" = "Storlek";
+
+/* Class = "NSTextFieldCell"; title = "Kind"; ObjectID = "104"; */
+"104.title" = "Typ";
+
+/* Class = "NSTextFieldCell"; title = "Name"; ObjectID = "105"; */
+"105.title" = "Namn";
+
+/* Class = "NSTextFieldCell"; title = "Date"; ObjectID = "106"; */
+"106.title" = "Datum";
+
+/* Class = "NSTextFieldCell"; title = "Size"; ObjectID = "107"; */
+"107.title" = "Storlek";
+
+/* Class = "NSTextFieldCell"; title = "Kind"; ObjectID = "108"; */
+"108.title" = "Typ";
+
+/* Class = "NSTextFieldCell"; title = "Name"; ObjectID = "109"; */
+"109.title" = "Namn";
+

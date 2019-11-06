@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<SL Engine="1100">
+	<E K="Brightness" V="-0.206679657101631" />
+	<E K="Contrast" V="5.75603485107422" />
+	<E K="GradationCurve" V="0,0;0.0570000000298023,0.0989999994635582;0.189999997615814,0.256000012159348;0.797999978065491,0.763999998569489;1,1" />
+	<E K="GradationCurveBlue" V="0,0;1,1" />
+	<E K="GradationCurveGreen" V="0,0;1,1" />
+	<E K="GradationCurveRed" V="0,0;1,1" />
+	<E K="GradationCurveY" V="0,0;1,1" />
+	<E K="Highlight" V="1;1;1;1" />
+	<E K="Midtone" V="0;0;0;0" />
+	<E K="Name" V="Landscape" />
+	<E K="Saturation" V="20.0975532531738" />
+	<E K="Shadow" V="0;0;0;0.00783600006252527" />
+	<E K="UUID" V="8568244B-BDE6-4E8D-8DD2-0D47419944D2" />
+</SL>

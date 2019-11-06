@@ -1,0 +1,24 @@
+/* Class = "NSButtonCell"; title = "Create Smart Album"; ObjectID = "48"; */
+"48.title" = "스마트 앨범 만들기";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "102"; */
+"102.title" = "OtherViews";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "116"; */
+"116.title" = "취소";
+
+/* Class = "NSButtonCell"; title = "Create Album With Current Images"; ObjectID = "148"; */
+"148.title" = "현재 이미지로 앨범 만들기";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "171"; */
+"171.title" = "저장";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "172"; */
+"172.title" = "취소";
+
+/* Class = "NSTextFieldCell"; title = "Smart Album Name:"; ObjectID = "173"; */
+"173.title" = "스마트 앨범 이름:";
+
+/* Class = "NSButtonCell"; title = "Help"; ObjectID = "188"; */
+"188.title" = "도움말";
+

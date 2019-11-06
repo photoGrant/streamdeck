@@ -1,0 +1,12 @@
+/* Class = "NSWindow"; title = "Export Originals"; ObjectID = "1"; */
+"1.title" = "Exportera orginal";
+
+/* Class = "NSTabViewItem"; label = "Export"; ObjectID = "6"; */
+"6.label" = "Exportera";
+
+/* Class = "NSButtonCell"; title = "Export Originals"; ObjectID = "20"; */
+"20.title" = "Exportera orginal";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "21"; */
+"21.title" = "Avbryt";
+

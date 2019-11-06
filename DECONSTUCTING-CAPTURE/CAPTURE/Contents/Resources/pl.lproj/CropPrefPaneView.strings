@@ -1,0 +1,45 @@
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "34"; */
+"34.title" = "Zawsze";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "35"; */
+"35.title" = "Nigdy";
+
+/* Class = "NSMenuItem"; title = "Except During Drag"; ObjectID = "36"; */
+"36.title" = "Zawsze oprócz ustalania kadru";
+
+/* Class = "NSMenuItem"; title = "When No Mask"; ObjectID = "43"; */
+"43.title" = "Gdy nie ma maski";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "44"; */
+"44.title" = "Zawsze";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "52"; */
+"52.title" = "Zawsze";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "53"; */
+"53.title" = "Nigdy";
+
+/* Class = "NSMenuItem"; title = "During Drag Only"; ObjectID = "54"; */
+"54.title" = "Tylko podczas ustalania kadru";
+
+/* Class = "NSTextFieldCell"; title = "Show:"; ObjectID = "449"; */
+"449.title" = "Pokazuj:";
+
+/* Class = "NSTextFieldCell"; title = "Show Frame:"; ObjectID = "450"; */
+"450.title" = "Pokaż ramkę:";
+
+/* Class = "NSTextFieldCell"; title = "Show Labels:"; ObjectID = "451"; */
+"451.title" = "Pokaż etykiety:";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "453"; */
+"453.title" = "Krycie:";
+
+/* Class = "NSTextFieldCell"; title = "Brightness:"; ObjectID = "455"; */
+"455.title" = "Jasność:";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "459"; */
+"459.title" = "Wartości domyślne";
+
+/* Class = "NSTextFieldCell"; title = "Mask"; ObjectID = "ax2-Us-YFd"; */
+"ax2-Us-YFd.title" = "Maska kadrowania";
+

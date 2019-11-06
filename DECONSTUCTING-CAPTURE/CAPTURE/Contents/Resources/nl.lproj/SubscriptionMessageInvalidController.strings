@@ -1,0 +1,9 @@
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "DtV-vv-S2y"; */
+"DtV-vv-S2y.title" = "Annuleer";
+
+/* Class = "NSButtonCell"; title = "Retry"; ObjectID = "mFG-Ab-OVi"; */
+"mFG-Ab-OVi.title" = "Opnieuw proberen";
+
+/* Class = "NSButtonCell"; title = "Deactivate License"; ObjectID = "t4J-ob-Vfj"; */
+"t4J-ob-Vfj.title" = "Licentie deactiveren";
+

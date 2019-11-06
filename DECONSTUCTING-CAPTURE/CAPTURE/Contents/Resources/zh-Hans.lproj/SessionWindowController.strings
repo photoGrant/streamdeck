@@ -1,0 +1,333 @@
+/* Class = "NSMenuItem"; title = "Contrast and Brightness"; ObjectID = "0v4-ek-mqo"; */
+"0v4-ek-mqo.title" = "对比度和亮度";
+
+/* Class = "NSTableColumn"; headerCell.title = "Sequence ID"; ObjectID = "4hC-Nj-5MJ"; */
+"4hC-Nj-5MJ.headerCell.title" = "顺序ID";
+
+/* Class = "NSWindow"; title = "Viewer Window"; ObjectID = "5"; */
+"5.title" = "预览视窗";
+
+/* Class = "NSMenuItem"; title = "New Empty Layer"; ObjectID = "5Qx-vh-xgO"; */
+"5Qx-vh-xgO.title" = "新的空白图层";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Toggle Primary/Multi View"; ObjectID = "09H-LY-aNy"; */
+"09H-LY-aNy.ibShadowedToolTip" = "主视窗/多视窗切换";
+
+/* Class = "NSMenuItem"; title = "New Auto Repair Layer"; ObjectID = "68r-rZ-dbE"; */
+"68r-rZ-dbE.title" = "新自动修正图层";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "297"; */
+"297.headerCell.title" = "名称";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Redo"; ObjectID = "883"; */
+"883.ibShadowedToolTip" = "重做";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Rotate Right"; ObjectID = "889"; */
+"889.ibShadowedToolTip" = "向右旋转";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Select previous\nAlt-click to select previous set"; ObjectID = "893"; */
+"893.ibShadowedToolTip" = "選擇上一個\n按住Alt鍵單擊以選擇上一組";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Select next\nAlt-click to select next set"; ObjectID = "894"; */
+"894.ibShadowedToolTip" = "選擇下一個\n按住Alt鍵單擊以選擇下一組";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Undo"; ObjectID = "908"; */
+"908.ibShadowedToolTip" = "还原";
+
+/* Class = "NSTableColumn"; headerCell.title = "Rating"; ObjectID = "993"; */
+"993.headerCell.title" = "评级";
+
+/* Class = "NSTableColumn"; headerCell.title = "Variant"; ObjectID = "994"; */
+"994.headerCell.title" = "变体";
+
+/* Class = "NSTableColumn"; headerCell.title = "ISO Speed"; ObjectID = "995"; */
+"995.headerCell.title" = "ISO 速度";
+
+/* Class = "NSTableColumn"; headerCell.title = "Aperture"; ObjectID = "996"; */
+"996.headerCell.title" = "光圈";
+
+/* Class = "NSTableColumn"; headerCell.title = "Shutter Speed"; ObjectID = "997"; */
+"997.headerCell.title" = "快门速度";
+
+/* Class = "NSTableColumn"; headerCell.title = "Focal Length"; ObjectID = "998"; */
+"998.headerCell.title" = "焦距";
+
+/* Class = "NSTableColumn"; headerCell.title = "Image Date"; ObjectID = "999"; */
+"999.headerCell.title" = "图像日期";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Copy adjustments from the primary variant"; ObjectID = "1088"; */
+"1088.ibShadowedToolTip" = "从主变体复制调整项";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Apply settings to the selected variants"; ObjectID = "1089"; */
+"1089.ibShadowedToolTip" = "将设置应用到选定的变体";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Move variants to the Selects Folder"; ObjectID = "1168"; */
+"1168.ibShadowedToolTip" = "移动变体到选定的文件夹";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New Variant"; ObjectID = "1171"; */
+"1171.ibShadowedToolTip" = "新建变体";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Pick Variant"; ObjectID = "1172"; */
+"1172.ibShadowedToolTip" = "挑选变体";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1337"; */
+"1337.title" = "文本单元格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1339"; */
+"1339.title" = "文本单元格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1340"; */
+"1340.title" = "文本单元格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1341"; */
+"1341.title" = "文本单元格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1342"; */
+"1342.title" = "文本单元格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1343"; */
+"1343.title" = "文本单元格";
+
+/* Class = "NSTableColumn"; headerCell.title = "Status"; ObjectID = "1570"; */
+"1570.headerCell.title" = "状态";
+
+/* Class = "NSTextFieldCell"; title = "Fit"; ObjectID = "1813"; */
+"1813.title" = "适合";
+
+/* Class = "NSTextFieldCell"; title = "LLL"; ObjectID = "1814"; */
+"1814.title" = "LLL";
+
+/* Class = "NSTextFieldCell"; title = "BBB"; ObjectID = "1815"; */
+"1815.title" = "BBB";
+
+/* Class = "NSTextFieldCell"; title = "GGG"; ObjectID = "1816"; */
+"1816.title" = "GGG";
+
+/* Class = "NSTextFieldCell"; title = "RRR"; ObjectID = "1817"; */
+"1817.title" = "RRR";
+
+/* Class = "NSTextFieldCell"; title = "No selection"; ObjectID = "1820"; */
+"1820.title" = "未选择";
+
+/* Class = "NSTextFieldCell"; title = "No selection"; ObjectID = "1821"; */
+"1821.title" = "未选择";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1824"; */
+"1824.title" = "按钮";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1825"; */
+"1825.title" = "按钮";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1829"; */
+"1829.title" = "按钮";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1830"; */
+"1830.title" = "按钮";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1831"; */
+"1831.title" = "按钮";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1832"; */
+"1832.title" = "按钮";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1833"; */
+"1833.title" = "按钮";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1834"; */
+"1834.title" = "按钮";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1836"; */
+"1836.title" = "按钮";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1841"; */
+"1841.title" = "文本单元格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1842"; */
+"1842.title" = "文本单元格";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Sort"; ObjectID = "1851"; */
+"1851.ibShadowedToolTip" = "排序";
+
+/* Class = "NSTextFieldCell"; title = "1 out of 100"; ObjectID = "1871"; */
+"1871.title" = "100 中之 1";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Capture an image using the attached camera"; ObjectID = "2217"; */
+"2217.ibShadowedToolTip" = "利用接入的相机拍摄图像";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "2218"; */
+"2218.title" = "按钮";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "2410"; */
+"2410.title" = "按钮";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "2415"; */
+"2415.title" = "Box";
+
+/* Class = "NSTableColumn"; headerCell.title = "History"; ObjectID = "2460"; */
+"2460.headerCell.title" = "历史记录";
+
+/* Class = "NSTextFieldCell"; title = "BLK"; ObjectID = "2500"; */
+"2500.title" = "BLK";
+
+/* Class = "NSTextFieldCell"; title = "YYY"; ObjectID = "2501"; */
+"2501.title" = "YYY";
+
+/* Class = "NSTextFieldCell"; title = "MMM"; ObjectID = "2502"; */
+"2502.title" = "MMM";
+
+/* Class = "NSTextFieldCell"; title = "CCC"; ObjectID = "2503"; */
+"2503.title" = "CCC";
+
+/* Class = "NSTextFieldCell"; title = "Text"; ObjectID = "2609"; */
+"2609.title" = "文本";
+
+/* Class = "NSTextFieldCell"; title = "GRA"; ObjectID = "2623"; */
+"2623.title" = "GRA";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Proof Margin"; ObjectID = "2653"; */
+"2653.ibShadowedToolTip" = "校样幅度";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "2731"; */
+"2731.title" = "按钮";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Sort Direction"; ObjectID = "2835"; */
+"2835.ibShadowedToolTip" = "排序方向";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Adjustments Layers"; ObjectID = "2958"; */
+"2958.ibShadowedToolTip" = "调整图层";
+
+/* Class = "NSMenuItem"; title = "Layer"; ObjectID = "2962"; */
+"2962.title" = "图层";
+
+/* Class = "NSTextFieldCell"; title = "No selection"; ObjectID = "2998"; */
+"2998.title" = "未选择";
+
+/* Class = "NSMenu"; title = "Customize Auto Adjust"; ObjectID = "3003"; */
+"3003.title" = "自订自动调整";
+
+/* Class = "NSMenuItem"; title = "Keystone"; ObjectID = "3004"; */
+"3004.title" = "梯形校正";
+
+/* Class = "NSMenuItem"; title = "Rotation"; ObjectID = "3005"; */
+"3005.title" = "旋转";
+
+/* Class = "NSMenuItem"; title = "Levels"; ObjectID = "3006"; */
+"3006.title" = "等级";
+
+/* Class = "NSMenuItem"; title = "High Dynamic Range"; ObjectID = "3007"; */
+"3007.title" = "高动态范围";
+
+/* Class = "NSMenuItem"; title = "Exposure"; ObjectID = "3008"; */
+"3008.title" = "曝光";
+
+/* Class = "NSMenuItem"; title = "White Balance"; ObjectID = "3009"; */
+"3009.title" = "白平衡";
+
+/* Class = "NSWindow"; title = "new collection name"; ObjectID = "3044"; */
+"3044.title" = "新的汇集名称";
+
+/* Class = "NSTextFieldCell"; title = "New collection name:"; ObjectID = "3051"; */
+"3051.title" = "新的汇集名称:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "3052"; */
+"3052.title" = "可以";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Export Variants"; ObjectID = "3059"; */
+"3059.ibShadowedToolTip" = "导出变体";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "3060"; */
+"3060.title" = "按钮";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Capture an image using the attached camera"; ObjectID = "3063"; */
+"3063.ibShadowedToolTip" = "利用接入的相机拍摄图像";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "3064"; */
+"3064.title" = "按钮";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3085"; */
+"3085.title" = "取消";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Customize Toolbar"; ObjectID = "3097"; */
+"3097.ibShadowedToolTip" = "自定工具栏";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Edit Capture One Preferences"; ObjectID = "3101"; */
+"3101.ibShadowedToolTip" = "编辑Capture One预置";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "3102"; */
+"3102.title" = "按钮";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show Slideshow"; ObjectID = "3152"; */
+"3152.ibShadowedToolTip" = "显示幻灯片";
+
+/* Class = "NSWindow"; title = "folder sync"; ObjectID = "3237"; */
+"3237.title" = "文件夹同步";
+
+/* Class = "NSButtonCell"; title = "Sync"; ObjectID = "3244"; */
+"3244.title" = "同步";
+
+/* Class = "NSTextFieldCell"; title = "New collection name:New collection name:New collection name:New collection name:New collection name:New collection name:New collection name:"; ObjectID = "3245"; */
+"3245.title" = "新汇集名称:新汇集名称:新汇集名称:新汇集名称:新汇集名称:新汇集名称:新汇集名称:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "3247"; */
+"3247.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "Import new images"; ObjectID = "3255"; */
+"3255.title" = "导入新图像";
+
+/* Class = "NSButtonCell"; title = "Remove missing images"; ObjectID = "3257"; */
+"3257.title" = "移除丢失图像";
+
+/* Class = "NSButtonCell"; title = "Show importer"; ObjectID = "3276"; */
+"3276.title" = "显示导入者";
+
+/* Class = "NSButtonCell"; title = "Show Missing Images"; ObjectID = "3282"; */
+"3282.title" = "显示丢失的图像";
+
+/* Class = "NSButtonCell"; title = "Also Include Referenced Originals"; ObjectID = "3290"; */
+"3290.title" = "还有包括参考原件";
+
+/* Class = "NSButtonCell"; title = "Include known subfolders"; ObjectID = "3297"; */
+"3297.title" = "包括已知的子文件夹";
+
+/* Class = "NSButtonCell"; title = "Include subfolders"; ObjectID = "3302"; */
+"3302.title" = "包括子文件夹";
+
+/* Class = "NSMenuItem"; title = "New Filled Layer"; ObjectID = "axa-pb-3sd"; */
+"axa-pb-3sd.title" = "新的充满图层";
+
+/* Class = "NSButtonCell"; title = "Select collection after creation"; ObjectID = "bdF-40-gYt"; */
+"bdF-40-gYt.title" = "創建後選擇圖集";
+
+/* Class = "NSButtonCell"; title = "Import Images"; ObjectID = "DRr-D1-csk"; */
+"DRr-D1-csk.title" = "导入图像";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Tips"; ObjectID = "EiS-hX-M0T"; */
+"EiS-hX-M0T.ibShadowedToolTip" = "提示";
+
+/* Class = "NSButtonCell"; title = "Add selected images after creation"; ObjectID = "fH6-6w-qg3"; */
+"fH6-6w-qg3.title" = "创建后加入所选的图像。";
+
+/* Class = "NSTextFieldCell"; title = "LABB"; ObjectID = "glS-uC-beD"; */
+"glS-uC-beD.title" = "LABB";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Battery Status"; ObjectID = "hew-LV-0p3"; */
+"hew-LV-0p3.ibShadowedToolTip" = "电池状态";
+
+/* Class = "NSTextFieldCell"; title = "LABA"; ObjectID = "iZI-Rn-Ulo"; */
+"iZI-Rn-Ulo.title" = "LABA";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "m2J-7q-yMC"; */
+"m2J-7q-yMC.title" = "文本单元格";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New Layer"; ObjectID = "OLF-gr-xkN"; */
+"OLF-gr-xkN.ibShadowedToolTip" = "新图层";
+
+/* Class = "NSTextFieldCell"; title = "LABL"; ObjectID = "rkL-D2-fDQ"; */
+"rkL-D2-fDQ.title" = "LABL";
+
+/* Class = "NSMenuItem"; title = "New Clone Layer"; ObjectID = "UZE-NT-qce"; */
+"UZE-NT-qce.title" = "新的复制图层";
+
+/* Class = "NSMenuItem"; title = "New Heal Layer"; ObjectID = "YkD-v3-VfH"; */
+"YkD-v3-VfH.title" = "新的修复图层";
+

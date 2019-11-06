@@ -1,0 +1,18 @@
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "61"; */
+"61.title" = "重置工具";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Auto adjust imported images"; ObjectID = "65"; */
+"65.ibShadowedToolTip" = "導入圖像時自動調整";
+
+/* Class = "NSButtonCell"; title = "Auto Adjust"; ObjectID = "66"; */
+"66.title" = "自動調整";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include Existing Adjustments"; ObjectID = "72"; */
+"72.ibShadowedToolTip" = "包含現有的調整";
+
+/* Class = "NSButtonCell"; title = "Include Existing Adjustments"; ObjectID = "73"; */
+"73.title" = "包含現有的調整";
+
+/* Class = "NSView"; SWB-m8-0GG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Styles"; ObjectID = "SWB-m8-0GG"; */
+"SWB-m8-0GG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "風格";
+

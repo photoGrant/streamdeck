@@ -1,0 +1,18 @@
+/* Class = "NSWindow"; title = "Software Update"; ObjectID = "11"; */
+"11.title" = "Обновление программного обеспечения";
+
+/* Class = "NSTextFieldCell"; title = "A new version of Capture One is available."; ObjectID = "52"; */
+"52.title" = "Доступна новая версия Capture One.";
+
+/* Class = "NSTextFieldCell"; title = "Capture One 4.6.1 is now available. Would you like to download it now?"; ObjectID = "53"; */
+"53.title" = "Доступна версия Capture One 4.6.1. Загрузить ее?";
+
+/* Class = "NSButtonCell"; title = "Download"; ObjectID = "54"; */
+"54.title" = "Загрузить";
+
+/* Class = "NSButtonCell"; title = "Later"; ObjectID = "55"; */
+"55.title" = "Позднее";
+
+/* Class = "NSButtonCell"; title = "Release Notes"; ObjectID = "56"; */
+"56.title" = "Примечания к выпуску";
+

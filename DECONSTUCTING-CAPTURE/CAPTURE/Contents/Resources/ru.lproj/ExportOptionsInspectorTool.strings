@@ -1,0 +1,30 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Pack the RAW image as EIP"; ObjectID = "6Ot-LC-POj"; */
+"6Ot-LC-POj.ibShadowedToolTip" = "Запаковать RAW как EIP";
+
+/* Class = "NSButtonCell"; title = "Pack As EIP"; ObjectID = "7QU-HS-eh7"; */
+"7QU-HS-eh7.title" = "Запаковать как EIP";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include Adjustments when exporting"; ObjectID = "34"; */
+"34.ibShadowedToolTip" = "Учесть настройки при экспорте";
+
+/* Class = "NSButtonCell"; title = "Include Adjustments"; ObjectID = "41"; */
+"41.title" = "Включить коррекции";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Notify when export is completed"; ObjectID = "42"; */
+"42.ibShadowedToolTip" = "Сообщить о завершении экспорта";
+
+/* Class = "NSButtonCell"; title = "Notify When Completed"; ObjectID = "43"; */
+"43.title" = "Сообщить о завершении";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add export folder to Session Favorites"; ObjectID = "44"; */
+"44.ibShadowedToolTip" = "Добавить папку экспорта в Избранное Сессии";
+
+/* Class = "NSButtonCell"; title = "Add Folder to Session Favorites"; ObjectID = "45"; */
+"45.title" = "Добавить папку к Избранным сессии";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include movies in export"; ObjectID = "48"; */
+"48.ibShadowedToolTip" = "Включить видео в экспорт";
+
+/* Class = "NSButtonCell"; title = "Include Movies"; ObjectID = "49"; */
+"49.title" = "Включить фильмы";
+

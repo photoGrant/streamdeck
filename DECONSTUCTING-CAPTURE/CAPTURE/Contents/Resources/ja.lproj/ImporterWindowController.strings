@@ -1,0 +1,39 @@
+/* Class = "NSWindow"; title = "Window"; ObjectID = "5"; */
+"5.title" = "ウィンドウ";
+
+/* Class = "NSTabViewItem"; label = "Import"; ObjectID = "62"; */
+"62.label" = "インポート";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Sort"; ObjectID = "233"; */
+"233.ibShadowedToolTip" = "並べ替え";
+
+/* Class = "NSTextFieldCell"; title = "10000 Items"; ObjectID = "251"; */
+"251.title" = "10000項目";
+
+/* Class = "NSButtonCell"; title = "Import All"; ObjectID = "254"; */
+"254.title" = "すべてをインポート";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "255"; */
+"255.title" = "キャンセル";
+
+/* Class = "NSButtonCell"; title = "Erase Images After Copying"; ObjectID = "256"; */
+"256.title" = "インポート後に削除";
+
+/* Class = "NSButtonCell"; title = "Eject Card"; ObjectID = "257"; */
+"257.title" = "カード取出";
+
+/* Class = "NSMenuItem"; title = "Never Open Import Collection"; ObjectID = "368"; */
+"368.title" = "常にインポート コレクションを開く";
+
+/* Class = "NSMenuItem"; title = "Notify When Done"; ObjectID = "369"; */
+"369.title" = "完了時に通知する";
+
+/* Class = "NSMenuItem"; title = "Open Collection When Import Starts"; ObjectID = "370"; */
+"370.title" = "インポートが開始されたらコレクションを開く";
+
+/* Class = "NSTextFieldCell"; title = "Import Collection"; ObjectID = "378"; */
+"378.title" = "インポート";
+
+/* Class = "NSTextFieldCell"; title = "No Images in Folder"; ObjectID = "d3P-zb-jqw"; */
+"d3P-zb-jqw.title" = "フォルダ内にイメージがありません";
+

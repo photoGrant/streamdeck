@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ClarityInspectorTool">
+            <connections>
+                <outlet property="actionMenu" destination="110" id="114"/>
+                <outlet property="clarityControl" destination="4eU-we-CrP" id="Hdr-6U-k0n"/>
+                <outlet property="clarityMethodPopupControl" destination="3uB-Hd-hlv" id="RYA-sZ-Vus"/>
+                <outlet property="container" destination="1" id="118"/>
+                <outlet property="structureControl" destination="QlG-5o-DBr" id="AZI-s5-2gM"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="1" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="83"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="4eU-we-CrP" userLabel="Clarity control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="30" width="280" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="qJe-aw-oRu"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Clarity" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility description="clarity"/>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="QlG-5o-DBr" userLabel="Structure control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="6" width="280" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="e3B-n4-hJ5"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Structure" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility description="structure"/>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="3uB-Hd-hlv" userLabel="Method popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="53" width="280" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="qge-Vo-onW"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Method" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="popupMenu" destination="UpE-OS-DvP" id="iuM-uV-yXG"/>
+                    </connections>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3uB-Hd-hlv" secondAttribute="trailing" id="27f-AN-a6g"/>
+                <constraint firstItem="4eU-we-CrP" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="2o4-XK-v5A"/>
+                <constraint firstAttribute="trailing" secondItem="4eU-we-CrP" secondAttribute="trailing" id="905-hA-HeM"/>
+                <constraint firstAttribute="trailing" secondItem="QlG-5o-DBr" secondAttribute="trailing" id="LdP-8N-nJD"/>
+                <constraint firstItem="4eU-we-CrP" firstAttribute="top" secondItem="3uB-Hd-hlv" secondAttribute="bottom" constant="1" id="Qg1-7Z-ito"/>
+                <constraint firstItem="3uB-Hd-hlv" firstAttribute="top" secondItem="1" secondAttribute="top" constant="7" id="YnQ-gf-MfL"/>
+                <constraint firstItem="QlG-5o-DBr" firstAttribute="top" secondItem="4eU-we-CrP" secondAttribute="bottom" constant="2" id="fRC-lz-etx"/>
+                <constraint firstItem="QlG-5o-DBr" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="hve-39-qBy"/>
+                <constraint firstItem="3uB-Hd-hlv" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="quO-Bx-r4i"/>
+                <constraint firstAttribute="bottom" secondItem="QlG-5o-DBr" secondAttribute="bottom" constant="6" id="xgg-J7-7AY"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="324"/>
+        </customView>
+        <menu id="110" userLabel="ActionMenu"/>
+        <menu title="OtherViews" id="UpE-OS-DvP" userLabel="Clarity Menu">
+            <items>
+                <menuItem title="Natural" tag="3" id="HGC-Q7-zHa">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Punch" tag="1" id="MtW-6d-65A">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Neutral" id="fSQ-BZ-Q4Z">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Classic" state="on" tag="2" id="qTR-6X-eGH" userLabel="Menu Item - Classic">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>

@@ -1,0 +1,42 @@
+/* Class = "NSTextFieldCell"; title = "This panel can also be shown by right-clicking in the Viewer when the Brush or Eraser cursor is selected."; ObjectID = "209"; */
+"209.title" = "이 패널은 또한 브러쉬 또는 지우개 커서를 선택하여 마우스 오른쪽 단추 클릭으로 뷰어에 표시할 수 있습니다";
+
+/* Class = "NSButtonCell"; title = "Use Pen Pressure"; ObjectID = "214"; */
+"214.title" = "펜 프레셔 사용";
+
+/* Class = "NSButtonCell"; title = "Auto Mask"; ObjectID = "228"; */
+"228.title" = "자동 마스크";
+
+/* Class = "NSButtonCell"; title = "Airbrush"; ObjectID = "de3-fe-AEM"; */
+"de3-fe-AEM.title" = "에어브러시";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "exposure"; ObjectID = "Ftn-pp-X0R"; */
+"Ftn-pp-X0R.ibExternalAccessibilityDescription" = "노출";
+
+/* Class = "NSView"; Ftn-pp-X0R.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Flow"; ObjectID = "Ftn-pp-X0R"; */
+"Ftn-pp-X0R.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "플로";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "exposure"; ObjectID = "MFd-c5-dQ9"; */
+"MFd-c5-dQ9.ibExternalAccessibilityDescription" = "노출";
+
+/* Class = "NSView"; MFd-c5-dQ9.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Hardness"; ObjectID = "MFd-c5-dQ9"; */
+"MFd-c5-dQ9.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "경도";
+
+/* Class = "NSTextFieldCell"; title = "Brush Settings"; ObjectID = "MNb-OO-L0P"; */
+"MNb-OO-L0P.title" = "브러시 설정";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "exposure"; ObjectID = "Pyi-L2-moh"; */
+"Pyi-L2-moh.ibExternalAccessibilityDescription" = "노출";
+
+/* Class = "NSView"; Pyi-L2-moh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Size"; ObjectID = "Pyi-L2-moh"; */
+"Pyi-L2-moh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "크기";
+
+/* Class = "NSButtonCell"; title = "Link Brush and Eraser Settings"; ObjectID = "sV5-8y-CO3"; */
+"sV5-8y-CO3.title" = "브러시와 지우개 설정 연결";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "exposure"; ObjectID = "zCB-p2-qDc"; */
+"zCB-p2-qDc.ibExternalAccessibilityDescription" = "노출";
+
+/* Class = "NSView"; zCB-p2-qDc.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Opacity"; ObjectID = "zCB-p2-qDc"; */
+"zCB-p2-qDc.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "불투명도";
+

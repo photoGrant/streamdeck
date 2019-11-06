@@ -1,0 +1,24 @@
+/* Class = "NSTextFieldCell"; title = "Space Left"; ObjectID = "6If-eD-nku"; */
+"6If-eD-nku.title" = "Plats kvar";
+
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "50"; */
+"50.title" = "Återställ verktyg";
+
+/* Class = "NSButtonCell"; title = "Back up new captures"; ObjectID = "70"; */
+"70.title" = "Säkerhetskopiera nya bilder";
+
+/* Class = "NSTextFieldCell"; title = "Sample Path"; ObjectID = "aRy-kV-bIu"; */
+"aRy-kV-bIu.title" = "Provsökväg";
+
+/* Class = "NSMenuItem"; title = "Clear Queue"; ObjectID = "b3X-AC-dIa"; */
+"b3X-AC-dIa.title" = "Töm kö";
+
+/* Class = "NSButtonCell"; title = "Start"; ObjectID = "Dqg-vt-FmI"; */
+"Dqg-vt-FmI.title" = "Starta";
+
+/* Class = "NSTextFieldCell"; title = "Next Capture Backup is only supported in Sessions."; ObjectID = "Lob-WL-87P"; */
+"Lob-WL-87P.title" = "Nästa råfils backup är en funktion som bara är tillgänglig i sessioner.";
+
+/* Class = "NSView"; lYc-ey-etb.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Location"; ObjectID = "lYc-ey-etb"; */
+"lYc-ey-etb.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Lokation";
+

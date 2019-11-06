@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------------------------------------------------------------
+  Settings: assume D50, no adaptation
+  ---------------------------------------------------------------------------->
+
+<whitepoint>D50</whitepoint>
+<adaptation>none</adaptation>
+<flag>none</flag>
+
+<!----------------------------------------------------------------------------
+   Description (language is ISO 639-2/T)
+  ---------------------------------------------------------------------------->
+
+<metadata key="generic-D50" order="-10">
+<description lang="eng" title="Generic (D50)">
+L*a*b* conversion with D50 as white-point.
+
+Select this option to be compatible with the most 3rd party software.
+
+This option is compatible with the following software:
+  Delt.ae (by Picturae)
+  LCMS (by Marti Maria).
+</description>
+</metadata>

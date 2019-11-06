@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TangentWave fileType="PanelMap" fileVersion="3.0">
+    <Panels>
+	<Panel type="Element-Bt" number="1">
+            <Mode id="0x00010001"> <!-- Default -->
+                <ControlBank id="Standard">
+                    <Bank>
+                        <Control type="Button" number="12"> <!-- Element-Bt Button A -->
+                            <Mapping mode="Std">
+                                <Key>0x80000001</Key> <!-- Select ALTernative Function -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="13"> <!-- Element-Bt Button B -->
+                            <Mapping mode="Std">
+                                <Key>0x80000004</Key> <!-- Next Button Bank -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x80000006</Key> <!-- Next Trackerball Bank -->
+                            </Mapping>
+                        </Control>
+                    </Bank>
+                </ControlBank>
+                <ControlBank id="Button">
+                    <Bank>
+                        <Control type="Button" number="0"> <!-- Element-Bt Button 1 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000CB</Key> <!-- Toggle Exposure Warning -->
+                                <CustomName>Exp Warn</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000CB</Key> <!-- Toggle Exposure Warning -->
+                                <CustomName>Exp Warn</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="1"> <!-- Element-Bt Button 2 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000CD</Key> <!-- Toggle Focus Mask -->
+                                <CustomName>F-Msk</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000CD</Key> <!-- Toggle Focus Mask -->
+                                <CustomName>F-Msk</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="2"> <!-- Element-Bt Button 3 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000D2</Key> <!-- Show Grid Guides -->
+                                <CustomName>Grid</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000D2</Key> <!-- Show Grid Guides -->
+                                <CustomName>Grid</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="3"> <!-- Element-Bt Button 4 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000022B</Key> <!-- Toggle Recipe Proofing -->
+                                <CustomName>Proof</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000022B</Key> <!-- Toggle Recipe Proofing -->
+                                <CustomName>Proof</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="4"> <!-- Element-Bt Button 5 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000CA</Key> <!-- Toggle Viewer Labels -->
+                                <CustomName>Labels</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000CA</Key> <!-- Toggle Viewer Labels -->
+                                <CustomName>Labels</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="5"> <!-- Element-Bt Button 6 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000C1</Key> <!-- Show Proof Margin -->
+                                <CustomName>Margin</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000C1</Key> <!-- Show Proof Margin -->
+                                <CustomName>Margin</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="7"> <!-- Element-Bt Button 8 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000F6</Key> <!-- Hide Toolbar -->
+                                <CustomName>Toolbar</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000F6</Key> <!-- Hide Toolbar -->
+                                <CustomName>Toolbar</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="9"> <!-- Element-Bt Button 10 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000E2</Key> <!-- Toggle Tools -->
+                                <CustomName>Tools</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000E2</Key> <!-- Toggle Tools -->
+                                <CustomName>Tools</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="10"> <!-- Element-Bt Button 11 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000BD</Key> <!-- Show/Hide Viewer -->
+                                <CustomName>Viewer</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000BD</Key> <!-- Show/Hide Viewer -->
+                                <CustomName>Viewer</CustomName>
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="11"> <!-- Element-Bt Button 12 -->
+                            <Mapping mode="Std">
+                                <Key>0x000000D7</Key> <!-- Show/Hide Browser -->
+                                <CustomName>Browser</CustomName>
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x000000D7</Key> <!-- Show/Hide Browser -->
+                                <CustomName>Browser</CustomName>
+                            </Mapping>
+                        </Control>
+                    </Bank>
+                    <Bank>
+                        <Control type="Button" number="0"> <!-- Element-Bt Button 1 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000235</Key> <!-- Select Annotations Pen -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000235</Key> <!-- Select Annotations Pen -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="1"> <!-- Element-Bt Button 1 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000237</Key> <!-- Select Annotations Eraser -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000237</Key> <!-- Select Annotations Eraser -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="3"> <!-- Element-Bt Button 4 -->
+                            <Mapping mode="Std">
+                                <Key>0x00000239</Key> <!-- Select Annotations Black -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x00000239</Key> <!-- Select Annotations Black -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="4"> <!-- Element-Bt Button 5 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023A</Key> <!-- Select Annotations White -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023A</Key> <!-- Select Annotations White -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="5"> <!-- Element-Bt Button 6 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023B</Key> <!-- Select Annotations Red -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023B</Key> <!-- Select Annotations Red -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="6"> <!-- Element-Bt Button 7 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023C</Key> <!-- Select Annotations Yellow -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023C</Key> <!-- Select Annotations Yellow -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="7"> <!-- Element-Bt Button 8 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023D</Key> <!-- Select Annotations Green -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023D</Key> <!-- Select Annotations Green -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="8"> <!-- Element-Bt Button 9 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023E</Key> <!-- Select Annotations Blue -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023E</Key> <!-- Select Annotations Blue -->
+                            </Mapping>
+                        </Control>
+                        <Control type="Button" number="9"> <!-- Element-Bt Button 10 -->
+                            <Mapping mode="Std">
+                                <Key>0x0000023F</Key> <!-- Annotations Show -->
+                            </Mapping>
+                            <Mapping mode="Alt">
+                                <Key>0x0000023F</Key> <!-- Annotations Show -->
+                            </Mapping>
+                        </Control>
+                    </Bank>
+                </ControlBank>
+            </Mode>
+        </Panel>
+    </Panels>
+    <GlobalSettings>
+        <KnobSensitivity std="1" alt="5"/>
+        <JogDialSensitivity std="1" alt="5"/>
+        <TrackerballSensitivity std="1" alt="5"/>
+        <TrackerballDialSensitivity std="1" alt="5"/>
+        <IndependentPanelBanks enabled="false"/>
+    </GlobalSettings>
+</TangentWave>

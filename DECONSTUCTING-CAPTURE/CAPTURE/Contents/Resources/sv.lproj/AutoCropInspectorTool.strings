@@ -1,0 +1,111 @@
+/* Class = "NSMenuItem"; title = "Roll Film - Fixed Size"; ObjectID = "4sr-v4-i8p"; */
+"4sr-v4-i8p.title" = "Rullfilm - fast storlek";
+
+/* Class = "NSMenuItem"; title = "Bound Material - Fixed Size"; ObjectID = "4yo-cu-B4v"; */
+"4yo-cu-B4v.title" = "Bundet material - fast storlek";
+
+/* Class = "NSMenuItem"; title = "Auto Levels on Interior Crop"; ObjectID = "7yh-cw-jdP"; */
+"7yh-cw-jdP.title" = "Autonivå på inre beskärning";
+
+/* Class = "NSButtonCell"; title = "Auto Crop"; ObjectID = "8AF-6R-ogO"; */
+"8AF-6R-ogO.title" = "Auto beskärning";
+
+/* Class = "NSButtonCell"; title = "On Crop"; ObjectID = "9hS-yp-LOJ"; */
+"9hS-yp-LOJ.title" = "På beskärning";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Automatically auto crop when capturing a new image."; ObjectID = "AD7-0S-uNY"; */
+"AD7-0S-uNY.ibShadowedToolTip" = "Beskär automatiskt när nästa bild tas";
+
+/* Class = "NSMenuItem"; title = "Average"; ObjectID = "bHw-ic-N9M"; */
+"bHw-ic-N9M.title" = "Genomsnitt";
+
+/* Class = "NSMenuItem"; title = "Left Edge"; ObjectID = "cMC-Ed-bpk"; */
+"cMC-Ed-bpk.title" = "Vänster kant";
+
+/* Class = "NSMenuItem"; title = "Bound Material"; ObjectID = "dPe-9F-2eS"; */
+"dPe-9F-2eS.title" = "Bundet material";
+
+/* Class = "NSMenuItem"; title = "Top Edge"; ObjectID = "EIr-Dy-73Z"; */
+"EIr-Dy-73Z.title" = "Övre kant";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Padding size applied when auto cropping."; ObjectID = "enf-Sq-Fqs"; */
+"enf-Sq-Fqs.ibShadowedToolTip" = "Marginalstorlek läggs på vid autobeskärning.";
+
+/* Class = "NSView"; HBn-Bj-WwI.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Pre-Pass"; ObjectID = "HBn-Bj-WwI"; */
+"HBn-Bj-WwI.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Bakgrundskontrast";
+
+/* Class = "NSMenuItem"; title = "Loose Material - Fixed Size"; ObjectID = "j1h-gN-xq9"; */
+"j1h-gN-xq9.title" = "Löst material - bestämd storlek";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "J4Q-sT-G5R"; */
+"J4Q-sT-G5R.title" = "Ingen";
+
+/* Class = "NSView"; jBi-Ve-vQd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Optimization"; ObjectID = "jBi-Ve-vQd"; */
+"jBi-Ve-vQd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Optimering";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Padding size applied when auto cropping."; ObjectID = "k74-JJ-OGL"; */
+"k74-JJ-OGL.ibShadowedToolTip" = "Marginalstorlek läggs på vid autobeskärning.";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "l5R-Hd-85G"; */
+"l5R-Hd-85G.title" = "Ingen";
+
+/* Class = "NSMenuItem"; title = "Right Edge"; ObjectID = "mvq-L6-rI7"; */
+"mvq-L6-rI7.title" = "Höger kant";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Padding size applied when auto cropping."; ObjectID = "OcE-Xy-utJ"; */
+"OcE-Xy-utJ.ibShadowedToolTip" = "Marginalstorlek läggs på vid autobeskärning.";
+
+/* Class = "NSTextFieldCell"; title = "Padding"; ObjectID = "PMH-AD-yfv"; */
+"PMH-AD-yfv.title" = "Marginal";
+
+/* Class = "NSButtonCell"; title = "On Capture"; ObjectID = "pt0-XJ-zeL"; */
+"pt0-XJ-zeL.title" = "Vid exponering";
+
+/* Class = "NSMenuItem"; title = "Low Object-Background Contrast"; ObjectID = "QfF-GH-pfo"; */
+"QfF-GH-pfo.title" = "Lågt objekt-bakgrundskontrast";
+
+/* Class = "NSMenuItem"; title = "Bottom Edge"; ObjectID = "QKc-dp-BPh"; */
+"QKc-dp-BPh.title" = "Nedre kant";
+
+/* Class = "NSMenuItem"; title = "Top-Right Edges"; ObjectID = "QUA-nq-VEa"; */
+"QUA-nq-VEa.title" = "Övre och högra kant";
+
+/* Class = "NSView"; Qz9-Ze-Bux.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Straighten"; ObjectID = "Qz9-Ze-Bux"; */
+"Qz9-Ze-Bux.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Räta upp";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "R7X-2v-UzN"; */
+"R7X-2v-UzN.title" = "Ingen";
+
+/* Class = "NSMenuItem"; title = "Bottom-Left Edges"; ObjectID = "tIR-qu-c2b"; */
+"tIR-qu-c2b.title" = "Vänster och nedre kant";
+
+/* Class = "NSTextFieldCell"; title = "Triggers"; ObjectID = "tlr-gc-GZK"; */
+"tlr-gc-GZK.title" = "Utlösare";
+
+/* Class = "NSMenuItem"; title = "Loose Material"; ObjectID = "TzQ-VR-TlO"; */
+"TzQ-VR-TlO.title" = "Löst material";
+
+/* Class = "NSView"; Uiq-vE-uCn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Method"; ObjectID = "Uiq-vE-uCn"; */
+"Uiq-vE-uCn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Metod";
+
+/* Class = "NSMenuItem"; title = "Top-Left Edges"; ObjectID = "vjm-Fn-0IZ"; */
+"vjm-Fn-0IZ.title" = "Övre och vänstra kant";
+
+/* Class = "NSMenuItem"; title = "Medium Object-Background Contrast"; ObjectID = "vts-H0-7RQ"; */
+"vts-H0-7RQ.title" = "Medium objekt-bakgrundskontrast";
+
+/* Class = "NSTextFieldCell"; title = "px"; ObjectID = "WaG-K3-5Ld"; */
+"WaG-K3-5Ld.title" = "px";
+
+/* Class = "NSMenuItem"; title = "Bottom-Right Edges"; ObjectID = "wSc-kj-U5V"; */
+"wSc-kj-U5V.title" = "Höger och nedre kant";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Automatically auto crop when creating a new crop."; ObjectID = "xF6-s0-mbU"; */
+"xF6-s0-mbU.ibShadowedToolTip" = "Automatisk beskärning";
+
+/* Class = "NSButtonCell"; title = "Set Master Crop"; ObjectID = "yK2-gT-SoK"; */
+"yK2-gT-SoK.title" = "Ställ in styrande beskärning";
+
+/* Class = "NSMenuItem"; title = "Very Low Object-Background Contrast"; ObjectID = "zfu-c3-n97"; */
+"zfu-c3-n97.title" = "Väldigt lågt objekt - fast storlek";
+

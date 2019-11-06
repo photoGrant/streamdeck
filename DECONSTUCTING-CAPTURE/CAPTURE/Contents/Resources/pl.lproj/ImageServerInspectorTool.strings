@@ -1,0 +1,96 @@
+/* Class = "NSTextFieldCell"; title = "Password"; ObjectID = "27"; */
+"27.title" = "Hasło";
+
+/* Class = "NSTextFieldCell"; title = "Server Name"; ObjectID = "43"; */
+"43.title" = "Nazwa serwera";
+
+/* Class = "NSTabViewItem"; label = "Basic"; ObjectID = "53"; */
+"53.label" = "Podstawowe";
+
+/* Class = "NSTabViewItem"; label = "Mobile"; ObjectID = "54"; */
+"54.label" = "Mobilne";
+
+/* Class = "NSSegmentedCell"; 58.ibShadowedLabels[0] = "Basic"; ObjectID = "58"; */
+"58.ibShadowedLabels[0]" = "Podstawowe";
+
+/* Class = "NSSegmentedCell"; 58.ibShadowedLabels[1] = "Mobile"; ObjectID = "58"; */
+"58.ibShadowedLabels[1]" = "Mobilne";
+
+/* Class = "NSSegmentedCell"; 58.ibShadowedLabels[2] = "Web"; ObjectID = "58"; */
+"58.ibShadowedLabels[2]" = "Internet";
+
+/* Class = "NSTextFieldCell"; title = "Port Number"; ObjectID = "63"; */
+"63.title" = "Numer portu";
+
+/* Class = "NSButtonCell"; title = "Color Tag images"; ObjectID = "123"; */
+"123.title" = "Dodawanie tagów koloru";
+
+/* Class = "NSButtonCell"; title = "Adjust images"; ObjectID = "125"; */
+"125.title" = "Zmienianie dopasowań";
+
+/* Class = "NSButtonCell"; title = "Capture images"; ObjectID = "131"; */
+"131.title" = "Przechwytywanie obrazów";
+
+/* Class = "NSTextFieldCell"; title = "Permissions"; ObjectID = "136"; */
+"136.title" = "Uprawnienia";
+
+/* Class = "NSTabViewItem"; label = "Web"; ObjectID = "157"; */
+"157.label" = "Internet";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Broadcast over Web"; ObjectID = "165"; */
+"165.ibShadowedToolTip" = "Rozpowszechnij w internecie";
+
+/* Class = "NSButtonCell"; title = "Web Browser"; ObjectID = "166"; */
+"166.title" = "Przeglądarka internetowa";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Broadcast over Web"; ObjectID = "170"; */
+"170.ibShadowedToolTip" = "Rozpowszechnij w internecie";
+
+/* Class = "NSButtonCell"; title = "Mobile Device"; ObjectID = "171"; */
+"171.title" = "Urządzenie mobilne";
+
+/* Class = "NSButtonCell"; title = "Rate images"; ObjectID = "203"; */
+"203.title" = "Ocenianie obrazów";
+
+/* Class = "NSTextFieldCell"; title = "Permissions"; ObjectID = "212"; */
+"212.title" = "Uprawnienia";
+
+/* Class = "NSButtonCell"; title = "Rate images"; ObjectID = "213"; */
+"213.title" = "Ocenianie obrazów";
+
+/* Class = "NSButtonCell"; title = "Color Tag images"; ObjectID = "214"; */
+"214.title" = "Dodawanie tagów koloru";
+
+/* Class = "NSTextFieldCell"; title = "Port Number"; ObjectID = "243"; */
+"243.title" = "Numer portu";
+
+/* Class = "NSTextFieldCell"; title = "<local IP>"; ObjectID = "254"; */
+"254.title" = "<lokalny adres IP>";
+
+/* Class = "NSTextFieldCell"; title = "<local IP>"; ObjectID = "291"; */
+"291.title" = "<lokalny adres IP>";
+
+/* Class = "NSTextFieldCell"; title = "Local IP"; ObjectID = "306"; */
+"306.title" = "Lokalny IP";
+
+/* Class = "NSTextFieldCell"; title = "Local IP"; ObjectID = "308"; */
+"308.title" = "Lokalny IP";
+
+/* Class = "NSView"; EvH-sS-PFP.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Publish To"; ObjectID = "EvH-sS-PFP"; */
+"EvH-sS-PFP.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Opublikuj w";
+
+/* Class = "NSMenuItem"; title = "Mobile and Web"; ObjectID = "Kmo-T0-VXt"; */
+"Kmo-T0-VXt.title" = "Mobilne i internetowe";
+
+/* Class = "NSView"; lfN-1m-0dg.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Folder"; ObjectID = "lfN-1m-0dg"; */
+"lfN-1m-0dg.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Folder";
+
+/* Class = "NSView"; nKc-nv-P4y.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Theme"; ObjectID = "nKc-nv-P4y"; */
+"nKc-nv-P4y.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Układ";
+
+/* Class = "NSMenuItem"; title = "Mobile Device"; ObjectID = "PyD-k4-gcm"; */
+"PyD-k4-gcm.title" = "Urządzenie mobilne";
+
+/* Class = "NSMenuItem"; title = "Web Browser"; ObjectID = "TJO-Fr-9Yv"; */
+"TJO-Fr-9Yv.title" = "Przeglądarka internetowa";
+

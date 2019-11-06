@@ -1,0 +1,24 @@
+/* Class = "NSTextFieldCell"; title = "Space Left"; ObjectID = "6If-eD-nku"; */
+"6If-eD-nku.title" = "剩余空间";
+
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "50"; */
+"50.title" = "重置工具";
+
+/* Class = "NSButtonCell"; title = "Back up new captures"; ObjectID = "70"; */
+"70.title" = "备份新的拍摄";
+
+/* Class = "NSTextFieldCell"; title = "Sample Path"; ObjectID = "aRy-kV-bIu"; */
+"aRy-kV-bIu.title" = "相同路径";
+
+/* Class = "NSMenuItem"; title = "Clear Queue"; ObjectID = "b3X-AC-dIa"; */
+"b3X-AC-dIa.title" = "清除队列";
+
+/* Class = "NSButtonCell"; title = "Start"; ObjectID = "Dqg-vt-FmI"; */
+"Dqg-vt-FmI.title" = "开始";
+
+/* Class = "NSTextFieldCell"; title = "Next Capture Backup is only supported in Sessions."; ObjectID = "Lob-WL-87P"; */
+"Lob-WL-87P.title" = "下一拍摄备份在会话中不支持。";
+
+/* Class = "NSView"; lYc-ey-etb.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Location"; ObjectID = "lYc-ey-etb"; */
+"lYc-ey-etb.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "位置";
+

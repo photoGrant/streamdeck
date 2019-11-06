@@ -1,0 +1,15 @@
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "0Vj-5Z-5OD"; */
+"0Vj-5Z-5OD.title" = "Célula do Texto";
+
+/* Class = "NSTableColumn"; headerCell.title = "Applied Styles"; ObjectID = "2SU-BP-OVj"; */
+"2SU-BP-OVj.headerCell.title" = "Estilos aplicados";
+
+/* Class = "NSTextFieldCell"; title = "No styles applied"; ObjectID = "4pN-Hl-KjO"; */
+"4pN-Hl-KjO.title" = "Nenhum estilo aplicado";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "LKQ-ZQ-1aM"; */
+"LKQ-ZQ-1aM.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "oHJ-gI-FBC"; */
+"oHJ-gI-FBC.title" = "Célula de exibição de tabela";
+

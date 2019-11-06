@@ -1,0 +1,18 @@
+/* Class = "NSWindow"; title = "Live View"; ObjectID = "5"; */
+"5.title" = "Visée Vidéo";
+
+/* Class = "NSTabViewItem"; label = "Live View"; ObjectID = "2666"; */
+"2666.label" = "Visée Vidéo";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "2873"; */
+"2873.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Fit"; ObjectID = "2889"; */
+"2889.title" = "Ajuster";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "hFG-vJ-633"; */
+"hFG-vJ-633.title" = "Bouton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Capture an image using the attached camera"; ObjectID = "QHE-Qa-T6o"; */
+"QHE-Qa-T6o.ibShadowedToolTip" = "Capturer une image avec l’appareil connecté";
+

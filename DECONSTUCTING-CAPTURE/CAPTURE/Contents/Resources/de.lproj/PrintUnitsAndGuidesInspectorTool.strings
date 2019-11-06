@@ -1,0 +1,18 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Menü";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show/hide paper guides"; ObjectID = "510"; */
+"510.ibShadowedToolTip" = "Papiergröße-Hilfslinien anzeigen/verbergen";
+
+/* Class = "NSButtonCell"; title = "Show Guides"; ObjectID = "511"; */
+"511.title" = "Hilfslinien anzeigen";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show/hide paper guides"; ObjectID = "543"; */
+"543.ibShadowedToolTip" = "Papiergröße-Hilfslinien anzeigen/verbergen";
+
+/* Class = "NSButtonCell"; title = "Print Guides"; ObjectID = "544"; */
+"544.title" = "Hilfslinien Druck";
+
+/* Class = "NSView"; UWG-4M-2dn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Units"; ObjectID = "UWG-4M-2dn"; */
+"UWG-4M-2dn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Einheiten";
+

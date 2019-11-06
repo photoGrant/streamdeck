@@ -1,0 +1,24 @@
+/* Class = "NSWindow"; title = "Live View"; ObjectID = "5"; */
+"5.title" = "實時預覽";
+
+/* Class = "NSTabViewItem"; label = "Live View"; ObjectID = "2666"; */
+"2666.label" = "實時預覽";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "2873"; */
+"2873.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Fit"; ObjectID = "2889"; */
+"2889.title" = "適合";
+
+/* Class = "NSMatrix"; ibExternalAccessibilityDescription = "inspectorToolSelector"; ObjectID = "2958"; */
+"2958.ibExternalAccessibilityDescription" = "inspectorToolSelector";
+
+/* Class = "NSMatrix"; ibExternalAccessibilityDescription = "inspectorToolSelector"; ObjectID = "2968"; */
+"2968.ibExternalAccessibilityDescription" = "inspectorToolSelector";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "hFG-vJ-633"; */
+"hFG-vJ-633.title" = "按鈕";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Capture an image using the attached camera"; ObjectID = "QHE-Qa-T6o"; */
+"QHE-Qa-T6o.ibShadowedToolTip" = "連接相機拍攝";
+

@@ -1,0 +1,45 @@
+/* Class = "NSWindow"; title = "Slide Show Settings"; ObjectID = "1"; */
+"1.title" = "Настройки показа слайдов";
+
+/* Class = "NSMenuItem"; title = "Fade"; ObjectID = "34"; */
+"34.title" = "Затухание";
+
+/* Class = "NSMenuItem"; title = "Move In"; ObjectID = "35"; */
+"35.title" = "Вдвигание";
+
+/* Class = "NSTextFieldCell"; title = "Transition"; ObjectID = "36"; */
+"36.title" = "Переход";
+
+/* Class = "NSMenuItem"; title = "Push"; ObjectID = "40"; */
+"40.title" = "Толчок";
+
+/* Class = "NSMenuItem"; title = "Reveal"; ObjectID = "41"; */
+"41.title" = "Проявление";
+
+/* Class = "NSMenuItem"; title = "Dissolve"; ObjectID = "42"; */
+"42.title" = "Растворение";
+
+/* Class = "NSMenuItem"; title = "Mod"; ObjectID = "43"; */
+"43.title" = "Изменение";
+
+/* Class = "NSMenuItem"; title = "Swipe"; ObjectID = "44"; */
+"44.title" = "Перелистывание";
+
+/* Class = "NSTextFieldCell"; title = "Slide Duration"; ObjectID = "56"; */
+"56.title" = "Время показа слайда";
+
+/* Class = "NSButtonCell"; title = "Loop"; ObjectID = "69"; */
+"69.title" = "Повтор";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "73"; */
+"73.title" = "Настройки по умолчанию";
+
+/* Class = "NSMenuItem"; title = "Disintegrate"; ObjectID = "90"; */
+"90.title" = "Расщепление";
+
+/* Class = "NSMenuItem"; title = "Page Curl"; ObjectID = "91"; */
+"91.title" = "Сворачивание страницы";
+
+/* Class = "NSMenuItem"; title = "Ripple"; ObjectID = "92"; */
+"92.title" = "Рябь";
+

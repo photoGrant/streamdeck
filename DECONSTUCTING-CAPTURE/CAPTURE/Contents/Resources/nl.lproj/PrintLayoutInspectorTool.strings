@@ -1,0 +1,81 @@
+/* Class = "NSMenuItem"; title = "Prioritize Cell Size"; ObjectID = "2UW-z5-qxR"; */
+"2UW-z5-qxR.title" = "Prioriteit voor celgrootte";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Menu";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Number of rows"; ObjectID = "438"; */
+"438.ibShadowedToolTip" = "Aantal rijen";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Number of rows"; ObjectID = "440"; */
+"440.ibShadowedToolTip" = "Aantal rijen";
+
+/* Class = "NSTextFieldCell"; title = "Rows"; ObjectID = "443"; */
+"443.title" = "Rijen";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Number of columns"; ObjectID = "447"; */
+"447.ibShadowedToolTip" = "Aantal kolommen";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Number of columns"; ObjectID = "449"; */
+"449.ibShadowedToolTip" = "Aantal kolommen";
+
+/* Class = "NSTextFieldCell"; title = "Columns"; ObjectID = "452"; */
+"452.title" = "Kolommen";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "488"; */
+"488.ibShadowedToolTip" = "Afstand tussen kolommen";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "490"; */
+"490.ibShadowedToolTip" = "Afstand tussen kolommen";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Spacing between rows"; ObjectID = "491"; */
+"491.ibShadowedToolTip" = "Afstand tussen rijen";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between rows"; ObjectID = "493"; */
+"493.ibShadowedToolTip" = "Afstand tussen rijen";
+
+/* Class = "NSTextFieldCell"; title = "Row Spacing"; ObjectID = "499"; */
+"499.title" = "Rijafstand";
+
+/* Class = "NSTextFieldCell"; title = "Col. Spacing"; ObjectID = "503"; */
+"503.title" = "Kolomafst.";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "531"; */
+"531.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "533"; */
+"533.title" = "in";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "552"; */
+"552.ibShadowedToolTip" = "Afstand tussen kolommen";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between rows"; ObjectID = "555"; */
+"555.ibShadowedToolTip" = "Afstand tussen rijen";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "558"; */
+"558.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "559"; */
+"559.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "Cell Height"; ObjectID = "562"; */
+"562.title" = "Celhoogte";
+
+/* Class = "NSTextFieldCell"; title = "Cell Width"; ObjectID = "566"; */
+"566.title" = "Celbreedte";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "598"; */
+"598.ibShadowedToolTip" = "Afstand tussen kolommen";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "600"; */
+"600.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "Cell Border"; ObjectID = "603"; */
+"603.title" = "Celrand";
+
+/* Class = "NSView"; awY-ai-FAo.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Resizing"; ObjectID = "awY-ai-FAo"; */
+"awY-ai-FAo.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Grootte wijzigen";
+
+/* Class = "NSMenuItem"; title = "Prioritize Spacing"; ObjectID = "maT-3O-DaK"; */
+"maT-3O-DaK.title" = "Prioriteit voor afstand";
+

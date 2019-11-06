@@ -1,0 +1,30 @@
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "balancePopup"; ObjectID = "134"; */
+"134.ibExternalAccessibilityDescription" = "balancePopup";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "135"; */
+"135.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Custom"; ObjectID = "136"; */
+"136.title" = "自定義";
+
+/* Class = "NSMenuItem"; title = "As Shot"; ObjectID = "137"; */
+"137.title" = "隨拍隨定";
+
+/* Class = "NSMenuItem"; title = "Cloudy"; ObjectID = "138"; */
+"138.title" = "多雲";
+
+/* Class = "NSTextFieldCell"; title = "Mode"; ObjectID = "238"; */
+"238.title" = "模式";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "kelvin"; ObjectID = "EP8-Am-6Fw"; */
+"EP8-Am-6Fw.ibExternalAccessibilityDescription" = "色溫";
+
+/* Class = "NSView"; EP8-Am-6Fw.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Kelvin"; ObjectID = "EP8-Am-6Fw"; */
+"EP8-Am-6Fw.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "色溫";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "tint"; ObjectID = "n63-za-y7v"; */
+"n63-za-y7v.ibExternalAccessibilityDescription" = "色彩";
+
+/* Class = "NSView"; n63-za-y7v.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Tint"; ObjectID = "n63-za-y7v"; */
+"n63-za-y7v.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "色相";
+

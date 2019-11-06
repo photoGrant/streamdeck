@@ -1,0 +1,114 @@
+/* Class = "NSMenuItem"; title = "Copy Variants from Primary"; ObjectID = "1fh-n9-LQH"; */
+"1fh-n9-LQH.title" = "選択からバリアントをコピー";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Copy the adjustments from the last capture."; ObjectID = "1xt-dV-kug"; */
+"1xt-dV-kug.ibShadowedToolTip" = "最後のキャプチャーから調整をコピーしてください。";
+
+/* Class = "NSMenuItem"; title = "Copy from Last"; ObjectID = "1xt-dV-kug"; */
+"1xt-dV-kug.title" = "最後からコピー";
+
+/* Class = "NSMenuItem"; title = "Copy Variants from Last"; ObjectID = "4jT-BI-Tt1"; */
+"4jT-BI-Tt1.title" = "最後からバリアントをコピー";
+
+/* Class = "NSView"; 5tw-32-WJt.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Orientation"; ObjectID = "5tw-32-WJt"; */
+"5tw-32-WJt.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "回転方向";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Copy the adjustments from the last capture."; ObjectID = "6FN-pe-a1A"; */
+"6FN-pe-a1A.ibShadowedToolTip" = "最後のキャプチャーから調整をコピーしてください。";
+
+/* Class = "NSMenuItem"; title = "Copy from Last"; ObjectID = "6FN-pe-a1A"; */
+"6FN-pe-a1A.title" = "最後からコピー";
+
+/* Class = "NSMenuItem"; title = "Copy Variants from Last"; ObjectID = "6uU-Kc-qnz"; */
+"6uU-Kc-qnz.title" = "最後からバリアントをコピー";
+
+/* Class = "NSMenuItem"; title = "Copy specific from Last..."; ObjectID = "9pl-mW-pP7"; */
+"9pl-mW-pP7.title" = "最後から特定の設定をコピー…";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "250"; */
+"250.title" = "メニュー";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Auto adjust captured images"; ObjectID = "437"; */
+"437.ibShadowedToolTip" = "撮影イメージをオート調整";
+
+/* Class = "NSButtonCell"; title = "Auto Alignment"; ObjectID = "438"; */
+"438.title" = "オート アライメント";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Use the default ICC profile for the camera"; ObjectID = "abE-6a-zrB"; */
+"abE-6a-zrB.ibShadowedToolTip" = "カメラのデフォルトのICCファイルを使用";
+
+/* Class = "NSMenuItem"; title = "Default"; ObjectID = "abE-6a-zrB"; */
+"abE-6a-zrB.title" = "デフォルト";
+
+/* Class = "NSMenuItem"; title = "Copy specific from Primary..."; ObjectID = "BH0-cz-xDp"; */
+"BH0-cz-xDp.title" = "選択から特定の設定をコピー…";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Use the default orientation from the camera"; ObjectID = "d3M-jK-dwn"; */
+"d3M-jK-dwn.ibShadowedToolTip" = "カメラのデフォルトの向きを使用";
+
+/* Class = "NSMenuItem"; title = "Default"; ObjectID = "d3M-jK-dwn"; */
+"d3M-jK-dwn.title" = "デフォルト";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Copy the adjustments from the primary variant"; ObjectID = "E2Z-F5-3g9"; */
+"E2Z-F5-3g9.ibShadowedToolTip" = "選択バリアントから調整をコピー";
+
+/* Class = "NSMenuItem"; title = "Copy from Primary"; ObjectID = "E2Z-F5-3g9"; */
+"E2Z-F5-3g9.title" = "選択からコピー";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Copy the ICC profile from the last image captured."; ObjectID = "gij-EA-zK2"; */
+"gij-EA-zK2.ibShadowedToolTip" = "最後にキャプチャーしたイメージからICCプロファイルをコピーしてください。";
+
+/* Class = "NSMenuItem"; title = "Copy from Last"; ObjectID = "gij-EA-zK2"; */
+"gij-EA-zK2.title" = "最後からコピー";
+
+/* Class = "NSMenuItem"; title = "Copy specific from Last..."; ObjectID = "IQQ-K7-eG8"; */
+"IQQ-K7-eG8.title" = "最後から特定の設定をコピー…";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Use the default adjustments"; ObjectID = "Jfq-Qx-Wc8"; */
+"Jfq-Qx-Wc8.ibShadowedToolTip" = "デフォルトの調整を使用";
+
+/* Class = "NSMenuItem"; title = "Defaults"; ObjectID = "Jfq-Qx-Wc8"; */
+"Jfq-Qx-Wc8.title" = "デフォルト";
+
+/* Class = "NSMenuItem"; title = "Copy Variants from Primary"; ObjectID = "JgD-8n-qns"; */
+"JgD-8n-qns.title" = "選択からバリアントをコピー";
+
+/* Class = "NSView"; m0f-DK-lIy.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Metadata"; ObjectID = "m0f-DK-lIy"; */
+"m0f-DK-lIy.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "メタデータ";
+
+/* Class = "NSMenuItem"; title = "Copy specific from Primary..."; ObjectID = "mVo-jT-1HB"; */
+"mVo-jT-1HB.title" = "選択から特定の設定をコピー…";
+
+/* Class = "NSView"; mw0-8B-bEF.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Other"; ObjectID = "mw0-8B-bEF"; */
+"mw0-8B-bEF.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "その他";
+
+/* Class = "NSView"; O9q-db-Y3n.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Styles"; ObjectID = "O9q-db-Y3n"; */
+"O9q-db-Y3n.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "スタイル";
+
+/* Class = "NSMenuItem"; title = "Copy from Clipboard"; ObjectID = "R6j-Ww-gyc"; */
+"R6j-Ww-gyc.title" = "クリップボードからコピー";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Copy the adjustments from the primary variant"; ObjectID = "RWO-hh-M69"; */
+"RWO-hh-M69.ibShadowedToolTip" = "選択バリアントから調整をコピー";
+
+/* Class = "NSMenuItem"; title = "Copy from Primary"; ObjectID = "RWO-hh-M69"; */
+"RWO-hh-M69.title" = "選択からコピー";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Copy the ICC profile from the primary variant"; ObjectID = "s07-eL-TTi"; */
+"s07-eL-TTi.ibShadowedToolTip" = "一次バリアントからのICCプロファイルをコピー";
+
+/* Class = "NSMenuItem"; title = "Copy from Primary"; ObjectID = "s07-eL-TTi"; */
+"s07-eL-TTi.title" = "選択からコピー";
+
+/* Class = "NSView"; vou-JF-WdZ.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "ICC Profile"; ObjectID = "vou-JF-WdZ"; */
+"vou-JF-WdZ.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "プロファイル";
+
+/* Class = "NSMenuItem"; title = "Copy from Clipboard"; ObjectID = "W3G-Em-rUj"; */
+"W3G-Em-rUj.title" = "クリップボードからコピー";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Use the default adjustments"; ObjectID = "X6Q-vm-89c"; */
+"X6Q-vm-89c.ibShadowedToolTip" = "デフォルトの調整を使用";
+
+/* Class = "NSMenuItem"; title = "Defaults"; ObjectID = "X6Q-vm-89c"; */
+"X6Q-vm-89c.title" = "デフォルト";
+

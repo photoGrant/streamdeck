@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SL Engine="800">
+  <E K="FilmCurve" V="PhaseOneIQ180-Linear Scientific.fcrv"/>
+  <E K="Flip" V="1"/>
+  <E K="GradationCurve" V="0.000,0.000;0.221,0.228;0.625,0.711;1.000,1.000"/>
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,1.000"/>
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000"/>
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000"/>
+  <E K="Name" V="Fujichrome Velvia 100F"/>
+  <E K="TechnicalProcessingMethod" V="3"/>
+  <E K="UUID" V="06D8278D-D314-4D8F-9EF7-83AAEAD09EFF"/>
+</SL>
+

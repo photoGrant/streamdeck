@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<SL>
+    <E K="UUID" V="8C73CB47-51D8-499E-BD0C-1F59BF3A57E8"/>
+    <E K="BwLightSaturation" V="11.15108"/>
+    <E K="BwEnabled" V="1"/>
+    <E K="BwDarkHue" V="224.028792"/>
+    <E K="BwDarkSaturation" V="13.30935"/>
+    <E K="Name" V="Tone Metalic 1"/>
+    <E K="BwLightHue" V="208.489212"/>
+</SL>
+

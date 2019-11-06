@@ -1,0 +1,18 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "菜单";
+
+/* Class = "NSTextFieldCell"; title = "Font"; ObjectID = "518"; */
+"518.title" = "字体";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Caption font name and size"; ObjectID = "519"; */
+"519.ibShadowedToolTip" = "注释字体和尺寸";
+
+/* Class = "NSTextFieldCell"; title = "Helvetica"; ObjectID = "520"; */
+"520.title" = "黑体";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Change caption font"; ObjectID = "529"; */
+"529.ibShadowedToolTip" = "更换注释字体";
+
+/* Class = "NSView"; fQl-5q-wXK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Type"; ObjectID = "fQl-5q-wXK"; */
+"fQl-5q-wXK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "类型";
+

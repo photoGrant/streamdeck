@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="GridInspectorTool">
+            <connections>
+                <outlet property="clockwiseCheckbox" destination="J2g-Bo-JSy" id="V3j-eP-SmI"/>
+                <outlet property="clockwiseView" destination="qo5-Qf-O3D" id="N2H-wS-KCG"/>
+                <outlet property="colorPaletteControl" destination="hjx-T8-E39" id="3Ay-BB-Eje"/>
+                <outlet property="colorSwatchView" destination="tgf-bi-87b" id="iMU-ir-Dkx"/>
+                <outlet property="container" destination="c22-O7-iKe" id="gFr-XC-5T8"/>
+                <outlet property="controlStackView" destination="4n7-x3-sUD" id="VHx-Co-299"/>
+                <outlet property="fibonacciSpiralMenuItem" destination="PJO-d3-1pb" id="y1R-mM-Rns"/>
+                <outlet property="followCropCheckbox" destination="Nue-Br-jer" id="krD-pb-z5e"/>
+                <outlet property="followCropView" destination="DkS-DG-yTP" id="cT2-2c-HB3"/>
+                <outlet property="goldenRatioMenuItem" destination="9Wv-Ma-FZX" id="by3-hb-sco"/>
+                <outlet property="gridTypePopUpControl" destination="w5L-CQ-ge0" id="day-MF-AbI"/>
+                <outlet property="gridTypeView" destination="f7D-t2-GjV" id="qrm-hL-DyQ"/>
+                <outlet property="longEdgeTextField" destination="RtP-gs-IDQ" id="wmO-VT-32m"/>
+                <outlet property="longEdgeView" destination="Cm0-6a-T2B" id="nBi-kH-g4B"/>
+                <outlet property="mirrorCheckbox" destination="pmK-z6-lhi" id="UTy-DI-fRB"/>
+                <outlet property="mirrorView" destination="vS7-Nh-yqP" id="SfA-jj-990"/>
+                <outlet property="rectangularMenuItem" destination="c4c-3a-31D" id="73T-AZ-726"/>
+                <outlet property="shortEdgeTextField" destination="w7c-9K-ZRE" id="7LK-4u-mEF"/>
+                <outlet property="shortEdgeView" destination="HXR-8N-LCt" id="XB0-Sf-ors"/>
+                <outlet property="showGridCheckbox" destination="Bz0-MI-OsR" id="8mk-0E-Xbe"/>
+                <outlet property="showView" destination="BrJ-JO-d8w" id="CgT-R7-LXj"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="513" height="208"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4n7-x3-sUD">
+                    <rect key="frame" x="0.0" y="8" width="513" height="192"/>
+                    <subviews>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="f7D-t2-GjV" userLabel="Grid type view">
+                            <rect key="frame" x="0.0" y="168" width="513" height="24"/>
+                            <subviews>
+                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="w5L-CQ-ge0" userLabel="Grid type pop up" customClass="POPopupControl">
+                                    <rect key="frame" x="0.0" y="0.0" width="513" height="24"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="RFH-Rh-tRD"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Type" localized="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <outlet property="popupMenu" destination="DyA-Uc-dMY" id="RWY-lu-cs3"/>
+                                    </connections>
+                                </customView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="w5L-CQ-ge0" firstAttribute="centerY" secondItem="f7D-t2-GjV" secondAttribute="centerY" id="BoY-Ap-W0C"/>
+                                <constraint firstItem="w5L-CQ-ge0" firstAttribute="leading" secondItem="f7D-t2-GjV" secondAttribute="leading" id="HJB-0I-cIR"/>
+                                <constraint firstAttribute="height" constant="24" id="pCy-fg-1zK"/>
+                                <constraint firstAttribute="trailing" secondItem="w5L-CQ-ge0" secondAttribute="trailing" id="u9d-yg-tGe"/>
+                            </constraints>
+                        </customView>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="qo5-Qf-O3D" userLabel="Clockwise view">
+                            <rect key="frame" x="0.0" y="144" width="513" height="24"/>
+                            <subviews>
+                                <button translatesAutoresizingMaskIntoConstraints="NO" id="J2g-Bo-JSy" customClass="POSkinButton">
+                                    <rect key="frame" x="98" y="1" width="409" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="NB9-bB-LKk"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="check" title="Clockwise" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="QnI-nk-lDL">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="Niv-X0-FAA"/>
+                                <constraint firstAttribute="trailing" secondItem="J2g-Bo-JSy" secondAttribute="trailing" constant="8" id="oUx-ci-emC"/>
+                                <constraint firstItem="J2g-Bo-JSy" firstAttribute="leading" secondItem="qo5-Qf-O3D" secondAttribute="leading" constant="100" id="uHG-x2-6sn"/>
+                                <constraint firstItem="J2g-Bo-JSy" firstAttribute="centerY" secondItem="qo5-Qf-O3D" secondAttribute="centerY" id="vmS-qM-I9W"/>
+                            </constraints>
+                        </customView>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="vS7-Nh-yqP" userLabel="Mirror view">
+                            <rect key="frame" x="0.0" y="120" width="513" height="24"/>
+                            <subviews>
+                                <button translatesAutoresizingMaskIntoConstraints="NO" id="pmK-z6-lhi" customClass="POSkinButton">
+                                    <rect key="frame" x="98" y="-2" width="409" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="JSz-nP-nld"/>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="SPm-1u-OW4"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="check" title="Mirror" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="JxO-Fy-Cxn">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="pmK-z6-lhi" firstAttribute="leading" secondItem="vS7-Nh-yqP" secondAttribute="leading" constant="100" id="URp-74-O3i"/>
+                                <constraint firstAttribute="height" constant="24" id="Why-rs-BR3"/>
+                                <constraint firstAttribute="trailing" secondItem="pmK-z6-lhi" secondAttribute="trailing" constant="8" id="WnQ-7M-1un"/>
+                                <constraint firstItem="pmK-z6-lhi" firstAttribute="centerY" secondItem="vS7-Nh-yqP" secondAttribute="centerY" id="wT6-p5-dmm"/>
+                            </constraints>
+                        </customView>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="Cm0-6a-T2B" userLabel="Long edge">
+                            <rect key="frame" x="0.0" y="96" width="513" height="24"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sIF-HB-gZa" userLabel="Long edge label">
+                                    <rect key="frame" x="-2" y="3" width="88" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="jyw-4o-a33"/>
+                                        <constraint firstAttribute="width" constant="84" id="lzt-NA-RiX"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Long Edge" id="b9P-fk-n4H" customClass="COUITextFieldCell">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RtP-gs-IDQ" userLabel="Long edge text field" customClass="InspectorTextField">
+                                    <rect key="frame" x="100" y="3" width="50" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="18P-YR-igM"/>
+                                        <constraint firstAttribute="width" constant="50" id="PBv-2j-9Wx"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" title="0" drawsBackground="YES" id="J0Q-DV-Qpu" customClass="COUITextFieldCell">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="RtP-gs-IDQ" secondAttribute="trailing" constant="8" id="FRF-B1-F85"/>
+                                <constraint firstAttribute="height" constant="24" id="TuF-rd-vro"/>
+                                <constraint firstItem="RtP-gs-IDQ" firstAttribute="leading" secondItem="Cm0-6a-T2B" secondAttribute="leading" constant="100" id="e4v-63-7sy"/>
+                                <constraint firstItem="sIF-HB-gZa" firstAttribute="leading" secondItem="Cm0-6a-T2B" secondAttribute="leading" id="iKA-Ea-Kne"/>
+                                <constraint firstItem="RtP-gs-IDQ" firstAttribute="centerY" secondItem="Cm0-6a-T2B" secondAttribute="centerY" id="iQm-u8-agR"/>
+                                <constraint firstItem="sIF-HB-gZa" firstAttribute="centerY" secondItem="Cm0-6a-T2B" secondAttribute="centerY" id="oE7-Dv-o6B"/>
+                            </constraints>
+                        </customView>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="HXR-8N-LCt" userLabel="Short edge">
+                            <rect key="frame" x="0.0" y="72" width="513" height="24"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GMQ-lu-XWM" userLabel="Short edge label">
+                                    <rect key="frame" x="-2" y="3" width="88" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="84" id="DVY-sN-qcf"/>
+                                        <constraint firstAttribute="height" constant="18" id="vSv-wS-6m6"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Short Edge" id="Qb1-Us-3KQ" customClass="COUITextFieldCell">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="749" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w7c-9K-ZRE" userLabel="Short edge text field" customClass="InspectorTextField">
+                                    <rect key="frame" x="100" y="3" width="50" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="t30-5f-jwt"/>
+                                        <constraint firstAttribute="width" constant="50" id="u6h-2H-Uhg"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" title="0" drawsBackground="YES" id="qmW-dD-r67" customClass="COUITextFieldCell">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="w7c-9K-ZRE" firstAttribute="leading" secondItem="HXR-8N-LCt" secondAttribute="leading" constant="100" id="BpU-rZ-dIO"/>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="w7c-9K-ZRE" secondAttribute="trailing" constant="8" id="R1m-wX-Vvl"/>
+                                <constraint firstItem="GMQ-lu-XWM" firstAttribute="leading" secondItem="HXR-8N-LCt" secondAttribute="leading" id="dwo-37-45l"/>
+                                <constraint firstAttribute="height" constant="24" id="mJh-Mt-WhA"/>
+                                <constraint firstItem="w7c-9K-ZRE" firstAttribute="centerY" secondItem="HXR-8N-LCt" secondAttribute="centerY" id="n6H-2L-dyr"/>
+                                <constraint firstItem="GMQ-lu-XWM" firstAttribute="centerY" secondItem="HXR-8N-LCt" secondAttribute="centerY" id="pfk-zk-IGs"/>
+                            </constraints>
+                        </customView>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="tgf-bi-87b" userLabel="Color swatch">
+                            <rect key="frame" x="0.0" y="48" width="513" height="24"/>
+                            <subviews>
+                                <customView translatesAutoresizingMaskIntoConstraints="NO" id="hjx-T8-E39" customClass="POColorPaletteControl">
+                                    <rect key="frame" x="0.0" y="0.0" width="513" height="24"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="8y8-Hb-ZR3"/>
+                                    </constraints>
+                                </customView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="BEQ-VF-pdl"/>
+                                <constraint firstItem="hjx-T8-E39" firstAttribute="top" secondItem="tgf-bi-87b" secondAttribute="top" id="JZh-UE-YtX"/>
+                                <constraint firstAttribute="bottom" secondItem="hjx-T8-E39" secondAttribute="bottom" id="Q5t-EA-mFs"/>
+                                <constraint firstAttribute="trailing" secondItem="hjx-T8-E39" secondAttribute="trailing" id="ntK-v1-pbA"/>
+                                <constraint firstItem="hjx-T8-E39" firstAttribute="leading" secondItem="tgf-bi-87b" secondAttribute="leading" id="zLs-jQ-C2r"/>
+                            </constraints>
+                        </customView>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="DkS-DG-yTP" userLabel="Follow Crop">
+                            <rect key="frame" x="0.0" y="24" width="513" height="24"/>
+                            <subviews>
+                                <button translatesAutoresizingMaskIntoConstraints="NO" id="Nue-Br-jer" customClass="POSkinButton">
+                                    <rect key="frame" x="98" y="1" width="409" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="3OL-PS-4o3"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="check" title="Follow Crop" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="3fy-wT-w0f">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Nue-Br-jer" firstAttribute="leading" secondItem="DkS-DG-yTP" secondAttribute="leading" constant="100" id="K9J-Zv-foV"/>
+                                <constraint firstAttribute="trailing" secondItem="Nue-Br-jer" secondAttribute="trailing" constant="8" id="bOH-mM-E7u"/>
+                                <constraint firstAttribute="height" constant="24" id="gmR-mt-ri8"/>
+                                <constraint firstItem="Nue-Br-jer" firstAttribute="centerY" secondItem="DkS-DG-yTP" secondAttribute="centerY" id="sMA-lX-8PY"/>
+                            </constraints>
+                        </customView>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="BrJ-JO-d8w" userLabel="Show view">
+                            <rect key="frame" x="0.0" y="0.0" width="513" height="24"/>
+                            <subviews>
+                                <button translatesAutoresizingMaskIntoConstraints="NO" id="Bz0-MI-OsR" customClass="POSkinButton">
+                                    <rect key="frame" x="98" y="1" width="409" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="2uk-ty-tSH"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="check" title="Show" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="4UC-Bs-1RC">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Bz0-MI-OsR" firstAttribute="leading" secondItem="BrJ-JO-d8w" secondAttribute="leading" constant="100" id="0yb-bJ-pQp"/>
+                                <constraint firstAttribute="height" constant="24" id="PeA-6l-4VH"/>
+                                <constraint firstItem="Bz0-MI-OsR" firstAttribute="centerY" secondItem="BrJ-JO-d8w" secondAttribute="centerY" id="cMc-Vw-5yc"/>
+                                <constraint firstAttribute="trailing" secondItem="Bz0-MI-OsR" secondAttribute="trailing" constant="8" id="fRC-hu-5aZ"/>
+                            </constraints>
+                        </customView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="f7D-t2-GjV" firstAttribute="leading" secondItem="4n7-x3-sUD" secondAttribute="leading" id="7o6-VR-Ii3"/>
+                        <constraint firstItem="tgf-bi-87b" firstAttribute="leading" secondItem="4n7-x3-sUD" secondAttribute="leading" id="M2t-5f-oUk"/>
+                        <constraint firstAttribute="trailing" secondItem="tgf-bi-87b" secondAttribute="trailing" id="p2K-O9-AQk"/>
+                        <constraint firstAttribute="trailing" secondItem="f7D-t2-GjV" secondAttribute="trailing" id="rbb-Q5-D5c"/>
+                    </constraints>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="4n7-x3-sUD" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" id="Pld-o5-hLr"/>
+                <constraint firstItem="4n7-x3-sUD" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="bbE-go-YGH"/>
+                <constraint firstAttribute="trailing" secondItem="4n7-x3-sUD" secondAttribute="trailing" id="cwf-AT-InB"/>
+            </constraints>
+            <point key="canvasLocation" x="144.5" y="155"/>
+        </customView>
+        <menu id="DyA-Uc-dMY">
+            <items>
+                <menuItem title="Rectangular" tag="1" id="c4c-3a-31D">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Golden Ratio" tag="2" id="9Wv-Ma-FZX">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Fibonacci Spiral" tag="3" id="PJO-d3-1pb">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="145" y="-64"/>
+        </menu>
+    </objects>
+</document>

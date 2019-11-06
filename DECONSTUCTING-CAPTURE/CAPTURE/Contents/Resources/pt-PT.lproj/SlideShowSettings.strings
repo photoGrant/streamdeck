@@ -1,0 +1,51 @@
+/* Class = "NSWindow"; title = "Slide Show Settings"; ObjectID = "1"; */
+"1.title" = "Configurações da apresentação de slides";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "33"; */
+"33.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Fade"; ObjectID = "34"; */
+"34.title" = "Diminuir";
+
+/* Class = "NSMenuItem"; title = "Move In"; ObjectID = "35"; */
+"35.title" = "Mover para dentro";
+
+/* Class = "NSTextFieldCell"; title = "Transition"; ObjectID = "36"; */
+"36.title" = "Transição";
+
+/* Class = "NSMenuItem"; title = "Push"; ObjectID = "40"; */
+"40.title" = "Empurrar";
+
+/* Class = "NSMenuItem"; title = "Reveal"; ObjectID = "41"; */
+"41.title" = "Revelar";
+
+/* Class = "NSMenuItem"; title = "Dissolve"; ObjectID = "42"; */
+"42.title" = "Dissolver";
+
+/* Class = "NSMenuItem"; title = "Mod"; ObjectID = "43"; */
+"43.title" = "Mod";
+
+/* Class = "NSMenuItem"; title = "Swipe"; ObjectID = "44"; */
+"44.title" = "Deslizar";
+
+/* Class = "NSTextFieldCell"; title = "Slide Duration"; ObjectID = "56"; */
+"56.title" = "Duração do slide";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "59"; */
+"59.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSButtonCell"; title = "Loop"; ObjectID = "69"; */
+"69.title" = "Voltar";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "73"; */
+"73.title" = "Padrões";
+
+/* Class = "NSMenuItem"; title = "Disintegrate"; ObjectID = "90"; */
+"90.title" = "Desintegrar";
+
+/* Class = "NSMenuItem"; title = "Page Curl"; ObjectID = "91"; */
+"91.title" = "Ondular página";
+
+/* Class = "NSMenuItem"; title = "Ripple"; ObjectID = "92"; */
+"92.title" = "Ondulação";
+

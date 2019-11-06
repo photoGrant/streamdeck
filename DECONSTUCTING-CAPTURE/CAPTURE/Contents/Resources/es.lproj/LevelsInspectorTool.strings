@@ -1,0 +1,15 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Menú";
+
+/* Class = "NSSegmentedCell"; 470.ibShadowedLabels[0] = "RGB"; ObjectID = "470"; */
+"470.ibShadowedLabels[0]" = "RGB";
+
+/* Class = "NSSegmentedCell"; 470.ibShadowedLabels[1] = "Red"; ObjectID = "470"; */
+"470.ibShadowedLabels[1]" = "Rojo";
+
+/* Class = "NSSegmentedCell"; 470.ibShadowedLabels[2] = "Green"; ObjectID = "470"; */
+"470.ibShadowedLabels[2]" = "Verde";
+
+/* Class = "NSSegmentedCell"; 470.ibShadowedLabels[3] = "Blue"; ObjectID = "470"; */
+"470.ibShadowedLabels[3]" = "Azul";
+

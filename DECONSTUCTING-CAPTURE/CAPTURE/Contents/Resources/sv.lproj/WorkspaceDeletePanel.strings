@@ -1,0 +1,24 @@
+/* Class = "NSWindow"; title = "Delete Workspace"; ObjectID = "1"; */
+"1.title" = "Ta bort arbetsyta";
+
+/* Class = "NSTextFieldCell"; title = "Workspace:"; ObjectID = "6"; */
+"6.title" = "Arbetsyta:";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "12"; */
+"12.title" = "Ta bort";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "14"; */
+"14.title" = "Avbryt";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "32"; */
+"32.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "33"; */
+"33.title" = "Objekt 1";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "34"; */
+"34.title" = "Objekt 2";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "35"; */
+"35.title" = "Objekt 3";
+

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<SL Engine="1000">
+	<E K="Brightness" V="50" />
+	<E K="GradationCurve" V="0,0;0.254290223121643,0.0601684227585793;0.504550635814667,0.149779766798019;0.755917906761169,0.349747449159622;0.879915773868561,0.598063886165619;1,1" />
+	<E K="GradationCurveBlue" V="0,0;1,1" />
+	<E K="GradationCurveGreen" V="0,0;1,1" />
+	<E K="GradationCurveRed" V="0,0;1,1" />
+	<E K="GradationCurveY" V="0,0;1,1" />
+	<E K="Name" V="DTDCH - Open Up Contrasty Shadows - 5" />
+	<E K="TechnicalProcessingMethod" V="3" />
+	<E K="UUID" V="74FD4801-D7AF-423D-A047-3BB609DF7599" />
+</SL>

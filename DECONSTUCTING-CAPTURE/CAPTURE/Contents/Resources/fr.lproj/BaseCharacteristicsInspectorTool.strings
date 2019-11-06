@@ -1,0 +1,39 @@
+/* Class = "NSMenuItem"; title = "Film standard"; ObjectID = "6Cc-gc-5Td"; */
+"6Cc-gc-5Td.title" = "Film standard";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "250"; */
+"250.title" = "Menu";
+
+/* Class = "NSTextFieldCell"; title = "Engine"; ObjectID = "321"; */
+"321.title" = "Moteur";
+
+/* Class = "NSTextFieldCell"; title = "Unknown Engine"; ObjectID = "355"; */
+"355.title" = "Moteur Inconnu";
+
+/* Class = "NSButtonCell"; title = "Upgrade"; ObjectID = "358"; */
+"358.title" = "Mise à Niveau";
+
+/* Class = "NSMenuItem"; title = "Film Negative"; ObjectID = "bCT-IR-qYU"; */
+"bCT-IR-qYU.title" = "Film Negative";
+
+/* Class = "NSView"; cBE-47-99v.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Curve"; ObjectID = "cBE-47-99v"; */
+"cBE-47-99v.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Courbe";
+
+/* Class = "NSMenuItem"; title = "Film extra"; ObjectID = "Cym-nH-sbI"; */
+"Cym-nH-sbI.title" = "Film extra";
+
+/* Class = "NSMenuItem"; title = "Photography"; ObjectID = "hEe-Q6-QoS"; */
+"hEe-Q6-QoS.title" = "Photographie";
+
+/* Class = "NSView"; hkV-Eq-Yzd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "ICC Profile"; ObjectID = "hkV-Eq-Yzd"; */
+"hkV-Eq-Yzd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Profil ICC";
+
+/* Class = "NSView"; JXX-6t-YLp.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Mode"; ObjectID = "JXX-6t-YLp"; */
+"JXX-6t-YLp.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Mode";
+
+/* Class = "NSMenuItem"; title = "High contrast"; ObjectID = "Mt4-VK-OqZ"; */
+"Mt4-VK-OqZ.title" = "Haut contraste";
+
+/* Class = "NSMenuItem"; title = "Film Positive"; ObjectID = "v8y-5n-0vA"; */
+"v8y-5n-0vA.title" = "Film Positive";
+

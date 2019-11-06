@@ -1,0 +1,30 @@
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "CFX-Rv-WlM"; */
+"CFX-Rv-WlM.title" = "텍스트 셀";
+
+/* Class = "NSTableColumn"; headerCell.title = "Current"; ObjectID = "cpM-bI-tVi"; */
+"cpM-bI-tVi.headerCell.title" = "현재";
+
+/* Class = "NSButtonCell"; title = "Calibrate"; ObjectID = "d8V-sn-JhX"; */
+"d8V-sn-JhX.title" = "캘리브레이션";
+
+/* Class = "NSButtonCell"; alternateTitle = "Stop"; ObjectID = "FCS-rC-GL7"; */
+"FCS-rC-GL7.alternateTitle" = "중지";
+
+/* Class = "NSButtonCell"; title = "Move"; ObjectID = "FCS-rC-GL7"; */
+"FCS-rC-GL7.title" = "이동";
+
+/* Class = "NSTableColumn"; headerCell.title = "Target"; ObjectID = "HF8-NW-edb"; */
+"HF8-NW-edb.headerCell.title" = "타겟";
+
+/* Class = "NSButtonCell"; title = "Abort Calibration"; ObjectID = "HhO-fK-78I"; */
+"HhO-fK-78I.title" = "캘리브레이션 중단";
+
+/* Class = "NSTextFieldCell"; title = "The Copy Stand needs to be calibrated.\n\nPlease make sure that the cables are long enough, and there is no object in the way, so the camera can move to any arbitrary position."; ObjectID = "ke6-ru-9Tg"; */
+"ke6-ru-9Tg.title" = "카피 스탠드의 캘리브레이션이 필요합니다. \n\n카메라를 임의적인 위치로 이동하기 위하여, 케이블 길이가 충분한지, 방해가 되는 물건은 없는지 확인하십시오.";
+
+/* Class = "NSTextFieldCell"; title = "No compatible Copy Stand found."; ObjectID = "pqI-lM-bV8"; */
+"pqI-lM-bV8.title" = "호환 가능한 카피 스탠드를 찾을 수 없음";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "sPX-gm-Kga"; */
+"sPX-gm-Kga.title" = "텍스트 셀";
+

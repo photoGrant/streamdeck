@@ -1,0 +1,57 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "155"; */
+"155.title" = "菜單";
+
+/* Class = "NSMenuItem"; title = "Show/Hide Filters..."; ObjectID = "422"; */
+"422.title" = "顯示/隱藏濾鏡...";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "433"; */
+"433.title" = "文本單元格";
+
+/* Class = "NSMenuItem"; title = "Results Match All Criteria"; ObjectID = "462"; */
+"462.title" = "符合所有標準的結果";
+
+/* Class = "NSMenuItem"; title = "Global Filters"; ObjectID = "467"; */
+"467.title" = "全體的篩選";
+
+/* Class = "NSMenu"; title = "Global Filters"; ObjectID = "468"; */
+"468.title" = "全體的篩選";
+
+/* Class = "NSMenuItem"; title = "Always Hide JPEG Files"; ObjectID = "469"; */
+"469.title" = "總是隱藏JPEG文件";
+
+/* Class = "NSMenuItem"; title = "Always Hide Processed TIFF Files"; ObjectID = "470"; */
+"470.title" = "總是隱藏 已處理 TIFF 文件";
+
+/* Class = "NSMenuItem"; title = "Always Hide RAW Files"; ObjectID = "471"; */
+"471.title" = "總是隱藏 RAW 文件";
+
+/* Class = "NSMenuItem"; title = "Always Hide Video Files"; ObjectID = "472"; */
+"472.title" = "總是隱藏 視頻文件";
+
+/* Class = "NSMenuItem"; title = "Always Hide PNG Files"; ObjectID = "486"; */
+"486.title" = "總是隱藏PNG文件";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "491"; */
+"491.title" = "表格導航單元格";
+
+/* Class = "NSTextFieldCell"; title = "Filter Group View Cell"; ObjectID = "499"; */
+"499.title" = "濾鏡組群導航單元格";
+
+/* Class = "NSWindow"; title = "Add Filter Term"; ObjectID = "572"; */
+"572.title" = "添加濾鏡條件";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "579"; */
+"579.title" = "可以";
+
+/* Class = "NSTextFieldCell"; title = "Add filter term:"; ObjectID = "580"; */
+"580.title" = "添加濾鏡條件:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "582"; */
+"582.title" = "取消";
+
+/* Class = "NSMenuItem"; title = "Clear All Terms"; ObjectID = "590"; */
+"590.title" = "清楚全部條件";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Format: \"country > state > city > location\""; ObjectID = "604"; */
+"604.placeholderString" = "格式: \"country > state > city > location\"";
+

@@ -1,0 +1,9 @@
+/* Class = "NSView"; ibExternalAccessibilityDescription = "brightness"; ObjectID = "1U5-NB-FZC"; */
+"1U5-NB-FZC.ibExternalAccessibilityDescription" = "亮度";
+
+/* Class = "NSView"; 1U5-NB-FZC.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Defringe"; ObjectID = "1U5-NB-FZC"; */
+"1U5-NB-FZC.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "去边";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "129"; */
+"129.title" = "菜单";
+

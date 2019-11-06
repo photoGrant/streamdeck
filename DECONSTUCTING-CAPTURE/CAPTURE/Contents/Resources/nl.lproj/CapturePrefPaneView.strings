@@ -1,0 +1,57 @@
+/* Class = "NSButtonCell"; title = "Phase One / Leaf Credo"; ObjectID = "2Yl-km-wBI"; */
+"2Yl-km-wBI.title" = "Phase One / Leaf Credo";
+
+/* Class = "NSMenuItem"; title = "TIF"; ObjectID = "34"; */
+"34.title" = "TIF";
+
+/* Class = "NSMenuItem"; title = "IIQ"; ObjectID = "35"; */
+"35.title" = "IIQ";
+
+/* Class = "NSMenuItem"; title = "30 seconds"; ObjectID = "157"; */
+"157.title" = "30 seconden";
+
+/* Class = "NSMenuItem"; title = "1 minute"; ObjectID = "158"; */
+"158.title" = "1 minuut";
+
+/* Class = "NSMenuItem"; title = "2 minutes"; ObjectID = "161"; */
+"161.title" = "2 minuten";
+
+/* Class = "NSMenuItem"; title = "5 minutes"; ObjectID = "162"; */
+"162.title" = "5 minuten";
+
+/* Class = "NSMenuItem"; title = "10 minutes"; ObjectID = "163"; */
+"163.title" = "10 minuten";
+
+/* Class = "NSMenuItem"; title = "20 minutes"; ObjectID = "164"; */
+"164.title" = "20 minuten";
+
+/* Class = "NSTextFieldCell"; title = "Extension:"; ObjectID = "174"; */
+"174.title" = "Extensie:";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "176"; */
+"176.title" = "Standaardwaarden";
+
+/* Class = "NSTextFieldCell"; title = "Live Preview"; ObjectID = "182"; */
+"182.title" = "Live-Weergave";
+
+/* Class = "NSTextFieldCell"; title = "Phase One and Leaf Credo Configuration"; ObjectID = "183"; */
+"183.title" = "Phase One en Leaf Credo configuratie";
+
+/* Class = "NSTextFieldCell"; title = "Pause After:"; ObjectID = "185"; */
+"185.title" = "Onderbreken na:";
+
+/* Class = "NSTextFieldCell"; title = "Providers"; ObjectID = "226"; */
+"226.title" = "Providers tethering";
+
+/* Class = "NSButtonCell"; title = "Canon"; ObjectID = "234"; */
+"234.title" = "Canon";
+
+/* Class = "NSButtonCell"; title = "Nikon"; ObjectID = "237"; */
+"237.title" = "Nikon";
+
+/* Class = "NSButtonCell"; title = "Sony"; ObjectID = "Gjs-2G-7hO"; */
+"Gjs-2G-7hO.title" = "Sony";
+
+/* Class = "NSButtonCell"; title = "Fujifilm"; ObjectID = "Lgf-eS-J2Q"; */
+"Lgf-eS-J2Q.title" = "Fujifilm";
+

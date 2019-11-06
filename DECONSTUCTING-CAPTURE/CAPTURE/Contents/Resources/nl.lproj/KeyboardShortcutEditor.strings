@@ -1,0 +1,51 @@
+/* Class = "NSWindow"; title = "Edit Keyboard Shortcuts"; ObjectID = "1"; */
+"1.title" = "Bewerk sneltoetsen";
+
+/* Class = "NSTableColumn"; headerCell.title = "Command"; ObjectID = "8"; */
+"8.headerCell.title" = "Opdracht";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key"; ObjectID = "9"; */
+"9.headerCell.title" = "Toets";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "10"; */
+"10.title" = "Tekstcel";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "11"; */
+"11.title" = "Tekstcel";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "13"; */
+"13.title" = "Sluiten";
+
+/* Class = "NSTextFieldCell"; title = "Error label"; ObjectID = "22"; */
+"22.title" = "Foutlabel";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "51"; */
+"51.title" = "Venster";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "59"; */
+"59.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "60"; */
+"60.title" = "Annuleer";
+
+/* Class = "NSTextFieldCell"; title = "Enter a name for the keyboard shortcut set:"; ObjectID = "61"; */
+"61.title" = "Voer een naam in voor de sneltoetsenset";
+
+/* Class = "NSTextFieldCell"; title = "error (set programatically)"; ObjectID = "62"; */
+"62.title" = "fout (programmatisch)";
+
+/* Class = "NSButtonCell"; title = "Help"; ObjectID = "75"; */
+"75.title" = "Help";
+
+/* Class = "NSButtonCell"; title = "Summarize..."; ObjectID = "bSF-DE-hPy"; */
+"bSF-DE-hPy.title" = "Samengevat…";
+
+/* Class = "NSMenuItem"; title = "Command"; ObjectID = "nvZ-BF-hp3"; */
+"nvZ-BF-hp3.title" = "Opdracht";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "Oyv-yk-Lsw"; */
+"Oyv-yk-Lsw.title" = "Label";
+
+/* Class = "NSMenuItem"; title = "Key"; ObjectID = "zAq-68-rPj"; */
+"zAq-68-rPj.title" = "Toets";
+

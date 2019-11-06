@@ -1,0 +1,15 @@
+/* Class = "NSView"; ibExternalAccessibilityDescription = "brightness"; ObjectID = "45u-oY-7a0"; */
+"45u-oY-7a0.ibExternalAccessibilityDescription" = "brilho";
+
+/* Class = "NSView"; 45u-oY-7a0.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Granularity"; ObjectID = "45u-oY-7a0"; */
+"45u-oY-7a0.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Granularidade";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "impact"; ObjectID = "gX2-sJ-VmO"; */
+"gX2-sJ-VmO.ibExternalAccessibilityDescription" = "impacto";
+
+/* Class = "NSView"; gX2-sJ-VmO.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Impact"; ObjectID = "gX2-sJ-VmO"; */
+"gX2-sJ-VmO.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Impacto";
+
+/* Class = "NSView"; rVu-m5-KCC.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Type"; ObjectID = "rVu-m5-KCC"; */
+"rVu-m5-KCC.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Tipo";
+

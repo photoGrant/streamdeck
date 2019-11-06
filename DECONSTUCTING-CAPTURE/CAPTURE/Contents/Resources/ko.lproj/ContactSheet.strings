@@ -1,0 +1,144 @@
+/* Class = "NSWindow"; title = "Panel"; ObjectID = "265"; */
+"265.title" = "패널";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Enter name as it should be displayed"; ObjectID = "282"; */
+"282.ibShadowedToolTip" = "보여질 이름 입력";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Enter Contact link (e.g. mailto:photographer@phaseone.com or http://www.phaseone.com)"; ObjectID = "287"; */
+"287.ibShadowedToolTip" = "연결 링크 입력 (예. mailto:photographer@phaseone.com 또는 http://www.phaseone.com)";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "294"; */
+"294.title" = "OtherViews";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "353"; */
+"353.title" = "OtherViews";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Exports XML and DTD files to the output destination"; ObjectID = "389"; */
+"389.ibShadowedToolTip" = "XML과 DTD 파일을 출력대상으로 내보내기";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "397"; */
+"397.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Local"; ObjectID = "398"; */
+"398.title" = "로컬";
+
+/* Class = "NSMenuItem"; title = "FTP"; ObjectID = "399"; */
+"399.title" = "FTP";
+
+/* Class = "NSTabViewItem"; label = "FTP"; ObjectID = "403"; */
+"403.label" = "FTP";
+
+/* Class = "NSTabViewItem"; label = "Local"; ObjectID = "405"; */
+"405.label" = "로컬";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Shows result in web-browser"; ObjectID = "409"; */
+"409.ibShadowedToolTip" = "웹브라우저에서 결과 보기";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "--"; ObjectID = "435"; */
+"435.ibShadowedIsNilPlaceholder" = "--";
+
+/* Class = "NSTextFieldCell"; title = "Description"; ObjectID = "447"; */
+"447.title" = "설명";
+
+/* Class = "NSTextFieldCell"; title = "Copyright"; ObjectID = "448"; */
+"448.title" = "저작권";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter description"; ObjectID = "449"; */
+"449.placeholderString" = "설명 입력";
+
+/* Class = "NSTextFieldCell"; title = "Title"; ObjectID = "450"; */
+"450.title" = "제목";
+
+/* Class = "NSTextFieldCell"; title = "Web Link"; ObjectID = "451"; */
+"451.title" = "웹 링크";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter contact"; ObjectID = "452"; */
+"452.placeholderString" = "연락처 입력";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter title"; ObjectID = "453"; */
+"453.placeholderString" = "제목 입력";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter web or mail link"; ObjectID = "454"; */
+"454.placeholderString" = "웹 또는 메일 링크 입력";
+
+/* Class = "NSTextFieldCell"; title = "Text"; ObjectID = "455"; */
+"455.title" = "텍스트";
+
+/* Class = "NSTextFieldCell"; title = "Thumbnail Size"; ObjectID = "457"; */
+"457.title" = "썸네일 크기";
+
+/* Class = "NSTextFieldCell"; title = "Preview Size"; ObjectID = "458"; */
+"458.title" = "프리뷰 크기";
+
+/* Class = "NSTextFieldCell"; title = "Caption"; ObjectID = "459"; */
+"459.title" = "캡션";
+
+/* Class = "NSTextFieldCell"; title = "Quality"; ObjectID = "461"; */
+"461.title" = "품질";
+
+/* Class = "NSTextFieldCell"; title = "Images"; ObjectID = "464"; */
+"464.title" = "이미지";
+
+/* Class = "NSTextFieldCell"; title = "Theme"; ObjectID = "465"; */
+"465.title" = "주제";
+
+/* Class = "NSTextFieldCell"; title = "Layout"; ObjectID = "469"; */
+"469.title" = "레이아웃";
+
+/* Class = "NSTextFieldCell"; title = "Output"; ObjectID = "470"; */
+"470.title" = "출력";
+
+/* Class = "NSButtonCell"; title = "Export Photo XML Data"; ObjectID = "471"; */
+"471.title" = "사진 XML 데이터 내보내기";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "472"; */
+"472.title" = "유형";
+
+/* Class = "NSTextFieldCell"; title = "URL"; ObjectID = "474"; */
+"474.title" = "URL";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter full URL to server folder"; ObjectID = "475"; */
+"475.placeholderString" = "서버 폴더의 전체 URL 입력";
+
+/* Class = "NSTextFieldCell"; title = "Username"; ObjectID = "476"; */
+"476.title" = "사용자이름";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter username"; ObjectID = "477"; */
+"477.placeholderString" = "사용자 이름 입력";
+
+/* Class = "NSTextFieldCell"; title = "Password"; ObjectID = "478"; */
+"478.title" = "암호";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter password"; ObjectID = "479"; */
+"479.placeholderString" = "암호 입력";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "480"; */
+"480.title" = "경로";
+
+/* Class = "NSButtonCell"; title = "Show after Export"; ObjectID = "481"; */
+"481.title" = "내보낸 후 표시";
+
+/* Class = "NSButtonCell"; title = "…"; ObjectID = "482"; */
+"482.title" = "…";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show Print panel"; ObjectID = "522"; */
+"522.ibShadowedToolTip" = "출력 패널 보기";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Cancel print"; ObjectID = "523"; */
+"523.ibShadowedToolTip" = "출력 취소";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "524"; */
+"524.title" = "취소";
+
+/* Class = "NSButtonCell"; title = "Export"; ObjectID = "525"; */
+"525.title" = "내보내기";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "j7A-8f-Njb"; */
+"j7A-8f-Njb.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "brightnessField"; ObjectID = "nlh-z2-0hN"; */
+"nlh-z2-0hN.ibExternalAccessibilityDescription" = "brightnessField";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "saturationField"; ObjectID = "w4n-Fb-zyR"; */
+"w4n-Fb-zyR.ibExternalAccessibilityDescription" = "saturationField";
+

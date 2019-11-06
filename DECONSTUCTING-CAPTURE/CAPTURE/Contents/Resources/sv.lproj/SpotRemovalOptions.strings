@@ -1,0 +1,18 @@
+/* Class = "NSView"; 7xh-iK-5NK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Type"; ObjectID = "7xh-iK-5NK"; */
+"7xh-iK-5NK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Typ";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "exposure"; ObjectID = "fh4-Rm-0RK"; */
+"fh4-Rm-0RK.ibExternalAccessibilityDescription" = "exponering";
+
+/* Class = "NSView"; fh4-Rm-0RK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "fh4-Rm-0RK"; */
+"fh4-Rm-0RK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Radie";
+
+/* Class = "NSTextFieldCell"; title = "Spot Removal Settings"; ObjectID = "iIa-hD-TxV"; */
+"iIa-hD-TxV.title" = "Dammborttagningsinställningar";
+
+/* Class = "NSMenuItem"; title = "Dust"; ObjectID = "MDH-5Y-HGR"; */
+"MDH-5Y-HGR.title" = "Damm";
+
+/* Class = "NSMenuItem"; title = "Spot"; ObjectID = "ug0-rb-eUu"; */
+"ug0-rb-eUu.title" = "Prick";
+

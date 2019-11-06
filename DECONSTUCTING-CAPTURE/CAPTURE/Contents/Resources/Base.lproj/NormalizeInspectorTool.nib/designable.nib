@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NormalizeInspectorTool">
+            <connections>
+                <outlet property="brightnessContrastButton" destination="WVd-Gd-3ax" id="Tr9-Ot-uHb"/>
+                <outlet property="container" destination="c22-O7-iKe" id="k4k-Pc-aPv"/>
+                <outlet property="exposureButton" destination="qWc-Z8-vfs" id="C4Y-sf-UM5"/>
+                <outlet property="hdrButton" destination="Uiu-ik-svm" id="42D-fj-DEL"/>
+                <outlet property="levelsButton" destination="SAj-r9-VT5" id="eUB-0h-7lC"/>
+                <outlet property="normalizeApplyCursorTool" destination="N9m-4f-J6J" id="i7K-s3-fwT"/>
+                <outlet property="normalizeApplyOverlayView" destination="CD7-48-fsn" id="CLU-vC-hoB"/>
+                <outlet property="normalizeSelectCursorTool" destination="y7a-WI-rdH" id="q2o-Oc-iyX"/>
+                <outlet property="selectCustomColorButton" destination="IxC-MY-O2k" id="QLg-X7-KdY"/>
+                <outlet property="selectedNormalizationColorPatch" destination="Npg-DI-OvK" id="3Sp-bc-P1d"/>
+                <outlet property="selectedNormalizationLabel" destination="15v-VC-wS0" id="xEK-Wp-84m"/>
+                <outlet property="whiteBalanceButton" destination="MSg-o0-XO0" id="wuf-LB-cAY"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="106"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button id="MSg-o0-XO0" customClass="POSkinButton">
+                    <rect key="frame" x="97" y="56" width="172" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="White Balance" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" lineBreakMode="truncatingMiddle" inset="2" id="L6O-bj-g3A">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <accessibility description="normalizeToolWhiteBalanceCheckbox"/>
+                </button>
+                <button id="qWc-Z8-vfs" customClass="POSkinButton">
+                    <rect key="frame" x="97" y="32" width="172" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Exposure" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" lineBreakMode="truncatingMiddle" inset="2" id="iP1-vZ-mrg">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <accessibility description="normalizeToolExposureCheckbox"/>
+                </button>
+                <button hidden="YES" id="WVd-Gd-3ax" customClass="POSkinButton">
+                    <rect key="frame" x="97" y="8" width="172" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Contrast and Brightness" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" lineBreakMode="truncatingMiddle" inset="2" id="Ml0-RG-Mdb">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <accessibility description="normalizeToolExposureCheckbox"/>
+                </button>
+                <button hidden="YES" id="SAj-r9-VT5" customClass="POSkinButton">
+                    <rect key="frame" x="97" y="-40" width="172" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Levels" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" lineBreakMode="truncatingMiddle" inset="2" id="xc4-is-FBf">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <accessibility description="normalizeToolExposureCheckbox"/>
+                </button>
+                <button hidden="YES" id="Uiu-ik-svm" customClass="POSkinButton">
+                    <rect key="frame" x="97" y="-16" width="158" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="High Dynamic Range" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" lineBreakMode="truncatingMiddle" inset="2" id="ikq-WS-AgG">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <accessibility description="normalizeToolExposureCheckbox"/>
+                </button>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" allowsCharacterPickerTouchBarItem="YES" id="fLq-t5-ldY">
+                    <rect key="frame" x="2" y="80" width="84" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Pick" id="n35-IB-a6Q" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" red="0.71764705882352942" green="0.71764705882352942" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" allowsCharacterPickerTouchBarItem="YES" id="clh-v7-9zX">
+                    <rect key="frame" x="2" y="56" width="84" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Adjust" id="27P-ZX-9aK" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" red="0.71764705882352942" green="0.71764705882352942" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </textFieldCell>
+                </textField>
+                <customView id="y7a-WI-rdH" customClass="NormalizeSelectCursorTool">
+                    <rect key="frame" x="206" y="5" width="35" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                </customView>
+                <textField verticalHuggingPriority="750" setsMaxLayoutWidthAtFirstLayout="YES" allowsCharacterPickerTouchBarItem="YES" id="15v-VC-wS0">
+                    <rect key="frame" x="118" y="80" width="128" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingTail" truncatesLastVisibleLine="YES" sendsActionOnEndEditing="YES" alignment="left" title="--" usesSingleLineMode="YES" id="qlW-Kw-D7v" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" white="0.67000001669999998" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </textFieldCell>
+                </textField>
+                <customView id="Npg-DI-OvK" customClass="NormalizationColorPatch">
+                    <rect key="frame" x="100" y="80" width="18" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </customView>
+                <button verticalHuggingPriority="750" id="IxC-MY-O2k" customClass="POSkinButton">
+                    <rect key="frame" x="252" y="78" width="20" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="smallSquare" title="…" bezelStyle="smallSquare" alignment="center" borderStyle="border" inset="2" id="hsm-XQ-pdg">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <customView id="N9m-4f-J6J" customClass="NormalizeApplyCursorTool">
+                    <rect key="frame" x="240" y="5" width="35" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                </customView>
+                <customView id="CD7-48-fsn" customClass="DisablerOverlayView">
+                    <rect key="frame" x="240" y="5" width="35" height="25"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                </customView>
+            </subviews>
+            <point key="canvasLocation" x="-1273" y="-164.5"/>
+        </customView>
+    </objects>
+</document>

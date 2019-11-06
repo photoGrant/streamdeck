@@ -1,0 +1,78 @@
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum height dimension for scaling the final image."; ObjectID = "5jl-ym-Pew"; */
+"5jl-ym-Pew.ibShadowedToolTip" = "Afmeting maximale hoogte voor verschalen van definitieve afbeelding.";
+
+/* Class = "NSTabViewItem"; label = "Magnification"; ObjectID = "5mM-aF-NZf"; */
+"5mM-aF-NZf.label" = "Vergroting";
+
+/* Class = "NSButtonCell"; title = "AF"; ObjectID = "8a4-ra-ryD"; */
+"8a4-ra-ryD.title" = "AF";
+
+/* Class = "NSTextFieldCell"; title = "Resolution"; ObjectID = "8gB-9c-rck"; */
+"8gB-9c-rck.title" = "Resolutie";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum width dimension for scaling the final image."; ObjectID = "941-UD-yO9"; */
+"941-UD-yO9.ibShadowedToolTip" = "Afmeting maximale breedte voor verschalen van definitieve afbeelding.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Scale the original image the given amount to obtain the final image."; ObjectID = "aon-fi-Fse"; */
+"aon-fi-Fse.ibShadowedToolTip" = "Schaalgrootte van originele afbeelding in aangegeven mate aanpassen voor definitieve afbeelding.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum height dimension for scaling the final image."; ObjectID = "cjH-bT-56C"; */
+"cjH-bT-56C.ibShadowedToolTip" = "Afmeting maximale hoogte voor verschalen van definitieve afbeelding.";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "cQW-7w-5ZW"; */
+"cQW-7w-5ZW.title" = "x";
+
+/* Class = "NSTextFieldCell"; title = "Near"; ObjectID = "d6i-Mj-beK"; */
+"d6i-Mj-beK.title" = "Dichtbij";
+
+/* Class = "NSTabViewItem"; label = "Distance"; ObjectID = "Dlg-hW-8rc"; */
+"Dlg-hW-8rc.label" = "Afstand";
+
+/* Class = "NSTabViewItem"; label = "Field of View"; ObjectID = "kVH-7e-JeU"; */
+"kVH-7e-JeU.label" = "Beelduitsnede";
+
+/* Class = "NSTextFieldCell"; title = "Current"; ObjectID = "Luo-Rg-sJR"; */
+"Luo-Rg-sJR.title" = "Huidig";
+
+/* Class = "NSMenuItem"; title = "Field of View"; ObjectID = "o74-F8-nGn"; */
+"o74-F8-nGn.title" = "Beelduitsnede";
+
+/* Class = "NSMenuItem"; title = "Resolution [PPI]"; ObjectID = "p7U-3T-iRc"; */
+"p7U-3T-iRc.title" = "Resolutie [PPI]";
+
+/* Class = "NSTextFieldCell"; title = "Distance"; ObjectID = "Rse-mY-54W"; */
+"Rse-mY-54W.title" = "Afstand";
+
+/* Class = "NSButtonCell"; alternateTitle = "Stop"; ObjectID = "SAA-iC-fyC"; */
+"SAA-iC-fyC.alternateTitle" = "Stoppen";
+
+/* Class = "NSButtonCell"; title = "Start"; ObjectID = "SAA-iC-fyC"; */
+"SAA-iC-fyC.title" = "Starten";
+
+/* Class = "NSMenuItem"; title = "Magnification"; ObjectID = "Sjt-vZ-Tda"; */
+"Sjt-vZ-Tda.title" = "Vergroting";
+
+/* Class = "NSTabViewItem"; label = "Resolution"; ObjectID = "tjp-SD-bJh"; */
+"tjp-SD-bJh.label" = "Resolutie";
+
+/* Class = "NSTextFieldCell"; title = "Far"; ObjectID = "vDf-Yj-l2z"; */
+"vDf-Yj-l2z.title" = "Ver weg";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "The method used for adjusting clarity."; ObjectID = "vFT-Tb-S1V"; */
+"vFT-Tb-S1V.ibShadowedToolTip" = "De gebruikte methode voor aanpassen Klaarheid.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Scale the original image the given amount to obtain the final image."; ObjectID = "vhu-uP-VNl"; */
+"vhu-uP-VNl.ibShadowedToolTip" = "Schaalgrootte van originele afbeelding in aangegeven mate aanpassen voor definitieve afbeelding.";
+
+/* Class = "NSTextFieldCell"; title = "Target"; ObjectID = "x1j-3c-mQV"; */
+"x1j-3c-mQV.title" = "Doel";
+
+/* Class = "NSTextFieldCell"; title = "Field of View"; ObjectID = "xXJ-BO-AAU"; */
+"xXJ-BO-AAU.title" = "Beelduitsnede";
+
+/* Class = "NSMenuItem"; title = "Distance"; ObjectID = "YWt-SJ-6q2"; */
+"YWt-SJ-6q2.title" = "Afstand";
+
+/* Class = "NSTextFieldCell"; title = "Magnification"; ObjectID = "ZBV-is-bLr"; */
+"ZBV-is-bLr.title" = "Vergroting";
+

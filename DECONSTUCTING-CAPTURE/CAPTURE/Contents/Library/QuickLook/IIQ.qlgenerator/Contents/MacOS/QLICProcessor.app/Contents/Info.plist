@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>18D109</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>QLICProcessor</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.phaseone.QLICProcessor</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>12.1.0.150</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>12.1.0.150</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>10B61</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>18B71</string>
+	<key>DTSDKName</key>
+	<string>macosx10.14</string>
+	<key>DTXcode</key>
+	<string>1010</string>
+	<key>DTXcodeBuild</key>
+	<string>10B61</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>©1995-2019, Phase One A/S. All rights reserved.</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSUIElement</key>
+	<string>1</string>
+	<key>PhaseOneBuildAboutBranchName</key>
+	<string></string>
+	<key>PhaseOneBuildAboutPlanName</key>
+	<string></string>
+	<key>PhaseOneBuildBranchName</key>
+	<string>release/12.1.0</string>
+	<key>PhaseOneBuildCommitId</key>
+	<string>608b6df9eabcd1bd2039e0d95fb7730d8b9d1ef6</string>
+	<key>PhaseOneBuildDate</key>
+	<string>2019-06-03T15:42:44.338+02:00</string>
+	<key>PhaseOneBuildNumber</key>
+	<string>150</string>
+	<key>PhaseOneBuildProductVersion</key>
+	<string>12.1.0</string>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Delete Selected Spot"; ObjectID = "36"; */
+"36.ibShadowedToolTip" = "Borrar mancha seleccionada";
+
+/* Class = "NSButtonCell"; title = "Add points for me"; ObjectID = "64"; */
+"64.title" = "Añadir puntos automáticamente";
+
+/* Class = "NSView"; ibShadowedToolTip = "Spot removal"; ObjectID = "95"; */
+"95.ibShadowedToolTip" = "Eliminador de polvo";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Delete Selected Spot"; ObjectID = "128"; */
+"128.ibShadowedToolTip" = "Borrar mancha seleccionada";
+
+/* Class = "NSButtonCell"; title = "Analyze"; ObjectID = "129"; */
+"129.title" = "Analizar";
+

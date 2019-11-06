@@ -1,0 +1,27 @@
+/* Class = "NSWindow"; title = "Events"; ObjectID = "5"; */
+"5.title" = "Zdarzenia";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "9"; */
+"9.headerCell.title" = "Opis";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date"; ObjectID = "10"; */
+"10.headerCell.title" = "Data";
+
+/* Class = "NSButtonCell"; title = "Clear"; ObjectID = "67"; */
+"67.title" = "Wyczyść";
+
+/* Class = "NSButtonCell"; title = "Show All"; ObjectID = "68"; */
+"68.title" = "Pokaż wszystkie";
+
+/* Class = "NSButtonCell"; title = "Show panel for new events"; ObjectID = "69"; */
+"69.title" = "Pokaż panel dla nowych zdarzeń";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "70"; */
+"70.title" = "Zamknij";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "72"; */
+"72.title" = "Komórka tekstowa";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "73"; */
+"73.title" = "Komórka tekstowa";
+

@@ -1,0 +1,231 @@
+/* Class = "NSTabViewItem"; label = "Collections"; ObjectID = "135"; */
+"135.label" = "コレクション";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "142"; */
+"142.title" = "メニュー";
+
+/* Class = "NSMenuItem"; title = "Add to Favorites"; ObjectID = "143"; */
+"143.title" = "\"お気に入り\"に追加";
+
+/* Class = "NSMenuItem"; title = "Show in Library"; ObjectID = "145"; */
+"145.title" = "ライブラリに表示";
+
+/* Class = "NSMenuItem"; title = "Delete Collection"; ObjectID = "157"; */
+"157.title" = "コレクションを削除";
+
+/* Class = "NSMenuItem"; title = "Set as Capture Folder"; ObjectID = "160"; */
+"160.title" = "撮影フォルダに設定";
+
+/* Class = "NSMenuItem"; title = "Set as Selects Folder"; ObjectID = "162"; */
+"162.title" = "セレクト フォルダに設定";
+
+/* Class = "NSMenuItem"; title = "Show Info"; ObjectID = "164"; */
+"164.title" = "情報を表示";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "200"; */
+"200.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "274"; */
+"274.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "275"; */
+"275.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "276"; */
+"276.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "277"; */
+"277.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "278"; */
+"278.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "279"; */
+"279.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "280"; */
+"280.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "281"; */
+"281.title" = "フォルダ";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "282"; */
+"282.title" = "フォルダ";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "283"; */
+"283.title" = "フォルダ";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "284"; */
+"284.title" = "フォルダ";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "285"; */
+"285.title" = "フォルダ";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "286"; */
+"286.title" = "フォルダ";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "287"; */
+"287.title" = "フォルダ";
+
+/* Class = "NSMenuItem"; title = "Absolute"; ObjectID = "292"; */
+"292.title" = "絶対的";
+
+/* Class = "NSMenuItem"; title = "Relative to session"; ObjectID = "293"; */
+"293.title" = "セッションに対する相対的場所";
+
+/* Class = "NSMenuItem"; title = "Import From Selected Folder"; ObjectID = "302"; */
+"302.title" = "セレクトフォルダからインポート";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "307"; */
+"307.title" = "Finderに表示";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "311"; */
+"311.title" = "リネーム";
+
+/* Class = "NSMenuItem"; title = "Set as Output Folder"; ObjectID = "313"; */
+"313.title" = "現像フォルダに設定";
+
+/* Class = "NSMenuItem"; title = "Set as Session Trash Folder"; ObjectID = "342"; */
+"342.title" = "セッション ゴミ箱 フォルダに設定";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Switch Session"; ObjectID = "457"; */
+"457.ibShadowedToolTip" = "セッションの切替え";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New Session..."; ObjectID = "486"; */
+"486.ibShadowedToolTip" = "新規セッション...";
+
+/* Class = "NSTextFieldCell"; title = "No Selection"; ObjectID = "543"; */
+"543.title" = "選択がありません";
+
+/* Class = "NSButtonCell"; title = "Locate..."; ObjectID = "544"; */
+"544.title" = "位置…";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "552"; */
+"552.title" = "種類:";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "553"; */
+"553.title" = "フォルダ";
+
+/* Class = "NSMenuItem"; title = "Empty Session Trash"; ObjectID = "557"; */
+"557.title" = "セッションゴミ箱を空にする";
+
+/* Class = "NSMenuItem"; title = "Edit Smart Album"; ObjectID = "568"; */
+"568.title" = "スマートアルバムを編集";
+
+/* Class = "NSMenuItem"; title = "Export"; ObjectID = "624"; */
+"624.title" = "エクスポート";
+
+/* Class = "NSMenu"; title = "Export"; ObjectID = "628"; */
+"628.title" = "エクスポート";
+
+/* Class = "NSMenuItem"; title = "Originals…"; ObjectID = "629"; */
+"629.title" = "オリジナル…";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "696"; */
+"696.title" = "メニュー";
+
+/* Class = "NSMenuItem"; title = "Export Images"; ObjectID = "699"; */
+"699.title" = "イメージをエクスポート";
+
+/* Class = "NSMenuItem"; title = "Edit Collection"; ObjectID = "702"; */
+"702.title" = "コレクションを編集";
+
+/* Class = "NSMenuItem"; title = "Empty Catalog Trash"; ObjectID = "703"; */
+"703.title" = "カタログ ゴミ箱を空に";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "708"; */
+"708.title" = "リネーム";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "710"; */
+"710.title" = "Finderに表示";
+
+/* Class = "NSMenuItem"; title = "Show Info"; ObjectID = "716"; */
+"716.title" = "情報を表示";
+
+/* Class = "NSMenuItem"; title = "Set as Selects Collection"; ObjectID = "718"; */
+"718.title" = "セレクト コレクションに設定";
+
+/* Class = "NSMenuItem"; title = "Set as Capture Collection"; ObjectID = "719"; */
+"719.title" = "キャプチャー コレクションに設定";
+
+/* Class = "NSMenuItem"; title = "Delete Collection"; ObjectID = "721"; */
+"721.title" = "コレクションを削除";
+
+/* Class = "NSMenu"; title = "Export Images"; ObjectID = "725"; */
+"725.title" = "イメージをエクスポート";
+
+/* Class = "NSMenuItem"; title = "Originals…"; ObjectID = "726"; */
+"726.title" = "オリジナル…";
+
+/* Class = "NSMenuItem"; title = "Show Folders Hierarchy"; ObjectID = "818"; */
+"818.title" = "フォルダ階層を表示";
+
+/* Class = "NSMenuItem"; title = "Locate..."; ObjectID = "823"; */
+"823.title" = "位置…";
+
+/* Class = "NSMenuItem"; title = "Sort By Name"; ObjectID = "827"; */
+"827.title" = "名前でソート";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "866"; */
+"866.title" = "新規";
+
+/* Class = "NSMenu"; title = "New"; ObjectID = "867"; */
+"867.title" = "新規";
+
+/* Class = "NSMenuItem"; title = "New Album"; ObjectID = "869"; */
+"869.title" = "新規アルバム";
+
+/* Class = "NSMenuItem"; title = "New Smart Album..."; ObjectID = "871"; */
+"871.title" = "新規スマートアルバム…";
+
+/* Class = "NSMenuItem"; title = "New Project"; ObjectID = "873"; */
+"873.title" = "新規プロジェクト";
+
+/* Class = "NSMenuItem"; title = "New Group"; ObjectID = "875"; */
+"875.title" = "新規グループ";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "879"; */
+"879.title" = "新規";
+
+/* Class = "NSMenu"; title = "New"; ObjectID = "880"; */
+"880.title" = "新規";
+
+/* Class = "NSMenuItem"; title = "New Album"; ObjectID = "882"; */
+"882.title" = "新規アルバム";
+
+/* Class = "NSMenuItem"; title = "New Smart Album..."; ObjectID = "884"; */
+"884.title" = "新規スマートアルバム…";
+
+/* Class = "NSMenuItem"; title = "Folder"; ObjectID = "886"; */
+"886.title" = "フォルダ";
+
+/* Class = "NSMenuItem"; title = "Add Folder..."; ObjectID = "896"; */
+"896.title" = "フォルダを追加...";
+
+/* Class = "NSMenuItem"; title = "Hide Info"; ObjectID = "901"; */
+"901.title" = "情報を表示しない";
+
+/* Class = "NSMenuItem"; title = "Variants…"; ObjectID = "916"; */
+"916.title" = "バリアント…";
+
+/* Class = "NSMenuItem"; title = "Variants…"; ObjectID = "919"; */
+"919.title" = "バリアント…";
+
+/* Class = "NSMenuItem"; title = "Sort Albums and Favorites By Name"; ObjectID = "921"; */
+"921.title" = "アルバムとお気に入りを名前でソート";
+
+/* Class = "NSMenuItem"; title = "Synchronize..."; ObjectID = "924"; */
+"924.title" = "同期...";
+
+/* Class = "NSMenuItem"; title = "Export as Catalog..."; ObjectID = "927"; */
+"927.title" = "カタログとしてエクスポート...";
+
+/* Class = "NSMenuItem"; title = "Import"; ObjectID = "931"; */
+"931.title" = "インポート";
+
+/* Class = "NSMenu"; title = "Import"; ObjectID = "932"; */
+"932.title" = "インポート";
+
+/* Class = "NSMenuItem"; title = "Import To Selected Folder"; ObjectID = "934"; */
+"934.title" = "セレクトフォルダにインポート";
+

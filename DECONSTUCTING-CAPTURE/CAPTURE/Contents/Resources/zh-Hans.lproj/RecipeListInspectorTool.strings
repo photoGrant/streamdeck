@@ -1,0 +1,24 @@
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "53"; */
+"53.headerCell.title" = "名称";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "54"; */
+"54.title" = "菜单";
+
+/* Class = "NSMenuItem"; title = "New Recipe"; ObjectID = "55"; */
+"55.title" = "新配方";
+
+/* Class = "NSMenuItem"; title = "Delete Recipe"; ObjectID = "56"; */
+"56.title" = "删除配方";
+
+/* Class = "NSButtonCell"; title = "Show Enabled Only"; ObjectID = "181"; */
+"181.title" = "仅显示已启用对象";
+
+/* Class = "NSMenuItem"; title = "Duplicate Recipe"; ObjectID = "199"; */
+"199.title" = "复制配方";
+
+/* Class = "NSMenuItem"; title = "Add Recipe"; ObjectID = "206"; */
+"206.title" = "添加配方";
+
+/* Class = "NSMenu"; title = "Add Recipe"; ObjectID = "207"; */
+"207.title" = "添加配方";
+

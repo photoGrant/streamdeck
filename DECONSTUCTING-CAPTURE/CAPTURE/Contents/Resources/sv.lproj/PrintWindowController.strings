@@ -1,0 +1,33 @@
+/* Class = "NSWindow"; title = "Print"; ObjectID = "5"; */
+"5.title" = "Skriv ut";
+
+/* Class = "NSTabViewItem"; label = "Print"; ObjectID = "2666"; */
+"2666.label" = "Skriv ut";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show Print panel"; ObjectID = "2902"; */
+"2902.ibShadowedToolTip" = "Visa utskriftsfönster";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Cancel print"; ObjectID = "2903"; */
+"2903.ibShadowedToolTip" = "Avbryt utskrift";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "2904"; */
+"2904.title" = "Avbryt";
+
+/* Class = "NSButtonCell"; title = "Print..."; ObjectID = "2905"; */
+"2905.title" = "Skriv ut...";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Next page"; ObjectID = "2910"; */
+"2910.ibShadowedToolTip" = "Nästa sida";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Previous page"; ObjectID = "2911"; */
+"2911.ibShadowedToolTip" = "Föregående sida";
+
+/* Class = "NSButtonCell"; title = "Previous"; ObjectID = "2912"; */
+"2912.title" = "Föregående";
+
+/* Class = "NSButtonCell"; title = "Next"; ObjectID = "2913"; */
+"2913.title" = "Nästa";
+
+/* Class = "NSTextFieldCell"; title = "Page 1 of 3"; ObjectID = "2917"; */
+"2917.title" = "Sidan 1 av 3";
+

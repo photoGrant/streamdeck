@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="BarcodeInspectorTool">
+            <connections>
+                <outlet property="barcodeInputField" destination="Lpk-Qo-TLA" id="Dbl-fT-wFG"/>
+                <outlet property="barcodeInputView" destination="qig-CI-d4a" id="n9L-Xp-KpO"/>
+                <outlet property="configureScannerButtonView" destination="TIM-TH-wFt" id="3TN-L3-eUK"/>
+                <outlet property="container" destination="c22-O7-iKe" id="eQs-gH-5TM"/>
+                <outlet property="contentView" destination="c22-O7-iKe" id="LCD-Yy-kyz"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="39"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+            <point key="canvasLocation" x="-298" y="-52.5"/>
+        </customView>
+        <customView id="TIM-TH-wFt" userLabel="ConfigureScannerView">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="A2G-oo-WtZ" customClass="POSkinButton">
+                    <rect key="frame" x="64" y="4" width="152" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="IeC-2v-uBg"/>
+                        <constraint firstAttribute="height" constant="21" id="vqQ-bc-bwU"/>
+                    </constraints>
+                    <buttonCell key="cell" type="push" title="Configure Scanner" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="i9I-n2-Fmh">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="pressedConfigureScannerButton:" target="-2" id="26a-4I-m0Y"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="A2G-oo-WtZ" firstAttribute="centerY" secondItem="TIM-TH-wFt" secondAttribute="centerY" id="JWG-R5-5f1"/>
+                <constraint firstItem="A2G-oo-WtZ" firstAttribute="centerX" secondItem="TIM-TH-wFt" secondAttribute="centerX" id="N2v-4C-8ch"/>
+            </constraints>
+            <point key="canvasLocation" x="-300" y="136.5"/>
+        </customView>
+        <customView id="qig-CI-d4a" userLabel="ScanInputView">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="43"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="Lpk-Qo-TLA" customClass="POInputFieldWithButtonControl">
+                    <rect key="frame" x="0.0" y="7" width="280" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="ab6-Gz-Uyo"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Barcode"/>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Lpk-Qo-TLA" firstAttribute="leading" secondItem="qig-CI-d4a" secondAttribute="leading" id="MFK-V5-3yn"/>
+                <constraint firstItem="Lpk-Qo-TLA" firstAttribute="centerY" secondItem="qig-CI-d4a" secondAttribute="centerY" id="V0n-CV-21E"/>
+                <constraint firstItem="Lpk-Qo-TLA" firstAttribute="centerX" secondItem="qig-CI-d4a" secondAttribute="centerX" id="bkH-2f-BQe"/>
+                <constraint firstAttribute="trailing" secondItem="Lpk-Qo-TLA" secondAttribute="trailing" id="n99-jW-U3C"/>
+            </constraints>
+            <point key="canvasLocation" x="99" y="138"/>
+        </customView>
+    </objects>
+</document>

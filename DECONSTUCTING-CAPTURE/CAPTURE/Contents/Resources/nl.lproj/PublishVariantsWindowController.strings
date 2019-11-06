@@ -1,0 +1,15 @@
+/* Class = "NSButtonCell"; title = "Reset to Defaults"; ObjectID = "7YZ-SO-4Ls"; */
+"7YZ-SO-4Ls.title" = "Herstel naar standaardwaarden";
+
+/* Class = "NSTextFieldCell"; title = "No settings available"; ObjectID = "9AB-bh-Xmc"; */
+"9AB-bh-Xmc.title" = "Geen instellingen beschikbaar";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "BUL-En-24z"; */
+"BUL-En-24z.title" = "Annuleer";
+
+/* Class = "NSButtonCell"; title = "Publish"; ObjectID = "gAn-ls-WA3"; */
+"gAn-ls-WA3.title" = "Publiceer";
+
+/* Class = "NSWindow"; title = "Edit Variants"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Varianten bewerken";
+

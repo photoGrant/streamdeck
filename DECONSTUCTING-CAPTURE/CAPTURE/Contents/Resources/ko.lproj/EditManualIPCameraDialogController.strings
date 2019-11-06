@@ -1,0 +1,24 @@
+/* Class = "NSTextFieldCell"; title = "Address"; ObjectID = "8DV-BE-nxZ"; */
+"8DV-BE-nxZ.title" = "주소";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "brq-Uo-oyi"; */
+"brq-Uo-oyi.title" = "완료";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "EwJ-aC-cJp"; */
+"EwJ-aC-cJp.headerCell.title" = "이름";
+
+/* Class = "NSWindow"; title = "Network Camera Manager"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "네트워크 카메라 관리기";
+
+/* Class = "NSButtonCell"; title = "Add…"; ObjectID = "mtB-N1-gEr"; */
+"mtB-N1-gEr.title" = "추가...";
+
+/* Class = "NSTextFieldCell"; title = "Name"; ObjectID = "TOe-TS-pWw"; */
+"TOe-TS-pWw.title" = "이름";
+
+/* Class = "NSTableColumn"; headerCell.title = "Address"; ObjectID = "vkB-LR-UFE"; */
+"vkB-LR-UFE.headerCell.title" = "주소";
+
+/* Class = "NSButtonCell"; title = "Remove"; ObjectID = "YNd-qF-0Qp"; */
+"YNd-qF-0Qp.title" = "제거";
+

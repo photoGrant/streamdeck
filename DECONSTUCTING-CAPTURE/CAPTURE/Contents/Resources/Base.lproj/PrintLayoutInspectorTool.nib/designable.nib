@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PrintLayoutInspectorTool">
+            <connections>
+                <outlet property="_cellBorderField" destination="598" id="606"/>
+                <outlet property="_cellBorderSlider" destination="596" id="605"/>
+                <outlet property="_cellBorderUnits" destination="599" id="607"/>
+                <outlet property="_cellHeightField" destination="555" id="570"/>
+                <outlet property="_cellHeightSlider" destination="553" id="568"/>
+                <outlet property="_cellWidthField" destination="552" id="571"/>
+                <outlet property="_cellWidthSlider" destination="550" id="569"/>
+                <outlet property="_columnsField" destination="449" id="465"/>
+                <outlet property="_columnsSlider" destination="447" id="464"/>
+                <outlet property="_heightUnits" destination="556" id="572"/>
+                <outlet property="_horizontalSpacingField" destination="490" id="507"/>
+                <outlet property="_horizontalSpacingSlider" destination="488" id="505"/>
+                <outlet property="_horizontalSpacingUnits" destination="532" id="539"/>
+                <outlet property="_rowsField" destination="440" id="463"/>
+                <outlet property="_rowsSlider" destination="438" id="574"/>
+                <outlet property="_verticalSpacingField" destination="493" id="508"/>
+                <outlet property="_verticalSpacingSlider" destination="491" id="506"/>
+                <outlet property="_verticalSpacingUnits" destination="530" id="538"/>
+                <outlet property="_widthUnits" destination="557" id="573"/>
+                <outlet property="actionMenu" destination="38" id="39"/>
+                <outlet property="container" destination="289" id="324"/>
+                <outlet property="headerView" destination="279" id="323"/>
+                <outlet property="resizingPopup" destination="awY-ai-FAo" id="bq6-7V-hKv"/>
+                <outlet property="view" destination="5" id="322"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5" userLabel="View" customClass="InspectorToolView">
+            <rect key="frame" x="0.0" y="0.0" width="275" height="226"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView id="289">
+                    <rect key="frame" x="0.0" y="0.0" width="275" height="202"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="439">
+                            <rect key="frame" x="2" y="152" width="84" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Rows" id="443" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <slider toolTip="Number of rows" verticalHuggingPriority="750" id="438" customClass="POSlider">
+                            <rect key="frame" x="97" y="150" width="88" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <sliderCell key="cell" state="on" alignment="left" minValue="1" maxValue="15" doubleValue="2" tickMarkPosition="below" sliderType="linear" id="444" customClass="POSliderCell">
+                                <font key="font" size="12" name="Helvetica"/>
+                            </sliderCell>
+                            <accessibility description="kelvinSlider"/>
+                        </slider>
+                        <textField toolTip="Number of rows" verticalHuggingPriority="750" id="440" customClass="InspectorTextField">
+                            <rect key="frame" x="198" y="152" width="40" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" drawsBackground="YES" id="441" customClass="COUITextFieldCell">
+                                <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#0" negativeFormat="#0" numberStyle="decimal" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="2" plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="442">
+                                    <nil key="negativeInfinitySymbol"/>
+                                    <nil key="positiveInfinitySymbol"/>
+                                    <real key="minimum" value="1"/>
+                                    <real key="maximum" value="15"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                            </textFieldCell>
+                            <accessibility description="exposureField"/>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="448">
+                            <rect key="frame" x="2" y="128" width="84" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Columns" id="452" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <slider toolTip="Number of columns" verticalHuggingPriority="750" id="447" customClass="POSlider">
+                            <rect key="frame" x="97" y="126" width="88" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <sliderCell key="cell" alignment="left" minValue="1" maxValue="15" doubleValue="1" tickMarkPosition="below" sliderType="linear" id="453" customClass="POSliderCell">
+                                <font key="font" size="12" name="Helvetica"/>
+                            </sliderCell>
+                            <accessibility description="kelvinSlider"/>
+                        </slider>
+                        <textField toolTip="Number of columns" verticalHuggingPriority="750" id="449" customClass="InspectorTextField">
+                            <rect key="frame" x="198" y="128" width="40" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" drawsBackground="YES" id="450" customClass="COUITextFieldCell">
+                                <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#0" negativeFormat="#0" numberStyle="decimal" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="2" plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="451">
+                                    <nil key="negativeInfinitySymbol"/>
+                                    <nil key="positiveInfinitySymbol"/>
+                                    <real key="minimum" value="1"/>
+                                    <real key="maximum" value="15"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                            </textFieldCell>
+                            <accessibility description="exposureField"/>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="492">
+                            <rect key="frame" x="2" y="104" width="84" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Row Spacing" id="499" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <slider toolTip="Spacing between rows" verticalHuggingPriority="750" id="491" customClass="POSlider">
+                            <rect key="frame" x="97" y="102" width="88" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <sliderCell key="cell" alignment="left" maxValue="1" tickMarkPosition="below" sliderType="linear" id="500" customClass="POSliderCell">
+                                <font key="font" size="12" name="Helvetica"/>
+                            </sliderCell>
+                            <accessibility description="kelvinSlider"/>
+                        </slider>
+                        <textField toolTip="Spacing between rows" verticalHuggingPriority="750" id="493" customClass="InspectorTextField">
+                            <rect key="frame" x="198" y="104" width="40" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" drawsBackground="YES" id="497" customClass="COUITextFieldCell">
+                                <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#0.#" negativeFormat="#0.#" numberStyle="decimal" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="4" maximumFractionDigits="1" plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="498">
+                                    <nil key="negativeInfinitySymbol"/>
+                                    <nil key="positiveInfinitySymbol"/>
+                                    <real key="minimum" value="0.0"/>
+                                    <real key="maximum" value="9000"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                            </textFieldCell>
+                            <accessibility description="exposureField"/>
+                        </textField>
+                        <textField verticalHuggingPriority="750" id="530">
+                            <rect key="frame" x="240" y="104" width="26" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="in" id="531" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="489">
+                            <rect key="frame" x="2" y="80" width="84" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Col. Spacing" id="503" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <slider toolTip="Spacing between columns" verticalHuggingPriority="750" id="488" customClass="POSlider">
+                            <rect key="frame" x="97" y="78" width="88" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <sliderCell key="cell" alignment="left" maxValue="1" tickMarkPosition="below" allowsTickMarkValuesOnly="YES" sliderType="linear" id="504" customClass="POSliderCell">
+                                <font key="font" size="12" name="Helvetica"/>
+                            </sliderCell>
+                            <accessibility description="kelvinSlider"/>
+                        </slider>
+                        <textField toolTip="Spacing between columns" verticalHuggingPriority="750" id="490" customClass="InspectorTextField">
+                            <rect key="frame" x="198" y="80" width="40" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" drawsBackground="YES" id="501" customClass="COUITextFieldCell">
+                                <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#0.#" negativeFormat="#0.#" numberStyle="decimal" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="4" maximumFractionDigits="1" plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="502">
+                                    <nil key="negativeInfinitySymbol"/>
+                                    <nil key="positiveInfinitySymbol"/>
+                                    <real key="minimum" value="0.0"/>
+                                    <real key="maximum" value="9000"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                            </textFieldCell>
+                            <accessibility description="exposureField"/>
+                        </textField>
+                        <textField verticalHuggingPriority="750" id="532">
+                            <rect key="frame" x="240" y="80" width="26" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="in" id="533" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="554">
+                            <rect key="frame" x="2" y="56" width="84" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Cell Height" id="562" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <slider verticalHuggingPriority="750" id="553" customClass="POSlider">
+                            <rect key="frame" x="97" y="54" width="88" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <sliderCell key="cell" alignment="left" maxValue="1" tickMarkPosition="below" sliderType="linear" id="563" customClass="POSliderCell">
+                                <font key="font" size="12" name="Helvetica"/>
+                            </sliderCell>
+                            <accessibility description="kelvinSlider"/>
+                        </slider>
+                        <textField toolTip="Spacing between rows" verticalHuggingPriority="750" id="555" customClass="InspectorTextField">
+                            <rect key="frame" x="198" y="56" width="40" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" drawsBackground="YES" id="560" customClass="COUITextFieldCell">
+                                <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#0.#" negativeFormat="#0.#" numberStyle="decimal" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="4" maximumFractionDigits="1" plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="561">
+                                    <nil key="negativeInfinitySymbol"/>
+                                    <nil key="positiveInfinitySymbol"/>
+                                    <real key="minimum" value="0.0"/>
+                                    <real key="maximum" value="9000"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                            </textFieldCell>
+                            <accessibility description="exposureField"/>
+                        </textField>
+                        <textField verticalHuggingPriority="750" id="556">
+                            <rect key="frame" x="240" y="56" width="26" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="in" id="559" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="551">
+                            <rect key="frame" x="2" y="32" width="84" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Cell Width" id="566" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <slider verticalHuggingPriority="750" id="550" customClass="POSlider">
+                            <rect key="frame" x="97" y="30" width="88" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <sliderCell key="cell" alignment="left" maxValue="1" tickMarkPosition="below" allowsTickMarkValuesOnly="YES" sliderType="linear" id="567" customClass="POSliderCell">
+                                <font key="font" size="12" name="Helvetica"/>
+                            </sliderCell>
+                            <accessibility description="kelvinSlider"/>
+                        </slider>
+                        <textField toolTip="Spacing between columns" verticalHuggingPriority="750" id="552" customClass="InspectorTextField">
+                            <rect key="frame" x="198" y="32" width="40" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" drawsBackground="YES" id="564" customClass="COUITextFieldCell">
+                                <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#0.#" negativeFormat="#0.#" numberStyle="decimal" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="4" maximumFractionDigits="1" plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="565">
+                                    <nil key="negativeInfinitySymbol"/>
+                                    <nil key="positiveInfinitySymbol"/>
+                                    <real key="minimum" value="0.0"/>
+                                    <real key="maximum" value="9000"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                            </textFieldCell>
+                            <accessibility description="exposureField"/>
+                        </textField>
+                        <textField verticalHuggingPriority="750" id="557">
+                            <rect key="frame" x="240" y="32" width="26" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="in" id="558" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="597">
+                            <rect key="frame" x="2" y="8" width="84" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Cell Border" id="603" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <slider verticalHuggingPriority="750" id="596" customClass="POSlider">
+                            <rect key="frame" x="97" y="6" width="88" height="21"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <sliderCell key="cell" alignment="left" maxValue="1" tickMarkPosition="below" allowsTickMarkValuesOnly="YES" sliderType="linear" id="604" customClass="POSliderCell">
+                                <font key="font" size="12" name="Helvetica"/>
+                            </sliderCell>
+                            <accessibility description="kelvinSlider"/>
+                        </slider>
+                        <textField toolTip="Spacing between columns" verticalHuggingPriority="750" id="598" customClass="InspectorTextField">
+                            <rect key="frame" x="198" y="8" width="40" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" drawsBackground="YES" id="601" customClass="COUITextFieldCell">
+                                <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#0.#" negativeFormat="#0.#" numberStyle="decimal" usesGroupingSeparator="NO" paddingCharacter="*" minimumIntegerDigits="1" maximumIntegerDigits="4" maximumFractionDigits="1" plusSign="+" minusSign="-" notANumberSymbol="NaN" perMillSymbol="‰" percentSymbol="%" exponentSymbol="E" positivePrefix="" positiveSuffix="" negativePrefix="-" negativeSuffix="" id="602">
+                                    <nil key="negativeInfinitySymbol"/>
+                                    <nil key="positiveInfinitySymbol"/>
+                                    <real key="minimum" value="0.0"/>
+                                    <real key="maximum" value="9000"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                            </textFieldCell>
+                            <accessibility description="exposureField"/>
+                        </textField>
+                        <textField verticalHuggingPriority="750" id="599">
+                            <rect key="frame" x="240" y="8" width="26" height="18"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="in" id="600" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                        <customView id="awY-ai-FAo" userLabel="Resizing popup" customClass="POPopupControl">
+                            <rect key="frame" x="0.0" y="173" width="275" height="23"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Resizing" localized="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="resizingStyleChanged:" target="-2" id="jWP-dl-P67"/>
+                                <outlet property="popupMenu" destination="Ur1-52-emz" id="muW-Xd-aHS"/>
+                            </connections>
+                        </customView>
+                    </subviews>
+                </customView>
+                <customView id="279" customClass="BarView">
+                    <rect key="frame" x="0.0" y="202" width="275" height="24"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                </customView>
+            </subviews>
+            <point key="canvasLocation" x="139.5" y="169"/>
+        </customView>
+        <menu title="Menu" id="38" userLabel="Action Menu"/>
+        <menu title="OtherViews" id="Ur1-52-emz" userLabel="Resizing Menu">
+            <items>
+                <menuItem title="Prioritize Cell Size" state="on" id="2UW-z5-qxR"/>
+                <menuItem title="Prioritize Spacing" id="maT-3O-DaK"/>
+            </items>
+            <point key="canvasLocation" x="132" y="-84"/>
+        </menu>
+    </objects>
+</document>

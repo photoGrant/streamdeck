@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="COWorkspaceLocksChangePasswordWindow">
+            <connections>
+                <outlet property="changePassword" destination="03O-zB-Mc0" id="ckY-Kd-cY3"/>
+                <outlet property="oldPasswordTextField" destination="jeE-Tz-bli" id="nwH-dz-DQ0"/>
+                <outlet property="passwordNewTextField" destination="uop-Mt-jjP" id="GHq-HU-x32"/>
+                <outlet property="passwordRetypedTextField" destination="sML-DY-zyj" id="Pmy-wx-niP"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Change PIN" allowsToolTipsWhenApplicationIsInactive="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5" customClass="COUIPanel">
+            <windowStyleMask key="styleMask" titled="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="250" height="107"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2048" height="1129"/>
+            <view key="contentView" id="se5-gp-TjO" customClass="COUIContentView">
+                <rect key="frame" x="0.0" y="0.0" width="250" height="105"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wDS-e7-VzN">
+                        <rect key="frame" x="25" y="83" width="44" height="14"/>
+                        <textFieldCell key="cell" lineBreakMode="truncatingTail" title="Old PIN" id="Cq5-n1-JB8" customClass="COUITextFieldCell">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" red="0.67699282166316421" green="0.67372232494015383" blue="0.68026331838617471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uBc-Kz-HnT">
+                        <rect key="frame" x="20" y="61" width="49" height="14"/>
+                        <textFieldCell key="cell" lineBreakMode="truncatingTail" title="New PIN" id="ogE-aB-Gxs" customClass="COUITextFieldCell">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" red="0.67699282166316421" green="0.67372232494015383" blue="0.68026331838617471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="di3-bT-WDp">
+                        <rect key="frame" x="6" y="39" width="63" height="14"/>
+                        <textFieldCell key="cell" lineBreakMode="truncatingTail" title="Repeat PIN" id="Psj-uO-zea" customClass="COUITextFieldCell">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" red="0.67699282166316421" green="0.67372232494015383" blue="0.68026331838617471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <secureTextField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jeE-Tz-bli" userLabel="Old Password Field" customClass="COSecureTextField">
+                        <rect key="frame" x="83" y="81" width="159" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="qWO-0m-RGe"/>
+                        </constraints>
+                        <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" drawsBackground="YES" id="cl3-eL-d5X">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.13725659251213074" green="0.13725268840789795" blue="0.13725343346595764" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                        </secureTextFieldCell>
+                        <connections>
+                            <outlet property="delegate" destination="-2" id="L8D-C4-IGJ"/>
+                        </connections>
+                    </secureTextField>
+                    <secureTextField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uop-Mt-jjP" userLabel="New Password Field" customClass="COSecureTextField">
+                        <rect key="frame" x="83" y="59" width="159" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="5FY-yD-idh"/>
+                        </constraints>
+                        <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" drawsBackground="YES" id="FYH-Qa-gM5">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.13725659251213074" green="0.13725268840789795" blue="0.13725343346595764" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                        </secureTextFieldCell>
+                        <connections>
+                            <outlet property="delegate" destination="-2" id="Sda-QW-vhz"/>
+                        </connections>
+                    </secureTextField>
+                    <secureTextField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sML-DY-zyj" userLabel="Retype New Password Field" customClass="COSecureTextField">
+                        <rect key="frame" x="83" y="37" width="159" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="ULu-vc-Su7"/>
+                        </constraints>
+                        <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" drawsBackground="YES" id="sN7-YQ-t2k">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.13725659251213074" green="0.13725268840789795" blue="0.13725343346595764" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                        </secureTextFieldCell>
+                        <connections>
+                            <outlet property="delegate" destination="-2" id="XOr-z5-hog"/>
+                        </connections>
+                    </secureTextField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="03O-zB-Mc0" customClass="POSkinButton">
+                        <rect key="frame" x="130" y="1" width="112" height="32"/>
+                        <buttonCell key="cell" type="push" title="Change PIN" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="yU8-Cl-7id">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="changePasswordAction:" target="-2" id="uCn-ZE-htf"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7l9-5U-52v" customClass="POSkinButton">
+                        <rect key="frame" x="40" y="1" width="82" height="32"/>
+                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="WUU-Yb-vw7">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="cancel:" target="-2" id="3ey-wc-84W"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="di3-bT-WDp" firstAttribute="top" secondItem="uBc-Kz-HnT" secondAttribute="bottom" constant="8" id="0r0-WF-OOc"/>
+                    <constraint firstItem="03O-zB-Mc0" firstAttribute="top" secondItem="sML-DY-zyj" secondAttribute="bottom" constant="8" id="2Vl-my-6ba"/>
+                    <constraint firstItem="di3-bT-WDp" firstAttribute="trailing" secondItem="wDS-e7-VzN" secondAttribute="trailing" id="3he-sd-MF7"/>
+                    <constraint firstItem="di3-bT-WDp" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="8" id="7aG-4c-lbs"/>
+                    <constraint firstItem="uop-Mt-jjP" firstAttribute="trailing" secondItem="sML-DY-zyj" secondAttribute="trailing" id="9YJ-3I-oX1"/>
+                    <constraint firstAttribute="trailing" secondItem="sML-DY-zyj" secondAttribute="trailing" constant="8" id="BDV-Qh-hsa"/>
+                    <constraint firstItem="jeE-Tz-bli" firstAttribute="trailing" secondItem="sML-DY-zyj" secondAttribute="trailing" id="DQS-9t-MGC"/>
+                    <constraint firstItem="sML-DY-zyj" firstAttribute="leading" secondItem="di3-bT-WDp" secondAttribute="trailing" constant="16" id="FVe-Xk-f4L"/>
+                    <constraint firstItem="jeE-Tz-bli" firstAttribute="trailing" secondItem="se5-gp-TjO" secondAttribute="trailing" constant="-8" id="IAf-IJ-ZEu"/>
+                    <constraint firstItem="uBc-Kz-HnT" firstAttribute="top" secondItem="wDS-e7-VzN" secondAttribute="bottom" constant="8" id="Lvw-LP-fAa"/>
+                    <constraint firstItem="7l9-5U-52v" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="se5-gp-TjO" secondAttribute="leading" constant="14" id="PCm-v5-DVF"/>
+                    <constraint firstAttribute="bottom" secondItem="03O-zB-Mc0" secondAttribute="bottom" constant="8" id="a25-NA-ZbS"/>
+                    <constraint firstItem="7l9-5U-52v" firstAttribute="centerY" secondItem="03O-zB-Mc0" secondAttribute="centerY" id="c0m-24-jOw"/>
+                    <constraint firstItem="uop-Mt-jjP" firstAttribute="leading" secondItem="sML-DY-zyj" secondAttribute="leading" id="eOc-7s-A8Y"/>
+                    <constraint firstItem="03O-zB-Mc0" firstAttribute="leading" secondItem="7l9-5U-52v" secondAttribute="trailing" constant="20" id="fwK-A5-Zuc"/>
+                    <constraint firstItem="di3-bT-WDp" firstAttribute="firstBaseline" secondItem="sML-DY-zyj" secondAttribute="firstBaseline" id="mdA-2m-TTG"/>
+                    <constraint firstItem="wDS-e7-VzN" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="8" id="pFx-nx-N8F"/>
+                    <constraint firstItem="wDS-e7-VzN" firstAttribute="firstBaseline" secondItem="jeE-Tz-bli" secondAttribute="firstBaseline" id="qFH-ly-d67"/>
+                    <constraint firstAttribute="trailing" secondItem="03O-zB-Mc0" secondAttribute="trailing" constant="14" id="rRG-nN-5PB"/>
+                    <constraint firstItem="di3-bT-WDp" firstAttribute="trailing" secondItem="uBc-Kz-HnT" secondAttribute="trailing" id="ri2-Gv-nCA"/>
+                    <constraint firstItem="jeE-Tz-bli" firstAttribute="leading" secondItem="sML-DY-zyj" secondAttribute="leading" id="ube-uE-bsW"/>
+                    <constraint firstItem="uBc-Kz-HnT" firstAttribute="firstBaseline" secondItem="uop-Mt-jjP" secondAttribute="firstBaseline" id="zia-5n-r9e"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+                <outlet property="initialFirstResponder" destination="jeE-Tz-bli" id="D2b-CS-UoJ"/>
+            </connections>
+            <point key="canvasLocation" x="86" y="153.5"/>
+        </window>
+    </objects>
+</document>

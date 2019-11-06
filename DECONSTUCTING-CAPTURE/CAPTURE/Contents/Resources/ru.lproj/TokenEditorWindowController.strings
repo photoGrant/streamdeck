@@ -1,0 +1,93 @@
+/* Class = "NSWindow"; title = "Naming Format"; ObjectID = "1"; */
+"1.title" = "Формат имени";
+
+/* Class = "NSMenuItem"; title = "Metadata - EXIF - Camera"; ObjectID = "9IJ-Rj-Mn6"; */
+"9IJ-Rj-Mn6.title" = "Метаданные - EXIF - Камера";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "13"; */
+"13.title" = "Отмена";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "14"; */
+"14.title" = "ОК";
+
+/* Class = "NSMenuItem"; title = "Recently Used"; ObjectID = "59L-oO-NTp"; */
+"59L-oO-NTp.title" = "Недавно использованные";
+
+/* Class = "NSTextFieldCell"; title = "Presets"; ObjectID = "74"; */
+"74.title" = "Предустановки";
+
+/* Class = "NSMenuItem"; title = "Image and Job Name"; ObjectID = "77"; */
+"77.title" = "Имя изображения и задания";
+
+/* Class = "NSMenuItem"; title = "Job Name and Counter"; ObjectID = "78"; */
+"78.title" = "Имя задания и счетчик";
+
+/* Class = "NSMenuItem"; title = "Job and Image Name"; ObjectID = "79"; */
+"79.title" = "Имя задания и изображения";
+
+/* Class = "NSMenuItem"; title = "Image Name"; ObjectID = "80"; */
+"80.title" = "Имя изображения";
+
+/* Class = "NSTextFieldCell"; title = "You can edit the text above to fit your needs. Select elements from the groups below and drag or double-click to add them to the format."; ObjectID = "84"; */
+"84.title" = "Вы можете отредактировать текст выше, чтобы он соответствовал вашей задаче. Выберите элементы из групп ниже и перетащите их или дважды щелкните, чтобы добавить их в формат.";
+
+/* Class = "NSButtonCell"; title = "Save User Preset…"; ObjectID = "89"; */
+"89.title" = "Сохранить пользовательскую предустановку...";
+
+/* Class = "NSTextFieldCell"; title = "Format"; ObjectID = "94"; */
+"94.title" = "Формат";
+
+/* Class = "NSTextFieldCell"; title = "Tokens"; ObjectID = "96"; */
+"96.title" = "Маркеры";
+
+/* Class = "NSMenuItem"; title = "Metadata - EXIF - GPS"; ObjectID = "f2N-un-vTh"; */
+"f2N-un-vTh.title" = "Метаданные - EXIF - GPS";
+
+/* Class = "NSMenuItem"; title = "Metadata - Vendor Specific"; ObjectID = "gbF-cc-3Gm"; */
+"gbF-cc-3Gm.title" = "Метаданные - От производителя";
+
+/* Class = "NSMenuItem"; title = "Excluded Tokens (Debug)"; ObjectID = "h0E-Xs-g3o"; */
+"h0E-Xs-g3o.title" = "Исключенные маркеры (отладить)";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Getty Images"; ObjectID = "IcR-I5-MrP"; */
+"IcR-I5-MrP.title" = "Метаданные - IPTC - Getty Images";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Contact"; ObjectID = "iEP-7R-U0R"; */
+"iEP-7R-U0R.title" = "Метаданные - IPTC - Контактная информация";
+
+/* Class = "NSMenuItem"; title = "All"; ObjectID = "im4-Sx-noG"; */
+"im4-Sx-noG.title" = "всем";
+
+/* Class = "NSMenuItem"; title = "Date and Time"; ObjectID = "Iov-PJ-gmm"; */
+"Iov-PJ-gmm.title" = "Дата и время";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Content"; ObjectID = "jEp-eA-ZqR"; */
+"jEp-eA-ZqR.title" = "Метаданные - IPTC - Содержание";
+
+/* Class = "NSTextFieldCell"; title = "Group"; ObjectID = "nqc-FB-Qwc"; */
+"nqc-FB-Qwc.title" = "Группа";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Image"; ObjectID = "pQh-ye-usp"; */
+"pQh-ye-usp.title" = "Метаданные - IPTC - Изображение";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Status"; ObjectID = "pxr-Cf-W6a"; */
+"pxr-Cf-W6a.title" = "Метаданные - IPTC - Статус";
+
+/* Class = "NSTextFieldCell"; title = "Sample"; ObjectID = "q5j-D3-iFU"; */
+"q5j-D3-iFU.title" = "Образец";
+
+/* Class = "NSMenuItem"; title = "Metadata - Basic"; ObjectID = "Sj2-sS-faM"; */
+"Sj2-sS-faM.title" = "Метаданные - Основные";
+
+/* Class = "NSMenuItem"; title = "Metadata - EXIF - Exposure"; ObjectID = "UDJ-1y-oOK"; */
+"UDJ-1y-oOK.title" = "Метаданные - EXIF - Экспозиция";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "VU8-ib-KQU"; */
+"VU8-ib-KQU.title" = "Текстовая ячейка";
+
+/* Class = "NSMenuItem"; title = "General"; ObjectID = "XqK-3b-mox"; */
+"XqK-3b-mox.title" = "Общие";
+
+/* Class = "NSTextFieldCell"; title = "Sample string goes here"; ObjectID = "xrA-Fa-8YI"; */
+"xrA-Fa-8YI.title" = "Пример строки идет здесь";
+

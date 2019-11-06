@@ -1,0 +1,39 @@
+/* Class = "NSButtonCell"; title = "Follow Crop"; ObjectID = "2q5-z1-hmK"; */
+"2q5-z1-hmK.title" = "Учитывать кадрирование";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "overlay opacity"; ObjectID = "6Rm-S2-XJR"; */
+"6Rm-S2-XJR.ibExternalAccessibilityDescription" = "Прозрачность наложения";
+
+/* Class = "NSView"; 6Rm-S2-XJR.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Opacity"; ObjectID = "6Rm-S2-XJR"; */
+"6Rm-S2-XJR.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Прозрачность";
+
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "244"; */
+"244.title" = "Сбросить инструмент";
+
+/* Class = "NSMenuItem"; title = "Clear Overlay"; ObjectID = "362"; */
+"362.title" = "Очистить наложение";
+
+/* Class = "NSView"; aLI-4N-Tsk.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "File"; ObjectID = "aLI-4N-Tsk"; */
+"aLI-4N-Tsk.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Файл";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "Vertical overlay"; ObjectID = "i3e-TJ-csC"; */
+"i3e-TJ-csC.ibExternalAccessibilityDescription" = "Вертикальное наложение";
+
+/* Class = "NSView"; i3e-TJ-csC.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Vertical"; ObjectID = "i3e-TJ-csC"; */
+"i3e-TJ-csC.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "По вертикали";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "horizontal overlay"; ObjectID = "n42-so-MNQ"; */
+"n42-so-MNQ.ibExternalAccessibilityDescription" = "горизонтальное наложение";
+
+/* Class = "NSView"; n42-so-MNQ.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Horizontal"; ObjectID = "n42-so-MNQ"; */
+"n42-so-MNQ.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "По горизонтали";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "overlay scale"; ObjectID = "TTG-6T-Ce8"; */
+"TTG-6T-Ce8.ibExternalAccessibilityDescription" = "масштаб наложения";
+
+/* Class = "NSView"; TTG-6T-Ce8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Scale"; ObjectID = "TTG-6T-Ce8"; */
+"TTG-6T-Ce8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Масштаб";
+
+/* Class = "NSButtonCell"; title = "Show"; ObjectID = "xyY-qj-WE7"; */
+"xyY-qj-WE7.title" = "Показать";
+

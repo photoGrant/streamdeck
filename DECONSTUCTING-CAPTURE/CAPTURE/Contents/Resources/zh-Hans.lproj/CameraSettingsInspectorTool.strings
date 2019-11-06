@@ -1,0 +1,18 @@
+/* Class = "NSSearchFieldCell"; placeholderString = "Search"; ObjectID = "1mE-Wf-TEE"; */
+"1mE-Wf-TEE.placeholderString" = "搜索";
+
+/* Class = "NSTextFieldCell"; title = "Group Label"; ObjectID = "Dzr-OR-1gf"; */
+"Dzr-OR-1gf.title" = "组别标签";
+
+/* Class = "NSTextFieldCell"; title = "No camera connected"; ObjectID = "hQA-6j-msQ"; */
+"hQA-6j-msQ.title" = "没有接入相机";
+
+/* Class = "NSTextFieldCell"; title = "Setting Label"; ObjectID = "MKk-HW-wNq"; */
+"MKk-HW-wNq.title" = "设置标签";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "MT0-f0-4It"; */
+"MT0-f0-4It.title" = "文本单元格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "sYm-eu-awW"; */
+"sYm-eu-awW.title" = "文本单元格";
+

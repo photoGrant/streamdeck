@@ -1,0 +1,45 @@
+/* Class = "NSWindow"; title = "Slide Show Settings"; ObjectID = "1"; */
+"1.title" = "Instellingen Diapresentatie";
+
+/* Class = "NSMenuItem"; title = "Fade"; ObjectID = "34"; */
+"34.title" = "Vervagen";
+
+/* Class = "NSMenuItem"; title = "Move In"; ObjectID = "35"; */
+"35.title" = "Verplaats naar binnen";
+
+/* Class = "NSTextFieldCell"; title = "Transition"; ObjectID = "36"; */
+"36.title" = "Transitie";
+
+/* Class = "NSMenuItem"; title = "Push"; ObjectID = "40"; */
+"40.title" = "Schuiven";
+
+/* Class = "NSMenuItem"; title = "Reveal"; ObjectID = "41"; */
+"41.title" = "Onthullen";
+
+/* Class = "NSMenuItem"; title = "Dissolve"; ObjectID = "42"; */
+"42.title" = "Overvloeien";
+
+/* Class = "NSMenuItem"; title = "Mod"; ObjectID = "43"; */
+"43.title" = "Wijzig";
+
+/* Class = "NSMenuItem"; title = "Swipe"; ObjectID = "44"; */
+"44.title" = "Vegen";
+
+/* Class = "NSTextFieldCell"; title = "Slide Duration"; ObjectID = "56"; */
+"56.title" = "Duur dia";
+
+/* Class = "NSButtonCell"; title = "Loop"; ObjectID = "69"; */
+"69.title" = "Lus";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "73"; */
+"73.title" = "Standaardwaarden";
+
+/* Class = "NSMenuItem"; title = "Disintegrate"; ObjectID = "90"; */
+"90.title" = "Uit elkaar halen";
+
+/* Class = "NSMenuItem"; title = "Page Curl"; ObjectID = "91"; */
+"91.title" = "Pagina omkrullen";
+
+/* Class = "NSMenuItem"; title = "Ripple"; ObjectID = "92"; */
+"92.title" = "Rimpel";
+

@@ -1,0 +1,150 @@
+/* Class = "NSWindow"; title = "Window"; ObjectID = "21"; */
+"21.title" = "Fenêtre";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Leave field blank to remain anomymous"; ObjectID = "268"; */
+"268.ibShadowedToolTip" = "Laissez le champ vierge pour rester anonyme";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Leave field blank to remain anomymous"; ObjectID = "269"; */
+"269.ibShadowedToolTip" = "Laissez le champ vierge pour rester anonyme";
+
+/* Class = "NSTabViewItem"; label = "Crash Report"; ObjectID = "282"; */
+"282.label" = "Rapport de pannes";
+
+/* Class = "NSTabViewItem"; label = "Logs"; ObjectID = "283"; */
+"283.label" = "Journaux";
+
+/* Class = "NSTextFieldCell"; title = "Problem Description:"; ObjectID = "297"; */
+"297.title" = "Description du problème :";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "312"; */
+"312.title" = "Aide";
+
+/* Class = "NSMenuItem"; title = "Format"; ObjectID = "313"; */
+"313.title" = "Format";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "314"; */
+"314.title" = "Présentation";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "315"; */
+"315.title" = "Fichier";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "316"; */
+"316.title" = "Modifier";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "318"; */
+"318.title" = "Fenêtre";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "319"; */
+"319.title" = "Fenêtre";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "320"; */
+"320.title" = "Masquer";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "321"; */
+"321.title" = "Zoomer";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "322"; */
+"322.title" = "Tout ramener au premier plan";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "325"; */
+"325.title" = "Masquer les autres";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "327"; */
+"327.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "330"; */
+"330.title" = "Préférences…";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "333"; */
+"333.title" = "Tout afficher";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "336"; */
+"336.title" = "Services";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "337"; */
+"337.title" = "Modifier";
+
+/* Class = "NSMenuItem"; title = "Find"; ObjectID = "343"; */
+"343.title" = "Chercher";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "344"; */
+"344.title" = "Rétablir";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "346"; */
+"346.title" = "Copier";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "347"; */
+"347.title" = "Coller";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "348"; */
+"348.title" = "Couper";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "350"; */
+"350.title" = "Annuler";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "351"; */
+"351.title" = "Tout sélectionner";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "352"; */
+"352.title" = "Supprimer";
+
+/* Class = "NSMenu"; title = "Find"; ObjectID = "353"; */
+"353.title" = "Chercher";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "382"; */
+"382.title" = "Fichier";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "386"; */
+"386.title" = "Fermer";
+
+/* Class = "NSMenuItem"; title = "Page Setup..."; ObjectID = "387"; */
+"387.title" = "Mise en Page...";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "388"; */
+"388.title" = "Ouvrir Récent";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "389"; */
+"389.title" = "Nouveau";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "390"; */
+"390.title" = "Ouvrir...";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "391"; */
+"391.title" = "Imprimer…";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "393"; */
+"393.title" = "Ouvrir Récent";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "394"; */
+"394.title" = "Effacer Menu";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "395"; */
+"395.title" = "Présentation";
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "396"; */
+"396.title" = "Personnaliser la barre d'outils...";
+
+/* Class = "NSMenu"; title = "Format"; ObjectID = "398"; */
+"398.title" = "Format";
+
+/* Class = "NSMenuItem"; title = "Text"; ObjectID = "399"; */
+"399.title" = "Text";
+
+/* Class = "NSMenuItem"; title = "Font"; ObjectID = "400"; */
+"400.title" = "Police";
+
+/* Class = "NSMenu"; title = "Font"; ObjectID = "401"; */
+"401.title" = "Police";
+
+/* Class = "NSMenuItem"; title = "Smaller"; ObjectID = "411"; */
+"411.title" = "Plus petit";
+
+/* Class = "NSMenu"; title = "Text"; ObjectID = "433"; */
+"433.title" = "Text";
+
+/* Class = "NSMenuItem"; title = "Selection"; ObjectID = "448"; */
+"448.title" = "Sélection";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "454"; */
+"454.title" = "Aide";
+

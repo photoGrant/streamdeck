@@ -1,0 +1,30 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Pack the RAW image as EIP"; ObjectID = "6Ot-LC-POj"; */
+"6Ot-LC-POj.ibShadowedToolTip" = "Pak de RAW afbeelding in als EIP";
+
+/* Class = "NSButtonCell"; title = "Pack As EIP"; ObjectID = "7QU-HS-eh7"; */
+"7QU-HS-eh7.title" = "Pak in als EIP";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include Adjustments when exporting"; ObjectID = "34"; */
+"34.ibShadowedToolTip" = "Aanpassingen bijvoegen tijdens exporteren";
+
+/* Class = "NSButtonCell"; title = "Include Adjustments"; ObjectID = "41"; */
+"41.title" = "Aanpassingen bijvoegen";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Notify when export is completed"; ObjectID = "42"; */
+"42.ibShadowedToolTip" = "Aangeven als exporteren is voltooid";
+
+/* Class = "NSButtonCell"; title = "Notify When Completed"; ObjectID = "43"; */
+"43.title" = "Aangeven indien voltooid";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add export folder to Session Favorites"; ObjectID = "44"; */
+"44.ibShadowedToolTip" = "Exportmap toevoegen aan Sessie Favorieten";
+
+/* Class = "NSButtonCell"; title = "Add Folder to Session Favorites"; ObjectID = "45"; */
+"45.title" = "Map toevoegen aan Sessie Favorieten";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include movies in export"; ObjectID = "48"; */
+"48.ibShadowedToolTip" = "Video’s bijvoegen in export";
+
+/* Class = "NSButtonCell"; title = "Include Movies"; ObjectID = "49"; */
+"49.title" = "Video’s bijvoegen";
+

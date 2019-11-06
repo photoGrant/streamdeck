@@ -1,0 +1,81 @@
+/* Class = "NSView"; 6P6-Mu-jHQ.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Profile"; ObjectID = "6P6-Mu-jHQ"; */
+"6P6-Mu-jHQ.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "プロファイル";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "129"; */
+"129.title" = "メニュー";
+
+/* Class = "NSTextFieldCell"; title = "Direction"; ObjectID = "893"; */
+"893.title" = "方向";
+
+/* Class = "NSTextFieldCell"; title = "Shift"; ObjectID = "894"; */
+"894.title" = "シフト";
+
+/* Class = "NSTextFieldCell"; title = "Direction"; ObjectID = "897"; */
+"897.title" = "方向";
+
+/* Class = "NSTextFieldCell"; title = "Tilt"; ObjectID = "898"; */
+"898.title" = "傾斜";
+
+/* Class = "NSButtonCell"; title = "Chromatic Aberration"; ObjectID = "1062"; */
+"1062.title" = "色収差";
+
+/* Class = "NSButtonCell"; title = "Hide Distorted Areas"; ObjectID = "1555"; */
+"1555.title" = "ディストーション エリアを隠す";
+
+/* Class = "NSTabViewItem"; label = "Tab"; ObjectID = "1700"; */
+"1700.label" = "タブ";
+
+/* Class = "NSTabViewItem"; label = "View"; ObjectID = "1701"; */
+"1701.label" = "表示";
+
+/* Class = "NSSegmentedCell"; 1705.ibShadowedLabels[0] = "Lens"; ObjectID = "1705"; */
+"1705.ibShadowedLabels[0]" = "レンズ";
+
+/* Class = "NSSegmentedCell"; 1705.ibShadowedLabels[1] = "Movement"; ObjectID = "1705"; */
+"1705.ibShadowedLabels[1]" = "アオリ";
+
+/* Class = "NSMenu"; title = "Chromatic Aberration"; ObjectID = "1741"; */
+"1741.title" = "色収差";
+
+/* Class = "NSMenuItem"; title = "Default"; ObjectID = "1742"; */
+"1742.title" = "デフォルト";
+
+/* Class = "NSMenuItem"; title = "Analyze"; ObjectID = "1743"; */
+"1743.title" = "解析";
+
+/* Class = "NSMenuItem"; title = "Custom"; ObjectID = "1745"; */
+"1745.title" = "カスタム";
+
+/* Class = "NSTextFieldCell"; title = "Focal Length"; ObjectID = "1757"; */
+"1757.title" = "焦点距離";
+
+/* Class = "NSTextFieldCell"; title = "Aperture (f)"; ObjectID = "1760"; */
+"1760.title" = "絞り(f)";
+
+/* Class = "NSTextFieldCell"; title = "Shift  x"; ObjectID = "1823"; */
+"1823.title" = "シフト  x";
+
+/* Class = "NSTextFieldCell"; title = "Shift  y"; ObjectID = "1832"; */
+"1832.title" = "シフト  y";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "light falloff"; ObjectID = "ax9-dq-KjT"; */
+"ax9-dq-KjT.ibExternalAccessibilityDescription" = "光量低下";
+
+/* Class = "NSView"; ax9-dq-KjT.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Light Falloff"; ObjectID = "ax9-dq-KjT"; */
+"ax9-dq-KjT.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "光量低下";
+
+/* Class = "NSButtonCell"; title = "Diffraction Correction"; ObjectID = "dsa-Sr-DkR"; */
+"dsa-Sr-DkR.title" = "回折補正";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "sharpness falloff"; ObjectID = "eHa-vS-H7f"; */
+"eHa-vS-H7f.ibExternalAccessibilityDescription" = "シャープネス低下";
+
+/* Class = "NSView"; eHa-vS-H7f.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Sharpness Falloff"; ObjectID = "eHa-vS-H7f"; */
+"eHa-vS-H7f.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "鮮明度";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "distortion"; ObjectID = "uGw-q7-BaR"; */
+"uGw-q7-BaR.ibExternalAccessibilityDescription" = "ディストーション";
+
+/* Class = "NSView"; uGw-q7-BaR.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Distortion"; ObjectID = "uGw-q7-BaR"; */
+"uGw-q7-BaR.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "ディストーション";
+

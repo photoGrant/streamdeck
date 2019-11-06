@@ -1,0 +1,120 @@
+/* Class = "NSWindow"; title = "Panel"; ObjectID = "265"; */
+"265.title" = "Deelvenster";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Enter name as it should be displayed"; ObjectID = "282"; */
+"282.ibShadowedToolTip" = "Voer weer te geven naam in";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Enter Contact link (e.g. mailto:photographer@phaseone.com or http://www.phaseone.com)"; ObjectID = "287"; */
+"287.ibShadowedToolTip" = "Voer contactlink in (bijvoorbeeld mailto:fotograaf@phaseone.com of http://www.phaseone.com)";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Exports XML and DTD files to the output destination"; ObjectID = "389"; */
+"389.ibShadowedToolTip" = "XML- en DTD-bestanden exporteren naar uitvoerbestemming";
+
+/* Class = "NSMenuItem"; title = "Local"; ObjectID = "398"; */
+"398.title" = "Lokaal";
+
+/* Class = "NSMenuItem"; title = "FTP"; ObjectID = "399"; */
+"399.title" = "FTP";
+
+/* Class = "NSTabViewItem"; label = "FTP"; ObjectID = "403"; */
+"403.label" = "FTP";
+
+/* Class = "NSTabViewItem"; label = "Local"; ObjectID = "405"; */
+"405.label" = "Lokaal";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Shows result in web-browser"; ObjectID = "409"; */
+"409.ibShadowedToolTip" = "Resultaten weergeven in webbrowser";
+
+/* Class = "NSTextFieldCell"; title = "Description"; ObjectID = "447"; */
+"447.title" = "Beschrijving";
+
+/* Class = "NSTextFieldCell"; title = "Copyright"; ObjectID = "448"; */
+"448.title" = "Auteursrecht";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter description"; ObjectID = "449"; */
+"449.placeholderString" = "Beschrijving invoeren";
+
+/* Class = "NSTextFieldCell"; title = "Title"; ObjectID = "450"; */
+"450.title" = "Titel";
+
+/* Class = "NSTextFieldCell"; title = "Web Link"; ObjectID = "451"; */
+"451.title" = "Weblink";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter contact"; ObjectID = "452"; */
+"452.placeholderString" = "Contact invoeren";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter title"; ObjectID = "453"; */
+"453.placeholderString" = "Titel invoeren";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter web or mail link"; ObjectID = "454"; */
+"454.placeholderString" = "Web- of e-maillink invoeren";
+
+/* Class = "NSTextFieldCell"; title = "Text"; ObjectID = "455"; */
+"455.title" = "Tekst";
+
+/* Class = "NSTextFieldCell"; title = "Thumbnail Size"; ObjectID = "457"; */
+"457.title" = "Miniatuur grootte";
+
+/* Class = "NSTextFieldCell"; title = "Preview Size"; ObjectID = "458"; */
+"458.title" = "Grootte voorvertoning";
+
+/* Class = "NSTextFieldCell"; title = "Caption"; ObjectID = "459"; */
+"459.title" = "Bijschrift";
+
+/* Class = "NSTextFieldCell"; title = "Quality"; ObjectID = "461"; */
+"461.title" = "Kwaliteit";
+
+/* Class = "NSTextFieldCell"; title = "Images"; ObjectID = "464"; */
+"464.title" = "Afbeeldingen";
+
+/* Class = "NSTextFieldCell"; title = "Theme"; ObjectID = "465"; */
+"465.title" = "Thema";
+
+/* Class = "NSTextFieldCell"; title = "Layout"; ObjectID = "469"; */
+"469.title" = "Lay-out";
+
+/* Class = "NSTextFieldCell"; title = "Output"; ObjectID = "470"; */
+"470.title" = "Uitvoer";
+
+/* Class = "NSButtonCell"; title = "Export Photo XML Data"; ObjectID = "471"; */
+"471.title" = "XML-gegevens foto exporteren";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "472"; */
+"472.title" = "Type";
+
+/* Class = "NSTextFieldCell"; title = "URL"; ObjectID = "474"; */
+"474.title" = "URL";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter full URL to server folder"; ObjectID = "475"; */
+"475.placeholderString" = "Voer volledige URL voor servermap in";
+
+/* Class = "NSTextFieldCell"; title = "Username"; ObjectID = "476"; */
+"476.title" = "Gebruikersnaam";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter username"; ObjectID = "477"; */
+"477.placeholderString" = "Voer gebruikersnaam in";
+
+/* Class = "NSTextFieldCell"; title = "Password"; ObjectID = "478"; */
+"478.title" = "Wachtwoord";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter password"; ObjectID = "479"; */
+"479.placeholderString" = "Voer wachtwoord in";
+
+/* Class = "NSTextFieldCell"; title = "Path"; ObjectID = "480"; */
+"480.title" = "Bestandslocatie";
+
+/* Class = "NSButtonCell"; title = "Show after Export"; ObjectID = "481"; */
+"481.title" = "Toon na Export";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show Print panel"; ObjectID = "522"; */
+"522.ibShadowedToolTip" = "Toon Afdrukvenster";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Cancel print"; ObjectID = "523"; */
+"523.ibShadowedToolTip" = "Afdrukken annuleren";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "524"; */
+"524.title" = "Annuleer";
+
+/* Class = "NSButtonCell"; title = "Export"; ObjectID = "525"; */
+"525.title" = "Exporteren";
+

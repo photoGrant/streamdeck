@@ -1,0 +1,9 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Delete"; ObjectID = "156"; */
+"156.ibShadowedToolTip" = "Eliminar";
+
+/* Class = "NSWindow"; title = "Manage User Templates"; ObjectID = "264"; */
+"264.title" = "Plantillas de usuario manager";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "274"; */
+"274.title" = "Hecho";
+

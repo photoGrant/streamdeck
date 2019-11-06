@@ -1,0 +1,39 @@
+/* Class = "NSTextFieldCell"; title = "Never calibrated before."; ObjectID = "5mN-BC-pT7"; */
+"5mN-BC-pT7.title" = "まだキャリブレーションを行っていません。";
+
+/* Class = "NSMenuItem"; title = "Relative Colorimetric"; ObjectID = "121"; */
+"121.title" = "相対的な色域を維持";
+
+/* Class = "NSMenuItem"; title = "Perceptual"; ObjectID = "122"; */
+"122.title" = "知覚";
+
+/* Class = "NSMenuItem"; title = "Saturation"; ObjectID = "152"; */
+"152.title" = "彩度";
+
+/* Class = "NSMenuItem"; title = "Absolute Colorimetric"; ObjectID = "153"; */
+"153.title" = "絶対的な色域を維持";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "157"; */
+"157.title" = "デフォルト";
+
+/* Class = "NSTextFieldCell"; title = "Rendering Intent:"; ObjectID = "158"; */
+"158.title" = "マッチング方法:";
+
+/* Class = "NSTextFieldCell"; title = "Monitor"; ObjectID = "e27-df-U1w"; */
+"e27-df-U1w.title" = "モニター";
+
+/* Class = "NSTextFieldCell"; title = "Vectorscope"; ObjectID = "ezE-kB-AL7"; */
+"ezE-kB-AL7.title" = "ベクトルスコープ";
+
+/* Class = "NSButtonCell"; title = "Calibrate EIZO"; ObjectID = "TdK-5T-8ex"; */
+"TdK-5T-8ex.title" = "EIZOをキャリブレート";
+
+/* Class = "NSTextFieldCell"; title = "Transform"; ObjectID = "tT2-rk-Tsn"; */
+"tT2-rk-Tsn.title" = "変換";
+
+/* Class = "NSTextFieldCell"; title = "Standard"; ObjectID = "U5h-5o-7Bi"; */
+"U5h-5o-7Bi.title" = "標準";
+
+/* Class = "NSTextFieldCell"; title = "Color Wheels Layout"; ObjectID = "y0A-7I-fJB"; */
+"y0A-7I-fJB.title" = "カラーホイール レイアウト";
+

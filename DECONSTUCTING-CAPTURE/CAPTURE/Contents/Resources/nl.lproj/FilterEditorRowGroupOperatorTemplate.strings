@@ -1,0 +1,12 @@
+/* Class = "NSTextFieldCell"; title = "Match"; ObjectID = "225"; */
+"225.title" = "Afstemmen";
+
+/* Class = "NSTextFieldCell"; title = "of these rules"; ObjectID = "227"; */
+"227.title" = "van deze regels";
+
+/* Class = "NSMenuItem"; title = "Any"; ObjectID = "234"; */
+"234.title" = "Een of meer";
+
+/* Class = "NSMenuItem"; title = "All"; ObjectID = "235"; */
+"235.title" = "Alle";
+

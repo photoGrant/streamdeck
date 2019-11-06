@@ -1,0 +1,21 @@
+/* Class = "NSButtonCell"; title = "Create Smart Album"; ObjectID = "48"; */
+"48.title" = "创建智能相薄";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "116"; */
+"116.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "Create Album With Current Images"; ObjectID = "148"; */
+"148.title" = "以当前图像创建图集";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "171"; */
+"171.title" = "保存";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "172"; */
+"172.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Smart Album Name:"; ObjectID = "173"; */
+"173.title" = "智能相薄名称:";
+
+/* Class = "NSButtonCell"; title = "Help"; ObjectID = "188"; */
+"188.title" = "帮助";
+

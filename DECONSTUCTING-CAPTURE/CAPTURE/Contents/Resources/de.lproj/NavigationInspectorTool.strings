@@ -1,0 +1,15 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "146"; */
+"146.title" = "Menü";
+
+/* Class = "NSMenuItem"; title = "Zoom Viewer to Fit"; ObjectID = "148"; */
+"148.title" = "Viewer-Zoom - Einpassen";
+
+/* Class = "NSMenuItem"; title = "Zoom Viewer 100%"; ObjectID = "149"; */
+"149.title" = "Viewer-Zoom - 100 %";
+
+/* Class = "NSMenuItem"; title = "Zoom Viewer 200%"; ObjectID = "150"; */
+"150.title" = "Viewer-Zoom - 200 %";
+
+/* Class = "NSMenuItem"; title = "Zoom Viewer 400%"; ObjectID = "151"; */
+"151.title" = "Viewer-Zoom - 400 %";
+

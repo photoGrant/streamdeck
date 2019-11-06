@@ -1,0 +1,231 @@
+/* Class = "NSTabViewItem"; label = "Collections"; ObjectID = "135"; */
+"135.label" = "Verzamelingen";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "142"; */
+"142.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Add to Favorites"; ObjectID = "143"; */
+"143.title" = "Voeg toe aan Favorieten";
+
+/* Class = "NSMenuItem"; title = "Show in Library"; ObjectID = "145"; */
+"145.title" = "Toon in Bibliotheek";
+
+/* Class = "NSMenuItem"; title = "Delete Collection"; ObjectID = "157"; */
+"157.title" = "Verzameling verwijderen";
+
+/* Class = "NSMenuItem"; title = "Set as Capture Folder"; ObjectID = "160"; */
+"160.title" = "Stel in als Opname Map";
+
+/* Class = "NSMenuItem"; title = "Set as Selects Folder"; ObjectID = "162"; */
+"162.title" = "Stel in als Selectie Map";
+
+/* Class = "NSMenuItem"; title = "Show Info"; ObjectID = "164"; */
+"164.title" = "Toon informatie";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "200"; */
+"200.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "274"; */
+"274.title" = "Soort:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "275"; */
+"275.title" = "Soort:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "276"; */
+"276.title" = "Soort:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "277"; */
+"277.title" = "Soort:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "278"; */
+"278.title" = "Soort:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "279"; */
+"279.title" = "Soort:";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "280"; */
+"280.title" = "Soort:";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "281"; */
+"281.title" = "Map";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "282"; */
+"282.title" = "Map";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "283"; */
+"283.title" = "Map";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "284"; */
+"284.title" = "Map";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "285"; */
+"285.title" = "Map";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "286"; */
+"286.title" = "Map";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "287"; */
+"287.title" = "Map";
+
+/* Class = "NSMenuItem"; title = "Absolute"; ObjectID = "292"; */
+"292.title" = "Absoluut";
+
+/* Class = "NSMenuItem"; title = "Relative to session"; ObjectID = "293"; */
+"293.title" = "Gerelateerd aan Sessie";
+
+/* Class = "NSMenuItem"; title = "Import From Selected Folder"; ObjectID = "302"; */
+"302.title" = "Importeer vanuit geselecteerde map";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "307"; */
+"307.title" = "Toon in Finder";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "311"; */
+"311.title" = "Hernoem";
+
+/* Class = "NSMenuItem"; title = "Set as Output Folder"; ObjectID = "313"; */
+"313.title" = "Stel in als Uitvoer Map";
+
+/* Class = "NSMenuItem"; title = "Set as Session Trash Folder"; ObjectID = "342"; */
+"342.title" = "Stel in als Sessie Prullenbak Map";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Switch Session"; ObjectID = "457"; */
+"457.ibShadowedToolTip" = "Andere Sessie";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New Session..."; ObjectID = "486"; */
+"486.ibShadowedToolTip" = "Nieuwe Sessie...";
+
+/* Class = "NSTextFieldCell"; title = "No Selection"; ObjectID = "543"; */
+"543.title" = "Geen selectie";
+
+/* Class = "NSButtonCell"; title = "Locate..."; ObjectID = "544"; */
+"544.title" = "Lokaliseer…";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "552"; */
+"552.title" = "Soort:";
+
+/* Class = "NSTextFieldCell"; title = "Folder"; ObjectID = "553"; */
+"553.title" = "Map";
+
+/* Class = "NSMenuItem"; title = "Empty Session Trash"; ObjectID = "557"; */
+"557.title" = "Leeg Sessie Prullenbak";
+
+/* Class = "NSMenuItem"; title = "Edit Smart Album"; ObjectID = "568"; */
+"568.title" = "Smart Album aanmaken";
+
+/* Class = "NSMenuItem"; title = "Export"; ObjectID = "624"; */
+"624.title" = "Exporteren";
+
+/* Class = "NSMenu"; title = "Export"; ObjectID = "628"; */
+"628.title" = "Exporteren";
+
+/* Class = "NSMenuItem"; title = "Originals…"; ObjectID = "629"; */
+"629.title" = "Originelen…";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "696"; */
+"696.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Export Images"; ObjectID = "699"; */
+"699.title" = "Exporteer afbeeldingen";
+
+/* Class = "NSMenuItem"; title = "Edit Collection"; ObjectID = "702"; */
+"702.title" = "Verzameling bewerken";
+
+/* Class = "NSMenuItem"; title = "Empty Catalog Trash"; ObjectID = "703"; */
+"703.title" = "Leeg Catalogus Prullenbak";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "708"; */
+"708.title" = "Hernoem";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "710"; */
+"710.title" = "Toon in Finder";
+
+/* Class = "NSMenuItem"; title = "Show Info"; ObjectID = "716"; */
+"716.title" = "Toon informatie";
+
+/* Class = "NSMenuItem"; title = "Set as Selects Collection"; ObjectID = "718"; */
+"718.title" = "Stel in als Selectie Verzameling";
+
+/* Class = "NSMenuItem"; title = "Set as Capture Collection"; ObjectID = "719"; */
+"719.title" = "Stel in als Opname Verzameling";
+
+/* Class = "NSMenuItem"; title = "Delete Collection"; ObjectID = "721"; */
+"721.title" = "Verzameling verwijderen";
+
+/* Class = "NSMenu"; title = "Export Images"; ObjectID = "725"; */
+"725.title" = "Exporteer afbeeldingen";
+
+/* Class = "NSMenuItem"; title = "Originals…"; ObjectID = "726"; */
+"726.title" = "Originelen…";
+
+/* Class = "NSMenuItem"; title = "Show Folders Hierarchy"; ObjectID = "818"; */
+"818.title" = "Toon mappenhiërarchie";
+
+/* Class = "NSMenuItem"; title = "Locate..."; ObjectID = "823"; */
+"823.title" = "Lokaliseer…";
+
+/* Class = "NSMenuItem"; title = "Sort By Name"; ObjectID = "827"; */
+"827.title" = "Sorteren op naam";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "866"; */
+"866.title" = "Nieuw";
+
+/* Class = "NSMenu"; title = "New"; ObjectID = "867"; */
+"867.title" = "Nieuw";
+
+/* Class = "NSMenuItem"; title = "New Album"; ObjectID = "869"; */
+"869.title" = "Nieuw Album";
+
+/* Class = "NSMenuItem"; title = "New Smart Album..."; ObjectID = "871"; */
+"871.title" = "Nieuw Smart Album…";
+
+/* Class = "NSMenuItem"; title = "New Project"; ObjectID = "873"; */
+"873.title" = "Nieuw Project";
+
+/* Class = "NSMenuItem"; title = "New Group"; ObjectID = "875"; */
+"875.title" = "Nieuwe Groep";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "879"; */
+"879.title" = "Nieuw";
+
+/* Class = "NSMenu"; title = "New"; ObjectID = "880"; */
+"880.title" = "Nieuw";
+
+/* Class = "NSMenuItem"; title = "New Album"; ObjectID = "882"; */
+"882.title" = "Nieuw Album";
+
+/* Class = "NSMenuItem"; title = "New Smart Album..."; ObjectID = "884"; */
+"884.title" = "Nieuw Smart Album…";
+
+/* Class = "NSMenuItem"; title = "Folder"; ObjectID = "886"; */
+"886.title" = "Map";
+
+/* Class = "NSMenuItem"; title = "Add Folder..."; ObjectID = "896"; */
+"896.title" = "Map toevoegen...";
+
+/* Class = "NSMenuItem"; title = "Hide Info"; ObjectID = "901"; */
+"901.title" = "Informatie verbergen";
+
+/* Class = "NSMenuItem"; title = "Variants…"; ObjectID = "916"; */
+"916.title" = "Varianten…";
+
+/* Class = "NSMenuItem"; title = "Variants…"; ObjectID = "919"; */
+"919.title" = "Varianten…";
+
+/* Class = "NSMenuItem"; title = "Sort Albums and Favorites By Name"; ObjectID = "921"; */
+"921.title" = "Sorteer Albums en Favorieten op naam";
+
+/* Class = "NSMenuItem"; title = "Synchronize..."; ObjectID = "924"; */
+"924.title" = "Synchroniseren...";
+
+/* Class = "NSMenuItem"; title = "Export as Catalog..."; ObjectID = "927"; */
+"927.title" = "Exporteren als Catalogus";
+
+/* Class = "NSMenuItem"; title = "Import"; ObjectID = "931"; */
+"931.title" = "Importeren";
+
+/* Class = "NSMenu"; title = "Import"; ObjectID = "932"; */
+"932.title" = "Importeren";
+
+/* Class = "NSMenuItem"; title = "Import To Selected Folder"; ObjectID = "934"; */
+"934.title" = "Importeer naar geselecteerde map";
+

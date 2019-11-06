@@ -1,0 +1,15 @@
+/* Class = "NSTextFieldCell"; title = "Create Keyword Library"; ObjectID = "79R-nN-oDy"; */
+"79R-nN-oDy.title" = "創建關鍵字庫";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "gyz-LJ-JDy"; */
+"gyz-LJ-JDy.title" = "取消";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter new library name..."; ObjectID = "pCn-a3-tK3"; */
+"pCn-a3-tK3.placeholderString" = "輸入新的圖庫名";
+
+/* Class = "NSButtonCell"; title = "Create"; ObjectID = "vDr-5V-UVq"; */
+"vDr-5V-UVq.title" = "創建";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "wGG-Fx-gKo"; */
+"wGG-Fx-gKo.title" = "窗口";
+

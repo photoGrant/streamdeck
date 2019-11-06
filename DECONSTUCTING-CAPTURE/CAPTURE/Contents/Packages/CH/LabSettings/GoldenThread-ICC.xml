@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------------------------------------------------------------
+  Settings: use specified illuminant as white-point, no adaptation
+  ---------------------------------------------------------------------------->
+
+<whitepoint>illuminant</whitepoint>
+<adaptation>none</adaptation>
+<flag>none</flag>
+
+<!----------------------------------------------------------------------------
+   Description(s) (ISO 639-2/T)
+  ---------------------------------------------------------------------------->
+
+<metadata key="GoldenThread-ICC" order="20">
+<description lang="eng" title="GoldenThread (ICC)">
+L*a*b* conversion compatible with Golden Thread by Image Science Associates (ICC profile).
+
+Golden Thread, by Image Science Associates, can analyze an image using either an ICC profile or a built-in specification of a standard color space.
+
+Use this option to be compatible with an analysis based on an ICC profile.
+</description>
+</metadata>

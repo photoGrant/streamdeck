@@ -1,0 +1,15 @@
+/* Class = "NSWindow"; title = "Saving Batch Job Files"; ObjectID = "5"; */
+"5.title" = "Zapisywanie plików zadania seryjnego";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayPattern = "Saved %{value1}@ of %{value2}@ batch jobs"; ObjectID = "27"; */
+"27.ibShadowedDisplayPattern" = "Zapisano %{value1}@ z %{value2}@ zadań seryjnych";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayPattern = "Saved %{value1}@ of %{value2}@ batch jobs"; ObjectID = "28"; */
+"28.ibShadowedDisplayPattern" = "Zapisano %{value1}@ z %{value2}@ zadań seryjnych";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "30"; */
+"30.title" = "Zamknij";
+
+/* Class = "NSTextFieldCell"; title = "saving x of N batch jobs"; ObjectID = "31"; */
+"31.title" = "zapisywanie x z N zadań seryjnych";
+

@@ -1,0 +1,632 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***************************************/
+html {
+	height: 100%;
+}
+body {
+	color: white;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	background-color: black;
+	height: 100%;
+}
+
+
+/***************************************/
+/* Utils */
+.spinner {
+	background: url(spinner.png) no-repeat;
+	width: 50px; height: 50px;
+	position: absolute;
+	left: 50%; top:50%;
+}
+.spinner span { display: none; }
+
+/***************************************/
+/* Viewer */
+
+#viewer-container {
+	display: none;
+	position: fixed;
+	top:0px; left:0px; 
+	height: 100%; width: 100%;
+	z-index: 100;
+	background-color: #000; /*rgba(0, 0, 0, 0.9);*/
+	
+	xoutline: 1px solid green;
+}
+#viewer-container .preview {
+	margin: auto;
+	position: relative;
+	text-align: center;
+	
+	height: 100%;
+	xoutline: 1px solid red;
+}
+#viewer-container .preview .preview-image, #viewer-container .preview .temp-preview {
+	max-height: 100%; max-width: 100%;
+	cursor: pointer;
+	margin: auto;
+	display: block;
+}
+/* wide image in thin window - center vertically */
+#viewer-container .preview.preview-wider .preview-image, #viewer-container .preview.preview-wider .temp-preview {
+	width: 100%; height: auto;
+	position: absolute;
+	top: 0; bottom: 0; left:0;
+}
+/* thin image in wide window - center horizantally */
+#viewer-container .preview.preview-taller .preview-image, #viewer-container .preview.preview-taller .temp-preview {
+	height: 100%; width: auto;
+}
+
+#viewer-container .toolbar {
+	position: absolute; 
+	top: 0px; left: 0px;
+	width: 100%;
+	z-index: 100;
+	xbackground-color:rgba(0,0,0,0.5);
+	xopacity: 0.9;
+}
+#preview-title {
+	padding-right: 100px; padding-left: 100px; /* width of next/prev buttons */
+	text-overflow: ellipsis; 
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+/***************************************/
+/* Browser */
+
+#browser-container {
+	xmin-width: 760px; /* 2 large thumbs wide */
+	height: 100%;
+	position: relative;
+	overflow: auto;
+}
+
+#collection-title {
+	padding-right: 121px; padding-left: 121px; /* width of size buttons */
+	text-overflow: ellipsis; 
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#no-variants-label {
+	display: none;
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	color: #666;
+}
+
+#thumbnail-container {
+	margin: auto;
+	overflow: hidden;
+	
+	padding-left: 10px;	padding-right: 10px;
+	padding-top: 10px;	padding-bottom: 10px;
+	xmax-width: 1110px;
+	xdisplay: none;
+}
+
+#thumbnail-container .thumbnail {
+	xoutline: 1px solid purple;
+	
+	float: left;
+	text-align: center;
+}
+
+#thumbnail-container .thumbnail-image { 
+	xoutline: 1px solid green;
+	position: relative;
+	width: 100%; height: 100%;
+	text-align: center;
+    margin: auto;
+}
+
+#thumbnail-container .thumbnail-image img {
+	xoutline: 1px solid green;
+	
+	display: block;
+	max-height: 100%; max-width: 100%;
+	margin: auto;
+	cursor: pointer;
+	position: relative;
+	outline: 2px solid #ccc;
+    border: 1px solid black;
+}
+#thumbnail-container .thumbnail-image img:hover {
+	outline-color: white;
+}
+/* thumbnail image wider than thumbnail - center vertically */
+#thumbnail-container .thumbnail-image.thumb-wider img {
+	width: 100%; height: auto;
+	position: absolute;
+	top: 0; bottom: 0; left:0;
+}
+/* thin thumbnail image in wide container - center horizantally */
+#thumbnail-container .thumbnail-image.thumb-taller img {
+	height: 100%; width: auto;
+}
+
+#thumbnail-container .thumbnail-label {
+	font-weight: bold;
+	text-overflow: ellipsis; 
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#thumbnail-container .thumbnail-loading {
+	width: 100%; height: 100%;
+	position: absolute; top: 0px; left: 0px;
+	
+	border: 3px dashed white;
+	cursor: pointer;
+}
+
+
+/*change size based on thumbnail container class*/
+/* MEDIUM (default) */
+#thumbnail-container .thumbnail 	{
+	margin-top: 5px; margin-bottom: 10px;
+	margin-left: 5px; margin-right: 5px;
+	padding-left: 3px; padding-right: 3px;/* for border+outline */
+	width:232px;
+}
+#thumbnail-container .thumbnail-image {
+	width:232px; height: 174px;
+	padding-top: 3px;/* for border+outline */
+	padding-bottom: 1px;
+}
+#thumbnail-container .thumbnail-image img {
+	outline-width: 2px;
+}
+#thumbnail-container .thumbnail-loading {
+	border-width: 2px;
+	margin: -2px;	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+#thumbnail-container .thumbnail-label {
+	font-size: 14px;
+	padding-top: 9px;
+}
+
+/* LARGE */
+#thumbnail-container.large .thumbnail 	{
+	margin-top: 6px; margin-bottom: 12px;
+	margin-left: 5px; margin-right: 5px;
+	padding-left: 4px; padding-right: 4px;/* for border+outline */
+	width:360px;
+}
+#thumbnail-container.large .thumbnail-image 	{	
+	width: 360px; height: 270px;
+	padding-top: 4px; /* for border+outline */
+	padding-bottom: 1px;	
+}
+#thumbnail-container.large .thumbnail-image img {
+	outline-width: 3px;
+}
+#thumbnail-container.large .thumbnail-loading {
+	border-width: 3px;
+	margin: -3px;	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+#thumbnail-container.large .thumbnail-label {
+	font-size: 16px;
+	padding-top: 14px;
+}
+
+/* SMALL */
+#thumbnail-container.small .thumbnail 	{
+	margin-top: 4px; margin-bottom: 8px;
+	margin-left: 3px; margin-right: 3px;
+	padding-left: 2px; padding-right: 2px;/* for border+outline */
+	width: 133px;
+}
+#thumbnail-container.small .thumbnail-image 	{
+	padding-top: 2px; /* for border+outline */	
+	padding-bottom: 1px;
+	width: 133px; height: 100px;
+}
+#thumbnail-container.small .thumbnail-image img {
+	outline-width: 1px;
+}
+#thumbnail-container.small .thumbnail-loading {
+	border-width: 2px;
+	margin: -2px;	
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+#thumbnail-container.small .thumbnail-label {
+	font-size: 12px;
+	padding-top: 6px;
+}
+
+
+
+/***************************************/
+/* Generic Toolbar stuff */
+
+.toolbar {
+	position: relative;
+	line-height: 44px;
+	height: 44px;
+	background: url(toolbar.png) repeat-x;
+	text-shadow: #000 0px -1px;
+}
+.toolbar h1, .toolbar h2 {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.toolbar .left-btns {
+	position: absolute;
+	top: 0px; left: 0px;
+	xoutline: 1px solid red;
+}
+.toolbar .right-btns {
+	position: absolute;
+	top: 0px; right: 0px;
+	xborder: 1px solid red;
+}
+
+#back-btn {
+	margin-top: 7px; margin-bottom: 7px;
+	margin-left:5px; margin-right:10px;
+	padding-left:16px; padding-right:5px;
+	
+	height: 30px; line-height: 30px;
+	position: relative;
+	background: url(backBtn.png) no-repeat 0px 0px transparent;
+	cursor: pointer;
+	font-size: 15px; font-weight: bold;
+}
+#back-btn:after {
+	content: "";
+	position:absolute;
+	right: -9px; top: 0px;
+	
+	background: url(backBtn.png) no-repeat -88px 0px transparent;
+	width: 10px; height: 30px;
+}
+
+#prev-variant-button, #next-variant-button {
+	background: url(prevNextBtn.png) no-repeat 0 0 transparent;
+	height: 44px; width: 48px;
+	float: left;
+	cursor: pointer;
+}
+#prev-variant-button span, #next-variant-button span { display: none; }
+
+#prev-variant-button {
+	background-position: 0px 0px;
+}
+#next-variant-button {
+	background-position: -48px 0px;
+}
+#prev-variant-button.disabled, #next-variant-button.disabled {
+	cursor: default;
+	opacity: 0.5;
+}
+
+.thumb-size-btns {
+	margin-left: 7px; margin-right: 7px; 
+}
+.thumb-size-btns .thumb-size-btn {
+	cursor: pointer;
+	position: relative;
+	width: 36px; height:44px; line-height: 44px;
+	float: left;
+	background: url(thumbSizeBtn.png) no-repeat 0px 0px transparent;
+}
+.thumb-size-btns .thumb-size-btn.active { cursor: default; z-index: 10; }
+.thumb-size-btns .thumb-size-btn:hover { z-index: 10; }
+.thumb-size-btns .thumb-size-btn span { display: none; }
+
+.thumb-size-btns .small-btn { background-position: 0px 0px;}
+.thumb-size-btns .small-btn:hover, .thumb-size-btns .small-btn.active { background-position: 0px -44px; }
+
+.thumb-size-btns .medium-btn { background-position: -35px 0px; width:37px; margin-left: -1px; margin-right: -1px; }
+.thumb-size-btns .medium-btn:hover, .thumb-size-btns .medium-btn.active { background-position: -35px -44px; }
+
+.thumb-size-btns .large-btn { background-position: -71px 0px; }
+.thumb-size-btns .large-btn:hover, .thumb-size-btns .large-btn.active { background-position: -71px -44px; }
+
+
+/***************************************/
+/* Warnings */
+
+#overlay-container {
+	position: fixed;
+	width: 100%; height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	z-index:1000;
+}
+#overlay-container .warning {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 100%;
+}
+#overlay-container .warning h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: bold;
+	text-shadow: #fb6 0px -1px;	
+	color: #f0962a;	
+}
+
+#overlay-container .warning p {
+	font-size: 18px;
+    font-weight: bold;
+	color: #bf791d;
+}
+#overlay-container .warning a {
+	color: #f0962a;
+	text-decoration: none;
+}
+#overlay-container .warning a:hover {
+	text-decoration: underline;
+}
+
+
+/***************************************/
+/* Login Authentication */
+
+#login-form {
+	position: relative;
+	border: 2px solid #b2b7c2;
+	-moz-border-radius: 10px; /* Firefox */
+ 	-webkit-border-radius: 10px; /* Safari, Chrome */
+	border-radius: 10px; /* CSS3 */
+	
+	padding: 15px;
+	top: 30%;
+	margin-left: auto; margin-right: auto;
+	width: 250px;
+	background-color: #162344;
+	text-align: center;
+}
+#login-form h2 {
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: black 0px -2px;	
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+#login-form label {
+	font-size: 15px;
+	margin-bottom: 10px;
+	display: block;
+}
+#login-form input[type="password"] {
+	font-size: 18px;
+	color: white;
+	border: 1px solid #b2b7c2;
+	background-color: #080d20;
+	width: 100%;
+}
+#login-form input[type="submit"] {
+	background-color: #35415e;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: black 0px -1px;
+	border: 1px solid black;
+	padding: 5px 10px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+#login-form input[type="submit"]:disabled {
+	cursor: default;
+	opacity: 0.5;
+}
+
+
+
+
+/***************************************/
+/* Rating/color tag controls */
+
+.controls {
+	border: 2px solid #a5a5a5;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 2px;
+	position: absolute;
+	bottom: 84px;
+	width: 350px;
+	margin-left: -179px; /*(width+border*2+padding*2)/2*/
+	left: 50%;
+			
+	z-index: 100;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#rating-control {
+	overflow: hidden;
+}
+#rating-control.disabled {
+	opacity: 0.5;
+}
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+#rating-control:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+/*not selected*/
+#rating-control:not(:checked) > label {
+    float:right;
+    position: relative;
+    overflow:hidden;
+    cursor:pointer;
+    width: 42px; height: 42px;
+	text-align: center;
+	padding-left: 2px;
+	color: #b5b5b5;
+	font-size: 18px;
+}
+#rating-control:not(:checked) > label:before {
+	content: "\2022"; /*•*/
+	line-height: 46px;
+	display: block; 
+	width: 100%; height: 100%;
+}
+#rating-control:not(:checked) > label > span {
+	visibility: hidden;
+}
+#rating-control:not(:checked).disabled > label {
+	cursor: default;
+}
+	
+#rating-control:not(:checked) > label:last-child:before {
+	content: "";
+}
+
+/*unfortunately need a bugfix to get around mobile webkit issue with sibling selector.
+These following 2 lines fix the issue. See http://css-tricks.com/8439-webkit-sibling-bug/ */
+body { -webkit-animation: bugfix infinite 1s; }
+@-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } }
+
+/*selected*/
+#rating-control:not(:checked) > input:checked ~ label:not(:last-child):before {
+	content: "\2605"; /*★*/
+	font-size: 42px;
+	line-height: 42px;
+	color: white;
+}
+/*not selected (hover)*/
+#rating-control:not(:checked):not(.disabled) > label:hover:not(:last-child):before,
+#rating-control:not(:checked):not(.disabled) > label:hover ~ label:not(:last-child):before {
+	content: "\2606";/*☆*/
+	font-size: 38px;
+	line-height: 42px;
+	color: #ff9100;
+}
+/*selected (hover)*/
+#rating-control:not(.disabled) > input:checked + label:hover:not(:last-child):before,
+#rating-control:not(.disabled) > input:checked + label:hover ~ label:not(:last-child):before,
+#rating-control:not(.disabled) > input:checked ~ label:hover:not(:last-child):before,
+#rating-control:not(.disabled) > input:checked ~ label:hover ~ label:not(:last-child):before,
+#rating-control:not(.disabled) > label:hover ~ input:checked ~ label:not(:last-child):before {
+	content: "\2605"; /*★*/
+	font-size: 42px;
+	line-height: 42px;
+	color: #ff9100;
+}
+
+/* click down action */
+#rating-control:not(.disabled) > label:active,
+#rating-control:not(.disabled) > label:active ~ label {
+    position:relative;
+    top:2px;
+    xleft:2px;
+}
+
+
+#colortag-control {
+	position: absolute;
+	top:0px; left: 42px;
+	margin-top: 2px; margin-left: 2px;
+}
+#colortag-control.disabled li {
+	cursor: default;
+	border-color: #808080;
+}
+
+#colortag-control li {
+	border: 2px solid white;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width:38px; height:38px;
+	float:left;
+	
+    cursor:pointer;
+	text-indent:-9999px;
+	margin-left: 2px;
+}
+.active-tag { 
+	margin: 0px !important;
+	left: -42px;
+	position: absolute;
+}
+#colortag-control:not(.open) li:not(.active-tag),
+#colortag-control.disabled li:not(.active-tag)
+{
+	display:none;
+}
+.clear-tag { background-color: rgba(0,0,0,0.5); border: 1px dotted white !important; padding:1px;}
+.red-tag { background-color: #f25d43/*#ff0000*/; }
+.orange-tag { background-color: #f2a44b/*#ff7200*/; }
+.yellow-tag { background-color: #eeec52/*#feff00*/; }
+.green-tag { background-color: #67eb50/*#00ff00*/; }
+.blue-tag { background-color: #58a5ef/*#1e00ff*/; }
+.pink-tag { background-color: #ff00ff; }
+.purple-tag { background-color: #970081; }
+#colortag-control.open li:not(:hover) {
+	border-color: #e5e5e5;
+}

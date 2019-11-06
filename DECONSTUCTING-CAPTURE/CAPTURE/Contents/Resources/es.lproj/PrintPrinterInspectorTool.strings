@@ -1,0 +1,66 @@
+/* Class = "NSView"; 3dW-cS-b1R.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Resolution"; ObjectID = "3dW-cS-b1R"; */
+"3dW-cS-b1R.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Resolución";
+
+/* Class = "NSMenuItem"; title = "Perceptual"; ObjectID = "4Ph-0t-5Fg"; */
+"4Ph-0t-5Fg.title" = "Perceptual";
+
+/* Class = "NSView"; 9jP-nY-nN9.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Color Profile"; ObjectID = "9jP-nY-nN9"; */
+"9jP-nY-nN9.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Perfil de color";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Menú";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Printer name"; ObjectID = "468"; */
+"468.ibShadowedToolTip" = "Nombre de impresora";
+
+/* Class = "NSTextFieldCell"; title = "Canon printer model xxx"; ObjectID = "469"; */
+"469.title" = "No se puede imprimir modelo xxx";
+
+/* Class = "NSTextFieldCell"; title = "Paper"; ObjectID = "489"; */
+"489.title" = "Papel";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Paper size"; ObjectID = "505"; */
+"505.ibShadowedToolTip" = "tamaño de papel";
+
+/* Class = "NSTextFieldCell"; title = "A4"; ObjectID = "506"; */
+"506.title" = "A4";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Page Setup panel"; ObjectID = "508"; */
+"508.ibShadowedToolTip" = "Abrir ventana de ajustes";
+
+/* Class = "NSButtonCell"; title = "Page Setup..."; ObjectID = "509"; */
+"509.title" = "Ajustar página";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open Print Settings panel"; ObjectID = "513"; */
+"513.ibShadowedToolTip" = "Abrir el panel de ajustes de impresión";
+
+/* Class = "NSButtonCell"; title = "Print Settings..."; ObjectID = "514"; */
+"514.title" = "ajustes de impresión...";
+
+/* Class = "NSTextFieldCell"; title = "Sharpening"; ObjectID = "544"; */
+"544.title" = "Enfoque";
+
+/* Class = "NSButtonCell"; title = "Black Point Compensation"; ObjectID = "556"; */
+"556.title" = "Compensación de punto negro";
+
+/* Class = "NSTextFieldCell"; title = "color management text color management text color management text color management text color management text "; ObjectID = "558"; */
+"558.title" = "color management text color management text color management text color management text color management text";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Sharpening"; ObjectID = "566"; */
+"566.ibShadowedToolTip" = "Enfoque";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Sharpening"; ObjectID = "567"; */
+"567.ibShadowedToolTip" = "Enfoque";
+
+/* Class = "NSView"; ET4-fo-ERU.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Rend. Intent"; ObjectID = "ET4-fo-ERU"; */
+"ET4-fo-ERU.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Propósito de conversión";
+
+/* Class = "NSMenuItem"; title = "Absolute Colorimetric"; ObjectID = "HNV-gP-la6"; */
+"HNV-gP-la6.title" = "Colorimétrico absoluto";
+
+/* Class = "NSMenuItem"; title = "Relative Colorimetric"; ObjectID = "T1L-jb-aXq"; */
+"T1L-jb-aXq.title" = "Colorimétrico relativo";
+
+/* Class = "NSMenuItem"; title = "Saturation"; ObjectID = "vIk-s2-hue"; */
+"vIk-s2-hue.title" = "Saturación";
+

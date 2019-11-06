@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ContactSheetController">
+            <connections>
+                <outlet property="_buttonsView" destination="520" id="Mfw-Ry-kZS"/>
+                <outlet property="_captionPopUp" destination="352" id="536"/>
+                <outlet property="_contactField" destination="282" id="302"/>
+                <outlet property="_contactLinkField" destination="287" id="303"/>
+                <outlet property="_jpegQualitySlider" destination="288" id="351"/>
+                <outlet property="_previewSizeSlider" destination="268" id="305"/>
+                <outlet property="_sheetDescriptionField" destination="278" id="308"/>
+                <outlet property="_sheetTitleField" destination="284" id="309"/>
+                <outlet property="_themesPopUp" destination="293" id="310"/>
+                <outlet property="_thumbnailSizeSlider" destination="283" id="350"/>
+                <outlet property="_transportPopUp" destination="396" id="443"/>
+                <outlet property="buttonsView" destination="520" id="PZK-MT-RVS"/>
+                <outlet property="imagesLabel" destination="370" id="0Md-TX-BqU"/>
+                <outlet property="layoutLabel" destination="371" id="tGc-L6-v6k"/>
+                <outlet property="outputLabel" destination="388" id="unE-30-eE7"/>
+                <outlet property="textLabel" destination="369" id="WEn-PD-19m"/>
+                <outlet property="webView" destination="9VB-7t-C7b" id="YXL-CA-EYJ"/>
+                <outlet property="window" destination="265" id="336"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Panel" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="265" userLabel="Contact Sheet" customClass="ContactSheetPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="281" y="238" width="880" height="721"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
+            <value key="minSize" type="size" width="760" height="620"/>
+            <view key="contentView" id="266" customClass="COUIContentView">
+                <rect key="frame" x="0.0" y="0.0" width="880" height="721"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="267" customClass="ContactSheetContentView">
+                        <rect key="frame" x="0.0" y="34" width="280" height="687"/>
+                        <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                        <subviews>
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="382" customClass="ContactSheetContentView">
+                                <rect key="frame" x="0.0" y="619" width="280" height="68"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="365" customClass="BarView">
+                                        <rect key="frame" x="0.0" y="44" width="279" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <subviews>
+                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="371">
+                                                <rect key="frame" x="7" y="4" width="129" height="18"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Layout" id="469" customClass="COUITextFieldCell">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="533">
+                                                <rect key="frame" x="260" y="4" width="16" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="inspector_tool_help_off" imagePosition="overlaps" alignment="center" alternateImage="inspector_tool_help_on" imageScaling="proportionallyDown" inset="2" id="534">
+                                                    <behavior key="behavior" lightByContents="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                                <connections>
+                                                    <action selector="openHelpPageLayout:" target="-2" id="3MM-z3-bDs"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </customView>
+                                    <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="293" customClass="POPopUpButton">
+                                        <rect key="frame" x="98" y="12" width="174" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <popUpButtonCell key="cell" type="push" title=" " bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="295" id="468">
+                                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <menu key="menu" title="OtherViews" id="294">
+                                                <items>
+                                                    <menuItem title=" " state="on" id="295"/>
+                                                </items>
+                                            </menu>
+                                        </popUpButtonCell>
+                                        <connections>
+                                            <action selector="applyTheme:" target="-2" id="332"/>
+                                        </connections>
+                                    </popUpButton>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="271">
+                                        <rect key="frame" x="2" y="16" width="84" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Theme" id="465" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                            </customView>
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="380" customClass="ContactSheetContentView">
+                                <rect key="frame" x="0.0" y="408" width="280" height="211"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="361" customClass="BarView">
+                                        <rect key="frame" x="0.0" y="188" width="279" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <subviews>
+                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="369">
+                                                <rect key="frame" x="7" y="3" width="129" height="18"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Text" id="455" customClass="COUITextFieldCell">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CoX-8G-uPo">
+                                                <rect key="frame" x="260" y="4" width="16" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="inspector_tool_help_off" imagePosition="overlaps" alignment="center" alternateImage="inspector_tool_help_on" imageScaling="proportionallyDown" inset="2" id="A5v-jQ-JbP">
+                                                    <behavior key="behavior" lightByContents="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                                <connections>
+                                                    <action selector="openHelpPageText:" target="-2" id="vT7-rb-atV"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </customView>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="278">
+                                        <rect key="frame" x="100" y="55" width="172" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" controlSize="small" selectable="YES" editable="YES" state="on" borderStyle="border" placeholderString="Enter description" drawsBackground="YES" id="449" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </textFieldCell>
+                                        <connections>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.description" id="315"/>
+                                            <outlet property="delegate" destination="-2" id="325"/>
+                                        </connections>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="281">
+                                        <rect key="frame" x="2" y="7" width="84" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Web Link" id="451" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField toolTip="Enter Contact link (e.g. mailto:photographer@phaseone.com or http://www.phaseone.com)" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="287">
+                                        <rect key="frame" x="100" y="7" width="172" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" borderStyle="border" placeholderString="Enter web or mail link" drawsBackground="YES" id="454" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </textFieldCell>
+                                        <connections>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.contactLink" id="317"/>
+                                            <outlet property="delegate" destination="-2" id="327"/>
+                                        </connections>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="274">
+                                        <rect key="frame" x="2" y="31" width="84" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Copyright" id="448" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField toolTip="Enter name as it should be displayed" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="282">
+                                        <rect key="frame" x="100" y="31" width="172" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" borderStyle="border" placeholderString="Enter contact" drawsBackground="YES" id="452" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </textFieldCell>
+                                        <connections>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.contact" id="316"/>
+                                            <outlet property="delegate" destination="-2" id="326"/>
+                                        </connections>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="270">
+                                        <rect key="frame" x="2" y="137" width="84" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Description" id="447" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="284">
+                                        <rect key="frame" x="100" y="161" width="172" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" borderStyle="border" placeholderString="Enter title" drawsBackground="YES" id="453" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </textFieldCell>
+                                        <connections>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.title" id="314"/>
+                                            <outlet property="delegate" destination="-2" id="324"/>
+                                        </connections>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="280">
+                                        <rect key="frame" x="2" y="161" width="84" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Title" id="450" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                            </customView>
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="381" customClass="ContactSheetContentView">
+                                <rect key="frame" x="0.0" y="275" width="280" height="133"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="363" customClass="BarView">
+                                        <rect key="frame" x="0.0" y="110" width="279" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <subviews>
+                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="370">
+                                                <rect key="frame" x="7" y="3" width="129" height="18"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Images" id="464" customClass="COUITextFieldCell">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aP9-lz-obd">
+                                                <rect key="frame" x="260" y="4" width="16" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="inspector_tool_help_off" imagePosition="overlaps" alignment="center" alternateImage="inspector_tool_help_on" imageScaling="proportionallyDown" inset="2" id="2fS-nk-h3x">
+                                                    <behavior key="behavior" lightByContents="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                                <connections>
+                                                    <action selector="openHelpPageImages:" target="-2" id="Geh-70-Afg"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </customView>
+                                    <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="352" customClass="POPopUpButton">
+                                        <rect key="frame" x="98" y="78" width="174" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <popUpButtonCell key="cell" type="push" title=" " bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="354" id="463" customClass="COUIPopUpButtonCell">
+                                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <menu key="menu" title="OtherViews" id="353">
+                                                <items>
+                                                    <menuItem title=" " state="on" id="354"/>
+                                                </items>
+                                            </menu>
+                                        </popUpButtonCell>
+                                        <connections>
+                                            <action selector="applyCaptionString:" target="-2" id="357"/>
+                                            <binding destination="-2" name="selectedValue" keyPath="contactSheet.captionFormatString" id="356"/>
+                                        </connections>
+                                    </popUpButton>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="277">
+                                        <rect key="frame" x="2" y="82" width="84" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Caption" id="459" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="285">
+                                        <rect key="frame" x="2" y="10" width="84" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Quality" id="461" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="288" customClass="POSlider">
+                                        <rect key="frame" x="97" y="9" width="126" height="19"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <sliderCell key="cell" alignment="left" minValue="20" maxValue="100" doubleValue="60" tickMarkPosition="below" sliderType="linear" id="462" customClass="POSliderCell"/>
+                                        <connections>
+                                            <action selector="sliderValueDidChange:" target="-2" id="331"/>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.jpegQuality" id="321"/>
+                                            <outlet property="formatter" destination="375" id="378"/>
+                                        </connections>
+                                    </slider>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="276">
+                                        <rect key="frame" x="2" y="34" width="84" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Preview Size" id="458" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="268" customClass="POSlider">
+                                        <rect key="frame" x="97" y="33" width="126" height="19"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <sliderCell key="cell" alignment="left" minValue="600" maxValue="2400" doubleValue="1500" tickMarkPosition="below" sliderType="linear" id="456" customClass="POSliderCell"/>
+                                        <connections>
+                                            <action selector="sliderValueDidChange:" target="-2" id="330"/>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.previewDim" id="320"/>
+                                            <outlet property="formatter" destination="375" id="377"/>
+                                        </connections>
+                                    </slider>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="269">
+                                        <rect key="frame" x="2" y="58" width="84" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Thumbnail Size" id="457" customClass="COUITextFieldCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="283" customClass="POSlider">
+                                        <rect key="frame" x="97" y="57" width="126" height="19"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <sliderCell key="cell" continuous="YES" alignment="left" minValue="100" maxValue="240" doubleValue="160" tickMarkPosition="below" sliderType="linear" id="460" customClass="POSliderCell"/>
+                                        <connections>
+                                            <action selector="sliderValueDidChange:" target="-2" id="329"/>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.thumbnailDim" id="319"/>
+                                            <outlet property="formatter" destination="375" id="376"/>
+                                        </connections>
+                                    </slider>
+                                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j7A-8f-Njb" userLabel="Inspector Text Field - Exposure" customClass="InspectorTextField">
+                                        <rect key="frame" x="227" y="58" width="46" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" drawsBackground="YES" id="9AO-Mq-nhD" customClass="COUITextFieldCell">
+                                            <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0px" negativeFormat="-0px" hasThousandSeparators="NO" thousandSeparator="," id="sbm-hO-4kV">
+                                                <decimal key="minimum" value="NaN"/>
+                                                <decimal key="maximum" value="NaN"/>
+                                            </numberFormatter>
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                                        </textFieldCell>
+                                        <accessibility description="exposureField"/>
+                                        <connections>
+                                            <binding destination="-2" name="maxValue" keyPath="contactSheet.maxThumbnailDim" id="Tin-AP-cZh"/>
+                                            <binding destination="-2" name="minValue" keyPath="contactSheet.minThumbnailDim" previousBinding="Tin-AP-cZh" id="k3X-4e-9AV"/>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.thumbnailDim" previousBinding="k3X-4e-9AV" id="Boc-uE-LrO"/>
+                                        </connections>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nlh-z2-0hN" userLabel="Inspector Text Field - Brightness" customClass="InspectorTextField">
+                                        <rect key="frame" x="227" y="34" width="46" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" drawsBackground="YES" id="WdE-m1-vPE" customClass="COUITextFieldCell">
+                                            <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0px" negativeFormat="-0px" hasThousandSeparators="NO" thousandSeparator="," id="Hp8-wX-Uh9">
+                                                <attributedString key="attributedStringForZero">
+                                                    <fragment content="0"/>
+                                                </attributedString>
+                                                <decimal key="minimum" value="NaN"/>
+                                                <decimal key="maximum" value="NaN"/>
+                                            </numberFormatter>
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                                        </textFieldCell>
+                                        <accessibility description="brightnessField"/>
+                                        <connections>
+                                            <binding destination="-2" name="maxValue" keyPath="contactSheet.maxPreviewDim" id="08F-Ux-Oze"/>
+                                            <binding destination="-2" name="minValue" keyPath="contactSheet.minPreviewDim" previousBinding="08F-Ux-Oze" id="u3n-Qu-ZfR"/>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.previewDim" previousBinding="u3n-Qu-ZfR" id="qMK-1T-rB4"/>
+                                        </connections>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w4n-Fb-zyR" userLabel="Inspector Text Field - Saturation" customClass="InspectorTextField">
+                                        <rect key="frame" x="227" y="10" width="46" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="right" drawsBackground="YES" id="n52-6N-ypO" customClass="COUITextFieldCell">
+                                            <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0%" negativeFormat="-0%" hasThousandSeparators="NO" thousandSeparator="," id="f3s-R3-5hk">
+                                                <attributedString key="attributedStringForZero">
+                                                    <fragment content="0%"/>
+                                                </attributedString>
+                                                <decimal key="minimum" value="NaN"/>
+                                                <decimal key="maximum" value="NaN"/>
+                                            </numberFormatter>
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                                        </textFieldCell>
+                                        <accessibility description="saturationField"/>
+                                        <connections>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.jpegQuality" previousBinding="XFu-Fs-c0m" id="P84-sA-Pe3"/>
+                                            <binding destination="-2" name="maxValue" keyPath="contactSheet.maxJpegQualityDim" id="NRE-FH-T7i"/>
+                                            <binding destination="-2" name="minValue" keyPath="contactSheet.minJpegQualityDim" previousBinding="NRE-FH-T7i" id="XFu-Fs-c0m"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                            </customView>
+                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="386" customClass="ContactSheetContentView">
+                                <rect key="frame" x="0.0" y="128" width="280" height="147"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="387" customClass="BarView">
+                                        <rect key="frame" x="0.0" y="124" width="279" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <subviews>
+                                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="388">
+                                                <rect key="frame" x="7" y="3" width="129" height="18"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Output" id="470" customClass="COUITextFieldCell">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pkg-kc-BRZ">
+                                                <rect key="frame" x="260" y="4" width="16" height="16"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="inspector_tool_help_off" imagePosition="overlaps" alignment="center" alternateImage="inspector_tool_help_on" imageScaling="proportionallyDown" inset="2" id="ldI-ZU-ovn">
+                                                    <behavior key="behavior" lightByContents="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                                <connections>
+                                                    <action selector="openHelpPageOutput:" target="-2" id="5O1-Xj-6Xc"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </customView>
+                                    <tabView fixedFrame="YES" drawsBackground="NO" type="noTabsNoBorder" translatesAutoresizingMaskIntoConstraints="NO" id="402">
+                                        <rect key="frame" x="0.0" y="50" width="279" height="68"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                        <tabViewItems>
+                                            <tabViewItem label="Local" identifier="0" id="405">
+                                                <view key="view" ambiguous="YES" id="406">
+                                                    <rect key="frame" x="0.0" y="0.0" width="279" height="68"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <subviews>
+                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="407">
+                                                            <rect key="frame" x="2" y="48" width="84" height="18"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Path" id="480" customClass="COUITextFieldCell">
+                                                                <font key="font" metaFont="system"/>
+                                                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                        </textField>
+                                                        <button toolTip="Shows result in web-browser" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="409" customClass="POSkinButton">
+                                                            <rect key="frame" x="98" y="-1" width="171" height="16"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <buttonCell key="cell" type="check" title="Show after Export" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="481">
+                                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                            <connections>
+                                                                <binding destination="-2" name="value" keyPath="showOnCompletion" id="411"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="418" customClass="POSkinButton">
+                                                            <rect key="frame" x="251" y="46" width="20" height="23"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                                            <buttonCell key="cell" type="smallSquare" title="…" bezelStyle="smallSquare" alignment="center" controlSize="small" borderStyle="border" inset="2" id="482">
+                                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                            </buttonCell>
+                                                            <connections>
+                                                                <action selector="showExportSheet:" target="-2" id="436"/>
+                                                            </connections>
+                                                        </button>
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="419">
+                                                            <rect key="frame" x="98" y="48" width="151" height="18"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <textFieldCell key="cell" lineBreakMode="truncatingMiddle" selectable="YES" sendsActionOnEndEditing="YES" id="483" customClass="COUITextFieldCell">
+                                                                <font key="font" metaFont="label"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                            <connections>
+                                                                <binding destination="-2" name="value" keyPath="exportPath" id="435">
+                                                                    <dictionary key="options">
+                                                                        <string key="NSNullPlaceholder">--</string>
+                                                                    </dictionary>
+                                                                </binding>
+                                                                <binding destination="-2" name="toolTip" keyPath="exportPath" id="437"/>
+                                                            </connections>
+                                                        </textField>
+                                                    </subviews>
+                                                </view>
+                                            </tabViewItem>
+                                            <tabViewItem label="FTP" identifier="1" id="403">
+                                                <view key="view" id="404">
+                                                    <rect key="frame" x="0.0" y="0.0" width="279" height="68"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <subviews>
+                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="412">
+                                                            <rect key="frame" x="4" y="48" width="80" height="18"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="URL" id="474" customClass="COUITextFieldCell">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                        </textField>
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="413">
+                                                            <rect key="frame" x="100" y="48" width="172" height="18"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                                            <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" placeholderString="Enter full URL to server folder" drawsBackground="YES" id="475" customClass="COUITextFieldCell">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </textFieldCell>
+                                                        </textField>
+                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="414">
+                                                            <rect key="frame" x="4" y="24" width="80" height="18"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Username" id="476" customClass="COUITextFieldCell">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                        </textField>
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="415">
+                                                            <rect key="frame" x="100" y="24" width="172" height="18"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                                            <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" placeholderString="Enter username" drawsBackground="YES" id="477" customClass="COUITextFieldCell">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </textFieldCell>
+                                                        </textField>
+                                                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="416">
+                                                            <rect key="frame" x="4" y="0.0" width="80" height="18"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" title="Password" id="478" customClass="COUITextFieldCell">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                        </textField>
+                                                        <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="417" customClass="NSSecureTextField">
+                                                            <rect key="frame" x="100" y="0.0" width="172" height="18"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                                            <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" placeholderString="Enter password" drawsBackground="YES" id="479" customClass="COUITextFieldCell">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </textFieldCell>
+                                                        </textField>
+                                                    </subviews>
+                                                </view>
+                                            </tabViewItem>
+                                        </tabViewItems>
+                                        <connections>
+                                            <binding destination="-2" name="selectedIndex" keyPath="contactSheet.transportation" id="442"/>
+                                        </connections>
+                                    </tabView>
+                                    <button toolTip="Exports XML and DTD files to the output destination" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="389" customClass="POSkinButton">
+                                        <rect key="frame" x="98" y="29" width="171" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="check" title="Export Photo XML Data" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="471">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <binding destination="-2" name="value" keyPath="contactSheet.includePhotoData" id="438"/>
+                                        </connections>
+                                    </button>
+                                    <popUpButton hidden="YES" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="396" customClass="POPopUpButton">
+                                        <rect key="frame" x="97" y="2" width="175" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <popUpButtonCell key="cell" type="push" title="FTP" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" enabled="NO" state="on" borderStyle="borderAndBezel" tag="1" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="399" id="473">
+                                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <menu key="menu" title="OtherViews" id="397">
+                                                <items>
+                                                    <menuItem title="Local" id="398"/>
+                                                    <menuItem title="FTP" state="on" tag="1" id="399"/>
+                                                </items>
+                                            </menu>
+                                        </popUpButtonCell>
+                                        <connections>
+                                            <binding destination="-2" name="selectedTag" keyPath="contactSheet.transportation" id="441"/>
+                                        </connections>
+                                    </popUpButton>
+                                    <textField hidden="YES" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="394">
+                                        <rect key="frame" x="2" y="2" width="84" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" enabled="NO" sendsActionOnEndEditing="YES" alignment="right" title="Type" id="472">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                            </customView>
+                        </subviews>
+                    </customView>
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="520" customClass="COUIContentView">
+                        <rect key="frame" x="0.0" y="0.0" width="880" height="36"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button toolTip="Show Print panel" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="522" customClass="POSkinButton">
+                                <rect key="frame" x="798" y="1" width="74" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <buttonCell key="cell" type="push" title="Export" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="525">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="sheetOKButtonClick:" target="-2" id="526"/>
+                                </connections>
+                            </button>
+                            <button toolTip="Cancel print" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="523" customClass="POSkinButton">
+                                <rect key="frame" x="710" y="1" width="74" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="524">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="sheetCancelButtonClick:" target="-2" id="527"/>
+                                </connections>
+                            </button>
+                            <progressIndicator wantsLayer="YES" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" style="bar" translatesAutoresizingMaskIntoConstraints="NO" id="521" customClass="POProgressIndicator">
+                                <rect key="frame" x="19" y="7" width="146" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <connections>
+                                    <binding destination="-2" name="hidden" keyPath="contactSheet.isBusy" id="528">
+                                        <dictionary key="options">
+                                            <string key="NSValueTransformerName">NSNegateBoolean</string>
+                                        </dictionary>
+                                    </binding>
+                                    <binding destination="-2" name="value" keyPath="contactSheet.jobsDonePct" id="529"/>
+                                </connections>
+                            </progressIndicator>
+                        </subviews>
+                    </customView>
+                    <customView hidden="YES" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9VB-7t-C7b" customClass="WKWebView">
+                        <rect key="frame" x="280" y="34" width="600" height="687"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </customView>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="499"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="161.5"/>
+        </window>
+        <numberFormatter formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator="." id="375" userLabel="Formatter">
+            <attributedString key="attributedStringForZero">
+                <fragment content="0"/>
+            </attributedString>
+            <decimal key="minimum" value="NaN"/>
+            <decimal key="maximum" value="NaN"/>
+        </numberFormatter>
+    </objects>
+    <resources>
+        <image name="inspector_tool_help_off" width="13" height="13"/>
+        <image name="inspector_tool_help_on" width="13" height="13"/>
+    </resources>
+</document>

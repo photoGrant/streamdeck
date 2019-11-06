@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PrintTemplate>
+  <Version>1</Version>
+  <Margin>
+    <Left>9.8163628465554638</Left>
+    <Top>20.006962092843665</Top>
+    <Right>9.8163628465554638</Right>
+    <Bottom>20.006962092843665</Bottom>
+  </Margin>
+  <Layout>
+    <ResizingRule>1</ResizingRule>
+    <Rows>7</Rows>
+    <Columns>5</Columns>
+    <RowsSpacing>0</RowsSpacing>
+    <ColumnsSpacing>0</ColumnsSpacing>
+    <CellHeight>164.40944881889735</CellHeight>
+    <CellWidth>164.40944881889735</CellWidth>
+    <CellBorder>5.0355100461989952</CellBorder>
+  </Layout>
+  <ImageOptions>
+    <ZoomToFill>false</ZoomToFill>
+    <RotateToFill>false</RotateToFill>
+    <RepeatOneImagePerPage>false</RepeatOneImagePerPage>
+  </ImageOptions>
+  <Annotation>
+    <Type>Filename</Type>
+    <FontName>Tahoma</FontName>
+    <FontSize>7.8</FontSize>
+    <ForegroundColor>Black</ForegroundColor>
+  </Annotation>
+  <Template>
+    <Name>Portrat Square Fit 5x7</Name>
+  </Template>
+</PrintTemplate>

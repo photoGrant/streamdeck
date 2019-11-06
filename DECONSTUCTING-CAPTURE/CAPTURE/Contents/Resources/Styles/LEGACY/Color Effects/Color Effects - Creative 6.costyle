@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<SL Engine="800">
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,0.941"/>
+  <E K="Saturation" V="-9.722"/>
+  <E K="GradationCurveRed" V="0.000,0.000;0.495,0.539;1.000,1.000"/>
+  <E K="Name" V="Color Effects - Creative 6"/>
+  <E K="GradationCurve" V="0.000,0.000;1.000,1.000"/>
+  <E K="Contrast" V="9.722"/>
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000"/>
+  <E K="UUID" V="912E4EB3-1F96-40AB-99BD-361DD5B93697"/>
+</SL>
+

@@ -1,0 +1,30 @@
+/* Class = "NSButtonCell"; title = "Print code"; ObjectID = "1xe-Um-CIL"; */
+"1xe-Um-CIL.title" = "Code Impression";
+
+/* Class = "NSTextFieldCell"; title = "Scanner is set up and ready."; ObjectID = "8DD-xd-Xz5"; */
+"8DD-xd-Xz5.title" = "Scanner installé et prêt.";
+
+/* Class = "NSButtonCell"; title = "Ok"; ObjectID = "ab6-x1-HFX"; */
+"ab6-x1-HFX.title" = "Ok";
+
+/* Class = "NSButtonCell"; title = "Try again"; ObjectID = "BW0-mv-EQA"; */
+"BW0-mv-EQA.title" = "Essayer à nouveau";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "F0m-fq-GYU"; */
+"F0m-fq-GYU.title" = "Annuler";
+
+/* Class = "NSTextFieldCell"; title = "Scan the barcode to configure the scanner."; ObjectID = "FQJ-9d-y3h"; */
+"FQJ-9d-y3h.title" = "Scanner le code-barres pour configurer le scanner.";
+
+/* Class = "NSTextFieldCell"; title = "Error occurred while setting up the scanner."; ObjectID = "ifD-R2-JOJ"; */
+"ifD-R2-JOJ.title" = "Une erreur s’est produite lors de l’installation du scanner.";
+
+/* Class = "NSTextFieldCell"; title = "If you need to use a different scanner you can configure a new one in the … menu"; ObjectID = "Ipa-tx-QXw"; */
+"Ipa-tx-QXw.title" = "Si vous avez besoin d’utiliser un scanner différent, vous pouvez en configurer un nouveau dans le menu …";
+
+/* Class = "NSWindow"; title = "Configure Scanner"; ObjectID = "iQE-CB-bxP"; */
+"iQE-CB-bxP.title" = "Configurer Scanner";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "WZn-5g-bos"; */
+"WZn-5g-bos.title" = "Annuler";
+

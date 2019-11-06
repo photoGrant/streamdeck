@@ -1,0 +1,180 @@
+/* Class = "NSBox"; title = "Catalog and Sessions"; ObjectID = "5br-hq-Ye3"; */
+"5br-hq-Ye3.title" = "Catálogo y Sesión";
+
+/* Class = "NSTextFieldCell"; title = "Status:"; ObjectID = "7cZ-B2-onY"; */
+"7cZ-B2-onY.title" = "Estado:";
+
+/* Class = "NSBox"; title = "Catalog and Sessions"; ObjectID = "59"; */
+"59.title" = "Catálogo y Sesiones";
+
+/* Class = "NSBox"; title = "Favorites"; ObjectID = "60"; */
+"60.title" = "Favoritos";
+
+/* Class = "NSBox"; title = "Packaged File Format"; ObjectID = "66"; */
+"66.title" = "Formato de archivo empaquetado";
+
+/* Class = "NSBox"; title = "Recent Captures Collection"; ObjectID = "67"; */
+"67.title" = "Reciente colección de capturas";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "72"; */
+"72.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "~/Library/Application Support/Capture One/Backups"; ObjectID = "93"; */
+"93.title" = "~/Biblioteca/Soporte de Aplicación/Capture One/Copias de Seguridad";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "96"; */
+"96.title" = "Siempre";
+
+/* Class = "NSMenuItem"; title = "Once a month"; ObjectID = "97"; */
+"97.title" = "Una vez al mes";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "98"; */
+"98.title" = "Nunca";
+
+/* Class = "NSMenuItem"; title = "Once a week"; ObjectID = "99"; */
+"99.title" = "Una vez a la semana";
+
+/* Class = "NSMenuItem"; title = "Once a day"; ObjectID = "100"; */
+"100.title" = "Una vez al día";
+
+/* Class = "NSMenuItem"; title = "Auto"; ObjectID = "105"; */
+"105.title" = "Automático";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "106"; */
+"106.title" = "Nunca";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "107"; */
+"107.title" = "Ubicación:";
+
+/* Class = "NSTextFieldCell"; title = "Remind on close:"; ObjectID = "108"; */
+"108.title" = "Avisar al cerrar:";
+
+/* Class = "NSTextFieldCell"; title = "Processing:"; ObjectID = "109"; */
+"109.title" = "Procesando:";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "112"; */
+"112.title" = "Nunca";
+
+/* Class = "NSMenuItem"; title = "Auto"; ObjectID = "113"; */
+"113.title" = "Automático";
+
+/* Class = "NSTextFieldCell"; title = "Display:"; ObjectID = "114"; */
+"114.title" = "Mostrar:";
+
+/* Class = "NSTextFieldCell"; title = "Hardware Acceleration (Use OpenCL for)"; ObjectID = "115"; */
+"115.title" = "Aceleración de Software (utilizar OpenCL)";
+
+/* Class = "NSTextFieldCell"; title = "Catalog Backup"; ObjectID = "116"; */
+"116.title" = "Copia de seguridad de catálogo";
+
+/* Class = "NSMenuItem"; title = "Always Overwrite Metadata"; ObjectID = "126"; */
+"126.title" = "Siempre sobreescribir metadatos";
+
+/* Class = "NSMenuItem"; title = "Never Overwrite Metadata"; ObjectID = "127"; */
+"127.title" = "no sobreescribir metadatos nunca";
+
+/* Class = "NSMenuItem"; title = "Ask about Overwriting Metadata"; ObjectID = "128"; */
+"128.title" = "Preguntar sobre sobreescribir metadatos";
+
+/* Class = "NSMenuItem"; title = "Create New Album or Select Folder"; ObjectID = "131"; */
+"131.title" = "Crear nuevo Álbum o Carpeta de Seleccionadas";
+
+/* Class = "NSMenuItem"; title = "Create or Reuse Matching Albums"; ObjectID = "132"; */
+"132.title" = "Crear o volver a usar álbumes coincidentes";
+
+/* Class = "NSMenuItem"; title = "Ask when Syncing Catalog Sets"; ObjectID = "133"; */
+"133.title" = "Preguntar cuando se sincronicen los ajustes del catálogo";
+
+/* Class = "NSTextFieldCell"; title = "Metadata and Catalog Set information received from Expression Media may be used to update Images and Albums in Capture One. Select the behavior for each type of information."; ObjectID = "134"; */
+"134.title" = "Catalogo y Metadata. Información recibida de Expression Media puede ser usada para actualizar las imágenes y los álbumes de Capture One. Seleccione el comportamiento para cada tipo de información.";
+
+/* Class = "NSMenuItem"; title = "Ask about Including Subfolders when Adding"; ObjectID = "137"; */
+"137.title" = "Preguntar sobre Incluir subcarpetas al añadir";
+
+/* Class = "NSMenuItem"; title = "Always answer Yes to Include Subfolders dialog"; ObjectID = "138"; */
+"138.title" = "Responder siempre Sí incluir en diálogo de subcarpetas";
+
+/* Class = "NSMenuItem"; title = "Always answer No to Include Subfolders dialog"; ObjectID = "139"; */
+"139.title" = "Responder siempre No incluir en diálogo de subcarpetas";
+
+/* Class = "NSTextFieldCell"; title = "Expression Media"; ObjectID = "140"; */
+"140.title" = "Expression Media";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "141"; */
+"141.title" = "Valores predeterminados";
+
+/* Class = "NSButtonCell"; title = "Zoom with scroll wheel"; ObjectID = "142"; */
+"142.title" = "Zoom con la rueda de desplazaiento";
+
+/* Class = "NSTextFieldCell"; title = "Viewer"; ObjectID = "143"; */
+"143.title" = "Visor";
+
+/* Class = "NSMenuItem"; title = "After more than 5 minutes of inactivity"; ObjectID = "150"; */
+"150.title" = "Después de más de 5 minutos de inactividad";
+
+/* Class = "NSMenuItem"; title = "After more than 10 minutes of inactivity"; ObjectID = "151"; */
+"151.title" = "Después de más de 10 minutos de inactividad";
+
+/* Class = "NSMenuItem"; title = "After more than 30 minutes of inactivity"; ObjectID = "152"; */
+"152.title" = "Después de más de 30 minutos de inactividad";
+
+/* Class = "NSMenuItem"; title = "After more than 1 hour of inactivity"; ObjectID = "153"; */
+"153.title" = "Después de más de 1 hora de inactividad";
+
+/* Class = "NSMenuItem"; title = "After more than 2 hours of inactivity"; ObjectID = "154"; */
+"154.title" = "Después de más de 2 horas de inactividad";
+
+/* Class = "NSMenuItem"; title = "After more than 4 hours of inactivity"; ObjectID = "155"; */
+"155.title" = "Después de más de 4 horas de inactividad";
+
+/* Class = "NSMenuItem"; title = "At the first capture of the day"; ObjectID = "156"; */
+"156.title" = "En la primera captura del día";
+
+/* Class = "NSTextFieldCell"; title = "Create:"; ObjectID = "157"; */
+"157.title" = "Crear:";
+
+/* Class = "NSTextFieldCell"; title = "Recent Captures Collection"; ObjectID = "158"; */
+"158.title" = "Reciente colección de capturas";
+
+/* Class = "NSButtonCell"; title = "Open importer when detecting card from digital camera"; ObjectID = "160"; */
+"160.title" = "Abrir importador cuando se detecte una tarjeta de una cámara digital";
+
+/* Class = "NSTextFieldCell"; title = "Importing"; ObjectID = "161"; */
+"161.title" = "Importando";
+
+/* Class = "NSTextFieldCell"; title = "Activities"; ObjectID = "162"; */
+"162.title" = "Actividades";
+
+/* Class = "NSButtonCell"; title = "Automatically show window"; ObjectID = "163"; */
+"163.title" = "Mostrar ventana automáticamente";
+
+/* Class = "NSTextFieldCell"; title = "Favorites"; ObjectID = "167"; */
+"167.title" = "Favoritos";
+
+/* Class = "NSMenuItem"; title = "Ask About Adding Previous Session Folder to Favorites"; ObjectID = "170"; */
+"170.title" = "Preguntar sobre añadir la carpeta de la sesión previa a favoritos";
+
+/* Class = "NSMenuItem"; title = "Always Add Previous Session Folder to Favorites"; ObjectID = "171"; */
+"171.title" = "Añadir siempre la carpeta de sesión anterior a favoritos";
+
+/* Class = "NSMenuItem"; title = "Never Add Previous Session Folder to Favorites"; ObjectID = "172"; */
+"172.title" = "No añadir nunca la carpeta de sesión previa a favoritos";
+
+/* Class = "NSTextFieldCell"; title = "Catalog and Session"; ObjectID = "176"; */
+"176.title" = "Catálogo y Sesión";
+
+/* Class = "NSButtonCell"; title = "Open in new window"; ObjectID = "177"; */
+"177.title" = "Abrir en una nueva ventana";
+
+/* Class = "NSButtonCell"; title = "Show on Startup"; ObjectID = "jfj-Ks-wpZ"; */
+"jfj-Ks-wpZ.title" = "Mostrar en el Inicio";
+
+/* Class = "NSButtonCell"; title = "Enable Tangent device support"; ObjectID = "PQo-en-IWM"; */
+"PQo-en-IWM.title" = "Habilitar dispositivo Tangent";
+
+/* Class = "NSTextFieldCell"; title = "Resource Hub"; ObjectID = "SpW-MT-i4c"; */
+"SpW-MT-i4c.title" = "Resource Hub";
+
+/* Class = "NSTextFieldCell"; title = "Tangent Integration"; ObjectID = "yng-WN-yJ1"; */
+"yng-WN-yJ1.title" = "Preferencias de Tangent";
+

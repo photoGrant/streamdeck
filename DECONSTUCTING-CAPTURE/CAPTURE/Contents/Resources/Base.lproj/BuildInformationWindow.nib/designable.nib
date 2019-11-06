@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="BuildInformationWindowController">
+            <connections>
+                <outlet property="textView" destination="cQJ-Df-48e" id="WCo-Jh-rJv"/>
+                <outlet property="window" destination="R0t-Eb-EMm" id="N1l-Jm-1E1"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" animationBehavior="default" id="R0t-Eb-EMm">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <rect key="contentRect" x="196" y="240" width="640" height="480"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <value key="minSize" type="size" width="320" height="240"/>
+            <view key="contentView" id="TNp-Pd-Mx4">
+                <rect key="frame" x="0.0" y="0.0" width="640" height="480"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKV-5Y-V0l">
+                        <rect key="frame" x="-1" y="41" width="642" height="440"/>
+                        <clipView key="contentView" drawsBackground="NO" id="sBO-xq-1pk">
+                            <rect key="frame" x="1" y="1" width="640" height="438"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <textView editable="NO" importsGraphics="NO" verticallyResizable="YES" findStyle="panel" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" id="cQJ-Df-48e">
+                                    <rect key="frame" x="0.0" y="0.0" width="640" height="438"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <size key="minSize" width="640" height="438"/>
+                                    <size key="maxSize" width="642" height="10000000"/>
+                                    <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                </textView>
+                            </subviews>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="kDp-kr-irh">
+                            <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="WqY-Sv-tDp">
+                            <rect key="frame" x="625" y="1" width="16" height="438"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                    </scrollView>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7A9-dl-6gU">
+                        <rect key="frame" x="553" y="2" width="82" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="yCy-vU-CwK"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bH6-df-Yqj">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="closeWindow:" target="-2" id="ZJ5-GP-CKf"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="oKV-5Y-V0l" secondAttribute="bottom" constant="41" id="3Mj-NU-aGy"/>
+                    <constraint firstItem="oKV-5Y-V0l" firstAttribute="top" secondItem="TNp-Pd-Mx4" secondAttribute="top" constant="-1" id="SCm-na-Cbn"/>
+                    <constraint firstItem="oKV-5Y-V0l" firstAttribute="leading" secondItem="TNp-Pd-Mx4" secondAttribute="leading" constant="-1" id="Tc9-c6-0Bs"/>
+                    <constraint firstAttribute="bottom" secondItem="7A9-dl-6gU" secondAttribute="bottom" constant="9" id="Xr7-Cp-WEc"/>
+                    <constraint firstAttribute="trailing" secondItem="oKV-5Y-V0l" secondAttribute="trailing" constant="-1" id="XrT-cI-gk7"/>
+                    <constraint firstAttribute="trailing" secondItem="7A9-dl-6gU" secondAttribute="trailing" constant="11" id="iId-9P-W4u"/>
+                </constraints>
+            </view>
+        </window>
+    </objects>
+</document>

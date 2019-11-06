@@ -1,0 +1,402 @@
+/* Class = "NSWindow"; title = "Window"; ObjectID = "21"; */
+"21.title" = "Window";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Leave field blank to remain anomymous"; ObjectID = "268"; */
+"268.ibShadowedToolTip" = "익명 상태를 유지하려면 필드를 비워 둡니다.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Leave field blank to remain anomymous"; ObjectID = "269"; */
+"269.ibShadowedToolTip" = "익명 상태를 유지하려면 필드를 비워 둡니다.";
+
+/* Class = "NSTabViewItem"; label = "Crash Report"; ObjectID = "282"; */
+"282.label" = "충돌 보고서";
+
+/* Class = "NSTabViewItem"; label = "Logs"; ObjectID = "283"; */
+"283.label" = "로그";
+
+/* Class = "NSTextFieldCell"; title = "Problem Description:"; ObjectID = "297"; */
+"297.title" = "문제 설명:";
+
+/* Class = "NSButtonCell"; title = "Send Report"; ObjectID = "298"; */
+"298.title" = "Send Report";
+
+/* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "311"; */
+"311.title" = "AMainMenu";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "312"; */
+"312.title" = "도움말";
+
+/* Class = "NSMenuItem"; title = "Format"; ObjectID = "313"; */
+"313.title" = "형식";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "314"; */
+"314.title" = "보기";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "315"; */
+"315.title" = "파일";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "316"; */
+"316.title" = "편집";
+
+/* Class = "NSMenuItem"; title = "Crash Reporter"; ObjectID = "317"; */
+"317.title" = "Crash Reporter";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "318"; */
+"318.title" = "Window";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "319"; */
+"319.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "320"; */
+"320.title" = "최소화";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "321"; */
+"321.title" = "줌";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "322"; */
+"322.title" = "모두 맨 앞으로 가져오기";
+
+/* Class = "NSMenu"; title = "Crash Reporter"; ObjectID = "324"; */
+"324.title" = "Crash Reporter";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "325"; */
+"325.title" = "다른 항목 숨기기";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "327"; */
+"327.title" = "서비스";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "330"; */
+"330.title" = "환경설정...";
+
+/* Class = "NSMenuItem"; title = "Quit Crash Reporter"; ObjectID = "332"; */
+"332.title" = "Quit Crash Reporter";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "333"; */
+"333.title" = "모두 표시";
+
+/* Class = "NSMenuItem"; title = "Hide Crash Reporter"; ObjectID = "334"; */
+"334.title" = "Hide Crash Reporter";
+
+/* Class = "NSMenuItem"; title = "About Crash Reporter"; ObjectID = "335"; */
+"335.title" = "About Crash Reporter";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "336"; */
+"336.title" = "서비스";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "337"; */
+"337.title" = "편집";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "338"; */
+"338.title" = "Paste and Match Style";
+
+/* Class = "NSMenuItem"; title = "Transformations"; ObjectID = "339"; */
+"339.title" = "Transformations";
+
+/* Class = "NSMenuItem"; title = "Substitutions"; ObjectID = "340"; */
+"340.title" = "Substitutions";
+
+/* Class = "NSMenuItem"; title = "Speech"; ObjectID = "341"; */
+"341.title" = "Speech";
+
+/* Class = "NSMenuItem"; title = "Spelling and Grammar"; ObjectID = "342"; */
+"342.title" = "Spelling and Grammar";
+
+/* Class = "NSMenuItem"; title = "Find"; ObjectID = "343"; */
+"343.title" = "찾기";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "344"; */
+"344.title" = "다시 실행";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "346"; */
+"346.title" = "복사";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "347"; */
+"347.title" = "붙여넣기";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "348"; */
+"348.title" = "잘라내기";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "350"; */
+"350.title" = "실행 취소";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "351"; */
+"351.title" = "모두 선택";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "352"; */
+"352.title" = "삭제";
+
+/* Class = "NSMenu"; title = "Find"; ObjectID = "353"; */
+"353.title" = "찾기";
+
+/* Class = "NSMenuItem"; title = "Find and Replace…"; ObjectID = "354"; */
+"354.title" = "Find and Replace…";
+
+/* Class = "NSMenuItem"; title = "Find…"; ObjectID = "355"; */
+"355.title" = "Find…";
+
+/* Class = "NSMenuItem"; title = "Find Next"; ObjectID = "356"; */
+"356.title" = "Find Next";
+
+/* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "357"; */
+"357.title" = "Use Selection for Find";
+
+/* Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "358"; */
+"358.title" = "Jump to Selection";
+
+/* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "359"; */
+"359.title" = "Find Previous";
+
+/* Class = "NSMenu"; title = "Spelling and Grammar"; ObjectID = "360"; */
+"360.title" = "Spelling and Grammar";
+
+/* Class = "NSMenuItem"; title = "Correct Spelling Automatically"; ObjectID = "361"; */
+"361.title" = "Correct Spelling Automatically";
+
+/* Class = "NSMenuItem"; title = "Check Grammar With Spelling"; ObjectID = "363"; */
+"363.title" = "Check Grammar With Spelling";
+
+/* Class = "NSMenuItem"; title = "Show Spelling and Grammar"; ObjectID = "364"; */
+"364.title" = "Show Spelling and Grammar";
+
+/* Class = "NSMenuItem"; title = "Check Document Now"; ObjectID = "365"; */
+"365.title" = "Check Document Now";
+
+/* Class = "NSMenuItem"; title = "Check Spelling While Typing"; ObjectID = "366"; */
+"366.title" = "Check Spelling While Typing";
+
+/* Class = "NSMenu"; title = "Speech"; ObjectID = "367"; */
+"367.title" = "Speech";
+
+/* Class = "NSMenuItem"; title = "Start Speaking"; ObjectID = "368"; */
+"368.title" = "Start Speaking";
+
+/* Class = "NSMenuItem"; title = "Stop Speaking"; ObjectID = "369"; */
+"369.title" = "Stop Speaking";
+
+/* Class = "NSMenu"; title = "Substitutions"; ObjectID = "370"; */
+"370.title" = "Substitutions";
+
+/* Class = "NSMenuItem"; title = "Text Replacement"; ObjectID = "371"; */
+"371.title" = "Text Replacement";
+
+/* Class = "NSMenuItem"; title = "Smart Dashes"; ObjectID = "372"; */
+"372.title" = "Smart Dashes";
+
+/* Class = "NSMenuItem"; title = "Show Substitutions"; ObjectID = "374"; */
+"374.title" = "Show Substitutions";
+
+/* Class = "NSMenuItem"; title = "Smart Links"; ObjectID = "375"; */
+"375.title" = "Smart Links";
+
+/* Class = "NSMenuItem"; title = "Smart Quotes"; ObjectID = "376"; */
+"376.title" = "Smart Quotes";
+
+/* Class = "NSMenuItem"; title = "Smart Copy/Paste"; ObjectID = "377"; */
+"377.title" = "Smart Copy/Paste";
+
+/* Class = "NSMenu"; title = "Transformations"; ObjectID = "378"; */
+"378.title" = "Transformations";
+
+/* Class = "NSMenuItem"; title = "Capitalize"; ObjectID = "379"; */
+"379.title" = "Capitalize";
+
+/* Class = "NSMenuItem"; title = "Make Lower Case"; ObjectID = "380"; */
+"380.title" = "Make Lower Case";
+
+/* Class = "NSMenuItem"; title = "Make Upper Case"; ObjectID = "381"; */
+"381.title" = "Make Upper Case";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "382"; */
+"382.title" = "파일";
+
+/* Class = "NSMenuItem"; title = "Revert to Saved"; ObjectID = "384"; */
+"384.title" = "Revert to Saved";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "386"; */
+"386.title" = "닫기";
+
+/* Class = "NSMenuItem"; title = "Page Setup..."; ObjectID = "387"; */
+"387.title" = "페이지 설정...";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "388"; */
+"388.title" = "최근 자료 열기";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "389"; */
+"389.title" = "신규";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "390"; */
+"390.title" = "열기...";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "391"; */
+"391.title" = "출력...";
+
+/* Class = "NSMenuItem"; title = "Save…"; ObjectID = "392"; */
+"392.title" = "Save…";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "393"; */
+"393.title" = "최근 자료 열기";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "394"; */
+"394.title" = "메뉴 지우기";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "395"; */
+"395.title" = "보기";
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "396"; */
+"396.title" = "도구 모음 사용자 지정...";
+
+/* Class = "NSMenuItem"; title = "Show Toolbar"; ObjectID = "397"; */
+"397.title" = "Show Toolbar";
+
+/* Class = "NSMenu"; title = "Format"; ObjectID = "398"; */
+"398.title" = "형식";
+
+/* Class = "NSMenuItem"; title = "Text"; ObjectID = "399"; */
+"399.title" = "Text";
+
+/* Class = "NSMenuItem"; title = "Font"; ObjectID = "400"; */
+"400.title" = "글꼴";
+
+/* Class = "NSMenu"; title = "Font"; ObjectID = "401"; */
+"401.title" = "글꼴";
+
+/* Class = "NSMenuItem"; title = "Paste Style"; ObjectID = "402"; */
+"402.title" = "Paste Style";
+
+/* Class = "NSMenuItem"; title = "Copy Style"; ObjectID = "403"; */
+"403.title" = "Copy Style";
+
+/* Class = "NSMenuItem"; title = "Show Colors"; ObjectID = "405"; */
+"405.title" = "Show Colors";
+
+/* Class = "NSMenuItem"; title = "Baseline"; ObjectID = "407"; */
+"407.title" = "Baseline";
+
+/* Class = "NSMenuItem"; title = "Ligatures"; ObjectID = "408"; */
+"408.title" = "Ligatures";
+
+/* Class = "NSMenuItem"; title = "Kern"; ObjectID = "409"; */
+"409.title" = "Kern";
+
+/* Class = "NSMenuItem"; title = "Smaller"; ObjectID = "411"; */
+"411.title" = "더 작게";
+
+/* Class = "NSMenuItem"; title = "Bigger"; ObjectID = "412"; */
+"412.title" = "Bigger";
+
+/* Class = "NSMenuItem"; title = "Underline"; ObjectID = "414"; */
+"414.title" = "Underline";
+
+/* Class = "NSMenuItem"; title = "Italic"; ObjectID = "415"; */
+"415.title" = "Italic";
+
+/* Class = "NSMenuItem"; title = "Bold"; ObjectID = "416"; */
+"416.title" = "Bold";
+
+/* Class = "NSMenuItem"; title = "Show Fonts"; ObjectID = "417"; */
+"417.title" = "Show Fonts";
+
+/* Class = "NSMenu"; title = "Kern"; ObjectID = "418"; */
+"418.title" = "Kern";
+
+/* Class = "NSMenuItem"; title = "Loosen"; ObjectID = "419"; */
+"419.title" = "Loosen";
+
+/* Class = "NSMenuItem"; title = "Tighten"; ObjectID = "420"; */
+"420.title" = "Tighten";
+
+/* Class = "NSMenuItem"; title = "Use None"; ObjectID = "421"; */
+"421.title" = "Use None";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "422"; */
+"422.title" = "Use Default";
+
+/* Class = "NSMenu"; title = "Ligatures"; ObjectID = "423"; */
+"423.title" = "Ligatures";
+
+/* Class = "NSMenuItem"; title = "Use All"; ObjectID = "424"; */
+"424.title" = "Use All";
+
+/* Class = "NSMenuItem"; title = "Use None"; ObjectID = "425"; */
+"425.title" = "Use None";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "426"; */
+"426.title" = "Use Default";
+
+/* Class = "NSMenu"; title = "Baseline"; ObjectID = "427"; */
+"427.title" = "Baseline";
+
+/* Class = "NSMenuItem"; title = "Lower"; ObjectID = "428"; */
+"428.title" = "Lower";
+
+/* Class = "NSMenuItem"; title = "Raise"; ObjectID = "429"; */
+"429.title" = "Raise";
+
+/* Class = "NSMenuItem"; title = "Subscript"; ObjectID = "430"; */
+"430.title" = "Subscript";
+
+/* Class = "NSMenuItem"; title = "Superscript"; ObjectID = "431"; */
+"431.title" = "Superscript";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "432"; */
+"432.title" = "Use Default";
+
+/* Class = "NSMenu"; title = "Text"; ObjectID = "433"; */
+"433.title" = "Text";
+
+/* Class = "NSMenuItem"; title = "Paste Ruler"; ObjectID = "434"; */
+"434.title" = "Paste Ruler";
+
+/* Class = "NSMenuItem"; title = "Copy Ruler"; ObjectID = "435"; */
+"435.title" = "Copy Ruler";
+
+/* Class = "NSMenuItem"; title = "Show Ruler"; ObjectID = "436"; */
+"436.title" = "Show Ruler";
+
+/* Class = "NSMenuItem"; title = "Writing Direction"; ObjectID = "438"; */
+"438.title" = "Writing Direction";
+
+/* Class = "NSMenuItem"; title = "Align Right"; ObjectID = "440"; */
+"440.title" = "Align Right";
+
+/* Class = "NSMenuItem"; title = "Justify"; ObjectID = "441"; */
+"441.title" = "Justify";
+
+/* Class = "NSMenuItem"; title = "Center"; ObjectID = "442"; */
+"442.title" = "Center";
+
+/* Class = "NSMenuItem"; title = "Align Left"; ObjectID = "443"; */
+"443.title" = "Align Left";
+
+/* Class = "NSMenu"; title = "Writing Direction"; ObjectID = "444"; */
+"444.title" = "Writing Direction";
+
+/* Class = "NSMenuItem"; title = "\tRight to Left"; ObjectID = "445"; */
+"445.title" = "	Right to Left";
+
+/* Class = "NSMenuItem"; title = "\tLeft to Right"; ObjectID = "446"; */
+"446.title" = "	Left to Right";
+
+/* Class = "NSMenuItem"; title = "\tDefault"; ObjectID = "447"; */
+"447.title" = "	Default";
+
+/* Class = "NSMenuItem"; title = "Selection"; ObjectID = "448"; */
+"448.title" = "선택사항";
+
+/* Class = "NSMenuItem"; title = "\tRight to Left"; ObjectID = "450"; */
+"450.title" = "	Right to Left";
+
+/* Class = "NSMenuItem"; title = "\tLeft to Right"; ObjectID = "451"; */
+"451.title" = "	Left to Right";
+
+/* Class = "NSMenuItem"; title = "\tDefault"; ObjectID = "452"; */
+"452.title" = "	Default";
+
+/* Class = "NSMenuItem"; title = "Paragraph"; ObjectID = "453"; */
+"453.title" = "Paragraph";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "454"; */
+"454.title" = "도움말";
+
+/* Class = "NSMenuItem"; title = "Crash Reporter Help"; ObjectID = "455"; */
+"455.title" = "Crash Reporter Help";
+

@@ -1,0 +1,30 @@
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerMetadataCreatorTitle"; ObjectID = "7"; */
+"7.ibExternalAccessibilityDescription" = "importerMetadataCreatorTitle";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerMetadataCopyrightTitle"; ObjectID = "10"; */
+"10.ibExternalAccessibilityDescription" = "importerMetadataCopyrightTitle";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerMetadataCopyrightTextField"; ObjectID = "15"; */
+"15.ibExternalAccessibilityDescription" = "importerMetadataCopyrightTextField";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "importerMetadataCreatorTextField"; ObjectID = "16"; */
+"16.ibExternalAccessibilityDescription" = "importerMetadataCreatorTextField";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "49"; */
+"49.title" = "Меню";
+
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "50"; */
+"50.title" = "Сбросить инструмент";
+
+/* Class = "NSTextFieldCell"; title = "Description"; ObjectID = "57"; */
+"57.title" = "Описание";
+
+/* Class = "NSTextFieldCell"; title = "Copyright"; ObjectID = "58"; */
+"58.title" = "Авторские права";
+
+/* Class = "NSTextFieldCell"; title = "My Copyright"; ObjectID = "59"; */
+"59.title" = "Мои авторские права";
+
+/* Class = "NSTextFieldCell"; title = "My Description"; ObjectID = "60"; */
+"60.title" = "Мое описание";
+

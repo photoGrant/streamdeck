@@ -1,0 +1,69 @@
+/* Class = "NSMenuItem"; title = "Solid"; ObjectID = "121"; */
+"121.title" = "实心";
+
+/* Class = "NSMenuItem"; title = "Pinstripe"; ObjectID = "122"; */
+"122.title" = "细条纹";
+
+/* Class = "NSMenuItem"; title = "Dark"; ObjectID = "129"; */
+"129.title" = "暗";
+
+/* Class = "NSMenuItem"; title = "Black"; ObjectID = "130"; */
+"130.title" = "黑色";
+
+/* Class = "NSMenuItem"; title = "Medium"; ObjectID = "134"; */
+"134.title" = "中";
+
+/* Class = "NSMenuItem"; title = "Light"; ObjectID = "135"; */
+"135.title" = "灯光";
+
+/* Class = "NSMenuItem"; title = "White"; ObjectID = "136"; */
+"136.title" = "白";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "257"; */
+"257.title" = "默认设置";
+
+/* Class = "NSTextFieldCell"; title = "Pattern:"; ObjectID = "258"; */
+"258.title" = "模式:";
+
+/* Class = "NSTextFieldCell"; title = "Color:"; ObjectID = "260"; */
+"260.title" = "色彩:";
+
+/* Class = "NSTextFieldCell"; title = "Margin:"; ObjectID = "262"; */
+"262.title" = "证明:";
+
+/* Class = "NSTextFieldCell"; title = "px"; ObjectID = "263"; */
+"263.title" = "px";
+
+/* Class = "NSTextFieldCell"; title = "Viewer"; ObjectID = "265"; */
+"265.title" = "查看器";
+
+/* Class = "NSTextFieldCell"; title = "Viewer and Browser"; ObjectID = "266"; */
+"266.title" = "查看器和浏览器";
+
+/* Class = "NSTextFieldCell"; title = "Proof Margin:"; ObjectID = "269"; */
+"269.title" = "校样幅度:";
+
+/* Class = "NSTextFieldCell"; title = "px"; ObjectID = "270"; */
+"270.title" = "px";
+
+/* Class = "NSTextFieldCell"; title = "Mask Color:"; ObjectID = "277"; */
+"277.title" = "遮罩颜色:";
+
+/* Class = "NSTextFieldCell"; title = "Layers"; ObjectID = "289"; */
+"289.title" = "图层";
+
+/* Class = "NSBox"; title = "Proof Margin"; ObjectID = "293"; */
+"293.title" = "校样幅度";
+
+/* Class = "NSBox"; title = "Local Adjustments"; ObjectID = "295"; */
+"295.title" = "本地调整";
+
+/* Class = "NSMenuItem"; title = "Very Dark"; ObjectID = "B1a-vD-sUX"; */
+"B1a-vD-sUX.title" = "非常黑";
+
+/* Class = "NSTextFieldCell"; title = "Compare Variant Color:"; ObjectID = "drf-G9-VYV"; */
+"drf-G9-VYV.title" = "比较变体色彩:";
+
+/* Class = "NSTextFieldCell"; title = "Selected Variant Color:"; ObjectID = "RSD-oE-2ka"; */
+"RSD-oE-2ka.title" = "已选择变体色彩:";
+

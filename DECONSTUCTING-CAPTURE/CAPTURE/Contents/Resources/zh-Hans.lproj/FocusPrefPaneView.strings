@@ -1,0 +1,15 @@
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "6"; */
+"6.title" = "默认设置";
+
+/* Class = "NSTextFieldCell"; title = "Threshold:"; ObjectID = "10"; */
+"10.title" = "阈值:";
+
+/* Class = "NSTextFieldCell"; title = "Focus Mask"; ObjectID = "14"; */
+"14.title" = "焦点遮罩";
+
+/* Class = "NSTextFieldCell"; title = "Color:"; ObjectID = "17"; */
+"17.title" = "色彩:";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "30"; */
+"30.title" = "不透明度:";
+

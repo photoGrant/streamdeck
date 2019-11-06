@@ -1,0 +1,12 @@
+/* Class = "NSWindow"; title = "Save Workspace"; ObjectID = "1"; */
+"1.title" = "작업공간 저장";
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "6"; */
+"6.title" = "이름:";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "12"; */
+"12.title" = "저장";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "14"; */
+"14.title" = "취소";
+

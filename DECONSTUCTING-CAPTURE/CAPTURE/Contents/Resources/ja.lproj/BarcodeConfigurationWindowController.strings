@@ -1,0 +1,30 @@
+/* Class = "NSButtonCell"; title = "Print code"; ObjectID = "1xe-Um-CIL"; */
+"1xe-Um-CIL.title" = "コードをプリント";
+
+/* Class = "NSTextFieldCell"; title = "Scanner is set up and ready."; ObjectID = "8DD-xd-Xz5"; */
+"8DD-xd-Xz5.title" = "スキャナーのセットアップと準備が完了。";
+
+/* Class = "NSButtonCell"; title = "Ok"; ObjectID = "ab6-x1-HFX"; */
+"ab6-x1-HFX.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Try again"; ObjectID = "BW0-mv-EQA"; */
+"BW0-mv-EQA.title" = "再度試す";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "F0m-fq-GYU"; */
+"F0m-fq-GYU.title" = "キャンセル";
+
+/* Class = "NSTextFieldCell"; title = "Scan the barcode to configure the scanner."; ObjectID = "FQJ-9d-y3h"; */
+"FQJ-9d-y3h.title" = "バーコードをスキャンしてスキャナーを設定。";
+
+/* Class = "NSTextFieldCell"; title = "Error occurred while setting up the scanner."; ObjectID = "ifD-R2-JOJ"; */
+"ifD-R2-JOJ.title" = "スキャナーセットアップ中にエラーが発生。";
+
+/* Class = "NSTextFieldCell"; title = "If you need to use a different scanner you can configure a new one in the … menu"; ObjectID = "Ipa-tx-QXw"; */
+"Ipa-tx-QXw.title" = "別のスキャナーを使用する場合は … メニューで新しいスキャナーを設定できます。";
+
+/* Class = "NSWindow"; title = "Configure Scanner"; ObjectID = "iQE-CB-bxP"; */
+"iQE-CB-bxP.title" = "スキャナー設定";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "WZn-5g-bos"; */
+"WZn-5g-bos.title" = "キャンセル";
+

@@ -1,0 +1,30 @@
+/* Class = "NSTabViewItem"; label = "Master"; ObjectID = "5lG-eN-fCI"; */
+"5lG-eN-fCI.label" = "Главная";
+
+/* Class = "NSTabViewItem"; label = "Midtone"; ObjectID = "Bs3-jA-dvw"; */
+"Bs3-jA-dvw.label" = "Полутона";
+
+/* Class = "NSTabViewItem"; label = "3-Way"; ObjectID = "EHx-YA-rBt"; */
+"EHx-YA-rBt.label" = "3-Way";
+
+/* Class = "NSTabViewItem"; label = "Shadow"; ObjectID = "MoH-21-5NK"; */
+"MoH-21-5NK.label" = "Тень";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[0] = "Master"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[0]" = "Главная";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[1] = "3-Way"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[1]" = "3-Way";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[2] = "Shadow"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[2]" = "Тень";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[3] = "Midtone"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[3]" = "Полутона";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[4] = "Highlight"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[4]" = "Свет";
+
+/* Class = "NSTabViewItem"; label = "Highlight"; ObjectID = "z8d-ju-ndv"; */
+"z8d-ju-ndv.label" = "Свет";
+

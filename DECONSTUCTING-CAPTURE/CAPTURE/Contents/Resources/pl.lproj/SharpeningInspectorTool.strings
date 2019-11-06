@@ -1,0 +1,27 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "158"; */
+"158.title" = "Menu";
+
+/* Class = "NSView"; Bxk-2e-NaG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Amount"; ObjectID = "Bxk-2e-NaG"; */
+"Bxk-2e-NaG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Zakres";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Amount. Controls the amount of sharpening."; ObjectID = "Bxk-2e-NaG"; */
+"Bxk-2e-NaG.ibShadowedToolTip" = "Siła wyostrzania. Kontrola siły wyostrzania.";
+
+/* Class = "NSView"; MFJ-3v-Pqa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "MFJ-3v-Pqa"; */
+"MFJ-3v-Pqa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Promień";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Radius. Set the pixel radius of the sharpening kernel."; ObjectID = "MFJ-3v-Pqa"; */
+"MFJ-3v-Pqa.ibShadowedToolTip" = "Promień wyostrzania. Ustaw średnicę wyostrzania w pikselach.";
+
+/* Class = "NSView"; SPM-3K-Lvp.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Threshold"; ObjectID = "SPM-3K-Lvp"; */
+"SPM-3K-Lvp.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Próg";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Threshold. Determines the lower threshold where no sharpening is performed."; ObjectID = "SPM-3K-Lvp"; */
+"SPM-3K-Lvp.ibShadowedToolTip" = "Próg wyostrzania. Determinuje dolny próg, od którego żadne wyostrzanie nie jest wykonywane.";
+
+/* Class = "NSView"; YWb-mP-DhK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Halo suppression"; ObjectID = "YWb-mP-DhK"; */
+"YWb-mP-DhK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Likwidacja efektu halo";
+
+/* Class = "NSView"; ibShadowedToolTip = "Halo suppression."; ObjectID = "YWb-mP-DhK"; */
+"YWb-mP-DhK.ibShadowedToolTip" = "Likwidacja efektu halo.";
+

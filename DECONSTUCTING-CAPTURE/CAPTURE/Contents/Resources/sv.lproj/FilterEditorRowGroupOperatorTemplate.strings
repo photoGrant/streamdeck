@@ -1,0 +1,15 @@
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "4"; */
+"4.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Match"; ObjectID = "225"; */
+"225.title" = "Kombinera";
+
+/* Class = "NSTextFieldCell"; title = "of these rules"; ObjectID = "227"; */
+"227.title" = "av dessa regler";
+
+/* Class = "NSMenuItem"; title = "Any"; ObjectID = "234"; */
+"234.title" = "Vilken som";
+
+/* Class = "NSMenuItem"; title = "All"; ObjectID = "235"; */
+"235.title" = "Alla";
+

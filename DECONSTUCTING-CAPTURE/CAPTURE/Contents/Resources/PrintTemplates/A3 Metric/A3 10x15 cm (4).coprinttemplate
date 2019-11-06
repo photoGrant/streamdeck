@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PrintTemplate>
+  <Version>1</Version>
+  <Margin>
+    <Left>70.866141732283467</Left>
+    <Top>102.04724409448825</Top>
+    <Right>70.866141732283467</Right>
+    <Bottom>102.04724409448825</Bottom>
+  </Margin>
+  <Layout>
+    <ResizingRule>0</ResizingRule>
+    <Rows>2</Rows>
+    <Columns>2</Columns>
+    <RowsSpacing>136.39187694159088</RowsSpacing>
+    <ColumnsSpacing>133.01855246476273</ColumnsSpacing>
+    <CellHeight>425.19685039370069</CellHeight>
+    <CellWidth>283.464566929134</CellWidth>
+    <CellBorder>0</CellBorder>
+  </Layout>
+  <ImageOptions>
+    <ZoomToFill>true</ZoomToFill>
+    <RotateToFill>true</RotateToFill>
+    <RepeatOneImagePerPage>false</RepeatOneImagePerPage>
+  </ImageOptions>
+  <Annotation>
+    <Type>None</Type>
+    <FontName>Tahoma</FontName>
+    <FontSize>8</FontSize>
+    <ForegroundColor></ForegroundColor>
+  </Annotation>
+  <Template>
+    <Name>A3 10x15 cm (4)</Name>
+  </Template>
+</PrintTemplate>

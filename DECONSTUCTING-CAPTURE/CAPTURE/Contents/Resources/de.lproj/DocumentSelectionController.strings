@@ -1,0 +1,33 @@
+/* Class = "NSButton"; ibShadowedToolTip = "A Session is a quick and light weight way to work with a limited number of images for a single job or event. Images can be edited by browsing to their location on disk or by importing them into the session."; ObjectID = "37"; */
+"37.ibShadowedToolTip" = "Eine Sitzung ist eine schnelle und einfache Art mit einer begrenzten Anzahl an Bildern oder einem einzelnen Auftrag zu arbeiten. Bilder können bearbeitet werden indem Sie den Ordner anwählen indem sich die Bilddateien befinden oder Sie importieren die Bilder in die Sitzung.";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "54"; */
+"54.title" = "Abbrechen";
+
+/* Class = "NSButtonCell"; title = "New Session..."; ObjectID = "55"; */
+"55.title" = "Neue Sitzung...";
+
+/* Class = "NSButtonCell"; title = "Browse..."; ObjectID = "173"; */
+"173.title" = "Durchsuchen...";
+
+/* Class = "NSButtonCell"; title = "Open"; ObjectID = "176"; */
+"176.title" = "Öffnen";
+
+/* Class = "NSTableColumn"; headerCell.title = "Recent Sessions"; ObjectID = "183"; */
+"183.headerCell.title" = "Kürzlich verwendete Sitzung";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "186"; */
+"186.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "No recent catalogs or sessions"; ObjectID = "208"; */
+"208.title" = "Keine zuletzt verwendeten Kataloge oder Sitzungen";
+
+/* Class = "NSTextFieldCell"; title = "Recents"; ObjectID = "219"; */
+"219.title" = "Letzte";
+
+/* Class = "NSButton"; ibShadowedToolTip = "A Catalog is the best place to store and organize your entire image library. To work with images in a catalog, they need to be imported by the catalog. Recommended for most photographers."; ObjectID = "221"; */
+"221.ibShadowedToolTip" = "Ein Katalog ist der beste Ort um Ihre gesamte Bildbibliothek zu organisieren und zu speichern. Um mit Bildern im Katalog arbeiten zu können, müssen Sie diese in den Katalog importieren. Empfohlen für die meisten Fotografen.";
+
+/* Class = "NSButtonCell"; title = "New Catalog..."; ObjectID = "222"; */
+"222.title" = "Neuer Katalog...";
+

@@ -1,0 +1,117 @@
+/* Class = "NSButtonCell"; title = "Express Fujifilm"; ObjectID = "1lY-4A-L8N"; */
+"1lY-4A-L8N.title" = "Express Fujifilm";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set free to use for Phase One camera owners"; ObjectID = "2t8-ed-tAH"; */
+"2t8-ed-tAH.title" = "Phase One 카메라 소유주가 사용할 수 있는 전체 피처(feature) 세트";
+
+/* Class = "NSTextFieldCell"; title = "If you have a license code, activate your copy of Capture One here."; ObjectID = "5db-lo-jOp"; */
+"5db-lo-jOp.title" = "라이센스 코드를 가지고 있다면 여기에서 Capture One를 활성화 하십시오.";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set with support for Fujifilm cameras only"; ObjectID = "7Tq-YB-19b"; */
+"7Tq-YB-19b.title" = "Fujifilm 카메라만을 지원하는 전체 피처(feature) 세트";
+
+/* Class = "NSTextFieldCell"; title = "Welcome to Capture One"; ObjectID = "9PV-u2-QhQ"; */
+"9PV-u2-QhQ.title" = "Capture One을 시작합니다";
+
+/* Class = "NSTextFieldCell"; title = "Select your version"; ObjectID = "9wB-00-OeE"; */
+"9wB-00-OeE.title" = "당신의 캡처원 버전을 선택하십시오";
+
+/* Class = "NSButtonCell"; title = "Catalogs"; ObjectID = "77"; */
+"77.title" = "카탈록";
+
+/* Class = "NSButtonCell"; title = "Sessions"; ObjectID = "78"; */
+"78.title" = "세션";
+
+/* Class = "NSTextFieldCell"; title = "Workflow for single focus projects. Make one project for every job. Ideal for production and tethered shooting."; ObjectID = "172"; */
+"172.title" = "싱글 포커스 프로젝트를 위한 워크플로.\n모든 작업을 위해 하나의 프로젝트를 만드십시오. 프로덕션과 연결촬영에 이상적입니다.";
+
+/* Class = "NSTextFieldCell"; title = "Workflow for large projects. Store and organize everything in one place. Ideal for travel and archive."; ObjectID = "174"; */
+"174.title" = "대형 프로젝트를 위한 워크플로우.\n한 곳에 모든 것을 저장하고 정리하십시오. 여행과 아카이브에 이상적입니다.";
+
+/* Class = "NSWindow"; title = "Software License"; ObjectID = "176"; */
+"176.title" = "소프트웨어 라이센스";
+
+/* Class = "NSButtonCell"; title = "Accept"; ObjectID = "186"; */
+"186.title" = "동의함";
+
+/* Class = "NSButtonCell"; title = "Print…"; ObjectID = "187"; */
+"187.title" = "출력...";
+
+/* Class = "NSButtonCell"; title = "I accept the terms and conditions of the license agreement"; ObjectID = "188"; */
+"188.title" = "라이센스 계약 내용에 동의합니다.";
+
+/* Class = "NSButtonCell"; title = "Decline"; ObjectID = "189"; */
+"189.title" = "동의 안 함";
+
+/* Class = "NSButtonCell"; title = "More options"; ObjectID = "732-ZN-aJb"; */
+"732-ZN-aJb.title" = "더 많은 옵션";
+
+/* Class = "NSTextFieldCell"; title = "Custom solutions for Cultural Heritage imaging"; ObjectID = "ASI-Va-Pu4"; */
+"ASI-Va-Pu4.title" = "Cultural Heritage 이미지를 위한 커스텀 솔루션";
+
+/* Class = "NSTextFieldCell"; title = "Free version of Capture One with support for Fujifilm cameras only"; ObjectID = "Ed6-Af-Adf"; */
+"Ed6-Af-Adf.title" = "Fujifilm 카메라만을 지원하는 Capture One 무료 버전";
+
+/* Class = "NSButtonCell"; title = "Pro Fujifilm"; ObjectID = "Fmp-2x-kxc"; */
+"Fmp-2x-kxc.title" = "Pro Fujifilm";
+
+/* Class = "NSTextFieldCell"; title = "Welcome to Capture One"; ObjectID = "G0F-lI-uZd"; */
+"G0F-lI-uZd.title" = "Capture One을 시작합니다";
+
+/* Class = "NSButtonCell"; title = "Activate"; ObjectID = "j1w-c2-v6X"; */
+"j1w-c2-v6X.title" = "활성화";
+
+/* Class = "NSTextFieldCell"; title = "Go to the Capture One online store"; ObjectID = "JFy-XW-NVj"; */
+"JFy-XW-NVj.title" = "Capture One 온라인 스토어 가기";
+
+/* Class = "NSTextFieldCell"; title = "Specialized versions of Capture One: Express, Enterprise, Cultural Heritage and DB"; ObjectID = "kV5-mT-JkY"; */
+"kV5-mT-JkY.title" = "Capture One의 특화 버전: Express, Enterprise, Cultural Heritage & DB";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set with support for more than 500 cameras from Canon, Nikon, Sony, Fujifilm, and other brands"; ObjectID = "ljT-1b-b3f"; */
+"ljT-1b-b3f.title" = "Canon, Nikon, Sony, Fujifilm를 포함한 다른 500개 이상의 카메라를 지원하는 전체피처(feature) 세트";
+
+/* Class = "NSTextFieldCell"; title = "Select your version"; ObjectID = "M78-T6-F8d"; */
+"M78-T6-F8d.title" = "당신의 캡처원 버전을 선택하십시오";
+
+/* Class = "NSButtonCell"; title = "Pro"; ObjectID = "o4e-L5-dAz"; */
+"o4e-L5-dAz.title" = "Pro";
+
+/* Class = "NSTextFieldCell"; title = "Custom solutions for large corporations with high volume production needs"; ObjectID = "oFF-26-Zu2"; */
+"oFF-26-Zu2.title" = "대량 생산을 필요로 하는 대기업을 위한 커스텀 솔루션";
+
+/* Class = "NSButtonCell"; title = "Try"; ObjectID = "OUm-vL-mqC"; */
+"OUm-vL-mqC.title" = "시도";
+
+/* Class = "NSButtonCell"; title = "Express (for Sony)"; ObjectID = "p9N-mK-ToK"; */
+"p9N-mK-ToK.title" = "Express (for Sony)";
+
+/* Class = "NSTextFieldCell"; title = "What would you like to do?"; ObjectID = "pd5-3i-OO6"; */
+"pd5-3i-OO6.title" = "무엇을 하길 원하십니까?";
+
+/* Class = "NSButtonCell"; title = "Pro (for Sony)"; ObjectID = "PYn-Qq-HFo"; */
+"PYn-Qq-HFo.title" = "Pro (for Sony)";
+
+/* Class = "NSButtonCell"; title = "Enterprise"; ObjectID = "RcU-aM-4dh"; */
+"RcU-aM-4dh.title" = "Enterprise";
+
+/* Class = "NSTextFieldCell"; title = "Select the workflow that suits your needs"; ObjectID = "RQd-bq-sAR"; */
+"RQd-bq-sAR.title" = "여러분의 필요에 맞는 워크플로를 선택하십시오.";
+
+/* Class = "NSButtonCell"; title = "Pro DB"; ObjectID = "uFv-SA-csp"; */
+"uFv-SA-csp.title" = "Pro DB";
+
+/* Class = "NSTextFieldCell"; title = "Not sure which to choose? You can create either at any time from the app File menu."; ObjectID = "UXQ-Pu-A6P"; */
+"UXQ-Pu-A6P.title" = "어떤 것을 선택할 지 확실하지 않습니까? \n앱 파일 메뉴에서 언제든지 각각을 생성할 수 있습니다.";
+
+/* Class = "NSButtonCell"; title = "Buy"; ObjectID = "Wbh-6O-qvw"; */
+"Wbh-6O-qvw.title" = "구매";
+
+/* Class = "NSTextFieldCell"; title = "Full feature set with support for Sony cameras only"; ObjectID = "xvd-Km-RTH"; */
+"xvd-Km-RTH.title" = "Sony 카메라만을 지원하는 전체 피처(feature) 세트";
+
+/* Class = "NSTextFieldCell"; title = "Free version of Capture One with support for Sony cameras only"; ObjectID = "XzF-0y-LeO"; */
+"XzF-0y-LeO.title" = "Sony 카메라만을 지원하는 Capture One 무료 버전";
+
+/* Class = "NSButtonCell"; title = "Cultural Heritage"; ObjectID = "Zrl-Sy-CKm"; */
+"Zrl-Sy-CKm.title" = "Cultural Heritage";
+

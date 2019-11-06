@@ -1,0 +1,81 @@
+/* Class = "NSMenuItem"; title = "Prioritize Cell Size"; ObjectID = "2UW-z5-qxR"; */
+"2UW-z5-qxR.title" = "Priorità Dimensione Cella";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Menu";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Number of rows"; ObjectID = "438"; */
+"438.ibShadowedToolTip" = "Numero di righe";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Number of rows"; ObjectID = "440"; */
+"440.ibShadowedToolTip" = "Numero di righe";
+
+/* Class = "NSTextFieldCell"; title = "Rows"; ObjectID = "443"; */
+"443.title" = "Righe";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Number of columns"; ObjectID = "447"; */
+"447.ibShadowedToolTip" = "Numero di colonne";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Number of columns"; ObjectID = "449"; */
+"449.ibShadowedToolTip" = "Numero di colonne";
+
+/* Class = "NSTextFieldCell"; title = "Columns"; ObjectID = "452"; */
+"452.title" = "Colonne";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "488"; */
+"488.ibShadowedToolTip" = "Spazio tra le colonne";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "490"; */
+"490.ibShadowedToolTip" = "Spazio tra le colonne";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Spacing between rows"; ObjectID = "491"; */
+"491.ibShadowedToolTip" = "Spazio tra le righe";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between rows"; ObjectID = "493"; */
+"493.ibShadowedToolTip" = "Spazio tra le righe";
+
+/* Class = "NSTextFieldCell"; title = "Row Spacing"; ObjectID = "499"; */
+"499.title" = "Spazio riga";
+
+/* Class = "NSTextFieldCell"; title = "Col. Spacing"; ObjectID = "503"; */
+"503.title" = "Spazio colonna";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "531"; */
+"531.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "533"; */
+"533.title" = "in";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "552"; */
+"552.ibShadowedToolTip" = "Spazio tra le colonne";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between rows"; ObjectID = "555"; */
+"555.ibShadowedToolTip" = "Spazio tra le righe";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "558"; */
+"558.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "559"; */
+"559.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "Cell Height"; ObjectID = "562"; */
+"562.title" = "Altezza Cella";
+
+/* Class = "NSTextFieldCell"; title = "Cell Width"; ObjectID = "566"; */
+"566.title" = "Larghezza Cella";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "598"; */
+"598.ibShadowedToolTip" = "Spazio tra le colonne";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "600"; */
+"600.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "Cell Border"; ObjectID = "603"; */
+"603.title" = "Bordo Cella";
+
+/* Class = "NSView"; awY-ai-FAo.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Resizing"; ObjectID = "awY-ai-FAo"; */
+"awY-ai-FAo.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Ridimensionamento";
+
+/* Class = "NSMenuItem"; title = "Prioritize Spacing"; ObjectID = "maT-3O-DaK"; */
+"maT-3O-DaK.title" = "Priorità Spaziatura";
+

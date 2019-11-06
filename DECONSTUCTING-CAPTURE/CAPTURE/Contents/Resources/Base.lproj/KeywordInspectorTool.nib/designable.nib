@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="KeywordInspectorTool">
+            <connections>
+                <outlet property="collectionView" destination="zXO-cx-zsO" id="YlG-W4-1nX"/>
+                <outlet property="container" destination="4DW-ml-fE0" id="5qf-i4-q5D"/>
+                <outlet property="searchTextField" destination="8uK-gZ-2dn" id="FxB-Yt-DCU"/>
+                <outlet property="searchTextFieldTrailingSpace" destination="VQD-uf-i4y" id="Lrz-Jg-Bxk"/>
+                <outlet property="sortAlphabeticallyIconTrailingSpace" destination="brf-cN-Zee" id="54A-qU-eMs"/>
+                <outlet property="sortAlphabeticallyIconWidth" destination="jg2-Oi-wKM" id="AB2-hA-0S8"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="4DW-ml-fE0">
+            <rect key="frame" x="0.0" y="0.0" width="493" height="161"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField identifier="enter-keywords" focusRingType="none" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8uK-gZ-2dn" userLabel="Enter Keywords…">
+                    <rect key="frame" x="8" y="135" width="452" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="6Ig-rk-mGU"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" focusRingType="none" placeholderString="" drawsBackground="YES" id="BtD-eL-d3L" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </textFieldCell>
+                    <connections>
+                        <outlet property="delegate" destination="-2" id="ADo-NL-nC7"/>
+                    </connections>
+                </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="khc-ZN-aPF" userLabel="Order Alphabetically">
+                    <rect key="frame" x="466" y="135" width="18" height="18"/>
+                    <string key="toolTip">When multiple variants are selected and "Edit selected variants" is enabled, manual sorting is disabled and keywords are ordered alphabetically.</string>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="jg2-Oi-wKM"/>
+                    </constraints>
+                    <imageCell key="cell" enabled="NO" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="OrderAlphabetically" id="fd0-aG-lZ1"/>
+                </imageView>
+                <scrollView wantsLayer="YES" focusRingType="none" borderType="none" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9u-Ck-nN0" customClass="POScrollView">
+                    <rect key="frame" x="8" y="8" width="477" height="121"/>
+                    <clipView key="contentView" focusRingType="none" drawsBackground="NO" id="fLz-dF-nuf">
+                        <rect key="frame" x="0.0" y="0.0" width="477" height="121"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <collectionView focusRingType="none" selectable="YES" allowsMultipleSelection="YES" id="zXO-cx-zsO" customClass="KeywordCollectionView">
+                                <rect key="frame" x="0.0" y="0.0" width="477" height="121"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="primaryBackgroundColor" white="1" alpha="0.0" colorSpace="deviceWhite"/>
+                            </collectionView>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="hWE-Aw-tPh">
+                        <rect key="frame" x="1" y="144" width="233" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="FNF-oQ-8jO">
+                        <rect key="frame" x="461" y="0.0" width="16" height="121"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="8uK-gZ-2dn" firstAttribute="leading" secondItem="4DW-ml-fE0" secondAttribute="leading" constant="8" id="GBI-Q2-W0g"/>
+                <constraint firstItem="khc-ZN-aPF" firstAttribute="leading" secondItem="8uK-gZ-2dn" secondAttribute="trailing" constant="6" id="VQD-uf-i4y"/>
+                <constraint firstItem="8uK-gZ-2dn" firstAttribute="top" secondItem="4DW-ml-fE0" secondAttribute="top" constant="8" id="ahC-8l-buI"/>
+                <constraint firstAttribute="trailing" secondItem="j9u-Ck-nN0" secondAttribute="trailing" constant="8" id="bZQ-c2-c2R"/>
+                <constraint firstAttribute="trailing" secondItem="khc-ZN-aPF" secondAttribute="trailing" constant="9" id="brf-cN-Zee"/>
+                <constraint firstAttribute="bottom" secondItem="j9u-Ck-nN0" secondAttribute="bottom" constant="8" id="iB3-Ec-jWW"/>
+                <constraint firstItem="j9u-Ck-nN0" firstAttribute="top" secondItem="8uK-gZ-2dn" secondAttribute="bottom" constant="6" id="nUS-UT-jd4"/>
+                <constraint firstItem="j9u-Ck-nN0" firstAttribute="leading" secondItem="4DW-ml-fE0" secondAttribute="leading" constant="8" id="ps5-MY-uZq"/>
+                <constraint firstItem="8uK-gZ-2dn" firstAttribute="centerY" secondItem="khc-ZN-aPF" secondAttribute="centerY" id="waI-RC-NGw"/>
+            </constraints>
+            <point key="canvasLocation" x="934.5" y="392.5"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="OrderAlphabetically" width="18" height="18"/>
+    </resources>
+</document>

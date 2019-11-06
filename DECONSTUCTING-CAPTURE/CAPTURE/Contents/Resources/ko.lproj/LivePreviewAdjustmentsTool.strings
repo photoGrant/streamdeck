@@ -1,0 +1,30 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Depth of field"; ObjectID = "3q5-Qh-upk"; */
+"3q5-Qh-upk.ibShadowedToolTip" = "피사계 심도";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "메뉴";
+
+/* Class = "NSView"; 86u-ew-JY8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Orientation"; ObjectID = "86u-ew-JY8"; */
+"86u-ew-JY8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "오리엔테이션";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Depth of field"; ObjectID = "546"; */
+"546.ibShadowedToolTip" = "피사계 심도";
+
+/* Class = "NSButtonCell"; title = "DOF"; ObjectID = "547"; */
+"547.title" = "DOF";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "clarity"; ObjectID = "IRF-4f-LhB"; */
+"IRF-4f-LhB.ibExternalAccessibilityDescription" = "선명도";
+
+/* Class = "NSView"; IRF-4f-LhB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Lightness"; ObjectID = "IRF-4f-LhB"; */
+"IRF-4f-LhB.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "명도";
+
+/* Class = "NSMenuItem"; title = "Default"; ObjectID = "j1P-cW-C07"; */
+"j1P-cW-C07.title" = "기본값";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "clarity"; ObjectID = "k4U-4f-oTq"; */
+"k4U-4f-oTq.ibExternalAccessibilityDescription" = "선명도";
+
+/* Class = "NSView"; k4U-4f-oTq.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Quality"; ObjectID = "k4U-4f-oTq"; */
+"k4U-4f-oTq.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "품질";
+

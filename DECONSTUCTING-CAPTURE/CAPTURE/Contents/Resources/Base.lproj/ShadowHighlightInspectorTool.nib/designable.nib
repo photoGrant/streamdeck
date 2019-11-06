@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ShadowHighlightInspectorTool">
+            <connections>
+                <outlet property="container" destination="5" id="243"/>
+                <outlet property="highlightsControl" destination="QUi-IQ-WRI" id="JPr-o2-oZR"/>
+                <outlet property="shadowsControl" destination="1s6-DA-AtS" id="a0T-Ju-t0i"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="58"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="QUi-IQ-WRI" userLabel="Highlight control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="30" width="280" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="Nx0-Ja-3EB"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Highlight" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility description="highlight"/>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="1s6-DA-AtS" userLabel="Shadow control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="6" width="280" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="Aab-Gn-7nl"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Shadow" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility description="shadow"/>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="1s6-DA-AtS" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="2QC-a2-sLj"/>
+                <constraint firstItem="1s6-DA-AtS" firstAttribute="top" secondItem="QUi-IQ-WRI" secondAttribute="bottom" constant="2" id="64k-XZ-CGe"/>
+                <constraint firstItem="QUi-IQ-WRI" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="HDj-aq-1Hq"/>
+                <constraint firstAttribute="bottom" secondItem="1s6-DA-AtS" secondAttribute="bottom" constant="6" id="U8D-Cz-TOm"/>
+                <constraint firstAttribute="trailing" secondItem="QUi-IQ-WRI" secondAttribute="trailing" id="Zgd-VJ-KdH"/>
+                <constraint firstItem="QUi-IQ-WRI" firstAttribute="top" secondItem="5" secondAttribute="top" constant="6" id="fkt-mF-OKY"/>
+                <constraint firstAttribute="trailing" secondItem="1s6-DA-AtS" secondAttribute="trailing" id="iCV-qN-ZgD"/>
+            </constraints>
+        </customView>
+    </objects>
+</document>

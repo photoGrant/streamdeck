@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SL Engine="800">
+  <E K="ColorBalance" V="1.000000;1.000000;1.000000"/>
+  <E K="ColorBalanceHighlight" V="0.974219;0.943799;0.915871"/>
+  <E K="ColorBalanceMidtone" V="1.051650;1.035805;1.022628"/>
+  <E K="ColorBalanceShadow" V="0.907258;0.860832;0.915183"/>
+  <E K="Name" V="Velvety Warm"/>
+  <E K="UUID" V="112655D7-A8B9-4C17-8130-9CED3A453531"/>
+</SL>
+

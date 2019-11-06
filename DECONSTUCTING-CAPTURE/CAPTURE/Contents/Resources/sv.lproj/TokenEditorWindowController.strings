@@ -1,0 +1,99 @@
+/* Class = "NSWindow"; title = "Naming Format"; ObjectID = "1"; */
+"1.title" = "Namngivningsformat";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1jF-qm-LNb"; */
+"1jF-qm-LNb.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Metadata - EXIF - Camera"; ObjectID = "9IJ-Rj-Mn6"; */
+"9IJ-Rj-Mn6.title" = "Metadata - EXIF - Kamera";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "13"; */
+"13.title" = "Avbryt";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "14"; */
+"14.title" = "OK";
+
+/* Class = "NSMenuItem"; title = "Recently Used"; ObjectID = "59L-oO-NTp"; */
+"59L-oO-NTp.title" = "Senaste använda";
+
+/* Class = "NSTextFieldCell"; title = "Presets"; ObjectID = "74"; */
+"74.title" = "Förinställningar";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "76"; */
+"76.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Image and Job Name"; ObjectID = "77"; */
+"77.title" = "Bild och jobbnamn";
+
+/* Class = "NSMenuItem"; title = "Job Name and Counter"; ObjectID = "78"; */
+"78.title" = "Jobbnamn och räknare";
+
+/* Class = "NSMenuItem"; title = "Job and Image Name"; ObjectID = "79"; */
+"79.title" = "Jobb och bild namn";
+
+/* Class = "NSMenuItem"; title = "Image Name"; ObjectID = "80"; */
+"80.title" = "Bild namn";
+
+/* Class = "NSTextFieldCell"; title = "You can edit the text above to fit your needs. Select elements from the groups below and drag or double-click to add them to the format."; ObjectID = "84"; */
+"84.title" = "Du kan redigera texten ovanför för att anpassa till dina behov. Välj element från grupperna nedanför och drag eller dubbel-klicka på dem för att lägga till formatet.";
+
+/* Class = "NSButtonCell"; title = "Save User Preset…"; ObjectID = "89"; */
+"89.title" = "Spara användar förinställningar...";
+
+/* Class = "NSTextFieldCell"; title = "Format"; ObjectID = "94"; */
+"94.title" = "Format";
+
+/* Class = "NSTextFieldCell"; title = "Tokens"; ObjectID = "96"; */
+"96.title" = "Etiketter";
+
+/* Class = "NSMenuItem"; title = "Metadata - EXIF - GPS"; ObjectID = "f2N-un-vTh"; */
+"f2N-un-vTh.title" = "Metadata - EXIF - GPS";
+
+/* Class = "NSMenuItem"; title = "Metadata - Vendor Specific"; ObjectID = "gbF-cc-3Gm"; */
+"gbF-cc-3Gm.title" = "Metadata - Kameraspecifik";
+
+/* Class = "NSMenuItem"; title = "Excluded Tokens (Debug)"; ObjectID = "h0E-Xs-g3o"; */
+"h0E-Xs-g3o.title" = "Ta ej med etiketter (Debug)";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Getty Images"; ObjectID = "IcR-I5-MrP"; */
+"IcR-I5-MrP.title" = "Metadata - IPTC - Getty Images";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Contact"; ObjectID = "iEP-7R-U0R"; */
+"iEP-7R-U0R.title" = "Metadata - IPTC - Kontakt";
+
+/* Class = "NSMenuItem"; title = "All"; ObjectID = "im4-Sx-noG"; */
+"im4-Sx-noG.title" = "Alla";
+
+/* Class = "NSMenuItem"; title = "Date and Time"; ObjectID = "Iov-PJ-gmm"; */
+"Iov-PJ-gmm.title" = "Datum och tid";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Content"; ObjectID = "jEp-eA-ZqR"; */
+"jEp-eA-ZqR.title" = "Metadata - IPTC - Ämne";
+
+/* Class = "NSTextFieldCell"; title = "Group"; ObjectID = "nqc-FB-Qwc"; */
+"nqc-FB-Qwc.title" = "Grupp";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Image"; ObjectID = "pQh-ye-usp"; */
+"pQh-ye-usp.title" = "Metadata - IPTC - Bild";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Status"; ObjectID = "pxr-Cf-W6a"; */
+"pxr-Cf-W6a.title" = "Metadata - IPTC - Status";
+
+/* Class = "NSTextFieldCell"; title = "Sample"; ObjectID = "q5j-D3-iFU"; */
+"q5j-D3-iFU.title" = "Exempel";
+
+/* Class = "NSMenuItem"; title = "Metadata - Basic"; ObjectID = "Sj2-sS-faM"; */
+"Sj2-sS-faM.title" = "Metadata - Grundläggande";
+
+/* Class = "NSMenuItem"; title = "Metadata - EXIF - Exposure"; ObjectID = "UDJ-1y-oOK"; */
+"UDJ-1y-oOK.title" = "Metadata - EXIF - Exponering";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "VU8-ib-KQU"; */
+"VU8-ib-KQU.title" = "Textruta";
+
+/* Class = "NSMenuItem"; title = "General"; ObjectID = "XqK-3b-mox"; */
+"XqK-3b-mox.title" = "Allmänt";
+
+/* Class = "NSTextFieldCell"; title = "Sample string goes here"; ObjectID = "xrA-Fa-8YI"; */
+"xrA-Fa-8YI.title" = "Exempel text";
+

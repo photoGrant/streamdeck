@@ -1,0 +1,78 @@
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "settingsApplyButton"; ObjectID = "257"; */
+"257.ibExternalAccessibilityDescription" = "settingsApplyButton";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "settingsCopyButton"; ObjectID = "258"; */
+"258.ibExternalAccessibilityDescription" = "settingsCopyButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Copy adjustments from the primary variant."; ObjectID = "258"; */
+"258.ibShadowedToolTip" = "从主变体复制调整项";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "266"; */
+"266.title" = "菜单";
+
+/* Class = "NSTableColumn"; headerCell.title = "From"; ObjectID = "281"; */
+"281.headerCell.title" = "自";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "295"; */
+"295.title" = "全选";
+
+/* Class = "NSMenuItem"; title = "Select None"; ObjectID = "296"; */
+"296.title" = "不选";
+
+/* Class = "NSMenuItem"; title = "Expand All"; ObjectID = "307"; */
+"307.title" = "展开全部";
+
+/* Class = "NSMenuItem"; title = "Collapse All"; ObjectID = "308"; */
+"308.title" = "折疊全部";
+
+/* Class = "NSMenuItem"; title = "Select Adjusted"; ObjectID = "312"; */
+"312.title" = "选择已调整项";
+
+/* Class = "NSMenuItem"; title = "Save As Style..."; ObjectID = "422"; */
+"422.title" = "存储为样式...";
+
+/* Class = "NSMenuItem"; title = "Copy to Clipboard"; ObjectID = "423"; */
+"423.title" = "复制到剪贴板";
+
+/* Class = "NSButtonCell"; alternateTitle = "Apply"; ObjectID = "433"; */
+"433.alternateTitle" = "应用";
+
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "433"; */
+"433.title" = "应用";
+
+/* Class = "NSButtonCell"; alternateTitle = "Copy"; ObjectID = "434"; */
+"434.alternateTitle" = "复制";
+
+/* Class = "NSButtonCell"; title = "Copy"; ObjectID = "434"; */
+"434.title" = "复制";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "settingsCopyButton"; ObjectID = "505"; */
+"505.ibExternalAccessibilityDescription" = "settingsCopyButton";
+
+/* Class = "NSButtonCell"; alternateTitle = "Copy"; ObjectID = "506"; */
+"506.alternateTitle" = "复制";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "506"; */
+"506.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "To suppress this dialog: Hold down Option to Copy or Shift to Copy and Apply"; ObjectID = "512"; */
+"512.title" = "按住对话框:按住Option复制或者按住Shift复制和应用";
+
+/* Class = "NSMenu"; title = "Autoselect"; ObjectID = "Du5-aC-KSA"; */
+"Du5-aC-KSA.title" = "自动选取";
+
+/* Class = "NSMenuItem"; title = "Adjusted"; ObjectID = "K4h-Qy-S6H"; */
+"K4h-Qy-S6H.title" = "調整";
+
+/* Class = "NSMenuItem"; title = "Autoselect"; ObjectID = "LRv-nV-Ddf"; */
+"LRv-nV-Ddf.title" = "自动选取";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "pJG-QV-Jps"; */
+"pJG-QV-Jps.title" = "无";
+
+/* Class = "NSMenuItem"; title = "Include Style Name"; ObjectID = "RAD-xL-Cpi"; */
+"RAD-xL-Cpi.title" = "包括样式名";
+
+/* Class = "NSMenuItem"; title = "Adjusted except Composition"; ObjectID = "WMi-rV-YtQ"; */
+"WMi-rV-YtQ.title" = "除了构图外调整";
+

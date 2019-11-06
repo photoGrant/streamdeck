@@ -1,0 +1,75 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "메뉴";
+
+/* Class = "NSTextFieldCell"; title = "Left"; ObjectID = "357"; */
+"357.title" = "왼쪽";
+
+/* Class = "NSTextFieldCell"; title = "Right"; ObjectID = "359"; */
+"359.title" = "오른쪽";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "394"; */
+"394.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Left margin"; ObjectID = "394"; */
+"394.ibShadowedToolTip" = "왼쪽 여백";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "396"; */
+"396.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Right margin"; ObjectID = "396"; */
+"396.ibShadowedToolTip" = "오른쪽 여백";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "406"; */
+"406.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Left margin"; ObjectID = "406"; */
+"406.ibShadowedToolTip" = "왼쪽 여백";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "409"; */
+"409.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Right margin"; ObjectID = "409"; */
+"409.ibShadowedToolTip" = "오른쪽 여백";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "420"; */
+"420.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Top margin"; ObjectID = "420"; */
+"420.ibShadowedToolTip" = "상단 여백";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "422"; */
+"422.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Top margin"; ObjectID = "422"; */
+"422.ibShadowedToolTip" = "상단 여백";
+
+/* Class = "NSTextFieldCell"; title = "Top"; ObjectID = "425"; */
+"425.title" = "상단";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "429"; */
+"429.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Bottom margin"; ObjectID = "429"; */
+"429.ibShadowedToolTip" = "하단 여백";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "431"; */
+"431.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Bottom margin"; ObjectID = "431"; */
+"431.ibShadowedToolTip" = "하단 여백";
+
+/* Class = "NSTextFieldCell"; title = "Bottom"; ObjectID = "434"; */
+"434.title" = "하단";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "523"; */
+"523.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "525"; */
+"525.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "527"; */
+"527.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "529"; */
+"529.title" = "in";
+

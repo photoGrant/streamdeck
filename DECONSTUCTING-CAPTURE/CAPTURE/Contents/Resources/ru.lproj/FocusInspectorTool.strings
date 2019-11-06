@@ -1,0 +1,9 @@
+/* Class = "NSTextField"; ibShadowedToolTip = "Zoom level"; ObjectID = "8"; */
+"8.ibShadowedToolTip" = "Степень масштабирования";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Zoom level"; ObjectID = "11"; */
+"11.ibShadowedToolTip" = "Степень масштабирования";
+
+/* Class = "NSTextFieldCell"; title = "%"; ObjectID = "21"; */
+"21.title" = "%";
+

@@ -1,0 +1,180 @@
+/* Class = "NSBox"; title = "Catalog and Sessions"; ObjectID = "5br-hq-Ye3"; */
+"5br-hq-Ye3.title" = "Catalogus en Sessies";
+
+/* Class = "NSTextFieldCell"; title = "Status:"; ObjectID = "7cZ-B2-onY"; */
+"7cZ-B2-onY.title" = "Status:";
+
+/* Class = "NSBox"; title = "Catalog and Sessions"; ObjectID = "59"; */
+"59.title" = "Catalogus en Sessies";
+
+/* Class = "NSBox"; title = "Favorites"; ObjectID = "60"; */
+"60.title" = "Favorieten";
+
+/* Class = "NSBox"; title = "Packaged File Format"; ObjectID = "66"; */
+"66.title" = "Formaat pakketbestand";
+
+/* Class = "NSBox"; title = "Recent Captures Collection"; ObjectID = "67"; */
+"67.title" = "Recente Opnamen Verzameling";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "72"; */
+"72.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "~/Library/Application Support/Capture One/Backups"; ObjectID = "93"; */
+"93.title" = "~/Bibliotheek/Application Support/Capture One/Backups";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "96"; */
+"96.title" = "Altijd";
+
+/* Class = "NSMenuItem"; title = "Once a month"; ObjectID = "97"; */
+"97.title" = "Een keer per maand";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "98"; */
+"98.title" = "Nooit";
+
+/* Class = "NSMenuItem"; title = "Once a week"; ObjectID = "99"; */
+"99.title" = "Een keer per week";
+
+/* Class = "NSMenuItem"; title = "Once a day"; ObjectID = "100"; */
+"100.title" = "Een keer per dag";
+
+/* Class = "NSMenuItem"; title = "Auto"; ObjectID = "105"; */
+"105.title" = "Automatisch";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "106"; */
+"106.title" = "Nooit";
+
+/* Class = "NSTextFieldCell"; title = "Location:"; ObjectID = "107"; */
+"107.title" = "Locatie:";
+
+/* Class = "NSTextFieldCell"; title = "Remind on close:"; ObjectID = "108"; */
+"108.title" = "Herinnering:";
+
+/* Class = "NSTextFieldCell"; title = "Processing:"; ObjectID = "109"; */
+"109.title" = "Verwerken:";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "112"; */
+"112.title" = "Nooit";
+
+/* Class = "NSMenuItem"; title = "Auto"; ObjectID = "113"; */
+"113.title" = "Automatisch";
+
+/* Class = "NSTextFieldCell"; title = "Display:"; ObjectID = "114"; */
+"114.title" = "Scherm:";
+
+/* Class = "NSTextFieldCell"; title = "Hardware Acceleration (Use OpenCL for)"; ObjectID = "115"; */
+"115.title" = "Hardwarematige versnelling (OpenCL gebruiken voor)";
+
+/* Class = "NSTextFieldCell"; title = "Catalog Backup"; ObjectID = "116"; */
+"116.title" = "Catalogus back-up";
+
+/* Class = "NSMenuItem"; title = "Always Overwrite Metadata"; ObjectID = "126"; */
+"126.title" = "Metagegevens altijd overschrijven";
+
+/* Class = "NSMenuItem"; title = "Never Overwrite Metadata"; ObjectID = "127"; */
+"127.title" = "Metagegevens nooit overschrijven";
+
+/* Class = "NSMenuItem"; title = "Ask about Overwriting Metadata"; ObjectID = "128"; */
+"128.title" = "Vragen bij overschrijven metagegevens";
+
+/* Class = "NSMenuItem"; title = "Create New Album or Select Folder"; ObjectID = "131"; */
+"131.title" = "Nieuw Album aanmaken of Map selecteren";
+
+/* Class = "NSMenuItem"; title = "Create or Reuse Matching Albums"; ObjectID = "132"; */
+"132.title" = "Overeenkomende Albums aanmaken of hergebruiken";
+
+/* Class = "NSMenuItem"; title = "Ask when Syncing Catalog Sets"; ObjectID = "133"; */
+"133.title" = "Vragen bij synchronisatie Catalogussets";
+
+/* Class = "NSTextFieldCell"; title = "Metadata and Catalog Set information received from Expression Media may be used to update Images and Albums in Capture One. Select the behavior for each type of information."; ObjectID = "134"; */
+"134.title" = "Van Expression Media ontvangen metagegevens en Catalogusset-informatie mogen worden gebruikt voor het updaten van afbeeldingen en Albums in Capture One. Selecteer het gedrag voor ieder informatietype.";
+
+/* Class = "NSMenuItem"; title = "Ask about Including Subfolders when Adding"; ObjectID = "137"; */
+"137.title" = "Bij toevoegen, vragen bij Meenemen Submappen";
+
+/* Class = "NSMenuItem"; title = "Always answer Yes to Include Subfolders dialog"; ObjectID = "138"; */
+"138.title" = "Altijd Ja antwoorden bij Submappen Insluiten dialoog";
+
+/* Class = "NSMenuItem"; title = "Always answer No to Include Subfolders dialog"; ObjectID = "139"; */
+"139.title" = "Altijd Nee antwoorden bij Submappen Insluiten dialoog";
+
+/* Class = "NSTextFieldCell"; title = "Expression Media"; ObjectID = "140"; */
+"140.title" = "Expression Media";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "141"; */
+"141.title" = "Standaardwaarden";
+
+/* Class = "NSButtonCell"; title = "Zoom with scroll wheel"; ObjectID = "142"; */
+"142.title" = "Zoomen met scroll-wiel";
+
+/* Class = "NSTextFieldCell"; title = "Viewer"; ObjectID = "143"; */
+"143.title" = "Viewer";
+
+/* Class = "NSMenuItem"; title = "After more than 5 minutes of inactivity"; ObjectID = "150"; */
+"150.title" = "Na meer dan 5 minuten inactiviteit";
+
+/* Class = "NSMenuItem"; title = "After more than 10 minutes of inactivity"; ObjectID = "151"; */
+"151.title" = "Na meer dan 10 minuten inactiviteit";
+
+/* Class = "NSMenuItem"; title = "After more than 30 minutes of inactivity"; ObjectID = "152"; */
+"152.title" = "Na meer dan 30 minuten inactiviteit";
+
+/* Class = "NSMenuItem"; title = "After more than 1 hour of inactivity"; ObjectID = "153"; */
+"153.title" = "Na meer dan 1 uur inactiviteit";
+
+/* Class = "NSMenuItem"; title = "After more than 2 hours of inactivity"; ObjectID = "154"; */
+"154.title" = "Na meer dan 2 uur inactiviteit";
+
+/* Class = "NSMenuItem"; title = "After more than 4 hours of inactivity"; ObjectID = "155"; */
+"155.title" = "Na meer dan 4 uur inactiviteit";
+
+/* Class = "NSMenuItem"; title = "At the first capture of the day"; ObjectID = "156"; */
+"156.title" = "Bij eerste opname van de dag";
+
+/* Class = "NSTextFieldCell"; title = "Create:"; ObjectID = "157"; */
+"157.title" = "Aanmaken:";
+
+/* Class = "NSTextFieldCell"; title = "Recent Captures Collection"; ObjectID = "158"; */
+"158.title" = "Recente Opnamen Verzameling";
+
+/* Class = "NSButtonCell"; title = "Open importer when detecting card from digital camera"; ObjectID = "160"; */
+"160.title" = "Open Importeerder bij detecteren kaart van digitale camera";
+
+/* Class = "NSTextFieldCell"; title = "Importing"; ObjectID = "161"; */
+"161.title" = "Importeren";
+
+/* Class = "NSTextFieldCell"; title = "Activities"; ObjectID = "162"; */
+"162.title" = "Activiteiten";
+
+/* Class = "NSButtonCell"; title = "Automatically show window"; ObjectID = "163"; */
+"163.title" = "Toon venster automatisch";
+
+/* Class = "NSTextFieldCell"; title = "Favorites"; ObjectID = "167"; */
+"167.title" = "Favorieten";
+
+/* Class = "NSMenuItem"; title = "Ask About Adding Previous Session Folder to Favorites"; ObjectID = "170"; */
+"170.title" = "Vragen over toevoegen vorige Sessie Map aan Favorieten";
+
+/* Class = "NSMenuItem"; title = "Always Add Previous Session Folder to Favorites"; ObjectID = "171"; */
+"171.title" = "Map vorige Sessie altijd toevoegen aan Favorieten";
+
+/* Class = "NSMenuItem"; title = "Never Add Previous Session Folder to Favorites"; ObjectID = "172"; */
+"172.title" = "Map vorige Sessie nooit toevoegen aan Favorieten";
+
+/* Class = "NSTextFieldCell"; title = "Catalog and Session"; ObjectID = "176"; */
+"176.title" = "Catalogus en Sessie";
+
+/* Class = "NSButtonCell"; title = "Open in new window"; ObjectID = "177"; */
+"177.title" = "Openen in nieuw venster";
+
+/* Class = "NSButtonCell"; title = "Show on Startup"; ObjectID = "jfj-Ks-wpZ"; */
+"jfj-Ks-wpZ.title" = "Toon bij opstarten";
+
+/* Class = "NSButtonCell"; title = "Enable Tangent device support"; ObjectID = "PQo-en-IWM"; */
+"PQo-en-IWM.title" = "Ondersteuning Tangent-apparaat inschakelen";
+
+/* Class = "NSTextFieldCell"; title = "Resource Hub"; ObjectID = "SpW-MT-i4c"; */
+"SpW-MT-i4c.title" = "Resource Hub";
+
+/* Class = "NSTextFieldCell"; title = "Tangent Integration"; ObjectID = "yng-WN-yJ1"; */
+"yng-WN-yJ1.title" = "Tangent integratie";
+

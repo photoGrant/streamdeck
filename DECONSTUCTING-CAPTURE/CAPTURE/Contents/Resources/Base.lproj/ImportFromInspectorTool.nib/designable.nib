@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ImportFromInspectorTool">
+            <connections>
+                <outlet property="actionMenu" destination="49" id="52"/>
+                <outlet property="container" destination="5" id="61"/>
+                <outlet property="documentController" destination="18" id="19"/>
+                <outlet property="duplicateCheckerIsActiveIndicator" destination="Dbr-iS-o9b" id="M0S-hM-Ni4"/>
+                <outlet property="excludeDuplicatesCheckbox" destination="JIz-JP-n6T" id="D3H-ck-QEi"/>
+                <outlet property="includeSubfoldersCheckbox" destination="69" id="76"/>
+                <outlet property="sourcePopupControl" destination="byw-wM-IfW" id="yJV-1x-pYc"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="82"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button id="69" customClass="POSkinButton">
+                    <rect key="frame" x="98" y="32" width="174" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" title="Include Subfolders" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="70">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="73" name="value" keyPath="values.Importer_IncludeSubfolders" id="75"/>
+                    </connections>
+                </button>
+                <button id="JIz-JP-n6T" customClass="POSkinButton">
+                    <rect key="frame" x="98" y="8" width="154" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Kfw-IR-vez">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="73" name="value" keyPath="values.Importer_ExcludeDuplicates" id="X5u-yQ-4yn"/>
+                    </connections>
+                </button>
+                <progressIndicator wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="Dbr-iS-o9b">
+                    <rect key="frame" x="256" y="9" width="16" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                </progressIndicator>
+                <customView id="byw-wM-IfW" userLabel="Source popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="53" width="280" height="23"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Source" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+            </subviews>
+        </customView>
+        <objectController objectClassName="SessionDocument" id="18" userLabel="Document">
+            <declaredKeys>
+                <string>ImporterMetadataKeywords</string>
+                <string>ImporterMetadataKeywordsKey</string>
+            </declaredKeys>
+        </objectController>
+        <userDefaultsController id="22" userLabel="User Defaults Controller">
+            <declaredKeys>
+                <string>ImporterMetadataCopyright</string>
+                <string>ImporterMetadataCredit</string>
+                <string>ImporterMetadataCreditKey</string>
+                <string>ImporterMetadataCopyrightKey</string>
+                <string>ImporterMetadataKeywordsKey</string>
+                <string>ImporterMetadataCreatorKey</string>
+                <string>ImporterMetadataCaptionKey</string>
+            </declaredKeys>
+        </userDefaultsController>
+        <menu title="Menu" id="49" userLabel="Action Menu">
+            <items>
+                <menuItem title="Reset Tool" tag="1" id="50">
+                    <connections>
+                        <action selector="resetTool:" target="-2" id="53"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+        <userDefaultsController representsSharedInstance="YES" id="73"/>
+    </objects>
+</document>

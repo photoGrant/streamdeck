@@ -1,0 +1,15 @@
+/* Class = "NSTextFieldCell"; title = "Create Keyword Library"; ObjectID = "79R-nN-oDy"; */
+"79R-nN-oDy.title" = "Crea Libreria di Parole Chiave";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "gyz-LJ-JDy"; */
+"gyz-LJ-JDy.title" = "Cancella";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Enter new library name..."; ObjectID = "pCn-a3-tK3"; */
+"pCn-a3-tK3.placeholderString" = "Inserire un nuovo nome libreria…";
+
+/* Class = "NSButtonCell"; title = "Create"; ObjectID = "vDr-5V-UVq"; */
+"vDr-5V-UVq.title" = "Crea";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "wGG-Fx-gKo"; */
+"wGG-Fx-gKo.title" = "Finestra";
+

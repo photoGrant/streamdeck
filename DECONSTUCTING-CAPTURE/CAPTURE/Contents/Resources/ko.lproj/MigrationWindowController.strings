@@ -1,0 +1,12 @@
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "11"; */
+"11.title" = "확인";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "12"; */
+"12.title" = "취소";
+
+/* Class = "NSTabViewItem"; label = "Tab"; ObjectID = "202"; */
+"202.label" = "탭";
+
+/* Class = "NSTabViewItem"; label = "View"; ObjectID = "203"; */
+"203.label" = "보기";
+

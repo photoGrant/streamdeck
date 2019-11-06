@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SpotRemovalInspectorTool">
+            <connections>
+                <outlet property="container" destination="29" id="116"/>
+                <outlet property="cursorTool" destination="95" id="96"/>
+                <outlet property="nextButton" destination="77" id="91"/>
+                <outlet property="previousButton" destination="75" id="92"/>
+                <outlet property="radiusControl" destination="a19-rB-Box" id="iaV-c4-DFW"/>
+                <outlet property="removeButton" destination="36" id="72"/>
+                <outlet property="spotsPopup" destination="45" id="128"/>
+                <outlet property="typePopup" destination="106" id="113"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="29" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="82"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView toolTip="Spot removal" translatesAutoresizingMaskIntoConstraints="NO" id="95" customClass="SpotCursorTool">
+                    <rect key="frame" x="248" y="4" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="IJb-aX-hl8"/>
+                        <constraint firstAttribute="height" constant="24" id="qFj-aQ-kVL"/>
+                    </constraints>
+                </customView>
+                <button toolTip="Next spot" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="77" customClass="POSkinButton">
+                    <rect key="frame" x="206" y="53" width="18" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="18" id="C8u-hd-ZI7"/>
+                        <constraint firstAttribute="height" constant="21" id="FKx-Hc-vz9"/>
+                    </constraints>
+                    <buttonCell key="cell" type="smallSquare" title="&gt;" bezelStyle="smallSquare" alignment="center" borderStyle="border" inset="2" id="78">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="nextSpot:" target="-2" id="79"/>
+                    </connections>
+                </button>
+                <button toolTip="Previous spot" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="75" customClass="POSkinButton">
+                    <rect key="frame" x="186" y="53" width="18" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="ZGF-O3-nox"/>
+                        <constraint firstAttribute="width" constant="18" id="eJi-Ey-gKV"/>
+                    </constraints>
+                    <buttonCell key="cell" type="smallSquare" title="&lt;" bezelStyle="smallSquare" alignment="center" borderStyle="border" inset="2" id="76">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="previousSpot:" target="-2" id="80"/>
+                    </connections>
+                </button>
+                <button toolTip="Delete Selected Spot" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="36" customClass="POSkinButton">
+                    <rect key="frame" x="232" y="53" width="40" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="2v9-EN-MW2"/>
+                        <constraint firstAttribute="height" constant="21" id="wS2-PL-mdn"/>
+                    </constraints>
+                    <buttonCell key="cell" type="smallSquare" title="-" bezelStyle="smallSquare" alignment="center" borderStyle="border" inset="2" id="64">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="deleteSpot:" target="-2" id="73"/>
+                    </connections>
+                </button>
+                <popUpButton toolTip="Selected Spot" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="45" customClass="POPopUpButton">
+                    <rect key="frame" x="98" y="52" width="82" height="22"/>
+                    <popUpButtonCell key="cell" type="push" title="1 of 1" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="50" id="48">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                        <menu key="menu" title="OtherViews" id="49">
+                            <items>
+                                <menuItem title="1 of 1" state="on" id="50"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="spotWasSelected:" target="-2" id="88"/>
+                    </connections>
+                </popUpButton>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="83">
+                    <rect key="frame" x="2" y="8" width="84" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="UwD-M0-4hN"/>
+                        <constraint firstAttribute="width" constant="80" id="jXD-6L-2aT"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Type" id="84" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="46">
+                    <rect key="frame" x="2" y="56" width="84" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Rb5-XY-kmc"/>
+                        <constraint firstAttribute="height" constant="18" id="lcm-yR-N3P"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Spot" id="47" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <popUpButton toolTip="Spot type" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="106" customClass="POPopUpButton">
+                    <rect key="frame" x="98" y="4" width="120" height="22"/>
+                    <popUpButtonCell key="cell" type="push" title="Dust" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="111" id="107">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                        <menu key="menu" title="OtherViews" id="108">
+                            <items>
+                                <menuItem title="Spot" id="109"/>
+                                <menuItem title="Dust" state="on" id="111"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="typeChanged:" target="-2" id="112"/>
+                    </connections>
+                </popUpButton>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="a19-rB-Box" userLabel="Radius control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="30" width="280" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="R1a-wh-QYk"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Radius" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="minValue">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
+                            <real key="value" value="100"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility description="kelvin"/>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="a19-rB-Box" firstAttribute="leading" secondItem="29" secondAttribute="leading" id="C9I-og-5e5"/>
+                <constraint firstItem="106" firstAttribute="leading" secondItem="83" secondAttribute="trailing" constant="17" id="Fuv-K7-Gje"/>
+                <constraint firstAttribute="trailing" secondItem="95" secondAttribute="trailing" constant="8" id="KOQ-iL-E8n"/>
+                <constraint firstItem="77" firstAttribute="leading" secondItem="75" secondAttribute="trailing" constant="2" id="MFh-u3-KzB"/>
+                <constraint firstItem="75" firstAttribute="leading" secondItem="45" secondAttribute="trailing" constant="9" id="NDn-Pd-6kV"/>
+                <constraint firstItem="46" firstAttribute="top" secondItem="29" secondAttribute="top" constant="8" id="QjM-WP-IuP"/>
+                <constraint firstItem="45" firstAttribute="leading" secondItem="46" secondAttribute="trailing" constant="17" id="R8J-Xd-I95"/>
+                <constraint firstItem="106" firstAttribute="centerY" secondItem="83" secondAttribute="centerY" constant="1" id="ReE-hN-Ht3"/>
+                <constraint firstItem="83" firstAttribute="top" secondItem="a19-rB-Box" secondAttribute="bottom" constant="4" id="b1m-Le-oe9"/>
+                <constraint firstItem="83" firstAttribute="leading" secondItem="29" secondAttribute="leading" constant="4" id="gmV-9F-0wV"/>
+                <constraint firstItem="75" firstAttribute="centerY" secondItem="46" secondAttribute="centerY" id="iWm-uU-cEN"/>
+                <constraint firstItem="46" firstAttribute="leading" secondItem="29" secondAttribute="leading" constant="4" id="jpE-5O-Axl"/>
+                <constraint firstAttribute="trailing" secondItem="36" secondAttribute="trailing" constant="8" id="lYq-8l-53L"/>
+                <constraint firstItem="36" firstAttribute="centerY" secondItem="46" secondAttribute="centerY" id="pTK-fz-0mK"/>
+                <constraint firstItem="36" firstAttribute="leading" secondItem="77" secondAttribute="trailing" constant="8" id="pqX-Bh-cAA"/>
+                <constraint firstItem="45" firstAttribute="centerY" secondItem="46" secondAttribute="centerY" constant="1" id="qUp-XC-kIa"/>
+                <constraint firstAttribute="bottom" secondItem="83" secondAttribute="bottom" constant="8" id="rCU-vq-bzz"/>
+                <constraint firstAttribute="trailing" secondItem="a19-rB-Box" secondAttribute="trailing" id="stN-Wd-UER"/>
+                <constraint firstItem="95" firstAttribute="leading" secondItem="106" secondAttribute="trailing" constant="33" id="tc7-Io-Slw"/>
+                <constraint firstItem="77" firstAttribute="centerY" secondItem="46" secondAttribute="centerY" id="ucb-y2-tje"/>
+                <constraint firstItem="95" firstAttribute="centerY" secondItem="83" secondAttribute="centerY" constant="1" id="vwS-VS-kg2"/>
+                <constraint firstItem="a19-rB-Box" firstAttribute="top" secondItem="46" secondAttribute="bottom" constant="4" id="wbJ-aD-Irf"/>
+            </constraints>
+        </customView>
+        <userDefaultsController representsSharedInstance="YES" id="117"/>
+    </objects>
+</document>

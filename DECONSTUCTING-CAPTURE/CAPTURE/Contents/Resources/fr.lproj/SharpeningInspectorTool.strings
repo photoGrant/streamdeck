@@ -1,0 +1,27 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "158"; */
+"158.title" = "Menu";
+
+/* Class = "NSView"; Bxk-2e-NaG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Amount"; ObjectID = "Bxk-2e-NaG"; */
+"Bxk-2e-NaG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Valeur";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Amount. Controls the amount of sharpening."; ObjectID = "Bxk-2e-NaG"; */
+"Bxk-2e-NaG.ibShadowedToolTip" = "Gain de Netteté. Contrôle l’accentuation de netteté.";
+
+/* Class = "NSView"; MFJ-3v-Pqa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "MFJ-3v-Pqa"; */
+"MFJ-3v-Pqa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Rayon";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Radius. Set the pixel radius of the sharpening kernel."; ObjectID = "MFJ-3v-Pqa"; */
+"MFJ-3v-Pqa.ibShadowedToolTip" = "Rayon de Gain de Netteté. Défini le rayon de pixels de l’accentuation de netteté.";
+
+/* Class = "NSView"; SPM-3K-Lvp.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Threshold"; ObjectID = "SPM-3K-Lvp"; */
+"SPM-3K-Lvp.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Seuil";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Threshold. Determines the lower threshold where no sharpening is performed."; ObjectID = "SPM-3K-Lvp"; */
+"SPM-3K-Lvp.ibShadowedToolTip" = "Seuil de Gain de Netteté. Détermine le seuil minimum à laquelle à la netteté doit être accentuée.";
+
+/* Class = "NSView"; YWb-mP-DhK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Halo suppression"; ObjectID = "YWb-mP-DhK"; */
+"YWb-mP-DhK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Suppression de Halo";
+
+/* Class = "NSView"; ibShadowedToolTip = "Halo suppression."; ObjectID = "YWb-mP-DhK"; */
+"YWb-mP-DhK.ibShadowedToolTip" = "Suppression de Halo.";
+

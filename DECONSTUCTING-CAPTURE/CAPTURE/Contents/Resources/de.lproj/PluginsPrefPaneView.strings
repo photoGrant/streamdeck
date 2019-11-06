@@ -1,0 +1,36 @@
+/* Class = "NSTextFieldCell"; title = "Plugin settings could not be retrieved"; ObjectID = "1Yr-RV-0u5"; */
+"1Yr-RV-0u5.title" = "Plugin-Einstellungen konnten nicht abgerufen werden.";
+
+/* Class = "NSTextFieldCell"; placeholderString = "The plugin is disabled"; ObjectID = "2K0-Lo-jkW"; */
+"2K0-Lo-jkW.placeholderString" = "Das Plugin ist deaktiviert";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "6oJ-Zo-5RH"; */
+"6oJ-Zo-5RH.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "afd-fn-Nwa"; */
+"afd-fn-Nwa.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Get more plugins"; ObjectID = "AQe-BF-01j"; */
+"AQe-BF-01j.title" = "Mehr Plugins laden";
+
+/* Class = "NSTextFieldCell"; title = "This plugin cannot be disabled"; ObjectID = "Caa-Gd-7FD"; */
+"Caa-Gd-7FD.title" = "Dieses Plugin kann nicht deaktiviert werden";
+
+/* Class = "NSButtonCell"; title = "Retry"; ObjectID = "gwp-l7-MK4"; */
+"gwp-l7-MK4.title" = "Erneut versuchen";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Plugin title"; ObjectID = "igc-ub-fRc"; */
+"igc-ub-fRc.placeholderString" = "Plugin-Titel";
+
+/* Class = "NSButtonCell"; title = "Enabled"; ObjectID = "nSU-Y8-Mzj"; */
+"nSU-Y8-Mzj.title" = "Aktiviert";
+
+/* Class = "NSTextFieldCell"; placeholderString = "No plugin selected"; ObjectID = "ULK-kh-QlX"; */
+"ULK-kh-QlX.placeholderString" = "Kein Plugin ausgewählt";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Features"; ObjectID = "w0j-dk-XuD"; */
+"w0j-dk-XuD.placeholderString" = "Funktionen";
+
+/* Class = "NSTextFieldCell"; placeholderString = "This plugin has no customizable settings"; ObjectID = "Yel-ev-2hj"; */
+"Yel-ev-2hj.placeholderString" = "Dieses Plugin hat keine benutzerdefinierten Einstellungen.";
+

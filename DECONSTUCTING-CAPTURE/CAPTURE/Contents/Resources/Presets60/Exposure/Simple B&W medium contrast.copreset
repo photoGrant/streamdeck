@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL>
+  <E K="Exposure" V="0.000" />
+  <E K="Contrast" V="10.656" />
+  <E K="Brightness" V="9.016" />
+  <E K="Saturation" V="-100.000" />
+  <E K="Name" V="B&amp;W medium contrast" />
+  <E K="UUID" V="{21b63de7-df66-4f11-8c50-d3d337ebd86e}" />
+  <E K="StyleSource" V="Exposure" />
+</SL>

@@ -1,0 +1,30 @@
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "balancePopup"; ObjectID = "134"; */
+"134.ibExternalAccessibilityDescription" = "balancePopup";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "135"; */
+"135.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Custom"; ObjectID = "136"; */
+"136.title" = "사용자 지정";
+
+/* Class = "NSMenuItem"; title = "As Shot"; ObjectID = "137"; */
+"137.title" = "촬영 시";
+
+/* Class = "NSMenuItem"; title = "Cloudy"; ObjectID = "138"; */
+"138.title" = "흐림";
+
+/* Class = "NSTextFieldCell"; title = "Mode"; ObjectID = "238"; */
+"238.title" = "모드";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "kelvin"; ObjectID = "EP8-Am-6Fw"; */
+"EP8-Am-6Fw.ibExternalAccessibilityDescription" = "켈빈";
+
+/* Class = "NSView"; EP8-Am-6Fw.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Kelvin"; ObjectID = "EP8-Am-6Fw"; */
+"EP8-Am-6Fw.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "켈빈";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "tint"; ObjectID = "n63-za-y7v"; */
+"n63-za-y7v.ibExternalAccessibilityDescription" = "틴트";
+
+/* Class = "NSView"; n63-za-y7v.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Tint"; ObjectID = "n63-za-y7v"; */
+"n63-za-y7v.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "색조";
+

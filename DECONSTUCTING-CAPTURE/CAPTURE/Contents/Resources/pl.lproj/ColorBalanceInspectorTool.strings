@@ -1,0 +1,30 @@
+/* Class = "NSTabViewItem"; label = "Master"; ObjectID = "5lG-eN-fCI"; */
+"5lG-eN-fCI.label" = "Ogólny";
+
+/* Class = "NSTabViewItem"; label = "Midtone"; ObjectID = "Bs3-jA-dvw"; */
+"Bs3-jA-dvw.label" = "Półtony";
+
+/* Class = "NSTabViewItem"; label = "3-Way"; ObjectID = "EHx-YA-rBt"; */
+"EHx-YA-rBt.label" = "W zakresach";
+
+/* Class = "NSTabViewItem"; label = "Shadow"; ObjectID = "MoH-21-5NK"; */
+"MoH-21-5NK.label" = "Cienie";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[0] = "Master"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[0]" = "Ogólny";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[1] = "3-Way"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[1]" = "W zakresach";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[2] = "Shadow"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[2]" = "Cienie";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[3] = "Midtone"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[3]" = "Półtony";
+
+/* Class = "NSSegmentedCell"; wRH-TE-Zs0.ibShadowedLabels[4] = "Highlight"; ObjectID = "wRH-TE-Zs0"; */
+"wRH-TE-Zs0.ibShadowedLabels[4]" = "Światła";
+
+/* Class = "NSTabViewItem"; label = "Highlight"; ObjectID = "z8d-ju-ndv"; */
+"z8d-ju-ndv.label" = "Światła";
+

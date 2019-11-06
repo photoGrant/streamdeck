@@ -1,0 +1,45 @@
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "34"; */
+"34.title" = "总是";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "35"; */
+"35.title" = "从不";
+
+/* Class = "NSMenuItem"; title = "Except During Drag"; ObjectID = "36"; */
+"36.title" = "拖移期间除外";
+
+/* Class = "NSMenuItem"; title = "When No Mask"; ObjectID = "43"; */
+"43.title" = "无遮罩时";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "44"; */
+"44.title" = "总是";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "52"; */
+"52.title" = "总是";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "53"; */
+"53.title" = "从不";
+
+/* Class = "NSMenuItem"; title = "During Drag Only"; ObjectID = "54"; */
+"54.title" = "仅在拖移期间";
+
+/* Class = "NSTextFieldCell"; title = "Show:"; ObjectID = "449"; */
+"449.title" = "显示：";
+
+/* Class = "NSTextFieldCell"; title = "Show Frame:"; ObjectID = "450"; */
+"450.title" = "显示框架：";
+
+/* Class = "NSTextFieldCell"; title = "Show Labels:"; ObjectID = "451"; */
+"451.title" = "显示标签：";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "453"; */
+"453.title" = "不透明度:";
+
+/* Class = "NSTextFieldCell"; title = "Brightness:"; ObjectID = "455"; */
+"455.title" = "亮度：";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "459"; */
+"459.title" = "默认设置";
+
+/* Class = "NSTextFieldCell"; title = "Mask"; ObjectID = "ax2-Us-YFd"; */
+"ax2-Us-YFd.title" = "遮罩";
+

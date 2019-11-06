@@ -1,0 +1,27 @@
+/* Class = "NSWindow"; title = "Events"; ObjectID = "5"; */
+"5.title" = "이벤트";
+
+/* Class = "NSTableColumn"; headerCell.title = "Description"; ObjectID = "9"; */
+"9.headerCell.title" = "설명";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date"; ObjectID = "10"; */
+"10.headerCell.title" = "날짜";
+
+/* Class = "NSButtonCell"; title = "Clear"; ObjectID = "67"; */
+"67.title" = "지우기";
+
+/* Class = "NSButtonCell"; title = "Show All"; ObjectID = "68"; */
+"68.title" = "모두 표시";
+
+/* Class = "NSButtonCell"; title = "Show panel for new events"; ObjectID = "69"; */
+"69.title" = "새 이벤트의 패널 표시";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "70"; */
+"70.title" = "닫기";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "72"; */
+"72.title" = "텍스트 셀";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "73"; */
+"73.title" = "텍스트 셀";
+

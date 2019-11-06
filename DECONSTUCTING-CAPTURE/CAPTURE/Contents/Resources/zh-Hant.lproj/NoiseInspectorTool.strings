@@ -1,0 +1,33 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "157"; */
+"157.title" = "菜單";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "surface"; ObjectID = "BQe-ch-zT5"; */
+"BQe-ch-zT5.ibExternalAccessibilityDescription" = "表面";
+
+/* Class = "NSView"; BQe-ch-zT5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Surface"; ObjectID = "BQe-ch-zT5"; */
+"BQe-ch-zT5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "表面";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "single pixel"; ObjectID = "hL8-wU-SQL"; */
+"hL8-wU-SQL.ibExternalAccessibilityDescription" = "單一像素";
+
+/* Class = "NSView"; hL8-wU-SQL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Single Pixel"; ObjectID = "hL8-wU-SQL"; */
+"hL8-wU-SQL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "單一像素";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "details"; ObjectID = "zlR-yp-kOa"; */
+"zlR-yp-kOa.ibExternalAccessibilityDescription" = "細節";
+
+/* Class = "NSView"; zlR-yp-kOa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Details"; ObjectID = "zlR-yp-kOa"; */
+"zlR-yp-kOa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "細節";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "luminance"; ObjectID = "ZRc-KI-4KK"; */
+"ZRc-KI-4KK.ibExternalAccessibilityDescription" = "明亮度";
+
+/* Class = "NSView"; ZRc-KI-4KK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Luminance"; ObjectID = "ZRc-KI-4KK"; */
+"ZRc-KI-4KK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "明亮度";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "color"; ObjectID = "Zuk-OM-RR8"; */
+"Zuk-OM-RR8.ibExternalAccessibilityDescription" = "顏色";
+
+/* Class = "NSView"; Zuk-OM-RR8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Color"; ObjectID = "Zuk-OM-RR8"; */
+"Zuk-OM-RR8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "顏色";
+

@@ -1,0 +1,12 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Add export folder to Session Favorites"; ObjectID = "44"; */
+"44.ibShadowedToolTip" = "Aggiungi la cartella di esportazione ai Preferiti di Sessione";
+
+/* Class = "NSButtonCell"; title = "Add folder to Session Favorites"; ObjectID = "45"; */
+"45.title" = "Aggiungi Cartella ai Preferiti di Sessione";
+
+/* Class = "NSButtonCell"; title = "Notify When Completed"; ObjectID = "D6J-Pd-7v1"; */
+"D6J-Pd-7v1.title" = "Notifica al completamento";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Notify when export is completed"; ObjectID = "fg5-i7-ppQ"; */
+"fg5-i7-ppQ.ibShadowedToolTip" = "Notifica al completamento dell’esportazione";
+

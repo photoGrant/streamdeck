@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="FilmGrainInspectorTool">
+            <connections>
+                <outlet property="amountControl" destination="gX2-sJ-VmO" id="Mwg-vd-gkb"/>
+                <outlet property="container" destination="5" id="298"/>
+                <outlet property="filmGrainTypePopupControl" destination="rVu-m5-KCC" id="38a-yL-Tjq"/>
+                <outlet property="granularityControl" destination="45u-oY-7a0" id="e7H-vI-hsc"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="82"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="gX2-sJ-VmO" userLabel="Impact control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="30" width="280" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="dzG-Hs-7Dr"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Impact" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility description="impact"/>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="45u-oY-7a0" userLabel="Granularity control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="6" width="280" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="16y-hV-d8L"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Granularity" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility description="brightness"/>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="rVu-m5-KCC" userLabel="Type popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="53" width="280" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="hFd-lw-K39"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Type" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="rVu-m5-KCC" secondAttribute="trailing" id="0eI-gZ-La1"/>
+                <constraint firstItem="gX2-sJ-VmO" firstAttribute="top" secondItem="rVu-m5-KCC" secondAttribute="bottom" constant="1" id="6Lm-AU-Vsb"/>
+                <constraint firstItem="45u-oY-7a0" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="7AU-Tg-k3V"/>
+                <constraint firstItem="45u-oY-7a0" firstAttribute="top" secondItem="gX2-sJ-VmO" secondAttribute="bottom" constant="2" id="G0q-JW-vqs"/>
+                <constraint firstAttribute="bottom" secondItem="45u-oY-7a0" secondAttribute="bottom" constant="6" id="cbr-kf-IGy"/>
+                <constraint firstAttribute="trailing" secondItem="gX2-sJ-VmO" secondAttribute="trailing" id="j6B-Ln-A6R"/>
+                <constraint firstItem="rVu-m5-KCC" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="nb1-uy-2eo"/>
+                <constraint firstItem="gX2-sJ-VmO" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="o5X-1N-kym"/>
+                <constraint firstAttribute="trailing" secondItem="45u-oY-7a0" secondAttribute="trailing" id="pE6-pd-HFa"/>
+                <constraint firstItem="rVu-m5-KCC" firstAttribute="top" secondItem="5" secondAttribute="top" constant="6" id="wHh-2T-pZy"/>
+            </constraints>
+        </customView>
+    </objects>
+</document>

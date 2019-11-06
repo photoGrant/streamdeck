@@ -1,0 +1,39 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Delete Selected Spot"; ObjectID = "36"; */
+"36.ibShadowedToolTip" = "Wis geselecteerde vlek";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Selected Spot"; ObjectID = "45"; */
+"45.ibShadowedToolTip" = "Geselecteerde vlek";
+
+/* Class = "NSTextFieldCell"; title = "Spot"; ObjectID = "47"; */
+"47.title" = "Vlek";
+
+/* Class = "NSMenuItem"; title = "1 of 1"; ObjectID = "50"; */
+"50.title" = "1 van 1";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Previous spot"; ObjectID = "75"; */
+"75.ibShadowedToolTip" = "Vorige vlek";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Next spot"; ObjectID = "77"; */
+"77.ibShadowedToolTip" = "Volgende vlek";
+
+/* Class = "NSTextFieldCell"; title = "Type"; ObjectID = "84"; */
+"84.title" = "Type";
+
+/* Class = "NSView"; ibShadowedToolTip = "Spot removal"; ObjectID = "95"; */
+"95.ibShadowedToolTip" = "Vlekken verwijderen";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Spot type"; ObjectID = "106"; */
+"106.ibShadowedToolTip" = "Vlektype";
+
+/* Class = "NSMenuItem"; title = "Spot"; ObjectID = "109"; */
+"109.title" = "Vlek";
+
+/* Class = "NSMenuItem"; title = "Dust"; ObjectID = "111"; */
+"111.title" = "Stof";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "kelvin"; ObjectID = "a19-rB-Box"; */
+"a19-rB-Box.ibExternalAccessibilityDescription" = "kelvin";
+
+/* Class = "NSView"; a19-rB-Box.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "a19-rB-Box"; */
+"a19-rB-Box.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Straal";
+

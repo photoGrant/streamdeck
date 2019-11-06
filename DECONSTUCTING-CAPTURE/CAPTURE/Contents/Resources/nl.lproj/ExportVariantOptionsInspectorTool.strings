@@ -1,0 +1,12 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Add export folder to Session Favorites"; ObjectID = "44"; */
+"44.ibShadowedToolTip" = "Exportmap toevoegen aan Sessie Favorieten";
+
+/* Class = "NSButtonCell"; title = "Add folder to Session Favorites"; ObjectID = "45"; */
+"45.title" = "Map toevoegen aan Sessie Favorieten";
+
+/* Class = "NSButtonCell"; title = "Notify When Completed"; ObjectID = "D6J-Pd-7v1"; */
+"D6J-Pd-7v1.title" = "Aangeven indien voltooid";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Notify when export is completed"; ObjectID = "fg5-i7-ppQ"; */
+"fg5-i7-ppQ.ibShadowedToolTip" = "Aangeven als exporteren is voltooid";
+

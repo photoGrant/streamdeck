@@ -1,0 +1,12 @@
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1"; */
+"1.title" = "Fenêtre";
+
+/* Class = "NSTextFieldCell"; title = "Save preset as:"; ObjectID = "6"; */
+"6.title" = "Enregistrer préréglage comme:";
+
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "12"; */
+"12.title" = "Enregistrer";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "14"; */
+"14.title" = "Annuler";
+

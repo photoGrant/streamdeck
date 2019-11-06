@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SL>
+    <E K="Name" V="Warm Look +1"/>
+    <E K="ColorBalance" V="1.000000;0.959252;0.923454"/>
+    <E K="ColorBalanceShadow" V="1.000000;1.000000;1.000000"/>
+    <E K="ColorBalanceMidtone" V="1.000000;1.000000;1.000000"/>
+    <E K="ColorBalanceHighlight" V="1.000000;1.000000;1.000000"/>
+    <E K="UUID" V="7CE94722-5E0E-40EA-B6F1-CAC6B522B4BB"/>
+</SL>
+

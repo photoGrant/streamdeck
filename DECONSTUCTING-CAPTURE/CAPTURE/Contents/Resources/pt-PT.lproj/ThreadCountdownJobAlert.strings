@@ -1,0 +1,15 @@
+/* Class = "NSWindow"; title = "Saving Batch Job Files"; ObjectID = "5"; */
+"5.title" = "Salvando arquivos de trabalhos em lote";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayPattern = "Saved %{value1}@ of %{value2}@ batch jobs"; ObjectID = "27"; */
+"27.ibShadowedDisplayPattern" = "%{value1}@ de %{value2}@ trabalhos em lote salvos";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayPattern = "Saved %{value1}@ of %{value2}@ batch jobs"; ObjectID = "28"; */
+"28.ibShadowedDisplayPattern" = "%{value1}@ de %{value2}@ trabalhos em lote salvos";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "30"; */
+"30.title" = "Sair";
+
+/* Class = "NSTextFieldCell"; title = "saving x of N batch jobs"; ObjectID = "31"; */
+"31.title" = "salvando x de N trabalhos em lote";
+

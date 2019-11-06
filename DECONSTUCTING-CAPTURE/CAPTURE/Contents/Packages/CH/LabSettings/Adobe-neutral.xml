@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!----------------------------------------------------------------------------
+  Settings: enforce neutral white, no adaptation
+  ---------------------------------------------------------------------------->
+
+<whitepoint>white</whitepoint>
+<adaptation>none</adaptation>
+<flag>emulate_Adobe</flag>
+
+<!----------------------------------------------------------------------------
+   Description(s) (ISO 639-2/T)
+  ---------------------------------------------------------------------------->
+
+<metadata key="Adobe-neutral" order="11">
+<description lang="eng" title="Adobe (neutral)">
+L*a*b* conversion compatible with the Adobe Color Engine (ACE) for sRGB.
+
+Select this option for the most accurate match of how the ACE interprets the sRGB profile.
+
+Note: this option is similar to "Adobe (generic)" except it defines the white-point so (255,255,255) is neutral. There are several variations on color profiles that attempts to implement the sRGB color space. To ensure consistency, the ACE attempts to detect these profiles and treat them specially.
+</description>
+</metadata>

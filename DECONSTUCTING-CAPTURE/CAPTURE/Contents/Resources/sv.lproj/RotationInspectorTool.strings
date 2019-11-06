@@ -1,0 +1,33 @@
+/* Class = "NSMenuItem"; title = "Horizontal"; ObjectID = "2kr-6e-gGc"; */
+"2kr-6e-gGc.title" = "Vågrät";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "148"; */
+"148.title" = "Meny";
+
+/* Class = "NSMenuItem"; title = "Rotate Snap"; ObjectID = "205"; */
+"205.title" = "Rotera och fäst";
+
+/* Class = "NSMenuItem"; title = "Rotate Snap Selected"; ObjectID = "228"; */
+"228.title" = "Rotera och fäst valda";
+
+/* Class = "NSButtonCell"; title = "Left"; ObjectID = "cI4-Zq-zzr"; */
+"cI4-Zq-zzr.title" = "Vänster";
+
+/* Class = "NSView"; G12-Sn-HBX.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Flip"; ObjectID = "G12-Sn-HBX"; */
+"G12-Sn-HBX.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Spegelvänd";
+
+/* Class = "NSButtonCell"; title = "Right"; ObjectID = "I2U-2L-rjq"; */
+"I2U-2L-rjq.title" = "Höger";
+
+/* Class = "NSMenuItem"; title = "Vertical"; ObjectID = "kyM-Qd-Xbo"; */
+"kyM-Qd-Xbo.title" = "Lodrät";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "angle"; ObjectID = "y2q-bz-5Ol"; */
+"y2q-bz-5Ol.ibExternalAccessibilityDescription" = "vinkel";
+
+/* Class = "NSView"; y2q-bz-5Ol.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Angle"; ObjectID = "y2q-bz-5Ol"; */
+"y2q-bz-5Ol.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Vinkel";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "yiE-dF-xvm"; */
+"yiE-dF-xvm.title" = "Ingen";
+

@@ -1,0 +1,45 @@
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "34"; */
+"34.title" = "Всегда";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "35"; */
+"35.title" = "Никогда";
+
+/* Class = "NSMenuItem"; title = "Except During Drag"; ObjectID = "36"; */
+"36.title" = "За исключением перетаскивания";
+
+/* Class = "NSMenuItem"; title = "When No Mask"; ObjectID = "43"; */
+"43.title" = "При отсутствии маски";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "44"; */
+"44.title" = "Всегда";
+
+/* Class = "NSMenuItem"; title = "Always"; ObjectID = "52"; */
+"52.title" = "Всегда";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "53"; */
+"53.title" = "Никогда";
+
+/* Class = "NSMenuItem"; title = "During Drag Only"; ObjectID = "54"; */
+"54.title" = "Только при перетаскивании";
+
+/* Class = "NSTextFieldCell"; title = "Show:"; ObjectID = "449"; */
+"449.title" = "Показывать:";
+
+/* Class = "NSTextFieldCell"; title = "Show Frame:"; ObjectID = "450"; */
+"450.title" = "Показать рамку:";
+
+/* Class = "NSTextFieldCell"; title = "Show Labels:"; ObjectID = "451"; */
+"451.title" = "Показать надписи:";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "453"; */
+"453.title" = "Прозрачность:";
+
+/* Class = "NSTextFieldCell"; title = "Brightness:"; ObjectID = "455"; */
+"455.title" = "Яркость:";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "459"; */
+"459.title" = "Настройки по умолчанию";
+
+/* Class = "NSTextFieldCell"; title = "Mask"; ObjectID = "ax2-Us-YFd"; */
+"ax2-Us-YFd.title" = "Маска";
+

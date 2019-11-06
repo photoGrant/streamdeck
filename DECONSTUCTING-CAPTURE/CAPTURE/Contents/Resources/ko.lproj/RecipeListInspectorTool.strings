@@ -1,0 +1,24 @@
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "53"; */
+"53.headerCell.title" = "이름";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "54"; */
+"54.title" = "메뉴";
+
+/* Class = "NSMenuItem"; title = "New Recipe"; ObjectID = "55"; */
+"55.title" = "새로운 레시피";
+
+/* Class = "NSMenuItem"; title = "Delete Recipe"; ObjectID = "56"; */
+"56.title" = "레시피 삭제";
+
+/* Class = "NSButtonCell"; title = "Show Enabled Only"; ObjectID = "181"; */
+"181.title" = "사용만 표시";
+
+/* Class = "NSMenuItem"; title = "Duplicate Recipe"; ObjectID = "199"; */
+"199.title" = "레시피 복제";
+
+/* Class = "NSMenuItem"; title = "Add Recipe"; ObjectID = "206"; */
+"206.title" = "레시피 추가";
+
+/* Class = "NSMenu"; title = "Add Recipe"; ObjectID = "207"; */
+"207.title" = "레시피 추가";
+

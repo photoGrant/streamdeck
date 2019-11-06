@@ -1,0 +1,18 @@
+/* Class = "NSView"; lSB-c9-3hh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Method"; ObjectID = "lSB-c9-3hh"; */
+"lSB-c9-3hh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "방법";
+
+/* Class = "NSMenuItem"; title = "Circular on Crop"; ObjectID = "U1G-fX-PSc"; */
+"U1G-fX-PSc.title" = "크롭 원형";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "vignetting amount"; ObjectID = "Wkh-tE-r4o"; */
+"Wkh-tE-r4o.ibExternalAccessibilityDescription" = "비네팅 양";
+
+/* Class = "NSView"; Wkh-tE-r4o.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Amount"; ObjectID = "Wkh-tE-r4o"; */
+"Wkh-tE-r4o.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "수치";
+
+/* Class = "NSMenuItem"; title = "Elliptic on Crop"; ObjectID = "Yi3-G7-2UC"; */
+"Yi3-G7-2UC.title" = "크롭 타원형";
+
+/* Class = "NSMenuItem"; title = "Circular"; ObjectID = "Z9W-Yg-VTF"; */
+"Z9W-Yg-VTF.title" = "원형";
+

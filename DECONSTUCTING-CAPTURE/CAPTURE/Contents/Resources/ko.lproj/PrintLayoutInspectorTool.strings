@@ -1,0 +1,123 @@
+/* Class = "NSMenuItem"; title = "Prioritize Cell Size"; ObjectID = "2UW-z5-qxR"; */
+"2UW-z5-qxR.title" = "셀크기 우선순위 정하기";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "메뉴";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "438"; */
+"438.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Number of rows"; ObjectID = "438"; */
+"438.ibShadowedToolTip" = "열의 수";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "440"; */
+"440.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Number of rows"; ObjectID = "440"; */
+"440.ibShadowedToolTip" = "열의 수";
+
+/* Class = "NSTextFieldCell"; title = "Rows"; ObjectID = "443"; */
+"443.title" = "열";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "447"; */
+"447.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Number of columns"; ObjectID = "447"; */
+"447.ibShadowedToolTip" = "행의 수";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "449"; */
+"449.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Number of columns"; ObjectID = "449"; */
+"449.ibShadowedToolTip" = "행의 수";
+
+/* Class = "NSTextFieldCell"; title = "Columns"; ObjectID = "452"; */
+"452.title" = "행";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "488"; */
+"488.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "488"; */
+"488.ibShadowedToolTip" = "행간격";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "490"; */
+"490.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "490"; */
+"490.ibShadowedToolTip" = "행간격";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "491"; */
+"491.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Spacing between rows"; ObjectID = "491"; */
+"491.ibShadowedToolTip" = "열간격";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "493"; */
+"493.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between rows"; ObjectID = "493"; */
+"493.ibShadowedToolTip" = "열간격";
+
+/* Class = "NSTextFieldCell"; title = "Row Spacing"; ObjectID = "499"; */
+"499.title" = "열간";
+
+/* Class = "NSTextFieldCell"; title = "Col. Spacing"; ObjectID = "503"; */
+"503.title" = "행간";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "531"; */
+"531.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "533"; */
+"533.title" = "in";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "550"; */
+"550.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "552"; */
+"552.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "552"; */
+"552.ibShadowedToolTip" = "행간격";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "553"; */
+"553.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "555"; */
+"555.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between rows"; ObjectID = "555"; */
+"555.ibShadowedToolTip" = "열간격";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "558"; */
+"558.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "559"; */
+"559.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "Cell Height"; ObjectID = "562"; */
+"562.title" = "셀 높이";
+
+/* Class = "NSTextFieldCell"; title = "Cell Width"; ObjectID = "566"; */
+"566.title" = "셀 너비";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "596"; */
+"596.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "exposureField"; ObjectID = "598"; */
+"598.ibExternalAccessibilityDescription" = "exposureField";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Spacing between columns"; ObjectID = "598"; */
+"598.ibShadowedToolTip" = "행간격";
+
+/* Class = "NSTextFieldCell"; title = "in"; ObjectID = "600"; */
+"600.title" = "in";
+
+/* Class = "NSTextFieldCell"; title = "Cell Border"; ObjectID = "603"; */
+"603.title" = "셀 경계";
+
+/* Class = "NSView"; awY-ai-FAo.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Resizing"; ObjectID = "awY-ai-FAo"; */
+"awY-ai-FAo.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "크기 조절";
+
+/* Class = "NSMenuItem"; title = "Prioritize Spacing"; ObjectID = "maT-3O-DaK"; */
+"maT-3O-DaK.title" = "간격 우선순위 정하기";
+

@@ -1,0 +1,57 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "155"; */
+"155.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Show/Hide Filters..."; ObjectID = "422"; */
+"422.title" = "Afficher/Masquer Filtres...";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "433"; */
+"433.title" = "Cellule texte";
+
+/* Class = "NSMenuItem"; title = "Results Match All Criteria"; ObjectID = "462"; */
+"462.title" = "Résultats correspondent à tous les critères";
+
+/* Class = "NSMenuItem"; title = "Global Filters"; ObjectID = "467"; */
+"467.title" = "Filtres Généraux";
+
+/* Class = "NSMenu"; title = "Global Filters"; ObjectID = "468"; */
+"468.title" = "Filtres Généraux";
+
+/* Class = "NSMenuItem"; title = "Always Hide JPEG Files"; ObjectID = "469"; */
+"469.title" = "Toujours masquer les JPEG";
+
+/* Class = "NSMenuItem"; title = "Always Hide Processed TIFF Files"; ObjectID = "470"; */
+"470.title" = "Toujours cacher les TIFF traités";
+
+/* Class = "NSMenuItem"; title = "Always Hide RAW Files"; ObjectID = "471"; */
+"471.title" = "Toujours cacher les RAW";
+
+/* Class = "NSMenuItem"; title = "Always Hide Video Files"; ObjectID = "472"; */
+"472.title" = "Toujours cacher les fichiers vidéo";
+
+/* Class = "NSMenuItem"; title = "Always Hide PNG Files"; ObjectID = "486"; */
+"486.title" = "Toujours masquer les PNG";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "491"; */
+"491.title" = "Cellule de la planche contact";
+
+/* Class = "NSTextFieldCell"; title = "Filter Group View Cell"; ObjectID = "499"; */
+"499.title" = "Filtrer la cellule de visualisation";
+
+/* Class = "NSWindow"; title = "Add Filter Term"; ObjectID = "572"; */
+"572.title" = "Ajouter un terme dans le filtre";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "579"; */
+"579.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Add filter term:"; ObjectID = "580"; */
+"580.title" = "Ajouter un terme dans le filtre:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "582"; */
+"582.title" = "Annuler";
+
+/* Class = "NSMenuItem"; title = "Clear All Terms"; ObjectID = "590"; */
+"590.title" = "Effacer tous les termes";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Format: \"country > state > city > location\""; ObjectID = "604"; */
+"604.placeholderString" = "Format: \"pays > état > ville > adresse\"";
+

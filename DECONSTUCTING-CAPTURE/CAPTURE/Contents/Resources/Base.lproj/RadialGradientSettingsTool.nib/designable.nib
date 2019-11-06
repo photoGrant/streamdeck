@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="RadialMaskSettings">
+            <connections>
+                <outlet property="_drawMaskInsideCheckbox" destination="3NY-Ls-I7m" id="I0v-TQ-7He"/>
+                <outlet property="_helpView" destination="211" id="212"/>
+                <outlet property="_optionsView" destination="29" id="205"/>
+                <outlet property="radialMaskSettingsLabel" destination="x5Y-ML-NUX" id="qdB-Kd-NiA"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="29" userLabel="View" customClass="COUIContentView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="126"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="x5Y-ML-NUX">
+                    <rect key="frame" x="6" y="100" width="308" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="K4D-0y-hoH"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Radial Gradient Mask Settings" usesSingleLineMode="YES" id="MNb-OO-L0P" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="cellTitle"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button translatesAutoresizingMaskIntoConstraints="NO" id="3NY-Ls-I7m" userLabel="Draw Mask Inside Checkbox" customClass="POSkinButton">
+                    <rect key="frame" x="101" y="67" width="115" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="M61-vd-kbq"/>
+                    </constraints>
+                    <buttonCell key="cell" type="check" title="Draw Mask Inside" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" state="on" inset="2" id="de3-fe-AEM">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                </button>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="211" userLabel="Message Custom View">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
+                    <subviews>
+                        <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="208">
+                            <rect key="frame" x="7" y="25" width="305" height="28"/>
+                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" state="on" title="This panel can also be shown by right-clicking in the Viewer when the Radial Gradient Mask cursor is selected." id="209" customClass="COUITextFieldCell">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="208" firstAttribute="leading" secondItem="211" secondAttribute="leading" constant="9" id="gv6-4f-Ozt"/>
+                        <constraint firstAttribute="trailing" secondItem="208" secondAttribute="trailing" constant="10" id="igZ-Jl-AVV"/>
+                        <constraint firstItem="208" firstAttribute="top" secondItem="211" secondAttribute="top" constant="10" id="wZV-PL-ZgA"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="x5Y-ML-NUX" secondAttribute="trailing" constant="8" id="DdF-2r-Hxz"/>
+                <constraint firstItem="211" firstAttribute="leading" secondItem="29" secondAttribute="leading" id="NDY-k9-JHp"/>
+                <constraint firstItem="3NY-Ls-I7m" firstAttribute="leading" secondItem="29" secondAttribute="leading" constant="104" id="OsQ-ij-3At"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3NY-Ls-I7m" secondAttribute="trailing" id="QdT-DQ-z3o"/>
+                <constraint firstItem="211" firstAttribute="top" secondItem="29" secondAttribute="top" constant="63" id="Tc2-oi-bKF"/>
+                <constraint firstItem="3NY-Ls-I7m" firstAttribute="top" secondItem="x5Y-ML-NUX" secondAttribute="bottom" constant="12" id="TkI-js-ccC"/>
+                <constraint firstItem="x5Y-ML-NUX" firstAttribute="leading" secondItem="29" secondAttribute="leading" constant="8" id="b0Z-bl-mx3"/>
+                <constraint firstItem="x5Y-ML-NUX" firstAttribute="top" secondItem="29" secondAttribute="top" constant="8" id="iGS-6k-ucG"/>
+                <constraint firstItem="211" firstAttribute="width" secondItem="29" secondAttribute="width" id="knj-Kw-Ehj"/>
+                <constraint firstAttribute="bottom" secondItem="211" secondAttribute="bottom" id="yPp-z5-aRP"/>
+            </constraints>
+            <connections>
+                <outlet property="delegate" destination="-2" id="Drc-kc-ncf"/>
+            </connections>
+            <point key="canvasLocation" x="723" y="554"/>
+        </customView>
+        <userDefaultsController representsSharedInstance="YES" id="117"/>
+    </objects>
+</document>

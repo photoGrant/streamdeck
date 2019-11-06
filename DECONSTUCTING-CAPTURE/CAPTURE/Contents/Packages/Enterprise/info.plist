@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Workspaces</key>
+	<dict/>
+	<key>Styles</key>
+	<dict/>
+	<key>About</key>
+	<string></string>
+	<key>Version name</key>
+	<string>Enterprise</string>
+	<key>Variant Enum</key>
+	<integer>7</integer>
+	<key>Name</key>
+	<string>Enterprise</string>
+	<key>Identifier</key>
+	<string>Enterprise</string>
+</dict>
+</plist>

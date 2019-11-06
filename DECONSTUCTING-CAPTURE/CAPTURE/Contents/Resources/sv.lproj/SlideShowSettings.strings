@@ -1,0 +1,51 @@
+/* Class = "NSWindow"; title = "Slide Show Settings"; ObjectID = "1"; */
+"1.title" = "Bildspelinställningar";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "33"; */
+"33.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Fade"; ObjectID = "34"; */
+"34.title" = "Tona";
+
+/* Class = "NSMenuItem"; title = "Move In"; ObjectID = "35"; */
+"35.title" = "Flytta in";
+
+/* Class = "NSTextFieldCell"; title = "Transition"; ObjectID = "36"; */
+"36.title" = "Övergång";
+
+/* Class = "NSMenuItem"; title = "Push"; ObjectID = "40"; */
+"40.title" = "Tryck";
+
+/* Class = "NSMenuItem"; title = "Reveal"; ObjectID = "41"; */
+"41.title" = "Uppenbara";
+
+/* Class = "NSMenuItem"; title = "Dissolve"; ObjectID = "42"; */
+"42.title" = "Tona bort";
+
+/* Class = "NSMenuItem"; title = "Mod"; ObjectID = "43"; */
+"43.title" = "Mod";
+
+/* Class = "NSMenuItem"; title = "Swipe"; ObjectID = "44"; */
+"44.title" = "Slå över";
+
+/* Class = "NSTextFieldCell"; title = "Slide Duration"; ObjectID = "56"; */
+"56.title" = "Bildrutans varaktighet";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "kelvinSlider"; ObjectID = "59"; */
+"59.ibExternalAccessibilityDescription" = "kelvinSlider";
+
+/* Class = "NSButtonCell"; title = "Loop"; ObjectID = "69"; */
+"69.title" = "Loop";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "73"; */
+"73.title" = "Standard";
+
+/* Class = "NSMenuItem"; title = "Disintegrate"; ObjectID = "90"; */
+"90.title" = "Lös upp";
+
+/* Class = "NSMenuItem"; title = "Page Curl"; ObjectID = "91"; */
+"91.title" = "Bläddra";
+
+/* Class = "NSMenuItem"; title = "Ripple"; ObjectID = "92"; */
+"92.title" = "Krusa";
+

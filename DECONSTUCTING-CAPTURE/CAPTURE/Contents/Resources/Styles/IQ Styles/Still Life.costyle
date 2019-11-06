@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SL Engine="1100">
+	<E K="GradationCurve" V="0,0;0.281291395425797,0.232049852609634;0.760780155658722,0.761941969394684;1,1" />
+	<E K="GradationCurveBlue" V="0,0;1,1" />
+	<E K="GradationCurveGreen" V="0,0;1,1" />
+	<E K="GradationCurveRed" V="0,0;1,1" />
+	<E K="GradationCurveY" V="0,0;0.409921586513519,0.491927087306976;1,1" />
+	<E K="Name" V="Still Life" />
+	<E K="UUID" V="F3EE727F-E440-4692-9093-19CC01E7F2DE" />
+</SL>

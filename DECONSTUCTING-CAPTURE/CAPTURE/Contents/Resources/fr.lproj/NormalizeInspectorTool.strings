@@ -1,0 +1,21 @@
+/* Class = "NSTextFieldCell"; title = "Adjust"; ObjectID = "27P-ZX-9aK"; */
+"27P-ZX-9aK.title" = "Ajuster";
+
+/* Class = "NSButtonCell"; title = "High Dynamic Range"; ObjectID = "ikq-WS-AgG"; */
+"ikq-WS-AgG.title" = "High Dynamic Range";
+
+/* Class = "NSButtonCell"; title = "Exposure"; ObjectID = "iP1-vZ-mrg"; */
+"iP1-vZ-mrg.title" = "Exposition";
+
+/* Class = "NSButtonCell"; title = "White Balance"; ObjectID = "L6O-bj-g3A"; */
+"L6O-bj-g3A.title" = "Balance des Blancs";
+
+/* Class = "NSButtonCell"; title = "Contrast and Brightness"; ObjectID = "Ml0-RG-Mdb"; */
+"Ml0-RG-Mdb.title" = "Contraste et Luminosité";
+
+/* Class = "NSTextFieldCell"; title = "Pick"; ObjectID = "n35-IB-a6Q"; */
+"n35-IB-a6Q.title" = "Sélection";
+
+/* Class = "NSButtonCell"; title = "Levels"; ObjectID = "xc4-is-FBf"; */
+"xc4-is-FBf.title" = "Niveaux";
+

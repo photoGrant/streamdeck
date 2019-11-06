@@ -1,0 +1,87 @@
+/* Class = "NSView"; ibExternalAccessibilityDescription = "saturation"; ObjectID = "1Hv-MQ-Xea"; */
+"1Hv-MQ-Xea.ibExternalAccessibilityDescription" = "飽和度";
+
+/* Class = "NSView"; 1Hv-MQ-Xea.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Yellow"; ObjectID = "1Hv-MQ-Xea"; */
+"1Hv-MQ-Xea.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "黃色";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "red"; ObjectID = "94N-k5-35A"; */
+"94N-k5-35A.ibExternalAccessibilityDescription" = "紅色";
+
+/* Class = "NSView"; 94N-k5-35A.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Red"; ObjectID = "94N-k5-35A"; */
+"94N-k5-35A.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "紅色";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "155"; */
+"155.title" = "菜單";
+
+/* Class = "NSButtonCell"; title = "Enable Black & White"; ObjectID = "450"; */
+"450.title" = "啓用黑與白";
+
+/* Class = "NSTextFieldCell"; title = "Highlights"; ObjectID = "709"; */
+"709.title" = "高光";
+
+/* Class = "NSTextFieldCell"; title = "Shadows"; ObjectID = "887"; */
+"887.title" = "陰影";
+
+/* Class = "NSSegmentedCell"; 916.ibShadowedLabels[0] = "Color Sensitivity"; ObjectID = "916"; */
+"916.ibShadowedLabels[0]" = "色彩敏感";
+
+/* Class = "NSSegmentedCell"; 916.ibShadowedLabels[1] = "Split Tones"; ObjectID = "916"; */
+"916.ibShadowedLabels[1]" = "分裂色调";
+
+/* Class = "NSTabViewItem"; label = "Color sensitivity"; ObjectID = "918"; */
+"918.label" = "色彩敏感度";
+
+/* Class = "NSTabViewItem"; label = "Split tones"; ObjectID = "919"; */
+"919.label" = "分離色調";
+
+/* Class = "NSButtonCell"; title = "Enable Black & White"; ObjectID = "953"; */
+"953.title" = "啓用黑與白";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "saturation"; ObjectID = "epE-Bj-Ea0"; */
+"epE-Bj-Ea0.ibExternalAccessibilityDescription" = "飽和度";
+
+/* Class = "NSView"; epE-Bj-Ea0.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Green"; ObjectID = "epE-Bj-Ea0"; */
+"epE-Bj-Ea0.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "綠色";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "red"; ObjectID = "FTZ-Ys-qEN"; */
+"FTZ-Ys-qEN.ibExternalAccessibilityDescription" = "紅色";
+
+/* Class = "NSView"; FTZ-Ys-qEN.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Saturation"; ObjectID = "FTZ-Ys-qEN"; */
+"FTZ-Ys-qEN.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "飽和度";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "saturation"; ObjectID = "kA4-IV-KrW"; */
+"kA4-IV-KrW.ibExternalAccessibilityDescription" = "飽和度";
+
+/* Class = "NSView"; kA4-IV-KrW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Magenta"; ObjectID = "kA4-IV-KrW"; */
+"kA4-IV-KrW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "品紅";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "saturation"; ObjectID = "ncO-s8-djm"; */
+"ncO-s8-djm.ibExternalAccessibilityDescription" = "飽和度";
+
+/* Class = "NSView"; ncO-s8-djm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Blue"; ObjectID = "ncO-s8-djm"; */
+"ncO-s8-djm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "藍色";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "red"; ObjectID = "OrD-M8-LcE"; */
+"OrD-M8-LcE.ibExternalAccessibilityDescription" = "紅色";
+
+/* Class = "NSView"; OrD-M8-LcE.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Saturation"; ObjectID = "OrD-M8-LcE"; */
+"OrD-M8-LcE.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "飽和度";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "red"; ObjectID = "qmI-bB-Ky2"; */
+"qmI-bB-Ky2.ibExternalAccessibilityDescription" = "紅色";
+
+/* Class = "NSView"; qmI-bB-Ky2.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Hue"; ObjectID = "qmI-bB-Ky2"; */
+"qmI-bB-Ky2.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "色調";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "red"; ObjectID = "vL2-c5-pGT"; */
+"vL2-c5-pGT.ibExternalAccessibilityDescription" = "紅色";
+
+/* Class = "NSView"; vL2-c5-pGT.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Hue"; ObjectID = "vL2-c5-pGT"; */
+"vL2-c5-pGT.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "色調";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "saturation"; ObjectID = "xhj-to-hD5"; */
+"xhj-to-hD5.ibExternalAccessibilityDescription" = "飽和度";
+
+/* Class = "NSView"; xhj-to-hD5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Cyan"; ObjectID = "xhj-to-hD5"; */
+"xhj-to-hD5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "青色";
+

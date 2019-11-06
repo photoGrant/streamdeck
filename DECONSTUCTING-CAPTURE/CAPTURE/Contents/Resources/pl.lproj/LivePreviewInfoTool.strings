@@ -1,0 +1,39 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "Menu";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image rotation in degrees"; ObjectID = "384"; */
+"384.ibShadowedToolTip" = "Obrót obrazu w stopniach";
+
+/* Class = "NSTextFieldCell"; title = "Rotation"; ObjectID = "385"; */
+"385.title" = "Obrót";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image rotation in degrees"; ObjectID = "387"; */
+"387.ibShadowedToolTip" = "Obrót obrazu w stopniach";
+
+/* Class = "NSTextFieldCell"; title = "--"; ObjectID = "388"; */
+"388.title" = "--";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image rotation in degrees"; ObjectID = "390"; */
+"390.ibShadowedToolTip" = "Obrót obrazu w stopniach";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Frame rate in images per second"; ObjectID = "391"; */
+"391.ibShadowedToolTip" = "Szybkość klatek w obrazach na sekundę";
+
+/* Class = "NSTextFieldCell"; title = "--"; ObjectID = "392"; */
+"392.title" = "--";
+
+/* Class = "NSTextFieldCell"; title = "Frame Rate"; ObjectID = "393"; */
+"393.title" = "Szybkość klatek";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image rotation in degrees"; ObjectID = "397"; */
+"397.ibShadowedToolTip" = "Obrót obrazu w stopniach";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Image rotation in degrees"; ObjectID = "398"; */
+"398.ibShadowedToolTip" = "Obrót obrazu w stopniach";
+
+/* Class = "NSTextFieldCell"; title = "Pitch"; ObjectID = "399"; */
+"399.title" = "Pochył";
+
+/* Class = "NSTextFieldCell"; title = "--"; ObjectID = "400"; */
+"400.title" = "--";
+

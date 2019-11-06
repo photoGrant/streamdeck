@@ -1,0 +1,60 @@
+/* Class = "NSTextFieldCell"; title = "Backup location:"; ObjectID = "5Sn-Gl-tkt"; */
+"5Sn-Gl-tkt.title" = "Posizione backup:";
+
+/* Class = "NSButtonCell"; title = "Next"; ObjectID = "6fj-4u-gLd"; */
+"6fj-4u-gLd.title" = "Successivo";
+
+/* Class = "NSButtonCell"; title = "Try Again"; ObjectID = "67h-cn-iXH"; */
+"67h-cn-iXH.title" = "Riprova";
+
+/* Class = "NSButtonCell"; title = "Restore"; ObjectID = "399-rU-8DF"; */
+"399-rU-8DF.title" = "Ripristina";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "cpR-bv-7gf"; */
+"cpR-bv-7gf.title" = "Mostra nel Finder";
+
+/* Class = "NSTextFieldCell"; title = "This will replace the existing database and cannot be undone.\nPlease do not force quit or turn of your computer during the restore."; ObjectID = "cyb-S5-xWA"; */
+"cyb-S5-xWA.title" = "Questo sostituirà il database esistente e non può essere annullato.\nTi preghiamo di non forzare la chiusura o spegnere il computer durante il ripristino.";
+
+/* Class = "NSTextFieldCell"; title = "Backup succesfully restored"; ObjectID = "dvV-is-gQP"; */
+"dvV-is-gQP.title" = "Backup ripristinato con successo";
+
+/* Class = "NSWindow"; title = "Restore Catalog"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Ripristina Catalogo";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "FEk-Wp-ega"; */
+"FEk-Wp-ega.title" = "Cella Testo";
+
+/* Class = "NSTextFieldCell"; title = "error"; ObjectID = "hHN-ZC-38j"; */
+"hHN-ZC-38j.title" = "errore";
+
+/* Class = "NSTextFieldCell"; title = "An error occurred. Try again?"; ObjectID = "KYX-QD-GFy"; */
+"KYX-QD-GFy.title" = "Si è verificato un errore. Riprovare?";
+
+/* Class = "NSButtonCell"; title = "Open Catalog"; ObjectID = "osi-c2-YUn"; */
+"osi-c2-YUn.title" = "Apri Catalogo";
+
+/* Class = "NSTextFieldCell"; title = "Copying files..."; ObjectID = "PX3-ag-0K1"; */
+"PX3-ag-0K1.title" = "Copia file…";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "qoc-Kq-LpV"; */
+"qoc-Kq-LpV.title" = "Cancella";
+
+/* Class = "NSTextFieldCell"; title = "No backups found"; ObjectID = "QwN-ZJ-CGJ"; */
+"QwN-ZJ-CGJ.title" = "Nessun backup trovato";
+
+/* Class = "NSTextFieldCell"; title = "Headline"; ObjectID = "sWD-FV-PK1"; */
+"sWD-FV-PK1.title" = "Titolo";
+
+/* Class = "NSTextFieldCell"; title = "path"; ObjectID = "W74-ST-qV9"; */
+"W74-ST-qV9.title" = "Percorso";
+
+/* Class = "NSButtonCell"; title = "Previous"; ObjectID = "ygv-37-SJC"; */
+"ygv-37-SJC.title" = "Precedente";
+
+/* Class = "NSTextFieldCell"; title = "Catalog Name"; ObjectID = "ysv-Ng-w2A"; */
+"ysv-Ng-w2A.title" = "Nome Catalogo";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Z9t-j4-5sK"; */
+"Z9t-j4-5sK.title" = "Cancella";
+

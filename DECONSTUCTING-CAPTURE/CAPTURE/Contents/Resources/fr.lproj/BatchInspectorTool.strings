@@ -1,0 +1,69 @@
+/* Class = "NSTableView"; ibExternalAccessibilityDescription = "batchQueueTableView"; ObjectID = "257"; */
+"257.ibExternalAccessibilityDescription" = "batchQueueTableView";
+
+/* Class = "NSTabViewItem"; label = "Current"; ObjectID = "261"; */
+"261.label" = "Actuel";
+
+/* Class = "NSTabViewItem"; label = "History"; ObjectID = "262"; */
+"262.label" = "Historique";
+
+/* Class = "NSScrollView"; ibExternalAccessibilityDescription = "batchHistoryTableView"; ObjectID = "265"; */
+"265.ibExternalAccessibilityDescription" = "batchHistoryTableView";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "batchQueueStopStartButton"; ObjectID = "268"; */
+"268.ibExternalAccessibilityDescription" = "batchQueueStopStartButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Pause the batch queue"; ObjectID = "268"; */
+"268.ibShadowedToolTip" = "Mettre la file d'attente de lots en pause";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "batchHistoryReprocessButton"; ObjectID = "273"; */
+"273.ibExternalAccessibilityDescription" = "batchHistoryReprocessButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reprocess selected jobs."; ObjectID = "273"; */
+"273.ibShadowedToolTip" = "Relancer les jobs sélectionnées.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "284"; */
+"284.headerCell.title" = "Nom";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "285"; */
+"285.headerCell.title" = "Nom";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "286"; */
+"286.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Clear History"; ObjectID = "289"; */
+"289.title" = "Effacer l'historique";
+
+/* Class = "NSMenuItem"; title = "Clear Queue"; ObjectID = "290"; */
+"290.title" = "Effacer la file d'attente";
+
+/* Class = "NSProgressIndicator"; ibExternalAccessibilityDescription = "batchQueueProgressBar"; ObjectID = "302"; */
+"302.ibExternalAccessibilityDescription" = "batchQueueProgressBar";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "batchQueueProgressText"; ObjectID = "519"; */
+"519.ibExternalAccessibilityDescription" = "batchQueueProgressText";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "batchHistoryReprocessButton"; ObjectID = "646"; */
+"646.ibExternalAccessibilityDescription" = "batchHistoryReprocessButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Clear the processed jobs history"; ObjectID = "646"; */
+"646.ibShadowedToolTip" = "Effacer l'historique des fichiers traités";
+
+/* Class = "NSSegmentedCell"; 815.ibShadowedLabels[0] = "Queue"; ObjectID = "815"; */
+"815.ibShadowedLabels[0]" = "File d'attente";
+
+/* Class = "NSSegmentedCell"; 815.ibShadowedLabels[1] = "History"; ObjectID = "815"; */
+"815.ibShadowedLabels[1]" = "Historique";
+
+/* Class = "NSButtonCell"; title = "Pause"; ObjectID = "816"; */
+"816.title" = "Pause";
+
+/* Class = "NSTextFieldCell"; title = "1/n"; ObjectID = "818"; */
+"818.title" = "1/n";
+
+/* Class = "NSButtonCell"; title = "Reprocess Selected"; ObjectID = "819"; */
+"819.title" = "Retraiter la sélection";
+
+/* Class = "NSButtonCell"; title = "Clear History"; ObjectID = "820"; */
+"820.title" = "Effacer l'historique";
+

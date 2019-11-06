@@ -1,0 +1,33 @@
+/* Class = "NSButton"; ibShadowedToolTip = "A Session is a quick and light weight way to work with a limited number of images for a single job or event. Images can be edited by browsing to their location on disk or by importing them into the session."; ObjectID = "37"; */
+"37.ibShadowedToolTip" = "En session är snabbt sätt att arbeta med ett begränsat antal bilder för ett jobb eller event. Bilderna kan bearbetas genom att bläddra till rätt mapp på disken eller importera dem från andra media till sessionen.";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "54"; */
+"54.title" = "Avbryt";
+
+/* Class = "NSButtonCell"; title = "New Session..."; ObjectID = "55"; */
+"55.title" = "Ny session...";
+
+/* Class = "NSButtonCell"; title = "Browse..."; ObjectID = "173"; */
+"173.title" = "Leta...";
+
+/* Class = "NSButtonCell"; title = "Open"; ObjectID = "176"; */
+"176.title" = "Öppna";
+
+/* Class = "NSTableColumn"; headerCell.title = "Recent Sessions"; ObjectID = "183"; */
+"183.headerCell.title" = "Tidigare sessioner";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "186"; */
+"186.title" = "Textruta";
+
+/* Class = "NSTextFieldCell"; title = "No recent catalogs or sessions"; ObjectID = "208"; */
+"208.title" = "Inga senaste kataloger eller sessioner";
+
+/* Class = "NSTextFieldCell"; title = "Recents"; ObjectID = "219"; */
+"219.title" = "Senaste";
+
+/* Class = "NSButton"; ibShadowedToolTip = "A Catalog is the best place to store and organize your entire image library. To work with images in a catalog, they need to be imported by the catalog. Recommended for most photographers."; ObjectID = "221"; */
+"221.ibShadowedToolTip" = "En katalog är det bästa stället att lagra och organisera hela ditt bildarkiv. För att arbeta med bilder i en katalog, måste importeras av katalogen. Rekommenderas för de flesta fotografer.";
+
+/* Class = "NSButtonCell"; title = "New Catalog..."; ObjectID = "222"; */
+"222.title" = "Ny katalog...";
+

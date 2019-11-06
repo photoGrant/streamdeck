@@ -1,0 +1,24 @@
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "53"; */
+"53.headerCell.title" = "Имя";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "54"; */
+"54.title" = "Меню";
+
+/* Class = "NSMenuItem"; title = "New Recipe"; ObjectID = "55"; */
+"55.title" = "Новый Рецепт";
+
+/* Class = "NSMenuItem"; title = "Delete Recipe"; ObjectID = "56"; */
+"56.title" = "Удалить набор команд";
+
+/* Class = "NSButtonCell"; title = "Show Enabled Only"; ObjectID = "181"; */
+"181.title" = "Показать только включенные";
+
+/* Class = "NSMenuItem"; title = "Duplicate Recipe"; ObjectID = "199"; */
+"199.title" = "Сделать копию набора команд";
+
+/* Class = "NSMenuItem"; title = "Add Recipe"; ObjectID = "206"; */
+"206.title" = "Добавить набор команд";
+
+/* Class = "NSMenu"; title = "Add Recipe"; ObjectID = "207"; */
+"207.title" = "Добавить набор команд";
+

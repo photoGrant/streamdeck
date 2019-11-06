@@ -1,0 +1,27 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "158"; */
+"158.title" = "菜單";
+
+/* Class = "NSView"; Bxk-2e-NaG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Amount"; ObjectID = "Bxk-2e-NaG"; */
+"Bxk-2e-NaG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "數量";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Amount. Controls the amount of sharpening."; ObjectID = "Bxk-2e-NaG"; */
+"Bxk-2e-NaG.ibShadowedToolTip" = "銳化量， 控制銳化量";
+
+/* Class = "NSView"; MFJ-3v-Pqa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Radius"; ObjectID = "MFJ-3v-Pqa"; */
+"MFJ-3v-Pqa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "半徑";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Radius. Set the pixel radius of the sharpening kernel."; ObjectID = "MFJ-3v-Pqa"; */
+"MFJ-3v-Pqa.ibShadowedToolTip" = "銳化半徑，設置銳化內核的像素半徑";
+
+/* Class = "NSView"; SPM-3K-Lvp.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Threshold"; ObjectID = "SPM-3K-Lvp"; */
+"SPM-3K-Lvp.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "閾值";
+
+/* Class = "NSView"; ibShadowedToolTip = "Sharpening Threshold. Determines the lower threshold where no sharpening is performed."; ObjectID = "SPM-3K-Lvp"; */
+"SPM-3K-Lvp.ibShadowedToolTip" = "銳化閾值，確定未執行銳化的下閾值";
+
+/* Class = "NSView"; YWb-mP-DhK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Halo suppression"; ObjectID = "YWb-mP-DhK"; */
+"YWb-mP-DhK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "光暈抑制";
+
+/* Class = "NSView"; ibShadowedToolTip = "Halo suppression."; ObjectID = "YWb-mP-DhK"; */
+"YWb-mP-DhK.ibShadowedToolTip" = "光暈抑制";
+

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CurvesInspectorTool">
+            <connections>
+                <outlet property="actionMenu" destination="38" id="39"/>
+                <outlet property="channelSelector" destination="315" id="320"/>
+                <outlet property="container" destination="5" id="kLu-zd-dzn"/>
+                <outlet property="cursorToolContainer" destination="269" id="EAS-cl-hnZ"/>
+                <outlet property="curvesControl" destination="281" id="326"/>
+                <outlet property="curvesTopConstraint" destination="3fZ-XT-af3" id="hwr-cD-GJ6"/>
+                <outlet property="filesOwnerController" destination="321" id="322"/>
+                <outlet property="outputValuesView" destination="255" id="327"/>
+                <outlet property="xField" destination="257" id="267"/>
+                <outlet property="yField" destination="260" id="268"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="295" height="285"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="289">
+                    <rect key="frame" x="0.0" y="0.0" width="295" height="285"/>
+                    <subviews>
+                        <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="315" customClass="POProportionalFillSegmentedControl">
+                            <rect key="frame" x="1" y="253" width="293" height="23"/>
+                            <segmentedCell key="cell" state="on" borderStyle="border" alignment="left" segmentDistribution="fill" style="capsule" trackingMode="selectOne" id="316" customClass="POSegmentedCell">
+                                <font key="font" metaFont="system"/>
+                                <segments>
+                                    <segment label="RGB" selected="YES"/>
+                                    <segment label="Luma" tag="1"/>
+                                    <segment label="Red"/>
+                                    <segment label="Green"/>
+                                    <segment label="Blue"/>
+                                </segments>
+                                <connections>
+                                    <binding destination="321" name="selectedIndex" keyPath="selection.settings.selectedCurveType" id="325"/>
+                                </connections>
+                            </segmentedCell>
+                        </segmentedControl>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="281" customClass="POCurvesControl">
+                            <rect key="frame" x="9" y="42" width="277" height="208"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="281" secondAttribute="height" multiplier="4:3" id="sCb-oP-akH"/>
+                            </constraints>
+                            <connections>
+                                <action selector="curvesControlUpdated:" target="-2" id="282"/>
+                            </connections>
+                        </customView>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="255">
+                            <rect key="frame" x="9" y="14" width="277" height="27"/>
+                            <subviews>
+                                <customView autoresizesSubviews="NO" canDrawConcurrently="YES" translatesAutoresizingMaskIntoConstraints="NO" id="269" userLabel="Cursor Tool Container">
+                                    <rect key="frame" x="247" y="1" width="30" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="30" id="GXd-AT-uYb"/>
+                                        <constraint firstAttribute="height" constant="25" id="t5Q-Hw-DUC"/>
+                                    </constraints>
+                                </customView>
+                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="262">
+                                    <rect key="frame" x="92" y="4" width="58" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="54" id="FS1-cq-kLQ"/>
+                                        <constraint firstAttribute="height" constant="18" id="MpG-Te-hFl"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="Output:" id="288" customClass="COUITextFieldCell">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="260">
+                                    <rect key="frame" x="152" y="5" width="26" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="22" id="OF7-KY-Eba"/>
+                                        <constraint firstAttribute="height" constant="18" id="eYU-De-ddD"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" enabled="NO" sendsActionOnEndEditing="YES" state="on" alignment="left" placeholderString="0" id="287" customClass="COUITextFieldCell">
+                                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator="." id="261">
+                                            <attributedString key="attributedStringForZero">
+                                                <fragment content="0"/>
+                                            </attributedString>
+                                            <decimal key="minimum" value="NaN"/>
+                                            <decimal key="maximum" value="NaN"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                                    </textFieldCell>
+                                    <accessibility description="curvesOutputField"/>
+                                </textField>
+                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="259">
+                                    <rect key="frame" x="3" y="5" width="60" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="FOh-Eb-dbb"/>
+                                        <constraint firstAttribute="width" constant="56" id="r8Q-zm-dI4"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" controlSize="small" sendsActionOnEndEditing="YES" alignment="right" title="Input:" id="286" customClass="COUITextFieldCell">
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="257">
+                                    <rect key="frame" x="65" y="5" width="26" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="I4m-VC-0Yo"/>
+                                        <constraint firstAttribute="width" constant="22" id="YYC-TE-Ws0"/>
+                                    </constraints>
+                                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" enabled="NO" sendsActionOnEndEditing="YES" state="on" alignment="left" placeholderString="0" id="285" customClass="COUITextFieldCell">
+                                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator="." id="258">
+                                            <attributedString key="attributedStringForZero">
+                                                <fragment content="0"/>
+                                            </attributedString>
+                                            <decimal key="minimum" value="NaN"/>
+                                            <decimal key="maximum" value="NaN"/>
+                                        </numberFormatter>
+                                        <font key="font" metaFont="smallSystem"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                                    </textFieldCell>
+                                    <accessibility description="curvesInputField"/>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="centerY" secondItem="257" secondAttribute="centerY" id="Nj1-J6-M3n"/>
+                                <constraint firstItem="262" firstAttribute="leading" secondItem="257" secondAttribute="trailing" constant="5" id="Qes-po-RMC"/>
+                                <constraint firstItem="260" firstAttribute="leading" secondItem="262" secondAttribute="trailing" constant="6" id="UhX-Z7-m8P"/>
+                                <constraint firstItem="259" firstAttribute="leading" secondItem="255" secondAttribute="leading" constant="5" id="VQ4-q4-Ial"/>
+                                <constraint firstAttribute="height" constant="27" id="VZY-nO-22O"/>
+                                <constraint firstAttribute="centerY" secondItem="262" secondAttribute="centerY" id="VoN-bb-DYV"/>
+                                <constraint firstItem="257" firstAttribute="leading" secondItem="259" secondAttribute="trailing" constant="6" id="a1m-cG-Bhq"/>
+                                <constraint firstAttribute="centerY" secondItem="259" secondAttribute="centerY" id="ae0-9g-KU4"/>
+                                <constraint firstAttribute="centerY" secondItem="260" secondAttribute="centerY" id="dIl-0F-Tn7"/>
+                                <constraint firstAttribute="centerY" secondItem="269" secondAttribute="centerY" id="dav-55-Ljh"/>
+                                <constraint firstAttribute="trailing" secondItem="269" secondAttribute="trailing" id="xxP-Z5-aOF"/>
+                            </constraints>
+                        </customView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="281" firstAttribute="height" relation="lessThanOrEqual" secondItem="289" secondAttribute="height" constant="-62" id="0gJ-Jk-LkC"/>
+                        <constraint firstItem="281" firstAttribute="top" secondItem="315" secondAttribute="bottom" constant="4" id="3fZ-XT-af3"/>
+                        <constraint firstItem="281" firstAttribute="width" relation="lessThanOrEqual" secondItem="289" secondAttribute="width" constant="-18" id="Bgj-Ru-BsY"/>
+                        <constraint firstItem="315" firstAttribute="trailing" secondItem="281" secondAttribute="trailing" constant="8" id="F4s-UF-r3C"/>
+                        <constraint firstItem="281" firstAttribute="leading" secondItem="255" secondAttribute="leading" id="QRf-ML-yrz"/>
+                        <constraint firstItem="255" firstAttribute="top" secondItem="281" secondAttribute="bottom" constant="1" id="SPe-JJ-YFU"/>
+                        <constraint firstItem="281" firstAttribute="height" secondItem="289" secondAttribute="height" priority="250" id="ecV-IZ-wzf"/>
+                        <constraint firstItem="315" firstAttribute="leading" secondItem="281" secondAttribute="leading" constant="-8" id="hZu-lz-Go7"/>
+                        <constraint firstAttribute="centerX" secondItem="281" secondAttribute="centerX" id="mAd-W0-JH3"/>
+                        <constraint firstItem="281" firstAttribute="width" secondItem="289" secondAttribute="width" priority="250" id="mfR-E9-zhw"/>
+                        <constraint firstItem="315" firstAttribute="top" secondItem="289" secondAttribute="top" constant="9" id="nvr-JC-3aJ"/>
+                        <constraint firstItem="281" firstAttribute="trailing" secondItem="255" secondAttribute="trailing" id="qIf-a7-Ctq"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="289" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="GlT-Sv-xCo"/>
+                <constraint firstAttribute="trailing" secondItem="289" secondAttribute="trailing" id="QiR-rP-BoP"/>
+                <constraint firstAttribute="bottom" secondItem="289" secondAttribute="bottom" id="XAH-Wj-wyV"/>
+                <constraint firstItem="289" firstAttribute="top" secondItem="5" secondAttribute="top" id="ifo-hx-3s3"/>
+            </constraints>
+            <point key="canvasLocation" x="138.5" y="168.5"/>
+        </customView>
+        <menu title="Menu" id="38" userLabel="Action Menu"/>
+        <objectController id="321" userLabel="filesOwnerObject">
+            <declaredKeys>
+                <mutableString>selectedCurveType</mutableString>
+                <string>settings.selectedCurveType</string>
+            </declaredKeys>
+        </objectController>
+    </objects>
+</document>

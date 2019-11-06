@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NextCaptureAdjustmentsInspectorTool">
+            <connections>
+                <outlet property="container" destination="5" id="405"/>
+                <outlet property="iccProfilePopupControl" destination="vou-JF-WdZ" id="tdw-16-u15"/>
+                <outlet property="metadataPopupControl" destination="m0f-DK-lIy" id="g4P-Ak-Ozu"/>
+                <outlet property="orientationPopupControl" destination="5tw-32-WJt" id="19C-7o-fUE"/>
+                <outlet property="otherPopupControl" destination="mw0-8B-bEF" id="KkR-Pm-fkz"/>
+                <outlet property="stylesPopupControl" destination="O9q-db-Y3n" id="0J5-iv-paS"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="154"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView id="vou-JF-WdZ" userLabel="ICC Profile popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="125" width="280" height="23"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="ICC Profile" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="popupMenu" destination="Xeb-6A-LJM" id="vwV-fL-6pp"/>
+                    </connections>
+                </customView>
+                <customView id="5tw-32-WJt" userLabel="Orientation popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="101" width="280" height="23"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Orientation" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="popupMenu" destination="72G-Rg-3fy" id="VfU-3i-HAE"/>
+                    </connections>
+                </customView>
+                <customView id="m0f-DK-lIy" userLabel="Metadata popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="77" width="280" height="23"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Metadata" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="metadataMenuItemSelected:" target="-2" id="C2a-8X-8op"/>
+                        <outlet property="popupMenu" destination="H9D-F8-ezk" id="AUE-3c-oTI"/>
+                    </connections>
+                </customView>
+                <customView id="mw0-8B-bEF" userLabel="Other popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="53" width="280" height="23"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Other" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="otherMenuItemSelected:" target="-2" id="0zr-88-FBT"/>
+                        <outlet property="popupMenu" destination="Wu0-ku-Oxz" id="sSx-Fp-OpX"/>
+                    </connections>
+                </customView>
+                <customView id="O9q-db-Y3n" userLabel="Styles popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="29" width="280" height="23"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Styles" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </customView>
+                <button toolTip="Auto adjust captured images" id="437" customClass="POSkinButton">
+                    <rect key="frame" x="98" y="8" width="174" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="check" title="Auto Alignment" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="438">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <binding destination="345" name="value" keyPath="values.AutoAlignOnCapture" id="493"/>
+                    </connections>
+                </button>
+            </subviews>
+            <point key="canvasLocation" x="744" y="676"/>
+        </customView>
+        <menu title="Menu" id="250" userLabel="Action Menu"/>
+        <userDefaultsController representsSharedInstance="YES" id="345"/>
+        <menu title="OtherViews" id="Xeb-6A-LJM" userLabel="ICC Profile menu">
+            <items>
+                <menuItem title="Default" toolTip="Use the default ICC profile for the camera" id="abE-6a-zrB"/>
+                <menuItem title="Copy from Last" tag="1" toolTip="Copy the ICC profile from the last image captured." id="gij-EA-zK2"/>
+                <menuItem title="Copy from Primary" tag="2" toolTip="Copy the ICC profile from the primary variant" id="s07-eL-TTi"/>
+            </items>
+        </menu>
+        <menu title="OtherViews" id="72G-Rg-3fy" userLabel="Orientation menu">
+            <items>
+                <menuItem title="Default" tag="-1" toolTip="Use the default orientation from the camera" id="d3M-jK-dwn">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="0°" id="gQW-DA-0rK">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="90°" tag="90" id="oSc-cm-kIt">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="180°" tag="180" id="68d-gL-F0e">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="270°" tag="270" id="3iW-BV-vkO">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+            </items>
+        </menu>
+        <menu autoenablesItems="NO" id="H9D-F8-ezk" userLabel="Metadata menu">
+            <items>
+                <menuItem title="Defaults" toolTip="Use the default adjustments" id="X6Q-vm-89c">
+                    <attributedString key="attributedTitle"/>
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy from Last" tag="1" toolTip="Copy the adjustments from the last capture." id="6FN-pe-a1A">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy from Primary" tag="2" toolTip="Copy the adjustments from the primary variant" id="E2Z-F5-3g9">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy from Clipboard" tag="7" id="R6j-Ww-gyc">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy specific from Last..." tag="10" id="IQQ-K7-eG8">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy specific from Primary..." tag="11" id="mVo-jT-1HB">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy Variants from Last" tag="8" id="6uU-Kc-qnz">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy Variants from Primary" tag="9" id="1fh-n9-LQH">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+            </items>
+        </menu>
+        <menu title="OtherViews" autoenablesItems="NO" id="Wu0-ku-Oxz" userLabel="Other menu">
+            <items>
+                <menuItem title="Defaults" toolTip="Use the default adjustments" id="Jfq-Qx-Wc8">
+                    <attributedString key="attributedTitle"/>
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy from Last" tag="1" toolTip="Copy the adjustments from the last capture." id="1xt-dV-kug">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy from Primary" tag="2" toolTip="Copy the adjustments from the primary variant" id="RWO-hh-M69">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy from Clipboard" tag="7" id="W3G-Em-rUj">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy specific from Last..." tag="10" id="9pl-mW-pP7">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy specific from Primary..." tag="11" id="BH0-cz-xDp">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy Variants from Last" tag="8" id="4jT-BI-Tt1">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Copy Variants from Primary" tag="9" id="JgD-8n-qns">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>

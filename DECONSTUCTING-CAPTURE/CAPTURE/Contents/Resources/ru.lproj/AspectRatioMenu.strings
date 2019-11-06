@@ -1,0 +1,30 @@
+/* Class = "NSWindow"; title = "New Aspect Ratio"; ObjectID = "6"; */
+"6.title" = "Новое соотношение сторон";
+
+/* Class = "NSWindow"; title = "Organize Aspect Ratios"; ObjectID = "66"; */
+"66.title" = "Управлять соотношением сторон";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "115"; */
+"115.title" = "ОК";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "116"; */
+"116.title" = "Отмена";
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "117"; */
+"117.title" = "Имя:";
+
+/* Class = "NSTextFieldCell"; title = "Ratio:"; ObjectID = "118"; */
+"118.title" = "Соотношение:";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "121"; */
+"121.title" = "x";
+
+/* Class = "NSTextFieldCell"; title = "Aspect ratio must contain whole numbers greater than zero."; ObjectID = "122"; */
+"122.title" = "Соотношение сторон задается с помощью положительных целых чисел.";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "123"; */
+"123.title" = "Готово";
+
+/* Class = "NSButtonCell"; title = "Remove"; ObjectID = "124"; */
+"124.title" = "Удалить";
+

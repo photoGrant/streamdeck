@@ -1,0 +1,15 @@
+/* Class = "NSWindow"; title = "Saving Batch Job Files"; ObjectID = "5"; */
+"5.title" = "正在保存批处理作业文件";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayPattern = "Saved %{value1}@ of %{value2}@ batch jobs"; ObjectID = "27"; */
+"27.ibShadowedDisplayPattern" = "已保存了 %{value1}@ 个批处理作业，共 %{value2}@ 个";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedDisplayPattern = "Saved %{value1}@ of %{value2}@ batch jobs"; ObjectID = "28"; */
+"28.ibShadowedDisplayPattern" = "已保存了 %{value1}@ 个批处理作业，共 %{value2}@ 个";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "30"; */
+"30.title" = "退出";
+
+/* Class = "NSTextFieldCell"; title = "saving x of N batch jobs"; ObjectID = "31"; */
+"31.title" = "正在保存第 x 个批处理作业，共 N 个";
+

@@ -1,0 +1,78 @@
+/* Class = "NSView"; 0d0-8R-tLw.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Low"; ObjectID = "0d0-8R-tLw"; */
+"0d0-8R-tLw.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Nisko";
+
+/* Class = "NSTextFieldCell"; title = "Distance Unit"; ObjectID = "6Sd-kz-UIh"; */
+"6Sd-kz-UIh.title" = "Jednostka odległości";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "b1o-xe-f2L"; */
+"b1o-xe-f2L.title" = "Pole";
+
+/* Class = "NSTextFieldCell"; title = "Position settings"; ObjectID = "dmz-Zi-K8p"; */
+"dmz-Zi-K8p.title" = "Ustawienia położenia";
+
+/* Class = "NSTextFieldCell"; title = "Position"; ObjectID = "dpt-fL-j8i"; */
+"dpt-fL-j8i.title" = "Położenie";
+
+/* Class = "NSWindow"; title = "Configure"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Skonfiguruj";
+
+/* Class = "NSMenuItem"; title = "Up"; ObjectID = "Fzy-PA-eLs"; */
+"Fzy-PA-eLs.title" = "Do góry";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "gf5-bG-nhb"; */
+"gf5-bG-nhb.title" = "Gotowe";
+
+/* Class = "NSTextFieldCell"; title = "Hard stops"; ObjectID = "GwY-gy-ciJ"; */
+"GwY-gy-ciJ.title" = "Mechaniczne ograniczniki";
+
+/* Class = "NSMenuItem"; title = "Centimeter"; ObjectID = "H8r-FG-Kr3"; */
+"H8r-FG-Kr3.title" = "Centymetr";
+
+/* Class = "NSTextFieldCell"; title = "Speed settings"; ObjectID = "knt-jR-igh"; */
+"knt-jR-igh.title" = "Ustawienia prędkości";
+
+/* Class = "NSButtonCell"; title = "Define current position"; ObjectID = "kXp-pb-vUY"; */
+"kXp-pb-vUY.title" = "Określ aktualną pozycję";
+
+/* Class = "NSTextFieldCell"; title = "Lower"; ObjectID = "LKh-K1-Y6N"; */
+"LKh-K1-Y6N.title" = "Niżej";
+
+/* Class = "NSMenuItem"; title = "Millimeter"; ObjectID = "mo9-ag-5qk"; */
+"mo9-ag-5qk.title" = "Milimetr";
+
+/* Class = "NSMenuItem"; title = "Inch"; ObjectID = "N8e-Em-hgs"; */
+"N8e-Em-hgs.title" = "Cal";
+
+/* Class = "NSTextFieldCell"; title = "PPI"; ObjectID = "NrY-xR-emd"; */
+"NrY-xR-emd.title" = "PPI";
+
+/* Class = "NSTextFieldCell"; title = "Position"; ObjectID = "OIm-4a-xHW"; */
+"OIm-4a-xHW.title" = "Położenie";
+
+/* Class = "NSTextFieldCell"; title = "Positive Direction"; ObjectID = "Q9f-5E-WvF"; */
+"Q9f-5E-WvF.title" = "Właściwy kierunek";
+
+/* Class = "NSTextFieldCell"; title = "Resolution settings"; ObjectID = "r6Q-Yq-qbn"; */
+"r6Q-Yq-qbn.title" = "Ustawienia rozdzielczości";
+
+/* Class = "NSView"; t88-sx-mlj.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "High"; ObjectID = "t88-sx-mlj"; */
+"t88-sx-mlj.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Wysoko";
+
+/* Class = "NSButtonCell"; title = "Set"; ObjectID = "UHt-zv-9SR"; */
+"UHt-zv-9SR.title" = "Ustaw";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "wha-sd-g2k"; */
+"wha-sd-g2k.title" = "Pole";
+
+/* Class = "NSTextFieldCell"; title = "Upper"; ObjectID = "x71-Fc-ePv"; */
+"x71-Fc-ePv.title" = "Wyżej";
+
+/* Class = "NSWindow"; title = "Define current position"; ObjectID = "Xjf-k5-hQK"; */
+"Xjf-k5-hQK.title" = "Określ aktualną pozycję";
+
+/* Class = "NSTextFieldCell"; title = "Virtual stops"; ObjectID = "yDQ-Al-p0h"; */
+"yDQ-Al-p0h.title" = "Wirtualne ograniczniki";
+
+/* Class = "NSMenuItem"; title = "Down"; ObjectID = "yOk-jx-9Zz"; */
+"yOk-jx-9Zz.title" = "Do dołu";
+

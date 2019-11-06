@@ -1,0 +1,69 @@
+/* Class = "NSTableView"; ibExternalAccessibilityDescription = "batchQueueTableView"; ObjectID = "257"; */
+"257.ibExternalAccessibilityDescription" = "batchQueueTableView";
+
+/* Class = "NSTabViewItem"; label = "Current"; ObjectID = "261"; */
+"261.label" = "Текущий";
+
+/* Class = "NSTabViewItem"; label = "History"; ObjectID = "262"; */
+"262.label" = "История";
+
+/* Class = "NSScrollView"; ibExternalAccessibilityDescription = "batchHistoryTableView"; ObjectID = "265"; */
+"265.ibExternalAccessibilityDescription" = "batchHistoryTableView";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "batchQueueStopStartButton"; ObjectID = "268"; */
+"268.ibExternalAccessibilityDescription" = "batchQueueStopStartButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Pause the batch queue"; ObjectID = "268"; */
+"268.ibShadowedToolTip" = "Приостановить очередь пакетов";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "batchHistoryReprocessButton"; ObjectID = "273"; */
+"273.ibExternalAccessibilityDescription" = "batchHistoryReprocessButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reprocess selected jobs."; ObjectID = "273"; */
+"273.ibShadowedToolTip" = "Повторно обработать выделенные задания.";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "284"; */
+"284.headerCell.title" = "Имя";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "285"; */
+"285.headerCell.title" = "Имя";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "286"; */
+"286.title" = "Меню";
+
+/* Class = "NSMenuItem"; title = "Clear History"; ObjectID = "289"; */
+"289.title" = "Очистить историю";
+
+/* Class = "NSMenuItem"; title = "Clear Queue"; ObjectID = "290"; */
+"290.title" = "Очистить очередь";
+
+/* Class = "NSProgressIndicator"; ibExternalAccessibilityDescription = "batchQueueProgressBar"; ObjectID = "302"; */
+"302.ibExternalAccessibilityDescription" = "batchQueueProgressBar";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "batchQueueProgressText"; ObjectID = "519"; */
+"519.ibExternalAccessibilityDescription" = "batchQueueProgressText";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "batchHistoryReprocessButton"; ObjectID = "646"; */
+"646.ibExternalAccessibilityDescription" = "batchHistoryReprocessButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Clear the processed jobs history"; ObjectID = "646"; */
+"646.ibShadowedToolTip" = "Очистить историю обработанных заданий";
+
+/* Class = "NSSegmentedCell"; 815.ibShadowedLabels[0] = "Queue"; ObjectID = "815"; */
+"815.ibShadowedLabels[0]" = "Очередь";
+
+/* Class = "NSSegmentedCell"; 815.ibShadowedLabels[1] = "History"; ObjectID = "815"; */
+"815.ibShadowedLabels[1]" = "История";
+
+/* Class = "NSButtonCell"; title = "Pause"; ObjectID = "816"; */
+"816.title" = "Пауза";
+
+/* Class = "NSTextFieldCell"; title = "1/n"; ObjectID = "818"; */
+"818.title" = "1/n";
+
+/* Class = "NSButtonCell"; title = "Reprocess Selected"; ObjectID = "819"; */
+"819.title" = "Повторно обработать выделенные";
+
+/* Class = "NSButtonCell"; title = "Clear History"; ObjectID = "820"; */
+"820.title" = "Очистить историю";
+

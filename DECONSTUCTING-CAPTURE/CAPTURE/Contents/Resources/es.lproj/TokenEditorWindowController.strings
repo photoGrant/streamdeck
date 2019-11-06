@@ -1,0 +1,93 @@
+/* Class = "NSWindow"; title = "Naming Format"; ObjectID = "1"; */
+"1.title" = "Nombre del formato";
+
+/* Class = "NSMenuItem"; title = "Metadata - EXIF - Camera"; ObjectID = "9IJ-Rj-Mn6"; */
+"9IJ-Rj-Mn6.title" = "Metadatos - EXIF - Cámara";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "13"; */
+"13.title" = "Cancelar";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "14"; */
+"14.title" = "Aceptar";
+
+/* Class = "NSMenuItem"; title = "Recently Used"; ObjectID = "59L-oO-NTp"; */
+"59L-oO-NTp.title" = "Usado Recientemente";
+
+/* Class = "NSTextFieldCell"; title = "Presets"; ObjectID = "74"; */
+"74.title" = "Ajustes";
+
+/* Class = "NSMenuItem"; title = "Image and Job Name"; ObjectID = "77"; */
+"77.title" = "Imagen y nombre de trabajo";
+
+/* Class = "NSMenuItem"; title = "Job Name and Counter"; ObjectID = "78"; */
+"78.title" = "Nombre de trabajo y contador";
+
+/* Class = "NSMenuItem"; title = "Job and Image Name"; ObjectID = "79"; */
+"79.title" = "Trabajo y nombre de imagen";
+
+/* Class = "NSMenuItem"; title = "Image Name"; ObjectID = "80"; */
+"80.title" = "Nombre de imagen";
+
+/* Class = "NSTextFieldCell"; title = "You can edit the text above to fit your needs. Select elements from the groups below and drag or double-click to add them to the format."; ObjectID = "84"; */
+"84.title" = "Puedes editar el texto anterior para cubrir tus necesadidades. Selecciona elementos de los siguientes grupos, arrastra o haz doble click para añadirlos en el formato.";
+
+/* Class = "NSButtonCell"; title = "Save User Preset…"; ObjectID = "89"; */
+"89.title" = "Salvar Ajustes de usuario...";
+
+/* Class = "NSTextFieldCell"; title = "Format"; ObjectID = "94"; */
+"94.title" = "Formato";
+
+/* Class = "NSTextFieldCell"; title = "Tokens"; ObjectID = "96"; */
+"96.title" = "Atríbutos";
+
+/* Class = "NSMenuItem"; title = "Metadata - EXIF - GPS"; ObjectID = "f2N-un-vTh"; */
+"f2N-un-vTh.title" = "Metadatos - EXIF - GPS";
+
+/* Class = "NSMenuItem"; title = "Metadata - Vendor Specific"; ObjectID = "gbF-cc-3Gm"; */
+"gbF-cc-3Gm.title" = "Metadatos - Fabricante";
+
+/* Class = "NSMenuItem"; title = "Excluded Tokens (Debug)"; ObjectID = "h0E-Xs-g3o"; */
+"h0E-Xs-g3o.title" = "Atríbutos Excluidos (Depurar)";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Getty Images"; ObjectID = "IcR-I5-MrP"; */
+"IcR-I5-MrP.title" = "Metadatos - IPTC - Getty Images";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Contact"; ObjectID = "iEP-7R-U0R"; */
+"iEP-7R-U0R.title" = "Metadatos - IPTC - Contacto";
+
+/* Class = "NSMenuItem"; title = "All"; ObjectID = "im4-Sx-noG"; */
+"im4-Sx-noG.title" = "Todo";
+
+/* Class = "NSMenuItem"; title = "Date and Time"; ObjectID = "Iov-PJ-gmm"; */
+"Iov-PJ-gmm.title" = "Fecha y Hora";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Content"; ObjectID = "jEp-eA-ZqR"; */
+"jEp-eA-ZqR.title" = "Metadatos - IPTC - Contenido";
+
+/* Class = "NSTextFieldCell"; title = "Group"; ObjectID = "nqc-FB-Qwc"; */
+"nqc-FB-Qwc.title" = "Grupo";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Image"; ObjectID = "pQh-ye-usp"; */
+"pQh-ye-usp.title" = "Metadatos - IPTC - Imagen";
+
+/* Class = "NSMenuItem"; title = "Metadata - IPTC - Status"; ObjectID = "pxr-Cf-W6a"; */
+"pxr-Cf-W6a.title" = "Metadatos - IPTC - Estado";
+
+/* Class = "NSTextFieldCell"; title = "Sample"; ObjectID = "q5j-D3-iFU"; */
+"q5j-D3-iFU.title" = "Muestra";
+
+/* Class = "NSMenuItem"; title = "Metadata - Basic"; ObjectID = "Sj2-sS-faM"; */
+"Sj2-sS-faM.title" = "Metadatos - Básico";
+
+/* Class = "NSMenuItem"; title = "Metadata - EXIF - Exposure"; ObjectID = "UDJ-1y-oOK"; */
+"UDJ-1y-oOK.title" = "Metadatos - EXIF - Exposición";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "VU8-ib-KQU"; */
+"VU8-ib-KQU.title" = "Area de texto";
+
+/* Class = "NSMenuItem"; title = "General"; ObjectID = "XqK-3b-mox"; */
+"XqK-3b-mox.title" = "General";
+
+/* Class = "NSTextFieldCell"; title = "Sample string goes here"; ObjectID = "xrA-Fa-8YI"; */
+"xrA-Fa-8YI.title" = "La cadena de muestra va aquí";
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="VignettingInspectorTool">
+            <connections>
+                <outlet property="container" destination="1" id="96"/>
+                <outlet property="topLevelView" destination="1" id="144"/>
+                <outlet property="vignettingControl" destination="Wkh-tE-r4o" id="KIl-Cs-3dV"/>
+                <outlet property="vignettingMethodPopupControl" destination="lSB-c9-3hh" id="71w-d7-gFM"/>
+            </connections>
+        </customObject>
+        <menu title="OtherViews" id="Yyl-8K-izZ" userLabel="Method Menu">
+            <items>
+                <menuItem title="Elliptic on Crop" id="Yi3-G7-2UC"/>
+                <menuItem title="Circular on Crop" state="on" tag="1" id="U1G-fX-PSc"/>
+                <menuItem title="Circular" tag="2" id="Z9W-Yg-VTF"/>
+            </items>
+            <point key="canvasLocation" x="140" y="63"/>
+        </menu>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="1">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="58"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="Wkh-tE-r4o" userLabel="Exposure control" customClass="POSliderControl">
+                    <rect key="frame" x="0.0" y="30" width="280" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="YCK-ob-VBj"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Amount" localized="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maximumFractionDigits">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="stepSize">
+                            <real key="value" value="0.01"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shiftStepSize">
+                            <real key="value" value="0.10000000000000001"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <accessibility description="vignetting amount"/>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="lSB-c9-3hh" userLabel="Method popup" customClass="POPopupControl">
+                    <rect key="frame" x="0.0" y="6" width="280" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="TXq-hj-oZQ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="title" value="Method" localized="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="popupMenu" destination="Yyl-8K-izZ" id="iya-yW-PFY"/>
+                    </connections>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lSB-c9-3hh" secondAttribute="trailing" id="03S-B5-ydq"/>
+                <constraint firstItem="lSB-c9-3hh" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="8xy-uP-aVn"/>
+                <constraint firstAttribute="trailing" secondItem="Wkh-tE-r4o" secondAttribute="trailing" id="HNE-pU-mJI"/>
+                <constraint firstItem="lSB-c9-3hh" firstAttribute="top" secondItem="Wkh-tE-r4o" secondAttribute="bottom" constant="1" id="HrK-FX-ySV"/>
+                <constraint firstItem="Wkh-tE-r4o" firstAttribute="top" secondItem="1" secondAttribute="top" constant="6" id="f00-2q-qCe"/>
+                <constraint firstItem="Wkh-tE-r4o" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="x7G-iT-hZL"/>
+                <constraint firstAttribute="bottom" secondItem="lSB-c9-3hh" secondAttribute="bottom" constant="6" id="y9t-Tz-T54"/>
+            </constraints>
+        </customView>
+    </objects>
+</document>

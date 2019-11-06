@@ -1,0 +1,30 @@
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "CFX-Rv-WlM"; */
+"CFX-Rv-WlM.title" = "文本單元格";
+
+/* Class = "NSTableColumn"; headerCell.title = "Current"; ObjectID = "cpM-bI-tVi"; */
+"cpM-bI-tVi.headerCell.title" = "當前";
+
+/* Class = "NSButtonCell"; title = "Calibrate"; ObjectID = "d8V-sn-JhX"; */
+"d8V-sn-JhX.title" = "校準";
+
+/* Class = "NSButtonCell"; alternateTitle = "Stop"; ObjectID = "FCS-rC-GL7"; */
+"FCS-rC-GL7.alternateTitle" = "停止";
+
+/* Class = "NSButtonCell"; title = "Move"; ObjectID = "FCS-rC-GL7"; */
+"FCS-rC-GL7.title" = "移動";
+
+/* Class = "NSTableColumn"; headerCell.title = "Target"; ObjectID = "HF8-NW-edb"; */
+"HF8-NW-edb.headerCell.title" = "目標";
+
+/* Class = "NSButtonCell"; title = "Abort Calibration"; ObjectID = "HhO-fK-78I"; */
+"HhO-fK-78I.title" = "中斷校準";
+
+/* Class = "NSTextFieldCell"; title = "The Copy Stand needs to be calibrated.\n\nPlease make sure that the cables are long enough, and there is no object in the way, so the camera can move to any arbitrary position."; ObjectID = "ke6-ru-9Tg"; */
+"ke6-ru-9Tg.title" = "複製臺需要校準。\n\n請確保電纜足夠長，並且沒有任何物體阻礙，以便相機可以移動到任意位置。";
+
+/* Class = "NSTextFieldCell"; title = "No compatible Copy Stand found."; ObjectID = "pqI-lM-bV8"; */
+"pqI-lM-bV8.title" = "找不到兼容的複製臺。";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "sPX-gm-Kga"; */
+"sPX-gm-Kga.title" = "文本單元格";
+

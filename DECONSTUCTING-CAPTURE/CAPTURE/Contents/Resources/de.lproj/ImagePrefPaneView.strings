@@ -1,0 +1,93 @@
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "CropResetButton"; ObjectID = "55"; */
+"55.ibExternalAccessibilityDescription" = "CropResetButton";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "459"; */
+"459.title" = "Voreinstellung";
+
+/* Class = "NSBox"; title = "Cache"; ObjectID = "486"; */
+"486.title" = "Cache";
+
+/* Class = "NSTextFieldCell"; title = "EIP Packing (Sessions only)"; ObjectID = "526"; */
+"526.title" = "EIP Packen (nur bei Sitzungen)";
+
+/* Class = "NSTextFieldCell"; title = "Preview Image Size (px):"; ObjectID = "557"; */
+"557.title" = "Vorschaubildgröße (px):";
+
+/* Class = "NSTextFieldCell"; title = "Cache"; ObjectID = "559"; */
+"559.title" = "Cache";
+
+/* Class = "NSButtonCell"; title = "Prefer Embedded XMP over Embedded IPTC"; ObjectID = "563"; */
+"563.title" = "Bevorzuge XMP Einbettung anstelle IPTC Einbettung";
+
+/* Class = "NSButtonCell"; title = "Prefer Sidecar XMP over Embedded Metadata"; ObjectID = "565"; */
+"565.title" = "Bevorzuge Sidecar XMP anstelle der Metadaten Einbettung";
+
+/* Class = "NSTextFieldCell"; title = "Metadata"; ObjectID = "568"; */
+"568.title" = "Metadaten";
+
+/* Class = "NSBox"; title = "Packaged File Format"; ObjectID = "586"; */
+"586.title" = "Format der gepackten Datei";
+
+/* Class = "NSButtonCell"; title = "Pack as EIP when importing"; ObjectID = "590"; */
+"590.title" = "Packe als EIP beim Import";
+
+/* Class = "NSButtonCell"; title = "Pack as EIP when capturing"; ObjectID = "591"; */
+"591.title" = "Packe als EIP bei der Aufnahme";
+
+/* Class = "NSTextFieldCell"; title = "JPEG and processed TIFF files will not be packed as EIP."; ObjectID = "592"; */
+"592.title" = "JPEG-Dateien und TIFF-Ausgabedateien werden nicht als EIP gepackt.";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "GeneralZoomCheckbox"; ObjectID = "597"; */
+"597.ibExternalAccessibilityDescription" = "GeneralZoomCheckbox";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "GeneralZoomCheckbox"; ObjectID = "598"; */
+"598.ibExternalAccessibilityDescription" = "GeneralZoomCheckbox";
+
+/* Class = "NSTextFieldCell"; title = "Editing"; ObjectID = "601"; */
+"601.title" = "Bearbeiten";
+
+/* Class = "NSButtonCell"; title = "Enable TIFF Editing"; ObjectID = "602"; */
+"602.title" = "TIFF-Bearbeitung aktivieren";
+
+/* Class = "NSButtonCell"; title = "Enable JPEG Editing"; ObjectID = "603"; */
+"603.title" = "JPEG-Bearbeitung aktivieren";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "620"; */
+"620.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Full Sync"; ObjectID = "621"; */
+"621.title" = "Synchronisation vollständig";
+
+/* Class = "NSMenuItem"; title = "Load"; ObjectID = "622"; */
+"622.title" = "Laden";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "623"; */
+"623.title" = "Ohne";
+
+/* Class = "NSTextFieldCell"; title = "Auto Sync Sidecar XMP:"; ObjectID = "626"; */
+"626.title" = "Auto Sync Sidecar XMP:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "New files (created during import, capture or EIP conversion) will have write permissions for everyone and not just the file owner."; ObjectID = "628"; */
+"628.ibShadowedToolTip" = "Die neuen Dateien (erstellt während des Imports, der Aufnahme oder Umwandlung in EIP) erhalten Schreibrechte für alle, nicht nur für den Dateibesitzer.";
+
+/* Class = "NSButtonCell"; title = "Make new files writable by everyone"; ObjectID = "629"; */
+"629.title" = "Neue Dateien mit Schreibrecht für alle Benutzer erstellen";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "GeneralZoomCheckbox"; ObjectID = "634"; */
+"634.ibExternalAccessibilityDescription" = "GeneralZoomCheckbox";
+
+/* Class = "NSButtonCell"; title = "Enable PNG Editing"; ObjectID = "635"; */
+"635.title" = "PNG-Bearbeitung aktivieren";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "641"; */
+"641.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "2048"; ObjectID = "642"; */
+"642.title" = "2048";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "663"; */
+"663.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Default Processing Engine:"; ObjectID = "667"; */
+"667.title" = "Standard Engine:";
+

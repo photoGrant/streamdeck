@@ -1,0 +1,69 @@
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "The aspect ratio used when creating or modifying crops. Double-click inside a crop frame to apply this ratio to an existing crop."; ObjectID = "143"; */
+"143.ibShadowedToolTip" = "Proporcje obrazu stosowane do tworzenia lub zmiany kadrowania. Kliknij dwukrotnie wewnątrz ramki kadrowania, aby zastosować ten współczynnik do istniejącego kadru.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "144"; */
+"144.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Organize…"; ObjectID = "145"; */
+"145.title" = "Organizuj...";
+
+/* Class = "NSMenuItem"; title = "New…"; ObjectID = "146"; */
+"146.title" = "Nowy...";
+
+/* Class = "NSMenuItem"; title = "Unconstrained"; ObjectID = "147"; */
+"147.title" = "Dowolne";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Tool setting: Determines the aspect ratio used when creating or modifying crops. Double-click inside a crop frame to apply this ratio to an existing crop"; ObjectID = "148"; */
+"148.ibShadowedToolTip" = "Ustawienia narzędzia: określa proporcje obrazu stosowane do tworzenia lub zmiany kadrowania. Kliknij dwukrotnie wewnątrz ramki kadrowania, aby zastosować ten współczynnik do istniejącego kadru";
+
+/* Class = "NSMenuItem"; title = "Output"; ObjectID = "149"; */
+"149.title" = "Wywoływanie";
+
+/* Class = "NSMenuItem"; title = "1x1"; ObjectID = "152"; */
+"152.title" = "1x1";
+
+/* Class = "NSMenuItem"; title = "2x3"; ObjectID = "153"; */
+"153.title" = "2x3";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Variant setting: The size of the resulting image when the variant is processed."; ObjectID = "155"; */
+"155.ibShadowedToolTip" = "Ustawienie wariantu Rozmiar docelowego obrazu przy przetwarzaniu wariantu.";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Size unit."; ObjectID = "157"; */
+"157.ibShadowedToolTip" = "Jednostka rozmiaru.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "158"; */
+"158.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "px"; ObjectID = "159"; */
+"159.title" = "px";
+
+/* Class = "NSMenuItem"; title = "in"; ObjectID = "160"; */
+"160.title" = "in";
+
+/* Class = "NSMenuItem"; title = "cm"; ObjectID = "161"; */
+"161.title" = "cm";
+
+/* Class = "NSMenuItem"; title = "mm"; ObjectID = "162"; */
+"162.title" = "mm";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "169"; */
+"169.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Apply Aspect Ratio"; ObjectID = "176"; */
+"176.title" = "Zastosuj proporcje obrazu";
+
+/* Class = "NSTextFieldCell"; title = "Ratio"; ObjectID = "326"; */
+"326.title" = "Proporcje";
+
+/* Class = "NSTextFieldCell"; title = "Size"; ObjectID = "327"; */
+"327.title" = "Rozmiar";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "331"; */
+"331.title" = "x";
+
+/* Class = "NSButtonCell"; title = "Crop Outside Image"; ObjectID = "334"; */
+"334.title" = "Kadruj obraz z zewnątrz";
+
+/* Class = "NSButtonCell"; title = "Show Grid While Cropping"; ObjectID = "IUp-Ub-TaZ"; */
+"IUp-Ub-TaZ.title" = "Pokaż siatkę podczas kadrowania";
+

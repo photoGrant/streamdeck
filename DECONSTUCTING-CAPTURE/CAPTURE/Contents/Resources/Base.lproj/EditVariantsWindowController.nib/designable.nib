@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="EditVariantsWindowController">
+            <connections>
+                <outlet property="buttonsView" destination="r0Z-ay-8ZA" id="5XE-dw-8DF"/>
+                <outlet property="editButton" destination="XGR-n8-95g" id="euO-wq-qoW"/>
+                <outlet property="noSettingsLabel" destination="2t8-rk-9pz" id="xjm-3O-TrG"/>
+                <outlet property="spinner" destination="TBa-FW-LF6" id="zxC-Jl-cU5"/>
+                <outlet property="toolView" destination="1GR-hV-GyH" id="dNz-gX-a6p"/>
+                <outlet property="toolViewHeightConstraint" destination="HCT-9B-lj2" id="9wX-SF-bno"/>
+                <outlet property="window" destination="QvC-M9-y7g" id="BhZ-yy-luP"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Edit Variants" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" visibleAtLaunch="NO" animationBehavior="default" id="QvC-M9-y7g" customClass="COUIPanel">
+            <windowStyleMask key="styleMask" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="779" y="503" width="450" height="284"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <value key="minSize" type="size" width="450" height="284"/>
+            <value key="maxSize" type="size" width="3000" height="284"/>
+            <view key="contentView" id="EiT-Mj-1SZ" customClass="COUIContentView">
+                <rect key="frame" x="0.0" y="0.0" width="450" height="284"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="r0Z-ay-8ZA">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="36"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bjb-jp-kA6" customClass="POSkinButton">
+                                <rect key="frame" x="237" y="1" width="82" height="32"/>
+                                <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="BUL-En-24z">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="cancel:" target="-2" id="zBh-zR-Khv"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XGR-n8-95g" customClass="POSkinButton">
+                                <rect key="frame" x="326" y="1" width="116" height="32"/>
+                                <buttonCell key="cell" type="push" title="Edit Variants" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" inset="2" id="gAn-ls-WA3">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                    <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="edit:" target="-2" id="PBE-Yj-8rK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="XGR-n8-95g" firstAttribute="top" secondItem="r0Z-ay-8ZA" secondAttribute="top" constant="7" id="EEB-wT-xtR"/>
+                            <constraint firstItem="bjb-jp-kA6" firstAttribute="centerY" secondItem="XGR-n8-95g" secondAttribute="centerY" id="JUU-fb-uVN"/>
+                            <constraint firstAttribute="bottom" secondItem="XGR-n8-95g" secondAttribute="bottom" constant="8" id="L0l-lM-Cef"/>
+                            <constraint firstItem="XGR-n8-95g" firstAttribute="leading" secondItem="bjb-jp-kA6" secondAttribute="trailing" constant="19" id="Tvv-us-EGT"/>
+                            <constraint firstAttribute="trailing" secondItem="XGR-n8-95g" secondAttribute="trailing" constant="14" id="gpd-Xf-EWl"/>
+                            <constraint firstItem="bjb-jp-kA6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="r0Z-ay-8ZA" secondAttribute="leading" constant="14" id="sbR-eY-UkY"/>
+                        </constraints>
+                    </customView>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="1GR-hV-GyH">
+                        <rect key="frame" x="0.0" y="35" width="450" height="249"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="249" id="HCT-9B-lj2"/>
+                        </constraints>
+                    </customView>
+                    <progressIndicator wantsLayer="YES" canDrawConcurrently="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="TBa-FW-LF6">
+                        <rect key="frame" x="209" y="144" width="32" height="32"/>
+                    </progressIndicator>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2t8-rk-9pz">
+                        <rect key="frame" x="160" y="134" width="130" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="No settings available" id="9IF-ru-cUg">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="r0Z-ay-8ZA" secondAttribute="bottom" id="49N-p1-qEz"/>
+                    <constraint firstItem="2t8-rk-9pz" firstAttribute="centerX" secondItem="EiT-Mj-1SZ" secondAttribute="centerX" id="72g-Ra-gDO"/>
+                    <constraint firstItem="2t8-rk-9pz" firstAttribute="centerY" secondItem="EiT-Mj-1SZ" secondAttribute="centerY" id="LmM-Tl-um4"/>
+                    <constraint firstItem="1GR-hV-GyH" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" id="M6G-ro-Gxi"/>
+                    <constraint firstItem="TBa-FW-LF6" firstAttribute="centerY" secondItem="1GR-hV-GyH" secondAttribute="centerY" id="Mep-Zs-An4"/>
+                    <constraint firstItem="r0Z-ay-8ZA" firstAttribute="top" secondItem="1GR-hV-GyH" secondAttribute="bottom" constant="-1" id="Y7k-8f-CwP"/>
+                    <constraint firstItem="TBa-FW-LF6" firstAttribute="centerX" secondItem="1GR-hV-GyH" secondAttribute="centerX" id="d9z-SF-jU9"/>
+                    <constraint firstAttribute="trailing" secondItem="r0Z-ay-8ZA" secondAttribute="trailing" id="eQc-DY-Vxl"/>
+                    <constraint firstItem="1GR-hV-GyH" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="gyA-Ab-K3w"/>
+                    <constraint firstAttribute="trailing" secondItem="1GR-hV-GyH" secondAttribute="trailing" id="v22-L5-xtb"/>
+                    <constraint firstItem="r0Z-ay-8ZA" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" id="zkv-1N-7AT"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="846" y="325"/>
+        </window>
+        <userDefaultsController representsSharedInstance="YES" id="7Gc-P8-b6h"/>
+    </objects>
+</document>

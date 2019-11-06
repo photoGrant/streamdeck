@@ -1,0 +1,27 @@
+/* Class = "NSWindow"; title = "New Custom Tool Tab"; ObjectID = "1"; */
+"1.title" = "새로운 사용자 툴 탭";
+
+/* Class = "NSButtonCell"; title = "Add Tab"; ObjectID = "8"; */
+"8.title" = "탭 추가";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "10"; */
+"10.title" = "취소";
+
+/* Class = "NSTextFieldCell"; title = "Specify Tab Name:"; ObjectID = "19"; */
+"19.title" = "탭 이름 지정:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "26"; */
+"26.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "27"; */
+"27.title" = "아이템 1";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "28"; */
+"28.title" = "아이템 2";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "29"; */
+"29.title" = "아이템 3";
+
+/* Class = "NSTextFieldCell"; title = "Icon:"; ObjectID = "33"; */
+"33.title" = "아이콘:";
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<SL Engine="800">
+  <E K="Brightness" V="-6.653168"/>
+  <E K="ColorBalance" V="1.000000;1.000000;1.000000"/>
+  <E K="ColorBalanceHighlight" V="1.000000;1.000000;1.000000"/>
+  <E K="ColorBalanceMidtone" V="1.000000;1.000000;1.000000"/>
+  <E K="ColorBalanceShadow" V="0.976208;0.948352;1.000000"/>
+  <E K="Contrast" V="26.33673"/>
+  <E K="Exposure" V="2.270711"/>
+  <E K="FilmCurve" V="PhaseOneIQ180-Linear Response.fcrv"/>
+  <E K="Flip" V="1"/>
+  <E K="GradationCurve" V="0.000,0.000;0.486,0.474;1.000,1.000"/>
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,1.000"/>
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000"/>
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000"/>
+  <E K="Highlight" V="0.584984;0.798609;0.828162;1.000000"/>
+  <E K="Midtone" V="0.000000;0.000000;0.000000;0.000000"/>
+  <E K="Name" V="Fujicolor Pro 160S"/>
+  <E K="Shadow" V="0.226572;0.218751;0.234345;0.000000"/>
+  <E K="TechnicalProcessingMethod" V="2"/>
+  <E K="UUID" V="B34328E3-7790-4622-B08F-924D156487DF"/>
+  <E K="WhiteBalanceTemperature" V="1916.214"/>
+  <E K="WhiteBalanceTint" V="-14.34819"/>
+</SL>
+

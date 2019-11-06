@@ -1,0 +1,18 @@
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "61"; */
+"61.title" = "Återställ verktyg";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Auto adjust imported images"; ObjectID = "65"; */
+"65.ibShadowedToolTip" = "Auto justera importerade bilder";
+
+/* Class = "NSButtonCell"; title = "Auto Adjust"; ObjectID = "66"; */
+"66.title" = "Autojustering";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Include Existing Adjustments"; ObjectID = "72"; */
+"72.ibShadowedToolTip" = "Ta med nuvarande justeringar";
+
+/* Class = "NSButtonCell"; title = "Include Existing Adjustments"; ObjectID = "73"; */
+"73.title" = "Ta med nuvarande justeringar";
+
+/* Class = "NSView"; SWB-m8-0GG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Styles"; ObjectID = "SWB-m8-0GG"; */
+"SWB-m8-0GG.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Stilar";
+

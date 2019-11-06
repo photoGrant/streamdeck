@@ -1,0 +1,105 @@
+/* Class = "NSButtonCell"; title = "Warn when Move to Trash affects unselected variants"; ObjectID = "11W-al-zCq"; */
+"11W-al-zCq.title" = "當未選擇的變體移到回收筒警告";
+
+/* Class = "NSButtonCell"; title = "Warn when applying a style with an invalid LCC"; ObjectID = "18v-en-xAd"; */
+"18v-en-xAd.title" = "當應用帶有無效LCC的風格時警告";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "482"; */
+"482.title" = "默認設置";
+
+/* Class = "NSButtonCell"; title = "Warn when moving images and folders in Catalog"; ObjectID = "694"; */
+"694.title" = "當在目錄中移動圖像和文件夾時警告";
+
+/* Class = "NSTextFieldCell"; title = "Files and Folders"; ObjectID = "697"; */
+"697.title" = "文件和文件夾";
+
+/* Class = "NSButtonCell"; title = "Warn when deleting images from disk"; ObjectID = "701"; */
+"701.title" = "當刪除硬碟上的圖像時發出警告";
+
+/* Class = "NSButtonCell"; title = "Warn when moving images to the Session Trash from a different drive"; ObjectID = "703"; */
+"703.title" = "當移動圖像到不同硬碟的會話回收筒時發出警告";
+
+/* Class = "NSTextFieldCell"; title = "Adjustments"; ObjectID = "707"; */
+"707.title" = "調整";
+
+/* Class = "NSButtonCell"; title = "Warn when resetting adjustments on multiple variants"; ObjectID = "708"; */
+"708.title" = "當重設調整多個圖像時發出警告";
+
+/* Class = "NSTextFieldCell"; title = "Output"; ObjectID = "734"; */
+"734.title" = "輸出";
+
+/* Class = "NSTextFieldCell"; title = "If Edit All Selected Variants is off and multiple variants are selected:"; ObjectID = "789"; */
+"789.title" = "如果編輯所有選擇變體關閉，多重變體被選";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when processing multiple variants if Edit All Selected Variants is off"; ObjectID = "792"; */
+"792.ibShadowedToolTip" = "如果關閉了編輯所有選取變體的選項，處理多個變體時發出警告";
+
+/* Class = "NSButtonCell"; title = "Warn when processing"; ObjectID = "793"; */
+"793.title" = "當處理時發出警告";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when printing multiple variants if Edit All Selected Variants is off"; ObjectID = "795"; */
+"795.ibShadowedToolTip" = "如果關閉了編輯所有選取變體的選項，打印多個變體時發出警告";
+
+/* Class = "NSButtonCell"; title = "Warn when printing"; ObjectID = "796"; */
+"796.title" = "當打印時發出警告";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when creating a web contact sheet with multiple variants if Edit All Selected Variants is off"; ObjectID = "798"; */
+"798.ibShadowedToolTip" = "如果關閉了編輯所有選取變體的選項，採用多個變體生成網頁略圖表時發出警告";
+
+/* Class = "NSButtonCell"; title = "Warn when creating a web contact sheet"; ObjectID = "799"; */
+"799.title" = "當創建網頁略圖表時發出警告";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when creating a web contact sheet with multiple variants if Edit All Selected Variants is off"; ObjectID = "804"; */
+"804.ibShadowedToolTip" = "如果關閉了編輯所有選取變體的選項，採用多個變體生成網頁略圖表時發出警告";
+
+/* Class = "NSButtonCell"; title = "Warn when exporting"; ObjectID = "805"; */
+"805.title" = "輸出時警告";
+
+/* Class = "NSButtonCell"; title = "Warn when resetting manual sorting"; ObjectID = "811"; */
+"811.title" = "當重置手動排序時警告";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when changing or deleting the applied LCC. "; ObjectID = "815"; */
+"815.ibShadowedToolTip" = "當改變或刪除應用LCC時警告";
+
+/* Class = "NSButtonCell"; title = "Warn when changing LCC"; ObjectID = "816"; */
+"816.title" = "LCC改變時警告";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when creating LCC with multiple variants if Edit All Selected Variants is off."; ObjectID = "819"; */
+"819.ibShadowedToolTip" = "如果編輯全選變體關閉，創建多個變體LCC時警告";
+
+/* Class = "NSButtonCell"; title = "Warn when creating LCC"; ObjectID = "820"; */
+"820.title" = "創建LCC時警告";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when applying LCC to multiple variants if Edit All Selected Variants is off."; ObjectID = "822"; */
+"822.ibShadowedToolTip" = "如果編輯全選變體關閉，應用多個變體LCC時警告";
+
+/* Class = "NSButtonCell"; title = "Warn when applying LCC"; ObjectID = "823"; */
+"823.title" = "應用LCC時警告";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when changing or deleting the applied LCC. "; ObjectID = "828"; */
+"828.ibShadowedToolTip" = "當改變或刪除應用LCC時警告";
+
+/* Class = "NSButtonCell"; title = "Warn when upgrading Engine"; ObjectID = "829"; */
+"829.title" = "引擎升級時發出警告";
+
+/* Class = "NSButtonCell"; title = "Warn when resetting adjustments on an adjustments layer"; ObjectID = "834"; */
+"834.title" = "當重置調整圖層的調整項時警告";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when analyzing Chromatic Aberration with multiple variants if Edit All Selected Variants is off."; ObjectID = "846"; */
+"846.ibShadowedToolTip" = "警告當進行分析多個變體的色差期間，如果編輯所有選定的變體已關閉。";
+
+/* Class = "NSButtonCell"; title = "Warn when analyzing Chromatic Aberration"; ObjectID = "847"; */
+"847.title" = "警告當進行分析色差期間";
+
+/* Class = "NSButtonCell"; title = "Warn when applying a style partially"; ObjectID = "bEM-Ld-dkv"; */
+"bEM-Ld-dkv.title" = "當不完全應用風格時警告";
+
+/* Class = "NSButtonCell"; title = "Warn when copying unsupported adjustments"; ObjectID = "vL9-36-JKs"; */
+"vL9-36-JKs.title" = "複製不支持的調整時發出警告";
+
+/* Class = "NSButtonCell"; title = "Warn when rasterizing a parametric mask"; ObjectID = "YLZ-gd-vnA"; */
+"YLZ-gd-vnA.title" = "點陣參數化遮罩時發出警告";
+
+/* Class = "NSButtonCell"; title = "Warn when applying a style with an invalid ICC"; ObjectID = "Zwn-SQ-wPT"; */
+"Zwn-SQ-wPT.title" = "當應用帶有無效ICC的風格時警告";
+

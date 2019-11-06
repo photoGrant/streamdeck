@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CameraInspectorPopoverViewController">
+            <connections>
+                <outlet property="buttonContainer" destination="Z9T-l5-9Xx" id="6ka-sI-l1V"/>
+                <outlet property="decrementButton" destination="hqu-UH-2kN" id="XSc-Nk-pBN"/>
+                <outlet property="incrementButton" destination="XwH-DZ-c7A" id="t5c-NR-KUB"/>
+                <outlet property="table" destination="hul-V1-F5r" id="8FW-ed-NZE"/>
+                <outlet property="tableContainer" destination="hYL-QR-7jM" id="9PK-ca-cK0"/>
+                <outlet property="view" destination="c22-O7-iKe" id="I35-w8-i5Z"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="72" height="164"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView id="Z9T-l5-9Xx" customClass="CameraInspectorPopoverButtonContainerView">
+                    <rect key="frame" x="0.0" y="127" width="72" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <subviews>
+                        <button focusRingType="none" id="hqu-UH-2kN">
+                            <rect key="frame" x="4" y="2" width="32" height="32"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="PopoverDecrement" imagePosition="overlaps" alignment="center" alternateImage="PopoverDecrement_selected" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="hzW-b8-6hF">
+                                <behavior key="behavior" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="decrement:" target="-2" id="zp8-92-nEK"/>
+                            </connections>
+                        </button>
+                        <button focusRingType="none" id="XwH-DZ-c7A">
+                            <rect key="frame" x="36" y="2" width="32" height="32"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="PopoverIncrement" imagePosition="overlaps" alignment="center" alternateImage="PopoverIncrement_selected" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="gEu-1J-SHk">
+                                <behavior key="behavior" lightByContents="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="increment:" target="-2" id="04n-nD-9eL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </customView>
+                <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="20" horizontalPageScroll="10" verticalLineScroll="20" verticalPageScroll="10" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" id="hYL-QR-7jM" customClass="POScrollView">
+                    <rect key="frame" x="0.0" y="0.0" width="72" height="127"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="toa-8p-hM2">
+                        <rect key="frame" x="0.0" y="0.0" width="72" height="127"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="20" rowSizeStyle="automatic" viewBased="YES" id="hul-V1-F5r" customClass="CameraInspectorPopoverTableView">
+                                <rect key="frame" x="0.0" y="0.0" width="72" height="127"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <size key="intercellSpacing" width="3" height="0.0"/>
+                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                <tableColumns>
+                                    <tableColumn width="69" minWidth="40" maxWidth="1000" id="GN1-g4-bF9" customClass="POTableColumn">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                        </tableHeaderCell>
+                                        <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="x5v-Hw-X9N" customClass="POTableViewTextFieldCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                        <tableColumnResizingMask key="resizingMask" resizeWithTable="YES"/>
+                                        <prototypeCellViews>
+                                            <tableCellView identifier="PropertyValueTextView" id="Eq3-Fp-CFv" userLabel="Table Cell View - Text only">
+                                                <rect key="frame" x="1" y="0.0" width="69" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="cLn-ce-lQ0">
+                                                        <rect key="frame" x="1" y="3" width="69" height="17"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="v1" id="VM6-cx-ySt">
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
+                                                </subviews>
+                                                <connections>
+                                                    <outlet property="textField" destination="cLn-ce-lQ0" id="qge-xq-IDO"/>
+                                                </connections>
+                                            </tableCellView>
+                                            <tableCellView identifier="PropertyValueTextAndSmallIconView" id="ZRf-FH-ude" userLabel="Table Cell View - Text and small icon">
+                                                <rect key="frame" x="1" y="20" width="69" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="h0e-7j-OXy">
+                                                        <rect key="frame" x="29" y="1" width="39" height="18"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="v1" id="FBQ-Iv-yMg">
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
+                                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Iv0-Lj-a9S">
+                                                        <rect key="frame" x="1" y="1" width="22" height="18"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="Vtc-HH-okc"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <connections>
+                                                    <outlet property="imageView" destination="Iv0-Lj-a9S" id="QAp-ha-w0e"/>
+                                                    <outlet property="textField" destination="h0e-7j-OXy" id="zRQ-Y7-woh"/>
+                                                </connections>
+                                            </tableCellView>
+                                            <tableCellView identifier="PropertyValueTextAndBigIconView" id="A9o-t3-PDx" userLabel="Table Cell View - Text and big icon">
+                                                <rect key="frame" x="1" y="40" width="69" height="26"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" id="Sro-bM-MNW">
+                                                        <rect key="frame" x="29" y="4" width="39" height="18"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="v1" id="Nyx-s3-tsV">
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
+                                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Ny5-Q4-5bS">
+                                                        <rect key="frame" x="1" y="1" width="30" height="25"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="z4G-aI-jny"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <connections>
+                                                    <outlet property="imageView" destination="Ny5-Q4-5bS" id="tiB-wG-Wvn"/>
+                                                    <outlet property="textField" destination="Sro-bM-MNW" id="Zb0-wk-3w1"/>
+                                                </connections>
+                                            </tableCellView>
+                                            <customView identifier="NSTableViewRowViewKey" id="62M-uJ-6Iy" userLabel="Table Row View" customClass="POStyledTableRowView">
+                                                <rect key="frame" x="1" y="66" width="69" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                            </customView>
+                                        </prototypeCellViews>
+                                    </tableColumn>
+                                </tableColumns>
+                                <connections>
+                                    <action selector="tableAction:" target="-2" id="Igt-4O-Pev"/>
+                                    <outlet property="dataSource" destination="-2" id="hxe-cw-y0Y"/>
+                                    <outlet property="delegate" destination="-2" id="YwG-fA-CrI"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="mini" horizontal="YES" id="bLN-0D-Oja">
+                        <rect key="frame" x="1" y="119" width="223" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="mini" horizontal="NO" id="ZKF-UF-BfZ">
+                        <rect key="frame" x="224" y="17" width="15" height="102"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <point key="canvasLocation" x="123" y="-200"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="PopoverDecrement" width="16" height="16"/>
+        <image name="PopoverDecrement_selected" width="16" height="16"/>
+        <image name="PopoverIncrement" width="16" height="16"/>
+        <image name="PopoverIncrement_selected" width="16" height="16"/>
+    </resources>
+</document>

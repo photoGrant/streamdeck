@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CameraCopyStandInspectorTool">
+            <connections>
+                <outlet property="abortCalibrationButton" destination="oJw-xX-wBE" id="MrD-tG-ncn"/>
+                <outlet property="calibrationApprovalOKButton" destination="hJj-yK-qVA" id="ddT-0m-Yr4"/>
+                <outlet property="calibrationOverlayApprovalContainerView" destination="8Yj-C4-Ulq" id="x2w-MF-obt"/>
+                <outlet property="calibrationOverlayContainerView" destination="heB-qx-vq3" id="ehv-31-4py"/>
+                <outlet property="container" destination="c22-O7-iKe" id="6ou-sQ-6cW"/>
+                <outlet property="dataTableView" destination="5V4-d2-S73" id="75Q-e3-402"/>
+                <outlet property="mainContainerView" destination="IXL-MN-lWT" id="Lkg-u9-Ecw"/>
+                <outlet property="moveDownFastButton" destination="4Hm-hW-fsm" id="44y-OS-IKr"/>
+                <outlet property="moveDownSlowButton" destination="f7o-8a-S0z" id="k8q-oo-fvC"/>
+                <outlet property="moveToPositionButton" destination="rcM-TL-Zdq" id="V68-xp-KiV"/>
+                <outlet property="moveUpFastButton" destination="il6-K3-Sfa" id="9d8-9J-G93"/>
+                <outlet property="moveUpSlowButton" destination="6Cn-xk-gu6" id="IJS-Gi-nv4"/>
+                <outlet property="noCopyStandConnectedTextFieldCell" destination="pqI-lM-bV8" id="3gA-ZT-u2g"/>
+                <outlet property="noCopyStandConnectedView" destination="wMJ-0m-vh6" id="jZy-2r-tTd"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" userLabel="Main View">
+            <rect key="frame" x="0.0" y="0.0" width="306" height="233"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="IXL-MN-lWT" userLabel="Main ContainerView">
+                    <rect key="frame" x="8" y="8" width="290" height="217"/>
+                    <subviews>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="6Td-NN-cgM" userLabel="Control background view" customClass="CameraCopyStandBackgroundView">
+                            <rect key="frame" x="0.0" y="157" width="290" height="48"/>
+                            <subviews>
+                                <stackView autoresizesSubviews="NO" focusRingType="none" distribution="equalSpacing" orientation="horizontal" alignment="centerY" spacing="4" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fla-Sp-s1P" userLabel="Drive with Speed Control Stack">
+                                    <rect key="frame" x="20" y="8" width="250" height="32"/>
+                                    <subviews>
+                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Hm-hW-fsm" userLabel="Fast Down Button" customClass="CameraCopyStandMoveButton">
+                                            <rect key="frame" x="8" y="-1" width="46" height="34"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="46" id="8oc-8U-7k3" userLabel="width = 30"/>
+                                                <constraint firstAttribute="height" constant="32" id="mp3-Ej-gP8"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="MoveDownFast" imagePosition="only" alignment="center" scrollable="YES" lineBreakMode="clipping" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="wIv-6h-szw" customClass="CameraCopyStandMoveButtonCell">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                        </button>
+                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="f7o-8a-S0z" userLabel="Fast Down Button" customClass="CameraCopyStandMoveButton">
+                                            <rect key="frame" x="71" y="0.0" width="46" height="32"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="46" id="Q4k-eB-Svp" userLabel="width = 30"/>
+                                                <constraint firstAttribute="height" constant="30" id="lL9-um-3kK"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="MoveDownSlow" imagePosition="only" alignment="center" scrollable="YES" lineBreakMode="clipping" continuous="YES" borderStyle="border" inset="2" id="Ont-CB-S6R" customClass="CameraCopyStandMoveButtonCell">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="system"/>
+                                            </buttonCell>
+                                        </button>
+                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6Cn-xk-gu6" userLabel="Slow Up Button" customClass="CameraCopyStandMoveButton">
+                                            <rect key="frame" x="133" y="0.0" width="46" height="32"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="46" id="GvG-Lz-EYR" userLabel="width = 30"/>
+                                                <constraint firstAttribute="height" constant="30" id="yUd-ac-BMa"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="MoveUpSlow" imagePosition="only" alignment="center" controlSize="small" scrollable="YES" lineBreakMode="clipping" continuous="YES" borderStyle="border" inset="2" id="5OE-W8-WLD" customClass="CameraCopyStandMoveButtonCell">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="smallSystem"/>
+                                            </buttonCell>
+                                        </button>
+                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="il6-K3-Sfa" userLabel="Fast Up Button" customClass="CameraCopyStandMoveButton">
+                                            <rect key="frame" x="196" y="0.0" width="46" height="32"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="DH4-z0-4Xn"/>
+                                                <constraint firstAttribute="width" constant="46" id="TKO-Q8-IOf" userLabel="width = 30"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="MoveUpFast" imagePosition="only" alignment="center" controlSize="small" scrollable="YES" lineBreakMode="clipping" continuous="YES" borderStyle="border" inset="2" id="AGd-2i-Bts" customClass="CameraCopyStandMoveButtonCell">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" metaFont="smallSystem"/>
+                                            </buttonCell>
+                                        </button>
+                                    </subviews>
+                                    <edgeInsets key="edgeInsets" left="8" right="8" top="0.0" bottom="0.0"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="32" id="bbq-Hj-mPd"/>
+                                    </constraints>
+                                    <visibilityPriorities>
+                                        <integer value="1000"/>
+                                        <integer value="1000"/>
+                                        <integer value="1000"/>
+                                        <integer value="1000"/>
+                                    </visibilityPriorities>
+                                    <customSpacing>
+                                        <real value="3.4028234663852886e+38"/>
+                                        <real value="3.4028234663852886e+38"/>
+                                        <real value="3.4028234663852886e+38"/>
+                                        <real value="3.4028234663852886e+38"/>
+                                    </customSpacing>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="fla-Sp-s1P" firstAttribute="leading" secondItem="6Td-NN-cgM" secondAttribute="leading" constant="20" id="AAn-Oh-SqI"/>
+                                <constraint firstAttribute="height" constant="48" id="LOy-cf-M5g"/>
+                                <constraint firstItem="fla-Sp-s1P" firstAttribute="top" secondItem="6Td-NN-cgM" secondAttribute="top" constant="8" id="NPk-8R-JZ5"/>
+                                <constraint firstAttribute="bottom" secondItem="fla-Sp-s1P" secondAttribute="bottom" constant="8" id="kYx-1p-T0I"/>
+                                <constraint firstAttribute="trailing" secondItem="fla-Sp-s1P" secondAttribute="trailing" constant="20" id="kdz-nk-Y1l"/>
+                            </constraints>
+                        </customView>
+                        <scrollView wantsLayer="YES" borderType="none" horizontalLineScroll="25" horizontalPageScroll="0.0" verticalLineScroll="25" verticalPageScroll="0.0" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" verticalScrollElasticity="none" translatesAutoresizingMaskIntoConstraints="NO" id="xFu-fG-rVO" userLabel="Position Input Panel" customClass="PONonScrollingScrollView">
+                            <rect key="frame" x="20" y="54" width="250" height="83"/>
+                            <clipView key="contentView" focusRingType="none" drawsBackground="NO" id="ntU-Ff-sxR">
+                                <rect key="frame" x="0.0" y="0.0" width="250" height="83"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <subviews>
+                                    <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" mirrorLayoutDirectionWhenInternationalizing="never" columnAutoresizingStyle="none" selectionHighlightStyle="none" columnReordering="NO" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" typeSelect="NO" enabled="NO" rowHeight="22" viewBased="YES" floatsGroupRows="NO" id="5V4-d2-S73">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="83"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <size key="intercellSpacing" width="8" height="3"/>
+                                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="deviceWhite"/>
+                                        <color key="gridColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                        <tableColumns>
+                                            <tableColumn editable="NO" width="100" minWidth="40" maxWidth="1000" id="iTR-QO-TYG">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" enabled="NO" borderStyle="border">
+                                                    <font key="font" metaFont="smallSystem"/>
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" enabled="NO" title="..." id="QA7-0D-jYf" customClass="COUITextFieldCell">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </tableColumn>
+                                            <tableColumn editable="NO" width="60" minWidth="40" maxWidth="1000" id="cpM-bI-tVi">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" enabled="NO" borderStyle="border" title="Current">
+                                                    <font key="font" metaFont="smallSystem"/>
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" enabled="NO" title="Text Cell" id="sPX-gm-Kga" customClass="COUITextFieldCell">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES"/>
+                                            </tableColumn>
+                                            <tableColumn editable="NO" width="60" minWidth="10" maxWidth="3.4028234663852886e+38" id="HF8-NW-edb">
+                                                <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" enabled="NO" borderStyle="border" title="Target">
+                                                    <font key="font" metaFont="smallSystem"/>
+                                                    <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </tableHeaderCell>
+                                                <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" enabled="NO" alignment="left" title="Text Cell" id="CFX-Rv-WlM" customClass="COUITextFieldCell">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                                <tableColumnResizingMask key="resizingMask" resizeWithTable="YES"/>
+                                            </tableColumn>
+                                        </tableColumns>
+                                        <connections>
+                                            <outlet property="dataSource" destination="-2" id="yZW-ZG-bfV"/>
+                                            <outlet property="delegate" destination="-2" id="GRN-iC-1M6"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                            </clipView>
+                            <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="q10-k2-vYm">
+                                <rect key="frame" x="-100" y="-100" width="243" height="16"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </scroller>
+                            <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="iSx-eC-zYO">
+                                <rect key="frame" x="-100" y="-100" width="15" height="102"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </scroller>
+                        </scrollView>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rcM-TL-Zdq" userLabel="Move/Stop button">
+                            <rect key="frame" x="18" y="13" width="258" height="27"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="cbr-gg-1Zh"/>
+                            </constraints>
+                            <buttonCell key="cell" type="bevel" title="Move" alternateTitle="Stop" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="FCS-rC-GL7" customClass="BorderedButtonCell">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="smallSystem"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="moveToPositionOrStop:" target="-2" id="B3d-wA-LsW"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="6Td-NN-cgM" secondAttribute="trailing" id="3Wx-8Y-f1G"/>
+                        <constraint firstItem="rcM-TL-Zdq" firstAttribute="leading" secondItem="IXL-MN-lWT" secondAttribute="leading" constant="20" id="3yH-A7-aTY"/>
+                        <constraint firstAttribute="trailing" secondItem="xFu-fG-rVO" secondAttribute="trailing" constant="20" id="LYo-hX-iDf"/>
+                        <constraint firstItem="6Td-NN-cgM" firstAttribute="leading" secondItem="IXL-MN-lWT" secondAttribute="leading" id="NUe-em-QHk"/>
+                        <constraint firstAttribute="bottom" secondItem="rcM-TL-Zdq" secondAttribute="bottom" constant="16" id="WmN-RP-7uy"/>
+                        <constraint firstItem="xFu-fG-rVO" firstAttribute="top" secondItem="6Td-NN-cgM" secondAttribute="bottom" constant="20" id="fJt-gM-x8U"/>
+                        <constraint firstItem="6Td-NN-cgM" firstAttribute="top" secondItem="IXL-MN-lWT" secondAttribute="top" constant="12" id="nHx-aG-ZXo"/>
+                        <constraint firstItem="rcM-TL-Zdq" firstAttribute="top" secondItem="xFu-fG-rVO" secondAttribute="bottom" priority="750" constant="16" id="oFq-Tx-DEm"/>
+                        <constraint firstItem="xFu-fG-rVO" firstAttribute="leading" secondItem="IXL-MN-lWT" secondAttribute="leading" constant="20" id="qGO-ha-kq5"/>
+                        <constraint firstAttribute="trailing" secondItem="rcM-TL-Zdq" secondAttribute="trailing" constant="16" id="ums-5V-9hX"/>
+                    </constraints>
+                </customView>
+                <customView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="heB-qx-vq3" userLabel="Calibration process Container View">
+                    <rect key="frame" x="8" y="8" width="290" height="217"/>
+                    <subviews>
+                        <customView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wMJ-0m-vh6" userLabel="No Copy Stand Connected Container View" customClass="CameraCopyStandBackgroundView">
+                            <rect key="frame" x="20" y="20" width="250" height="177"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Xo0-e4-IEY">
+                                    <rect key="frame" x="-2" y="0.0" width="254" height="177"/>
+                                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="No compatible Copy Stand found." id="pqI-lM-bV8" customClass="COUITextFieldCell">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="Xo0-e4-IEY" firstAttribute="top" secondItem="wMJ-0m-vh6" secondAttribute="top" id="THW-kT-Slk"/>
+                                <constraint firstAttribute="trailing" secondItem="Xo0-e4-IEY" secondAttribute="trailing" id="fWh-xA-qLs"/>
+                                <constraint firstItem="Xo0-e4-IEY" firstAttribute="leading" secondItem="wMJ-0m-vh6" secondAttribute="leading" id="orF-Oo-4pS"/>
+                                <constraint firstAttribute="bottom" secondItem="Xo0-e4-IEY" secondAttribute="bottom" id="rDK-aK-m8b"/>
+                            </constraints>
+                        </customView>
+                        <customView hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Yj-C4-Ulq" userLabel="Calibrate Container View">
+                            <rect key="frame" x="20" y="20" width="250" height="177"/>
+                            <subviews>
+                                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="oPY-fx-c7Q">
+                                    <rect key="frame" x="-2" y="75" width="254" height="102"/>
+                                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="justified" id="ke6-ru-9Tg" customClass="COUITextFieldCell">
+                                        <font key="font" metaFont="system"/>
+                                        <string key="title">The Copy Stand needs to be calibrated.
+
+Please make sure that the cables are long enough, and there is no object in the way, so the camera can move to any arbitrary position.</string>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hJj-yK-qVA" userLabel="Calibrate Button" customClass="POSkinButton">
+                                    <rect key="frame" x="166" y="-7" width="82" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="21" id="K3k-Dz-Awa"/>
+                                        <constraint firstAttribute="width" constant="70" id="bXX-7c-rKH"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="push" title="Calibrate" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="d8V-sn-JhX">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="calibrate:" target="-2" id="t4p-YX-bqf"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="hJj-yK-qVA" secondAttribute="trailing" constant="8" id="WzJ-pR-lhu"/>
+                                <constraint firstAttribute="trailing" secondItem="oPY-fx-c7Q" secondAttribute="trailing" id="e5o-ki-20X"/>
+                                <constraint firstItem="oPY-fx-c7Q" firstAttribute="top" secondItem="8Yj-C4-Ulq" secondAttribute="top" id="kdM-c0-hKp"/>
+                                <constraint firstAttribute="bottom" secondItem="hJj-yK-qVA" secondAttribute="bottom" id="pmh-s0-42P"/>
+                                <constraint firstItem="oPY-fx-c7Q" firstAttribute="leading" secondItem="8Yj-C4-Ulq" secondAttribute="leading" id="u34-79-GMA"/>
+                            </constraints>
+                        </customView>
+                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oJw-xX-wBE" userLabel="Abort Calibration Button">
+                            <rect key="frame" x="20" y="19" width="250" height="179"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="177" id="axH-Z5-lGd"/>
+                            </constraints>
+                            <buttonCell key="cell" type="smallSquare" title="Abort Calibration" bezelStyle="smallSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="HhO-fK-78I">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="abortCalibration:" target="-2" id="oeX-iB-bBn"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="wMJ-0m-vh6" secondAttribute="trailing" constant="20" id="6s4-eZ-ejK"/>
+                        <constraint firstItem="wMJ-0m-vh6" firstAttribute="top" secondItem="heB-qx-vq3" secondAttribute="top" constant="20" id="9O0-Gd-Pbt"/>
+                        <constraint firstAttribute="bottom" secondItem="8Yj-C4-Ulq" secondAttribute="bottom" constant="20" id="Aw7-R9-cW5"/>
+                        <constraint firstItem="8Yj-C4-Ulq" firstAttribute="leading" secondItem="heB-qx-vq3" secondAttribute="leading" constant="20" id="Bwr-im-Rc4"/>
+                        <constraint firstAttribute="bottom" secondItem="oJw-xX-wBE" secondAttribute="bottom" constant="20" id="DZj-kd-pRS"/>
+                        <constraint firstItem="oJw-xX-wBE" firstAttribute="top" secondItem="heB-qx-vq3" secondAttribute="top" constant="20" id="QRd-9Y-3wn"/>
+                        <constraint firstItem="8Yj-C4-Ulq" firstAttribute="top" secondItem="heB-qx-vq3" secondAttribute="top" constant="20" id="TBy-qf-PuY"/>
+                        <constraint firstItem="wMJ-0m-vh6" firstAttribute="leading" secondItem="heB-qx-vq3" secondAttribute="leading" constant="20" id="ZsK-0X-Jh3"/>
+                        <constraint firstItem="oJw-xX-wBE" firstAttribute="leading" secondItem="heB-qx-vq3" secondAttribute="leading" constant="20" id="cG0-fn-h8I"/>
+                        <constraint firstAttribute="bottom" secondItem="wMJ-0m-vh6" secondAttribute="bottom" constant="20" id="lkc-bj-LwL"/>
+                        <constraint firstAttribute="trailing" secondItem="oJw-xX-wBE" secondAttribute="trailing" constant="20" id="wcG-po-2do"/>
+                        <constraint firstAttribute="trailing" secondItem="8Yj-C4-Ulq" secondAttribute="trailing" constant="20" id="zhQ-gH-IZs"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="heB-qx-vq3" firstAttribute="top" secondItem="IXL-MN-lWT" secondAttribute="top" id="2lO-YV-n2I"/>
+                <constraint firstItem="heB-qx-vq3" firstAttribute="trailing" secondItem="IXL-MN-lWT" secondAttribute="trailing" id="4BV-MN-85d"/>
+                <constraint firstItem="heB-qx-vq3" firstAttribute="leading" secondItem="IXL-MN-lWT" secondAttribute="leading" id="Sna-YT-bbO"/>
+                <constraint firstItem="heB-qx-vq3" firstAttribute="bottom" secondItem="IXL-MN-lWT" secondAttribute="bottom" id="V5w-yI-yJY"/>
+                <constraint firstItem="IXL-MN-lWT" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="8" id="bg4-Cl-ZzM"/>
+                <constraint firstItem="IXL-MN-lWT" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="cx3-Oz-vfw"/>
+                <constraint firstAttribute="trailing" secondItem="IXL-MN-lWT" secondAttribute="trailing" constant="8" id="m4B-Dy-zqn"/>
+                <constraint firstAttribute="bottom" secondItem="IXL-MN-lWT" secondAttribute="bottom" constant="8" id="wbd-a0-5k1"/>
+            </constraints>
+            <point key="canvasLocation" x="134" y="459.5"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="MoveDownFast" width="30" height="30"/>
+        <image name="MoveDownSlow" width="30" height="30"/>
+        <image name="MoveUpFast" width="30" height="30"/>
+        <image name="MoveUpSlow" width="30" height="30"/>
+    </resources>
+</document>

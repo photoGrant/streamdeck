@@ -1,0 +1,18 @@
+/* Class = "NSButtonCell"; title = "Save"; ObjectID = "0eA-G4-lJN"; */
+"0eA-G4-lJN.title" = "Сохранить";
+
+/* Class = "NSTextFieldCell"; title = "Including 'Camera Profile, Film Curve, White Balance, Lens Cast Calibration, Crop, Luminance Noise Reduction, Color Noise Reduction, Caption, Copyright, Rating' in the style may have unexpected results.                                                                                                                                                              \\n                                                                                                                                 Styles must be saved in ~/Library/Application Support/Capture One/Styles in order to be used by Capture One."; ObjectID = "BBt-qe-V2k"; */
+"BBt-qe-V2k.title" = "Включение в стиль 'Профиль камеры, пленочная кривая, баланс белого, калибровка объектива, кадрирование, подавление шумов яркости, подавление цветового шума, подпись, авторское право, рейтинг' могут иметь неожиданные результаты.                                                                 \\n                                                                                                                         Стили должны быть сохранены в ~/Library/Application Support/Capture One/Styles для использования в Capture One.";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "dhF-Vm-kkG"; */
+"dhF-Vm-kkG.title" = "Текстовая ячейка";
+
+/* Class = "NSWindow"; title = "Save"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Сохранить";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "JNw-OF-Kpq"; */
+"JNw-OF-Kpq.title" = "Отмена";
+
+/* Class = "NSButtonCell"; title = "title"; ObjectID = "LoM-20-LG6"; */
+"LoM-20-LG6.title" = "заголовок";
+

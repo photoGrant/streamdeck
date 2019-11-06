@@ -1,0 +1,12 @@
+/* Class = "NSView"; 2og-By-QRr.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Size"; ObjectID = "2og-By-QRr"; */
+"2og-By-QRr.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "サイズ";
+
+/* Class = "NSTextFieldCell"; title = "Tool"; ObjectID = "hMJ-KV-TNA"; */
+"hMJ-KV-TNA.title" = "ツール";
+
+/* Class = "NSButtonCell"; title = "Always Display Annotations"; ObjectID = "rm3-AF-oOA"; */
+"rm3-AF-oOA.title" = "常に注釈を表示";
+
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "tJI-tr-eGr"; */
+"tJI-tr-eGr.title" = "カラー";
+

@@ -1,0 +1,18 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "38"; */
+"38.title" = "菜单";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show/hide paper guides"; ObjectID = "510"; */
+"510.ibShadowedToolTip" = "显示/隐藏 图像栅格";
+
+/* Class = "NSButtonCell"; title = "Show Guides"; ObjectID = "511"; */
+"511.title" = "显示参考线";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show/hide paper guides"; ObjectID = "543"; */
+"543.ibShadowedToolTip" = "显示/隐藏 图像栅格";
+
+/* Class = "NSButtonCell"; title = "Print Guides"; ObjectID = "544"; */
+"544.title" = "打印参考线";
+
+/* Class = "NSView"; UWG-4M-2dn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Units"; ObjectID = "UWG-4M-2dn"; */
+"UWG-4M-2dn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "单位";
+

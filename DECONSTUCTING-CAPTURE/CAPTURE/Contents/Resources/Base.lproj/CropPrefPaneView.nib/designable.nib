@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CropPrefController">
+            <connections>
+                <outlet property="defaultsButton" destination="55" id="497"/>
+                <outlet property="prefsView" destination="5" id="17"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="435" height="229"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" id="221">
+                    <rect key="frame" x="373" y="110" width="42" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="469">
+                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator="." id="223">
+                            <attributedString key="attributedStringForZero">
+                                <fragment content="0"/>
+                            </attributedString>
+                            <real key="minimum" value="0.0"/>
+                            <real key="maximum" value="100"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.CropMaskBrightness" id="330">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">FloatToPercentageTransformer</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="218">
+                    <rect key="frame" x="373" y="135" width="42" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="468">
+                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator="." id="220">
+                            <attributedString key="attributedStringForZero">
+                                <fragment content="0"/>
+                            </attributedString>
+                            <real key="minimum" value="0.0"/>
+                            <real key="maximum" value="100"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.CropMaskOpacity" id="329">
+                            <dictionary key="options">
+                                <string key="NSValueTransformerName">FloatToPercentageTransformer</string>
+                            </dictionary>
+                        </binding>
+                    </connections>
+                </textField>
+                <button verticalHuggingPriority="750" id="55">
+                    <rect key="frame" x="306" y="13" width="115" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="push" title="Defaults" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="459">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <accessibility description="CropResetButton"/>
+                    <connections>
+                        <action selector="resetCropUserDefaultsToFactoryDefaults:" target="-2" id="64"/>
+                    </connections>
+                </button>
+                <popUpButton verticalHuggingPriority="750" id="50">
+                    <rect key="frame" x="141" y="50" width="163" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" title="Always" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="52" id="458">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="51">
+                            <items>
+                                <menuItem title="Always" state="on" id="52"/>
+                                <menuItem title="During Drag Only" tag="1" id="54"/>
+                                <menuItem title="Never" tag="2" id="53"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <accessibility description="CropShowLabelsPopup"/>
+                    <connections>
+                        <binding destination="57" name="selectedTag" keyPath="values.CropLabelsShow" id="63"/>
+                    </connections>
+                </popUpButton>
+                <popUpButton verticalHuggingPriority="750" id="41">
+                    <rect key="frame" x="141" y="76" width="163" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" title="Always" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="44" id="457">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="42">
+                            <items>
+                                <menuItem title="Always" state="on" id="44"/>
+                                <menuItem title="When No Mask" tag="1" id="43"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <accessibility description="CropShowFramePopup"/>
+                    <connections>
+                        <binding destination="57" name="selectedTag" keyPath="values.CropFrameShow" id="k1U-Bj-NcH"/>
+                    </connections>
+                </popUpButton>
+                <slider verticalHuggingPriority="750" id="40">
+                    <rect key="frame" x="142" y="110" width="225" height="21"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <sliderCell key="cell" continuous="YES" alignment="left" maxValue="1" tickMarkPosition="above" sliderType="linear" id="456">
+                        <font key="font" size="12" name="Helvetica"/>
+                    </sliderCell>
+                    <accessibility description="CropBrightnessSlider"/>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.CropMaskBrightness" id="60"/>
+                    </connections>
+                </slider>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="39">
+                    <rect key="frame" x="9" y="114" width="130" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Brightness:" id="455">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <slider verticalHuggingPriority="750" id="38">
+                    <rect key="frame" x="142" y="135" width="225" height="21"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <sliderCell key="cell" continuous="YES" alignment="left" maxValue="1" doubleValue="0.5" tickMarkPosition="above" sliderType="linear" id="454">
+                        <font key="font" size="12" name="Helvetica"/>
+                    </sliderCell>
+                    <accessibility description="CropOpacitySlider"/>
+                    <connections>
+                        <binding destination="57" name="value" keyPath="values.CropMaskOpacity" id="59"/>
+                    </connections>
+                </slider>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="37">
+                    <rect key="frame" x="9" y="139" width="130" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Opacity:" id="453">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <popUpButton verticalHuggingPriority="750" id="32">
+                    <rect key="frame" x="141" y="160" width="163" height="26"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" title="Always" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="34" id="452">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="33">
+                            <items>
+                                <menuItem title="Always" state="on" id="34"/>
+                                <menuItem title="Except During Drag" tag="1" id="36"/>
+                                <menuItem title="Never" tag="2" id="35"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <accessibility description="CropShowMaskPopup"/>
+                    <connections>
+                        <binding destination="57" name="selectedTag" keyPath="values.CropMaskShow" id="58"/>
+                    </connections>
+                </popUpButton>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="31">
+                    <rect key="frame" x="9" y="56" width="130" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Show Labels:" id="451">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="29">
+                    <rect key="frame" x="9" y="82" width="130" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Show Frame:" id="450">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="28">
+                    <rect key="frame" x="9" y="166" width="130" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Show:" id="449">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="pR1-h2-0W2">
+                    <rect key="frame" x="18" y="192" width="206" height="17"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Mask" id="ax2-Us-YFd">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <box verticalHuggingPriority="750" boxType="separator" id="Q3C-PV-Rx1">
+                    <rect key="frame" x="20" y="190" width="395" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                </box>
+            </subviews>
+            <point key="canvasLocation" x="-776.5" y="-242.5"/>
+        </customView>
+        <userDefaultsController id="56" userLabel="User Defaults Controller"/>
+        <userDefaultsController representsSharedInstance="YES" id="57" userLabel="Shared Defaults"/>
+    </objects>
+</document>

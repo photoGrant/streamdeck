@@ -1,0 +1,105 @@
+/* Class = "NSButtonCell"; title = "Warn when Move to Trash affects unselected variants"; ObjectID = "11W-al-zCq"; */
+"11W-al-zCq.title" = "Varna om Flytta till papperskorg påverkar icke valda varianter";
+
+/* Class = "NSButtonCell"; title = "Warn when applying a style with an invalid LCC"; ObjectID = "18v-en-xAd"; */
+"18v-en-xAd.title" = "Varna om stil med felaktig LCC appliceras";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "482"; */
+"482.title" = "Standard";
+
+/* Class = "NSButtonCell"; title = "Warn when moving images and folders in Catalog"; ObjectID = "694"; */
+"694.title" = "Varna om bilder och mappaf flyttas i Katalogen";
+
+/* Class = "NSTextFieldCell"; title = "Files and Folders"; ObjectID = "697"; */
+"697.title" = "Filer och mappar";
+
+/* Class = "NSButtonCell"; title = "Warn when deleting images from disk"; ObjectID = "701"; */
+"701.title" = "Varna när bilder raderas från hårddisken";
+
+/* Class = "NSButtonCell"; title = "Warn when moving images to the Session Trash from a different drive"; ObjectID = "703"; */
+"703.title" = "Varna när blider flyttas till sessionens papperskorg från en annan hårddisk";
+
+/* Class = "NSTextFieldCell"; title = "Adjustments"; ObjectID = "707"; */
+"707.title" = "Justeringar";
+
+/* Class = "NSButtonCell"; title = "Warn when resetting adjustments on multiple variants"; ObjectID = "708"; */
+"708.title" = "Varna när justeringar återställs på flera bilder";
+
+/* Class = "NSTextFieldCell"; title = "Output"; ObjectID = "734"; */
+"734.title" = "Bildstorlek";
+
+/* Class = "NSTextFieldCell"; title = "If Edit All Selected Variants is off and multiple variants are selected:"; ObjectID = "789"; */
+"789.title" = "Om Redigera alla valda varianter är avstängt och flera varianter är valda:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when processing multiple variants if Edit All Selected Variants is off"; ObjectID = "792"; */
+"792.ibShadowedToolTip" = "Varna vid framkallning av flera filer när Redigera alla valda varianter är av";
+
+/* Class = "NSButtonCell"; title = "Warn when processing"; ObjectID = "793"; */
+"793.title" = "Varna när framkallning pågår";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when printing multiple variants if Edit All Selected Variants is off"; ObjectID = "795"; */
+"795.ibShadowedToolTip" = "Varna vid utskrift av flera varianter när Redigera alla valda varianter är av";
+
+/* Class = "NSButtonCell"; title = "Warn when printing"; ObjectID = "796"; */
+"796.title" = "Varna när utskrift pågår";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when creating a web contact sheet with multiple variants if Edit All Selected Variants is off"; ObjectID = "798"; */
+"798.ibShadowedToolTip" = "Varna vid skapande av kontaktkarta för webben, med flera bilder valda, om Redigera alla valda varianter är av";
+
+/* Class = "NSButtonCell"; title = "Warn when creating a web contact sheet"; ObjectID = "799"; */
+"799.title" = "Varna när en kontakttkarta för webben skapas";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when creating a web contact sheet with multiple variants if Edit All Selected Variants is off"; ObjectID = "804"; */
+"804.ibShadowedToolTip" = "Varna vid skapande av kontaktkarta för webben, med flera bilder valda, om Redigera alla valda varianter är av";
+
+/* Class = "NSButtonCell"; title = "Warn when exporting"; ObjectID = "805"; */
+"805.title" = "Varna vid export";
+
+/* Class = "NSButtonCell"; title = "Warn when resetting manual sorting"; ObjectID = "811"; */
+"811.title" = "Varna när manuell sortering återställs";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when changing or deleting the applied LCC. "; ObjectID = "815"; */
+"815.ibShadowedToolTip" = "Varna när pålagd LCC ändras eller tas bort.";
+
+/* Class = "NSButtonCell"; title = "Warn when changing LCC"; ObjectID = "816"; */
+"816.title" = "Varna när LCC ändras";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when creating LCC with multiple variants if Edit All Selected Variants is off."; ObjectID = "819"; */
+"819.ibShadowedToolTip" = "Varna när LCC skapas med flera varianter om \"Redigera alla valda varianter\" är avstängd.";
+
+/* Class = "NSButtonCell"; title = "Warn when creating LCC"; ObjectID = "820"; */
+"820.title" = "Varna när LCC skapas";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when applying LCC to multiple variants if Edit All Selected Variants is off."; ObjectID = "822"; */
+"822.ibShadowedToolTip" = "Varna när LCC läggs på flera varianter om \"Redigera alla valda varianter\" är avstängd.";
+
+/* Class = "NSButtonCell"; title = "Warn when applying LCC"; ObjectID = "823"; */
+"823.title" = "Varna när LCC läggs på";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when changing or deleting the applied LCC. "; ObjectID = "828"; */
+"828.ibShadowedToolTip" = "Varna när pålagd LCC ändras eller tas bort.";
+
+/* Class = "NSButtonCell"; title = "Warn when upgrading Engine"; ObjectID = "829"; */
+"829.title" = "Varna när motorn uppgraderas";
+
+/* Class = "NSButtonCell"; title = "Warn when resetting adjustments on an adjustments layer"; ObjectID = "834"; */
+"834.title" = "Varna när justeringar återställs på ett justeringslager";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Warn when analyzing Chromatic Aberration with multiple variants if Edit All Selected Variants is off."; ObjectID = "846"; */
+"846.ibShadowedToolTip" = "Varna vid kromatisk aberrationsanalys av flera varianter om regigera alla valda varianter är avstängt.";
+
+/* Class = "NSButtonCell"; title = "Warn when analyzing Chromatic Aberration"; ObjectID = "847"; */
+"847.title" = "Varna vid kromatisk aberrationsanalys";
+
+/* Class = "NSButtonCell"; title = "Warn when applying a style partially"; ObjectID = "bEM-Ld-dkv"; */
+"bEM-Ld-dkv.title" = "Varna om stil bara appliceras delvis";
+
+/* Class = "NSButtonCell"; title = "Warn when copying unsupported adjustments"; ObjectID = "vL9-36-JKs"; */
+"vL9-36-JKs.title" = "Varna vid kopiering av justeringar som ej stöds";
+
+/* Class = "NSButtonCell"; title = "Warn when rasterizing a parametric mask"; ObjectID = "YLZ-gd-vnA"; */
+"YLZ-gd-vnA.title" = "Varna när parametrisk mask rastereras";
+
+/* Class = "NSButtonCell"; title = "Warn when applying a style with an invalid ICC"; ObjectID = "Zwn-SQ-wPT"; */
+"Zwn-SQ-wPT.title" = "Varna om stil med felaktig ICC appliceras";
+

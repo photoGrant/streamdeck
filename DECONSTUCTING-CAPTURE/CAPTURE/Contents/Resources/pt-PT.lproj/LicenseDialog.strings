@@ -1,0 +1,342 @@
+/* Class = "NSWindow"; title = "License"; ObjectID = "5"; */
+"5.title" = "Licença";
+
+/* Class = "NSTabViewItem"; label = "Online Activation"; ObjectID = "6MP-Fl-l5N"; */
+"6MP-Fl-l5N.label" = "Ativação online";
+
+/* Class = "NSTextFieldCell"; title = "The activation key is invalid"; ObjectID = "8b7-0m-Zvb"; */
+"8b7-0m-Zvb.title" = "A chave de ativação é inválida";
+
+/* Class = "NSTabViewItem"; label = "ActivateOrTry"; ObjectID = "14"; */
+"14.label" = "ActivateOrTry";
+
+/* Class = "NSTabViewItem"; label = "Activation"; ObjectID = "16"; */
+"16.label" = "Ativação";
+
+/* Class = "NSTabViewItem"; label = "Password"; ObjectID = "18"; */
+"18.label" = "Senha";
+
+/* Class = "NSTabViewItem"; label = "ThankYou"; ObjectID = "20"; */
+"20.label" = "ThankYou";
+
+/* Class = "NSTabViewItem"; label = "ActivationInfo"; ObjectID = "22"; */
+"22.label" = "ActivationInfo";
+
+/* Class = "NSTabViewItem"; label = "Deactivation"; ObjectID = "24"; */
+"24.label" = "Desativação";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "You can paste your license code from the clipboard"; ObjectID = "44"; */
+"44.ibShadowedToolTip" = "Você pode colar seu código de licença da área de transferência";
+
+/* Class = "NSTableColumn"; headerCell.title = "Date"; ObjectID = "78"; */
+"78.headerCell.title" = "Data";
+
+/* Class = "NSTableColumn"; headerCell.title = "Computer ID"; ObjectID = "79"; */
+"79.headerCell.title" = "ID do computador";
+
+/* Class = "NSTableColumn"; headerCell.title = "Activation Type"; ObjectID = "80"; */
+"80.headerCell.title" = "Tipo de ativação";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "You can paste your license code from the clipboard"; ObjectID = "111"; */
+"111.ibShadowedToolTip" = "Você pode colar seu código de licença da área de transferência";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "You can paste your license code from the clipboard"; ObjectID = "112"; */
+"112.ibShadowedToolTip" = "Você pode colar seu código de licença da área de transferência";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "You can paste your license code from the clipboard"; ObjectID = "113"; */
+"113.ibShadowedToolTip" = "Você pode colar seu código de licença da área de transferência";
+
+/* Class = "NSButton"; ibShadowedToolTip = "What is a License Code?"; ObjectID = "127"; */
+"127.ibShadowedToolTip" = "O que é um código de licença?";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Read more about Phase One profiles"; ObjectID = "134"; */
+"134.ibShadowedToolTip" = "Saiba mais sobre os perfis Phase One";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Why do I need a password?"; ObjectID = "139"; */
+"139.ibShadowedToolTip" = "Por que eu preciso de senha?";
+
+/* Class = "NSWindow"; title = "Enter Password"; ObjectID = "281"; */
+"281.title" = "Inserir senha";
+
+/* Class = "NSDateFormatter"; ibShadowedDateFormat = "d MMMM y"; ObjectID = "471"; */
+"471.ibShadowedDateFormat" = "d MMMM a";
+
+/* Class = "NSButton"; ibShadowedToolTip = "What is free upgrades and activations?"; ObjectID = "484"; */
+"484.ibShadowedToolTip" = "O que são atualizações e ativações gratuitas?";
+
+/* Class = "NSButtonCell"; title = "Try"; ObjectID = "519"; */
+"519.title" = "Experimentar";
+
+/* Class = "NSButtonCell"; title = "Use Capture One DB"; ObjectID = "520"; */
+"520.title" = "Usar o Capture One DB (back digital)";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "522"; */
+"522.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Capture One Express"; ObjectID = "523"; */
+"523.title" = "Capture One Express";
+
+/* Class = "NSMenuItem"; title = "Capture One Pro"; ObjectID = "524"; */
+"524.title" = "Capture One Pro";
+
+/* Class = "NSBox"; title = "New Profile"; ObjectID = "540"; */
+"540.title" = "Novo perfil";
+
+/* Class = "NSBox"; title = "New Password"; ObjectID = "546"; */
+"546.title" = "Nova senha";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "559"; */
+"559.title" = "Título";
+
+/* Class = "NSBox"; title = "Run Mode"; ObjectID = "563"; */
+"563.title" = "Modo de execução";
+
+/* Class = "NSBox"; title = "License"; ObjectID = "565"; */
+"565.title" = "Licença";
+
+/* Class = "NSBox"; title = "Activation History"; ObjectID = "570"; */
+"570.title" = "Histórico de ativação";
+
+/* Class = "NSWindow"; title = "Software License"; ObjectID = "611"; */
+"611.title" = "Licença do software";
+
+/* Class = "NSTabViewItem"; label = "EntryFields"; ObjectID = "786"; */
+"786.label" = "EntryFields";
+
+/* Class = "NSTabViewItem"; label = "DisplayField"; ObjectID = "787"; */
+"787.label" = "DisplayField";
+
+/* Class = "NSButtonCell"; title = "Activate:"; ObjectID = "932"; */
+"932.title" = "Ativar:";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "1348"; */
+"1348.title" = "Fechar";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "1349"; */
+"1349.title" = "Botão";
+
+/* Class = "NSButtonCell"; title = "Help"; ObjectID = "1350"; */
+"1350.title" = "Ajuda";
+
+/* Class = "NSButtonCell"; title = "View the software license agreement"; ObjectID = "1351"; */
+"1351.title" = "Exibir o contrato de licença do software";
+
+/* Class = "NSTextFieldCell"; title = "Thank you for trying Capture One."; ObjectID = "1352"; */
+"1352.title" = "Obrigado por experimentar o Capture One.";
+
+/* Class = "NSTextFieldCell"; title = "Please select your preferred run mode option below before proceeding."; ObjectID = "1353"; */
+"1353.title" = "Selecione sua opção de modo de execução preferencial abaixo antes de prosseguir.";
+
+/* Class = "NSTextFieldCell"; title = "Activate Capture One."; ObjectID = "1356"; */
+"1356.title" = "Ativar o Capture One.";
+
+/* Class = "NSTextFieldCell"; title = "Please fill out the fields below."; ObjectID = "1357"; */
+"1357.title" = "Preencha os campos seguintes.";
+
+/* Class = "NSTextFieldCell"; title = "E-mail:"; ObjectID = "1362"; */
+"1362.title" = "E-mail:";
+
+/* Class = "NSTextFieldCell"; title = "First Name:"; ObjectID = "1363"; */
+"1363.title" = "Nome:";
+
+/* Class = "NSTextFieldCell"; title = "Last Name:"; ObjectID = "1364"; */
+"1364.title" = "Sobrenome:";
+
+/* Class = "NSTextFieldCell"; title = "Country:"; ObjectID = "1365"; */
+"1365.title" = "País:";
+
+/* Class = "NSButtonCell"; title = "Get Profile"; ObjectID = "1366"; */
+"1366.title" = "Obter Perfil";
+
+/* Class = "NSTextFieldCell"; title = "Small System Font Text"; ObjectID = "1367"; */
+"1367.title" = "Texto da Fonte do Pequeno Sistema";
+
+/* Class = "NSTextFieldCell"; title = "Small System Font Text\n\n3 lines"; ObjectID = "1369"; */
+"1369.title" = "Texto da Fonte do Pequeno Sistema\n\n3 linhas";
+
+/* Class = "NSTextFieldCell"; title = "License Code:"; ObjectID = "1371"; */
+"1371.title" = "Código de licença:";
+
+/* Class = "NSTextFieldCell"; title = "(License code)"; ObjectID = "1376"; */
+"1376.title" = "(Código de licença)";
+
+/* Class = "NSButtonCell"; title = "Paste"; ObjectID = "1377"; */
+"1377.title" = "Colar";
+
+/* Class = "NSTextFieldCell"; title = "Activate Capture One."; ObjectID = "1378"; */
+"1378.title" = "Ativar o Capture One.";
+
+/* Class = "NSTextFieldCell"; title = "A new profile will be created for you. Please verify the information and create a password for your new profile."; ObjectID = "1379"; */
+"1379.title" = "Um novo perfil será criado para você. Verifique as informações e crie uma senha para o novo perfil.";
+
+/* Class = "NSTextFieldCell"; title = "E-mail"; ObjectID = "1380"; */
+"1380.title" = "E-mail";
+
+/* Class = "NSTextFieldCell"; title = "First name"; ObjectID = "1381"; */
+"1381.title" = "Nome";
+
+/* Class = "NSTextFieldCell"; title = "Last name"; ObjectID = "1382"; */
+"1382.title" = "Sobrenome";
+
+/* Class = "NSTextFieldCell"; title = "Country"; ObjectID = "1383"; */
+"1383.title" = "País";
+
+/* Class = "NSTextFieldCell"; title = "E-mail:"; ObjectID = "1384"; */
+"1384.title" = "E-mail:";
+
+/* Class = "NSTextFieldCell"; title = "First Name:"; ObjectID = "1385"; */
+"1385.title" = "Nome:";
+
+/* Class = "NSTextFieldCell"; title = "Last Name:"; ObjectID = "1386"; */
+"1386.title" = "Sobrenome:";
+
+/* Class = "NSTextFieldCell"; title = "Country:"; ObjectID = "1387"; */
+"1387.title" = "País:";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Minimum 6 characters"; ObjectID = "1388"; */
+"1388.placeholderString" = "Mínimo de 6 caracteres";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Minimum 6 characters"; ObjectID = "1389"; */
+"1389.placeholderString" = "Mínimo de 6 caracteres";
+
+/* Class = "NSTextFieldCell"; title = "Confirm:"; ObjectID = "1391"; */
+"1391.title" = "Confirme:";
+
+/* Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "1392"; */
+"1392.title" = "Senha:";
+
+/* Class = "NSTextFieldCell"; title = "Thank you for activating!"; ObjectID = "1393"; */
+"1393.title" = "Obrigado por ativar!";
+
+/* Class = "NSTextFieldCell"; title = "This version of Capture One has now been activated."; ObjectID = "1394"; */
+"1394.title" = "Esta versão do Capture One está ativada a partir de agora.";
+
+/* Class = "NSButtonCell"; title = "View the software license agreement"; ObjectID = "1395"; */
+"1395.title" = "Exibir o contrato de licença do software";
+
+/* Class = "NSTextFieldCell"; title = "Capture One License."; ObjectID = "1396"; */
+"1396.title" = "Licença do Capture One.";
+
+/* Class = "NSTextFieldCell"; title = "This version of Capture One has been activated."; ObjectID = "1397"; */
+"1397.title" = "Esta versão do Capture One foi ativada.";
+
+/* Class = "NSTextFieldCell"; title = "License code:"; ObjectID = "1398"; */
+"1398.title" = "Código de licença:";
+
+/* Class = "NSTextFieldCell"; title = "Registered to:"; ObjectID = "1399"; */
+"1399.title" = "Registrado para:";
+
+/* Class = "NSTextFieldCell"; title = "Free upgrades left:"; ObjectID = "1400"; */
+"1400.title" = "Upgrades gratuitos restantes:";
+
+/* Class = "NSTextFieldCell"; title = "Activations left:"; ObjectID = "1401"; */
+"1401.title" = "Ativações restantes:";
+
+/* Class = "NSTextFieldCell"; title = "-"; ObjectID = "1402"; */
+"1402.title" = "-";
+
+/* Class = "NSTextFieldCell"; title = "-"; ObjectID = "1403"; */
+"1403.title" = "-";
+
+/* Class = "NSTextFieldCell"; title = "(License type string)"; ObjectID = "1404"; */
+"1404.title" = "(Licença do tipo conjunto)";
+
+/* Class = "NSTextFieldCell"; title = "(Licensee)"; ObjectID = "1406"; */
+"1406.title" = "(Licenciado)";
+
+/* Class = "NSTextFieldCell"; title = "(License code)"; ObjectID = "1407"; */
+"1407.title" = "(Código de licença)";
+
+/* Class = "NSButtonCell"; title = "Yes, I want to deactivate my license on this computer"; ObjectID = "1408"; */
+"1408.title" = "Sim, quero desativar minha licença deste computador";
+
+/* Class = "NSTextFieldCell"; title = "Deactivate Capture One."; ObjectID = "1409"; */
+"1409.title" = "Desativar o Capture One.";
+
+/* Class = "NSTextFieldCell"; title = "Deactivation will remove the Capture One license from this computer.\n\nOnce you deactivate Capture One, the application will return to trial mode. If the trial period for this computer has expired, all current and pending processes will be cancelled, and you will not be able to continue working with the application until you reactivate it."; ObjectID = "1410"; */
+"1410.title" = "A desativação removerá a licença do Capture One deste computador.\n\nUma vez desativado, o Capture One voltará para o modo de teste. Se o período de avaliação deste computador já estiver expirado, todos os processos atuais e pendentes serão cancelados, e não será possível continuar a trabalhar com o aplicativo até que você o reative.";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "1413"; */
+"1413.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "1414"; */
+"1414.title" = "Cancelar";
+
+/* Class = "NSButtonCell"; title = "E-mail My Password"; ObjectID = "1415"; */
+"1415.title" = "Enviar minha senha por e-mail";
+
+/* Class = "NSTextFieldCell"; title = "Profile password:"; ObjectID = "1416"; */
+"1416.title" = "Senha do perfil:";
+
+/* Class = "NSButtonCell"; title = "Paste"; ObjectID = "1418"; */
+"1418.title" = "Colar";
+
+/* Class = "NSButtonCell"; title = "Accept"; ObjectID = "1419"; */
+"1419.title" = "Aceitar";
+
+/* Class = "NSButtonCell"; title = "Print…"; ObjectID = "1420"; */
+"1420.title" = "Imprimir…";
+
+/* Class = "NSButtonCell"; title = "I accept the terms and conditions of the license agreement"; ObjectID = "1421"; */
+"1421.title" = "Aceito os termos e as condições do contrato de licença";
+
+/* Class = "NSButtonCell"; title = "Decline"; ObjectID = "1422"; */
+"1422.title" = "Recusar";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "1423"; */
+"1423.title" = "Rádio";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1424"; */
+"1424.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1425"; */
+"1425.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; title = "1 April 1976"; ObjectID = "1426"; */
+"1426.title" = "1º de abril de 1976";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1427"; */
+"1427.title" = "Célula do Texto";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "1428"; */
+"1428.title" = "Célula do Texto";
+
+/* Class = "NSWindow"; title = "License not upgradable"; ObjectID = "1436"; */
+"1436.title" = "Licença não atualizável";
+
+/* Class = "NSTextFieldCell"; title = "The provided license code is not valid for this version of Capture One.\n\nTo continue using Capture One, activate using a valid code or visit the Phase One Online Store (launches web browser) to buy a valid license."; ObjectID = "1443"; */
+"1443.title" = "O código de licença fornecido não é válido para esta versão do Capture One.\n\nPara continuar usando o Capture One, ative usando um código válido ou visite a loja online da Phase One (iniciada no navegador web) para comprar uma licença válida.";
+
+/* Class = "NSButtonCell"; title = "Visit Online Store..."; ObjectID = "1445"; */
+"1445.title" = "Visitar a loja online...";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "1446"; */
+"1446.title" = "OK";
+
+/* Class = "NSTabViewItem"; label = "Manual Activation"; ObjectID = "AyA-j4-ehd"; */
+"AyA-j4-ehd.label" = "Ativação Manual";
+
+/* Class = "NSTextFieldCell"; title = "Enter the Activation Key returned on the website and press the button labeled 'Activate'"; ObjectID = "dF5-sN-aMB"; */
+"dF5-sN-aMB.title" = "Digite a Chave de Ativação retornada no site e pressione o botão \"Ativar\"";
+
+/* Class = "NSTextFieldCell"; title = "ID:"; ObjectID = "jaK-GD-gbq"; */
+"jaK-GD-gbq.title" = "ID:";
+
+/* Class = "NSButtonCell"; title = "Buy"; ObjectID = "lcp-62-bv4"; */
+"lcp-62-bv4.title" = "Comprar";
+
+/* Class = "NSTextFieldCell"; title = "The Registration Key below must be entered into the online web form. This can be found by logging in to your profile on www.phaseone.com"; ObjectID = "QgT-qS-Ycw"; */
+"QgT-qS-Ycw.title" = "A chave de registro abaixo deve ser inserida no formulário online, que pode ser encontrado conectando-se ao seu perfil no www.phaseone.com";
+
+/* Class = "NSTextFieldCell"; title = "(Hardware ID)"; ObjectID = "QT0-WX-eHB"; */
+"QT0-WX-eHB.title" = "(Hardware ID)";
+
+/* Class = "NSTextFieldCell"; title = "Verify Email:"; ObjectID = "V9T-1H-bn3"; */
+"V9T-1H-bn3.title" = "Verificar email:";
+
+/* Class = "NSTextFieldCell"; title = "Activation Key:"; ObjectID = "VC6-KA-aJr"; */
+"VC6-KA-aJr.title" = "Chave de ativação:";
+
+/* Class = "NSTextFieldCell"; title = "Registration Key:"; ObjectID = "wI3-Gb-PxD"; */
+"wI3-Gb-PxD.title" = "Chave de registro:";
+

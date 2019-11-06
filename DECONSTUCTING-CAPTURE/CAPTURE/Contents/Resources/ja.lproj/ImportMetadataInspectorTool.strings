@@ -1,0 +1,18 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "49"; */
+"49.title" = "メニュー";
+
+/* Class = "NSMenuItem"; title = "Reset Tool"; ObjectID = "50"; */
+"50.title" = "ツールのリセット";
+
+/* Class = "NSTextFieldCell"; title = "Description"; ObjectID = "57"; */
+"57.title" = "説明";
+
+/* Class = "NSTextFieldCell"; title = "Copyright"; ObjectID = "58"; */
+"58.title" = "コピーライト";
+
+/* Class = "NSTextFieldCell"; title = "My Copyright"; ObjectID = "59"; */
+"59.title" = "My コピーライト";
+
+/* Class = "NSTextFieldCell"; title = "My Description"; ObjectID = "60"; */
+"60.title" = "My 記述";
+

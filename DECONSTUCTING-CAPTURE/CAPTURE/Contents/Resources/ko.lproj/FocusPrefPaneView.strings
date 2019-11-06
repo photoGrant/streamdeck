@@ -1,0 +1,27 @@
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "CropResetButton"; ObjectID = "5"; */
+"5.ibExternalAccessibilityDescription" = "CropResetButton";
+
+/* Class = "NSButtonCell"; title = "Defaults"; ObjectID = "6"; */
+"6.title" = "기본값";
+
+/* Class = "NSTextFieldCell"; title = "Threshold:"; ObjectID = "10"; */
+"10.title" = "임계값:";
+
+/* Class = "NSTextFieldCell"; title = "Focus Mask"; ObjectID = "14"; */
+"14.title" = "포커스 마스크";
+
+/* Class = "NSColorWell"; ibExternalAccessibilityDescription = "GridColorWell"; ObjectID = "15"; */
+"15.ibExternalAccessibilityDescription" = "GridColorWell";
+
+/* Class = "NSTextFieldCell"; title = "Color:"; ObjectID = "17"; */
+"17.title" = "컬러:";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "CropOpacitySlider"; ObjectID = "22"; */
+"22.ibExternalAccessibilityDescription" = "CropOpacitySlider";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = "CropOpacitySlider"; ObjectID = "25"; */
+"25.ibExternalAccessibilityDescription" = "CropOpacitySlider";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "30"; */
+"30.title" = "불투명도:";
+

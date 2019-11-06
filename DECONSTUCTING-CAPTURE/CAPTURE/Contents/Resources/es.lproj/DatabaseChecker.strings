@@ -1,0 +1,18 @@
+/* Class = "NSWindow"; title = "Check Catalog"; ObjectID = "1"; */
+"1.title" = "Verificar Catálogo";
+
+/* Class = "NSButtonCell"; title = "Multiuse"; ObjectID = "4"; */
+"4.title" = "Multiuso";
+
+/* Class = "NSButtonCell"; title = "Verify"; ObjectID = "14"; */
+"14.title" = "Comprobar";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "79"; */
+"79.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Activity Message"; ObjectID = "82"; */
+"82.title" = "Mensaje de Actividad";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "98"; */
+"98.title" = "Cerrar";
+

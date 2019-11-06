@@ -1,0 +1,21 @@
+/* Class = "NSWindow"; title = "Import Lightroom Catalog"; ObjectID = "1"; */
+"1.title" = "Importar do Catálogo do Lightroom";
+
+/* Class = "NSButtonCell"; title = "Don't show this again"; ObjectID = "4"; */
+"4.title" = "Não mostrar novamente";
+
+/* Class = "NSButtonCell"; title = "Continue"; ObjectID = "8"; */
+"8.title" = "Continuar";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "14"; */
+"14.title" = "Cancelar";
+
+/* Class = "NSTextFieldCell"; title = "When importing images from Lightroom, only the following properties will be transferred into Capture One:"; ObjectID = "28"; */
+"28.title" = "Ao importar imagens do Adobe Photoshop Lightroom, as seguintes propriedades serão transferidas para o Capture One:";
+
+/* Class = "NSTextFieldCell"; title = "Collections\nCrop, Rotation, Orientation\nWhite balance, Exposure, Saturation, Contrast\nMetadata (IPTC, Rating, Color Label, Keywords)"; ObjectID = "51"; */
+"51.title" = "Coleções\nRecorte, Rotação, Orientação\nBalanço de branco, Exposição, Saturação, Contraste\nMetadados (IPTC, Classificação, Etiquetas de cor, Palavras-chave)";
+
+/* Class = "NSTextFieldCell"; title = "Color adjustments are approximations only.\n\nIf you wish to include any Smart Collections, you will need to convert them into normal Collections before importing."; ObjectID = "57"; */
+"57.title" = "Ajustes de cor são aproximações apenas.\n\nSe desejar incluir alguma Coleção inteligente você precisará convertê-la em coleção normal antes de importar.";
+

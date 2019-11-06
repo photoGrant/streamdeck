@@ -1,0 +1,1173 @@
+/* Class = "NSMenuItem"; title = "Variants…"; ObjectID = "0H0-Jc-t3x"; */
+"0H0-Jc-t3x.title" = "Variantes…";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "0ih-RM-Js7"; */
+"0ih-RM-Js7.title" = "Affichage";
+
+/* Class = "NSMenu"; title = "Rename Counter"; ObjectID = "0Ps-7b-sBQ"; */
+"0Ps-7b-sBQ.title" = "Compteur de Renommage";
+
+/* Class = "NSMenuItem"; title = "M"; ObjectID = "0Q0-M5-LmI"; */
+"0Q0-M5-LmI.title" = "M";
+
+/* Class = "NSMenuItem"; title = "Layer"; ObjectID = "0UZ-1K-nR1"; */
+"0UZ-1K-nR1.title" = "Calque";
+
+/* Class = "NSMenuItem"; title = "Annotations"; ObjectID = "01C-Il-VMP"; */
+"01C-Il-VMP.title" = "Annotations";
+
+/* Class = "NSMenuItem"; title = "Toolbar"; ObjectID = "1gq-zE-mEg"; */
+"1gq-zE-mEg.title" = "Barre d’outils";
+
+/* Class = "NSMenuItem"; title = "Upgrade Engine"; ObjectID = "1LQ-Jh-EPo"; */
+"1LQ-Jh-EPo.title" = "Mettre à Jour Moteur de Traitement";
+
+/* Class = "NSMenuItem"; title = "Select"; ObjectID = "1Lv-YA-qve"; */
+"1Lv-YA-qve.title" = "Selectionner";
+
+/* Class = "NSMenuItem"; title = "Shop…"; ObjectID = "1Nd-JK-zNO"; */
+"1Nd-JK-zNO.title" = "Boutique…";
+
+/* Class = "NSMenuItem"; title = "Sync Metadata"; ObjectID = "1rs-DA-1do"; */
+"1rs-DA-1do.title" = "Synchroniser Métadonnées";
+
+/* Class = "NSMenuItem"; title = "Levels"; ObjectID = "2BO-O0-qsH"; */
+"2BO-O0-qsH.title" = "Niveaux";
+
+/* Class = "NSMenuItem"; title = "Select Hot Folder…"; ObjectID = "2Gr-gy-fxz"; */
+"2Gr-gy-fxz.title" = "Sélectionner Dossier Actif…";
+
+/* Class = "NSMenuItem"; title = "Add to Favorites"; ObjectID = "2KV-Ld-vZd"; */
+"2KV-Ld-vZd.title" = "Ajouter aux Favoris";
+
+/* Class = "NSMenuItem"; title = "Toggle Layer On/Off"; ObjectID = "2pa-ft-UHr"; */
+"2pa-ft-UHr.title" = "Affichage Calque On/Off";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "2XR-PQ-i11"; */
+"2XR-PQ-i11.title" = "Aide";
+
+/* Class = "NSMenuItem"; title = "Viewer Toolbar"; ObjectID = "3ep-eN-uVW"; */
+"3ep-eN-uVW.title" = "Barre d’outils Visionneuse";
+
+/* Class = "NSMenu"; title = "Create Album from"; ObjectID = "3gr-b2-izd"; */
+"3gr-b2-izd.title" = "Créer Album à partir de";
+
+/* Class = "NSMenuItem"; title = "Selection"; ObjectID = "3lw-Wa-6il"; */
+"3lw-Wa-6il.title" = "Sélection";
+
+/* Class = "NSMenuItem"; title = "Orientation"; ObjectID = "3rd-Dg-1hZ"; */
+"3rd-Dg-1hZ.title" = "Orientation";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "3T1-Cx-ywj"; */
+"3T1-Cx-ywj.title" = "Couper";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Restore a backup of this Catalog"; ObjectID = "3To-a4-pSf"; */
+"3To-a4-pSf.ibShadowedToolTip" = "Restaure une sauvegarde de ce Catalogue";
+
+/* Class = "NSMenuItem"; title = "Restore Catalog…"; ObjectID = "3To-a4-pSf"; */
+"3To-a4-pSf.title" = "Restaurer le Catalogue…";
+
+/* Class = "NSMenuItem"; title = "Verify database on open"; ObjectID = "3Ui-ok-lzu"; */
+"3Ui-ok-lzu.title" = "Vérifier Base de Données à l'ouverture";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "3Z4-fg-SOV"; */
+"3Z4-fg-SOV.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Same Rating"; ObjectID = "4F7-S3-7wH"; */
+"4F7-S3-7wH.title" = "Même note";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "4MD-pK-52t"; */
+"4MD-pK-52t.title" = "Menu";
+
+/* Class = "NSMenu"; title = "Export Counter"; ObjectID = "4tc-Vp-Tn2"; */
+"4tc-Vp-Tn2.title" = "Compteur d’export";
+
+/* Class = "NSMenuItem"; title = "Set as Selects Folder"; ObjectID = "5eA-Cd-e2H"; */
+"5eA-Cd-e2H.title" = "Définir comme Dossier de Sélection";
+
+/* Class = "NSMenuItem"; title = "Guides"; ObjectID = "5Kn-v3-3J9"; */
+"5Kn-v3-3J9.title" = "Repères";
+
+/* Class = "NSMenuItem"; title = "Reset Guides"; ObjectID = "5Qh-XJ-7lV"; */
+"5Qh-XJ-7lV.title" = "Réinitialiser Repères";
+
+/* Class = "NSMenuItem"; title = "Mask Visibility"; ObjectID = "5qY-K4-hhW"; */
+"5qY-K4-hhW.title" = "Visibilité Masque";
+
+/* Class = "NSMenuItem"; title = "Capture One"; ObjectID = "5Td-ii-gu5"; */
+"5Td-ii-gu5.title" = "Capture One";
+
+/* Class = "NSMenuItem"; title = "Sequence ID"; ObjectID = "5xI-ot-kZZ"; */
+"5xI-ot-kZZ.title" = "ID de séquence";
+
+/* Class = "NSMenuItem"; title = "Auto Adjust"; ObjectID = "6dD-vu-ayz"; */
+"6dD-vu-ayz.title" = "Régler Automatiquement";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Capture an image using the attached camera"; ObjectID = "6fd-wm-DqL"; */
+"6fd-wm-DqL.ibShadowedToolTip" = "Capturer une image à l'aide de l'appareil connecté";
+
+/* Class = "NSMenuItem"; title = "Network Camera Manager…"; ObjectID = "6fd-wm-DqL"; */
+"6fd-wm-DqL.title" = "Gestionnaire d’appareil photo réseau…";
+
+/* Class = "NSMenu"; title = "Add Inspector Tool To Selected Tab"; ObjectID = "6Jb-3H-48Z"; */
+"6Jb-3H-48Z.title" = "Ajouter l'outil inspecteur à l'onglet sélectionné";
+
+/* Class = "NSMenuItem"; title = "Next Set"; ObjectID = "6nI-5Q-bF1"; */
+"6nI-5Q-bF1.title" = "Groupe Suivant";
+
+/* Class = "NSMenuItem"; title = "Edit All Selected Variants"; ObjectID = "6Pw-sw-mKP"; */
+"6Pw-sw-mKP.title" = "Editer Toutes les Variantes Sélectionnées";
+
+/* Class = "NSMenuItem"; title = "Set or Change PIN…"; ObjectID = "6RB-Ks-Q9Y"; */
+"6RB-Ks-Q9Y.title" = "Définir ou Changer PIN…";
+
+/* Class = "NSMenuItem"; title = "Output Counter"; ObjectID = "6sQ-je-30n"; */
+"6sQ-je-30n.title" = "Compteur de Sortie";
+
+/* Class = "NSMenuItem"; title = "Apply Adjustments from"; ObjectID = "6WK-Rn-IDM"; */
+"6WK-Rn-IDM.title" = "Appliquer Ajustements à partir de";
+
+/* Class = "NSMenuItem"; title = "Publish"; ObjectID = "7MX-Bb-VSm"; */
+"7MX-Bb-VSm.title" = "Publier";
+
+/* Class = "NSMenuItem"; title = "Previous Collection"; ObjectID = "7Ow-LL-dv0"; */
+"7Ow-LL-dv0.title" = "Collection Précédente";
+
+/* Class = "NSMenuItem"; title = "New Variant"; ObjectID = "7zw-gL-Wno"; */
+"7zw-gL-Wno.title" = "Nouvelle Variante";
+
+/* Class = "NSMenuItem"; title = "Step Out Collection"; ObjectID = "8du-uT-ICL"; */
+"8du-uT-ICL.title" = "Sortir de la Collection";
+
+/* Class = "NSMenuItem"; title = "New Collection"; ObjectID = "8I6-nm-Uiw"; */
+"8I6-nm-Uiw.title" = "Nouvelle Collection";
+
+/* Class = "NSMenuItem"; title = "Copy Adjustments"; ObjectID = "8R2-c5-XAq"; */
+"8R2-c5-XAq.title" = "Copier les Réglages";
+
+/* Class = "NSMenuItem"; title = "Collapse Selected"; ObjectID = "9Aa-c4-9VI"; */
+"9Aa-c4-9VI.title" = "Réduire Sélectionné";
+
+/* Class = "NSMenuItem"; title = "Export as Catalog…"; ObjectID = "9b8-5C-GLZ"; */
+"9b8-5C-GLZ.title" = "Exporter comme Catalogue…";
+
+/* Class = "NSMenuItem"; title = "Deselect All"; ObjectID = "9bM-jw-56t"; */
+"9bM-jw-56t.title" = "Tout Désélectionner";
+
+/* Class = "NSMenu"; title = "Crash Capture One"; ObjectID = "9g2-Zq-Mgh"; */
+"9g2-Zq-Mgh.title" = "Crash Capture One";
+
+/* Class = "NSMenuItem"; title = "Event Log"; ObjectID = "9Hl-bF-YXx"; */
+"9Hl-bF-YXx.title" = "Journal des Evénements";
+
+/* Class = "NSMenuItem"; title = "Decrement Counter"; ObjectID = "9iB-p5-gRZ"; */
+"9iB-p5-gRZ.title" = "Réduire Compteur";
+
+/* Class = "NSMenuItem"; title = "Image"; ObjectID = "9k8-L5-lSq"; */
+"9k8-L5-lSq.title" = "Image";
+
+/* Class = "NSMenuItem"; title = "Synchronize Folder…"; ObjectID = "9lE-sW-NkR"; */
+"9lE-sW-NkR.title" = "Synchroniser le Dossier…";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "9NL-eQ-T1Q"; */
+"9NL-eQ-T1Q.title" = "Aide";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "9pG-rx-dax"; */
+"9pG-rx-dax.title" = "Supprimer";
+
+/* Class = "NSMenuItem"; title = "Slide Show"; ObjectID = "9tG-Te-CEV"; */
+"9tG-Te-CEV.title" = "Diaporama";
+
+/* Class = "NSMenuItem"; title = "Contrast and Brightness"; ObjectID = "9wF-vo-1tW"; */
+"9wF-vo-1tW.title" = "Contraste et Luminosité";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Reset adjustments for variants"; ObjectID = "14z-pL-mA5"; */
+"14z-pL-mA5.ibShadowedToolTip" = "Réinitialiser les réglages pour les variantes";
+
+/* Class = "NSMenuItem"; title = "Delete Selected Layer"; ObjectID = "14z-pL-mA5"; */
+"14z-pL-mA5.title" = "Supprimer Calque Sélectionné";
+
+/* Class = "NSMenuItem"; title = "Spelling"; ObjectID = "24q-pt-xtA"; */
+"24q-pt-xtA.title" = "Orthographe";
+
+/* Class = "NSMenuItem"; title = "Demote Variant"; ObjectID = "25l-uy-u1U"; */
+"25l-uy-u1U.title" = "Déclasser Variante";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Set Counter…"; ObjectID = "36O-pG-qIh"; */
+"36O-pG-qIh.title" = "Définir Compteur…";
+
+/* Class = "NSMenuItem"; title = "Auto"; ObjectID = "38I-f2-Ssj"; */
+"38I-f2-Ssj.title" = "Auto";
+
+/* Class = "NSMenuItem"; title = "Edit With"; ObjectID = "40o-AJ-xoM"; */
+"40o-AJ-xoM.title" = "Editer avec";
+
+/* Class = "NSMenuItem"; title = "Lab Readout"; ObjectID = "44D-aG-E83"; */
+"44D-aG-E83.title" = "Valeurs Lab";
+
+/* Class = "NSMenuItem"; title = "Reset Counter"; ObjectID = "65L-HG-c0K"; */
+"65L-HG-c0K.title" = "Réinitialiser Compteur";
+
+/* Class = "NSMenu"; title = "Import Counter"; ObjectID = "75o-KI-t8D"; */
+"75o-KI-t8D.title" = "Compteur d’Importation";
+
+/* Class = "NSMenuItem"; title = "Same Variant Position"; ObjectID = "92E-j9-FEm"; */
+"92E-j9-FEm.title" = "Même Position de Variante";
+
+/* Class = "NSMenu"; title = "Select By"; ObjectID = "94T-HJ-feh"; */
+"94T-HJ-feh.title" = "Sélection Par";
+
+/* Class = "NSMenuItem"; title = "Always Hide PNG Files"; ObjectID = "224-6K-J3h"; */
+"224-6K-J3h.title" = "Toujours masquer les PNG";
+
+/* Class = "NSMenuItem"; title = "Refine Mask…"; ObjectID = "500-CP-quJ"; */
+"500-CP-quJ.title" = "Améliorer Masque…";
+
+/* Class = "NSButtonCell"; title = "Create New Window"; ObjectID = "3028"; */
+"3028.title" = "Créer une nouvelle fenetre";
+
+/* Class = "NSMenuItem"; title = "Activities"; ObjectID = "a5o-KL-LMv"; */
+"a5o-KL-LMv.title" = "Activités";
+
+/* Class = "NSMenuItem"; title = "Trigger Crash…"; ObjectID = "a6a-6k-MaI"; */
+"a6a-6k-MaI.title" = "Erreur de déclenchement…";
+
+/* Class = "NSMenuItem"; title = "Import Session…"; ObjectID = "ACe-cT-qRq"; */
+"ACe-cT-qRq.title" = "Importer Session…";
+
+/* Class = "NSMenuItem"; title = "Expand Selected"; ObjectID = "aeU-x2-HKG"; */
+"aeU-x2-HKG.title" = "Ouvrir Sélectionné";
+
+/* Class = "NSMenuItem"; title = "New Group…"; ObjectID = "aFc-UB-Ojr"; */
+"aFc-UB-Ojr.title" = "Nouveau Groupe…";
+
+/* Class = "NSMenuItem"; title = "New Album…"; ObjectID = "AHw-Yv-ZV0"; */
+"AHw-Yv-ZV0.title" = "Nouvel Album…";
+
+/* Class = "NSMenuItem"; title = "Set Increment…"; ObjectID = "AiG-bi-lBS"; */
+"AiG-bi-lBS.title" = "Définir Incrément…";
+
+/* Class = "NSMenuItem"; title = "Next"; ObjectID = "aoS-PQ-Fke"; */
+"aoS-PQ-Fke.title" = "Suivant";
+
+/* Class = "NSMenuItem"; title = "Set Counter…"; ObjectID = "APq-Ot-xfY"; */
+"APq-Ot-xfY.title" = "Définir Compteur…";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "apZ-Xi-bTS"; */
+"apZ-Xi-bTS.title" = "Effacer Menu";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "ARA-Qg-wH6"; */
+"ARA-Qg-wH6.title" = "Modifier";
+
+/* Class = "NSMenuItem"; title = "Originals…"; ObjectID = "Avm-Xr-hJI"; */
+"Avm-Xr-hJI.title" = "Originaux…";
+
+/* Class = "NSMenuItem"; title = "Trigger in pipeline"; ObjectID = "AVP-cL-jr5"; */
+"AVP-cL-jr5.title" = "Déclenchement en cours";
+
+/* Class = "NSMenuItem"; title = "Clone Variant"; ObjectID = "aWi-dq-WP7"; */
+"aWi-dq-WP7.title" = "Dupliquer Variante";
+
+/* Class = "NSMenu"; title = "Layer"; ObjectID = "B6A-Bd-wdt"; */
+"B6A-Bd-wdt.title" = "Calque";
+
+/* Class = "NSMenuItem"; title = "Color Readouts"; ObjectID = "BBe-mx-5MA"; */
+"BBe-mx-5MA.title" = "Mesures Couleur";
+
+/* Class = "NSMenuItem"; title = "Check Spelling"; ObjectID = "bC2-8p-Sbj"; */
+"bC2-8p-Sbj.title" = "Vérifier l'orthographe";
+
+/* Class = "NSMenuItem"; title = "Rating"; ObjectID = "bd0-6X-m18"; */
+"bd0-6X-m18.title" = "Note";
+
+/* Class = "NSMenuItem"; title = "Move to Selects Folder"; ObjectID = "bdc-xp-MXX"; */
+"bdc-xp-MXX.title" = "Déplacer dans le Dossier de Sélection";
+
+/* Class = "NSMenuItem"; title = "Process"; ObjectID = "bgR-Le-xMJ"; */
+"bgR-Le-xMJ.title" = "Traiter";
+
+/* Class = "NSMenu"; title = "Crash OpenCore"; ObjectID = "BKI-Ak-E3C"; */
+"BKI-Ak-E3C.title" = "Crash OpenCore";
+
+/* Class = "NSMenuItem"; title = "Select Tool Tab"; ObjectID = "BlO-8u-bjW"; */
+"BlO-8u-bjW.title" = "Sélectionner l'Onglet Outil";
+
+/* Class = "NSMenu"; title = "Output Counter"; ObjectID = "BMq-UG-ndQ"; */
+"BMq-UG-ndQ.title" = "Compteur de Sortie";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "BPz-o1-8u8"; */
+"BPz-o1-8u8.title" = "Ouvrir Récent";
+
+/* Class = "NSMenuItem"; title = "Create Album from"; ObjectID = "bQz-bN-0Pr"; */
+"bQz-bN-0Pr.title" = "Créer Album à partir de";
+
+/* Class = "NSMenuItem"; title = "High Dynamic Range"; ObjectID = "bUF-hO-mho"; */
+"bUF-hO-mho.title" = "High Dynamic Range";
+
+/* Class = "NSMenuItem"; title = "Report a Bug…"; ObjectID = "C8i-Ie-mV3"; */
+"C8i-Ie-mV3.title" = "Signaler un bug…";
+
+/* Class = "NSMenu"; title = "Dump IC_ProcessSettings/IC_FileDestination"; ObjectID = "caw-2R-l90"; */
+"caw-2R-l90.title" = "Dump IC_ProcessSettings/IC_FileDestination";
+
+/* Class = "NSMenuItem"; title = "Performance Tests"; ObjectID = "cb9-dY-odx"; */
+"cb9-dY-odx.title" = "Tests de performance";
+
+/* Class = "NSMenuItem"; title = "Layer Selection Points"; ObjectID = "Cbk-cE-Rnc"; */
+"Cbk-cE-Rnc.title" = "Points Sélection Calques";
+
+/* Class = "NSMenuItem"; title = "Off"; ObjectID = "Ce0-Be-8UJ"; */
+"Ce0-Be-8UJ.title" = "Off";
+
+/* Class = "NSMenuItem"; title = "Set as Output Folder"; ObjectID = "cIQ-0c-HMd"; */
+"cIQ-0c-HMd.title" = "Définir comme Dossier de Traitement";
+
+/* Class = "NSMenuItem"; title = "Always Display Mask"; ObjectID = "cJ0-5a-BtU"; */
+"cJ0-5a-BtU.title" = "Toujours Afficher Masque";
+
+/* Class = "NSMenuItem"; title = "Remove Tool From Selected Tab"; ObjectID = "cjc-7e-hFl"; */
+"cjc-7e-hFl.title" = "Supprimer l'Outil de l'Onglet sélectionné";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "ckf-EW-xkf"; */
+"ckf-EW-xkf.title" = "Afficher dans Finder";
+
+/* Class = "NSMenuItem"; title = "Immediately"; ObjectID = "cNu-MK-hYx"; */
+"cNu-MK-hYx.title" = "Immédiatement";
+
+/* Class = "NSMenuItem"; title = "License…"; ObjectID = "CTk-NV-A7b"; */
+"CTk-NV-A7b.title" = "Licence…";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "Cyj-ce-0Gd"; */
+"Cyj-ce-0Gd.title" = "Fichier";
+
+/* Class = "NSMenu"; title = "Performance Tests"; ObjectID = "d0L-pY-VgO"; */
+"d0L-pY-VgO.title" = "Tests de performance";
+
+/* Class = "NSMenuItem"; title = "Set Counter…"; ObjectID = "d50-fq-gSn"; */
+"d50-fq-gSn.title" = "Définir Compteur…";
+
+/* Class = "NSMenuItem"; title = "Auto Select New Capture"; ObjectID = "dAq-ug-Eha"; */
+"dAq-ug-Eha.title" = "Sélection Auto Nouvelle Capture";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "Dbr-g2-CoE"; */
+"Dbr-g2-CoE.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Regenerate Previews"; ObjectID = "dk9-he-9dx"; */
+"dk9-he-9dx.title" = "Régénérer les Aperçus";
+
+/* Class = "NSMenuItem"; title = "Check for Updates…"; ObjectID = "DSv-Kq-hdb"; */
+"DSv-Kq-hdb.title" = "Rechercher des mises à jour…";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "Dsw-hn-IZg"; */
+"Dsw-hn-IZg.title" = "Préférences…";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "dVb-ZR-YFh"; */
+"dVb-ZR-YFh.title" = "Fenêtre";
+
+/* Class = "NSMenuItem"; title = "Customize Browser"; ObjectID = "dVS-br-Kwq"; */
+"dVS-br-Kwq.title" = "Personnaliser Navigateur";
+
+/* Class = "NSMenuItem"; title = "Edit Keyboard Shortcuts…"; ObjectID = "E5j-Qh-yw9"; */
+"E5j-Qh-yw9.title" = "Modifier les raccourcis clavier…";
+
+/* Class = "NSMenuItem"; title = "Load Metadata"; ObjectID = "Eb6-Sk-NMb"; */
+"Eb6-Sk-NMb.title" = "Charger Métadonnées";
+
+/* Class = "NSMenu"; title = "Select By Same"; ObjectID = "Ej6-Xy-Scx"; */
+"Ej6-Xy-Scx.title" = "Sélectionner Similaires";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "emU-ls-KLQ"; */
+"emU-ls-KLQ.title" = "Menu";
+
+/* Class = "NSMenuItem"; title = "Browser Toolbar"; ObjectID = "eqn-m3-Cil"; */
+"eqn-m3-Cil.title" = "Barre d’Outils Navigateur";
+
+/* Class = "NSMenuItem"; title = "Increase Thumbnail Size"; ObjectID = "exd-CD-8be"; */
+"exd-CD-8be.title" = "Augmenter Taille Aperçu";
+
+/* Class = "NSMenuItem"; title = "Create LCC…"; ObjectID = "Ez2-nJ-UxV"; */
+"Ez2-nJ-UxV.title" = "Créer LCC…";
+
+/* Class = "NSMenuItem"; title = "Set Increment…"; ObjectID = "F65-Hg-uD7"; */
+"F65-Hg-uD7.title" = "Définir Incrément…";
+
+/* Class = "NSMenu"; title = "Proof Profile"; ObjectID = "fai-sG-oed"; */
+"fai-sG-oed.title" = "Profil d’Epreuve";
+
+/* Class = "NSMenuItem"; title = "Promote Variant"; ObjectID = "Fbl-im-0JF"; */
+"Fbl-im-0JF.title" = "Promouvoir Variante";
+
+/* Class = "NSMenuItem"; title = "Unrated"; ObjectID = "fEO-V4-a9n"; */
+"fEO-V4-a9n.title" = "Non noté";
+
+/* Class = "NSMenuItem"; title = "Next"; ObjectID = "Few-hi-dlj"; */
+"Few-hi-dlj.title" = "Suivant";
+
+/* Class = "NSMenuItem"; title = "Add New Filled Adjustment Layer"; ObjectID = "fgT-gu-xT9"; */
+"fgT-gu-xT9.title" = "Créer Calque Réglages Rempli";
+
+/* Class = "NSMenuItem"; title = "Reset Counter"; ObjectID = "FIM-SV-caT"; */
+"FIM-SV-caT.title" = "Réinitialiser Compteur";
+
+/* Class = "NSMenuItem"; title = "Overlay"; ObjectID = "Fk8-fZ-Nge"; */
+"Fk8-fZ-Nge.title" = "Superposition";
+
+/* Class = "NSMenuItem"; title = "Status mode"; ObjectID = "fQW-x2-JHm"; */
+"fQW-x2-JHm.title" = "Mode Etat";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Rotate variants left"; ObjectID = "fs8-sW-tR1"; */
+"fs8-sW-tR1.ibShadowedToolTip" = "Pivoter les variantes vers la gauche";
+
+/* Class = "NSMenuItem"; title = "Rotate Left"; ObjectID = "fs8-sW-tR1"; */
+"fs8-sW-tR1.title" = "Pivoter vers la Gauche";
+
+/* Class = "NSMenuItem"; title = "Always Hide RAW Files"; ObjectID = "fse-N2-CBu"; */
+"fse-N2-CBu.title" = "Toujours cacher les RAW";
+
+/* Class = "NSMenuItem"; title = "Set Increment…"; ObjectID = "Ft0-2F-qcY"; */
+"Ft0-2F-qcY.title" = "Définir Incrément…";
+
+/* Class = "NSMenuItem"; title = "Always Hide Video Files"; ObjectID = "FTn-px-TXb"; */
+"FTn-px-TXb.title" = "Toujours cacher les fichiers vidéo";
+
+/* Class = "NSMenuItem"; title = "Reset Counter"; ObjectID = "fwA-3y-i2C"; */
+"fwA-3y-i2C.title" = "Réinitialiser Compteur";
+
+/* Class = "NSMenuItem"; title = "Viewer"; ObjectID = "FyO-gf-P7P"; */
+"FyO-gf-P7P.title" = "Visionneuse";
+
+/* Class = "NSMenuItem"; title = "Exposure"; ObjectID = "ga9-IJ-ciS"; */
+"ga9-IJ-ciS.title" = "Exposition";
+
+/* Class = "NSMenuItem"; title = "Browsing Speed"; ObjectID = "gac-ce-4hS"; */
+"gac-ce-4hS.title" = "Vitesse de navigation";
+
+/* Class = "NSMenuItem"; title = "Always Hide Processed TIFF Files"; ObjectID = "gaw-q6-ZQt"; */
+"gaw-q6-ZQt.title" = "Toujours cacher les TIFF traités";
+
+/* Class = "NSMenuItem"; title = "XL"; ObjectID = "Gea-NJ-sMI"; */
+"Gea-NJ-sMI.title" = "XL";
+
+/* Class = "NSMenuItem"; title = "Set Increment…"; ObjectID = "hap-CP-2Kr"; */
+"hap-CP-2Kr.title" = "Définir Incrément…";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "HgY-Ir-gjR"; */
+"HgY-Ir-gjR.title" = "Masquer les autres";
+
+/* Class = "NSMenuItem"; title = "Apply Adjustments"; ObjectID = "hIg-Rd-5ek"; */
+"hIg-Rd-5ek.title" = "Appliquer les Réglages";
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "hKJ-lB-Wyx"; */
+"hKJ-lB-Wyx.title" = "Personnaliser Barre d’Outils…";
+
+/* Class = "NSMenuItem"; title = "Lock/Unlock Catalog"; ObjectID = "hm3-R0-nnH"; */
+"hm3-R0-nnH.title" = "Bloquer/Débloquer Catalogue";
+
+/* Class = "NSMenuItem"; title = "Sort"; ObjectID = "hNh-b3-9pp"; */
+"hNh-b3-9pp.title" = "Trier";
+
+/* Class = "NSMenuItem"; title = "Manage Locks…"; ObjectID = "hOL-XU-Zdy"; */
+"hOL-XU-Zdy.title" = "Gérer Verrous";
+
+/* Class = "NSMenuItem"; title = "Crash ModelCore"; ObjectID = "hRi-QW-I0r"; */
+"hRi-QW-I0r.title" = "Crash ModelCore";
+
+/* Class = "NSMenuItem"; title = "Proof Profile"; ObjectID = "hyx-xU-vkz"; */
+"hyx-xU-vkz.title" = "Profil d’Epreuve";
+
+/* Class = "NSMenuItem"; title = "ImageCore Sliders"; ObjectID = "I3p-9w-NiJ"; */
+"I3p-9w-NiJ.title" = "Curseur Centre Image";
+
+/* Class = "NSMenuItem"; title = "Viewer"; ObjectID = "I5C-mb-Ph9"; */
+"I5C-mb-Ph9.title" = "Visionneuse";
+
+/* Class = "NSMenu"; title = "Adjustments"; ObjectID = "i5p-Um-m9T"; */
+"i5p-Um-m9T.title" = "Réglages";
+
+/* Class = "NSMenu"; title = "Global Filters"; ObjectID = "I8M-pI-mei"; */
+"I8M-pI-mei.title" = "Filtres Généraux";
+
+/* Class = "NSMenuItem"; title = "Toggle Tools Position"; ObjectID = "i53-f7-yoL"; */
+"i53-f7-yoL.title" = "Changer Emplacement Outils";
+
+/* Class = "NSMenuItem"; title = "L"; ObjectID = "Ibb-8a-gRZ"; */
+"Ibb-8a-gRZ.title" = "L";
+
+/* Class = "NSMenuItem"; title = "Tools"; ObjectID = "IEm-f0-wfu"; */
+"IEm-f0-wfu.title" = "Outils";
+
+/* Class = "NSMenuItem"; title = "Labels"; ObjectID = "IID-Ve-jGb"; */
+"IID-Ve-jGb.title" = "Etiquettes";
+
+/* Class = "NSMenuItem"; title = "Zoom Window"; ObjectID = "ij0-Ig-v5x"; */
+"ij0-Ig-v5x.title" = "Réduire/Agrandir la Fenêtre";
+
+/* Class = "NSMenuItem"; title = "Same Color Tag"; ObjectID = "Ik1-xy-Hdk"; */
+"Ik1-xy-Hdk.title" = "Même Balise Couleur";
+
+/* Class = "NSMenuItem"; title = "Apply LCC"; ObjectID = "Ikz-mO-9ZA"; */
+"Ikz-mO-9ZA.title" = "Appliquer correction LCC";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "IPe-NI-yoh"; */
+"IPe-NI-yoh.title" = "Fichier";
+
+/* Class = "NSMenuItem"; title = "Auto Pause"; ObjectID = "IQ8-iC-ffv"; */
+"IQ8-iC-ffv.title" = "Pause automatique";
+
+/* Class = "NSMenuItem"; title = "Never Display Mask"; ObjectID = "IqL-nF-pTb"; */
+"IqL-nF-pTb.title" = "Ne Jamais Afficher Masque";
+
+/* Class = "NSMenuItem"; title = "Previous"; ObjectID = "itC-UE-2gw"; */
+"itC-UE-2gw.title" = "Précédent";
+
+/* Class = "NSMenuItem"; title = "Live View"; ObjectID = "iTf-JB-Jml"; */
+"iTf-JB-Jml.title" = "Visée Vidéo";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Backup the current catalog"; ObjectID = "ivw-bE-Tp8"; */
+"ivw-bE-Tp8.ibShadowedToolTip" = "Sauvegarder le Catalogue actuel";
+
+/* Class = "NSMenuItem"; title = "Backup Catalog…"; ObjectID = "ivw-bE-Tp8"; */
+"ivw-bE-Tp8.title" = "Sauvegarder le Catalogue…";
+
+/* Class = "NSMenuItem"; title = "Process History"; ObjectID = "iz4-l5-u4d"; */
+"iz4-l5-u4d.title" = "Historique de Traitement";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "Izf-b8-5gq"; */
+"Izf-b8-5gq.title" = "Services";
+
+/* Class = "NSMenu"; title = "Configure Auto Adjustments"; ObjectID = "J2g-T4-9jM"; */
+"J2g-T4-9jM.title" = "Configurer Réglages Auto";
+
+/* Class = "NSMenuItem"; title = "Capture Counter"; ObjectID = "J6f-2w-feE"; */
+"J6f-2w-feE.title" = "Compteur Capture";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "j9C-bw-Eqf"; */
+"j9C-bw-Eqf.title" = "Tout ramener au premier plan";
+
+/* Class = "NSMenuItem"; title = "First"; ObjectID = "jFB-IF-a18"; */
+"jFB-IF-a18.title" = "Premier";
+
+/* Class = "NSMenuItem"; title = "Labels"; ObjectID = "jFU-cx-apQ"; */
+"jFU-cx-apQ.title" = "Etiquettes";
+
+/* Class = "NSMenuItem"; title = "Fill Mask"; ObjectID = "jha-Dh-6bI"; */
+"jha-Dh-6bI.title" = "Remplir Masque";
+
+/* Class = "NSMenuItem"; title = "Export Web Contact Sheet…"; ObjectID = "jlv-C4-OK4"; */
+"jlv-C4-OK4.title" = "Exporter Planche Contact Web…";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "jmQ-Po-VKd"; */
+"jmQ-Po-VKd.title" = "Tout Sélectionner";
+
+/* Class = "NSMenuItem"; title = "Same Sequence ID"; ObjectID = "JO3-mT-am1"; */
+"JO3-mT-am1.title" = "Même ID de Séquence";
+
+/* Class = "NSMenu"; title = "Process History"; ObjectID = "JRI-NB-DJ3"; */
+"JRI-NB-DJ3.title" = "Historique de Traitement";
+
+/* Class = "NSMenu"; title = "Rating"; ObjectID = "JsD-gv-ZcN"; */
+"JsD-gv-ZcN.title" = "Note";
+
+/* Class = "NSMenuItem"; title = "Previous Set"; ObjectID = "jTl-o5-QoF"; */
+"jTl-o5-QoF.title" = "Groupe Précédent";
+
+/* Class = "NSMenu"; title = "Progess Bars"; ObjectID = "JzF-cB-jf5"; */
+"JzF-cB-jf5.title" = "Barres de progression";
+
+/* Class = "NSMenuItem"; title = "Crash OpenCore"; ObjectID = "K2L-UQ-r8u"; */
+"K2L-UQ-r8u.title" = "Crash OpenCore";
+
+/* Class = "NSMenuItem"; title = "Reset Counter"; ObjectID = "K4L-nU-bL0"; */
+"K4L-nU-bL0.title" = "Réinitialiser Compteur";
+
+/* Class = "NSMenuItem"; title = "Crash ImageCore"; ObjectID = "k11-QY-wHF"; */
+"k11-QY-wHF.title" = "Crash ImageCore";
+
+/* Class = "NSMenuItem"; title = "Set as Trash Folder"; ObjectID = "kEw-1G-rHn"; */
+"kEw-1G-rHn.title" = "Définir comme Dossier Corbeille";
+
+/* Class = "NSMenuItem"; title = "XS"; ObjectID = "kJo-XM-aj7"; */
+"kJo-XM-aj7.title" = "XS";
+
+/* Class = "NSMenuItem"; title = "Decrease Thumbnail Size"; ObjectID = "KkK-Dm-Fyt"; */
+"KkK-Dm-Fyt.title" = "Diminuer Taile Aperçu";
+
+/* Class = "NSMenuItem"; title = "Dump for Print Preview/Viewer"; ObjectID = "kLD-Ih-bSU"; */
+"kLD-Ih-bSU.title" = "Dump for Print Preview/Viewer";
+
+/* Class = "NSMenu"; title = "Color Tag"; ObjectID = "ks9-Py-p2q"; */
+"ks9-Py-p2q.title" = "Balise Couleur";
+
+/* Class = "NSMenuItem"; title = "Zoom Out"; ObjectID = "Kw9-6p-baP"; */
+"Kw9-6p-baP.title" = "Dé-zoomer";
+
+/* Class = "NSMenuItem"; title = "White Balance"; ObjectID = "Kx8-Sf-MtA"; */
+"Kx8-Sf-MtA.title" = "Balance des Blancs";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Backup the current document as a template"; ObjectID = "kzM-Qh-gJR"; */
+"kzM-Qh-gJR.ibShadowedToolTip" = "Sauvegarder le document actuel comme modèle";
+
+/* Class = "NSMenuItem"; title = "Save as Template…"; ObjectID = "kzM-Qh-gJR"; */
+"kzM-Qh-gJR.title" = "Enregistrer en tant que Modèle…";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "KZr-yz-eOe"; */
+"KZr-yz-eOe.title" = "Ouvrir Récent";
+
+/* Class = "NSMenu"; title = "Rotation"; ObjectID = "L2W-qr-fDh"; */
+"L2W-qr-fDh.title" = "Rotation";
+
+/* Class = "NSMenuItem"; title = "Color Tag"; ObjectID = "L6s-MY-kNd"; */
+"L6s-MY-kNd.title" = "Balise Couleur";
+
+/* Class = "NSMenuItem"; title = "Deselect Primary"; ObjectID = "l6v-uQ-6vA"; */
+"l6v-uQ-6vA.title" = "Déselectionner Variante Principale";
+
+/* Class = "NSMenuItem"; title = "Select By Same"; ObjectID = "LBc-ql-cwY"; */
+"LBc-ql-cwY.title" = "Sélectionner Similaires";
+
+/* Class = "NSMenuItem"; title = "New Smart Album…"; ObjectID = "LBI-uj-64k"; */
+"LBI-uj-64k.title" = "Nouvel Album Intelligent…";
+
+/* Class = "NSMenuItem"; title = "Customize Tools"; ObjectID = "LbY-8O-xu0"; */
+"LbY-8O-xu0.title" = "Personnaliser Outils";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "LcB-eX-4qN"; */
+"LcB-eX-4qN.title" = "Supprimer";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "LeW-a9-a1n"; */
+"LeW-a9-a1n.title" = "Affichage";
+
+/* Class = "NSMenuItem"; title = "Add New Auto Repair Layer"; ObjectID = "Lfe-hq-jWj"; */
+"Lfe-hq-jWj.title" = "Créer Calque Correction Auto";
+
+/* Class = "NSMenuItem"; title = "90° Right"; ObjectID = "LpJ-ak-5G4"; */
+"LpJ-ak-5G4.title" = "90° droite";
+
+/* Class = "NSMenuItem"; title = "Add New Heal Layer"; ObjectID = "lsR-Cd-YTB"; */
+"lsR-Cd-YTB.title" = "Créer Calque Correction";
+
+/* Class = "NSMenuItem"; title = "Import Catalog"; ObjectID = "lsz-dg-BvX"; */
+"lsz-dg-BvX.title" = "Importer le Catalogue";
+
+/* Class = "NSMenuItem"; title = "Copy and Apply Adjustments"; ObjectID = "LTF-ps-Dul"; */
+"LTF-ps-Dul.title" = "Copier et Appliquer les Réglages";
+
+/* Class = "NSMenuItem"; title = "Close Window"; ObjectID = "lto-Al-Lic"; */
+"lto-Al-Lic.title" = "Fermer la Fenêtre";
+
+/* Class = "NSMenu"; title = "Image"; ObjectID = "m53-KV-wAJ"; */
+"m53-KV-wAJ.title" = "Image";
+
+/* Class = "NSMenuItem"; title = "Rename Counter"; ObjectID = "mb2-5a-je9"; */
+"mb2-5a-je9.title" = "Compteur Renommage";
+
+/* Class = "NSMenuItem"; title = "Open With"; ObjectID = "Mb9-kH-qyp"; */
+"Mb9-kH-qyp.title" = "Ouvrir avec";
+
+/* Class = "NSMenu"; title = "Import Catalog"; ObjectID = "MFE-ll-7eO"; */
+"MFE-ll-7eO.title" = "Importer le Catalogue";
+
+/* Class = "NSMenuItem"; title = "Batch Rename Images…"; ObjectID = "mGQ-hW-7fj"; */
+"mGQ-hW-7fj.title" = "Renommer les Images en Lot…";
+
+/* Class = "NSMenuItem"; title = "Full Screen"; ObjectID = "mGw-IN-30M"; */
+"mGw-IN-30M.title" = "Plein écran";
+
+/* Class = "NSMenuItem"; title = "Progess Bars"; ObjectID = "MKh-xe-MEd"; */
+"MKh-xe-MEd.title" = "Barres de progression";
+
+/* Class = "NSMenuItem"; title = "Color Tag"; ObjectID = "mNh-zS-LXg"; */
+"mNh-zS-LXg.title" = "Balise Couleur";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Capture an image using the attached camera"; ObjectID = "MOG-uN-KrB"; */
+"MOG-uN-KrB.ibShadowedToolTip" = "Capturer une image à l'aide de l'appareil connecté";
+
+/* Class = "NSMenuItem"; title = "Capture"; ObjectID = "MOG-uN-KrB"; */
+"MOG-uN-KrB.title" = "Capturer";
+
+/* Class = "NSMenuItem"; title = "Hide Capture One"; ObjectID = "mTR-t7-bfn"; */
+"mTR-t7-bfn.title" = "Masquer Capture One";
+
+/* Class = "NSMenuItem"; title = "Capture One Catalog…"; ObjectID = "mU3-yj-odu"; */
+"mU3-yj-odu.title" = "Catalogue Capture One…";
+
+/* Class = "NSMenu"; title = "Rating"; ObjectID = "mWf-jA-GRT"; */
+"mWf-jA-GRT.title" = "Note";
+
+/* Class = "NSMenuItem"; title = "Expand All"; ObjectID = "My6-4Y-UBl"; */
+"My6-4Y-UBl.title" = "Tout Développer";
+
+/* Class = "NSMenu"; title = "New Collection"; ObjectID = "mz6-FE-px4"; */
+"mz6-FE-px4.title" = "Nouvelle Collection";
+
+/* Class = "NSMenuItem"; title = "Resource Hub…"; ObjectID = "n5l-Fl-Ng8"; */
+"n5l-Fl-Ng8.title" = "Resource Hub…";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "N5o-dv-1Be"; */
+"N5o-dv-1Be.title" = "Annuler";
+
+/* Class = "NSMenuItem"; title = "Collapse All"; ObjectID = "n5r-O7-blt"; */
+"n5r-O7-blt.title" = "Tout Réduire";
+
+/* Class = "NSMenuItem"; title = "Move to Trash"; ObjectID = "N9h-Al-5XE"; */
+"N9h-Al-5XE.title" = "Envoyer à la Corbeille";
+
+/* Class = "NSMenuItem"; title = "Pick Variant"; ObjectID = "naw-rG-vWD"; */
+"naw-rG-vWD.title" = "Sélectionner Variante";
+
+/* Class = "NSMenuItem"; title = "Customize Viewer"; ObjectID = "nbk-yq-Chp"; */
+"nbk-yq-Chp.title" = "Personnaliser Visionneuse";
+
+/* Class = "NSMenuItem"; title = "Color Tag"; ObjectID = "ndC-o5-Nrj"; */
+"ndC-o5-Nrj.title" = "Balise Couleur";
+
+/* Class = "NSMenuItem"; title = "Show in Library"; ObjectID = "nE7-nm-cUN"; */
+"nE7-nm-cUN.title" = "Afficher dans Bibliothèque";
+
+/* Class = "NSMenuItem"; title = "Verify Catalog or Session…"; ObjectID = "Nhu-fQ-zjN"; */
+"Nhu-fQ-zjN.title" = "Vérifier Catalogue ou Session….";
+
+/* Class = "NSMenuItem"; title = "When Ready"; ObjectID = "nry-zy-vLA"; */
+"nry-zy-vLA.title" = "Si prêt(e)";
+
+/* Class = "NSMenuItem"; title = "New Project…"; ObjectID = "nTn-id-iRz"; */
+"nTn-id-iRz.title" = "Nouveau Projet…";
+
+/* Class = "NSMenuItem"; title = "Film Curve Editor"; ObjectID = "NyM-Zt-y88"; */
+"NyM-Zt-y88.title" = "Editeur de courbe de film";
+
+/* Class = "NSMenuItem"; title = "Auto Hide Mode"; ObjectID = "O2C-D1-hn3"; */
+"O2C-D1-hn3.title" = "Mode Masqué Auto";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "O4t-ch-OFC"; */
+"O4t-ch-OFC.title" = "Copier";
+
+/* Class = "NSMenuItem"; title = "Tips"; ObjectID = "O9F-Mo-6cG"; */
+"O9F-Mo-6cG.title" = "Conseils";
+
+/* Class = "NSMenuItem"; title = "Import Images…"; ObjectID = "oaD-9h-WhZ"; */
+"oaD-9h-WhZ.title" = "Importer les Images…";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "OCP-rg-Tmg"; */
+"OCP-rg-Tmg.title" = "Menu";
+
+/* Class = "NSMenu"; title = "Remove Inspector Tool From Selected Tab"; ObjectID = "oHh-wm-VLQ"; */
+"oHh-wm-VLQ.title" = "Supprimer l'outil inspecteur de l'onglet sélécionné";
+
+/* Class = "NSMenuItem"; title = "Feather Mask…"; ObjectID = "oLn-zi-kJP"; */
+"oLn-zi-kJP.title" = "Contour Progressif Masque…";
+
+/* Class = "NSMenuItem"; title = "Add Tool Tab"; ObjectID = "oNa-cq-UaH"; */
+"oNa-cq-UaH.title" = "Ajouter Onglet Outil";
+
+/* Class = "NSMenuItem"; title = "Bar Sample 02"; ObjectID = "OqC-NS-Eok"; */
+"OqC-NS-Eok.title" = "Echantillon Bar 02";
+
+/* Class = "NSMenu"; title = "Orientation"; ObjectID = "OQY-AD-asc"; */
+"OQY-AD-asc.title" = "Orientation";
+
+/* Class = "NSMenuItem"; title = "Styles"; ObjectID = "oVF-Zi-Ly1"; */
+"oVF-Zi-Ly1.title" = "Styles";
+
+/* Class = "NSMenuItem"; title = "Trigger Assertion"; ObjectID = "OVh-i7-5mp"; */
+"OVh-i7-5mp.title" = "Déclenchement";
+
+/* Class = "NSMenuItem"; title = "Always Hide JPEG Files"; ObjectID = "pay-HP-uXe"; */
+"pay-HP-uXe.title" = "Toujours masquer les JPEG";
+
+/* Class = "NSMenuItem"; title = "Never reset workspace automatically"; ObjectID = "PCm-vK-OGx"; */
+"PCm-vK-OGx.title" = "Jamais réinitialiser un espace de travail automatiquement";
+
+/* Class = "NSMenuItem"; title = "Step In Collection"; ObjectID = "PMu-nW-YC5"; */
+"PMu-nW-YC5.title" = "Entrer dans Collection";
+
+/* Class = "NSMenuItem"; title = "Off"; ObjectID = "pos-6t-mez"; */
+"pos-6t-mez.title" = "Off";
+
+/* Class = "NSMenu"; title = "Workspace"; ObjectID = "pqK-xL-L7m"; */
+"pqK-xL-L7m.title" = "Espace de Travail";
+
+/* Class = "NSMenuItem"; title = "Crash CaptureCoreService"; ObjectID = "PQW-J0-1bK"; */
+"PQW-J0-1bK.title" = "Crash CaptureCoreService";
+
+/* Class = "NSMenu"; title = "Select"; ObjectID = "PRu-fp-fdO"; */
+"PRu-fp-fdO.title" = "Selectionner";
+
+/* Class = "NSMenuItem"; title = "Spinner Sample 02"; ObjectID = "pw5-ef-Yde"; */
+"pw5-ef-Yde.title" = "Echantillon Spinner 02";
+
+/* Class = "NSMenuItem"; title = "View License Agreement"; ObjectID = "PX7-Iq-9N2"; */
+"PX7-Iq-9N2.title" = "Voir Accord de Licence";
+
+/* Class = "NSMenuItem"; title = "Select By"; ObjectID = "Q9f-h8-bu5"; */
+"Q9f-h8-bu5.title" = "Sélection Par";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "qfi-c8-Lj9"; */
+"qfi-c8-Lj9.title" = "Jamais";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "QHc-R7-m41"; */
+"QHc-R7-m41.title" = "Imprimer…";
+
+/* Class = "NSMenuItem"; title = "Rotation"; ObjectID = "Qhq-5B-fYE"; */
+"Qhq-5B-fYE.title" = "Rotation";
+
+/* Class = "NSMenuItem"; title = "Crash Capture One"; ObjectID = "QjW-ua-tSX"; */
+"QjW-ua-tSX.title" = "Crash Capture One";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Qkh-Pd-T00"; */
+"Qkh-Pd-T00.title" = "Tout afficher";
+
+/* Class = "NSMenuItem"; title = "Invert Mask"; ObjectID = "qPD-iq-16K"; */
+"qPD-iq-16K.title" = "Inverser Masque";
+
+/* Class = "NSMenuItem"; title = "Set Increment…"; ObjectID = "QSu-Ii-lqh"; */
+"QSu-Ii-lqh.title" = "Définir Incrément…";
+
+/* Class = "NSMenuItem"; title = "Rating"; ObjectID = "Qu7-Iw-dyX"; */
+"Qu7-Iw-dyX.title" = "Note";
+
+/* Class = "NSMenuItem"; title = "Scripts"; ObjectID = "Qx0-Bi-x6R"; */
+"Qx0-Bi-x6R.title" = "Scripts";
+
+/* Class = "NSMenuItem"; title = "Unpack EIP"; ObjectID = "qzd-K0-SRD"; */
+"qzd-K0-SRD.title" = "Décompresser EIP";
+
+/* Class = "NSMenuItem"; title = "Filename List…"; ObjectID = "r0M-bo-Ctx"; */
+"r0M-bo-Ctx.title" = "Liste des Noms de Fichiers…";
+
+/* Class = "NSMenuItem"; title = "Create Floating Tool"; ObjectID = "R3f-rv-RWH"; */
+"R3f-rv-RWH.title" = "Créer un Outil Flottant";
+
+/* Class = "NSMenuItem"; title = "Pack as EIP"; ObjectID = "rg8-xW-C7E"; */
+"rg8-xW-C7E.title" = "Compresser en EIP";
+
+/* Class = "NSMenuItem"; title = "Configure Auto Adjustments"; ObjectID = "RIv-U7-9vT"; */
+"RIv-U7-9vT.title" = "Configurer Réglages Auto";
+
+/* Class = "NSMenuItem"; title = "Browser"; ObjectID = "rIx-ZF-zzR"; */
+"rIx-ZF-zzR.title" = "Navigateur";
+
+/* Class = "NSMenuItem"; title = "Add Tool To Selected Tab"; ObjectID = "rJ7-tj-Zjx"; */
+"rJ7-tj-Zjx.title" = "Ajouter l'Outil à l'Onglet séléctionné";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "rKQ-8S-jJJ"; */
+"rKQ-8S-jJJ.title" = "Rétablir";
+
+/* Class = "NSMenuItem"; title = "Edit mode"; ObjectID = "RkY-nO-oYQ"; */
+"RkY-nO-oYQ.title" = "Mode Edition";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "rlO-p5-pah"; */
+"rlO-p5-pah.title" = "Fenêtre";
+
+/* Class = "NSMenuItem"; title = "Clear Mask"; ObjectID = "RuA-0Y-GGt"; */
+"RuA-0Y-GGt.title" = "Réinitialiser Masque";
+
+/* Class = "NSMenuItem"; title = "Locate Image…"; ObjectID = "rwS-sM-J09"; */
+"rwS-sM-J09.title" = "Localiser Image…";
+
+/* Class = "NSMenuItem"; title = "About Capture One"; ObjectID = "S4K-SB-UBy"; */
+"S4K-SB-UBy.title" = "A Propos de Capture One";
+
+/* Class = "NSMenuItem"; title = "S"; ObjectID = "sAJ-PN-NNm"; */
+"sAJ-PN-NNm.title" = "S";
+
+/* Class = "NSMenuItem"; title = "To Fit"; ObjectID = "sam-MH-Lvx"; */
+"sam-MH-Lvx.title" = "Ajuster";
+
+/* Class = "NSMenuItem"; title = "Remove Tool Tab"; ObjectID = "SGm-xv-97r"; */
+"SGm-xv-97r.title" = "Supprimer l’Onglet Outil";
+
+/* Class = "NSMenuItem"; title = "Invert Selection"; ObjectID = "SiW-gP-wbL"; */
+"SiW-gP-wbL.title" = "Inverser Sélection";
+
+/* Class = "NSMenuItem"; title = "Rename Image"; ObjectID = "SJc-VY-oqD"; */
+"SJc-VY-oqD.title" = "Renommer l’Image";
+
+/* Class = "NSMenuItem"; title = "Grid Color"; ObjectID = "SlN-5G-v1Q"; */
+"SlN-5G-v1Q.title" = "Couleur Grille";
+
+/* Class = "NSMenuItem"; title = "Debug"; ObjectID = "smy-v7-f4P"; */
+"smy-v7-f4P.title" = "Déboguer";
+
+/* Class = "NSMenuItem"; title = "Capture One Support"; ObjectID = "sNP-5H-3KI"; */
+"sNP-5H-3KI.title" = "Assistance de Capture One";
+
+/* Class = "NSMenuItem"; title = "Luma Range…"; ObjectID = "Ss4-ms-B6z"; */
+"Ss4-ms-B6z.title" = "Plage Luma…";
+
+/* Class = "NSMenuItem"; title = "Check Spelling as You Type"; ObjectID = "stE-xv-Kcp"; */
+"stE-xv-Kcp.title" = "Vérifier l'orthographe lors de la frappe";
+
+/* Class = "NSMenu"; title = "Labels"; ObjectID = "sWb-mO-EDh"; */
+"sWb-mO-EDh.title" = "Etiquettes";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Empty the session trash. Images are deleted permanently"; ObjectID = "SXk-bE-jzi"; */
+"SXk-bE-jzi.ibShadowedToolTip" = "Vider la corbeille de session. Ces images seront supprimées définitivement";
+
+/* Class = "NSMenuItem"; title = "Empty Trash"; ObjectID = "SXk-bE-jzi"; */
+"SXk-bE-jzi.title" = "Vider la Corbeille";
+
+/* Class = "NSMenuItem"; title = "Add Horizontal Guide"; ObjectID = "sZU-Ld-R58"; */
+"sZU-Ld-R58.title" = "Ajouter Repère Horizontal";
+
+/* Class = "NSMenu"; title = "Lab Readout"; ObjectID = "t0Z-l1-Abr"; */
+"t0Z-l1-Abr.title" = "Valeurs Lab";
+
+/* Class = "NSMenu"; title = "Crash ImageCore"; ObjectID = "Tao-sN-xcm"; */
+"Tao-sN-xcm.title" = "Crash ImageCore";
+
+/* Class = "NSMenuItem"; title = "Advanced Search…"; ObjectID = "TB3-MG-NqE"; */
+"TB3-MG-NqE.title" = "Recherche Avancée…";
+
+/* Class = "NSMenuItem"; title = "Select Primary Only"; ObjectID = "Tek-Pl-oY3"; */
+"Tek-Pl-oY3.title" = "Sélectionner uniquement la principale";
+
+/* Class = "NSMenuItem"; title = "Focus Mask"; ObjectID = "TfA-cx-Mvh"; */
+"TfA-cx-Mvh.title" = "Masque de Mise au Point";
+
+/* Class = "NSMenu"; title = "Tool Tabs"; ObjectID = "tFf-SU-Is4"; */
+"tFf-SU-Is4.title" = "Onglets Outil";
+
+/* Class = "NSMenu"; title = "Debug"; ObjectID = "TFk-vt-N7X"; */
+"TFk-vt-N7X.title" = "Déboguer";
+
+/* Class = "NSMenuItem"; title = "Export Images"; ObjectID = "tPe-DZ-2kg"; */
+"tPe-DZ-2kg.title" = "Exporter les Images";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "tQv-C3-vCk"; */
+"tQv-C3-vCk.title" = "Ouvrir…";
+
+/* Class = "NSMenuItem"; title = "Workspace"; ObjectID = "tRq-qe-j3c"; */
+"tRq-qe-j3c.title" = "Espace de Travail";
+
+/* Class = "NSMenuItem"; title = "Last"; ObjectID = "Tsz-Zr-wOo"; */
+"Tsz-Zr-wOo.title" = "Dernier";
+
+/* Class = "NSMenu"; title = "Spelling"; ObjectID = "TWx-jo-Xie"; */
+"TWx-jo-Xie.title" = "Orthographe";
+
+/* Class = "NSMenuItem"; title = "Add New Clone Layer"; ObjectID = "Txa-r9-MeZ"; */
+"Txa-r9-MeZ.title" = "Créer Calque Duplication";
+
+/* Class = "NSMenuItem"; title = "Quit Capture One"; ObjectID = "TXq-Kk-7Ru"; */
+"TXq-Kk-7Ru.title" = "Quitter Capture One";
+
+/* Class = "NSMenu"; title = "Scripts"; ObjectID = "U3J-Q4-APW"; */
+"U3J-Q4-APW.title" = "Scripts";
+
+/* Class = "NSMenuItem"; title = "Selected Color Range"; ObjectID = "U5C-ej-t0I"; */
+"U5C-ej-t0I.title" = "Sélectionner Plage Couleur";
+
+/* Class = "NSMenu"; title = "Capture Counter"; ObjectID = "uIl-Sc-fHK"; */
+"uIl-Sc-fHK.title" = "Compteur Capture";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "UJa-BM-gkL"; */
+"UJa-BM-gkL.title" = "Modifier";
+
+/* Class = "NSMenuItem"; title = "Import Counter"; ObjectID = "um6-7R-op7"; */
+"um6-7R-op7.title" = "Compteur Importation";
+
+/* Class = "NSMenuItem"; title = "90° Left"; ObjectID = "Umj-4D-Ft5"; */
+"Umj-4D-Ft5.title" = "90° gauche";
+
+/* Class = "NSMenuItem"; title = "Rotation"; ObjectID = "Ums-2C-jGe"; */
+"Ums-2C-jGe.title" = "Rotation";
+
+/* Class = "NSMenuItem"; title = "Spelling…"; ObjectID = "uMu-4A-XMk"; */
+"uMu-4A-XMk.title" = "Orthographe…";
+
+/* Class = "NSMenuItem"; title = "Delete from Disk…"; ObjectID = "UOb-cc-i4u"; */
+"UOb-cc-i4u.title" = "Supprimer du Disque…";
+
+/* Class = "NSMenuItem"; title = "Auto Hide Mode"; ObjectID = "UPZ-4r-LIP"; */
+"UPZ-4r-LIP.title" = "Mode Masqué Auto";
+
+/* Class = "NSMenuItem"; title = "Set Counter…"; ObjectID = "VAN-jC-sVf"; */
+"VAN-jC-sVf.title" = "Définir Compteur…";
+
+/* Class = "NSMenuItem"; title = "Rating"; ObjectID = "Vd2-sw-pUm"; */
+"Vd2-sw-pUm.title" = "Note";
+
+/* Class = "NSMenuItem"; title = "Reset Counter"; ObjectID = "vek-MX-hli"; */
+"vek-MX-hli.title" = "Réinitialiser Compteur";
+
+/* Class = "NSMenuItem"; title = "Spinner Sample 01"; ObjectID = "VIk-sI-Rak"; */
+"VIk-sI-Rak.title" = "Echantillon Spinner 01";
+
+/* Class = "NSMenuItem"; title = "Previous"; ObjectID = "vKK-zV-QgI"; */
+"vKK-zV-QgI.title" = "Précédent";
+
+/* Class = "NSMenu"; title = "Customize Guides"; ObjectID = "vN0-4W-ouU"; */
+"vN0-4W-ouU.title" = "Personnaliser Repères";
+
+/* Class = "NSMenu"; title = "Camera"; ObjectID = "vNl-rw-7XV"; */
+"vNl-rw-7XV.title" = "Appareil";
+
+/* Class = "NSMenuItem"; title = "Next Collection"; ObjectID = "VNo-j5-BoM"; */
+"VNo-j5-BoM.title" = "Collection Suivante";
+
+/* Class = "NSMenu"; title = "Open With"; ObjectID = "vPJ-Xt-IuB"; */
+"vPJ-Xt-IuB.title" = "Ouvrir avec";
+
+/* Class = "NSMenu"; title = "Color Tag"; ObjectID = "VRZ-08-28a"; */
+"VRZ-08-28a.title" = "Balise Couleur";
+
+/* Class = "NSMenuItem"; title = "Guides Color"; ObjectID = "vXq-3w-y0D"; */
+"vXq-3w-y0D.title" = "Couleur Repères";
+
+/* Class = "NSMenuItem"; title = "Online User Guide"; ObjectID = "VYd-aa-ISY"; */
+"VYd-aa-ISY.title" = "Guide utilisateur en ligne";
+
+/* Class = "NSMenuItem"; title = "Proof Margin"; ObjectID = "w0t-zA-XqW"; */
+"w0t-zA-XqW.title" = "Marges";
+
+/* Class = "NSMenuItem"; title = "Clear Compare"; ObjectID = "W1O-Uk-8Al"; */
+"W1O-Uk-8Al.title" = "Réinitialiser Comparaison";
+
+/* Class = "NSMenu"; title = "Customize Browser"; ObjectID = "w1y-hX-jq1"; */
+"w1y-hX-jq1.title" = "Personnaliser Navigateur";
+
+/* Class = "NSMenuItem"; title = "Grid"; ObjectID = "W8g-vz-Nkq"; */
+"W8g-vz-Nkq.title" = "Grille";
+
+/* Class = "NSMenuItem"; title = "Add New Empty Adjustment Layer"; ObjectID = "w49-QV-zqJ"; */
+"w49-QV-zqJ.title" = "Créer Calque Réglages Vierge";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "A Catalog is the best place to store and organize your entire image library. To work with images in a catalog, they need to be imported by the catalog. Recommended for most photographers."; ObjectID = "wBf-ws-A5Q"; */
+"wBf-ws-A5Q.ibShadowedToolTip" = "Le Catalogue est le meilleur endroit pour stocker et organiser votre banque d'image. Pour travailler les images, les images doivent être importées par le Catalogue. Recommandé pour la plupart des photographes.";
+
+/* Class = "NSMenuItem"; title = "New Catalog…"; ObjectID = "wBf-ws-A5Q"; */
+"wBf-ws-A5Q.title" = "Nouveau Catalogue…";
+
+/* Class = "NSMenuItem"; title = "Hot Folder Enabled"; ObjectID = "wFu-j6-T7B"; */
+"wFu-j6-T7B.title" = "Dossier Actif Activé";
+
+/* Class = "NSMenuItem"; title = "Save Adjustments as Style…"; ObjectID = "WI5-uh-qyi"; */
+"WI5-uh-qyi.title" = "Enregistrer Réglages comme Style…";
+
+/* Class = "NSMenuItem"; title = "Bar Sample 01"; ObjectID = "wr6-Ak-7xy"; */
+"wr6-Ak-7xy.title" = "Echantillon Bar 01";
+
+/* Class = "NSMenu"; title = "Capture One"; ObjectID = "WtP-ch-1PG"; */
+"WtP-ch-1PG.title" = "Capture One";
+
+/* Class = "NSMenu"; title = "Trigger Assertion"; ObjectID = "wxi-Vv-EBx"; */
+"wxi-Vv-EBx.title" = "Déclenchement";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "A Session is a quick and light weight way to work with a limited number of images for a single job or event. Images can be edited by browsing to their location on disk or by importing them into the session."; ObjectID = "WZj-vq-3hp"; */
+"WZj-vq-3hp.ibShadowedToolTip" = "La Session est une manière simple et rapide de travailler avec un nombre limité d'images pour un travail ponctuel. Les images peuvent êtres éditées à leur emplacement sur le disque ou en les important dans la session.";
+
+/* Class = "NSMenuItem"; title = "New Session…"; ObjectID = "WZj-vq-3hp"; */
+"WZj-vq-3hp.title" = "Nouvelle Session…";
+
+/* Class = "NSMenu"; title = "Publish"; ObjectID = "wzo-cb-mif"; */
+"wzo-cb-mif.title" = "Publier";
+
+/* Class = "NSMenu"; title = "Sort"; ObjectID = "xC8-Jz-x6n"; */
+"xC8-Jz-x6n.title" = "Trier";
+
+/* Class = "NSMenuItem"; title = "Dump IC_ProcessSettings/IC_FileDestination"; ObjectID = "xdM-fB-QmX"; */
+"xdM-fB-QmX.title" = "Dump IC_ProcessSettings/IC_FileDestination";
+
+/* Class = "NSMenuItem"; title = "Keystone"; ObjectID = "XE8-eP-hGS"; */
+"XE8-eP-hGS.title" = "Correction Perspective";
+
+/* Class = "NSMenuItem"; title = "Set Counter…"; ObjectID = "XEz-MA-wNM"; */
+"XEz-MA-wNM.title" = "Définir Compteur…";
+
+/* Class = "NSMenuItem"; title = "Composition Mode"; ObjectID = "xGv-Lk-p4S"; */
+"xGv-Lk-p4S.title" = "Mode Composition";
+
+/* Class = "NSMenuItem"; title = "Locate Folder…"; ObjectID = "xiu-HR-Fv3"; */
+"xiu-HR-Fv3.title" = "Localiser Dossier…";
+
+/* Class = "NSMenuItem"; title = "Multi View Mode"; ObjectID = "xj1-AI-B7a"; */
+"xj1-AI-B7a.title" = "Mode Vue Multi";
+
+/* Class = "NSMenuItem"; title = "Add Vertical Guide"; ObjectID = "XJN-4m-xYh"; */
+"XJN-4m-xYh.title" = "Ajouter Repère Vertical";
+
+/* Class = "NSMenuItem"; title = "Adjustments"; ObjectID = "xLy-q0-0Cq"; */
+"xLy-q0-0Cq.title" = "Réglages";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "xoa-r4-m7R"; */
+"xoa-r4-m7R.title" = "Coller";
+
+/* Class = "NSMenuItem"; title = "Customize Guides"; ObjectID = "Xq1-cS-s6N"; */
+"Xq1-cS-s6N.title" = "Repères Personnalisés";
+
+/* Class = "NSMenuItem"; title = "Dump for Processing/Print/Web Contact Sheet/Export"; ObjectID = "Xu6-Jy-27Q"; */
+"Xu6-Jy-27Q.title" = "Dump for Processing/Print/Web Contact Sheet/Export";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Rotate variants right"; ObjectID = "Xve-bi-pm5"; */
+"Xve-bi-pm5.ibShadowedToolTip" = "Pivoter les variantes vers la droite";
+
+/* Class = "NSMenuItem"; title = "Rotate Right"; ObjectID = "Xve-bi-pm5"; */
+"Xve-bi-pm5.title" = "Pivoter vers la Droite";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "y8j-67-b0w"; */
+"y8j-67-b0w.title" = "Masquer";
+
+/* Class = "NSMenuItem"; title = "Display Grayscale Mask"; ObjectID = "Ya0-fP-PFT"; */
+"Ya0-fP-PFT.title" = "Afficher Masque en Niveaux de Gris";
+
+/* Class = "NSMenuItem"; title = "Exposure Warning"; ObjectID = "Yhl-QQ-SNi"; */
+"Yhl-QQ-SNi.title" = "Avertissement d’Exposition";
+
+/* Class = "NSMenu"; title = "Auto Select New Capture"; ObjectID = "yJf-h4-0Nf"; */
+"yJf-h4-0Nf.title" = "Sélection Auto Nouvelle Capture";
+
+/* Class = "NSMenuItem"; title = "Set as Capture Folder"; ObjectID = "YjW-6L-mGx"; */
+"YjW-6L-mGx.title" = "Définir comme Dossier de Capture";
+
+/* Class = "NSMenuItem"; title = "Global Filters"; ObjectID = "yLh-tq-tGA"; */
+"yLh-tq-tGA.title" = "Filtres Généraux";
+
+/* Class = "NSMenuItem"; title = "Toggle Browser Position"; ObjectID = "YvP-eg-VLO"; */
+"YvP-eg-VLO.title" = "Changer Emplacement Navigateur";
+
+/* Class = "NSMenuItem"; title = "Export Counter"; ObjectID = "Yzh-ba-11T"; */
+"Yzh-ba-11T.title" = "Compteur Export";
+
+/* Class = "NSMenuItem"; title = "Copy Mask From"; ObjectID = "Z5p-mB-i3n"; */
+"Z5p-mB-i3n.title" = "Copier Masque de";
+
+/* Class = "NSMenuItem"; title = "Camera"; ObjectID = "Z12-Ur-vG5"; */
+"Z12-Ur-vG5.title" = "Appareil";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Reset adjustments for variants"; ObjectID = "zd3-KN-4Md"; */
+"zd3-KN-4Md.ibShadowedToolTip" = "Réinitialiser les réglages pour les variantes";
+
+/* Class = "NSMenuItem"; title = "Reset"; ObjectID = "zd3-KN-4Md"; */
+"zd3-KN-4Md.title" = "Réinitialiser";
+
+/* Class = "NSMenuItem"; title = "Only Display Mask When Drawing"; ObjectID = "zdr-UD-UZn"; */
+"zdr-UD-UZn.title" = "Afficher Masque Uniquement lors du Dessin";
+
+/* Class = "NSMenuItem"; title = "Zoom In"; ObjectID = "zIN-U6-GWH"; */
+"zIN-U6-GWH.title" = "Zoomer";
+
+/* Class = "NSMenu"; title = "Export Images"; ObjectID = "ZK1-Br-nPC"; */
+"ZK1-Br-nPC.title" = "Exporter les Images";
+
+/* Class = "NSMenuItem"; title = "Rasterize Mask"; ObjectID = "ZkQ-kr-rOT"; */
+"ZkQ-kr-rOT.title" = "Pixelliser Masque";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Rotate the primary variant to snap to landscape or portrait. Hold down the Shift key to rotate all selected variants"; ObjectID = "zoC-BT-olu"; */
+"zoC-BT-olu.ibShadowedToolTip" = "Pivoter la variante primaire en paysage ou portrait. Maintenez majuscule enfoncé pour tourner toutes les variantes sélectionnées.";
+
+/* Class = "NSMenuItem"; title = "Rotate Snap"; ObjectID = "zoC-BT-olu"; */
+"zoC-BT-olu.title" = "Pivoter à 90°";
+
+/* Class = "NSMenu"; title = "Apply Adjustments from"; ObjectID = "zoo-YX-3kR"; */
+"zoo-YX-3kR.title" = "Appliquer Réglages à partir de";
+
+/* Class = "NSMenuItem"; title = "Recipe Proofing"; ObjectID = "ZSx-8D-9oe"; */
+"ZSx-8D-9oe.title" = "Couleurs d’Epreuve";
+
+/* Class = "NSMenuItem"; title = "Set as Compare"; ObjectID = "ZtV-H5-odX"; */
+"ZtV-H5-odX.title" = "Définir comme Comparaison";
+

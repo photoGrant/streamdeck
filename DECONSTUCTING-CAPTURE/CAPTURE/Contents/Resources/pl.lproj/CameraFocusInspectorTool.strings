@@ -1,0 +1,78 @@
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum height dimension for scaling the final image."; ObjectID = "5jl-ym-Pew"; */
+"5jl-ym-Pew.ibShadowedToolTip" = "Maksymalna wysokość do skalowania obrazu końcowego.";
+
+/* Class = "NSTabViewItem"; label = "Magnification"; ObjectID = "5mM-aF-NZf"; */
+"5mM-aF-NZf.label" = "Powiększenie";
+
+/* Class = "NSButtonCell"; title = "AF"; ObjectID = "8a4-ra-ryD"; */
+"8a4-ra-ryD.title" = "AF";
+
+/* Class = "NSTextFieldCell"; title = "Resolution"; ObjectID = "8gB-9c-rck"; */
+"8gB-9c-rck.title" = "Rozdzielczość";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum width dimension for scaling the final image."; ObjectID = "941-UD-yO9"; */
+"941-UD-yO9.ibShadowedToolTip" = "Maksymalna szerokość do skalowania obrazu końcowego.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Scale the original image the given amount to obtain the final image."; ObjectID = "aon-fi-Fse"; */
+"aon-fi-Fse.ibShadowedToolTip" = "Wyskaluj oryginalny obraz o wielkość pozwalającą uzyskać obraz oryginalny.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum height dimension for scaling the final image."; ObjectID = "cjH-bT-56C"; */
+"cjH-bT-56C.ibShadowedToolTip" = "Maksymalna wysokość do skalowania obrazu końcowego.";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "cQW-7w-5ZW"; */
+"cQW-7w-5ZW.title" = "x";
+
+/* Class = "NSTextFieldCell"; title = "Near"; ObjectID = "d6i-Mj-beK"; */
+"d6i-Mj-beK.title" = "Blisko";
+
+/* Class = "NSTabViewItem"; label = "Distance"; ObjectID = "Dlg-hW-8rc"; */
+"Dlg-hW-8rc.label" = "Odległość";
+
+/* Class = "NSTabViewItem"; label = "Field of View"; ObjectID = "kVH-7e-JeU"; */
+"kVH-7e-JeU.label" = "Pole widzenia";
+
+/* Class = "NSTextFieldCell"; title = "Current"; ObjectID = "Luo-Rg-sJR"; */
+"Luo-Rg-sJR.title" = "Aktualny";
+
+/* Class = "NSMenuItem"; title = "Field of View"; ObjectID = "o74-F8-nGn"; */
+"o74-F8-nGn.title" = "Pole widzenia";
+
+/* Class = "NSMenuItem"; title = "Resolution [PPI]"; ObjectID = "p7U-3T-iRc"; */
+"p7U-3T-iRc.title" = "Rozdzielczość [PPI]";
+
+/* Class = "NSTextFieldCell"; title = "Distance"; ObjectID = "Rse-mY-54W"; */
+"Rse-mY-54W.title" = "Odległość";
+
+/* Class = "NSButtonCell"; alternateTitle = "Stop"; ObjectID = "SAA-iC-fyC"; */
+"SAA-iC-fyC.alternateTitle" = "Zatrzymaj";
+
+/* Class = "NSButtonCell"; title = "Start"; ObjectID = "SAA-iC-fyC"; */
+"SAA-iC-fyC.title" = "Uruchom";
+
+/* Class = "NSMenuItem"; title = "Magnification"; ObjectID = "Sjt-vZ-Tda"; */
+"Sjt-vZ-Tda.title" = "Powiększenie";
+
+/* Class = "NSTabViewItem"; label = "Resolution"; ObjectID = "tjp-SD-bJh"; */
+"tjp-SD-bJh.label" = "Rozdzielczość";
+
+/* Class = "NSTextFieldCell"; title = "Far"; ObjectID = "vDf-Yj-l2z"; */
+"vDf-Yj-l2z.title" = "Daleko";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "The method used for adjusting clarity."; ObjectID = "vFT-Tb-S1V"; */
+"vFT-Tb-S1V.ibShadowedToolTip" = "Metoda dopasowania przejrzystości.";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Scale the original image the given amount to obtain the final image."; ObjectID = "vhu-uP-VNl"; */
+"vhu-uP-VNl.ibShadowedToolTip" = "Wyskaluj oryginalny obraz o wielkość pozwalającą uzyskać obraz oryginalny.";
+
+/* Class = "NSTextFieldCell"; title = "Target"; ObjectID = "x1j-3c-mQV"; */
+"x1j-3c-mQV.title" = "Cel";
+
+/* Class = "NSTextFieldCell"; title = "Field of View"; ObjectID = "xXJ-BO-AAU"; */
+"xXJ-BO-AAU.title" = "Pole widzenia";
+
+/* Class = "NSMenuItem"; title = "Distance"; ObjectID = "YWt-SJ-6q2"; */
+"YWt-SJ-6q2.title" = "Odległość";
+
+/* Class = "NSTextFieldCell"; title = "Magnification"; ObjectID = "ZBV-is-bLr"; */
+"ZBV-is-bLr.title" = "Powiększenie";
+

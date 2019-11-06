@@ -1,0 +1,24 @@
+/* Class = "NSWindow"; title = "New Custom Tool Tab"; ObjectID = "1"; */
+"1.title" = "Nueva pestaña de herramienta modificable";
+
+/* Class = "NSButtonCell"; title = "Add Tab"; ObjectID = "8"; */
+"8.title" = "Añadir pestaña";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "10"; */
+"10.title" = "Cancelar";
+
+/* Class = "NSTextFieldCell"; title = "Specify Tab Name:"; ObjectID = "19"; */
+"19.title" = "Especificar nombre de ficha:";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "27"; */
+"27.title" = "Elemento 1";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "28"; */
+"28.title" = "Elemento 2";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "29"; */
+"29.title" = "Elemento 3";
+
+/* Class = "NSTextFieldCell"; title = "Icon:"; ObjectID = "33"; */
+"33.title" = "Icono:";
+

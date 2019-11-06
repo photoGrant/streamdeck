@@ -1,0 +1,78 @@
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "settingsApplyButton"; ObjectID = "257"; */
+"257.ibExternalAccessibilityDescription" = "settingsApplyButton";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "settingsCopyButton"; ObjectID = "258"; */
+"258.ibExternalAccessibilityDescription" = "settingsCopyButton";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Copy adjustments from the primary variant."; ObjectID = "258"; */
+"258.ibShadowedToolTip" = "Copiar ajustes da variante primária.";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "266"; */
+"266.title" = "Menu";
+
+/* Class = "NSTableColumn"; headerCell.title = "From"; ObjectID = "281"; */
+"281.headerCell.title" = "De";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "295"; */
+"295.title" = "Selecionar tudo";
+
+/* Class = "NSMenuItem"; title = "Select None"; ObjectID = "296"; */
+"296.title" = "Não selecionar nenhum";
+
+/* Class = "NSMenuItem"; title = "Expand All"; ObjectID = "307"; */
+"307.title" = "Expandir tudo";
+
+/* Class = "NSMenuItem"; title = "Collapse All"; ObjectID = "308"; */
+"308.title" = "Juntar tudo";
+
+/* Class = "NSMenuItem"; title = "Select Adjusted"; ObjectID = "312"; */
+"312.title" = "Selecionar ajustado";
+
+/* Class = "NSMenuItem"; title = "Save As Style..."; ObjectID = "422"; */
+"422.title" = "Salvar como estilo...";
+
+/* Class = "NSMenuItem"; title = "Copy to Clipboard"; ObjectID = "423"; */
+"423.title" = "Copiar para a área de transferência";
+
+/* Class = "NSButtonCell"; alternateTitle = "Apply"; ObjectID = "433"; */
+"433.alternateTitle" = "Aplicar";
+
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "433"; */
+"433.title" = "Aplicar";
+
+/* Class = "NSButtonCell"; alternateTitle = "Copy"; ObjectID = "434"; */
+"434.alternateTitle" = "Copiar";
+
+/* Class = "NSButtonCell"; title = "Copy"; ObjectID = "434"; */
+"434.title" = "Copiar";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "settingsCopyButton"; ObjectID = "505"; */
+"505.ibExternalAccessibilityDescription" = "settingsCopyButton";
+
+/* Class = "NSButtonCell"; alternateTitle = "Copy"; ObjectID = "506"; */
+"506.alternateTitle" = "Copiar";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "506"; */
+"506.title" = "Cancelar";
+
+/* Class = "NSTextFieldCell"; title = "To suppress this dialog: Hold down Option to Copy or Shift to Copy and Apply"; ObjectID = "512"; */
+"512.title" = "Para suprimir este diálogo: Pressione Alt para copiar ou Shift para copiar e aplicar";
+
+/* Class = "NSMenu"; title = "Autoselect"; ObjectID = "Du5-aC-KSA"; */
+"Du5-aC-KSA.title" = "Auto seleção";
+
+/* Class = "NSMenuItem"; title = "Adjusted"; ObjectID = "K4h-Qy-S6H"; */
+"K4h-Qy-S6H.title" = "Ajustado";
+
+/* Class = "NSMenuItem"; title = "Autoselect"; ObjectID = "LRv-nV-Ddf"; */
+"LRv-nV-Ddf.title" = "Auto seleção";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "pJG-QV-Jps"; */
+"pJG-QV-Jps.title" = "Nenhum";
+
+/* Class = "NSMenuItem"; title = "Include Style Name"; ObjectID = "RAD-xL-Cpi"; */
+"RAD-xL-Cpi.title" = "Incluir nome do estilo";
+
+/* Class = "NSMenuItem"; title = "Adjusted except Composition"; ObjectID = "WMi-rV-YtQ"; */
+"WMi-rV-YtQ.title" = "Ajustado exceto Composição";
+

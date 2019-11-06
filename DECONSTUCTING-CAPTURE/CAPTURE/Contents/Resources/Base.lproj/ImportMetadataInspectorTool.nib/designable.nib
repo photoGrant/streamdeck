@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ImportMetadataInspectorTool">
+            <connections>
+                <outlet property="actionMenu" destination="49" id="52"/>
+                <outlet property="caption" destination="16" id="62"/>
+                <outlet property="container" destination="5" id="61"/>
+                <outlet property="copyright" destination="15" id="38"/>
+                <outlet property="documentController" destination="18" id="19"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="58"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" id="16">
+                    <rect key="frame" x="100" y="8" width="172" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" alignment="left" title="My Description" drawsBackground="YES" id="60" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.070000000300000004" alpha="1" colorSpace="calibratedWhite"/>
+                    </textFieldCell>
+                    <accessibility description="importerMetadataCreatorTextField"/>
+                    <connections>
+                        <binding destination="22" name="value" keyPath="values.ImporterMetadataCaptionKey" id="47"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="15">
+                    <rect key="frame" x="100" y="32" width="172" height="18"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="border" alignment="left" title="My Copyright" drawsBackground="YES" id="59" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </textFieldCell>
+                    <accessibility description="importerMetadataCopyrightTextField"/>
+                    <connections>
+                        <binding destination="22" name="value" keyPath="values.ImporterMetadataCopyrightKey" id="30"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="10">
+                    <rect key="frame" x="2" y="32" width="84" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Copyright" id="58" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <accessibility description="importerMetadataCopyrightTitle"/>
+                </textField>
+                <textField verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="7">
+                    <rect key="frame" x="2" y="8" width="84" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="Description" id="57" customClass="COUITextFieldCell">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <accessibility description="importerMetadataCreatorTitle"/>
+                </textField>
+            </subviews>
+        </customView>
+        <objectController objectClassName="SessionDocument" id="18" userLabel="Document">
+            <declaredKeys>
+                <string>ImporterMetadataKeywords</string>
+                <string>ImporterMetadataKeywordsKey</string>
+            </declaredKeys>
+        </objectController>
+        <userDefaultsController id="22" userLabel="User Defaults Controller">
+            <declaredKeys>
+                <string>ImporterMetadataCopyright</string>
+                <string>ImporterMetadataCredit</string>
+                <string>ImporterMetadataCreditKey</string>
+                <string>ImporterMetadataCopyrightKey</string>
+                <string>ImporterMetadataKeywordsKey</string>
+                <string>ImporterMetadataCreatorKey</string>
+                <string>ImporterMetadataCaptionKey</string>
+            </declaredKeys>
+        </userDefaultsController>
+        <menu title="Menu" id="49" userLabel="Action Menu">
+            <items>
+                <menuItem title="Reset Tool" tag="1" id="50">
+                    <connections>
+                        <action selector="resetTool:" target="-2" id="53"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>

@@ -1,0 +1,1173 @@
+/* Class = "NSMenuItem"; title = "Variants…"; ObjectID = "0H0-Jc-t3x"; */
+"0H0-Jc-t3x.title" = "변형들...";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "0ih-RM-Js7"; */
+"0ih-RM-Js7.title" = "보기";
+
+/* Class = "NSMenu"; title = "Rename Counter"; ObjectID = "0Ps-7b-sBQ"; */
+"0Ps-7b-sBQ.title" = "이름변경 카운터";
+
+/* Class = "NSMenuItem"; title = "M"; ObjectID = "0Q0-M5-LmI"; */
+"0Q0-M5-LmI.title" = "M";
+
+/* Class = "NSMenuItem"; title = "Layer"; ObjectID = "0UZ-1K-nR1"; */
+"0UZ-1K-nR1.title" = "레이어";
+
+/* Class = "NSMenuItem"; title = "Annotations"; ObjectID = "01C-Il-VMP"; */
+"01C-Il-VMP.title" = "주석";
+
+/* Class = "NSMenuItem"; title = "Toolbar"; ObjectID = "1gq-zE-mEg"; */
+"1gq-zE-mEg.title" = "툴바";
+
+/* Class = "NSMenuItem"; title = "Upgrade Engine"; ObjectID = "1LQ-Jh-EPo"; */
+"1LQ-Jh-EPo.title" = "엔진 업그레이드";
+
+/* Class = "NSMenuItem"; title = "Select"; ObjectID = "1Lv-YA-qve"; */
+"1Lv-YA-qve.title" = "선택";
+
+/* Class = "NSMenuItem"; title = "Shop…"; ObjectID = "1Nd-JK-zNO"; */
+"1Nd-JK-zNO.title" = "Shop…";
+
+/* Class = "NSMenuItem"; title = "Sync Metadata"; ObjectID = "1rs-DA-1do"; */
+"1rs-DA-1do.title" = "메타데이터 싱크";
+
+/* Class = "NSMenuItem"; title = "Levels"; ObjectID = "2BO-O0-qsH"; */
+"2BO-O0-qsH.title" = "레벨";
+
+/* Class = "NSMenuItem"; title = "Select Hot Folder…"; ObjectID = "2Gr-gy-fxz"; */
+"2Gr-gy-fxz.title" = "핫 폴더 선택...";
+
+/* Class = "NSMenuItem"; title = "Add to Favorites"; ObjectID = "2KV-Ld-vZd"; */
+"2KV-Ld-vZd.title" = "즐겨찾기에 추가";
+
+/* Class = "NSMenuItem"; title = "Toggle Layer On/Off"; ObjectID = "2pa-ft-UHr"; */
+"2pa-ft-UHr.title" = "레이어 켬/끔 전환";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "2XR-PQ-i11"; */
+"2XR-PQ-i11.title" = "도움말";
+
+/* Class = "NSMenuItem"; title = "Viewer Toolbar"; ObjectID = "3ep-eN-uVW"; */
+"3ep-eN-uVW.title" = "뷰어 툴바";
+
+/* Class = "NSMenu"; title = "Create Album from"; ObjectID = "3gr-b2-izd"; */
+"3gr-b2-izd.title" = "앨범 생성";
+
+/* Class = "NSMenuItem"; title = "Selection"; ObjectID = "3lw-Wa-6il"; */
+"3lw-Wa-6il.title" = "선택사항";
+
+/* Class = "NSMenuItem"; title = "Orientation"; ObjectID = "3rd-Dg-1hZ"; */
+"3rd-Dg-1hZ.title" = "오리엔테이션";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "3T1-Cx-ywj"; */
+"3T1-Cx-ywj.title" = "잘라내기";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Restore a backup of this Catalog"; ObjectID = "3To-a4-pSf"; */
+"3To-a4-pSf.ibShadowedToolTip" = "이 카탈록의 백업 복원";
+
+/* Class = "NSMenuItem"; title = "Restore Catalog…"; ObjectID = "3To-a4-pSf"; */
+"3To-a4-pSf.title" = "카탈록 복구…";
+
+/* Class = "NSMenuItem"; title = "Verify database on open"; ObjectID = "3Ui-ok-lzu"; */
+"3Ui-ok-lzu.title" = "오픈 데이터베이스 확인";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "3Z4-fg-SOV"; */
+"3Z4-fg-SOV.title" = "메뉴";
+
+/* Class = "NSMenuItem"; title = "Same Rating"; ObjectID = "4F7-S3-7wH"; */
+"4F7-S3-7wH.title" = "같은 등급";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "4MD-pK-52t"; */
+"4MD-pK-52t.title" = "메뉴";
+
+/* Class = "NSMenu"; title = "Export Counter"; ObjectID = "4tc-Vp-Tn2"; */
+"4tc-Vp-Tn2.title" = "내보내기 카운터";
+
+/* Class = "NSMenuItem"; title = "Set as Selects Folder"; ObjectID = "5eA-Cd-e2H"; */
+"5eA-Cd-e2H.title" = "선택 폴더로 설정";
+
+/* Class = "NSMenuItem"; title = "Guides"; ObjectID = "5Kn-v3-3J9"; */
+"5Kn-v3-3J9.title" = "가이드";
+
+/* Class = "NSMenuItem"; title = "Reset Guides"; ObjectID = "5Qh-XJ-7lV"; */
+"5Qh-XJ-7lV.title" = "가이드 리셋";
+
+/* Class = "NSMenuItem"; title = "Mask Visibility"; ObjectID = "5qY-K4-hhW"; */
+"5qY-K4-hhW.title" = "마스크 가시성";
+
+/* Class = "NSMenuItem"; title = "Capture One"; ObjectID = "5Td-ii-gu5"; */
+"5Td-ii-gu5.title" = "Capture One";
+
+/* Class = "NSMenuItem"; title = "Sequence ID"; ObjectID = "5xI-ot-kZZ"; */
+"5xI-ot-kZZ.title" = "시퀀스 ID";
+
+/* Class = "NSMenuItem"; title = "Auto Adjust"; ObjectID = "6dD-vu-ayz"; */
+"6dD-vu-ayz.title" = "자동조정";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Capture an image using the attached camera"; ObjectID = "6fd-wm-DqL"; */
+"6fd-wm-DqL.ibShadowedToolTip" = "연결한 카메라를 사용하여 이미지 촬영";
+
+/* Class = "NSMenuItem"; title = "Network Camera Manager…"; ObjectID = "6fd-wm-DqL"; */
+"6fd-wm-DqL.title" = "네트워크 카메라 관리기..";
+
+/* Class = "NSMenu"; title = "Add Inspector Tool To Selected Tab"; ObjectID = "6Jb-3H-48Z"; */
+"6Jb-3H-48Z.title" = "선택 탭에 대한 검사 도구 추가";
+
+/* Class = "NSMenuItem"; title = "Next Set"; ObjectID = "6nI-5Q-bF1"; */
+"6nI-5Q-bF1.title" = "다음 설정";
+
+/* Class = "NSMenuItem"; title = "Edit All Selected Variants"; ObjectID = "6Pw-sw-mKP"; */
+"6Pw-sw-mKP.title" = "선택한 모든 변형파일 편집";
+
+/* Class = "NSMenuItem"; title = "Set or Change PIN…"; ObjectID = "6RB-Ks-Q9Y"; */
+"6RB-Ks-Q9Y.title" = "PIN 설정 또는 변경 ...";
+
+/* Class = "NSMenuItem"; title = "Output Counter"; ObjectID = "6sQ-je-30n"; */
+"6sQ-je-30n.title" = "출력 카운터";
+
+/* Class = "NSMenuItem"; title = "Apply Adjustments from"; ObjectID = "6WK-Rn-IDM"; */
+"6WK-Rn-IDM.title" = "조정값 적용";
+
+/* Class = "NSMenuItem"; title = "Publish"; ObjectID = "7MX-Bb-VSm"; */
+"7MX-Bb-VSm.title" = "게시";
+
+/* Class = "NSMenuItem"; title = "Previous Collection"; ObjectID = "7Ow-LL-dv0"; */
+"7Ow-LL-dv0.title" = "이전 컬렉션";
+
+/* Class = "NSMenuItem"; title = "New Variant"; ObjectID = "7zw-gL-Wno"; */
+"7zw-gL-Wno.title" = "새 변형";
+
+/* Class = "NSMenuItem"; title = "Step Out Collection"; ObjectID = "8du-uT-ICL"; */
+"8du-uT-ICL.title" = "스텝 아웃 컬렉션";
+
+/* Class = "NSMenuItem"; title = "New Collection"; ObjectID = "8I6-nm-Uiw"; */
+"8I6-nm-Uiw.title" = "새로운 컬렉션";
+
+/* Class = "NSMenuItem"; title = "Copy Adjustments"; ObjectID = "8R2-c5-XAq"; */
+"8R2-c5-XAq.title" = "조정 복사";
+
+/* Class = "NSMenuItem"; title = "Collapse Selected"; ObjectID = "9Aa-c4-9VI"; */
+"9Aa-c4-9VI.title" = "선택 축소";
+
+/* Class = "NSMenuItem"; title = "Export as Catalog…"; ObjectID = "9b8-5C-GLZ"; */
+"9b8-5C-GLZ.title" = "카탈로그로 내보내기...";
+
+/* Class = "NSMenuItem"; title = "Deselect All"; ObjectID = "9bM-jw-56t"; */
+"9bM-jw-56t.title" = "모두 선택 취소";
+
+/* Class = "NSMenu"; title = "Crash Capture One"; ObjectID = "9g2-Zq-Mgh"; */
+"9g2-Zq-Mgh.title" = "Crash Capture One";
+
+/* Class = "NSMenuItem"; title = "Event Log"; ObjectID = "9Hl-bF-YXx"; */
+"9Hl-bF-YXx.title" = "이벤트 로그";
+
+/* Class = "NSMenuItem"; title = "Decrement Counter"; ObjectID = "9iB-p5-gRZ"; */
+"9iB-p5-gRZ.title" = "카운터 감소";
+
+/* Class = "NSMenuItem"; title = "Image"; ObjectID = "9k8-L5-lSq"; */
+"9k8-L5-lSq.title" = "이미지";
+
+/* Class = "NSMenuItem"; title = "Synchronize Folder…"; ObjectID = "9lE-sW-NkR"; */
+"9lE-sW-NkR.title" = "폴더 싱크…";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "9NL-eQ-T1Q"; */
+"9NL-eQ-T1Q.title" = "도움말";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "9pG-rx-dax"; */
+"9pG-rx-dax.title" = "삭제";
+
+/* Class = "NSMenuItem"; title = "Slide Show"; ObjectID = "9tG-Te-CEV"; */
+"9tG-Te-CEV.title" = "슬라이드쇼";
+
+/* Class = "NSMenuItem"; title = "Contrast and Brightness"; ObjectID = "9wF-vo-1tW"; */
+"9wF-vo-1tW.title" = "콘트라스트와 밝기";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Reset adjustments for variants"; ObjectID = "14z-pL-mA5"; */
+"14z-pL-mA5.ibShadowedToolTip" = "변형을 위한 조정값 리셋";
+
+/* Class = "NSMenuItem"; title = "Delete Selected Layer"; ObjectID = "14z-pL-mA5"; */
+"14z-pL-mA5.title" = "선택 레이어 삭제";
+
+/* Class = "NSMenuItem"; title = "Spelling"; ObjectID = "24q-pt-xtA"; */
+"24q-pt-xtA.title" = "맞춤법";
+
+/* Class = "NSMenuItem"; title = "Demote Variant"; ObjectID = "25l-uy-u1U"; */
+"25l-uy-u1U.title" = "변형 수준 내리기";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Set Counter…"; ObjectID = "36O-pG-qIh"; */
+"36O-pG-qIh.title" = "카운터 설정…";
+
+/* Class = "NSMenuItem"; title = "Auto"; ObjectID = "38I-f2-Ssj"; */
+"38I-f2-Ssj.title" = "자동";
+
+/* Class = "NSMenuItem"; title = "Edit With"; ObjectID = "40o-AJ-xoM"; */
+"40o-AJ-xoM.title" = "편집";
+
+/* Class = "NSMenuItem"; title = "Lab Readout"; ObjectID = "44D-aG-E83"; */
+"44D-aG-E83.title" = "Lab 판독";
+
+/* Class = "NSMenuItem"; title = "Reset Counter"; ObjectID = "65L-HG-c0K"; */
+"65L-HG-c0K.title" = "카운터 리셋";
+
+/* Class = "NSMenu"; title = "Import Counter"; ObjectID = "75o-KI-t8D"; */
+"75o-KI-t8D.title" = "카운터 가져오기";
+
+/* Class = "NSMenuItem"; title = "Same Variant Position"; ObjectID = "92E-j9-FEm"; */
+"92E-j9-FEm.title" = "동일한 변형 위치";
+
+/* Class = "NSMenu"; title = "Select By"; ObjectID = "94T-HJ-feh"; */
+"94T-HJ-feh.title" = "선택";
+
+/* Class = "NSMenuItem"; title = "Always Hide PNG Files"; ObjectID = "224-6K-J3h"; */
+"224-6K-J3h.title" = "PNG 파일을 항상 숨김";
+
+/* Class = "NSMenuItem"; title = "Refine Mask…"; ObjectID = "500-CP-quJ"; */
+"500-CP-quJ.title" = "리파인 마스크...";
+
+/* Class = "NSButtonCell"; title = "Create New Window"; ObjectID = "3028"; */
+"3028.title" = "새로운 창 생성";
+
+/* Class = "NSMenuItem"; title = "Activities"; ObjectID = "a5o-KL-LMv"; */
+"a5o-KL-LMv.title" = "활성화";
+
+/* Class = "NSMenuItem"; title = "Trigger Crash…"; ObjectID = "a6a-6k-MaI"; */
+"a6a-6k-MaI.title" = "트리거 충돌…";
+
+/* Class = "NSMenuItem"; title = "Import Session…"; ObjectID = "ACe-cT-qRq"; */
+"ACe-cT-qRq.title" = "세션 가져오기…";
+
+/* Class = "NSMenuItem"; title = "Expand Selected"; ObjectID = "aeU-x2-HKG"; */
+"aeU-x2-HKG.title" = "선택항목 확장";
+
+/* Class = "NSMenuItem"; title = "New Group…"; ObjectID = "aFc-UB-Ojr"; */
+"aFc-UB-Ojr.title" = "새 그룹...";
+
+/* Class = "NSMenuItem"; title = "New Album…"; ObjectID = "AHw-Yv-ZV0"; */
+"AHw-Yv-ZV0.title" = "새 앨범...";
+
+/* Class = "NSMenuItem"; title = "Set Increment…"; ObjectID = "AiG-bi-lBS"; */
+"AiG-bi-lBS.title" = "설정 증가...";
+
+/* Class = "NSMenuItem"; title = "Next"; ObjectID = "aoS-PQ-Fke"; */
+"aoS-PQ-Fke.title" = "다음";
+
+/* Class = "NSMenuItem"; title = "Set Counter…"; ObjectID = "APq-Ot-xfY"; */
+"APq-Ot-xfY.title" = "카운터 설정…";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "apZ-Xi-bTS"; */
+"apZ-Xi-bTS.title" = "메뉴 지우기";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "ARA-Qg-wH6"; */
+"ARA-Qg-wH6.title" = "편집";
+
+/* Class = "NSMenuItem"; title = "Originals…"; ObjectID = "Avm-Xr-hJI"; */
+"Avm-Xr-hJI.title" = "오리지널...";
+
+/* Class = "NSMenuItem"; title = "Trigger in pipeline"; ObjectID = "AVP-cL-jr5"; */
+"AVP-cL-jr5.title" = "진행중인 트리거";
+
+/* Class = "NSMenuItem"; title = "Clone Variant"; ObjectID = "aWi-dq-WP7"; */
+"aWi-dq-WP7.title" = "변형 복제";
+
+/* Class = "NSMenu"; title = "Layer"; ObjectID = "B6A-Bd-wdt"; */
+"B6A-Bd-wdt.title" = "레이어";
+
+/* Class = "NSMenuItem"; title = "Color Readouts"; ObjectID = "BBe-mx-5MA"; */
+"BBe-mx-5MA.title" = "컬러 판독";
+
+/* Class = "NSMenuItem"; title = "Check Spelling"; ObjectID = "bC2-8p-Sbj"; */
+"bC2-8p-Sbj.title" = "맞춤법 검사";
+
+/* Class = "NSMenuItem"; title = "Rating"; ObjectID = "bd0-6X-m18"; */
+"bd0-6X-m18.title" = "등급";
+
+/* Class = "NSMenuItem"; title = "Move to Selects Folder"; ObjectID = "bdc-xp-MXX"; */
+"bdc-xp-MXX.title" = "선택 폴더로 이동";
+
+/* Class = "NSMenuItem"; title = "Process"; ObjectID = "bgR-Le-xMJ"; */
+"bgR-Le-xMJ.title" = "처리";
+
+/* Class = "NSMenu"; title = "Crash OpenCore"; ObjectID = "BKI-Ak-E3C"; */
+"BKI-Ak-E3C.title" = "크래시 오픈코어";
+
+/* Class = "NSMenuItem"; title = "Select Tool Tab"; ObjectID = "BlO-8u-bjW"; */
+"BlO-8u-bjW.title" = "툴 탭 선택";
+
+/* Class = "NSMenu"; title = "Output Counter"; ObjectID = "BMq-UG-ndQ"; */
+"BMq-UG-ndQ.title" = "출력 카운터";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "BPz-o1-8u8"; */
+"BPz-o1-8u8.title" = "최근 자료 열기";
+
+/* Class = "NSMenuItem"; title = "Create Album from"; ObjectID = "bQz-bN-0Pr"; */
+"bQz-bN-0Pr.title" = "앨범 생성";
+
+/* Class = "NSMenuItem"; title = "High Dynamic Range"; ObjectID = "bUF-hO-mho"; */
+"bUF-hO-mho.title" = "하이 다이나믹레인지";
+
+/* Class = "NSMenuItem"; title = "Report a Bug…"; ObjectID = "C8i-Ie-mV3"; */
+"C8i-Ie-mV3.title" = "결함을 보고..";
+
+/* Class = "NSMenu"; title = "Dump IC_ProcessSettings/IC_FileDestination"; ObjectID = "caw-2R-l90"; */
+"caw-2R-l90.title" = "덤프 IC_프로세싱 설정/IC_대상파일";
+
+/* Class = "NSMenuItem"; title = "Performance Tests"; ObjectID = "cb9-dY-odx"; */
+"cb9-dY-odx.title" = "성능 테스트";
+
+/* Class = "NSMenuItem"; title = "Layer Selection Points"; ObjectID = "Cbk-cE-Rnc"; */
+"Cbk-cE-Rnc.title" = "레이어 선택 포인트";
+
+/* Class = "NSMenuItem"; title = "Off"; ObjectID = "Ce0-Be-8UJ"; */
+"Ce0-Be-8UJ.title" = "해제";
+
+/* Class = "NSMenuItem"; title = "Set as Output Folder"; ObjectID = "cIQ-0c-HMd"; */
+"cIQ-0c-HMd.title" = "출력 폴더로 설정";
+
+/* Class = "NSMenuItem"; title = "Always Display Mask"; ObjectID = "cJ0-5a-BtU"; */
+"cJ0-5a-BtU.title" = "항상 마스크 표시";
+
+/* Class = "NSMenuItem"; title = "Remove Tool From Selected Tab"; ObjectID = "cjc-7e-hFl"; */
+"cjc-7e-hFl.title" = "선택 탭에서 툴 제거";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "ckf-EW-xkf"; */
+"ckf-EW-xkf.title" = "찾기에 표시";
+
+/* Class = "NSMenuItem"; title = "Immediately"; ObjectID = "cNu-MK-hYx"; */
+"cNu-MK-hYx.title" = "즉시";
+
+/* Class = "NSMenuItem"; title = "License…"; ObjectID = "CTk-NV-A7b"; */
+"CTk-NV-A7b.title" = "라이센스...";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "Cyj-ce-0Gd"; */
+"Cyj-ce-0Gd.title" = "파일";
+
+/* Class = "NSMenu"; title = "Performance Tests"; ObjectID = "d0L-pY-VgO"; */
+"d0L-pY-VgO.title" = "성능 테스트";
+
+/* Class = "NSMenuItem"; title = "Set Counter…"; ObjectID = "d50-fq-gSn"; */
+"d50-fq-gSn.title" = "카운터 설정…";
+
+/* Class = "NSMenuItem"; title = "Auto Select New Capture"; ObjectID = "dAq-ug-Eha"; */
+"dAq-ug-Eha.title" = "새 촬영 자동 선택";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "Dbr-g2-CoE"; */
+"Dbr-g2-CoE.title" = "서비스";
+
+/* Class = "NSMenuItem"; title = "Regenerate Previews"; ObjectID = "dk9-he-9dx"; */
+"dk9-he-9dx.title" = "프리뷰 재생성";
+
+/* Class = "NSMenuItem"; title = "Check for Updates…"; ObjectID = "DSv-Kq-hdb"; */
+"DSv-Kq-hdb.title" = "업데이트 확인";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "Dsw-hn-IZg"; */
+"Dsw-hn-IZg.title" = "환경설정...";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "dVb-ZR-YFh"; */
+"dVb-ZR-YFh.title" = "창";
+
+/* Class = "NSMenuItem"; title = "Customize Browser"; ObjectID = "dVS-br-Kwq"; */
+"dVS-br-Kwq.title" = "브라우저 사용자 지정";
+
+/* Class = "NSMenuItem"; title = "Edit Keyboard Shortcuts…"; ObjectID = "E5j-Qh-yw9"; */
+"E5j-Qh-yw9.title" = "키보드 단축키 편집";
+
+/* Class = "NSMenuItem"; title = "Load Metadata"; ObjectID = "Eb6-Sk-NMb"; */
+"Eb6-Sk-NMb.title" = "메타데이터 로드";
+
+/* Class = "NSMenu"; title = "Select By Same"; ObjectID = "Ej6-Xy-Scx"; */
+"Ej6-Xy-Scx.title" = "동일한 변형의 이미지 선택";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "emU-ls-KLQ"; */
+"emU-ls-KLQ.title" = "메뉴";
+
+/* Class = "NSMenuItem"; title = "Browser Toolbar"; ObjectID = "eqn-m3-Cil"; */
+"eqn-m3-Cil.title" = "브라우저 툴바";
+
+/* Class = "NSMenuItem"; title = "Increase Thumbnail Size"; ObjectID = "exd-CD-8be"; */
+"exd-CD-8be.title" = "썸네일 크기 증가";
+
+/* Class = "NSMenuItem"; title = "Create LCC…"; ObjectID = "Ez2-nJ-UxV"; */
+"Ez2-nJ-UxV.title" = "LCC 생성...";
+
+/* Class = "NSMenuItem"; title = "Set Increment…"; ObjectID = "F65-Hg-uD7"; */
+"F65-Hg-uD7.title" = "설정 증가...";
+
+/* Class = "NSMenu"; title = "Proof Profile"; ObjectID = "fai-sG-oed"; */
+"fai-sG-oed.title" = "프로파일 검증";
+
+/* Class = "NSMenuItem"; title = "Promote Variant"; ObjectID = "Fbl-im-0JF"; */
+"Fbl-im-0JF.title" = "변형 수준 올리기";
+
+/* Class = "NSMenuItem"; title = "Unrated"; ObjectID = "fEO-V4-a9n"; */
+"fEO-V4-a9n.title" = "등급 없음";
+
+/* Class = "NSMenuItem"; title = "Next"; ObjectID = "Few-hi-dlj"; */
+"Few-hi-dlj.title" = "다음";
+
+/* Class = "NSMenuItem"; title = "Add New Filled Adjustment Layer"; ObjectID = "fgT-gu-xT9"; */
+"fgT-gu-xT9.title" = "새로운 채워진 조정 레이어 추가";
+
+/* Class = "NSMenuItem"; title = "Reset Counter"; ObjectID = "FIM-SV-caT"; */
+"FIM-SV-caT.title" = "카운터 리셋";
+
+/* Class = "NSMenuItem"; title = "Overlay"; ObjectID = "Fk8-fZ-Nge"; */
+"Fk8-fZ-Nge.title" = "오버레이";
+
+/* Class = "NSMenuItem"; title = "Status mode"; ObjectID = "fQW-x2-JHm"; */
+"fQW-x2-JHm.title" = "상태 모드";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Rotate variants left"; ObjectID = "fs8-sW-tR1"; */
+"fs8-sW-tR1.ibShadowedToolTip" = "변형 왼쪽 회전";
+
+/* Class = "NSMenuItem"; title = "Rotate Left"; ObjectID = "fs8-sW-tR1"; */
+"fs8-sW-tR1.title" = "왼쪽 회전";
+
+/* Class = "NSMenuItem"; title = "Always Hide RAW Files"; ObjectID = "fse-N2-CBu"; */
+"fse-N2-CBu.title" = "항상 RAW 파일 숨김";
+
+/* Class = "NSMenuItem"; title = "Set Increment…"; ObjectID = "Ft0-2F-qcY"; */
+"Ft0-2F-qcY.title" = "설정 증가...";
+
+/* Class = "NSMenuItem"; title = "Always Hide Video Files"; ObjectID = "FTn-px-TXb"; */
+"FTn-px-TXb.title" = "항상 비디오 파일 숨김";
+
+/* Class = "NSMenuItem"; title = "Reset Counter"; ObjectID = "fwA-3y-i2C"; */
+"fwA-3y-i2C.title" = "카운터 리셋";
+
+/* Class = "NSMenuItem"; title = "Viewer"; ObjectID = "FyO-gf-P7P"; */
+"FyO-gf-P7P.title" = "뷰어";
+
+/* Class = "NSMenuItem"; title = "Exposure"; ObjectID = "ga9-IJ-ciS"; */
+"ga9-IJ-ciS.title" = "노출";
+
+/* Class = "NSMenuItem"; title = "Browsing Speed"; ObjectID = "gac-ce-4hS"; */
+"gac-ce-4hS.title" = "탐색 속도";
+
+/* Class = "NSMenuItem"; title = "Always Hide Processed TIFF Files"; ObjectID = "gaw-q6-ZQt"; */
+"gaw-q6-ZQt.title" = "항상 처리된 TIFF 파일 숨김";
+
+/* Class = "NSMenuItem"; title = "XL"; ObjectID = "Gea-NJ-sMI"; */
+"Gea-NJ-sMI.title" = "XL";
+
+/* Class = "NSMenuItem"; title = "Set Increment…"; ObjectID = "hap-CP-2Kr"; */
+"hap-CP-2Kr.title" = "설정 증가...";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "HgY-Ir-gjR"; */
+"HgY-Ir-gjR.title" = "다른 항목 숨기기";
+
+/* Class = "NSMenuItem"; title = "Apply Adjustments"; ObjectID = "hIg-Rd-5ek"; */
+"hIg-Rd-5ek.title" = "조정 적용";
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "hKJ-lB-Wyx"; */
+"hKJ-lB-Wyx.title" = "툴바 사용자 지정...";
+
+/* Class = "NSMenuItem"; title = "Lock/Unlock Catalog"; ObjectID = "hm3-R0-nnH"; */
+"hm3-R0-nnH.title" = "카탈록 잠금/해제";
+
+/* Class = "NSMenuItem"; title = "Sort"; ObjectID = "hNh-b3-9pp"; */
+"hNh-b3-9pp.title" = "정렬";
+
+/* Class = "NSMenuItem"; title = "Manage Locks…"; ObjectID = "hOL-XU-Zdy"; */
+"hOL-XU-Zdy.title" = "잠금 관리...";
+
+/* Class = "NSMenuItem"; title = "Crash ModelCore"; ObjectID = "hRi-QW-I0r"; */
+"hRi-QW-I0r.title" = "크래시 모델코어";
+
+/* Class = "NSMenuItem"; title = "Proof Profile"; ObjectID = "hyx-xU-vkz"; */
+"hyx-xU-vkz.title" = "프로파일 검증";
+
+/* Class = "NSMenuItem"; title = "ImageCore Sliders"; ObjectID = "I3p-9w-NiJ"; */
+"I3p-9w-NiJ.title" = "이미지코어 슬라이더";
+
+/* Class = "NSMenuItem"; title = "Viewer"; ObjectID = "I5C-mb-Ph9"; */
+"I5C-mb-Ph9.title" = "뷰어";
+
+/* Class = "NSMenu"; title = "Adjustments"; ObjectID = "i5p-Um-m9T"; */
+"i5p-Um-m9T.title" = "조정";
+
+/* Class = "NSMenu"; title = "Global Filters"; ObjectID = "I8M-pI-mei"; */
+"I8M-pI-mei.title" = "전체 필터";
+
+/* Class = "NSMenuItem"; title = "Toggle Tools Position"; ObjectID = "i53-f7-yoL"; */
+"i53-f7-yoL.title" = "툴 위치 전환";
+
+/* Class = "NSMenuItem"; title = "L"; ObjectID = "Ibb-8a-gRZ"; */
+"Ibb-8a-gRZ.title" = "L";
+
+/* Class = "NSMenuItem"; title = "Tools"; ObjectID = "IEm-f0-wfu"; */
+"IEm-f0-wfu.title" = "툴";
+
+/* Class = "NSMenuItem"; title = "Labels"; ObjectID = "IID-Ve-jGb"; */
+"IID-Ve-jGb.title" = "라벨";
+
+/* Class = "NSMenuItem"; title = "Zoom Window"; ObjectID = "ij0-Ig-v5x"; */
+"ij0-Ig-v5x.title" = "창 확대/축소";
+
+/* Class = "NSMenuItem"; title = "Same Color Tag"; ObjectID = "Ik1-xy-Hdk"; */
+"Ik1-xy-Hdk.title" = "같은 컬러 태그";
+
+/* Class = "NSMenuItem"; title = "Apply LCC"; ObjectID = "Ikz-mO-9ZA"; */
+"Ikz-mO-9ZA.title" = "LCC 적용";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "IPe-NI-yoh"; */
+"IPe-NI-yoh.title" = "파일";
+
+/* Class = "NSMenuItem"; title = "Auto Pause"; ObjectID = "IQ8-iC-ffv"; */
+"IQ8-iC-ffv.title" = "자동 일시정지";
+
+/* Class = "NSMenuItem"; title = "Never Display Mask"; ObjectID = "IqL-nF-pTb"; */
+"IqL-nF-pTb.title" = "마스크 표시 안함";
+
+/* Class = "NSMenuItem"; title = "Previous"; ObjectID = "itC-UE-2gw"; */
+"itC-UE-2gw.title" = "이전";
+
+/* Class = "NSMenuItem"; title = "Live View"; ObjectID = "iTf-JB-Jml"; */
+"iTf-JB-Jml.title" = "라이브 뷰";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Backup the current catalog"; ObjectID = "ivw-bE-Tp8"; */
+"ivw-bE-Tp8.ibShadowedToolTip" = "현재 카탈록 백업";
+
+/* Class = "NSMenuItem"; title = "Backup Catalog…"; ObjectID = "ivw-bE-Tp8"; */
+"ivw-bE-Tp8.title" = "카탈록 백업...";
+
+/* Class = "NSMenuItem"; title = "Process History"; ObjectID = "iz4-l5-u4d"; */
+"iz4-l5-u4d.title" = "처리 기록";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "Izf-b8-5gq"; */
+"Izf-b8-5gq.title" = "서비스";
+
+/* Class = "NSMenu"; title = "Configure Auto Adjustments"; ObjectID = "J2g-T4-9jM"; */
+"J2g-T4-9jM.title" = "자동 조정 구성";
+
+/* Class = "NSMenuItem"; title = "Capture Counter"; ObjectID = "J6f-2w-feE"; */
+"J6f-2w-feE.title" = "촬영 카운터";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "j9C-bw-Eqf"; */
+"j9C-bw-Eqf.title" = "모두 맨 앞으로 가져오기";
+
+/* Class = "NSMenuItem"; title = "First"; ObjectID = "jFB-IF-a18"; */
+"jFB-IF-a18.title" = "첫번 째";
+
+/* Class = "NSMenuItem"; title = "Labels"; ObjectID = "jFU-cx-apQ"; */
+"jFU-cx-apQ.title" = "라벨";
+
+/* Class = "NSMenuItem"; title = "Fill Mask"; ObjectID = "jha-Dh-6bI"; */
+"jha-Dh-6bI.title" = "마스크 채우기";
+
+/* Class = "NSMenuItem"; title = "Export Web Contact Sheet…"; ObjectID = "jlv-C4-OK4"; */
+"jlv-C4-OK4.title" = "웹 갤러리 내보내기";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "jmQ-Po-VKd"; */
+"jmQ-Po-VKd.title" = "모두 선택";
+
+/* Class = "NSMenuItem"; title = "Same Sequence ID"; ObjectID = "JO3-mT-am1"; */
+"JO3-mT-am1.title" = "동일한 시퀀스 ID";
+
+/* Class = "NSMenu"; title = "Process History"; ObjectID = "JRI-NB-DJ3"; */
+"JRI-NB-DJ3.title" = "처리 기록";
+
+/* Class = "NSMenu"; title = "Rating"; ObjectID = "JsD-gv-ZcN"; */
+"JsD-gv-ZcN.title" = "등급";
+
+/* Class = "NSMenuItem"; title = "Previous Set"; ObjectID = "jTl-o5-QoF"; */
+"jTl-o5-QoF.title" = "이전 설정";
+
+/* Class = "NSMenu"; title = "Progess Bars"; ObjectID = "JzF-cB-jf5"; */
+"JzF-cB-jf5.title" = "프로그레스 바";
+
+/* Class = "NSMenuItem"; title = "Crash OpenCore"; ObjectID = "K2L-UQ-r8u"; */
+"K2L-UQ-r8u.title" = "크래시 오픈코어";
+
+/* Class = "NSMenuItem"; title = "Reset Counter"; ObjectID = "K4L-nU-bL0"; */
+"K4L-nU-bL0.title" = "카운터 리셋";
+
+/* Class = "NSMenuItem"; title = "Crash ImageCore"; ObjectID = "k11-QY-wHF"; */
+"k11-QY-wHF.title" = "Crash ImageCore";
+
+/* Class = "NSMenuItem"; title = "Set as Trash Folder"; ObjectID = "kEw-1G-rHn"; */
+"kEw-1G-rHn.title" = "휴지통 폴더로 설정";
+
+/* Class = "NSMenuItem"; title = "XS"; ObjectID = "kJo-XM-aj7"; */
+"kJo-XM-aj7.title" = "XS";
+
+/* Class = "NSMenuItem"; title = "Decrease Thumbnail Size"; ObjectID = "KkK-Dm-Fyt"; */
+"KkK-Dm-Fyt.title" = "썸네일 크기 감소";
+
+/* Class = "NSMenuItem"; title = "Dump for Print Preview/Viewer"; ObjectID = "kLD-Ih-bSU"; */
+"kLD-Ih-bSU.title" = "프린트 프리뷰/뷰어를 위한 덤프";
+
+/* Class = "NSMenu"; title = "Color Tag"; ObjectID = "ks9-Py-p2q"; */
+"ks9-Py-p2q.title" = "컬러 태그";
+
+/* Class = "NSMenuItem"; title = "Zoom Out"; ObjectID = "Kw9-6p-baP"; */
+"Kw9-6p-baP.title" = "줌아웃";
+
+/* Class = "NSMenuItem"; title = "White Balance"; ObjectID = "Kx8-Sf-MtA"; */
+"Kx8-Sf-MtA.title" = "화이트 밸런스";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Backup the current document as a template"; ObjectID = "kzM-Qh-gJR"; */
+"kzM-Qh-gJR.ibShadowedToolTip" = "템플릿으로 현재 문서 백업";
+
+/* Class = "NSMenuItem"; title = "Save as Template…"; ObjectID = "kzM-Qh-gJR"; */
+"kzM-Qh-gJR.title" = "템플릿으로 저장...";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "KZr-yz-eOe"; */
+"KZr-yz-eOe.title" = "최근 자료 열기";
+
+/* Class = "NSMenu"; title = "Rotation"; ObjectID = "L2W-qr-fDh"; */
+"L2W-qr-fDh.title" = "회전";
+
+/* Class = "NSMenuItem"; title = "Color Tag"; ObjectID = "L6s-MY-kNd"; */
+"L6s-MY-kNd.title" = "컬러 태그";
+
+/* Class = "NSMenuItem"; title = "Deselect Primary"; ObjectID = "l6v-uQ-6vA"; */
+"l6v-uQ-6vA.title" = "1차 변형 취소";
+
+/* Class = "NSMenuItem"; title = "Select By Same"; ObjectID = "LBc-ql-cwY"; */
+"LBc-ql-cwY.title" = "동일한 변형의 이미지 선택";
+
+/* Class = "NSMenuItem"; title = "New Smart Album…"; ObjectID = "LBI-uj-64k"; */
+"LBI-uj-64k.title" = "새로운 스마트앨범...";
+
+/* Class = "NSMenuItem"; title = "Customize Tools"; ObjectID = "LbY-8O-xu0"; */
+"LbY-8O-xu0.title" = "툴 사용자 지정";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "LcB-eX-4qN"; */
+"LcB-eX-4qN.title" = "삭제";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "LeW-a9-a1n"; */
+"LeW-a9-a1n.title" = "보기";
+
+/* Class = "NSMenuItem"; title = "Add New Auto Repair Layer"; ObjectID = "Lfe-hq-jWj"; */
+"Lfe-hq-jWj.title" = "새로운 자동 복구 레이어 추가";
+
+/* Class = "NSMenuItem"; title = "90° Right"; ObjectID = "LpJ-ak-5G4"; */
+"LpJ-ak-5G4.title" = "90° 오른쪽";
+
+/* Class = "NSMenuItem"; title = "Add New Heal Layer"; ObjectID = "lsR-Cd-YTB"; */
+"lsR-Cd-YTB.title" = "새로운 힐 레이어 추가";
+
+/* Class = "NSMenuItem"; title = "Import Catalog"; ObjectID = "lsz-dg-BvX"; */
+"lsz-dg-BvX.title" = "카탈록 가져오기";
+
+/* Class = "NSMenuItem"; title = "Copy and Apply Adjustments"; ObjectID = "LTF-ps-Dul"; */
+"LTF-ps-Dul.title" = "조정값 복사 및 적용";
+
+/* Class = "NSMenuItem"; title = "Close Window"; ObjectID = "lto-Al-Lic"; */
+"lto-Al-Lic.title" = "창 닫기";
+
+/* Class = "NSMenu"; title = "Image"; ObjectID = "m53-KV-wAJ"; */
+"m53-KV-wAJ.title" = "이미지";
+
+/* Class = "NSMenuItem"; title = "Rename Counter"; ObjectID = "mb2-5a-je9"; */
+"mb2-5a-je9.title" = "이름변경 카운터";
+
+/* Class = "NSMenuItem"; title = "Open With"; ObjectID = "Mb9-kH-qyp"; */
+"Mb9-kH-qyp.title" = "연결 S/W";
+
+/* Class = "NSMenu"; title = "Import Catalog"; ObjectID = "MFE-ll-7eO"; */
+"MFE-ll-7eO.title" = "카탈록 가져오기";
+
+/* Class = "NSMenuItem"; title = "Batch Rename Images…"; ObjectID = "mGQ-hW-7fj"; */
+"mGQ-hW-7fj.title" = "이미지이름 일괄 변경...";
+
+/* Class = "NSMenuItem"; title = "Full Screen"; ObjectID = "mGw-IN-30M"; */
+"mGw-IN-30M.title" = "전체화면";
+
+/* Class = "NSMenuItem"; title = "Progess Bars"; ObjectID = "MKh-xe-MEd"; */
+"MKh-xe-MEd.title" = "프로그레스 바";
+
+/* Class = "NSMenuItem"; title = "Color Tag"; ObjectID = "mNh-zS-LXg"; */
+"mNh-zS-LXg.title" = "컬러 태그";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Capture an image using the attached camera"; ObjectID = "MOG-uN-KrB"; */
+"MOG-uN-KrB.ibShadowedToolTip" = "연결한 카메라를 사용하여 이미지 촬영";
+
+/* Class = "NSMenuItem"; title = "Capture"; ObjectID = "MOG-uN-KrB"; */
+"MOG-uN-KrB.title" = "촬영";
+
+/* Class = "NSMenuItem"; title = "Hide Capture One"; ObjectID = "mTR-t7-bfn"; */
+"mTR-t7-bfn.title" = "Capture One 숨기기";
+
+/* Class = "NSMenuItem"; title = "Capture One Catalog…"; ObjectID = "mU3-yj-odu"; */
+"mU3-yj-odu.title" = "Capture One 카탈록…";
+
+/* Class = "NSMenu"; title = "Rating"; ObjectID = "mWf-jA-GRT"; */
+"mWf-jA-GRT.title" = "등급";
+
+/* Class = "NSMenuItem"; title = "Expand All"; ObjectID = "My6-4Y-UBl"; */
+"My6-4Y-UBl.title" = "모두 확장";
+
+/* Class = "NSMenu"; title = "New Collection"; ObjectID = "mz6-FE-px4"; */
+"mz6-FE-px4.title" = "새로운 컬렉션";
+
+/* Class = "NSMenuItem"; title = "Resource Hub…"; ObjectID = "n5l-Fl-Ng8"; */
+"n5l-Fl-Ng8.title" = "Resource Hub…";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "N5o-dv-1Be"; */
+"N5o-dv-1Be.title" = "실행 취소";
+
+/* Class = "NSMenuItem"; title = "Collapse All"; ObjectID = "n5r-O7-blt"; */
+"n5r-O7-blt.title" = "모두 축소";
+
+/* Class = "NSMenuItem"; title = "Move to Trash"; ObjectID = "N9h-Al-5XE"; */
+"N9h-Al-5XE.title" = "휴지통으로 이동";
+
+/* Class = "NSMenuItem"; title = "Pick Variant"; ObjectID = "naw-rG-vWD"; */
+"naw-rG-vWD.title" = "변형 선택";
+
+/* Class = "NSMenuItem"; title = "Customize Viewer"; ObjectID = "nbk-yq-Chp"; */
+"nbk-yq-Chp.title" = "뷰어 사용자 지정";
+
+/* Class = "NSMenuItem"; title = "Color Tag"; ObjectID = "ndC-o5-Nrj"; */
+"ndC-o5-Nrj.title" = "컬러 태그";
+
+/* Class = "NSMenuItem"; title = "Show in Library"; ObjectID = "nE7-nm-cUN"; */
+"nE7-nm-cUN.title" = "라이브러리에 표시";
+
+/* Class = "NSMenuItem"; title = "Verify Catalog or Session…"; ObjectID = "Nhu-fQ-zjN"; */
+"Nhu-fQ-zjN.title" = "카탈록 또는 세션 확인...";
+
+/* Class = "NSMenuItem"; title = "When Ready"; ObjectID = "nry-zy-vLA"; */
+"nry-zy-vLA.title" = "준비되었을 때";
+
+/* Class = "NSMenuItem"; title = "New Project…"; ObjectID = "nTn-id-iRz"; */
+"nTn-id-iRz.title" = "새로운 프로젝트...";
+
+/* Class = "NSMenuItem"; title = "Film Curve Editor"; ObjectID = "NyM-Zt-y88"; */
+"NyM-Zt-y88.title" = "필름 커브 편집기";
+
+/* Class = "NSMenuItem"; title = "Auto Hide Mode"; ObjectID = "O2C-D1-hn3"; */
+"O2C-D1-hn3.title" = "자동 숨기기 모드";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "O4t-ch-OFC"; */
+"O4t-ch-OFC.title" = "복사";
+
+/* Class = "NSMenuItem"; title = "Tips"; ObjectID = "O9F-Mo-6cG"; */
+"O9F-Mo-6cG.title" = "Tips";
+
+/* Class = "NSMenuItem"; title = "Import Images…"; ObjectID = "oaD-9h-WhZ"; */
+"oaD-9h-WhZ.title" = "이미지 가져오기...";
+
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "OCP-rg-Tmg"; */
+"OCP-rg-Tmg.title" = "메뉴";
+
+/* Class = "NSMenu"; title = "Remove Inspector Tool From Selected Tab"; ObjectID = "oHh-wm-VLQ"; */
+"oHh-wm-VLQ.title" = "선택 탭에서 툴 인스펙터 제거";
+
+/* Class = "NSMenuItem"; title = "Feather Mask…"; ObjectID = "oLn-zi-kJP"; */
+"oLn-zi-kJP.title" = "페더 마스크...";
+
+/* Class = "NSMenuItem"; title = "Add Tool Tab"; ObjectID = "oNa-cq-UaH"; */
+"oNa-cq-UaH.title" = "툴 탭 추가";
+
+/* Class = "NSMenuItem"; title = "Bar Sample 02"; ObjectID = "OqC-NS-Eok"; */
+"OqC-NS-Eok.title" = "바 샘플 02";
+
+/* Class = "NSMenu"; title = "Orientation"; ObjectID = "OQY-AD-asc"; */
+"OQY-AD-asc.title" = "오리엔테이션";
+
+/* Class = "NSMenuItem"; title = "Styles"; ObjectID = "oVF-Zi-Ly1"; */
+"oVF-Zi-Ly1.title" = "스타일";
+
+/* Class = "NSMenuItem"; title = "Trigger Assertion"; ObjectID = "OVh-i7-5mp"; */
+"OVh-i7-5mp.title" = "트리거 어서션";
+
+/* Class = "NSMenuItem"; title = "Always Hide JPEG Files"; ObjectID = "pay-HP-uXe"; */
+"pay-HP-uXe.title" = "JPEG 파일을 항상 숨김";
+
+/* Class = "NSMenuItem"; title = "Never reset workspace automatically"; ObjectID = "PCm-vK-OGx"; */
+"PCm-vK-OGx.title" = "작업공간을 자동으로 리셋하지 않습니다.";
+
+/* Class = "NSMenuItem"; title = "Step In Collection"; ObjectID = "PMu-nW-YC5"; */
+"PMu-nW-YC5.title" = "컬렉션 단계";
+
+/* Class = "NSMenuItem"; title = "Off"; ObjectID = "pos-6t-mez"; */
+"pos-6t-mez.title" = "해제";
+
+/* Class = "NSMenu"; title = "Workspace"; ObjectID = "pqK-xL-L7m"; */
+"pqK-xL-L7m.title" = "작업공간";
+
+/* Class = "NSMenuItem"; title = "Crash CaptureCoreService"; ObjectID = "PQW-J0-1bK"; */
+"PQW-J0-1bK.title" = "Crash CaptureCoreService";
+
+/* Class = "NSMenu"; title = "Select"; ObjectID = "PRu-fp-fdO"; */
+"PRu-fp-fdO.title" = "선택";
+
+/* Class = "NSMenuItem"; title = "Spinner Sample 02"; ObjectID = "pw5-ef-Yde"; */
+"pw5-ef-Yde.title" = "스피너 샘플 02";
+
+/* Class = "NSMenuItem"; title = "View License Agreement"; ObjectID = "PX7-Iq-9N2"; */
+"PX7-Iq-9N2.title" = "라이선스 동의 보기";
+
+/* Class = "NSMenuItem"; title = "Select By"; ObjectID = "Q9f-h8-bu5"; */
+"Q9f-h8-bu5.title" = "선택";
+
+/* Class = "NSMenuItem"; title = "Never"; ObjectID = "qfi-c8-Lj9"; */
+"qfi-c8-Lj9.title" = "안 함";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "QHc-R7-m41"; */
+"QHc-R7-m41.title" = "출력...";
+
+/* Class = "NSMenuItem"; title = "Rotation"; ObjectID = "Qhq-5B-fYE"; */
+"Qhq-5B-fYE.title" = "회전";
+
+/* Class = "NSMenuItem"; title = "Crash Capture One"; ObjectID = "QjW-ua-tSX"; */
+"QjW-ua-tSX.title" = "Crash Capture One";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Qkh-Pd-T00"; */
+"Qkh-Pd-T00.title" = "모두 표시";
+
+/* Class = "NSMenuItem"; title = "Invert Mask"; ObjectID = "qPD-iq-16K"; */
+"qPD-iq-16K.title" = "마스크 반전";
+
+/* Class = "NSMenuItem"; title = "Set Increment…"; ObjectID = "QSu-Ii-lqh"; */
+"QSu-Ii-lqh.title" = "설정 증가...";
+
+/* Class = "NSMenuItem"; title = "Rating"; ObjectID = "Qu7-Iw-dyX"; */
+"Qu7-Iw-dyX.title" = "등급";
+
+/* Class = "NSMenuItem"; title = "Scripts"; ObjectID = "Qx0-Bi-x6R"; */
+"Qx0-Bi-x6R.title" = "스크립트";
+
+/* Class = "NSMenuItem"; title = "Unpack EIP"; ObjectID = "qzd-K0-SRD"; */
+"qzd-K0-SRD.title" = "EIP 패킹 해제";
+
+/* Class = "NSMenuItem"; title = "Filename List…"; ObjectID = "r0M-bo-Ctx"; */
+"r0M-bo-Ctx.title" = "파일명 목록…";
+
+/* Class = "NSMenuItem"; title = "Create Floating Tool"; ObjectID = "R3f-rv-RWH"; */
+"R3f-rv-RWH.title" = "유동 툴 생성";
+
+/* Class = "NSMenuItem"; title = "Pack as EIP"; ObjectID = "rg8-xW-C7E"; */
+"rg8-xW-C7E.title" = "EIP로 패킹";
+
+/* Class = "NSMenuItem"; title = "Configure Auto Adjustments"; ObjectID = "RIv-U7-9vT"; */
+"RIv-U7-9vT.title" = "자동 조정 구성";
+
+/* Class = "NSMenuItem"; title = "Browser"; ObjectID = "rIx-ZF-zzR"; */
+"rIx-ZF-zzR.title" = "브라우저";
+
+/* Class = "NSMenuItem"; title = "Add Tool To Selected Tab"; ObjectID = "rJ7-tj-Zjx"; */
+"rJ7-tj-Zjx.title" = "선택 탭에 대한 툴 추가";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "rKQ-8S-jJJ"; */
+"rKQ-8S-jJJ.title" = "다시 실행";
+
+/* Class = "NSMenuItem"; title = "Edit mode"; ObjectID = "RkY-nO-oYQ"; */
+"RkY-nO-oYQ.title" = "편집 모드";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "rlO-p5-pah"; */
+"rlO-p5-pah.title" = "창";
+
+/* Class = "NSMenuItem"; title = "Clear Mask"; ObjectID = "RuA-0Y-GGt"; */
+"RuA-0Y-GGt.title" = "마스크 삭제";
+
+/* Class = "NSMenuItem"; title = "Locate Image…"; ObjectID = "rwS-sM-J09"; */
+"rwS-sM-J09.title" = "이미지 찾기...";
+
+/* Class = "NSMenuItem"; title = "About Capture One"; ObjectID = "S4K-SB-UBy"; */
+"S4K-SB-UBy.title" = "Capture One에 대하여";
+
+/* Class = "NSMenuItem"; title = "S"; ObjectID = "sAJ-PN-NNm"; */
+"sAJ-PN-NNm.title" = "S";
+
+/* Class = "NSMenuItem"; title = "To Fit"; ObjectID = "sam-MH-Lvx"; */
+"sam-MH-Lvx.title" = "크기에 맞게";
+
+/* Class = "NSMenuItem"; title = "Remove Tool Tab"; ObjectID = "SGm-xv-97r"; */
+"SGm-xv-97r.title" = "툴 탭 제거";
+
+/* Class = "NSMenuItem"; title = "Invert Selection"; ObjectID = "SiW-gP-wbL"; */
+"SiW-gP-wbL.title" = "선택 영역 반전";
+
+/* Class = "NSMenuItem"; title = "Rename Image"; ObjectID = "SJc-VY-oqD"; */
+"SJc-VY-oqD.title" = "이미지 이름변경";
+
+/* Class = "NSMenuItem"; title = "Grid Color"; ObjectID = "SlN-5G-v1Q"; */
+"SlN-5G-v1Q.title" = "그리드 컬러";
+
+/* Class = "NSMenuItem"; title = "Debug"; ObjectID = "smy-v7-f4P"; */
+"smy-v7-f4P.title" = "디버그";
+
+/* Class = "NSMenuItem"; title = "Capture One Support"; ObjectID = "sNP-5H-3KI"; */
+"sNP-5H-3KI.title" = "Capture One 지원";
+
+/* Class = "NSMenuItem"; title = "Luma Range…"; ObjectID = "Ss4-ms-B6z"; */
+"Ss4-ms-B6z.title" = "루마 범위...";
+
+/* Class = "NSMenuItem"; title = "Check Spelling as You Type"; ObjectID = "stE-xv-Kcp"; */
+"stE-xv-Kcp.title" = "입력할 때 자동으로 맞춤법 검사";
+
+/* Class = "NSMenu"; title = "Labels"; ObjectID = "sWb-mO-EDh"; */
+"sWb-mO-EDh.title" = "라벨";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Empty the session trash. Images are deleted permanently"; ObjectID = "SXk-bE-jzi"; */
+"SXk-bE-jzi.ibShadowedToolTip" = "세션 휴지통 비우기. 이미지가 영구적으로 삭제됩니다.";
+
+/* Class = "NSMenuItem"; title = "Empty Trash"; ObjectID = "SXk-bE-jzi"; */
+"SXk-bE-jzi.title" = "휴지통 비우기";
+
+/* Class = "NSMenuItem"; title = "Add Horizontal Guide"; ObjectID = "sZU-Ld-R58"; */
+"sZU-Ld-R58.title" = "수평 가이드 추가";
+
+/* Class = "NSMenu"; title = "Lab Readout"; ObjectID = "t0Z-l1-Abr"; */
+"t0Z-l1-Abr.title" = "Lab 판독";
+
+/* Class = "NSMenu"; title = "Crash ImageCore"; ObjectID = "Tao-sN-xcm"; */
+"Tao-sN-xcm.title" = "Crash ImageCore";
+
+/* Class = "NSMenuItem"; title = "Advanced Search…"; ObjectID = "TB3-MG-NqE"; */
+"TB3-MG-NqE.title" = "고급 검색...";
+
+/* Class = "NSMenuItem"; title = "Select Primary Only"; ObjectID = "Tek-Pl-oY3"; */
+"Tek-Pl-oY3.title" = "1차 변형만 선택";
+
+/* Class = "NSMenuItem"; title = "Focus Mask"; ObjectID = "TfA-cx-Mvh"; */
+"TfA-cx-Mvh.title" = "포커스 마스크";
+
+/* Class = "NSMenu"; title = "Tool Tabs"; ObjectID = "tFf-SU-Is4"; */
+"tFf-SU-Is4.title" = "툴 탭";
+
+/* Class = "NSMenu"; title = "Debug"; ObjectID = "TFk-vt-N7X"; */
+"TFk-vt-N7X.title" = "디버그";
+
+/* Class = "NSMenuItem"; title = "Export Images"; ObjectID = "tPe-DZ-2kg"; */
+"tPe-DZ-2kg.title" = "이미지 내보내기";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "tQv-C3-vCk"; */
+"tQv-C3-vCk.title" = "열기...";
+
+/* Class = "NSMenuItem"; title = "Workspace"; ObjectID = "tRq-qe-j3c"; */
+"tRq-qe-j3c.title" = "작업공간";
+
+/* Class = "NSMenuItem"; title = "Last"; ObjectID = "Tsz-Zr-wOo"; */
+"Tsz-Zr-wOo.title" = "마지막";
+
+/* Class = "NSMenu"; title = "Spelling"; ObjectID = "TWx-jo-Xie"; */
+"TWx-jo-Xie.title" = "맞춤법";
+
+/* Class = "NSMenuItem"; title = "Add New Clone Layer"; ObjectID = "Txa-r9-MeZ"; */
+"Txa-r9-MeZ.title" = "새로운 복제 레이어 추가";
+
+/* Class = "NSMenuItem"; title = "Quit Capture One"; ObjectID = "TXq-Kk-7Ru"; */
+"TXq-Kk-7Ru.title" = "Capture One 종료";
+
+/* Class = "NSMenu"; title = "Scripts"; ObjectID = "U3J-Q4-APW"; */
+"U3J-Q4-APW.title" = "스크립트";
+
+/* Class = "NSMenuItem"; title = "Selected Color Range"; ObjectID = "U5C-ej-t0I"; */
+"U5C-ej-t0I.title" = "선택한 컬러 범위";
+
+/* Class = "NSMenu"; title = "Capture Counter"; ObjectID = "uIl-Sc-fHK"; */
+"uIl-Sc-fHK.title" = "촬영 카운터";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "UJa-BM-gkL"; */
+"UJa-BM-gkL.title" = "편집";
+
+/* Class = "NSMenuItem"; title = "Import Counter"; ObjectID = "um6-7R-op7"; */
+"um6-7R-op7.title" = "카운터 가져오기";
+
+/* Class = "NSMenuItem"; title = "90° Left"; ObjectID = "Umj-4D-Ft5"; */
+"Umj-4D-Ft5.title" = "90° 왼쪽";
+
+/* Class = "NSMenuItem"; title = "Rotation"; ObjectID = "Ums-2C-jGe"; */
+"Ums-2C-jGe.title" = "회전";
+
+/* Class = "NSMenuItem"; title = "Spelling…"; ObjectID = "uMu-4A-XMk"; */
+"uMu-4A-XMk.title" = "맞춤법...";
+
+/* Class = "NSMenuItem"; title = "Delete from Disk…"; ObjectID = "UOb-cc-i4u"; */
+"UOb-cc-i4u.title" = "디스크에서 삭제...";
+
+/* Class = "NSMenuItem"; title = "Auto Hide Mode"; ObjectID = "UPZ-4r-LIP"; */
+"UPZ-4r-LIP.title" = "자동 숨기기 모드";
+
+/* Class = "NSMenuItem"; title = "Set Counter…"; ObjectID = "VAN-jC-sVf"; */
+"VAN-jC-sVf.title" = "카운터 설정…";
+
+/* Class = "NSMenuItem"; title = "Rating"; ObjectID = "Vd2-sw-pUm"; */
+"Vd2-sw-pUm.title" = "등급";
+
+/* Class = "NSMenuItem"; title = "Reset Counter"; ObjectID = "vek-MX-hli"; */
+"vek-MX-hli.title" = "카운터 리셋";
+
+/* Class = "NSMenuItem"; title = "Spinner Sample 01"; ObjectID = "VIk-sI-Rak"; */
+"VIk-sI-Rak.title" = "스피너 샘플 01";
+
+/* Class = "NSMenuItem"; title = "Previous"; ObjectID = "vKK-zV-QgI"; */
+"vKK-zV-QgI.title" = "이전";
+
+/* Class = "NSMenu"; title = "Customize Guides"; ObjectID = "vN0-4W-ouU"; */
+"vN0-4W-ouU.title" = "가이드 사용자정의";
+
+/* Class = "NSMenu"; title = "Camera"; ObjectID = "vNl-rw-7XV"; */
+"vNl-rw-7XV.title" = "카메라";
+
+/* Class = "NSMenuItem"; title = "Next Collection"; ObjectID = "VNo-j5-BoM"; */
+"VNo-j5-BoM.title" = "다음 컬렉션";
+
+/* Class = "NSMenu"; title = "Open With"; ObjectID = "vPJ-Xt-IuB"; */
+"vPJ-Xt-IuB.title" = "연결 S/W";
+
+/* Class = "NSMenu"; title = "Color Tag"; ObjectID = "VRZ-08-28a"; */
+"VRZ-08-28a.title" = "컬러 태그";
+
+/* Class = "NSMenuItem"; title = "Guides Color"; ObjectID = "vXq-3w-y0D"; */
+"vXq-3w-y0D.title" = "가이드 컬러";
+
+/* Class = "NSMenuItem"; title = "Online User Guide"; ObjectID = "VYd-aa-ISY"; */
+"VYd-aa-ISY.title" = "온라인 사용자설명서";
+
+/* Class = "NSMenuItem"; title = "Proof Margin"; ObjectID = "w0t-zA-XqW"; */
+"w0t-zA-XqW.title" = "여백 확인";
+
+/* Class = "NSMenuItem"; title = "Clear Compare"; ObjectID = "W1O-Uk-8Al"; */
+"W1O-Uk-8Al.title" = "비교 지우기";
+
+/* Class = "NSMenu"; title = "Customize Browser"; ObjectID = "w1y-hX-jq1"; */
+"w1y-hX-jq1.title" = "브라우저 사용자 지정";
+
+/* Class = "NSMenuItem"; title = "Grid"; ObjectID = "W8g-vz-Nkq"; */
+"W8g-vz-Nkq.title" = "그리드";
+
+/* Class = "NSMenuItem"; title = "Add New Empty Adjustment Layer"; ObjectID = "w49-QV-zqJ"; */
+"w49-QV-zqJ.title" = "새로운 빈 조정 레이어 추가";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "A Catalog is the best place to store and organize your entire image library. To work with images in a catalog, they need to be imported by the catalog. Recommended for most photographers."; ObjectID = "wBf-ws-A5Q"; */
+"wBf-ws-A5Q.ibShadowedToolTip" = "카탈록은 전체 이미지 라이브러리를 저장, 조직화할 최적의 장소입니다. 카탈록에서 이미지 작업을 하려면 카탈록으로 이미지 불러오기를 하는 것이 필요합니다. 대부분의 사진작가들에게 추천할 수 있는 방법입니다.";
+
+/* Class = "NSMenuItem"; title = "New Catalog…"; ObjectID = "wBf-ws-A5Q"; */
+"wBf-ws-A5Q.title" = "새로운 카탈록...";
+
+/* Class = "NSMenuItem"; title = "Hot Folder Enabled"; ObjectID = "wFu-j6-T7B"; */
+"wFu-j6-T7B.title" = "핫 폴더 사용";
+
+/* Class = "NSMenuItem"; title = "Save Adjustments as Style…"; ObjectID = "WI5-uh-qyi"; */
+"WI5-uh-qyi.title" = "조정값을 스타일로 저장...";
+
+/* Class = "NSMenuItem"; title = "Bar Sample 01"; ObjectID = "wr6-Ak-7xy"; */
+"wr6-Ak-7xy.title" = "바 샘플 01";
+
+/* Class = "NSMenu"; title = "Capture One"; ObjectID = "WtP-ch-1PG"; */
+"WtP-ch-1PG.title" = "Capture One";
+
+/* Class = "NSMenu"; title = "Trigger Assertion"; ObjectID = "wxi-Vv-EBx"; */
+"wxi-Vv-EBx.title" = "트리거 어서션";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "A Session is a quick and light weight way to work with a limited number of images for a single job or event. Images can be edited by browsing to their location on disk or by importing them into the session."; ObjectID = "WZj-vq-3hp"; */
+"WZj-vq-3hp.ibShadowedToolTip" = "세션은 단일 작업 또는 이벤트를 위해 제한된 수의 이미지를 작업하기 위한 빠르고 간단한 방법입니다. 디스크에 이미지 위치를 검색하거나 세션으로 이미지를 가져오기하여 이미지들을 편집할 수 있습니다.";
+
+/* Class = "NSMenuItem"; title = "New Session…"; ObjectID = "WZj-vq-3hp"; */
+"WZj-vq-3hp.title" = "새로운 세션...";
+
+/* Class = "NSMenu"; title = "Publish"; ObjectID = "wzo-cb-mif"; */
+"wzo-cb-mif.title" = "게시";
+
+/* Class = "NSMenu"; title = "Sort"; ObjectID = "xC8-Jz-x6n"; */
+"xC8-Jz-x6n.title" = "정렬";
+
+/* Class = "NSMenuItem"; title = "Dump IC_ProcessSettings/IC_FileDestination"; ObjectID = "xdM-fB-QmX"; */
+"xdM-fB-QmX.title" = "덤프 IC_프로세싱 설정/IC_대상파일";
+
+/* Class = "NSMenuItem"; title = "Keystone"; ObjectID = "XE8-eP-hGS"; */
+"XE8-eP-hGS.title" = "키스톤";
+
+/* Class = "NSMenuItem"; title = "Set Counter…"; ObjectID = "XEz-MA-wNM"; */
+"XEz-MA-wNM.title" = "카운터 설정…";
+
+/* Class = "NSMenuItem"; title = "Composition Mode"; ObjectID = "xGv-Lk-p4S"; */
+"xGv-Lk-p4S.title" = "구성 방식";
+
+/* Class = "NSMenuItem"; title = "Locate Folder…"; ObjectID = "xiu-HR-Fv3"; */
+"xiu-HR-Fv3.title" = "폴더 찾기";
+
+/* Class = "NSMenuItem"; title = "Multi View Mode"; ObjectID = "xj1-AI-B7a"; */
+"xj1-AI-B7a.title" = "멀티 뷰 모드";
+
+/* Class = "NSMenuItem"; title = "Add Vertical Guide"; ObjectID = "XJN-4m-xYh"; */
+"XJN-4m-xYh.title" = "수직 가이드 추가";
+
+/* Class = "NSMenuItem"; title = "Adjustments"; ObjectID = "xLy-q0-0Cq"; */
+"xLy-q0-0Cq.title" = "조정";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "xoa-r4-m7R"; */
+"xoa-r4-m7R.title" = "붙여넣기";
+
+/* Class = "NSMenuItem"; title = "Customize Guides"; ObjectID = "Xq1-cS-s6N"; */
+"Xq1-cS-s6N.title" = "가이드 사용자정의";
+
+/* Class = "NSMenuItem"; title = "Dump for Processing/Print/Web Contact Sheet/Export"; ObjectID = "Xu6-Jy-27Q"; */
+"Xu6-Jy-27Q.title" = "처리/프린트/웹 갤러리/내보내기를 위한 덤프";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Rotate variants right"; ObjectID = "Xve-bi-pm5"; */
+"Xve-bi-pm5.ibShadowedToolTip" = "변형 오른쪽 회전";
+
+/* Class = "NSMenuItem"; title = "Rotate Right"; ObjectID = "Xve-bi-pm5"; */
+"Xve-bi-pm5.title" = "오른쪽 회전";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "y8j-67-b0w"; */
+"y8j-67-b0w.title" = "최소화";
+
+/* Class = "NSMenuItem"; title = "Display Grayscale Mask"; ObjectID = "Ya0-fP-PFT"; */
+"Ya0-fP-PFT.title" = "그레이스케일 마스크 표시";
+
+/* Class = "NSMenuItem"; title = "Exposure Warning"; ObjectID = "Yhl-QQ-SNi"; */
+"Yhl-QQ-SNi.title" = "노출 경고";
+
+/* Class = "NSMenu"; title = "Auto Select New Capture"; ObjectID = "yJf-h4-0Nf"; */
+"yJf-h4-0Nf.title" = "새 촬영 자동 선택";
+
+/* Class = "NSMenuItem"; title = "Set as Capture Folder"; ObjectID = "YjW-6L-mGx"; */
+"YjW-6L-mGx.title" = "촬영 폴더로 설정";
+
+/* Class = "NSMenuItem"; title = "Global Filters"; ObjectID = "yLh-tq-tGA"; */
+"yLh-tq-tGA.title" = "전체 필터";
+
+/* Class = "NSMenuItem"; title = "Toggle Browser Position"; ObjectID = "YvP-eg-VLO"; */
+"YvP-eg-VLO.title" = "브라우저 위치 전환";
+
+/* Class = "NSMenuItem"; title = "Export Counter"; ObjectID = "Yzh-ba-11T"; */
+"Yzh-ba-11T.title" = "내보내기 카운터";
+
+/* Class = "NSMenuItem"; title = "Copy Mask From"; ObjectID = "Z5p-mB-i3n"; */
+"Z5p-mB-i3n.title" = "마스크 복사";
+
+/* Class = "NSMenuItem"; title = "Camera"; ObjectID = "Z12-Ur-vG5"; */
+"Z12-Ur-vG5.title" = "카메라";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Reset adjustments for variants"; ObjectID = "zd3-KN-4Md"; */
+"zd3-KN-4Md.ibShadowedToolTip" = "변형을 위한 조정값 리셋";
+
+/* Class = "NSMenuItem"; title = "Reset"; ObjectID = "zd3-KN-4Md"; */
+"zd3-KN-4Md.title" = "리셋";
+
+/* Class = "NSMenuItem"; title = "Only Display Mask When Drawing"; ObjectID = "zdr-UD-UZn"; */
+"zdr-UD-UZn.title" = "그리기 경우에만 마스크 표시";
+
+/* Class = "NSMenuItem"; title = "Zoom In"; ObjectID = "zIN-U6-GWH"; */
+"zIN-U6-GWH.title" = "줌인";
+
+/* Class = "NSMenu"; title = "Export Images"; ObjectID = "ZK1-Br-nPC"; */
+"ZK1-Br-nPC.title" = "이미지 내보내기";
+
+/* Class = "NSMenuItem"; title = "Rasterize Mask"; ObjectID = "ZkQ-kr-rOT"; */
+"ZkQ-kr-rOT.title" = "마스크 래스터화";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Rotate the primary variant to snap to landscape or portrait. Hold down the Shift key to rotate all selected variants"; ObjectID = "zoC-BT-olu"; */
+"zoC-BT-olu.ibShadowedToolTip" = "주요 변형을 풍경 또는 인물로 스냅 회전. 모든 선택 변형을 회전하려면 Shift 키를 누르십시오.";
+
+/* Class = "NSMenuItem"; title = "Rotate Snap"; ObjectID = "zoC-BT-olu"; */
+"zoC-BT-olu.title" = "스냅 회전";
+
+/* Class = "NSMenu"; title = "Apply Adjustments from"; ObjectID = "zoo-YX-3kR"; */
+"zoo-YX-3kR.title" = "조정값 적용";
+
+/* Class = "NSMenuItem"; title = "Recipe Proofing"; ObjectID = "ZSx-8D-9oe"; */
+"ZSx-8D-9oe.title" = "레시피 교정";
+
+/* Class = "NSMenuItem"; title = "Set as Compare"; ObjectID = "ZtV-H5-odX"; */
+"ZtV-H5-odX.title" = "비교로 설정";
+

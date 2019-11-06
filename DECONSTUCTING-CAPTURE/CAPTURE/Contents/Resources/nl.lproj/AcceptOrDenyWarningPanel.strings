@@ -1,0 +1,12 @@
+/* Class = "NSWindow"; title = "Metadata"; ObjectID = "3"; */
+"3.title" = "Metagegevens";
+
+/* Class = "NSButtonCell"; title = "Do not overwrite"; ObjectID = "6"; */
+"6.title" = "Niet overschrijven";
+
+/* Class = "NSButtonCell"; title = "Overwrite"; ObjectID = "8"; */
+"8.title" = "Overschrijven";
+
+/* Class = "NSButtonCell"; title = "Do not ask me again"; ObjectID = "10"; */
+"10.title" = "Niet meer vragen";
+

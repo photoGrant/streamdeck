@@ -1,0 +1,33 @@
+/* Class = "NSMenu"; title = "Menu"; ObjectID = "157"; */
+"157.title" = "Menu";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "surface"; ObjectID = "BQe-ch-zT5"; */
+"BQe-ch-zT5.ibExternalAccessibilityDescription" = "surface";
+
+/* Class = "NSView"; BQe-ch-zT5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Surface"; ObjectID = "BQe-ch-zT5"; */
+"BQe-ch-zT5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Lissage";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "single pixel"; ObjectID = "hL8-wU-SQL"; */
+"hL8-wU-SQL.ibExternalAccessibilityDescription" = "pixel unique";
+
+/* Class = "NSView"; hL8-wU-SQL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Single Pixel"; ObjectID = "hL8-wU-SQL"; */
+"hL8-wU-SQL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Pixel Unique";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "details"; ObjectID = "zlR-yp-kOa"; */
+"zlR-yp-kOa.ibExternalAccessibilityDescription" = "détails";
+
+/* Class = "NSView"; zlR-yp-kOa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Details"; ObjectID = "zlR-yp-kOa"; */
+"zlR-yp-kOa.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Détails";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "luminance"; ObjectID = "ZRc-KI-4KK"; */
+"ZRc-KI-4KK.ibExternalAccessibilityDescription" = "luminance";
+
+/* Class = "NSView"; ZRc-KI-4KK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Luminance"; ObjectID = "ZRc-KI-4KK"; */
+"ZRc-KI-4KK.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Luminance";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "color"; ObjectID = "Zuk-OM-RR8"; */
+"Zuk-OM-RR8.ibExternalAccessibilityDescription" = "couleur";
+
+/* Class = "NSView"; Zuk-OM-RR8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Color"; ObjectID = "Zuk-OM-RR8"; */
+"Zuk-OM-RR8.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "Couleur";
+
