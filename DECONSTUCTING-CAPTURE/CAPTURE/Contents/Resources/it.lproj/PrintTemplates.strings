@@ -1,9 +1,0 @@
-/* Class = "NSButton"; ibShadowedToolTip = "Delete"; ObjectID = "156"; */
-"156.ibShadowedToolTip" = "Elimina";
-
-/* Class = "NSWindow"; title = "Manage User Templates"; ObjectID = "264"; */
-"264.title" = "Gestisci Template Utente";
-
-/* Class = "NSButtonCell"; title = "Done"; ObjectID = "274"; */
-"274.title" = "Fine";
-

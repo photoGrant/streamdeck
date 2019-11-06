@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<SL Engine="900">
-  <E K="GradationCurve" V="0.000,0.000;0.105,0.085;0.252,0.252;0.548,0.619;1.000,1.000"/>
-  <E K="Name" V="Contrast RGB"/>
-  <E K="UUID" V="74F121DB-6190-4831-9301-C29018B3854A"/>
-</SL>
-

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<SL>
-  <E K="USMAmount" V="0.000" />
-  <E K="USMRadius" V="1.300" />
-  <E K="USMThreshold" V="1.000" />
-  <E K="Name" V="No sharpening" />
-  <E K="UUID" V="{85b45c81-9b94-4ff3-bd0e-0857a15979b5}" />
-  <E K="StyleSource" V="Sharpening" />
-</SL>

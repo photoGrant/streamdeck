@@ -1,9 +1,0 @@
-/* Class = "NSTextFieldCell"; title = "This panel can also be shown by right-clicking in the Viewer when the Radial Gradient Mask cursor is selected."; ObjectID = "209"; */
-"209.title" = "This panel can also be shown by right-clicking in the Viewer when the Radial Gradient Mask cursor is selected.";
-
-/* Class = "NSButtonCell"; title = "Draw Mask Inside"; ObjectID = "de3-fe-AEM"; */
-"de3-fe-AEM.title" = "Нарисовать маску внутри";
-
-/* Class = "NSTextFieldCell"; title = "Radial Gradient Mask Settings"; ObjectID = "MNb-OO-L0P"; */
-"MNb-OO-L0P.title" = "Radial Gradient Mask Settings";
-

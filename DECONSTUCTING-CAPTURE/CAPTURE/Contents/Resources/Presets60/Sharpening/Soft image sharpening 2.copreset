@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<SL>
-  <E K="USMAmount" V="229.567" />
-  <E K="USMRadius" V="1.638" />
-  <E K="USMThreshold" V="0.462" />
-  <E K="Name" V="Soft image sharpening 2" />
-  <E K="UUID" V="{2a4d79e8-3635-4ae8-8c45-8f22121a67d5}" />
-  <E K="StyleSource" V="Sharpening" />
-</SL>

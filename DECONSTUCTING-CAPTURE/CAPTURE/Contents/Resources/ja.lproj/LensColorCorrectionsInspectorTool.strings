@@ -1,9 +1,0 @@
-/* Class = "NSView"; ibExternalAccessibilityDescription = "brightness"; ObjectID = "1U5-NB-FZC"; */
-"1U5-NB-FZC.ibExternalAccessibilityDescription" = "明るさ";
-
-/* Class = "NSView"; 1U5-NB-FZC.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Defringe"; ObjectID = "1U5-NB-FZC"; */
-"1U5-NB-FZC.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" = "フリンジ軽減";
-
-/* Class = "NSMenu"; title = "Menu"; ObjectID = "129"; */
-"129.title" = "メニュー";
-

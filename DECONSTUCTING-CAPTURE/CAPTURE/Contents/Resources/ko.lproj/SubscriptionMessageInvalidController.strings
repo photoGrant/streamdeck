@@ -1,9 +1,0 @@
-/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "DtV-vv-S2y"; */
-"DtV-vv-S2y.title" = "취소";
-
-/* Class = "NSButtonCell"; title = "Retry"; ObjectID = "mFG-Ab-OVi"; */
-"mFG-Ab-OVi.title" = "재시도";
-
-/* Class = "NSButtonCell"; title = "Deactivate License"; ObjectID = "t4J-ob-Vfj"; */
-"t4J-ob-Vfj.title" = "Deactivate License";
-
